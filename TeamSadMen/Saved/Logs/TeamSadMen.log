@@ -829,3 +829,342 @@ LogInit: Object subsystem initialized
 [2018.11.28-01.45.28:862][535]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
 [2018.11.28-01.45.28:892][537]LogPlayLevel: Display: Destroying online subsystem :Context_27
 [2018.11.28-01.45.36:700][983]LogSavePackage: Moving '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Saved/PizzaTester8DD7DC0F4BA6C9A78C15B998748049D5.tmp' to '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Content/AlexWPizzaStuff/PizzaTester.umap'
+[2018.11.28-01.48.07:780][559]LogSlate: Window 'Pizza_scripting*' being destroyed
+[2018.11.28-01.49.26:025][237]BlueprintLog: New page: Compile Pizza_scripting
+[2018.11.28-01.49.30:627][500]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.28-01.49.30:656][500]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.28-01.49.30:656][500]PIE: New page: PIE session: PizzaTester (Nov 27, 2018, 3:49:30 PM)
+[2018.11.28-01.49.30:656][500]LogPlayLevel: Creating play world package: /Game/AlexWPizzaStuff/UEDPIE_0_PizzaTester
+[2018.11.28-01.49.30:668][500]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012217s)
+[2018.11.28-01.49.30:669][500]LogAIModule: Creating AISystem for world PizzaTester
+[2018.11.28-01.49.30:669][500]LogPlayLevel: PIE: World Init took: (0.000923s)
+[2018.11.28-01.49.30:669][500]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/AlexWPizzaStuff/PizzaTester.PizzaTester to /Game/AlexWPizzaStuff/UEDPIE_0_PizzaTester.PizzaTester (0.013389s)
+[2018.11.28-01.49.30:715][500]LogInit: XAudio2 using 'Headphones (2- E7 Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.11.28-01.49.30:728][500]LogInit: FAudioDevice initialized.
+[2018.11.28-01.49.30:764][500]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.11.28-01.49.30:769][500]LogWorld: Bringing World /Game/AlexWPizzaStuff/UEDPIE_0_PizzaTester.PizzaTester up for play (max tick rate 60) at 2018.11.27-20.49.30
+[2018.11.28-01.49.30:769][500]LogWorld: Bringing up level for play took: 0.003490
+[2018.11.28-01.49.30:784][500]PIE: Play in editor start time for /Game/AlexWPizzaStuff/UEDPIE_0_PizzaTester 0.767
+[2018.11.28-01.49.30:983][512]LogBlueprintUserMessages: [Pizza_scripting] Pepperoni
+[2018.11.28-01.49.36:067][817]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.28-01.49.36:104][817]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.28-01.49.36:137][817]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.28-01.49.36:190][818]LogPlayLevel: Display: Destroying online subsystem :Context_28
+[2018.11.28-01.49.40:017][ 38]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.28-01.49.40:200][ 49]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.28-01.49.40:224][ 49]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.28-01.49.40:224][ 49]PIE: New page: PIE session: PizzaTester (Nov 27, 2018, 3:49:40 PM)
+[2018.11.28-01.49.40:224][ 49]LogPlayLevel: Creating play world package: /Game/AlexWPizzaStuff/UEDPIE_0_PizzaTester
+[2018.11.28-01.49.40:236][ 49]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011712s)
+[2018.11.28-01.49.40:236][ 49]LogAIModule: Creating AISystem for world PizzaTester
+[2018.11.28-01.49.40:237][ 49]LogPlayLevel: PIE: World Init took: (0.000631s)
+[2018.11.28-01.49.40:237][ 49]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/AlexWPizzaStuff/PizzaTester.PizzaTester to /Game/AlexWPizzaStuff/UEDPIE_0_PizzaTester.PizzaTester (0.012480s)
+[2018.11.28-01.49.40:278][ 49]LogInit: XAudio2 using 'Headphones (2- E7 Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.11.28-01.49.40:288][ 49]LogInit: FAudioDevice initialized.
+[2018.11.28-01.49.40:324][ 49]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.11.28-01.49.40:328][ 49]LogWorld: Bringing World /Game/AlexWPizzaStuff/UEDPIE_0_PizzaTester.PizzaTester up for play (max tick rate 60) at 2018.11.27-20.49.40
+[2018.11.28-01.49.40:328][ 49]LogWorld: Bringing up level for play took: 0.003230
+[2018.11.28-01.49.40:343][ 49]PIE: Play in editor start time for /Game/AlexWPizzaStuff/UEDPIE_0_PizzaTester 0.326
+[2018.11.28-01.49.40:546][ 61]LogBlueprintUserMessages: [Pizza_scripting] Pepperoni
+[2018.11.28-01.49.43:863][260]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.28-01.49.43:904][260]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.28-01.49.43:936][260]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.28-01.49.43:969][262]LogPlayLevel: Display: Destroying online subsystem :Context_29
+[2018.11.28-01.49.56:944][419]LogSavePackage: Moving '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Saved/PizzaTester0D3D1DBA40AE26A1E6D494BED09F377A.tmp' to '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Content/AlexWPizzaStuff/PizzaTester.umap'
+[2018.11.28-01.50.45:360][296]LogSlate: Took 0.007327 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2018.11.28-01.53.21:732][468]BlueprintLog: New page: Compile Pizza_scripting
+[2018.11.28-01.53.54:715][425]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.28-01.53.54:931][437]LogActorFactory: Actor Factory created Sphere
+[2018.11.28-01.53.56:722][544]LogActorFactory: Actor Factory created Sphere
+[2018.11.28-01.54.00:836][786]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.28-01.55.42:864][553]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.28-01.56.16:586][574]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.28-01.56.25:696][104]LogSavePackage: Moving '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Saved/PizzaTester9EC471BE4B35FFAC53776F92653487B5.tmp' to '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Content/AlexWPizzaStuff/PizzaTester.umap'
+[2018.11.28-02.03.21:499][912]LogEditorTransaction: Undo Delete current selection
+[2018.11.28-02.09.24:845][806]LogSavePackage: Moving '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Saved/PizzaTester_Auto3E9349A754DD6EA576C6612ADDBA6E879.tmp' to '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Saved/Autosaves/Game/AlexWPizzaStuff/PizzaTester_Auto3.umap'
+[2018.11.28-02.09.24:851][806]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/AlexWPizzaStuff/PizzaTester' took 0.264
+[2018.11.28-02.09.24:851][806]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.264
+[2018.11.28-02.09.24:854][806]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/AlexWPizzaStuff/Pizza_scripting] ([1] browsable assets)...
+[2018.11.28-02.09.24:854][806]OBJ SavePackage: Finished generating thumbnails for package [/Game/AlexWPizzaStuff/Pizza_scripting]
+[2018.11.28-02.09.24:905][806]LogSavePackage: Moving '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Saved/Pizza_scripting_Auto359DC5ECB43624275805BAAB46E849192.tmp' to '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Saved/Autosaves/Game/AlexWPizzaStuff/Pizza_scripting_Auto3.uasset'
+[2018.11.28-02.09.24:909][806]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/AlexWPizzaStuff/pepperoni_test_Blueprint] ([1] browsable assets)...
+[2018.11.28-02.09.24:909][806]OBJ SavePackage: Finished generating thumbnails for package [/Game/AlexWPizzaStuff/pepperoni_test_Blueprint]
+[2018.11.28-02.09.24:942][806]LogSavePackage: Moving '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Saved/pepperoni_test_Blueprint_Auto34713F5184A0A812362B8DBBEF6A9FE1D.tmp' to '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Saved/Autosaves/Game/AlexWPizzaStuff/pepperoni_test_Blueprint_Auto3.uasset'
+[2018.11.28-02.09.24:945][806]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/AlexWPizzaStuff/real_pepperoni_tester] ([1] browsable assets)...
+[2018.11.28-02.09.24:986][806]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/AlexWPizzaStuff/real_pepperoni_tester.real_pepperoni_tester]
+[2018.11.28-02.09.24:986][806]OBJ SavePackage: Finished generating thumbnails for package [/Game/AlexWPizzaStuff/real_pepperoni_tester]
+[2018.11.28-02.09.25:012][806]LogSavePackage: Moving '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Saved/real_pepperoni_tester_Auto3307003A04901FC54FE2AC18501201F84.tmp' to '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Saved/Autosaves/Game/AlexWPizzaStuff/real_pepperoni_tester_Auto3.uasset'
+[2018.11.28-02.09.25:015][806]LogFileHelpers: Auto-saving content packages took 0.163
+[2018.11.28-02.19.19:855][772]Cmd: TRANSACTION UNDO
+[2018.11.28-02.19.19:855][772]LogEditorTransaction: Undo Set Rotation
+[2018.11.28-02.19.20:947][833]Cmd: TRANSACTION UNDO
+[2018.11.28-02.19.20:947][833]LogEditorTransaction: Undo Move Node
+[2018.11.28-02.19.24:248][ 30]Cmd: TRANSACTION REDO
+[2018.11.28-02.19.24:248][ 30]LogEditorTransaction: Redo Move Node
+[2018.11.28-02.21.02:105][822]LogSelectionDetails: Warning: NavigateToFunctionSource:  Unable to find symbols for 'UKismetMathLibrary::RandomFloat' [Element not found.]
+[2018.11.28-02.22.05:660][620]BlueprintLog: New page: Compile Pizza_scripting
+[2018.11.28-02.22.12:551][ 19]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.28-02.22.12:587][ 19]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.28-02.22.12:587][ 19]PIE: New page: PIE session: PizzaTester (Nov 27, 2018, 4:22:12 PM)
+[2018.11.28-02.22.12:587][ 19]LogPlayLevel: Creating play world package: /Game/AlexWPizzaStuff/UEDPIE_0_PizzaTester
+[2018.11.28-02.22.12:599][ 19]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011616s)
+[2018.11.28-02.22.12:599][ 19]LogAIModule: Creating AISystem for world PizzaTester
+[2018.11.28-02.22.12:600][ 19]LogPlayLevel: PIE: World Init took: (0.000909s)
+[2018.11.28-02.22.12:600][ 19]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/AlexWPizzaStuff/PizzaTester.PizzaTester to /Game/AlexWPizzaStuff/UEDPIE_0_PizzaTester.PizzaTester (0.012702s)
+[2018.11.28-02.22.12:642][ 19]LogInit: XAudio2 using 'Headphones (2- E7 Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.11.28-02.22.12:653][ 19]LogInit: FAudioDevice initialized.
+[2018.11.28-02.22.12:686][ 19]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.11.28-02.22.12:691][ 19]LogWorld: Bringing World /Game/AlexWPizzaStuff/UEDPIE_0_PizzaTester.PizzaTester up for play (max tick rate 60) at 2018.11.27-21.22.12
+[2018.11.28-02.22.12:692][ 19]LogWorld: Bringing up level for play took: 0.003436
+[2018.11.28-02.22.12:707][ 19]PIE: Play in editor start time for /Game/AlexWPizzaStuff/UEDPIE_0_PizzaTester 0.691
+[2018.11.28-02.22.12:906][ 31]LogBlueprintUserMessages: [Pizza_scripting] Pepperoni
+[2018.11.28-02.22.12:907][ 31]PIE: Warning: AttachTo: '/Game/AlexWPizzaStuff/UEDPIE_0_PizzaTester.PizzaTester:PersistentLevel.Pizza_scripting.DefaultSceneRoot1' is not static  (in blueprint "Pizza_scripting"), cannot attach '/Game/AlexWPizzaStuff/UEDPIE_0_PizzaTester.PizzaTester:PersistentLevel.StaticMeshActor_0.StaticMeshComponent0' which is static to it. Aborting.
+[2018.11.28-02.22.12:907][ 31]PIE: Warning: Mobility of /Game/AlexWPizzaStuff/UEDPIE_0_PizzaTester.PizzaTester:PersistentLevel.StaticMeshActor_0 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2018.11.28-02.22.46:338][ 33]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.28-02.22.46:383][ 33]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.28-02.22.46:418][ 33]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.28-02.22.46:442][ 34]LogPlayLevel: Display: Destroying online subsystem :Context_30
+[2018.11.28-02.26.24:871][993]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AlexWPizzaStuff/Pizza_scripting" FILE="../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Content/AlexWPizzaStuff/Pizza_scripting.uasset" SILENT=true
+[2018.11.28-02.26.24:933][993]LogSavePackage: Moving '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Saved/Pizza_scriptingE831A09940DD7346635AD69A7CF9F460.tmp' to '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Content/AlexWPizzaStuff/Pizza_scripting.uasset'
+[2018.11.28-02.26.28:564][210]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.28-02.26.28:588][210]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.11.28-02.26.28:600][210]LogPlayLevel: [PlayLevel] Compiling Pizza_scripting before play...
+[2018.11.28-02.26.28:782][210]LogPlayLevel: PlayLevel: Blueprint regeneration took 195 ms (1 blueprints)
+[2018.11.28-02.26.28:783][210]PIE: New page: PIE session: PizzaTester (Nov 27, 2018, 4:26:28 PM)
+[2018.11.28-02.26.28:783][210]LogPlayLevel: Creating play world package: /Game/AlexWPizzaStuff/UEDPIE_0_PizzaTester
+[2018.11.28-02.26.28:797][210]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013853s)
+[2018.11.28-02.26.28:798][210]LogAIModule: Creating AISystem for world PizzaTester
+[2018.11.28-02.26.28:798][210]LogPlayLevel: PIE: World Init took: (0.001077s)
+[2018.11.28-02.26.28:798][210]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/AlexWPizzaStuff/PizzaTester.PizzaTester to /Game/AlexWPizzaStuff/UEDPIE_0_PizzaTester.PizzaTester (0.015110s)
+[2018.11.28-02.26.28:838][210]LogInit: XAudio2 using 'Headphones (2- E7 Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.11.28-02.26.28:848][210]LogInit: FAudioDevice initialized.
+[2018.11.28-02.26.28:884][210]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.11.28-02.26.28:888][210]LogWorld: Bringing World /Game/AlexWPizzaStuff/UEDPIE_0_PizzaTester.PizzaTester up for play (max tick rate 60) at 2018.11.27-21.26.28
+[2018.11.28-02.26.28:888][210]LogWorld: Bringing up level for play took: 0.002995
+[2018.11.28-02.26.28:903][210]PIE: Play in editor start time for /Game/AlexWPizzaStuff/UEDPIE_0_PizzaTester 0.886
+[2018.11.28-02.26.29:173][220]LogBlueprintUserMessages: [Pizza_scripting] Pepperoni
+[2018.11.28-02.26.29:173][220]PIE: Warning: AttachTo: '/Game/AlexWPizzaStuff/UEDPIE_0_PizzaTester.PizzaTester:PersistentLevel.Pizza_scripting.DefaultSceneRoot1' is not static  (in blueprint "Pizza_scripting"), cannot attach '/Game/AlexWPizzaStuff/UEDPIE_0_PizzaTester.PizzaTester:PersistentLevel.StaticMeshActor_0.StaticMeshComponent0' which is static to it. Aborting.
+[2018.11.28-02.26.29:173][220]PIE: Warning: Mobility of /Game/AlexWPizzaStuff/UEDPIE_0_PizzaTester.PizzaTester:PersistentLevel.StaticMeshActor_0 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2018.11.28-02.26.29:173][220]PIE: Warning: Mobility of /Game/AlexWPizzaStuff/UEDPIE_0_PizzaTester.PizzaTester:PersistentLevel.StaticMeshActor_0 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2018.11.28-02.26.40:214][881]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.28-02.27.20:190][270]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.28-02.27.20:226][270]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.28-02.27.20:264][270]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.28-02.27.20:304][272]LogPlayLevel: Display: Destroying online subsystem :Context_31
+[2018.11.28-02.27.44:816][723]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.28-02.27.44:860][723]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.28-02.27.44:860][723]PIE: New page: PIE session: PizzaTester (Nov 27, 2018, 4:27:44 PM)
+[2018.11.28-02.27.44:860][723]LogPlayLevel: Creating play world package: /Game/AlexWPizzaStuff/UEDPIE_0_PizzaTester
+[2018.11.28-02.27.44:873][723]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013064s)
+[2018.11.28-02.27.44:874][723]LogAIModule: Creating AISystem for world PizzaTester
+[2018.11.28-02.27.44:874][723]LogPlayLevel: PIE: World Init took: (0.000729s)
+[2018.11.28-02.27.44:874][723]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/AlexWPizzaStuff/PizzaTester.PizzaTester to /Game/AlexWPizzaStuff/UEDPIE_0_PizzaTester.PizzaTester (0.013946s)
+[2018.11.28-02.27.44:918][723]LogInit: XAudio2 using 'Headphones (2- E7 Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.11.28-02.27.44:931][723]LogInit: FAudioDevice initialized.
+[2018.11.28-02.27.44:964][723]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.11.28-02.27.44:968][723]LogWorld: Bringing World /Game/AlexWPizzaStuff/UEDPIE_0_PizzaTester.PizzaTester up for play (max tick rate 60) at 2018.11.27-21.27.44
+[2018.11.28-02.27.44:968][723]LogWorld: Bringing up level for play took: 0.002623
+[2018.11.28-02.27.44:982][723]PIE: Play in editor start time for /Game/AlexWPizzaStuff/UEDPIE_0_PizzaTester 0.965
+[2018.11.28-02.27.45:287][732]LogBlueprintUserMessages: [Pizza_scripting] Pepperoni
+[2018.11.28-02.27.45:287][732]PIE: Warning: AttachTo: '/Game/AlexWPizzaStuff/UEDPIE_0_PizzaTester.PizzaTester:PersistentLevel.Pizza_scripting.DefaultSceneRoot1' is not static  (in blueprint "Pizza_scripting"), cannot attach '/Game/AlexWPizzaStuff/UEDPIE_0_PizzaTester.PizzaTester:PersistentLevel.StaticMeshActor_0.StaticMeshComponent0' which is static to it. Aborting.
+[2018.11.28-02.27.45:287][732]PIE: Warning: Mobility of /Game/AlexWPizzaStuff/UEDPIE_0_PizzaTester.PizzaTester:PersistentLevel.StaticMeshActor_0 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2018.11.28-02.27.45:287][732]PIE: Warning: Mobility of /Game/AlexWPizzaStuff/UEDPIE_0_PizzaTester.PizzaTester:PersistentLevel.StaticMeshActor_0 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2018.11.28-02.27.54:108][260]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.28-02.27.54:152][260]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.28-02.27.54:189][260]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.28-02.27.54:254][261]LogPlayLevel: Display: Destroying online subsystem :Context_32
+[2018.11.28-02.28.01:369][679]LogSlate: Window 'Pizza_scripting' being destroyed
+[2018.11.28-02.28.45:353][905]LogSavePackage: Moving '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Saved/PizzaTester_Auto4FE1F792645479D4CC37C099CB500C422.tmp' to '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Saved/Autosaves/Game/AlexWPizzaStuff/PizzaTester_Auto4.umap'
+[2018.11.28-02.28.45:361][905]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/AlexWPizzaStuff/PizzaTester' took 0.276
+[2018.11.28-02.28.45:361][905]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.276
+[2018.11.28-02.29.48:093][242]LogSlate: Window 'Select Path' being destroyed
+[2018.11.28-02.29.48:192][242]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/AlexWPizzaStuff/PepperoniModelToAdd_Blueprint.PepperoniModelToAdd_Blueprint
+[2018.11.28-02.30.08:810][432]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.28-02.38.45:859][412]LogSavePackage: Moving '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Saved/PizzaTester_Auto57BDF927E4B8653BEECB3A19CC2433E8B.tmp' to '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Saved/Autosaves/Game/AlexWPizzaStuff/PizzaTester_Auto5.umap'
+[2018.11.28-02.38.45:865][412]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/AlexWPizzaStuff/PizzaTester' took 0.267
+[2018.11.28-02.38.45:866][412]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.267
+[2018.11.28-02.38.45:870][412]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/AlexWPizzaStuff/Pizza_scripting] ([1] browsable assets)...
+[2018.11.28-02.38.45:870][412]OBJ SavePackage: Finished generating thumbnails for package [/Game/AlexWPizzaStuff/Pizza_scripting]
+[2018.11.28-02.38.45:944][412]LogSavePackage: Moving '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Saved/Pizza_scripting_Auto5E893193A47E28A0F4C25B3A240F81A09.tmp' to '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Saved/Autosaves/Game/AlexWPizzaStuff/Pizza_scripting_Auto5.uasset'
+[2018.11.28-02.38.45:948][412]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/AlexWPizzaStuff/PepperoniModelToAdd_Blueprint] ([1] browsable assets)...
+[2018.11.28-02.38.45:989][412]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/AlexWPizzaStuff/PepperoniModelToAdd_Blueprint.PepperoniModelToAdd_Blueprint]
+[2018.11.28-02.38.45:989][412]OBJ SavePackage: Finished generating thumbnails for package [/Game/AlexWPizzaStuff/PepperoniModelToAdd_Blueprint]
+[2018.11.28-02.38.46:020][412]LogSavePackage: Moving '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Saved/PepperoniModelToAdd_Blueprint_Au93A753D84955C22087FE448E9EB29E99.tmp' to '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Saved/Autosaves/Game/AlexWPizzaStuff/PepperoniModelToAdd_Blueprint_Auto5.uasset'
+[2018.11.28-02.38.46:025][412]LogFileHelpers: Auto-saving content packages took 0.157
+[2018.11.28-02.40.33:221][905]BlueprintLog: New page: Compile Pizza_scripting
+[2018.11.28-02.40.36:770][102]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.28-02.40.36:801][102]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.28-02.40.36:803][102]PIE: New page: PIE session: PizzaTester (Nov 27, 2018, 4:40:36 PM)
+[2018.11.28-02.40.36:803][102]LogPlayLevel: Creating play world package: /Game/AlexWPizzaStuff/UEDPIE_0_PizzaTester
+[2018.11.28-02.40.36:814][102]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011825s)
+[2018.11.28-02.40.36:814][102]LogAIModule: Creating AISystem for world PizzaTester
+[2018.11.28-02.40.36:815][102]LogPlayLevel: PIE: World Init took: (0.000850s)
+[2018.11.28-02.40.36:815][102]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/AlexWPizzaStuff/PizzaTester.PizzaTester to /Game/AlexWPizzaStuff/UEDPIE_0_PizzaTester.PizzaTester (0.012996s)
+[2018.11.28-02.40.36:856][102]LogInit: XAudio2 using 'Headphones (2- E7 Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.11.28-02.40.36:867][102]LogInit: FAudioDevice initialized.
+[2018.11.28-02.40.36:900][102]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.11.28-02.40.36:904][102]LogWorld: Bringing World /Game/AlexWPizzaStuff/UEDPIE_0_PizzaTester.PizzaTester up for play (max tick rate 60) at 2018.11.27-21.40.36
+[2018.11.28-02.40.36:904][102]LogWorld: Bringing up level for play took: 0.002604
+[2018.11.28-02.40.36:919][102]PIE: Play in editor start time for /Game/AlexWPizzaStuff/UEDPIE_0_PizzaTester 0.902
+[2018.11.28-02.40.37:119][114]LogBlueprintUserMessages: [Pizza_scripting] Pepperoni
+[2018.11.28-02.40.37:119][114]LogScript: Warning: UGameplayStatics::BeginSpawningActorFromClass: can not spawn an actor from a NULL class
+[2018.11.28-02.40.37:119][114]LogScript: Warning: Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue
+	Pizza_scripting_C /Game/AlexWPizzaStuff/UEDPIE_0_PizzaTester.PizzaTester:PersistentLevel.Pizza_scripting
+	Function /Game/AlexWPizzaStuff/Pizza_scripting.Pizza_scripting_C:ExecuteUbergraph_Pizza_scripting:032D
+[2018.11.28-02.40.37:120][114]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue". Blueprint:  Pizza_scripting Function:  Execute Ubergraph Pizza Scripting Graph:  EventGraph Node:  AttachToActor
+[2018.11.28-02.40.37:120][114]LogScript: Warning: Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue
+	Pizza_scripting_C /Game/AlexWPizzaStuff/UEDPIE_0_PizzaTester.PizzaTester:PersistentLevel.Pizza_scripting
+	Function /Game/AlexWPizzaStuff/Pizza_scripting.Pizza_scripting_C:ExecuteUbergraph_Pizza_scripting:036E
+[2018.11.28-02.40.37:120][114]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue". Blueprint:  Pizza_scripting Function:  Execute Ubergraph Pizza Scripting Graph:  EventGraph Node:  SetActorLocation
+[2018.11.28-02.40.37:120][114]LogScript: Warning: Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue
+	Pizza_scripting_C /Game/AlexWPizzaStuff/UEDPIE_0_PizzaTester.PizzaTester:PersistentLevel.Pizza_scripting
+	Function /Game/AlexWPizzaStuff/Pizza_scripting.Pizza_scripting_C:ExecuteUbergraph_Pizza_scripting:0427
+[2018.11.28-02.40.37:120][114]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue". Blueprint:  Pizza_scripting Function:  Execute Ubergraph Pizza Scripting Graph:  EventGraph Node:  SetActorRotation
+[2018.11.28-02.40.40:873][339]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.28-02.40.40:914][339]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.28-02.40.40:948][339]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.28-02.40.40:975][340]LogPlayLevel: Display: Destroying online subsystem :Context_35
+[2018.11.28-02.40.46:461][658]LogEditorViewport: Clicking on Actor (LMB): real_pepperoni_tester_C (real_pepperoni_tester)
+[2018.11.28-02.40.47:999][747]Cmd: EDIT COPY
+[2018.11.28-02.40.48:440][773]Cmd: EDIT PASTE
+[2018.11.28-02.40.54:069][106]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.28-02.40.54:220][115]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.28-02.40.54:242][115]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.28-02.40.54:242][115]PIE: New page: PIE session: PizzaTester (Nov 27, 2018, 4:40:54 PM)
+[2018.11.28-02.40.54:242][115]LogPlayLevel: Creating play world package: /Game/AlexWPizzaStuff/UEDPIE_0_PizzaTester
+[2018.11.28-02.40.54:255][115]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012951s)
+[2018.11.28-02.40.54:256][115]LogAIModule: Creating AISystem for world PizzaTester
+[2018.11.28-02.40.54:256][115]LogPlayLevel: PIE: World Init took: (0.000631s)
+[2018.11.28-02.40.54:256][115]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/AlexWPizzaStuff/PizzaTester.PizzaTester to /Game/AlexWPizzaStuff/UEDPIE_0_PizzaTester.PizzaTester (0.013704s)
+[2018.11.28-02.40.54:302][115]LogInit: XAudio2 using 'Headphones (2- E7 Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.11.28-02.40.54:313][115]LogInit: FAudioDevice initialized.
+[2018.11.28-02.40.54:347][115]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.11.28-02.40.54:351][115]LogWorld: Bringing World /Game/AlexWPizzaStuff/UEDPIE_0_PizzaTester.PizzaTester up for play (max tick rate 60) at 2018.11.27-21.40.54
+[2018.11.28-02.40.54:351][115]LogWorld: Bringing up level for play took: 0.002945
+[2018.11.28-02.40.54:366][115]PIE: Play in editor start time for /Game/AlexWPizzaStuff/UEDPIE_0_PizzaTester 0.349
+[2018.11.28-02.40.54:565][127]LogBlueprintUserMessages: [Pizza_scripting] Pepperoni
+[2018.11.28-02.40.54:566][127]LogScript: Warning: UGameplayStatics::BeginSpawningActorFromClass: can not spawn an actor from a NULL class
+[2018.11.28-02.40.54:566][127]LogScript: Warning: Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue
+	Pizza_scripting_C /Game/AlexWPizzaStuff/UEDPIE_0_PizzaTester.PizzaTester:PersistentLevel.Pizza_scripting
+	Function /Game/AlexWPizzaStuff/Pizza_scripting.Pizza_scripting_C:ExecuteUbergraph_Pizza_scripting:032D
+[2018.11.28-02.40.54:566][127]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue". Blueprint:  Pizza_scripting Function:  Execute Ubergraph Pizza Scripting Graph:  EventGraph Node:  AttachToActor
+[2018.11.28-02.40.54:566][127]LogScript: Warning: Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue
+	Pizza_scripting_C /Game/AlexWPizzaStuff/UEDPIE_0_PizzaTester.PizzaTester:PersistentLevel.Pizza_scripting
+	Function /Game/AlexWPizzaStuff/Pizza_scripting.Pizza_scripting_C:ExecuteUbergraph_Pizza_scripting:036E
+[2018.11.28-02.40.54:566][127]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue". Blueprint:  Pizza_scripting Function:  Execute Ubergraph Pizza Scripting Graph:  EventGraph Node:  SetActorLocation
+[2018.11.28-02.40.54:566][127]LogScript: Warning: Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue
+	Pizza_scripting_C /Game/AlexWPizzaStuff/UEDPIE_0_PizzaTester.PizzaTester:PersistentLevel.Pizza_scripting
+	Function /Game/AlexWPizzaStuff/Pizza_scripting.Pizza_scripting_C:ExecuteUbergraph_Pizza_scripting:0427
+[2018.11.28-02.40.54:567][127]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue". Blueprint:  Pizza_scripting Function:  Execute Ubergraph Pizza Scripting Graph:  EventGraph Node:  SetActorRotation
+[2018.11.28-02.40.55:032][155]LogBlueprintUserMessages: [Pizza_scripting] Pepperoni
+[2018.11.28-02.40.55:032][155]LogBlueprintUserMessages: [Pizza_scripting] Pepperoni
+[2018.11.28-02.40.55:032][155]LogScript: Warning: UGameplayStatics::BeginSpawningActorFromClass: can not spawn an actor from a NULL class
+[2018.11.28-02.40.55:032][155]LogScript: Warning: Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue
+	Pizza_scripting_C /Game/AlexWPizzaStuff/UEDPIE_0_PizzaTester.PizzaTester:PersistentLevel.Pizza_scripting
+	Function /Game/AlexWPizzaStuff/Pizza_scripting.Pizza_scripting_C:ExecuteUbergraph_Pizza_scripting:032D
+[2018.11.28-02.40.55:033][155]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue". Blueprint:  Pizza_scripting Function:  Execute Ubergraph Pizza Scripting Graph:  EventGraph Node:  AttachToActor
+[2018.11.28-02.40.55:033][155]LogScript: Warning: Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue
+	Pizza_scripting_C /Game/AlexWPizzaStuff/UEDPIE_0_PizzaTester.PizzaTester:PersistentLevel.Pizza_scripting
+	Function /Game/AlexWPizzaStuff/Pizza_scripting.Pizza_scripting_C:ExecuteUbergraph_Pizza_scripting:036E
+[2018.11.28-02.40.55:033][155]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue". Blueprint:  Pizza_scripting Function:  Execute Ubergraph Pizza Scripting Graph:  EventGraph Node:  SetActorLocation
+[2018.11.28-02.40.55:033][155]LogScript: Warning: Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue
+	Pizza_scripting_C /Game/AlexWPizzaStuff/UEDPIE_0_PizzaTester.PizzaTester:PersistentLevel.Pizza_scripting
+	Function /Game/AlexWPizzaStuff/Pizza_scripting.Pizza_scripting_C:ExecuteUbergraph_Pizza_scripting:0427
+[2018.11.28-02.40.55:033][155]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue". Blueprint:  Pizza_scripting Function:  Execute Ubergraph Pizza Scripting Graph:  EventGraph Node:  SetActorRotation
+[2018.11.28-02.40.56:749][258]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.28-02.40.56:791][258]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.28-02.40.56:826][258]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.28-02.40.56:850][259]LogPlayLevel: Display: Destroying online subsystem :Context_36
+[2018.11.28-02.41.09:350][996]LogSlate: Window 'Message Log' being destroyed
+[2018.11.28-02.41.09:357][996]LogSlate: Window 'Message Log' being destroyed
+[2018.11.28-02.41.10:201][ 47]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.28-02.41.10:224][ 47]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.28-02.41.10:224][ 47]PIE: New page: PIE session: PizzaTester (Nov 27, 2018, 4:41:10 PM)
+[2018.11.28-02.41.10:224][ 47]LogPlayLevel: Creating play world package: /Game/AlexWPizzaStuff/UEDPIE_0_PizzaTester
+[2018.11.28-02.41.10:236][ 47]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011875s)
+[2018.11.28-02.41.10:237][ 47]LogAIModule: Creating AISystem for world PizzaTester
+[2018.11.28-02.41.10:237][ 47]LogPlayLevel: PIE: World Init took: (0.000784s)
+[2018.11.28-02.41.10:237][ 47]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/AlexWPizzaStuff/PizzaTester.PizzaTester to /Game/AlexWPizzaStuff/UEDPIE_0_PizzaTester.PizzaTester (0.012783s)
+[2018.11.28-02.41.10:280][ 47]LogInit: XAudio2 using 'Headphones (2- E7 Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.11.28-02.41.10:291][ 47]LogInit: FAudioDevice initialized.
+[2018.11.28-02.41.10:327][ 47]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.11.28-02.41.10:331][ 47]LogWorld: Bringing World /Game/AlexWPizzaStuff/UEDPIE_0_PizzaTester.PizzaTester up for play (max tick rate 60) at 2018.11.27-21.41.10
+[2018.11.28-02.41.10:332][ 47]LogWorld: Bringing up level for play took: 0.003759
+[2018.11.28-02.41.10:346][ 47]PIE: Play in editor start time for /Game/AlexWPizzaStuff/UEDPIE_0_PizzaTester 0.329
+[2018.11.28-02.41.10:545][ 59]LogBlueprintUserMessages: [Pizza_scripting] Pepperoni
+[2018.11.28-02.41.10:545][ 59]LogScript: Warning: UGameplayStatics::BeginSpawningActorFromClass: can not spawn an actor from a NULL class
+[2018.11.28-02.41.10:545][ 59]LogScript: Warning: Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue
+	Pizza_scripting_C /Game/AlexWPizzaStuff/UEDPIE_0_PizzaTester.PizzaTester:PersistentLevel.Pizza_scripting
+	Function /Game/AlexWPizzaStuff/Pizza_scripting.Pizza_scripting_C:ExecuteUbergraph_Pizza_scripting:032D
+[2018.11.28-02.41.10:545][ 59]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue". Blueprint:  Pizza_scripting Function:  Execute Ubergraph Pizza Scripting Graph:  EventGraph Node:  AttachToActor
+[2018.11.28-02.41.10:545][ 59]LogScript: Warning: Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue
+	Pizza_scripting_C /Game/AlexWPizzaStuff/UEDPIE_0_PizzaTester.PizzaTester:PersistentLevel.Pizza_scripting
+	Function /Game/AlexWPizzaStuff/Pizza_scripting.Pizza_scripting_C:ExecuteUbergraph_Pizza_scripting:036E
+[2018.11.28-02.41.10:545][ 59]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue". Blueprint:  Pizza_scripting Function:  Execute Ubergraph Pizza Scripting Graph:  EventGraph Node:  SetActorLocation
+[2018.11.28-02.41.10:545][ 59]LogScript: Warning: Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue
+	Pizza_scripting_C /Game/AlexWPizzaStuff/UEDPIE_0_PizzaTester.PizzaTester:PersistentLevel.Pizza_scripting
+	Function /Game/AlexWPizzaStuff/Pizza_scripting.Pizza_scripting_C:ExecuteUbergraph_Pizza_scripting:0427
+[2018.11.28-02.41.10:545][ 59]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue". Blueprint:  Pizza_scripting Function:  Execute Ubergraph Pizza Scripting Graph:  EventGraph Node:  SetActorRotation
+[2018.11.28-02.41.11:010][ 87]LogBlueprintUserMessages: [Pizza_scripting] Pepperoni
+[2018.11.28-02.41.11:010][ 87]LogBlueprintUserMessages: [Pizza_scripting] Pepperoni
+[2018.11.28-02.41.11:010][ 87]LogScript: Warning: UGameplayStatics::BeginSpawningActorFromClass: can not spawn an actor from a NULL class
+[2018.11.28-02.41.11:010][ 87]LogScript: Warning: Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue
+	Pizza_scripting_C /Game/AlexWPizzaStuff/UEDPIE_0_PizzaTester.PizzaTester:PersistentLevel.Pizza_scripting
+	Function /Game/AlexWPizzaStuff/Pizza_scripting.Pizza_scripting_C:ExecuteUbergraph_Pizza_scripting:032D
+[2018.11.28-02.41.11:011][ 87]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue". Blueprint:  Pizza_scripting Function:  Execute Ubergraph Pizza Scripting Graph:  EventGraph Node:  AttachToActor
+[2018.11.28-02.41.11:011][ 87]LogScript: Warning: Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue
+	Pizza_scripting_C /Game/AlexWPizzaStuff/UEDPIE_0_PizzaTester.PizzaTester:PersistentLevel.Pizza_scripting
+	Function /Game/AlexWPizzaStuff/Pizza_scripting.Pizza_scripting_C:ExecuteUbergraph_Pizza_scripting:036E
+[2018.11.28-02.41.11:011][ 87]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue". Blueprint:  Pizza_scripting Function:  Execute Ubergraph Pizza Scripting Graph:  EventGraph Node:  SetActorLocation
+[2018.11.28-02.41.11:011][ 87]LogScript: Warning: Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue
+	Pizza_scripting_C /Game/AlexWPizzaStuff/UEDPIE_0_PizzaTester.PizzaTester:PersistentLevel.Pizza_scripting
+	Function /Game/AlexWPizzaStuff/Pizza_scripting.Pizza_scripting_C:ExecuteUbergraph_Pizza_scripting:0427
+[2018.11.28-02.41.11:011][ 87]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue". Blueprint:  Pizza_scripting Function:  Execute Ubergraph Pizza Scripting Graph:  EventGraph Node:  SetActorRotation
+[2018.11.28-02.41.14:413][291]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.28-02.41.14:457][291]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.28-02.41.14:490][291]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.28-02.41.14:514][292]LogPlayLevel: Display: Destroying online subsystem :Context_37
+[2018.11.28-02.41.21:257][683]LogSlate: Window 'Message Log' being destroyed
+[2018.11.28-02.41.21:266][683]LogSlate: Window 'Message Log' being destroyed
+[2018.11.28-02.41.55:033][699]LogEditorViewport: Clicking on Actor (LMB): PepperoniModelToAdd_Blueprint_C (PepperoniModelToAdd_Blueprint)
+[2018.11.28-02.42.04:659][273]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.28-02.44.30:197][939]BlueprintLog: New page: Compile Pizza_scripting
+[2018.11.28-02.44.34:798][200]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.28-02.44.35:015][213]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.28-02.44.35:053][213]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.28-02.44.35:053][213]PIE: New page: PIE session: PizzaTester (Nov 27, 2018, 4:44:35 PM)
+[2018.11.28-02.44.35:053][213]LogPlayLevel: Creating play world package: /Game/AlexWPizzaStuff/UEDPIE_0_PizzaTester
+[2018.11.28-02.44.35:066][213]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012516s)
+[2018.11.28-02.44.35:067][213]LogAIModule: Creating AISystem for world PizzaTester
+[2018.11.28-02.44.35:067][213]LogPlayLevel: PIE: World Init took: (0.000650s)
+[2018.11.28-02.44.35:067][213]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/AlexWPizzaStuff/PizzaTester.PizzaTester to /Game/AlexWPizzaStuff/UEDPIE_0_PizzaTester.PizzaTester (0.013287s)
+[2018.11.28-02.44.35:101][213]LogInit: XAudio2 using 'Headphones (2- E7 Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.11.28-02.44.35:112][213]LogInit: FAudioDevice initialized.
+[2018.11.28-02.44.35:145][213]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.11.28-02.44.35:148][213]LogWorld: Bringing World /Game/AlexWPizzaStuff/UEDPIE_0_PizzaTester.PizzaTester up for play (max tick rate 60) at 2018.11.27-21.44.35
+[2018.11.28-02.44.35:148][213]LogWorld: Bringing up level for play took: 0.002177
+[2018.11.28-02.44.35:163][213]PIE: Play in editor start time for /Game/AlexWPizzaStuff/UEDPIE_0_PizzaTester -0.853
+[2018.11.28-02.44.35:364][225]LogBlueprintUserMessages: [Pizza_scripting] Pepperoni
+[2018.11.28-02.44.35:364][225]LogScript: Warning: UGameplayStatics::BeginSpawningActorFromClass: can not spawn an actor from a NULL class
+[2018.11.28-02.44.35:364][225]LogScript: Warning: Accessed None trying to read property CallFunc_Array_Get_Item4
+	Pizza_scripting_C /Game/AlexWPizzaStuff/UEDPIE_0_PizzaTester.PizzaTester:PersistentLevel.Pizza_scripting
+	Function /Game/AlexWPizzaStuff/Pizza_scripting.Pizza_scripting_C:ExecuteUbergraph_Pizza_scripting:0434
+[2018.11.28-02.44.35:364][225]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Array_Get_Item4". Blueprint:  Pizza_scripting Function:  Execute Ubergraph Pizza Scripting Graph:  EventGraph Node:  AttachToActor
+[2018.11.28-02.44.35:364][225]LogScript: Warning: Accessed None trying to read property CallFunc_Array_Get_Item4
+	Pizza_scripting_C /Game/AlexWPizzaStuff/UEDPIE_0_PizzaTester.PizzaTester:PersistentLevel.Pizza_scripting
+	Function /Game/AlexWPizzaStuff/Pizza_scripting.Pizza_scripting_C:ExecuteUbergraph_Pizza_scripting:057C
+[2018.11.28-02.44.35:364][225]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Array_Get_Item4". Blueprint:  Pizza_scripting Function:  Execute Ubergraph Pizza Scripting Graph:  EventGraph Node:  SetActorLocation
+[2018.11.28-02.44.35:364][225]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Array_Get_Item4". Blueprint:  Pizza_scripting Function:  Execute Ubergraph Pizza Scripting Graph:  EventGraph Node:  SetActorRotation
+[2018.11.28-02.44.35:830][253]LogBlueprintUserMessages: [Pizza_scripting] Pepperoni
+[2018.11.28-02.44.35:830][253]LogBlueprintUserMessages: [Pizza_scripting] Pepperoni
+[2018.11.28-02.44.35:830][253]LogScript: Warning: UGameplayStatics::BeginSpawningActorFromClass: can not spawn an actor from a NULL class
+[2018.11.28-02.44.35:830][253]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Array_Get_Item4". Blueprint:  Pizza_scripting Function:  Execute Ubergraph Pizza Scripting Graph:  EventGraph Node:  AttachToActor
+[2018.11.28-02.44.35:830][253]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Array_Get_Item4". Blueprint:  Pizza_scripting Function:  Execute Ubergraph Pizza Scripting Graph:  EventGraph Node:  SetActorLocation
+[2018.11.28-02.44.35:831][253]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Array_Get_Item4". Blueprint:  Pizza_scripting Function:  Execute Ubergraph Pizza Scripting Graph:  EventGraph Node:  SetActorRotation
+[2018.11.28-02.44.53:622][319]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.28-02.44.53:663][319]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.28-02.44.53:698][319]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.28-02.44.53:724][320]LogPlayLevel: Display: Destroying online subsystem :Context_38
+[2018.11.28-02.45.02:561][838]LogSlate: Window 'Message Log' being destroyed
+[2018.11.28-02.45.02:567][838]LogSlate: Window 'Message Log' being destroyed
+[2018.11.28-02.45.06:278][ 46]LogSavePackage: Moving '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Saved/PizzaTester2FDFDCDF4184E95ECE1E788541913654.tmp' to '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Content/AlexWPizzaStuff/PizzaTester.umap'
