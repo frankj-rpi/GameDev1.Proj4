@@ -1,4 +1,4 @@
-﻿Log file open, 11/24/18 00:16:22
+﻿Log file open, 11/27/18 20:01:20
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -8,7 +8,7 @@ LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: TeamSadMen
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.302774
+LogStats: Stats thread started at 0.305960
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -91,7 +91,7 @@ LogPluginManager: Mounting plugin ProceduralMeshComponent
 LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogStreaming: Display: Took  0.169s to configure plugins.
+LogStreaming: Display: Took  0.170s to configure plugins.
 LogInit: Using libcurl 7.55.1-DEV
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2h
@@ -121,7 +121,7 @@ LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
 LogInit: Compiled with Visual C++: 19.13.26129.00
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.20
-LogInit: Command Line: 
+LogInit: Command Line: -EpicPortal  -epicusername="THECONE112" -epicuserid=cb1c4ce6838b46c39dd2121a03b99467 -epiclocale=en-US
 LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogDevObjectVersion: Number of dev versions registered: 20
@@ -148,607 +148,684 @@ LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
 LogStreaming: Display: Took  0.001s to delete old logs.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2018.11.24-05.16.22:798][  0]LogInit: Selected Device Profile: [Windows]
-[2018.11.24-05.16.22:798][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2018.11.24-05.16.22:816][  0]LogHAL: Display: Platform has ~ 16 GB [16914079744 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2018.11.24-05.16.22:816][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
-[2018.11.24-05.16.22:816][  0]LogInit: Going up to parent DeviceProfile []
-[2018.11.24-05.16.22:816][  0]LogInit: Computer: DESKTOP-3J9G0A4
-[2018.11.24-05.16.22:816][  0]LogInit: User: weisea3
-[2018.11.24-05.16.22:816][  0]LogInit: CPU Page size=4096, Cores=4
-[2018.11.24-05.16.22:816][  0]LogInit: High frequency timer resolution =2.531247 MHz
-[2018.11.24-05.16.22:817][  0]LogMemory: Memory total: Physical=15.8GB (16GB approx)
-[2018.11.24-05.16.22:817][  0]LogMemory: Platform Memory Stats for Windows
-[2018.11.24-05.16.22:817][  0]LogMemory: Process Physical Memory: 99.85 MB used, 99.85 MB peak
-[2018.11.24-05.16.22:817][  0]LogMemory: Process Virtual Memory: 91.21 MB used, 91.21 MB peak
-[2018.11.24-05.16.22:817][  0]LogMemory: Physical Memory: 9676.59 MB used,  6453.93 MB free, 16130.52 MB total
-[2018.11.24-05.16.22:817][  0]LogMemory: Virtual Memory: 4640.40 MB used,  6453.93 MB free, 134217728.00 MB total
-[2018.11.24-05.16.22:843][  0]LogInit: Using OS detected language (en-US).
-[2018.11.24-05.16.22:843][  0]LogInit: Using OS detected locale (en-US).
-[2018.11.24-05.16.22:845][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2018.11.24-05.16.23:325][  0]LogStreaming: Display: Took  0.481s to InitEngineTextLocalization.
-[2018.11.24-05.16.23:325][  0]LogInit: Setting process to per monitor DPI aware
-[2018.11.24-05.16.23:361][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2018.11.24-05.16.23:361][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2018.11.24-05.16.23:627][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2018.11.24-05.16.23:627][  0]LogD3D11RHI: D3D11 adapters:
-[2018.11.24-05.16.23:697][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960M' (Feature Level 11_0)
-[2018.11.24-05.16.23:697][  0]LogD3D11RHI:       2010/0/8065 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2018.11.24-05.16.23:711][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
-[2018.11.24-05.16.23:711][  0]LogD3D11RHI:       128/0/8065 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
-[2018.11.24-05.16.23:714][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2018.11.24-05.16.23:714][  0]LogD3D11RHI:       0/0/8065 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2018.11.24-05.16.23:714][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2018.11.24-05.16.23:758][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2018.11.24-05.16.23:758][  0]LogD3D11RHI:     GPU DeviceId: 0x139b (for the marketing name, search the web for "GPU Device Id")
-[2018.11.24-05.16.23:758][  0]LogWindows: EnumDisplayDevices:
-[2018.11.24-05.16.23:758][  0]LogWindows:    0. 'Intel(R) HD Graphics 530' (P:1 D:1)
-[2018.11.24-05.16.23:759][  0]LogWindows:    1. 'Intel(R) HD Graphics 530' (P:0 D:0)
-[2018.11.24-05.16.23:760][  0]LogWindows:    2. 'Intel(R) HD Graphics 530' (P:0 D:0)
-[2018.11.24-05.16.23:761][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2018.11.24-05.16.23:761][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960M
-[2018.11.24-05.16.23:761][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2018.11.24-05.16.23:761][  0]LogD3D11RHI:      Driver Date: Unknown
-[2018.11.24-05.16.23:761][  0]LogRHI: Texture pool is 1407 MB (70% of 2010 MB)
-[2018.11.24-05.16.23:807][  0]LogD3D11RHI: Async texture creation enabled
-[2018.11.24-05.16.23:848][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2018.11.24-05.16.23:850][  0]LogShaderCompilers: Guid format shader working directory is -15 characters bigger than the processId version (../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Intermediate/Shaders/WorkingDirectory/6128/).
-[2018.11.24-05.16.23:850][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/weisea3/AppData/Local/Temp/UnrealShaderWorkingDir/A7252B4E414D575EA240CF9ECBE868E7/'.
-[2018.11.24-05.16.24:182][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2018.11.24-05.16.24:197][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2018.11.24-05.16.24:212][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2018.11.24-05.16.24:228][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2018.11.24-05.16.24:244][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2018.11.24-05.16.24:263][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2018.11.24-05.16.24:279][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2018.11.24-05.16.24:302][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2018.11.24-05.16.24:310][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2018.11.24-05.16.24:409][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.24-05.16.24:409][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.24-05.16.24:409][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.24-05.16.24:409][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.24-05.16.24:409][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.24-05.16.24:409][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.24-05.16.24:409][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.24-05.16.24:409][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.24-05.16.24:409][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.24-05.16.24:409][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.24-05.16.24:409][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.24-05.16.24:409][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.24-05.16.24:409][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.24-05.16.24:409][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.24-05.16.24:409][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.24-05.16.24:409][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.24-05.16.24:409][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.24-05.16.24:409][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.24-05.16.24:411][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2018.11.24-05.16.24:478][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.11.24-05.16.24:478][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.11.24-05.16.24:505][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.11.24-05.16.24:505][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.11.24-05.16.24:521][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2018.11.24-05.16.24:536][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2018.11.24-05.16.24:551][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2018.11.24-05.16.24:566][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2018.11.24-05.16.24:578][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
-[2018.11.24-05.16.24:578][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2018.11.24-05.16.24:648][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2018.11.24-05.16.24:648][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2018.11.24-05.16.24:648][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2018.11.24-05.16.25:549][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2018.11.24-05.16.25:612][  0]LogDerivedDataCache: Loaded boot cache 0.06s 71MB C:/Users/weisea3/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
-[2018.11.24-05.16.25:613][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/weisea3/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
-[2018.11.24-05.16.25:613][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2018.11.24-05.16.25:613][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2018.11.24-05.16.25:613][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2018.11.24-05.16.25:613][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2018.11.24-05.16.25:628][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2018.11.24-05.16.25:641][  0]LogDerivedDataCache: Using Local data cache path C:/Users/weisea3/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2018.11.24-05.16.25:641][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2018.11.24-05.16.25:641][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2018.11.24-05.16.25:662][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2018.11.24-05.16.25:663][  0]LogSlate: Using FreeType 2.6.0
-[2018.11.24-05.16.25:664][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.11.24-05.16.25:746][  0]LogAssetRegistry: FAssetRegistry took 0.0271 seconds to start up
-[2018.11.24-05.16.26:136][  0]LogInit: Selected Device Profile: [Windows]
-[2018.11.24-05.16.26:196][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2018.11.24-05.16.26:201][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2018.11.24-05.16.26:201][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2018.11.24-05.16.26:201][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2018.11.24-05.16.26:201][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2018.11.24-05.16.26:318][  0]LogNetVersion: TeamSadMen 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 1220547581)
-[2018.11.24-05.16.27:020][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.181305 seconds
-[2018.11.24-05.16.27:026][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
-[2018.11.24-05.16.27:026][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
-[2018.11.24-05.16.27:026][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2018.11.24-05.16.28:021][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2018.11.24-05.16.28:034][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2018.11.24-05.16.28:191][  0]SourceControl: Source control is disabled
-[2018.11.24-05.16.28:192][  0]SourceControl: Source control is disabled
-[2018.11.24-05.16.28:193][  0]SourceControl: Source control is disabled
-[2018.11.24-05.16.28:194][  0]SourceControl: Source control is disabled
-[2018.11.24-05.16.28:370][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2018.11.24-05.16.28:481][  0]LogOcInput: OculusInput pre-init called
-[2018.11.24-05.16.28:550][  0]LogEngine: Initializing Engine...
-[2018.11.24-05.16.28:551][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2018.11.24-05.16.28:552][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2018.11.24-05.16.28:552][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.11.24-05.16.28:553][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2018.11.24-05.16.28:553][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.11.24-05.16.28:819][  0]LogInit: Initializing FReadOnlyCVARCache
-[2018.11.24-05.16.28:834][  0]LogAIModule: Creating AISystem for world Untitled
-[2018.11.24-05.16.28:870][  0]LogInit: XAudio2 using 'Headphones (2- E7 Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2018.11.24-05.16.28:885][  0]LogInit: FAudioDevice initialized.
-[2018.11.24-05.16.28:886][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2018.11.24-05.16.28:938][  0]LogDerivedDataCache: Saved boot cache 0.05s 71MB C:/Users/weisea3/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
-[2018.11.24-05.16.28:949][  0]LogInit: Texture streaming: Enabled
-[2018.11.24-05.16.28:969][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2018.11.24-05.16.28:986][  0]LogInit: Transaction tracking system initialized
-[2018.11.24-05.16.29:014][  0]BlueprintLog: New page: Editor Load
-[2018.11.24-05.16.29:102][  0]LocalizationService: Localization service is disabled
-[2018.11.24-05.16.29:403][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2018.11.24-05.16.29:403][  0]LogCook: Display: Mobile HDR setting 1
-[2018.11.24-05.16.29:403][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2018.11.24-05.16.29:403][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2018.11.24-05.16.29:403][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.11.24-05.16.29:403][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2018.11.24-05.16.29:403][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.11.24-05.16.29:555][  0]LogFileCache: Scanning file cache for directory 'C:/Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Content/' took 0.02s
-[2018.11.24-05.16.29:555][  0]SourceControl: Source control is disabled
-[2018.11.24-05.16.29:556][  0]Cmd: MAP LOAD FILE="../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.11.24-05.16.29:556][  0]LightingResults: New page: Lighting Build
-[2018.11.24-05.16.29:559][  0]MapCheck: New page: Map Check
-[2018.11.24-05.16.29:559][  0]LightingResults: New page: Lighting Build
-[2018.11.24-05.16.30:148][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
-[2018.11.24-05.16.30:161][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.11.24-05.16.30:190][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.11.24-05.16.30:282][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 91.729ms to complete.
-[2018.11.24-05.16.30:282][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 0.727
-[2018.11.24-05.16.30:373][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.11.24-05.16.30:381][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.11.24-05.16.30:392][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.11.24-05.16.30:401][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.11.24-05.16.30:409][  0]LogCollectionManager: Loaded 0 collections in 0.001775 seconds
-[2018.11.24-05.16.30:449][  0]LogFileCache: Scanning file cache for directory 'C:/Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Saved/Collections/' took 0.01s
-[2018.11.24-05.16.30:449][  0]LogFileCache: Scanning file cache for directory 'C:/Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Content/Developers/weisea3/Collections/' took 0.01s
-[2018.11.24-05.16.30:449][  0]LogFileCache: Scanning file cache for directory 'C:/Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Content/Collections/' took 0.01s
-[2018.11.24-05.16.30:449][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2018.11.24-05.16.30:461][  0]LogContentBrowser: Native class hierarchy populated in 0.0115 seconds. Added 2572 classes and 603 folders.
-[2018.11.24-05.16.30:469][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2018.11.24-05.16.30:517][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
-[2018.11.24-05.16.30:522][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
-[2018.11.24-05.16.30:540][  0]LogSlate: Took 0.000269 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.11.24-05.16.30:543][  0]LogSlate: Took 0.000199 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2018.11.24-05.16.30:548][  0]LogSlate: Took 0.000238 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2018.11.24-05.16.30:666][  0]LogRenderer: Reallocating scene render targets to support 964x460 Format 10 NumSamples 1 (Frame:1).
-[2018.11.24-05.16.30:824][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2018.11.24-05.16.30:824][  0]LogLoad: (Engine Initialization) Total time: 10.01 seconds
-[2018.11.24-05.16.30:824][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2018.11.24-05.16.30:872][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2018.11.24-05.16.30:890][  0]LogSlate: Took 0.000186 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2018.11.24-05.16.30:917][  1]LogAssetRegistry: Asset discovery search completed in 5.1933 seconds
-[2018.11.24-05.16.30:919][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2018.11.24-05.16.30:919][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000171 seconds (updated 0 objects)
-[2018.11.24-05.16.59:373][285]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.11.24-05.17.00:627][360]LogSlate: Took 0.000213 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2018.11.24-05.17.00:656][360]LogAIModule: Creating AISystem for world PizzaTester
-[2018.11.24-05.17.00:660][360]LogAssetEditorManager: Opening Asset editor for World /Game/PizzaTester.PizzaTester
-[2018.11.24-05.17.00:687][360]Cmd: MAP LOAD FILE="../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Content/PizzaTester.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.11.24-05.17.00:687][360]LightingResults: New page: Lighting Build
-[2018.11.24-05.17.00:688][360]LoadErrors: New page: Loading map: PizzaTester.umap
-[2018.11.24-05.17.00:689][360]MapCheck: New page: Map Check
-[2018.11.24-05.17.00:689][360]LightingResults: New page: Lighting Build
-[2018.11.24-05.17.00:715][360]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.11.24-05.17.00:775][360]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.11.24-05.17.00:881][360]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 105.162ms to complete.
-[2018.11.24-05.17.00:883][360]LogFileHelpers: Loading map 'PizzaTester' took 0.196
-[2018.11.24-05.17.15:597][673]LogAssetEditorManager: Opening Asset editor for World /Game/PizzaTester.PizzaTester
-[2018.11.24-05.17.15:624][673]Cmd: MAP LOAD FILE="../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Content/PizzaTester.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.11.24-05.17.15:624][673]LightingResults: New page: Lighting Build
-[2018.11.24-05.17.15:625][673]LoadErrors: New page: Loading map: PizzaTester.umap
-[2018.11.24-05.17.15:626][673]MapCheck: New page: Map Check
-[2018.11.24-05.17.15:626][673]LightingResults: New page: Lighting Build
-[2018.11.24-05.17.15:656][673]LogAIModule: Creating AISystem for world PizzaTester
-[2018.11.24-05.17.15:658][673]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.11.24-05.17.15:718][673]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.11.24-05.17.15:814][673]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 96.985ms to complete.
-[2018.11.24-05.17.15:815][673]LogFileHelpers: Loading map 'PizzaTester' took 0.192
-[2018.11.24-05.17.18:416][818]LogAssetEditorManager: Opening Asset editor for World /Game/PizzaTester.PizzaTester
-[2018.11.24-05.17.18:442][818]Cmd: MAP LOAD FILE="../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Content/PizzaTester.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.11.24-05.17.18:442][818]LightingResults: New page: Lighting Build
-[2018.11.24-05.17.18:443][818]LoadErrors: New page: Loading map: PizzaTester.umap
-[2018.11.24-05.17.18:443][818]MapCheck: New page: Map Check
-[2018.11.24-05.17.18:443][818]LightingResults: New page: Lighting Build
-[2018.11.24-05.17.18:473][818]LogAIModule: Creating AISystem for world PizzaTester
-[2018.11.24-05.17.18:476][818]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.11.24-05.17.18:539][818]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.11.24-05.17.18:631][818]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 91.31ms to complete.
-[2018.11.24-05.17.18:632][818]LogFileHelpers: Loading map 'PizzaTester' took 0.190
-[2018.11.24-05.17.20:848][944]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Pizza_scripting.Pizza_scripting
-[2018.11.24-05.17.21:441][944]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 116 classes and 0 folders.
-[2018.11.24-05.17.22:390][944]LogSlate: Took 0.007031 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2018.11.24-05.19.54:301][ 17]LogSlate: Took 0.004898 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
-[2018.11.24-05.21.57:935][643]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Pizza_scripting" FILE="../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Content/Pizza_scripting.uasset" SILENT=true
-[2018.11.24-05.21.57:971][643]LogSavePackage: Moving '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Saved/Pizza_scriptingFA1D959143F85F55854681BB943BCB88.tmp' to '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Content/Pizza_scripting.uasset'
-[2018.11.24-05.22.43:656][285]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Pizza_scripting" FILE="../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Content/Pizza_scripting.uasset" SILENT=true
-[2018.11.24-05.22.43:680][285]LogSavePackage: Moving '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Saved/Pizza_scriptingA85FC0E444E8CDA49BB30DBA72F816C6.tmp' to '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Content/Pizza_scripting.uasset'
-[2018.11.24-05.26.31:363][419]LogSlate: Window 'Pizza_scripting' being destroyed
-[2018.11.24-05.26.31:371][419]LogSlate: Window 'Pizza_scripting' being destroyed
-[2018.11.24-05.26.33:763][558]LogEditorViewport: Clicking Background
-[2018.11.24-05.26.35:913][687]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.11.24-05.26.54:330][711]LogSlate: Took 0.000228 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2018.11.24-05.28.37:948][745]LogSavePackage: Moving '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Saved/PizzaTester_Auto1DFF6573340B9C7B952ECBC9D9D9C7583.tmp' to '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Saved/Autosaves/Game/PizzaTester_Auto1.umap'
-[2018.11.24-05.28.37:959][745]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/PizzaTester' took 0.081
-[2018.11.24-05.28.37:959][745]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.081
-[2018.11.24-05.28.47:203][773]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.11.24-05.28.54:450][199]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Pizza_scripting.Pizza_scripting
-[2018.11.24-05.37.22:712][506]LogSelectionDetails: Warning: NavigateToFunctionSource:  Unable to find symbols for 'UKismetStringLibrary::EqualEqual_StrStr' [Element not found.]
-[2018.11.24-05.37.31:740][ 21]LogSlate: Took 0.023738 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
-[2018.11.24-05.38.38:445][874]LogSavePackage: Moving '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Saved/PizzaTester_Auto249EF199B47845835AC7228A3E681A22D.tmp' to '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Saved/Autosaves/Game/PizzaTester_Auto2.umap'
-[2018.11.24-05.38.38:452][874]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/PizzaTester' took 0.064
-[2018.11.24-05.38.38:452][874]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.064
-[2018.11.24-05.38.38:456][874]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Pizza_scripting] ([1] browsable assets)...
-[2018.11.24-05.38.38:456][874]OBJ SavePackage: Finished generating thumbnails for package [/Game/Pizza_scripting]
-[2018.11.24-05.38.38:456][874]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Pizza_scripting" FILE="../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Saved/Autosaves/Game/Pizza_scripting_Auto2.uasset" SILENT=false AUTOSAVING=true
-[2018.11.24-05.38.38:492][874]LogSavePackage: Moving '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Saved/Pizza_scripting_Auto2C6A2189D4A48D7D988062D8E7C646742.tmp' to '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Saved/Autosaves/Game/Pizza_scripting_Auto2.uasset'
-[2018.11.24-05.38.38:494][874]LogFileHelpers: Auto-saving content packages took 0.039
-[2018.11.24-05.41.20:928][447]BlueprintLog: New page: Compile Pizza_scripting
-[2018.11.24-05.42.42:066][536]BlueprintLog: New page: Compile Pizza_scripting
-[2018.11.24-05.42.49:556][965]BlueprintLog: New page: Compile Pizza_scripting
-[2018.11.24-05.42.49:564][965]LogClass: Warning: Type mismatch in TheWordOven of Pizza_scripting_C - Previous (ArrayProperty) Current(StrProperty) for package:  FObjectReader
-[2018.11.24-05.46.27:142][883]BlueprintLog: New page: Compile Pizza_scripting
-[2018.11.24-05.48.21:549][698]LogEditorTransaction: Undo Delete current selection
-[2018.11.24-05.52.08:818][220]BlueprintLog: New page: Compile Pizza_scripting
-[2018.11.24-05.52.10:797][322]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Pizza_scripting" FILE="../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Content/Pizza_scripting.uasset" SILENT=true
-[2018.11.24-05.52.10:849][322]LogSavePackage: Moving '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Saved/Pizza_scripting5978481042F312968E276C8945F36375.tmp' to '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Content/Pizza_scripting.uasset'
-[2018.11.24-05.52.19:548][842]LogSlate: Window 'Pizza_scripting' being destroyed
-[2018.11.24-05.52.19:556][842]LogSlate: Window 'Pizza_scripting' being destroyed
-[2018.11.24-05.53.01:148][311]LogMetaData: Removing '/Game/AlexWPizzaStuff/Pizza_scripting.Pizza_scripting:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Pizza_scripting.PackageMetaData'
-[2018.11.24-05.53.01:148][311]LogMetaData: Removing '/Game/AlexWPizzaStuff/Pizza_scripting.Pizza_scripting_C' ref from Metadata '/Game/Pizza_scripting.PackageMetaData'
-[2018.11.24-05.53.01:148][311]LogMetaData: Removing '/Game/AlexWPizzaStuff/Pizza_scripting.Pizza_scripting:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Pizza_scripting.PackageMetaData'
-[2018.11.24-05.53.01:148][311]LogMetaData: Removing '/Game/AlexWPizzaStuff/Pizza_scripting.Pizza_scripting:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Pizza_scripting.PackageMetaData'
-[2018.11.24-05.53.01:148][311]LogMetaData: Removing '/Game/AlexWPizzaStuff/Pizza_scripting.Pizza_scripting:EventGraph.K2Node_Event_2' ref from Metadata '/Game/Pizza_scripting.PackageMetaData'
-[2018.11.24-05.53.01:148][311]LogMetaData: Removing '/Game/AlexWPizzaStuff/Pizza_scripting.SKEL_Pizza_scripting_C' ref from Metadata '/Game/Pizza_scripting.PackageMetaData'
-[2018.11.24-05.53.01:148][311]LogMetaData: Removing '/Game/AlexWPizzaStuff/Pizza_scripting.Pizza_scripting_C:UserConstructionScript' ref from Metadata '/Game/Pizza_scripting.PackageMetaData'
-[2018.11.24-05.53.01:148][311]LogMetaData: Removing '/Game/AlexWPizzaStuff/Pizza_scripting.Pizza_scripting_C:ReceiveHit' ref from Metadata '/Game/Pizza_scripting.PackageMetaData'
-[2018.11.24-05.53.01:148][311]LogMetaData: Removing '/Game/AlexWPizzaStuff/Pizza_scripting.Pizza_scripting_C:DefaultSceneRoot1' ref from Metadata '/Game/Pizza_scripting.PackageMetaData'
-[2018.11.24-05.53.01:148][311]LogMetaData: Removing '/Game/AlexWPizzaStuff/Pizza_scripting.Pizza_scripting_C:IngredientsAdded' ref from Metadata '/Game/Pizza_scripting.PackageMetaData'
-[2018.11.24-05.53.01:148][311]LogMetaData: Removing '/Game/AlexWPizzaStuff/Pizza_scripting.Pizza_scripting_C:IsCooked' ref from Metadata '/Game/Pizza_scripting.PackageMetaData'
-[2018.11.24-05.53.01:148][311]LogMetaData: Removing '/Game/AlexWPizzaStuff/Pizza_scripting.SKEL_Pizza_scripting_C:UserConstructionScript' ref from Metadata '/Game/Pizza_scripting.PackageMetaData'
-[2018.11.24-05.53.01:148][311]LogMetaData: Removing '/Game/AlexWPizzaStuff/Pizza_scripting.SKEL_Pizza_scripting_C:DefaultSceneRoot1' ref from Metadata '/Game/Pizza_scripting.PackageMetaData'
-[2018.11.24-05.53.01:148][311]LogMetaData: Removing '/Game/AlexWPizzaStuff/Pizza_scripting.SKEL_Pizza_scripting_C:IngredientsAdded' ref from Metadata '/Game/Pizza_scripting.PackageMetaData'
-[2018.11.24-05.53.01:148][311]LogMetaData: Removing '/Game/AlexWPizzaStuff/Pizza_scripting.SKEL_Pizza_scripting_C:IsCooked' ref from Metadata '/Game/Pizza_scripting.PackageMetaData'
-[2018.11.24-05.53.01:148][311]LogMetaData: Removing '/Game/AlexWPizzaStuff/Pizza_scripting.SKEL_Pizza_scripting_C:ReceiveHit' ref from Metadata '/Game/Pizza_scripting.PackageMetaData'
-[2018.11.24-05.53.01:149][311]LogMetaData: Removing '/Game/AlexWPizzaStuff/Pizza_scripting.SKEL_Pizza_scripting_C:ReceiveTick' ref from Metadata '/Game/Pizza_scripting.PackageMetaData'
-[2018.11.24-05.53.01:149][311]LogMetaData: Removing '/Game/AlexWPizzaStuff/Pizza_scripting.SKEL_Pizza_scripting_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/Pizza_scripting.PackageMetaData'
-[2018.11.24-05.53.01:149][311]LogMetaData: Removing '/Game/AlexWPizzaStuff/Pizza_scripting.SKEL_Pizza_scripting_C:ReceiveBeginPlay' ref from Metadata '/Game/Pizza_scripting.PackageMetaData'
-[2018.11.24-05.53.01:324][311]LogSavePackage: Moving '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Saved/PizzaTesterD591966541DAF74BA4B8F397CDE34F07.tmp' to '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Content/AlexWPizzaStuff/PizzaTester.umap'
-[2018.11.24-05.53.01:372][311]LogFileHelpers: Saving map 'PizzaTester' took 0.197
-[2018.11.24-05.53.01:376][311]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AlexWPizzaStuff/Pizza_scripting" FILE="../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Content/AlexWPizzaStuff/Pizza_scripting.uasset" SILENT=true
-[2018.11.24-05.53.01:409][311]LogSavePackage: Moving '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Saved/Pizza_scriptingCB36FA7D44DFC54709DE1EAE4C3EABB6.tmp' to '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Content/AlexWPizzaStuff/Pizza_scripting.uasset'
-[2018.11.24-05.53.07:198][636]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/AlexWPizzaStuff/Pizza_scripting.Pizza_scripting
-[2018.11.24-05.53.08:893][708]BlueprintLog: New page: Compile Pizza_scripting
-[2018.11.24-05.53.10:643][798]LogSlate: Window 'Pizza_scripting' being destroyed
-[2018.11.24-05.53.10:649][798]LogSlate: Window 'Pizza_scripting' being destroyed
-[2018.11.24-05.53.21:120][124]LogSlate: Window 'Save Content' being destroyed
-[2018.11.24-05.53.21:306][124]LogSavePackage: Moving '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Saved/PizzaTester91FDC54E47537CA22C51B58D0D3F5F80.tmp' to '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Content/AlexWPizzaStuff/PizzaTester.umap'
-[2018.11.24-05.53.21:346][124]LogFileHelpers: Saving map 'PizzaTester' took 0.190
-[2018.11.24-05.53.21:450][124]LogSlate: Window 'TeamSadMen - Unreal Editor' being destroyed
-[2018.11.24-05.53.21:451][124]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2018.11.24-05.53.21:649][125]Cmd: QUIT_EDITOR
-[2018.11.24-05.53.21:717][125]LogExit: Preparing to exit.
-[2018.11.24-05.53.22:202][125]LogExit: Editor shut down
-[2018.11.24-05.53.22:203][125]LogExit: Transaction tracking system shut down
-[2018.11.24-05.53.22:959][125]LogExit: Object subsystem successfully closed.
-[2018.11.24-05.53.22:981][125]LogShaderCompilers: Display: Shaders left to compile 0
-[2018.11.24-05.53.22:986][125]LogD3D11RHI: Shutdown
-[2018.11.24-05.53.22:986][125]LogD3D11RHI: CleanupD3DDevice
-[2018.11.24-05.53.22:987][125]LogD3D11RHI: ~FD3D11DynamicRHI
-[2018.11.24-05.53.23:012][125]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (614)
-[2018.11.24-05.53.23:012][125]LogModuleManager: Shutting down and abandoning module BlueprintGraph (612)
-[2018.11.24-05.53.23:012][125]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (610)
-[2018.11.24-05.53.23:012][125]LogModuleManager: Shutting down and abandoning module SceneOutliner (608)
-[2018.11.24-05.53.23:012][125]LogModuleManager: Shutting down and abandoning module AddContentDialog (606)
-[2018.11.24-05.53.23:013][125]LogModuleManager: Shutting down and abandoning module WidgetCarousel (605)
-[2018.11.24-05.53.23:013][125]LogModuleManager: Shutting down and abandoning module EditorWidgets (602)
-[2018.11.24-05.53.23:013][125]LogModuleManager: Shutting down and abandoning module CollectionManager (600)
-[2018.11.24-05.53.23:013][125]LogModuleManager: Shutting down and abandoning module StatsViewer (598)
-[2018.11.24-05.53.23:013][125]LogModuleManager: Shutting down and abandoning module FoliageEdit (596)
-[2018.11.24-05.53.23:013][125]LogModuleManager: Shutting down and abandoning module LandscapeEditor (594)
-[2018.11.24-05.53.23:013][125]LogModuleManager: Shutting down and abandoning module MeshPaintMode (592)
-[2018.11.24-05.53.23:013][125]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (590)
-[2018.11.24-05.53.23:013][125]LogModuleManager: Shutting down and abandoning module ActorPickerMode (588)
-[2018.11.24-05.53.23:013][125]LogModuleManager: Shutting down and abandoning module GeometryMode (586)
-[2018.11.24-05.53.23:013][125]LogModuleManager: Shutting down and abandoning module TextureAlignMode (584)
-[2018.11.24-05.53.23:013][125]LogModuleManager: Shutting down and abandoning module BspMode (582)
-[2018.11.24-05.53.23:013][125]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (580)
-[2018.11.24-05.53.23:013][125]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (578)
-[2018.11.24-05.53.23:013][125]LogModuleManager: Shutting down and abandoning module AutomationWorker (576)
-[2018.11.24-05.53.23:013][125]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (574)
-[2018.11.24-05.53.23:013][125]LogModuleManager: Shutting down and abandoning module SequenceRecorder (573)
-[2018.11.24-05.53.23:013][125]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (570)
-[2018.11.24-05.53.23:013][125]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (568)
-[2018.11.24-05.53.23:014][125]LogModuleManager: Shutting down and abandoning module PlacementMode (567)
-[2018.11.24-05.53.23:014][125]LogModuleManager: Shutting down and abandoning module MaterialEditor (566)
-[2018.11.24-05.53.23:014][125]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (562)
-[2018.11.24-05.53.23:014][125]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (560)
-[2018.11.24-05.53.23:014][125]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (558)
-[2018.11.24-05.53.23:014][125]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (556)
-[2018.11.24-05.53.23:014][125]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (554)
-[2018.11.24-05.53.23:014][125]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (552)
-[2018.11.24-05.53.23:014][125]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (550)
-[2018.11.24-05.53.23:014][125]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (548)
-[2018.11.24-05.53.23:014][125]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (546)
-[2018.11.24-05.53.23:014][125]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (544)
-[2018.11.24-05.53.23:014][125]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (542)
-[2018.11.24-05.53.23:014][125]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (540)
-[2018.11.24-05.53.23:014][125]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (538)
-[2018.11.24-05.53.23:014][125]LogModuleManager: Shutting down and abandoning module CharacterAI (536)
-[2018.11.24-05.53.23:014][125]LogModuleManager: Shutting down and abandoning module SmartSnapping (534)
-[2018.11.24-05.53.23:014][125]LogModuleManager: Shutting down and abandoning module SessionServices (532)
-[2018.11.24-05.53.23:014][125]LogModuleManager: Shutting down and abandoning module ViewportSnapping (530)
-[2018.11.24-05.53.23:014][125]LogModuleManager: Shutting down and abandoning module ViewportInteraction (528)
-[2018.11.24-05.53.23:014][125]LogModuleManager: Shutting down and abandoning module ClothPainter (526)
-[2018.11.24-05.53.23:014][125]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (525)
-[2018.11.24-05.53.23:014][125]LogModuleManager: Shutting down and abandoning module LogVisualizer (522)
-[2018.11.24-05.53.23:014][125]LogModuleManager: Shutting down and abandoning module IntroTutorials (520)
-[2018.11.24-05.53.23:014][125]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (519)
-[2018.11.24-05.53.23:014][125]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (516)
-[2018.11.24-05.53.23:014][125]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (514)
-[2018.11.24-05.53.23:014][125]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (512)
-[2018.11.24-05.53.23:014][125]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (510)
-[2018.11.24-05.53.23:014][125]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (509)
-[2018.11.24-05.53.23:348][125]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (506)
-[2018.11.24-05.53.23:348][125]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (504)
-[2018.11.24-05.53.23:348][125]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (502)
-[2018.11.24-05.53.23:348][125]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (500)
-[2018.11.24-05.53.23:348][125]LogModuleManager: Shutting down and abandoning module InputBindingEditor (498)
-[2018.11.24-05.53.23:348][125]LogModuleManager: Shutting down and abandoning module MergeActors (496)
-[2018.11.24-05.53.23:348][125]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (494)
-[2018.11.24-05.53.23:349][125]LogModuleManager: Shutting down and abandoning module LocalizationService (493)
-[2018.11.24-05.53.23:349][125]LogModuleManager: Shutting down and abandoning module HardwareTargeting (490)
-[2018.11.24-05.53.23:349][125]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (488)
-[2018.11.24-05.53.23:349][125]LogModuleManager: Shutting down and abandoning module UndoHistory (486)
-[2018.11.24-05.53.23:349][125]LogModuleManager: Shutting down and abandoning module XmlParser (484)
-[2018.11.24-05.53.23:349][125]LogModuleManager: Shutting down and abandoning module Blutility (482)
-[2018.11.24-05.53.23:349][125]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (480)
-[2018.11.24-05.53.23:349][125]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (479)
-[2018.11.24-05.53.23:349][125]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (476)
-[2018.11.24-05.53.23:349][125]LogModuleManager: Shutting down and abandoning module SettingsEditor (474)
-[2018.11.24-05.53.23:349][125]LogModuleManager: Shutting down and abandoning module ProjectLauncher (472)
-[2018.11.24-05.53.23:349][125]LogModuleManager: Shutting down and abandoning module SessionFrontend (470)
-[2018.11.24-05.53.23:349][125]LogModuleManager: Shutting down and abandoning module ProfilerClient (468)
-[2018.11.24-05.53.23:349][125]LogModuleManager: Shutting down and abandoning module DeviceManager (466)
-[2018.11.24-05.53.23:349][125]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (465)
-[2018.11.24-05.53.23:404][125]LogModuleManager: Shutting down and abandoning module AutomationController (462)
-[2018.11.24-05.53.23:404][125]LogModuleManager: Shutting down and abandoning module AutomationWindow (460)
-[2018.11.24-05.53.23:404][125]LogModuleManager: Shutting down and abandoning module Layers (458)
-[2018.11.24-05.53.23:404][125]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (456)
-[2018.11.24-05.53.23:404][125]LogModuleManager: Shutting down and abandoning module DetailCustomizations (454)
-[2018.11.24-05.53.23:404][125]LogModuleManager: Shutting down and abandoning module PackagesDialog (452)
-[2018.11.24-05.53.23:404][125]LogModuleManager: Shutting down and abandoning module Persona (450)
-[2018.11.24-05.53.23:404][125]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (449)
-[2018.11.24-05.53.23:404][125]LogModuleManager: Shutting down and abandoning module AnimGraph (447)
-[2018.11.24-05.53.23:404][125]LogModuleManager: Shutting down and abandoning module Kismet (444)
-[2018.11.24-05.53.23:411][125]LogModuleManager: Shutting down and abandoning module GraphEditor (442)
-[2018.11.24-05.53.23:411][125]LogModuleManager: Shutting down and abandoning module ClassViewer (440)
-[2018.11.24-05.53.23:411][125]LogModuleManager: Shutting down and abandoning module Toolbox (438)
-[2018.11.24-05.53.23:411][125]LogModuleManager: Shutting down and abandoning module ModuleUI (436)
-[2018.11.24-05.53.23:411][125]LogModuleManager: Shutting down and abandoning module MovieSceneTools (434)
-[2018.11.24-05.53.23:411][125]LogModuleManager: Shutting down and abandoning module OutputLog (432)
-[2018.11.24-05.53.23:411][125]LogModuleManager: Shutting down and abandoning module GammaUI (430)
-[2018.11.24-05.53.23:411][125]LogModuleManager: Shutting down and abandoning module Documentation (428)
-[2018.11.24-05.53.23:411][125]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (426)
-[2018.11.24-05.53.23:411][125]LogModuleManager: Shutting down and abandoning module MovieScene (424)
-[2018.11.24-05.53.23:411][125]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (422)
-[2018.11.24-05.53.23:411][125]LogModuleManager: Shutting down and abandoning module LauncherPlatform (420)
-[2018.11.24-05.53.23:411][125]LogModuleManager: Shutting down and abandoning module AnalyticsET (418)
-[2018.11.24-05.53.23:411][125]LogModuleManager: Shutting down and abandoning module PortalServices (416)
-[2018.11.24-05.53.23:411][125]LogModuleManager: Shutting down and abandoning module PortalRpc (414)
-[2018.11.24-05.53.23:411][125]LogModuleManager: Shutting down and abandoning module MessagingRpc (412)
-[2018.11.24-05.53.23:411][125]LogModuleManager: Shutting down and abandoning module AIModule (410)
-[2018.11.24-05.53.23:411][125]LogModuleManager: Shutting down and abandoning module GameplayDebugger (409)
-[2018.11.24-05.53.23:411][125]LogModuleManager: Shutting down and abandoning module AITestSuite (407)
-[2018.11.24-05.53.23:411][125]LogModuleManager: Shutting down and abandoning module NavigationSystem (405)
-[2018.11.24-05.53.23:411][125]LogModuleManager: Shutting down and abandoning module DesktopPlatform (402)
-[2018.11.24-05.53.23:411][125]LogModuleManager: Shutting down and abandoning module ProfilerService (400)
-[2018.11.24-05.53.23:623][125]LogModuleManager: Shutting down and abandoning module TaskGraph (398)
-[2018.11.24-05.53.23:623][125]LogModuleManager: Shutting down and abandoning module SteamVRController (396)
-[2018.11.24-05.53.23:623][125]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (394)
-[2018.11.24-05.53.23:623][125]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (392)
-[2018.11.24-05.53.23:623][125]LogModuleManager: Shutting down and abandoning module OculusInput (390)
-[2018.11.24-05.53.23:623][125]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (388)
-[2018.11.24-05.53.23:623][125]LogModuleManager: Shutting down and abandoning module EditableMesh (386)
-[2018.11.24-05.53.23:623][125]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (384)
-[2018.11.24-05.53.23:623][125]LogModuleManager: Shutting down and abandoning module CableComponent (382)
-[2018.11.24-05.53.23:623][125]LogModuleManager: Shutting down and abandoning module AudioCapture (380)
-[2018.11.24-05.53.23:624][125]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (378)
-[2018.11.24-05.53.23:624][125]LogModuleManager: Shutting down and abandoning module AndroidPermission (376)
-[2018.11.24-05.53.23:624][125]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (374)
-[2018.11.24-05.53.23:624][125]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (372)
-[2018.11.24-05.53.23:624][125]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (370)
-[2018.11.24-05.53.23:624][125]LogModuleManager: Shutting down and abandoning module MediaCompositing (368)
-[2018.11.24-05.53.23:624][125]LogModuleManager: Shutting down and abandoning module LinearTimecode (366)
-[2018.11.24-05.53.23:624][125]LogModuleManager: Shutting down and abandoning module ImgMedia (364)
-[2018.11.24-05.53.23:628][125]LogModuleManager: Shutting down and abandoning module HTML5Networking (362)
-[2018.11.24-05.53.23:628][125]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (360)
-[2018.11.24-05.53.23:628][125]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (358)
-[2018.11.24-05.53.23:628][125]LogModuleManager: Shutting down and abandoning module BackChannel (356)
-[2018.11.24-05.53.23:628][125]LogModuleManager: Shutting down and abandoning module AppleVision (354)
-[2018.11.24-05.53.23:628][125]LogModuleManager: Shutting down and abandoning module AppleImageUtils (352)
-[2018.11.24-05.53.23:628][125]LogModuleManager: Shutting down and abandoning module AlembicImporter (350)
-[2018.11.24-05.53.23:628][125]LogModuleManager: Shutting down and abandoning module AlembicLibrary (349)
-[2018.11.24-05.53.23:628][125]LogModuleManager: Shutting down and abandoning module GeometryCache (348)
-[2018.11.24-05.53.23:628][125]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (347)
-[2018.11.24-05.53.23:628][125]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (342)
-[2018.11.24-05.53.23:628][125]LogModuleManager: Shutting down and abandoning module DatasmithContent (340)
-[2018.11.24-05.53.23:629][125]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (338)
-[2018.11.24-05.53.23:629][125]LogModuleManager: Shutting down and abandoning module PluginBrowser (336)
-[2018.11.24-05.53.23:629][125]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (334)
-[2018.11.24-05.53.23:629][125]LogModuleManager: Shutting down and abandoning module PolygonModeling (332)
-[2018.11.24-05.53.23:629][125]LogModuleManager: Shutting down and abandoning module MeshEditor (330)
-[2018.11.24-05.53.23:629][125]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (328)
-[2018.11.24-05.53.23:629][125]LogModuleManager: Shutting down and abandoning module CryptoKeys (326)
-[2018.11.24-05.53.23:629][125]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (324)
-[2018.11.24-05.53.23:629][125]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (322)
-[2018.11.24-05.53.23:629][125]LogModuleManager: Shutting down and abandoning module UObjectPlugin (320)
-[2018.11.24-05.53.23:629][125]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (318)
-[2018.11.24-05.53.23:629][125]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (316)
-[2018.11.24-05.53.23:629][125]LogModuleManager: Shutting down and abandoning module GitSourceControl (314)
-[2018.11.24-05.53.23:629][125]LogModuleManager: Shutting down and abandoning module SourceControl (313)
-[2018.11.24-05.53.23:630][125]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (310)
-[2018.11.24-05.53.23:630][125]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (308)
-[2018.11.24-05.53.23:630][125]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (306)
-[2018.11.24-05.53.23:630][125]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (304)
-[2018.11.24-05.53.23:630][125]LogModuleManager: Shutting down and abandoning module Paper2DEditor (302)
-[2018.11.24-05.53.23:630][125]LogModuleManager: Shutting down and abandoning module MeshPaint (301)
-[2018.11.24-05.53.23:630][125]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (298)
-[2018.11.24-05.53.23:630][125]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (296)
-[2018.11.24-05.53.23:630][125]LogModuleManager: Shutting down and abandoning module PhysXVehicles (294)
-[2018.11.24-05.53.23:630][125]LogModuleManager: Shutting down and abandoning module OculusEditor (292)
-[2018.11.24-05.53.23:630][125]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (290)
-[2018.11.24-05.53.23:630][125]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (288)
-[2018.11.24-05.53.23:630][125]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (286)
-[2018.11.24-05.53.23:630][125]LogModuleManager: Shutting down and abandoning module ActorSequence (284)
-[2018.11.24-05.53.23:630][125]LogModuleManager: Shutting down and abandoning module UdpMessaging (282)
-[2018.11.24-05.53.23:731][125]LogModuleManager: Shutting down and abandoning module TcpMessaging (280)
-[2018.11.24-05.53.23:832][125]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (278)
-[2018.11.24-05.53.23:832][125]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (276)
-[2018.11.24-05.53.23:832][125]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (274)
-[2018.11.24-05.53.23:832][125]LogModuleManager: Shutting down and abandoning module FacialAnimation (272)
-[2018.11.24-05.53.23:832][125]LogModuleManager: Shutting down and abandoning module DataValidation (270)
-[2018.11.24-05.53.23:832][125]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (268)
-[2018.11.24-05.53.23:832][125]LogModuleManager: Shutting down and abandoning module LevelEditor (267)
-[2018.11.24-05.53.23:833][125]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (266)
-[2018.11.24-05.53.23:833][125]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (264)
-[2018.11.24-05.53.23:833][125]LogModuleManager: Shutting down and abandoning module MainFrame (262)
-[2018.11.24-05.53.23:833][125]LogModuleManager: Shutting down and abandoning module HotReload (261)
-[2018.11.24-05.53.23:834][125]LogModuleManager: Shutting down and abandoning module ContentBrowser (257)
-[2018.11.24-05.53.23:835][125]LogModuleManager: Shutting down and abandoning module TreeMap (255)
-[2018.11.24-05.53.23:835][125]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (252)
-[2018.11.24-05.53.23:835][125]LogModuleManager: Shutting down and abandoning module AISupportModule (250)
-[2018.11.24-05.53.23:835][125]LogModuleManager: Shutting down and abandoning module Paper2D (248)
-[2018.11.24-05.53.23:835][125]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (246)
-[2018.11.24-05.53.23:835][125]LogModuleManager: Shutting down and abandoning module WmfMedia (244)
-[2018.11.24-05.53.23:836][125]LogModuleManager: Shutting down and abandoning module Media (243)
-[2018.11.24-05.53.23:844][125]LogModuleManager: Shutting down and abandoning module PacketHandler (240)
-[2018.11.24-05.53.23:844][125]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (238)
-[2018.11.24-05.53.23:844][125]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (236)
-[2018.11.24-05.53.23:844][125]LogModuleManager: Shutting down and abandoning module MediaAssets (234)
-[2018.11.24-05.53.23:844][125]LogModuleManager: Shutting down and abandoning module Overlay (232)
-[2018.11.24-05.53.23:844][125]LogModuleManager: Shutting down and abandoning module OverlayEditor (231)
-[2018.11.24-05.53.23:844][125]LogModuleManager: Shutting down and abandoning module VREditor (228)
-[2018.11.24-05.53.23:844][125]LogModuleManager: Shutting down and abandoning module StringTableEditor (226)
-[2018.11.24-05.53.23:844][125]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (224)
-[2018.11.24-05.53.23:844][125]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (222)
-[2018.11.24-05.53.23:844][125]LogModuleManager: Shutting down and abandoning module FunctionalTesting (220)
-[2018.11.24-05.53.23:844][125]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (218)
-[2018.11.24-05.53.23:844][125]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (217)
-[2018.11.24-05.53.23:844][125]LogModuleManager: Shutting down and abandoning module UMG (214)
-[2018.11.24-05.53.23:844][125]LogModuleManager: Shutting down and abandoning module UMGEditor (213)
-[2018.11.24-05.53.23:845][125]LogModuleManager: Shutting down and abandoning module Sequencer (212)
-[2018.11.24-05.53.23:845][125]LogModuleManager: Shutting down and abandoning module MessageLog (209)
-[2018.11.24-05.53.23:845][125]LogModuleManager: Shutting down and abandoning module SlateReflector (204)
-[2018.11.24-05.53.23:845][125]LogModuleManager: Shutting down and abandoning module Slate (202)
-[2018.11.24-05.53.23:845][125]LogModuleManager: Shutting down and abandoning module EditorStyle (200)
-[2018.11.24-05.53.23:848][125]LogModuleManager: Shutting down and abandoning module MRMesh (198)
-[2018.11.24-05.53.23:848][125]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (196)
-[2018.11.24-05.53.23:848][125]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (194)
-[2018.11.24-05.53.23:848][125]LogModuleManager: Shutting down and abandoning module XAudio2 (192)
-[2018.11.24-05.53.23:848][125]LogModuleManager: Shutting down and abandoning module Networking (190)
-[2018.11.24-05.53.23:848][125]LogModuleManager: Shutting down and abandoning module Core (188)
-[2018.11.24-05.53.23:848][125]LogModuleManager: Shutting down and abandoning module LevelSequence (186)
-[2018.11.24-05.53.23:848][125]LogModuleManager: Shutting down and abandoning module KismetCompiler (184)
-[2018.11.24-05.53.23:848][125]LogModuleManager: Shutting down and abandoning module MeshUtilities (182)
-[2018.11.24-05.53.23:848][125]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (181)
-[2018.11.24-05.53.23:848][125]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (180)
-[2018.11.24-05.53.23:848][125]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (179)
-[2018.11.24-05.53.23:848][125]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (177)
-[2018.11.24-05.53.23:848][125]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (175)
-[2018.11.24-05.53.23:848][125]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (173)
-[2018.11.24-05.53.23:848][125]LogModuleManager: Shutting down and abandoning module MaterialBaking (169)
-[2018.11.24-05.53.23:848][125]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (165)
-[2018.11.24-05.53.23:848][125]LogModuleManager: Shutting down and abandoning module DerivedDataCache (162)
-[2018.11.24-05.53.23:938][125]LogDerivedDataCache: Shutdown
-[2018.11.24-05.53.23:938][125]LogModuleManager: Shutting down and abandoning module XGEController (160)
-[2018.11.24-05.53.23:938][125]LogModuleManager: Shutting down and abandoning module TargetPlatform (158)
-[2018.11.24-05.53.23:938][125]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (157)
-[2018.11.24-05.53.23:938][125]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (155)
-[2018.11.24-05.53.23:938][125]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (153)
-[2018.11.24-05.53.23:938][125]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (151)
-[2018.11.24-05.53.23:938][125]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (149)
-[2018.11.24-05.53.23:938][125]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (147)
-[2018.11.24-05.53.23:938][125]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (145)
-[2018.11.24-05.53.23:939][125]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (143)
-[2018.11.24-05.53.23:939][125]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (141)
-[2018.11.24-05.53.23:939][125]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (139)
-[2018.11.24-05.53.23:939][125]LogModuleManager: Shutting down and abandoning module ImageWrapper (138)
-[2018.11.24-05.53.23:939][125]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (135)
-[2018.11.24-05.53.23:939][125]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (133)
-[2018.11.24-05.53.23:939][125]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (131)
-[2018.11.24-05.53.23:939][125]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (129)
-[2018.11.24-05.53.23:939][125]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (127)
-[2018.11.24-05.53.23:939][125]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (125)
-[2018.11.24-05.53.23:939][125]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (123)
-[2018.11.24-05.53.23:939][125]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (121)
-[2018.11.24-05.53.23:939][125]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (119)
-[2018.11.24-05.53.23:939][125]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (117)
-[2018.11.24-05.53.23:941][125]LogModuleManager: Shutting down and abandoning module Messaging (115)
-[2018.11.24-05.53.23:941][125]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (113)
-[2018.11.24-05.53.23:943][125]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (111)
-[2018.11.24-05.53.23:943][125]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (109)
-[2018.11.24-05.53.23:958][125]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (107)
-[2018.11.24-05.53.23:958][125]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (105)
-[2018.11.24-05.53.23:958][125]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (103)
-[2018.11.24-05.53.23:959][125]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (101)
-[2018.11.24-05.53.23:959][125]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (99)
-[2018.11.24-05.53.23:959][125]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (97)
-[2018.11.24-05.53.23:959][125]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (95)
-[2018.11.24-05.53.23:959][125]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (93)
-[2018.11.24-05.53.23:959][125]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (91)
-[2018.11.24-05.53.23:959][125]LogModuleManager: Shutting down and abandoning module InputCore (88)
-[2018.11.24-05.53.23:959][125]LogModuleManager: Shutting down and abandoning module Settings (86)
-[2018.11.24-05.53.23:959][125]LogModuleManager: Shutting down and abandoning module PhysXCooking (84)
-[2018.11.24-05.53.23:959][125]LogModuleManager: Shutting down and abandoning module SteamVR (82)
-[2018.11.24-05.53.23:959][125]LogModuleManager: Shutting down and abandoning module OculusHMD (80)
-[2018.11.24-05.53.23:959][125]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (78)
-[2018.11.24-05.53.23:959][125]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (76)
-[2018.11.24-05.53.23:959][125]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
-[2018.11.24-05.53.23:959][125]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (70)
-[2018.11.24-05.53.23:960][125]LogModuleManager: Shutting down and abandoning module XMPP (65)
-[2018.11.24-05.53.23:960][125]LogModuleManager: Shutting down and abandoning module WebSockets (64)
-[2018.11.24-05.53.23:984][125]LogModuleManager: Shutting down and abandoning module HTTP (61)
-[2018.11.24-05.53.23:984][125]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
-[2018.11.24-05.53.23:984][125]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B82DD75BC-4104-A25F-054F-73A740F298C5%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.20.3-4369336%2B%2B%2BUE4%2BRelease-4.20&UserID=9b600d93496516537ed20ea9b972ed50%7Ccb1c4ce6838b46c39dd2121a03b99467%7Ce95360ea-223d-488d-a65f-55d7beb089fb&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
-[2018.11.24-05.53.24:005][125]LogModuleManager: Shutting down and abandoning module SSL (60)
-[2018.11.24-05.53.24:006][125]LogModuleManager: Shutting down and abandoning module MagicLeapEmulator (56)
-[2018.11.24-05.53.24:006][125]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (54)
-[2018.11.24-05.53.24:006][125]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (52)
-[2018.11.24-05.53.24:006][125]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (50)
-[2018.11.24-05.53.24:006][125]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (48)
-[2018.11.24-05.53.24:006][125]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (46)
-[2018.11.24-05.53.24:006][125]LogModuleManager: Shutting down and abandoning module MagicLeapGestures (44)
-[2018.11.24-05.53.24:006][125]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (42)
-[2018.11.24-05.53.24:006][125]LogModuleManager: Shutting down and abandoning module MagicLeapController (40)
-[2018.11.24-05.53.24:006][125]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
-[2018.11.24-05.53.24:007][125]LogModuleManager: Shutting down and abandoning module MagicLeap (38)
-[2018.11.24-05.53.24:007][125]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
-[2018.11.24-05.53.24:007][125]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
-[2018.11.24-05.53.24:007][125]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
-[2018.11.24-05.53.24:007][125]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
-[2018.11.24-05.53.24:007][125]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
-[2018.11.24-05.53.24:007][125]LogModuleManager: Shutting down and abandoning module Landscape (26)
-[2018.11.24-05.53.24:007][125]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
-[2018.11.24-05.53.24:008][125]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
-[2018.11.24-05.53.24:008][125]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
-[2018.11.24-05.53.24:008][125]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
-[2018.11.24-05.53.24:008][125]LogModuleManager: Shutting down and abandoning module Renderer (16)
-[2018.11.24-05.53.24:008][125]LogModuleManager: Shutting down and abandoning module Engine (14)
-[2018.11.24-05.53.24:008][125]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
-[2018.11.24-05.53.24:008][125]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
-[2018.11.24-05.53.24:008][125]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
-[2018.11.24-05.53.24:008][125]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
-[2018.11.24-05.53.24:008][125]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
-[2018.11.24-05.53.24:008][125]LogModuleManager: Shutting down and abandoning module PakFile (2)
-[2018.11.24-05.53.24:017][125]LogExit: Exiting.
-[2018.11.24-05.53.24:042][125]Log file closed, 11/24/18 00:53:24
+[2018.11.28-01.01.21:255][  0]LogInit: Selected Device Profile: [Windows]
+[2018.11.28-01.01.21:255][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.11.28-01.01.21:276][  0]LogHAL: Display: Platform has ~ 16 GB [16914079744 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2018.11.28-01.01.21:277][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2018.11.28-01.01.21:277][  0]LogInit: Going up to parent DeviceProfile []
+[2018.11.28-01.01.21:277][  0]LogInit: Computer: DESKTOP-3J9G0A4
+[2018.11.28-01.01.21:277][  0]LogInit: User: weisea3
+[2018.11.28-01.01.21:277][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.11.28-01.01.21:277][  0]LogInit: High frequency timer resolution =2.531253 MHz
+[2018.11.28-01.01.21:277][  0]LogMemory: Memory total: Physical=15.8GB (16GB approx)
+[2018.11.28-01.01.21:277][  0]LogMemory: Platform Memory Stats for Windows
+[2018.11.28-01.01.21:277][  0]LogMemory: Process Physical Memory: 99.52 MB used, 99.52 MB peak
+[2018.11.28-01.01.21:277][  0]LogMemory: Process Virtual Memory: 91.04 MB used, 91.04 MB peak
+[2018.11.28-01.01.21:277][  0]LogMemory: Physical Memory: 10088.12 MB used,  6042.41 MB free, 16130.52 MB total
+[2018.11.28-01.01.21:277][  0]LogMemory: Virtual Memory: 4640.40 MB used,  6042.41 MB free, 134217728.00 MB total
+[2018.11.28-01.01.21:304][  0]LogInit: Using OS detected language (en-US).
+[2018.11.28-01.01.21:304][  0]LogInit: Using OS detected locale (en-US).
+[2018.11.28-01.01.21:305][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.11.28-01.01.21:769][  0]LogStreaming: Display: Took  0.465s to InitEngineTextLocalization.
+[2018.11.28-01.01.21:770][  0]LogInit: Setting process to per monitor DPI aware
+[2018.11.28-01.01.21:825][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.11.28-01.01.21:825][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.11.28-01.01.22:132][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.11.28-01.01.22:132][  0]LogD3D11RHI: D3D11 adapters:
+[2018.11.28-01.01.22:195][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960M' (Feature Level 11_0)
+[2018.11.28-01.01.22:195][  0]LogD3D11RHI:       2010/0/8065 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.11.28-01.01.22:208][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
+[2018.11.28-01.01.22:208][  0]LogD3D11RHI:       128/0/8065 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2018.11.28-01.01.22:211][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.11.28-01.01.22:211][  0]LogD3D11RHI:       0/0/8065 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.11.28-01.01.22:211][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.11.28-01.01.22:261][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.11.28-01.01.22:261][  0]LogD3D11RHI:     GPU DeviceId: 0x139b (for the marketing name, search the web for "GPU Device Id")
+[2018.11.28-01.01.22:261][  0]LogWindows: EnumDisplayDevices:
+[2018.11.28-01.01.22:261][  0]LogWindows:    0. 'Intel(R) HD Graphics 530' (P:1 D:1)
+[2018.11.28-01.01.22:261][  0]LogWindows:    1. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2018.11.28-01.01.22:262][  0]LogWindows:    2. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2018.11.28-01.01.22:262][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.11.28-01.01.22:262][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960M
+[2018.11.28-01.01.22:262][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.11.28-01.01.22:262][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.11.28-01.01.22:262][  0]LogRHI: Texture pool is 1407 MB (70% of 2010 MB)
+[2018.11.28-01.01.22:306][  0]LogD3D11RHI: Async texture creation enabled
+[2018.11.28-01.01.22:353][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.11.28-01.01.22:354][  0]LogShaderCompilers: Guid format shader working directory is -15 characters bigger than the processId version (../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Intermediate/Shaders/WorkingDirectory/9268/).
+[2018.11.28-01.01.22:354][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/weisea3/AppData/Local/Temp/UnrealShaderWorkingDir/3B9E79C94EC5E5A66486B592D5ACA5D3/'.
+[2018.11.28-01.01.22:805][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.11.28-01.01.22:827][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.11.28-01.01.22:845][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.11.28-01.01.22:866][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.11.28-01.01.22:890][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.11.28-01.01.22:915][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.11.28-01.01.22:934][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.11.28-01.01.22:962][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.11.28-01.01.22:974][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.11.28-01.01.23:107][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.28-01.01.23:107][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.28-01.01.23:108][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.28-01.01.23:108][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.28-01.01.23:108][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.28-01.01.23:108][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.28-01.01.23:108][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.28-01.01.23:108][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.28-01.01.23:108][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.28-01.01.23:108][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.28-01.01.23:108][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.28-01.01.23:108][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.28-01.01.23:108][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.28-01.01.23:108][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.28-01.01.23:108][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.28-01.01.23:108][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.28-01.01.23:108][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.28-01.01.23:108][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.28-01.01.23:110][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.11.28-01.01.23:181][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.11.28-01.01.23:181][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.11.28-01.01.23:214][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.11.28-01.01.23:214][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.11.28-01.01.23:234][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.11.28-01.01.23:257][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.11.28-01.01.23:277][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.11.28-01.01.23:299][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.11.28-01.01.23:318][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2018.11.28-01.01.23:318][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.11.28-01.01.23:413][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.11.28-01.01.23:413][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.11.28-01.01.23:413][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.11.28-01.01.24:586][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.11.28-01.01.24:668][  0]LogDerivedDataCache: Loaded boot cache 0.08s 71MB C:/Users/weisea3/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.11.28-01.01.24:668][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/weisea3/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2018.11.28-01.01.24:668][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.11.28-01.01.24:668][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.11.28-01.01.24:668][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.11.28-01.01.24:668][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.11.28-01.01.24:690][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.11.28-01.01.24:704][  0]LogDerivedDataCache: Using Local data cache path C:/Users/weisea3/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.11.28-01.01.24:704][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.11.28-01.01.24:704][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.11.28-01.01.24:733][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.11.28-01.01.24:735][  0]LogSlate: Using FreeType 2.6.0
+[2018.11.28-01.01.24:735][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.11.28-01.01.24:838][  0]LogAssetRegistry: FAssetRegistry took 0.0305 seconds to start up
+[2018.11.28-01.01.25:389][  0]LogInit: Selected Device Profile: [Windows]
+[2018.11.28-01.01.25:471][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.11.28-01.01.25:478][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.11.28-01.01.25:478][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2018.11.28-01.01.25:479][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.11.28-01.01.25:479][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.11.28-01.01.25:633][  0]LogNetVersion: TeamSadMen 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 1220547581)
+[2018.11.28-01.01.26:612][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.282895 seconds
+[2018.11.28-01.01.26:623][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2018.11.28-01.01.26:623][  0]LogUObjectAllocator: 6690864 out of 0 bytes used by permanent object pool.
+[2018.11.28-01.01.26:623][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.11.28-01.01.27:893][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.11.28-01.01.27:907][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.11.28-01.01.28:117][  0]SourceControl: Source control is disabled
+[2018.11.28-01.01.28:117][  0]SourceControl: Source control is disabled
+[2018.11.28-01.01.28:120][  0]SourceControl: Source control is disabled
+[2018.11.28-01.01.28:121][  0]SourceControl: Source control is disabled
+[2018.11.28-01.01.28:348][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.11.28-01.01.28:508][  0]LogOcInput: OculusInput pre-init called
+[2018.11.28-01.01.28:601][  0]LogEngine: Initializing Engine...
+[2018.11.28-01.01.28:602][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.11.28-01.01.28:603][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.11.28-01.01.28:603][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.11.28-01.01.28:603][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.11.28-01.01.28:603][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.11.28-01.01.28:929][  0]LogInit: Initializing FReadOnlyCVARCache
+[2018.11.28-01.01.28:949][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.11.28-01.01.28:981][  0]LogInit: XAudio2 using 'Headphones (2- E7 Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.11.28-01.01.29:003][  0]LogInit: FAudioDevice initialized.
+[2018.11.28-01.01.29:004][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2018.11.28-01.01.29:074][  0]LogDerivedDataCache: Saved boot cache 0.07s 71MB C:/Users/weisea3/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.11.28-01.01.29:099][  0]LogInit: Texture streaming: Enabled
+[2018.11.28-01.01.29:129][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.11.28-01.01.29:158][  0]LogInit: Transaction tracking system initialized
+[2018.11.28-01.01.29:193][  0]BlueprintLog: New page: Editor Load
+[2018.11.28-01.01.29:338][  0]LocalizationService: Localization service is disabled
+[2018.11.28-01.01.29:753][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.11.28-01.01.29:753][  0]LogCook: Display: Mobile HDR setting 1
+[2018.11.28-01.01.29:754][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.11.28-01.01.29:754][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.11.28-01.01.29:754][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.11.28-01.01.29:754][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.11.28-01.01.29:754][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.11.28-01.01.29:826][  0]LogFileCache: Scanning file cache for directory 'C:/Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Content/' took 0.05s
+[2018.11.28-01.01.29:939][  0]SourceControl: Source control is disabled
+[2018.11.28-01.01.29:939][  0]Cmd: MAP LOAD FILE="../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.11.28-01.01.29:947][  0]LightingResults: New page: Lighting Build
+[2018.11.28-01.01.29:951][  0]MapCheck: New page: Map Check
+[2018.11.28-01.01.29:951][  0]LightingResults: New page: Lighting Build
+[2018.11.28-01.01.31:292][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2018.11.28-01.01.31:335][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.11.28-01.01.31:368][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.11.28-01.01.31:491][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 122.54ms to complete.
+[2018.11.28-01.01.31:491][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 1.552
+[2018.11.28-01.01.31:683][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.28-01.01.31:698][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.28-01.01.31:711][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.28-01.01.31:724][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.28-01.01.31:747][  0]LogCollectionManager: Loaded 0 collections in 0.002903 seconds
+[2018.11.28-01.01.31:808][  0]LogFileCache: Scanning file cache for directory 'C:/Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Saved/Collections/' took 0.01s
+[2018.11.28-01.01.31:808][  0]LogFileCache: Scanning file cache for directory 'C:/Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Content/Developers/weisea3/Collections/' took 0.01s
+[2018.11.28-01.01.31:808][  0]LogFileCache: Scanning file cache for directory 'C:/Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Content/Collections/' took 0.01s
+[2018.11.28-01.01.31:808][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.11.28-01.01.31:826][  0]LogContentBrowser: Native class hierarchy populated in 0.0166 seconds. Added 2572 classes and 603 folders.
+[2018.11.28-01.01.31:844][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2018.11.28-01.01.32:521][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.11.28-01.01.32:536][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2018.11.28-01.01.32:606][  0]LogSlate: Took 0.000222 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.11.28-01.01.32:610][  0]LogSlate: Took 0.000251 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.11.28-01.01.32:631][  0]LogSlate: Took 0.009721 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.11.28-01.01.33:089][  0]LogRenderer: Reallocating scene render targets to support 964x460 Format 10 NumSamples 1 (Frame:1).
+[2018.11.28-01.01.33:332][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2018.11.28-01.01.33:332][  0]LogLoad: (Engine Initialization) Total time: 14.14 seconds
+[2018.11.28-01.01.33:332][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.11.28-01.01.33:352][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.11.28-01.01.33:389][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.11.28-01.01.33:504][  2]LogAssetRegistry: Asset discovery search completed in 8.6875 seconds
+[2018.11.28-01.01.33:507][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.11.28-01.01.33:507][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000096 seconds (updated 0 objects)
+[2018.11.28-01.01.33:649][  2]LogSlate: Took 0.013724 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.11.28-01.01.39:419][346]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.28-01.01.39:678][361]LogSlate: Took 0.000273 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.11.28-01.01.39:727][361]LogAIModule: Creating AISystem for world PizzaTester
+[2018.11.28-01.01.39:733][361]LogAssetEditorManager: Opening Asset editor for World /Game/AlexWPizzaStuff/PizzaTester.PizzaTester
+[2018.11.28-01.01.39:763][361]Cmd: MAP LOAD FILE="../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Content/AlexWPizzaStuff/PizzaTester.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.11.28-01.01.39:763][361]LightingResults: New page: Lighting Build
+[2018.11.28-01.01.39:764][361]LoadErrors: New page: Loading map: PizzaTester.umap
+[2018.11.28-01.01.39:765][361]MapCheck: New page: Map Check
+[2018.11.28-01.01.39:765][361]LightingResults: New page: Lighting Build
+[2018.11.28-01.01.39:804][361]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.11.28-01.01.39:880][361]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.11.28-01.01.40:000][361]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 119.837ms to complete.
+[2018.11.28-01.01.40:002][361]LogFileHelpers: Loading map 'PizzaTester' took 0.240
+[2018.11.28-01.01.44:649][635]LogEditorViewport: Clicking on Actor (LMB): Pizza_scripting_C (Pizza_scripting)
+[2018.11.28-01.01.46:749][753]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.28-01.01.48:108][834]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.28-01.01.48:114][834]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/AlexWPizzaStuff/Pizza_scripting.Pizza_scripting
+[2018.11.28-01.01.49:206][834]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0015 seconds. Added 116 classes and 0 folders.
+[2018.11.28-01.01.50:646][834]LogSlate: Took 0.007585 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.11.28-01.04.05:942][364]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AlexWPizzaStuff/Pizza_scripting" FILE="../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Content/AlexWPizzaStuff/Pizza_scripting.uasset" SILENT=true
+[2018.11.28-01.04.06:065][364]LogSavePackage: Moving '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Saved/Pizza_scripting4CF8374A4C7479C03389F1A38FF574C8.tmp' to '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Content/AlexWPizzaStuff/Pizza_scripting.uasset'
+[2018.11.28-01.04.08:417][456]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.28-01.04.15:303][788]LogSlate: Window 'Pizza_scripting' being destroyed
+[2018.11.28-01.04.16:037][832]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.28-01.04.27:407][187]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.28-01.04.27:601][197]LogActorFactory: Actor Factory created Cube
+[2018.11.28-01.04.28:980][279]LogActorFactory: Actor Factory created Cube
+[2018.11.28-01.04.50:539][553]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.28-01.05.32:882][ 87]LogSlate: Took 0.008339 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.11.28-01.06.12:073][412]Cmd: SELECT NONE
+[2018.11.28-01.06.15:096][593]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.28-01.07.41:185][214]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (pepperoni test)
+[2018.11.28-01.07.41:227][214]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.28-01.12.58:913][438]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.28-01.12.58:943][438]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.11.28-01.12.58:950][438]LogPlayLevel: [PlayLevel] Compiling Pizza_scripting before play...
+[2018.11.28-01.12.59:151][438]LogPlayLevel: PlayLevel: Blueprint regeneration took 208 ms (1 blueprints)
+[2018.11.28-01.12.59:169][438]PIE: New page: PIE session: PizzaTester (Nov 27, 2018, 3:12:59 PM)
+[2018.11.28-01.12.59:169][438]LogPlayLevel: Creating play world package: /Game/AlexWPizzaStuff/UEDPIE_0_PizzaTester
+[2018.11.28-01.12.59:172][438]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002735s)
+[2018.11.28-01.12.59:173][438]LogAIModule: Creating AISystem for world PizzaTester
+[2018.11.28-01.12.59:174][438]LogPlayLevel: PIE: World Init took: (0.002185s)
+[2018.11.28-01.12.59:175][438]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/AlexWPizzaStuff/PizzaTester.PizzaTester to /Game/AlexWPizzaStuff/UEDPIE_0_PizzaTester.PizzaTester (0.005468s)
+[2018.11.28-01.12.59:218][438]LogInit: XAudio2 using 'Headphones (2- E7 Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.11.28-01.12.59:229][438]LogInit: FAudioDevice initialized.
+[2018.11.28-01.12.59:275][438]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.11.28-01.12.59:281][438]LogWorld: Bringing World /Game/AlexWPizzaStuff/UEDPIE_0_PizzaTester.PizzaTester up for play (max tick rate 60) at 2018.11.27-20.12.59
+[2018.11.28-01.12.59:284][438]LogWorld: Bringing up level for play took: 0.003750
+[2018.11.28-01.12.59:321][438]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 10 classes and 0 folders.
+[2018.11.28-01.12.59:332][438]PIE: Play in editor start time for /Game/AlexWPizzaStuff/UEDPIE_0_PizzaTester 1.315
+[2018.11.28-01.13.09:906][ 64]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.28-01.13.09:945][ 64]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.28-01.13.09:977][ 64]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.28-01.13.10:009][ 66]LogPlayLevel: Display: Destroying online subsystem :Context_4
+[2018.11.28-01.13.32:572][405]Cmd: TRANSACTION UNDO
+[2018.11.28-01.13.32:572][405]LogEditorTransaction: Undo Add Component
+[2018.11.28-01.14.11:371][713]LogSlate: Window 'Select Path' being destroyed
+[2018.11.28-01.14.11:472][713]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/AlexWPizzaStuff/pepperoni_test_Blueprint.pepperoni_test_Blueprint
+[2018.11.28-01.14.11:914][714]LogRenderer: Reallocating scene render targets to support 964x572 Format 10 NumSamples 1 (Frame:1).
+[2018.11.28-01.15.09:138][446]LogSavePackage: Moving '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Saved/PizzaTester_Auto1FF97EA8A42FD6C5BFD36F19B94FF248B.tmp' to '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Saved/Autosaves/Game/AlexWPizzaStuff/PizzaTester_Auto1.umap'
+[2018.11.28-01.15.09:146][446]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/AlexWPizzaStuff/PizzaTester' took 0.070
+[2018.11.28-01.15.09:146][446]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.070
+[2018.11.28-01.15.09:150][446]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/AlexWPizzaStuff/pepperoni_test_Blueprint] ([1] browsable assets)...
+[2018.11.28-01.15.09:219][446]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/AlexWPizzaStuff/pepperoni_test_Blueprint.pepperoni_test_Blueprint]
+[2018.11.28-01.15.09:220][446]OBJ SavePackage: Finished generating thumbnails for package [/Game/AlexWPizzaStuff/pepperoni_test_Blueprint]
+[2018.11.28-01.15.09:248][446]LogSavePackage: Moving '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Saved/pepperoni_test_Blueprint_Auto179ECADE84D5A484D45EB698470FEAE92.tmp' to '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Saved/Autosaves/Game/AlexWPizzaStuff/pepperoni_test_Blueprint_Auto1.uasset'
+[2018.11.28-01.15.09:251][446]LogFileHelpers: Auto-saving content packages took 0.103
+[2018.11.28-01.17.05:529][422]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/AlexWPizzaStuff/pepperoni_test_Blueprint.pepperoni_test_Blueprint
+[2018.11.28-01.17.30:662][721]LogSavePackage: Moving '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Saved/pepperoni_test_Blueprint4AFADA0A43F1FF56BBF6228B86B38869.tmp' to '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Content/AlexWPizzaStuff/pepperoni_test_Blueprint.uasset'
+[2018.11.28-01.17.35:651][ 20]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.28-01.17.35:681][ 20]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.28-01.17.35:682][ 20]PIE: New page: PIE session: PizzaTester (Nov 27, 2018, 3:17:35 PM)
+[2018.11.28-01.17.35:682][ 20]LogPlayLevel: Creating play world package: /Game/AlexWPizzaStuff/UEDPIE_0_PizzaTester
+[2018.11.28-01.17.35:683][ 20]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000752s)
+[2018.11.28-01.17.35:683][ 20]LogAIModule: Creating AISystem for world PizzaTester
+[2018.11.28-01.17.35:683][ 20]LogPlayLevel: PIE: World Init took: (0.000600s)
+[2018.11.28-01.17.35:683][ 20]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/AlexWPizzaStuff/PizzaTester.PizzaTester to /Game/AlexWPizzaStuff/UEDPIE_0_PizzaTester.PizzaTester (0.001472s)
+[2018.11.28-01.17.35:723][ 20]LogInit: XAudio2 using 'Headphones (2- E7 Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.11.28-01.17.35:734][ 20]LogInit: FAudioDevice initialized.
+[2018.11.28-01.17.35:765][ 20]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.11.28-01.17.35:766][ 20]LogWorld: Bringing World /Game/AlexWPizzaStuff/UEDPIE_0_PizzaTester.PizzaTester up for play (max tick rate 60) at 2018.11.27-20.17.35
+[2018.11.28-01.17.35:766][ 20]LogWorld: Bringing up level for play took: 0.000439
+[2018.11.28-01.17.35:780][ 20]PIE: Play in editor start time for /Game/AlexWPizzaStuff/UEDPIE_0_PizzaTester -0.237
+[2018.11.28-01.17.43:829][503]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.28-01.17.48:503][783]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.28-01.17.49:857][864]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.28-01.17.49:901][864]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.28-01.17.49:928][864]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.28-01.17.49:958][866]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2018.11.28-01.19.14:189][845]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.28-01.19.14:370][854]LogMaterial: Display: Missing cached shader map for material LayerVisMaterial, compiling. 
+[2018.11.28-01.19.14:427][854]LogShaderCompilers: Display: Shaders left to compile 8
+[2018.11.28-01.19.14:427][854]LogMaterial: Display: Missing cached shader map for material SelectBrushMaterial, compiling. 
+[2018.11.28-01.19.14:468][854]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.11.28-01.19.14:468][854]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.11.28-01.19.14:468][854]LogMaterial: Display: Missing cached shader map for material SelectBrushMaterial, compiling. 
+[2018.11.28-01.19.14:522][854]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.11.28-01.19.14:522][854]LogMaterial: Display: Missing cached shader map for material MaskBrushMaterial, compiling. 
+[2018.11.28-01.19.14:616][854]LogMaterial: Display: Missing cached shader map for material LandscapeLayerUsageMaterial, compiling. 
+[2018.11.28-01.19.14:717][854]LogMaterial: Display: Missing cached shader map for material CircleBrushMaterial, compiling. 
+[2018.11.28-01.19.14:741][854]LogMaterial: Display: Missing cached shader map for material CircleBrushMaterial, compiling. 
+[2018.11.28-01.19.14:772][854]LogMaterial: Display: Missing cached shader map for material CircleBrushMaterial, compiling. 
+[2018.11.28-01.19.14:802][854]LogMaterial: Display: Missing cached shader map for material CircleBrushMaterial, compiling. 
+[2018.11.28-01.19.14:843][854]LogMaterial: Display: Missing cached shader map for material AlphaBrushMaterial, compiling. 
+[2018.11.28-01.19.14:870][854]LogMaterial: Display: Missing cached shader map for material CircleBrushMaterial, compiling. 
+[2018.11.28-01.19.14:899][854]LogMaterial: Display: Missing cached shader map for material MaskBrushMaterial, compiling. 
+[2018.11.28-01.19.14:924][854]LogTexture: Display: Building textures: Texture2D_2 (G8, 128X128)
+[2018.11.28-01.19.17:974][ 27]LogShaderCompilers: Display: Shaders left to compile 178
+[2018.11.28-01.19.19:245][101]LogShaderCompilers: Display: Shaders left to compile 168
+[2018.11.28-01.19.19:347][107]LogShaderCompilers: Display: Shaders left to compile 158
+[2018.11.28-01.19.19:403][110]LogShaderCompilers: Display: Shaders left to compile 148
+[2018.11.28-01.19.22:089][269]LogShaderCompilers: Display: Shaders left to compile 138
+[2018.11.28-01.19.22:988][322]LogShaderCompilers: Display: Shaders left to compile 128
+[2018.11.28-01.19.23:441][349]LogShaderCompilers: Display: Shaders left to compile 118
+[2018.11.28-01.19.23:457][350]LogShaderCompilers: Display: Shaders left to compile 108
+[2018.11.28-01.19.26:489][530]LogShaderCompilers: Display: Shaders left to compile 98
+[2018.11.28-01.19.27:340][579]LogShaderCompilers: Display: Shaders left to compile 88
+[2018.11.28-01.19.27:887][611]LogShaderCompilers: Display: Shaders left to compile 78
+[2018.11.28-01.19.27:910][612]LogShaderCompilers: Display: Shaders left to compile 68
+[2018.11.28-01.19.30:835][784]LogShaderCompilers: Display: Shaders left to compile 58
+[2018.11.28-01.19.31:524][825]LogShaderCompilers: Display: Shaders left to compile 48
+[2018.11.28-01.19.32:119][861]LogShaderCompilers: Display: Shaders left to compile 38
+[2018.11.28-01.19.32:189][865]LogShaderCompilers: Display: Shaders left to compile 28
+[2018.11.28-01.19.35:165][ 40]LogShaderCompilers: Display: Shaders left to compile 18
+[2018.11.28-01.19.35:795][ 78]LogShaderCompilers: Display: Shaders left to compile 8
+[2018.11.28-01.19.50:679][960]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.28-01.20.08:458][ 13]Cmd: TRANSACTION UNDO
+[2018.11.28-01.20.08:459][ 13]LogEditorTransaction: Undo Edit Material
+[2018.11.28-01.20.23:615][911]LogTexture: Display: Building textures: Texture2D_0 (BGRA8, 512X512)
+[2018.11.28-01.20.23:631][911]LogMaterial: Display: Missing cached shader map for material BaseMaterial, compiling. 
+[2018.11.28-01.20.23:717][911]LogShaderCompilers: Display: Shaders left to compile 60
+[2018.11.28-01.20.23:717][911]LogShaderCompilers: Display: Shaders left to compile 50
+[2018.11.28-01.20.23:717][911]LogShaderCompilers: Display: Shaders left to compile 40
+[2018.11.28-01.20.23:717][911]LogShaderCompilers: Display: Shaders left to compile 30
+[2018.11.28-01.20.27:426][117]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.11.28-01.20.27:496][121]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.11.28-01.20.49:033][408]Cmd: TRANSACTION UNDO
+[2018.11.28-01.20.49:033][408]LogEditorTransaction: Undo Create Actors
+[2018.11.28-01.20.51:393][549]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.28-01.20.51:501][555]LogActorFactory: Actor Factory created Cube
+[2018.11.28-01.20.53:086][650]LogActorFactory: Actor Factory created Cube
+[2018.11.28-01.20.56:069][826]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.28-01.21.04:861][351]Cmd: TRANSACTION UNDO
+[2018.11.28-01.21.04:861][351]LogEditorTransaction: Undo Create Actors
+[2018.11.28-01.21.05:490][385]Cmd: TRANSACTION UNDO
+[2018.11.28-01.21.05:490][385]LogEditorTransaction: Undo Create Actors
+[2018.11.28-01.21.28:257][750]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.28-01.21.33:089][ 37]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.28-01.21.53:428][253]Cmd: TRANSACTION UNDO
+[2018.11.28-01.21.53:428][253]LogEditorTransaction: Undo Edit Source Radius
+[2018.11.28-01.22.11:469][334]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.28-01.22.11:491][334]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.28-01.22.11:491][334]PIE: New page: PIE session: PizzaTester (Nov 27, 2018, 3:22:11 PM)
+[2018.11.28-01.22.11:491][334]LogPlayLevel: Creating play world package: /Game/AlexWPizzaStuff/UEDPIE_0_PizzaTester
+[2018.11.28-01.22.11:506][334]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015215s)
+[2018.11.28-01.22.11:507][334]LogAIModule: Creating AISystem for world PizzaTester
+[2018.11.28-01.22.11:507][334]LogPlayLevel: PIE: World Init took: (0.000775s)
+[2018.11.28-01.22.11:507][334]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/AlexWPizzaStuff/PizzaTester.PizzaTester to /Game/AlexWPizzaStuff/UEDPIE_0_PizzaTester.PizzaTester (0.016131s)
+[2018.11.28-01.22.11:548][334]LogInit: XAudio2 using 'Headphones (2- E7 Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.11.28-01.22.11:558][334]LogInit: FAudioDevice initialized.
+[2018.11.28-01.22.11:591][334]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.11.28-01.22.11:595][334]LogWorld: Bringing World /Game/AlexWPizzaStuff/UEDPIE_0_PizzaTester.PizzaTester up for play (max tick rate 60) at 2018.11.27-20.22.11
+[2018.11.28-01.22.11:595][334]LogWorld: Bringing up level for play took: 0.002642
+[2018.11.28-01.22.11:610][334]PIE: Play in editor start time for /Game/AlexWPizzaStuff/UEDPIE_0_PizzaTester -0.407
+[2018.11.28-01.22.30:713][479]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.28-01.22.30:759][479]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.28-01.22.30:793][479]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.28-01.22.30:849][480]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2018.11.28-01.23.06:816][841]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.28-01.23.14:457][297]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.28-01.23.14:607][306]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.28-01.23.14:627][306]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.28-01.23.14:628][306]PIE: New page: PIE session: PizzaTester (Nov 27, 2018, 3:23:14 PM)
+[2018.11.28-01.23.14:628][306]LogPlayLevel: Creating play world package: /Game/AlexWPizzaStuff/UEDPIE_0_PizzaTester
+[2018.11.28-01.23.14:641][306]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013429s)
+[2018.11.28-01.23.14:642][306]LogAIModule: Creating AISystem for world PizzaTester
+[2018.11.28-01.23.14:642][306]LogPlayLevel: PIE: World Init took: (0.000641s)
+[2018.11.28-01.23.14:642][306]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/AlexWPizzaStuff/PizzaTester.PizzaTester to /Game/AlexWPizzaStuff/UEDPIE_0_PizzaTester.PizzaTester (0.014193s)
+[2018.11.28-01.23.14:684][306]LogInit: XAudio2 using 'Headphones (2- E7 Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.11.28-01.23.14:694][306]LogInit: FAudioDevice initialized.
+[2018.11.28-01.23.14:726][306]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.11.28-01.23.14:730][306]LogWorld: Bringing World /Game/AlexWPizzaStuff/UEDPIE_0_PizzaTester.PizzaTester up for play (max tick rate 60) at 2018.11.27-20.23.14
+[2018.11.28-01.23.14:731][306]LogWorld: Bringing up level for play took: 0.004183
+[2018.11.28-01.23.14:747][306]PIE: Play in editor start time for /Game/AlexWPizzaStuff/UEDPIE_0_PizzaTester 0.73
+[2018.11.28-01.23.30:655][260]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.28-01.23.30:694][260]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.28-01.23.30:728][260]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.28-01.23.30:781][261]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2018.11.28-01.23.37:012][631]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.28-01.23.55:511][739]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.28-01.24.59:289][557]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.28-01.24.59:311][557]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.28-01.24.59:311][557]PIE: New page: PIE session: PizzaTester (Nov 27, 2018, 3:24:59 PM)
+[2018.11.28-01.24.59:311][557]LogPlayLevel: Creating play world package: /Game/AlexWPizzaStuff/UEDPIE_0_PizzaTester
+[2018.11.28-01.24.59:328][557]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016670s)
+[2018.11.28-01.24.59:329][557]LogAIModule: Creating AISystem for world PizzaTester
+[2018.11.28-01.24.59:329][557]LogPlayLevel: PIE: World Init took: (0.000875s)
+[2018.11.28-01.24.59:329][557]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/AlexWPizzaStuff/PizzaTester.PizzaTester to /Game/AlexWPizzaStuff/UEDPIE_0_PizzaTester.PizzaTester (0.017744s)
+[2018.11.28-01.24.59:373][557]LogInit: XAudio2 using 'Headphones (2- E7 Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.11.28-01.24.59:382][557]LogInit: FAudioDevice initialized.
+[2018.11.28-01.24.59:414][557]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.11.28-01.24.59:418][557]LogWorld: Bringing World /Game/AlexWPizzaStuff/UEDPIE_0_PizzaTester.PizzaTester up for play (max tick rate 60) at 2018.11.27-20.24.59
+[2018.11.28-01.24.59:418][557]LogWorld: Bringing up level for play took: 0.002599
+[2018.11.28-01.24.59:433][557]PIE: Play in editor start time for /Game/AlexWPizzaStuff/UEDPIE_0_PizzaTester -0.584
+[2018.11.28-01.25.18:698][706]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.28-01.25.18:738][706]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.28-01.25.18:767][706]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.28-01.25.18:799][708]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2018.11.28-01.25.21:133][841]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.28-01.25.21:158][841]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.28-01.25.21:158][841]PIE: New page: PIE session: PizzaTester (Nov 27, 2018, 3:25:21 PM)
+[2018.11.28-01.25.21:158][841]LogPlayLevel: Creating play world package: /Game/AlexWPizzaStuff/UEDPIE_0_PizzaTester
+[2018.11.28-01.25.21:170][841]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011697s)
+[2018.11.28-01.25.21:170][841]LogAIModule: Creating AISystem for world PizzaTester
+[2018.11.28-01.25.21:171][841]LogPlayLevel: PIE: World Init took: (0.000821s)
+[2018.11.28-01.25.21:171][841]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/AlexWPizzaStuff/PizzaTester.PizzaTester to /Game/AlexWPizzaStuff/UEDPIE_0_PizzaTester.PizzaTester (0.012663s)
+[2018.11.28-01.25.21:211][841]LogInit: XAudio2 using 'Headphones (2- E7 Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.11.28-01.25.21:222][841]LogInit: FAudioDevice initialized.
+[2018.11.28-01.25.21:256][841]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.11.28-01.25.21:260][841]LogWorld: Bringing World /Game/AlexWPizzaStuff/UEDPIE_0_PizzaTester.PizzaTester up for play (max tick rate 60) at 2018.11.27-20.25.21
+[2018.11.28-01.25.21:260][841]LogWorld: Bringing up level for play took: 0.002732
+[2018.11.28-01.25.21:276][841]PIE: Play in editor start time for /Game/AlexWPizzaStuff/UEDPIE_0_PizzaTester -0.74
+[2018.11.28-01.26.46:518][816]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.28-01.26.46:558][816]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.28-01.26.46:597][816]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.28-01.26.46:627][818]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2018.11.28-01.27.11:326][287]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.28-01.27.12:942][384]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.28-01.27.18:139][696]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.28-01.28.13:266][576]LogSavePackage: Moving '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Saved/PizzaTester_Auto2F8113218480E4BB65F316793909B92AC.tmp' to '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Saved/Autosaves/Game/AlexWPizzaStuff/PizzaTester_Auto2.umap'
+[2018.11.28-01.28.13:272][576]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/AlexWPizzaStuff/PizzaTester' took 0.537
+[2018.11.28-01.28.13:272][576]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.537
+[2018.11.28-01.30.07:878][882]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.28-01.30.07:898][882]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.28-01.30.07:898][882]PIE: New page: PIE session: PizzaTester (Nov 27, 2018, 3:30:07 PM)
+[2018.11.28-01.30.07:899][882]LogPlayLevel: Creating play world package: /Game/AlexWPizzaStuff/UEDPIE_0_PizzaTester
+[2018.11.28-01.30.07:911][882]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012803s)
+[2018.11.28-01.30.07:912][882]LogAIModule: Creating AISystem for world PizzaTester
+[2018.11.28-01.30.07:912][882]LogPlayLevel: PIE: World Init took: (0.000728s)
+[2018.11.28-01.30.07:912][882]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/AlexWPizzaStuff/PizzaTester.PizzaTester to /Game/AlexWPizzaStuff/UEDPIE_0_PizzaTester.PizzaTester (0.013655s)
+[2018.11.28-01.30.07:951][882]LogInit: XAudio2 using 'Headphones (2- E7 Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.11.28-01.30.07:962][882]LogInit: FAudioDevice initialized.
+[2018.11.28-01.30.08:000][882]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.11.28-01.30.08:004][882]LogWorld: Bringing World /Game/AlexWPizzaStuff/UEDPIE_0_PizzaTester.PizzaTester up for play (max tick rate 60) at 2018.11.27-20.30.08
+[2018.11.28-01.30.08:005][882]LogWorld: Bringing up level for play took: 0.003978
+[2018.11.28-01.30.08:020][882]PIE: Play in editor start time for /Game/AlexWPizzaStuff/UEDPIE_0_PizzaTester 0.003
+[2018.11.28-01.30.21:242][170]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.28-01.30.21:283][170]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.28-01.30.21:318][170]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.28-01.30.21:375][171]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2018.11.28-01.30.24:877][374]LogSlate: Window 'Pizza_scripting' being destroyed
+[2018.11.28-01.30.34:996][981]BlueprintLog: New page: Compile pepperoni_test_Blueprint
+[2018.11.28-01.30.43:124][449]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/AlexWPizzaStuff/pepperoni_test_Blueprint.pepperoni_test_Blueprint
+[2018.11.28-01.31.26:505][ 15]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.28-01.31.26:535][ 15]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.11.28-01.31.26:543][ 15]LogPlayLevel: [PlayLevel] Compiling Pizza_scripting before play...
+[2018.11.28-01.31.26:716][ 15]LogPlayLevel: PlayLevel: Blueprint regeneration took 181 ms (1 blueprints)
+[2018.11.28-01.31.26:716][ 15]PIE: New page: PIE session: PizzaTester (Nov 27, 2018, 3:31:26 PM)
+[2018.11.28-01.31.26:716][ 15]LogPlayLevel: Creating play world package: /Game/AlexWPizzaStuff/UEDPIE_0_PizzaTester
+[2018.11.28-01.31.26:729][ 15]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012676s)
+[2018.11.28-01.31.26:729][ 15]LogAIModule: Creating AISystem for world PizzaTester
+[2018.11.28-01.31.26:730][ 15]LogPlayLevel: PIE: World Init took: (0.001038s)
+[2018.11.28-01.31.26:730][ 15]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/AlexWPizzaStuff/PizzaTester.PizzaTester to /Game/AlexWPizzaStuff/UEDPIE_0_PizzaTester.PizzaTester (0.013970s)
+[2018.11.28-01.31.26:777][ 15]LogInit: XAudio2 using 'Headphones (2- E7 Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.11.28-01.31.26:787][ 15]LogInit: FAudioDevice initialized.
+[2018.11.28-01.31.26:824][ 15]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.11.28-01.31.26:827][ 15]LogWorld: Bringing World /Game/AlexWPizzaStuff/UEDPIE_0_PizzaTester.PizzaTester up for play (max tick rate 60) at 2018.11.27-20.31.26
+[2018.11.28-01.31.26:827][ 15]LogWorld: Bringing up level for play took: 0.002178
+[2018.11.28-01.31.26:842][ 15]PIE: Play in editor start time for /Game/AlexWPizzaStuff/UEDPIE_0_PizzaTester 0.825
+[2018.11.28-01.31.36:559][586]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.28-01.31.36:597][586]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.28-01.31.36:633][586]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.28-01.31.36:664][588]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2018.11.28-01.31.38:806][711]BlueprintLog: New page: Compile Pizza_scripting
+[2018.11.28-01.31.43:598][983]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.28-01.31.43:625][983]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.28-01.31.43:625][983]PIE: New page: PIE session: PizzaTester (Nov 27, 2018, 3:31:43 PM)
+[2018.11.28-01.31.43:625][983]LogPlayLevel: Creating play world package: /Game/AlexWPizzaStuff/UEDPIE_0_PizzaTester
+[2018.11.28-01.31.43:639][983]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013279s)
+[2018.11.28-01.31.43:639][983]LogAIModule: Creating AISystem for world PizzaTester
+[2018.11.28-01.31.43:639][983]LogPlayLevel: PIE: World Init took: (0.000608s)
+[2018.11.28-01.31.43:639][983]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/AlexWPizzaStuff/PizzaTester.PizzaTester to /Game/AlexWPizzaStuff/UEDPIE_0_PizzaTester.PizzaTester (0.014009s)
+[2018.11.28-01.31.43:680][983]LogInit: XAudio2 using 'Headphones (2- E7 Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.11.28-01.31.43:689][983]LogInit: FAudioDevice initialized.
+[2018.11.28-01.31.43:723][983]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.11.28-01.31.43:728][983]LogWorld: Bringing World /Game/AlexWPizzaStuff/UEDPIE_0_PizzaTester.PizzaTester up for play (max tick rate 60) at 2018.11.27-20.31.43
+[2018.11.28-01.31.43:728][983]LogWorld: Bringing up level for play took: 0.003468
+[2018.11.28-01.31.43:743][983]PIE: Play in editor start time for /Game/AlexWPizzaStuff/UEDPIE_0_PizzaTester -0.274
+[2018.11.28-01.31.49:776][341]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.28-01.31.49:817][341]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.28-01.31.49:853][341]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.28-01.31.49:894][342]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2018.11.28-01.31.52:578][493]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.28-01.31.52:598][493]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.28-01.31.52:598][493]PIE: New page: PIE session: PizzaTester (Nov 27, 2018, 3:31:52 PM)
+[2018.11.28-01.31.52:598][493]LogPlayLevel: Creating play world package: /Game/AlexWPizzaStuff/UEDPIE_0_PizzaTester
+[2018.11.28-01.31.52:611][493]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013171s)
+[2018.11.28-01.31.52:611][493]LogAIModule: Creating AISystem for world PizzaTester
+[2018.11.28-01.31.52:611][493]LogPlayLevel: PIE: World Init took: (0.000642s)
+[2018.11.28-01.31.52:611][493]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/AlexWPizzaStuff/PizzaTester.PizzaTester to /Game/AlexWPizzaStuff/UEDPIE_0_PizzaTester.PizzaTester (0.013953s)
+[2018.11.28-01.31.52:649][493]LogInit: XAudio2 using 'Headphones (2- E7 Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.11.28-01.31.52:661][493]LogInit: FAudioDevice initialized.
+[2018.11.28-01.31.52:695][493]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.11.28-01.31.52:698][493]LogWorld: Bringing World /Game/AlexWPizzaStuff/UEDPIE_0_PizzaTester.PizzaTester up for play (max tick rate 60) at 2018.11.27-20.31.52
+[2018.11.28-01.31.52:698][493]LogWorld: Bringing up level for play took: 0.002152
+[2018.11.28-01.31.52:712][493]PIE: Play in editor start time for /Game/AlexWPizzaStuff/UEDPIE_0_PizzaTester 0.696
+[2018.11.28-01.31.55:546][663]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.28-01.31.55:592][663]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.28-01.31.55:628][663]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.28-01.31.55:680][664]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2018.11.28-01.32.14:980][815]LogSlate: Window 'Pizza_scripting*' being destroyed
+[2018.11.28-01.32.38:496][207]LogSavePackage: Moving '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Saved/PizzaTesterA68E2FD74E13B14B2D97B0A8BCBB6339.tmp' to '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Content/AlexWPizzaStuff/PizzaTester.umap'
+[2018.11.28-01.32.45:907][626]LogSavePackage: Moving '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Saved/PizzaTesterEAFEA4074E92D0818F399A9572288D54.tmp' to '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Content/AlexWPizzaStuff/PizzaTester.umap'
+[2018.11.28-01.32.50:488][894]BlueprintLog: New page: Compile Pizza_scripting
+[2018.11.28-01.32.53:309][ 44]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.28-01.32.53:336][ 44]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.28-01.32.53:336][ 44]PIE: New page: PIE session: PizzaTester (Nov 27, 2018, 3:32:53 PM)
+[2018.11.28-01.32.53:336][ 44]LogPlayLevel: Creating play world package: /Game/AlexWPizzaStuff/UEDPIE_0_PizzaTester
+[2018.11.28-01.32.53:350][ 44]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014062s)
+[2018.11.28-01.32.53:351][ 44]LogAIModule: Creating AISystem for world PizzaTester
+[2018.11.28-01.32.53:352][ 44]LogPlayLevel: PIE: World Init took: (0.001254s)
+[2018.11.28-01.32.53:352][ 44]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/AlexWPizzaStuff/PizzaTester.PizzaTester to /Game/AlexWPizzaStuff/UEDPIE_0_PizzaTester.PizzaTester (0.015595s)
+[2018.11.28-01.32.53:395][ 44]LogInit: XAudio2 using 'Headphones (2- E7 Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.11.28-01.32.53:406][ 44]LogInit: FAudioDevice initialized.
+[2018.11.28-01.32.53:443][ 44]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.11.28-01.32.53:447][ 44]LogWorld: Bringing World /Game/AlexWPizzaStuff/UEDPIE_0_PizzaTester.PizzaTester up for play (max tick rate 60) at 2018.11.27-20.32.53
+[2018.11.28-01.32.53:447][ 44]LogWorld: Bringing up level for play took: 0.002255
+[2018.11.28-01.32.53:461][ 44]PIE: Play in editor start time for /Game/AlexWPizzaStuff/UEDPIE_0_PizzaTester -0.556
+[2018.11.28-01.32.54:109][ 81]LogBlueprintUserMessages: [Pizza_scripting] Hello
+[2018.11.28-01.33.00:046][437]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.28-01.33.00:090][437]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.28-01.33.00:126][437]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.28-01.33.00:169][438]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2018.11.28-01.33.05:558][755]LogSlate: Window 'Pizza_scripting*' being destroyed
+[2018.11.28-01.34.43:086][594]BlueprintLog: New page: Compile Pizza_scripting
+[2018.11.28-01.34.47:404][836]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.28-01.34.47:436][836]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.28-01.34.47:436][836]PIE: New page: PIE session: PizzaTester (Nov 27, 2018, 3:34:47 PM)
+[2018.11.28-01.34.47:436][836]LogPlayLevel: Creating play world package: /Game/AlexWPizzaStuff/UEDPIE_0_PizzaTester
+[2018.11.28-01.34.47:449][836]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012548s)
+[2018.11.28-01.34.47:449][836]LogAIModule: Creating AISystem for world PizzaTester
+[2018.11.28-01.34.47:450][836]LogPlayLevel: PIE: World Init took: (0.000736s)
+[2018.11.28-01.34.47:450][836]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/AlexWPizzaStuff/PizzaTester.PizzaTester to /Game/AlexWPizzaStuff/UEDPIE_0_PizzaTester.PizzaTester (0.013414s)
+[2018.11.28-01.34.47:494][836]LogInit: XAudio2 using 'Headphones (2- E7 Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.11.28-01.34.47:506][836]LogInit: FAudioDevice initialized.
+[2018.11.28-01.34.47:543][836]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.11.28-01.34.47:547][836]LogWorld: Bringing World /Game/AlexWPizzaStuff/UEDPIE_0_PizzaTester.PizzaTester up for play (max tick rate 60) at 2018.11.27-20.34.47
+[2018.11.28-01.34.47:547][836]LogWorld: Bringing up level for play took: 0.003217
+[2018.11.28-01.34.47:563][836]PIE: Play in editor start time for /Game/AlexWPizzaStuff/UEDPIE_0_PizzaTester -0.454
+[2018.11.28-01.34.48:204][873]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Tags' of length 0 in '/Script/Engine.Actor'!
+[2018.11.28-01.34.48:204][873]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Tags' of length 0 in '/Script/Engine.Actor'!
+[2018.11.28-01.35.00:616][615]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.28-01.35.00:661][615]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.28-01.35.00:697][615]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.28-01.35.00:746][616]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2018.11.28-01.35.18:648][683]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.28-01.35.18:671][683]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.28-01.35.18:671][683]PIE: New page: PIE session: PizzaTester (Nov 27, 2018, 3:35:18 PM)
+[2018.11.28-01.35.18:671][683]LogPlayLevel: Creating play world package: /Game/AlexWPizzaStuff/UEDPIE_0_PizzaTester
+[2018.11.28-01.35.18:684][683]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012551s)
+[2018.11.28-01.35.18:684][683]LogAIModule: Creating AISystem for world PizzaTester
+[2018.11.28-01.35.18:684][683]LogPlayLevel: PIE: World Init took: (0.000616s)
+[2018.11.28-01.35.18:684][683]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/AlexWPizzaStuff/PizzaTester.PizzaTester to /Game/AlexWPizzaStuff/UEDPIE_0_PizzaTester.PizzaTester (0.013293s)
+[2018.11.28-01.35.18:724][683]LogInit: XAudio2 using 'Headphones (2- E7 Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.11.28-01.35.18:736][683]LogInit: FAudioDevice initialized.
+[2018.11.28-01.35.18:770][683]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.11.28-01.35.18:773][683]LogWorld: Bringing World /Game/AlexWPizzaStuff/UEDPIE_0_PizzaTester.PizzaTester up for play (max tick rate 60) at 2018.11.27-20.35.18
+[2018.11.28-01.35.18:774][683]LogWorld: Bringing up level for play took: 0.002288
+[2018.11.28-01.35.18:788][683]PIE: Play in editor start time for /Game/AlexWPizzaStuff/UEDPIE_0_PizzaTester 0.771
+[2018.11.28-01.35.19:406][720]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Tags' of length 0 in '/Script/Engine.Actor'!
+[2018.11.28-01.35.19:406][720]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Tags' of length 0 in '/Script/Engine.Actor'!
+[2018.11.28-01.35.30:839][403]LogSlate: Window 'Pizza_scripting*' being destroyed
+[2018.11.28-01.35.46:864][364]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.28-01.35.46:911][364]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.28-01.35.46:949][364]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.28-01.35.46:966][365]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2018.11.28-01.36.09:955][726]BlueprintLog: New page: Compile Pizza_scripting
+[2018.11.28-01.36.18:131][201]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.28-01.36.18:163][201]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.28-01.36.18:163][201]PIE: New page: PIE session: PizzaTester (Nov 27, 2018, 3:36:18 PM)
+[2018.11.28-01.36.18:163][201]LogPlayLevel: Creating play world package: /Game/AlexWPizzaStuff/UEDPIE_0_PizzaTester
+[2018.11.28-01.36.18:175][201]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011403s)
+[2018.11.28-01.36.18:175][201]LogAIModule: Creating AISystem for world PizzaTester
+[2018.11.28-01.36.18:175][201]LogPlayLevel: PIE: World Init took: (0.000734s)
+[2018.11.28-01.36.18:175][201]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/AlexWPizzaStuff/PizzaTester.PizzaTester to /Game/AlexWPizzaStuff/UEDPIE_0_PizzaTester.PizzaTester (0.012394s)
+[2018.11.28-01.36.18:210][201]LogInit: XAudio2 using 'Headphones (2- E7 Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.11.28-01.36.18:221][201]LogInit: FAudioDevice initialized.
+[2018.11.28-01.36.18:259][201]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.11.28-01.36.18:264][201]LogWorld: Bringing World /Game/AlexWPizzaStuff/UEDPIE_0_PizzaTester.PizzaTester up for play (max tick rate 60) at 2018.11.27-20.36.18
+[2018.11.28-01.36.18:264][201]LogWorld: Bringing up level for play took: 0.003768
+[2018.11.28-01.36.18:280][201]PIE: Play in editor start time for /Game/AlexWPizzaStuff/UEDPIE_0_PizzaTester 0.263
+[2018.11.28-01.36.18:930][238]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Tags' of length 0 in '/Script/Engine.Actor'!
+[2018.11.28-01.36.18:930][238]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Tags' of length 0 in '/Script/Engine.Actor'!
+[2018.11.28-01.36.18:930][238]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Tags' of length 0 in '/Script/Engine.Actor'!
+[2018.11.28-01.36.18:930][238]LogBlueprintUserMessages: [Pizza_scripting] None
+[2018.11.28-01.36.25:157][610]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.28-01.36.25:199][610]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.28-01.36.25:237][610]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.28-01.36.25:284][611]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2018.11.28-01.36.28:364][786]LogSlate: Window 'Pizza_scripting*' being destroyed
+[2018.11.28-01.38.12:536][579]LogSlate: Window 'Reparent Blueprint' being destroyed
+[2018.11.28-01.40.45:374][653]LogSlate: Window 'Reparent Blueprint' being destroyed
+[2018.11.28-01.40.45:381][653]LogBlueprint: Warning: Reparenting blueprint Blueprint /Game/AlexWPizzaStuff/pepperoni_test_Blueprint.pepperoni_test_Blueprint from StaticMeshActor to Actor...
+[2018.11.28-01.40.45:387][653]BlueprintLog: New page: Compile pepperoni_test_Blueprint
+[2018.11.28-01.40.57:102][345]Cmd: TRANSACTION UNDO
+[2018.11.28-01.40.57:102][345]LogEditorTransaction: Undo Clicking on Actors
+[2018.11.28-01.41.02:171][648]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.11.28-01.41.08:221][  6]LogBlueprint: Warning: Reparenting blueprint Blueprint /Game/AlexWPizzaStuff/pepperoni_test_Blueprint.pepperoni_test_Blueprint from Actor to StaticMeshActor...
+[2018.11.28-01.41.08:226][  6]BlueprintLog: New page: Compile pepperoni_test_Blueprint
+[2018.11.28-01.41.48:185][ 66]BlueprintLog: New page: Compile pepperoni_test_Blueprint
+[2018.11.28-01.41.55:171][471]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.28-01.41.55:207][471]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.28-01.41.55:207][471]PIE: New page: PIE session: PizzaTester (Nov 27, 2018, 3:41:55 PM)
+[2018.11.28-01.41.55:207][471]LogPlayLevel: Creating play world package: /Game/AlexWPizzaStuff/UEDPIE_0_PizzaTester
+[2018.11.28-01.41.55:223][471]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015452s)
+[2018.11.28-01.41.55:223][471]LogAIModule: Creating AISystem for world PizzaTester
+[2018.11.28-01.41.55:224][471]LogPlayLevel: PIE: World Init took: (0.000835s)
+[2018.11.28-01.41.55:224][471]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/AlexWPizzaStuff/PizzaTester.PizzaTester to /Game/AlexWPizzaStuff/UEDPIE_0_PizzaTester.PizzaTester (0.016417s)
+[2018.11.28-01.41.55:260][471]LogInit: XAudio2 using 'Headphones (2- E7 Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.11.28-01.41.55:273][471]LogInit: FAudioDevice initialized.
+[2018.11.28-01.41.55:307][471]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.11.28-01.41.55:310][471]LogWorld: Bringing World /Game/AlexWPizzaStuff/UEDPIE_0_PizzaTester.PizzaTester up for play (max tick rate 60) at 2018.11.27-20.41.55
+[2018.11.28-01.41.55:311][471]LogWorld: Bringing up level for play took: 0.002515
+[2018.11.28-01.41.55:325][471]PIE: Play in editor start time for /Game/AlexWPizzaStuff/UEDPIE_0_PizzaTester -0.692
+[2018.11.28-01.42.02:450][898]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.28-01.42.02:494][898]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.28-01.42.02:521][898]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.28-01.42.02:573][899]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2018.11.28-01.42.23:519][876]LogSavePackage: Moving '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Saved/PizzaTester75136DF442E4050F87076D9BFC6979D0.tmp' to '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Content/AlexWPizzaStuff/PizzaTester.umap'
+[2018.11.28-01.42.29:748][203]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.28-01.42.29:770][203]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.28-01.42.29:770][203]PIE: New page: PIE session: PizzaTester (Nov 27, 2018, 3:42:29 PM)
+[2018.11.28-01.42.29:770][203]LogPlayLevel: Creating play world package: /Game/AlexWPizzaStuff/UEDPIE_0_PizzaTester
+[2018.11.28-01.42.29:782][203]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012088s)
+[2018.11.28-01.42.29:783][203]LogAIModule: Creating AISystem for world PizzaTester
+[2018.11.28-01.42.29:783][203]LogPlayLevel: PIE: World Init took: (0.000815s)
+[2018.11.28-01.42.29:783][203]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/AlexWPizzaStuff/PizzaTester.PizzaTester to /Game/AlexWPizzaStuff/UEDPIE_0_PizzaTester.PizzaTester (0.013050s)
+[2018.11.28-01.42.29:826][203]LogInit: XAudio2 using 'Headphones (2- E7 Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.11.28-01.42.29:835][203]LogInit: FAudioDevice initialized.
+[2018.11.28-01.42.29:868][203]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.11.28-01.42.29:872][203]LogWorld: Bringing World /Game/AlexWPizzaStuff/UEDPIE_0_PizzaTester.PizzaTester up for play (max tick rate 60) at 2018.11.27-20.42.29
+[2018.11.28-01.42.29:873][203]LogWorld: Bringing up level for play took: 0.003642
+[2018.11.28-01.42.29:889][203]PIE: Play in editor start time for /Game/AlexWPizzaStuff/UEDPIE_0_PizzaTester -0.128
+[2018.11.28-01.42.33:494][417]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.28-01.42.33:535][417]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.28-01.42.33:570][417]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.28-01.42.33:612][418]LogPlayLevel: Display: Destroying online subsystem :Context_23
+[2018.11.28-01.42.55:027][592]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.28-01.43.01:177][951]Cmd: DELETE
+[2018.11.28-01.43.01:177][951]Cmd: ACTOR DELETE
+[2018.11.28-01.43.01:183][951]LogEditorActor: Deleted Actor: pepperoni_test_Blueprint_C
+[2018.11.28-01.43.01:218][951]LogEditorActor: Deleted 1 Actors (0.041 secs)
+[2018.11.28-01.43.06:514][268]LogActorFactory: Actor Factory created Cube
+[2018.11.28-01.43.07:650][336]LogActorFactory: Actor Factory created Cube
+[2018.11.28-01.43.09:640][455]LogActorFactory: Actor Factory created Cube
+[2018.11.28-01.43.21:040][132]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.28-01.43.46:581][650]LogSlate: Window 'Select Path' being destroyed
+[2018.11.28-01.43.46:673][650]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/AlexWPizzaStuff/real_pepperoni_tester.real_pepperoni_tester
+[2018.11.28-01.44.11:053][995]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.28-01.44.42:037][853]BlueprintLog: New page: Compile real_pepperoni_tester
+[2018.11.28-01.44.46:109][ 78]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.28-01.44.46:142][ 78]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.28-01.44.46:142][ 78]PIE: New page: PIE session: PizzaTester (Nov 27, 2018, 3:44:46 PM)
+[2018.11.28-01.44.46:142][ 78]LogPlayLevel: Creating play world package: /Game/AlexWPizzaStuff/UEDPIE_0_PizzaTester
+[2018.11.28-01.44.46:153][ 78]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011070s)
+[2018.11.28-01.44.46:154][ 78]LogAIModule: Creating AISystem for world PizzaTester
+[2018.11.28-01.44.46:155][ 78]LogPlayLevel: PIE: World Init took: (0.001197s)
+[2018.11.28-01.44.46:155][ 78]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/AlexWPizzaStuff/PizzaTester.PizzaTester to /Game/AlexWPizzaStuff/UEDPIE_0_PizzaTester.PizzaTester (0.012498s)
+[2018.11.28-01.44.46:196][ 78]LogInit: XAudio2 using 'Headphones (2- E7 Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.11.28-01.44.46:208][ 78]LogInit: FAudioDevice initialized.
+[2018.11.28-01.44.46:242][ 78]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.11.28-01.44.46:246][ 78]LogWorld: Bringing World /Game/AlexWPizzaStuff/UEDPIE_0_PizzaTester.PizzaTester up for play (max tick rate 60) at 2018.11.27-20.44.46
+[2018.11.28-01.44.46:246][ 78]LogWorld: Bringing up level for play took: 0.002478
+[2018.11.28-01.44.46:261][ 78]PIE: Play in editor start time for /Game/AlexWPizzaStuff/UEDPIE_0_PizzaTester 0.243
+[2018.11.28-01.44.48:695][224]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.28-01.44.48:736][224]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.28-01.44.48:768][224]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.28-01.44.48:800][226]LogPlayLevel: Display: Destroying online subsystem :Context_26
+[2018.11.28-01.45.22:282][153]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.28-01.45.22:448][163]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.28-01.45.22:470][163]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.28-01.45.22:470][163]PIE: New page: PIE session: PizzaTester (Nov 27, 2018, 3:45:22 PM)
+[2018.11.28-01.45.22:471][163]LogPlayLevel: Creating play world package: /Game/AlexWPizzaStuff/UEDPIE_0_PizzaTester
+[2018.11.28-01.45.22:483][163]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012164s)
+[2018.11.28-01.45.22:483][163]LogAIModule: Creating AISystem for world PizzaTester
+[2018.11.28-01.45.22:485][163]LogPlayLevel: PIE: World Init took: (0.000678s)
+[2018.11.28-01.45.22:485][163]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/AlexWPizzaStuff/PizzaTester.PizzaTester to /Game/AlexWPizzaStuff/UEDPIE_0_PizzaTester.PizzaTester (0.013020s)
+[2018.11.28-01.45.22:524][163]LogInit: XAudio2 using 'Headphones (2- E7 Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.11.28-01.45.22:535][163]LogInit: FAudioDevice initialized.
+[2018.11.28-01.45.22:568][163]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.11.28-01.45.22:572][163]LogWorld: Bringing World /Game/AlexWPizzaStuff/UEDPIE_0_PizzaTester.PizzaTester up for play (max tick rate 60) at 2018.11.27-20.45.22
+[2018.11.28-01.45.22:572][163]LogWorld: Bringing up level for play took: 0.002745
+[2018.11.28-01.45.22:586][163]PIE: Play in editor start time for /Game/AlexWPizzaStuff/UEDPIE_0_PizzaTester 0.57
+[2018.11.28-01.45.22:785][175]LogBlueprintUserMessages: [Pizza_scripting] Pepperoni
+[2018.11.28-01.45.28:789][535]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.28-01.45.28:826][535]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.28-01.45.28:862][535]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.28-01.45.28:892][537]LogPlayLevel: Display: Destroying online subsystem :Context_27
+[2018.11.28-01.45.36:700][983]LogSavePackage: Moving '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Saved/PizzaTester8DD7DC0F4BA6C9A78C15B998748049D5.tmp' to '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Content/AlexWPizzaStuff/PizzaTester.umap'
