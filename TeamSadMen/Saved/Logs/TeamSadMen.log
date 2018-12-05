@@ -553,3 +553,1318 @@ Please see Output Log for details.
 [2018.12.05-20.16.37:020][572]LogTexture: Display: Building textures: sausage_lambert1_Normal (BC5, 1024X1024)
 [2018.12.05-20.16.37:101][572]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Git Hub\TeamSadMen\TeamSadMen\Import\Textures\sasuage/sausage_lambert1_OcclusionRoughnessMetallic.png)
 [2018.12.05-20.16.37:126][572]LogTexture: Display: Building textures: sausage_lambert1_OcclusionRoughnessMetallic (AutoDXT, 1024X1024)
+[2018.12.05-20.18.24:963][598]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Git Hub\TeamSadMen\TeamSadMen\Import\sauce.fbx)
+[2018.12.05-20.18.24:978][598]LogFbx: Loading FBX Scene from C:\Git Hub\TeamSadMen\TeamSadMen\Import\sauce.fbx
+[2018.12.05-20.18.24:987][598]LogFbx: FBX Scene Loaded Succesfully
+[2018.12.05-20.18.27:026][598]LogSlate: Window 'FBX Import Options' being destroyed
+[2018.12.05-20.18.27:055][598]LogFbx: Warning: Triangulating static mesh sauce
+[2018.12.05-20.18.27:115][598]LogStaticMesh: Building static mesh sauce...
+[2018.12.05-20.18.27:129][598]LogStaticMesh: Built static mesh [0.01s] /Game/sauce.sauce
+[2018.12.05-20.18.29:812][700]LogActorFactory: Actor Factory created sauce
+[2018.12.05-20.18.32:196][821]LogActorFactory: Actor Factory created sauce
+[2018.12.05-20.18.44:356][431]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.05-20.18.47:956][601]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.05-20.19.05:741][424]Cmd: DELETE
+[2018.12.05-20.19.05:741][424]Cmd: ACTOR DELETE
+[2018.12.05-20.19.05:752][424]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.12.05-20.19.05:802][424]LogEditorActor: Deleted 1 Actors (0.061 secs)
+[2018.12.05-20.19.24:095][606]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.05-20.19.24:437][606]LogSavePackage: Moving '../../../../../../Git Hub/TeamSadMen/TeamSadMen/Saved/PizzaPlace1D745C174714E0641DA241A4D9128C2A.tmp' to '../../../../../../Git Hub/TeamSadMen/TeamSadMen/Content/FirstPersonBP/Maps/PizzaPlace.umap'
+[2018.12.05-20.19.24:481][606]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Maps/PizzaPlace_BuiltData" FILE="../../../../../../Git Hub/TeamSadMen/TeamSadMen/Content/FirstPersonBP/Maps/PizzaPlace_BuiltData.uasset" SILENT=true
+[2018.12.05-20.19.24:663][606]LogSavePackage: Moving '../../../../../../Git Hub/TeamSadMen/TeamSadMen/Saved/PizzaPlace_BuiltData15C3849E4174E484C42215B55B43ADE5.tmp' to '../../../../../../Git Hub/TeamSadMen/TeamSadMen/Content/FirstPersonBP/Maps/PizzaPlace_BuiltData.uasset'
+[2018.12.05-20.19.43:628][875]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.05-20.19.49:664][ 35]LogEditorFactories: Performing atomic reimport of [C:/Git Hub/TeamSadMen/TeamSadMen/Import/Textures/dough/dough_lambert1_BaseColor.png]
+[2018.12.05-20.19.49:664][ 35]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Git Hub/TeamSadMen/TeamSadMen/Import/Textures/dough/dough_lambert1_BaseColor.png)
+[2018.12.05-20.19.49:697][ 35]LogTexture: Display: Building textures: dough_lambert1_BaseColor (AutoDXT, 1024X1024)
+[2018.12.05-20.19.49:759][ 35]LogEditorFactories: -- imported successfully
+[2018.12.05-20.19.49:771][ 35]LogEditorFactories: Performing atomic reimport of [C:/Git Hub/TeamSadMen/TeamSadMen/Import/Textures/dough/dough_lambert1_Normal.png]
+[2018.12.05-20.19.49:776][ 35]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Git Hub/TeamSadMen/TeamSadMen/Import/Textures/dough/dough_lambert1_Normal.png)
+[2018.12.05-20.19.49:828][ 35]LogTexture: Display: Building textures: dough_lambert1_Normal (BC5, 1024X1024)
+[2018.12.05-20.19.49:903][ 35]LogEditorFactories: -- imported successfully
+[2018.12.05-20.19.49:919][ 35]LogEditorFactories: Performing atomic reimport of [C:/Git Hub/TeamSadMen/TeamSadMen/Import/Textures/dough/dough_lambert1_OcclusionRoughnessMetallic.png]
+[2018.12.05-20.19.49:919][ 35]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Git Hub/TeamSadMen/TeamSadMen/Import/Textures/dough/dough_lambert1_OcclusionRoughnessMetallic.png)
+[2018.12.05-20.19.49:938][ 35]LogTexture: Display: Building textures: dough_lambert1_OcclusionRoughnessMetallic (AutoDXT, 1024X1024)
+[2018.12.05-20.19.50:011][ 35]LogEditorFactories: -- imported successfully
+[2018.12.05-20.19.55:517][171]LogSavePackage: Moving '../../../../../../Git Hub/TeamSadMen/TeamSadMen/Saved/dough_lambert1_OcclusionRoughnes2C8C391A4D2B0BE7D247458FAFB1330C.tmp' to '../../../../../../Git Hub/TeamSadMen/TeamSadMen/Content/dough/dough_lambert1_OcclusionRoughnessMetallic.uasset'
+[2018.12.05-20.19.55:540][171]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/dough/dough_lambert1_Normal" FILE="../../../../../../Git Hub/TeamSadMen/TeamSadMen/Content/dough/dough_lambert1_Normal.uasset" SILENT=true
+[2018.12.05-20.19.55:824][171]LogSavePackage: Moving '../../../../../../Git Hub/TeamSadMen/TeamSadMen/Saved/dough_lambert1_Normal246FB6E5477E86371565A5A0453A04C8.tmp' to '../../../../../../Git Hub/TeamSadMen/TeamSadMen/Content/dough/dough_lambert1_Normal.uasset'
+[2018.12.05-20.19.55:847][171]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/dough/dough_lambert1_BaseColor" FILE="../../../../../../Git Hub/TeamSadMen/TeamSadMen/Content/dough/dough_lambert1_BaseColor.uasset" SILENT=true
+[2018.12.05-20.19.55:925][171]LogSavePackage: Moving '../../../../../../Git Hub/TeamSadMen/TeamSadMen/Saved/dough_lambert1_BaseColor6ECB7672414A7D193AB4BE83303EA0A1.tmp' to '../../../../../../Git Hub/TeamSadMen/TeamSadMen/Content/dough/dough_lambert1_BaseColor.uasset'
+[2018.12.05-20.19.58:111][278]LogAssetEditorManager: Opening Asset editor for Material /Game/dough/DoughMaterial.DoughMaterial
+[2018.12.05-20.19.58:115][278]LogMaterial: Display: Missing cached shader map for material DoughMaterial, compiling. 
+[2018.12.05-20.19.58:463][278]LogMaterial: Display: Missing cached shader map for material DoughMaterial, compiling. 
+[2018.12.05-20.19.58:479][278]LogMaterial: Display: Missing cached shader map for material DoughMaterial, compiling. 
+[2018.12.05-20.19.58:506][278]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.12.05-20.19.58:506][278]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.12.05-20.19.58:506][278]LogShaderCompilers: Display: Shaders left to compile 19
+[2018.12.05-20.19.58:506][278]LogShaderCompilers: Display: Shaders left to compile 18
+[2018.12.05-20.19.58:520][278]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2018.12.05-20.19.58:526][278]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.12.05-20.19.58:531][278]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2018.12.05-20.19.58:536][278]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2018.12.05-20.19.58:660][278]LogSlate: Took 0.000198 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.12.05-20.19.59:110][294]LogShaderCompilers: Display: Shaders left to compile 25
+[2018.12.05-20.19.59:176][298]LogShaderCompilers: Display: Shaders left to compile 24
+[2018.12.05-20.19.59:194][299]LogShaderCompilers: Display: Shaders left to compile 23
+[2018.12.05-20.19.59:194][299]LogShaderCompilers: Display: Shaders left to compile 22
+[2018.12.05-20.19.59:311][306]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.12.05-20.19.59:359][309]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.12.05-20.19.59:394][311]LogShaderCompilers: Display: Shaders left to compile 19
+[2018.12.05-20.19.59:410][312]LogShaderCompilers: Display: Shaders left to compile 18
+[2018.12.05-20.19.59:527][319]LogShaderCompilers: Display: Shaders left to compile 17
+[2018.12.05-20.19.59:744][332]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.12.05-20.19.59:895][341]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.12.05-20.19.59:944][344]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.12.05-20.20.00:045][350]LogShaderCompilers: Display: Shaders left to compile 13
+[2018.12.05-20.20.00:211][360]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.12.05-20.20.00:260][363]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.12.05-20.20.00:477][376]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.12.05-20.20.00:495][377]LogShaderCompilers: Display: Shaders left to compile 9
+[2018.12.05-20.20.00:594][383]LogShaderCompilers: Display: Shaders left to compile 8
+[2018.12.05-20.20.00:694][389]LogShaderCompilers: Display: Shaders left to compile 7
+[2018.12.05-20.20.00:794][395]LogShaderCompilers: Display: Shaders left to compile 6
+[2018.12.05-20.20.00:930][403]LogShaderCompilers: Display: Shaders left to compile 5
+[2018.12.05-20.20.00:955][404]MaterialEditorStats: Base pass shader: 118 instructions
+[2018.12.05-20.20.00:956][404]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 194 instructions
+[2018.12.05-20.20.00:956][404]MaterialEditorStats: Base pass vertex shader: 36 instructions
+[2018.12.05-20.20.00:956][404]MaterialEditorStats: Texture samplers: 6/16
+[2018.12.05-20.20.00:956][404]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2018.12.05-20.20.00:956][404]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.12.05-20.20.00:963][405]LogShaderCompilers: Display: Shaders left to compile 4
+[2018.12.05-20.20.00:997][407]LogShaderCompilers: Display: Shaders left to compile 3
+[2018.12.05-20.20.01:162][417]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.12.05-20.20.01:213][420]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.12.05-20.20.06:923][731]LogActorFactory: Actor Factory created dough
+[2018.12.05-20.20.07:267][748]LogActorFactory: Actor Factory created dough
+[2018.12.05-20.20.09:685][869]Cmd: DELETE
+[2018.12.05-20.20.09:685][869]Cmd: ACTOR DELETE
+[2018.12.05-20.20.09:692][869]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.12.05-20.20.09:723][869]LogEditorActor: Deleted 1 Actors (0.038 secs)
+[2018.12.05-20.20.11:731][970]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.05-20.20.40:195][255]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.05-20.20.40:681][255]LogSavePackage: Moving '../../../../../../Git Hub/TeamSadMen/TeamSadMen/Saved/PizzaPlaceCE823B0F47036C0A0326238A4C2C5134.tmp' to '../../../../../../Git Hub/TeamSadMen/TeamSadMen/Content/FirstPersonBP/Maps/PizzaPlace.umap'
+[2018.12.05-20.20.40:723][255]LogFileHelpers: Saving map 'PizzaPlace' took 0.507
+[2018.12.05-20.20.40:765][255]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/sausage" FILE="../../../../../../Git Hub/TeamSadMen/TeamSadMen/Content/sausage.uasset" SILENT=true
+[2018.12.05-20.20.40:786][255]LogSavePackage: Moving '../../../../../../Git Hub/TeamSadMen/TeamSadMen/Saved/sausage21866889475B874180F8449C076FFA15.tmp' to '../../../../../../Git Hub/TeamSadMen/TeamSadMen/Content/sausage.uasset'
+[2018.12.05-20.20.40:804][255]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/sasuage/sausage_lambert1_BaseColor" FILE="../../../../../../Git Hub/TeamSadMen/TeamSadMen/Content/sasuage/sausage_lambert1_BaseColor.uasset" SILENT=true
+[2018.12.05-20.20.40:939][255]LogSavePackage: Moving '../../../../../../Git Hub/TeamSadMen/TeamSadMen/Saved/sausage_lambert1_BaseColor2138296C475CDDB55FC26688940535F8.tmp' to '../../../../../../Git Hub/TeamSadMen/TeamSadMen/Content/sasuage/sausage_lambert1_BaseColor.uasset'
+[2018.12.05-20.20.40:959][255]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/sasuage/sausage_lambert1_Normal" FILE="../../../../../../Git Hub/TeamSadMen/TeamSadMen/Content/sasuage/sausage_lambert1_Normal.uasset" SILENT=true
+[2018.12.05-20.20.41:163][255]LogSavePackage: Moving '../../../../../../Git Hub/TeamSadMen/TeamSadMen/Saved/sausage_lambert1_Normal13CB16F2434671F78A9F259883B4A37D.tmp' to '../../../../../../Git Hub/TeamSadMen/TeamSadMen/Content/sasuage/sausage_lambert1_Normal.uasset'
+[2018.12.05-20.20.41:236][255]LogSavePackage: Moving '../../../../../../Git Hub/TeamSadMen/TeamSadMen/Saved/sausage_lambert1_OcclusionRoughn3CEAB4254156F8C0749E0DA0E4744997.tmp' to '../../../../../../Git Hub/TeamSadMen/TeamSadMen/Content/sasuage/sausage_lambert1_OcclusionRoughnessMetallic.uasset'
+[2018.12.05-20.20.41:284][255]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/sauce" FILE="../../../../../../Git Hub/TeamSadMen/TeamSadMen/Content/sauce.uasset" SILENT=true
+[2018.12.05-20.20.41:307][255]LogSavePackage: Moving '../../../../../../Git Hub/TeamSadMen/TeamSadMen/Saved/sauce756D33EE4EEED79DD3BD08B8FF18F78D.tmp' to '../../../../../../Git Hub/TeamSadMen/TeamSadMen/Content/sauce.uasset'
+[2018.12.05-20.20.45:576][425]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.05-20.20.56:882][  0]LogAssetEditorManager: Opening Asset editor for Material /Game/sasuage/sausage.sausage
+[2018.12.05-20.20.56:889][  0]LogMaterial: Display: Missing cached shader map for material sausage, compiling. 
+[2018.12.05-20.20.57:055][  0]LogMaterial: Display: Missing cached shader map for material sausage, compiling. 
+[2018.12.05-20.20.57:076][  0]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.12.05-20.20.57:076][  0]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.12.05-20.20.57:076][  0]LogShaderCompilers: Display: Shaders left to compile 19
+[2018.12.05-20.20.57:076][  0]LogShaderCompilers: Display: Shaders left to compile 18
+[2018.12.05-20.20.57:080][  0]LogMaterial: Display: Missing cached shader map for material sausage, compiling. 
+[2018.12.05-20.20.57:796][ 18]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.12.05-20.20.57:838][ 20]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.12.05-20.20.57:857][ 21]LogShaderCompilers: Display: Shaders left to compile 19
+[2018.12.05-20.20.57:857][ 21]LogShaderCompilers: Display: Shaders left to compile 18
+[2018.12.05-20.20.58:061][ 31]LogShaderCompilers: Display: Shaders left to compile 17
+[2018.12.05-20.20.58:088][ 32]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.12.05-20.20.58:110][ 33]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.12.05-20.20.58:125][ 34]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.12.05-20.20.58:286][ 42]LogShaderCompilers: Display: Shaders left to compile 13
+[2018.12.05-20.20.58:315][ 43]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.12.05-20.20.58:327][ 44]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.12.05-20.20.58:347][ 45]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.12.05-20.20.58:489][ 52]LogShaderCompilers: Display: Shaders left to compile 9
+[2018.12.05-20.20.58:620][ 58]LogShaderCompilers: Display: Shaders left to compile 8
+[2018.12.05-20.20.58:818][ 68]LogShaderCompilers: Display: Shaders left to compile 7
+[2018.12.05-20.20.58:858][ 70]LogShaderCompilers: Display: Shaders left to compile 6
+[2018.12.05-20.20.59:021][ 76]LogShaderCompilers: Display: Shaders left to compile 5
+[2018.12.05-20.20.59:151][ 84]LogShaderCompilers: Display: Shaders left to compile 4
+[2018.12.05-20.20.59:193][ 86]LogShaderCompilers: Display: Shaders left to compile 3
+[2018.12.05-20.20.59:455][ 99]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.12.05-20.20.59:474][100]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.12.05-20.20.59:527][101]LogMaterial: Display: Missing cached shader map for material sausage, compiling. 
+[2018.12.05-20.20.59:554][101]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.12.05-20.20.59:617][103]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.12.05-20.20.59:680][107]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.12.05-20.20.59:756][111]LogShaderCompilers: Display: Shaders left to compile 19
+[2018.12.05-20.20.59:877][117]LogShaderCompilers: Display: Shaders left to compile 18
+[2018.12.05-20.20.59:917][119]LogShaderCompilers: Display: Shaders left to compile 17
+[2018.12.05-20.20.59:948][120]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.12.05-20.21.00:049][125]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.12.05-20.21.00:111][128]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.12.05-20.21.00:156][130]LogShaderCompilers: Display: Shaders left to compile 13
+[2018.12.05-20.21.00:178][131]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.12.05-20.21.00:260][135]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.12.05-20.21.00:268][135]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.12.05-20.21.00:356][139]LogShaderCompilers: Display: Shaders left to compile 9
+[2018.12.05-20.21.00:546][148]LogShaderCompilers: Display: Shaders left to compile 8
+[2018.12.05-20.21.00:578][148]LogMaterial: Display: Missing cached shader map for material sausage, compiling. 
+[2018.12.05-20.21.00:598][148]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2018.12.05-20.21.00:660][150]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.12.05-20.21.00:758][156]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.12.05-20.21.00:834][160]LogShaderCompilers: Display: Shaders left to compile 19
+[2018.12.05-20.21.00:942][165]LogShaderCompilers: Display: Shaders left to compile 18
+[2018.12.05-20.21.01:027][169]LogShaderCompilers: Display: Shaders left to compile 17
+[2018.12.05-20.21.01:070][171]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.12.05-20.21.01:112][173]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.12.05-20.21.01:143][174]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.12.05-20.21.01:232][177]LogMaterial: Display: Missing cached shader map for material sausage, compiling. 
+[2018.12.05-20.21.01:247][177]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.12.05-20.21.01:252][177]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2018.12.05-20.21.01:287][178]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.12.05-20.21.01:318][179]LogShaderCompilers: Display: Shaders left to compile 19
+[2018.12.05-20.21.01:333][180]LogShaderCompilers: Display: Shaders left to compile 18
+[2018.12.05-20.21.01:538][191]LogShaderCompilers: Display: Shaders left to compile 17
+[2018.12.05-20.21.01:542][191]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.12.05-20.21.01:555][192]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.12.05-20.21.01:580][193]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.12.05-20.21.01:751][201]LogShaderCompilers: Display: Shaders left to compile 13
+[2018.12.05-20.21.01:755][201]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.12.05-20.21.01:773][202]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.12.05-20.21.01:773][202]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.12.05-20.21.01:946][210]LogShaderCompilers: Display: Shaders left to compile 9
+[2018.12.05-20.21.02:077][216]LogShaderCompilers: Display: Shaders left to compile 8
+[2018.12.05-20.21.02:250][224]LogShaderCompilers: Display: Shaders left to compile 7
+[2018.12.05-20.21.02:277][225]LogShaderCompilers: Display: Shaders left to compile 6
+[2018.12.05-20.21.02:425][232]LogShaderCompilers: Display: Shaders left to compile 5
+[2018.12.05-20.21.02:533][237]LogShaderCompilers: Display: Shaders left to compile 4
+[2018.12.05-20.21.02:562][238]LogShaderCompilers: Display: Shaders left to compile 3
+[2018.12.05-20.21.02:793][249]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.12.05-20.21.02:834][251]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.12.05-20.21.03:233][269]MaterialEditorStats: Base pass shader: 99 instructions
+[2018.12.05-20.21.03:233][269]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 172 instructions
+[2018.12.05-20.21.03:233][269]MaterialEditorStats: Base pass vertex shader: 32 instructions
+[2018.12.05-20.21.03:233][269]MaterialEditorStats: Texture samplers: 3/16
+[2018.12.05-20.21.12:821][696]LogMaterial: Display: Missing cached shader map for material sausage, compiling. 
+[2018.12.05-20.21.12:843][696]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.12.05-20.21.12:858][696]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.12.05-20.21.12:858][696]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.12.05-20.21.12:858][696]LogShaderCompilers: Display: Shaders left to compile 19
+[2018.12.05-20.21.12:858][696]LogShaderCompilers: Display: Shaders left to compile 18
+[2018.12.05-20.21.12:873][696]LogMaterial: Display: Missing cached shader map for material sausage, compiling. 
+[2018.12.05-20.21.13:111][707]LogShaderCompilers: Display: Shaders left to compile 23
+[2018.12.05-20.21.13:145][709]LogShaderCompilers: Display: Shaders left to compile 22
+[2018.12.05-20.21.13:147][709]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.12.05-20.21.13:147][709]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.12.05-20.21.13:433][722]LogShaderCompilers: Display: Shaders left to compile 19
+[2018.12.05-20.21.13:448][723]LogShaderCompilers: Display: Shaders left to compile 18
+[2018.12.05-20.21.13:450][723]LogShaderCompilers: Display: Shaders left to compile 17
+[2018.12.05-20.21.13:512][726]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.12.05-20.21.13:664][733]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.12.05-20.21.13:685][734]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.12.05-20.21.13:691][734]LogShaderCompilers: Display: Shaders left to compile 13
+[2018.12.05-20.21.13:732][736]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.12.05-20.21.13:846][741]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.12.05-20.21.13:880][743]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.12.05-20.21.13:898][743]LogShaderCompilers: Display: Shaders left to compile 9
+[2018.12.05-20.21.14:255][756]LogShaderCompilers: Display: Shaders left to compile 8
+[2018.12.05-20.21.14:359][762]LogShaderCompilers: Display: Shaders left to compile 7
+[2018.12.05-20.21.14:540][767]LogShaderCompilers: Display: Shaders left to compile 6
+[2018.12.05-20.21.14:596][768]LogShaderCompilers: Display: Shaders left to compile 5
+[2018.12.05-20.21.14:717][774]LogShaderCompilers: Display: Shaders left to compile 4
+[2018.12.05-20.21.14:883][782]LogShaderCompilers: Display: Shaders left to compile 3
+[2018.12.05-20.21.15:151][794]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.12.05-20.21.15:260][799]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.12.05-20.21.15:611][814]MaterialEditorStats: Base pass shader: 99 instructions
+[2018.12.05-20.21.15:612][814]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 172 instructions
+[2018.12.05-20.21.15:612][814]MaterialEditorStats: Base pass vertex shader: 32 instructions
+[2018.12.05-20.21.15:612][814]MaterialEditorStats: Texture samplers: 3/16
+[2018.12.05-20.21.16:341][845]LogMaterial: Display: Missing cached shader map for material sausage, compiling. 
+[2018.12.05-20.21.16:361][845]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.12.05-20.21.16:361][845]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.12.05-20.21.16:361][845]LogShaderCompilers: Display: Shaders left to compile 19
+[2018.12.05-20.21.16:361][845]LogShaderCompilers: Display: Shaders left to compile 18
+[2018.12.05-20.21.16:364][845]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2018.12.05-20.21.16:393][845]LogMaterial: Display: Missing cached shader map for material sausage, compiling. 
+[2018.12.05-20.21.16:616][856]LogShaderCompilers: Display: Shaders left to compile 23
+[2018.12.05-20.21.16:646][857]LogShaderCompilers: Display: Shaders left to compile 22
+[2018.12.05-20.21.16:660][858]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.12.05-20.21.16:660][858]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.12.05-20.21.16:942][871]LogShaderCompilers: Display: Shaders left to compile 19
+[2018.12.05-20.21.16:961][872]LogShaderCompilers: Display: Shaders left to compile 18
+[2018.12.05-20.21.16:967][872]LogShaderCompilers: Display: Shaders left to compile 17
+[2018.12.05-20.21.17:005][874]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.12.05-20.21.17:182][882]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.12.05-20.21.17:202][883]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.12.05-20.21.17:222][884]LogShaderCompilers: Display: Shaders left to compile 13
+[2018.12.05-20.21.17:231][884]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.12.05-20.21.17:379][891]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.12.05-20.21.17:394][892]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.12.05-20.21.17:420][893]LogShaderCompilers: Display: Shaders left to compile 9
+[2018.12.05-20.21.17:681][905]LogShaderCompilers: Display: Shaders left to compile 8
+[2018.12.05-20.21.17:700][906]LogShaderCompilers: Display: Shaders left to compile 7
+[2018.12.05-20.21.17:891][912]LogShaderCompilers: Display: Shaders left to compile 6
+[2018.12.05-20.21.17:913][913]LogShaderCompilers: Display: Shaders left to compile 5
+[2018.12.05-20.21.18:009][917]LogShaderCompilers: Display: Shaders left to compile 4
+[2018.12.05-20.21.18:203][926]LogShaderCompilers: Display: Shaders left to compile 3
+[2018.12.05-20.21.18:325][931]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.12.05-20.21.18:462][937]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.12.05-20.21.18:778][948]MaterialEditorStats: Base pass shader: 99 instructions
+[2018.12.05-20.21.18:778][948]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 172 instructions
+[2018.12.05-20.21.18:778][948]MaterialEditorStats: Base pass vertex shader: 32 instructions
+[2018.12.05-20.21.18:778][948]MaterialEditorStats: Texture samplers: 3/16
+[2018.12.05-20.21.19:269][969]LogMaterial: Display: Missing cached shader map for material sausage, compiling. 
+[2018.12.05-20.21.19:284][969]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.12.05-20.21.19:284][969]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.12.05-20.21.19:284][969]LogShaderCompilers: Display: Shaders left to compile 19
+[2018.12.05-20.21.19:284][969]LogShaderCompilers: Display: Shaders left to compile 18
+[2018.12.05-20.21.19:286][969]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2018.12.05-20.21.19:315][969]LogMaterial: Display: Missing cached shader map for material sausage, compiling. 
+[2018.12.05-20.21.19:545][981]LogShaderCompilers: Display: Shaders left to compile 23
+[2018.12.05-20.21.19:565][982]LogShaderCompilers: Display: Shaders left to compile 22
+[2018.12.05-20.21.19:575][982]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.12.05-20.21.19:575][982]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.12.05-20.21.19:860][995]LogShaderCompilers: Display: Shaders left to compile 19
+[2018.12.05-20.21.19:876][996]LogShaderCompilers: Display: Shaders left to compile 18
+[2018.12.05-20.21.19:885][996]LogShaderCompilers: Display: Shaders left to compile 17
+[2018.12.05-20.21.19:941][999]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.12.05-20.21.20:103][  6]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.12.05-20.21.20:124][  7]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.12.05-20.21.20:136][  8]LogShaderCompilers: Display: Shaders left to compile 13
+[2018.12.05-20.21.20:157][  9]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.12.05-20.21.20:309][ 16]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.12.05-20.21.20:317][ 16]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.12.05-20.21.20:336][ 17]LogShaderCompilers: Display: Shaders left to compile 9
+[2018.12.05-20.21.20:635][ 31]LogShaderCompilers: Display: Shaders left to compile 8
+[2018.12.05-20.21.20:656][ 32]LogShaderCompilers: Display: Shaders left to compile 7
+[2018.12.05-20.21.20:831][ 40]LogShaderCompilers: Display: Shaders left to compile 6
+[2018.12.05-20.21.20:839][ 40]LogShaderCompilers: Display: Shaders left to compile 5
+[2018.12.05-20.21.20:959][ 46]LogShaderCompilers: Display: Shaders left to compile 4
+[2018.12.05-20.21.21:134][ 54]LogShaderCompilers: Display: Shaders left to compile 3
+[2018.12.05-20.21.21:265][ 60]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.12.05-20.21.21:373][ 65]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.12.05-20.21.21:722][ 78]MaterialEditorStats: Base pass shader: 99 instructions
+[2018.12.05-20.21.21:722][ 78]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 172 instructions
+[2018.12.05-20.21.21:722][ 78]MaterialEditorStats: Base pass vertex shader: 32 instructions
+[2018.12.05-20.21.21:722][ 78]MaterialEditorStats: Texture samplers: 3/16
+[2018.12.05-20.21.23:668][163]LogMaterial: Display: Missing cached shader map for material sausage, compiling. 
+[2018.12.05-20.21.23:689][163]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2018.12.05-20.21.23:704][163]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.12.05-20.21.23:704][163]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.12.05-20.21.23:704][163]LogShaderCompilers: Display: Shaders left to compile 19
+[2018.12.05-20.21.23:704][163]LogShaderCompilers: Display: Shaders left to compile 18
+[2018.12.05-20.21.23:719][163]LogMaterial: Display: Missing cached shader map for material sausage, compiling. 
+[2018.12.05-20.21.23:957][174]LogShaderCompilers: Display: Shaders left to compile 23
+[2018.12.05-20.21.23:975][174]LogShaderCompilers: Display: Shaders left to compile 22
+[2018.12.05-20.21.23:999][176]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.12.05-20.21.23:999][176]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.12.05-20.21.24:294][190]LogShaderCompilers: Display: Shaders left to compile 19
+[2018.12.05-20.21.24:309][191]LogShaderCompilers: Display: Shaders left to compile 18
+[2018.12.05-20.21.24:331][192]LogShaderCompilers: Display: Shaders left to compile 17
+[2018.12.05-20.21.24:372][194]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.12.05-20.21.24:636][205]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.12.05-20.21.24:676][205]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.12.05-20.21.24:756][209]LogShaderCompilers: Display: Shaders left to compile 13
+[2018.12.05-20.21.24:780][210]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.12.05-20.21.25:107][221]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.12.05-20.21.25:202][224]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.12.05-20.21.25:220][224]LogMaterial: Display: Missing cached shader map for material sausage, compiling. 
+[2018.12.05-20.21.25:291][224]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.12.05-20.21.25:321][224]LogShaderCompilers: Display: Shaders left to compile 23
+[2018.12.05-20.21.26:330][246]LogShaderCompilers: Display: Shaders left to compile 22
+[2018.12.05-20.21.26:478][250]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.12.05-20.21.26:543][252]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.12.05-20.21.27:045][264]LogShaderCompilers: Display: Shaders left to compile 19
+[2018.12.05-20.21.27:233][269]LogMaterial: Display: Missing cached shader map for material sausage, compiling. 
+[2018.12.05-20.21.27:344][269]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2018.12.05-20.21.27:518][272]LogShaderCompilers: Display: Shaders left to compile 25
+[2018.12.05-20.21.27:601][273]LogShaderCompilers: Display: Shaders left to compile 24
+[2018.12.05-20.21.27:601][273]LogShaderCompilers: Display: Shaders left to compile 23
+[2018.12.05-20.21.27:970][282]LogShaderCompilers: Display: Shaders left to compile 22
+[2018.12.05-20.21.28:904][303]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.12.05-20.21.28:977][304]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.12.05-20.21.29:147][309]LogShaderCompilers: Display: Shaders left to compile 19
+[2018.12.05-20.21.29:249][312]LogShaderCompilers: Display: Shaders left to compile 18
+[2018.12.05-20.21.29:878][325]LogMaterial: Display: Missing cached shader map for material sausage, compiling. 
+[2018.12.05-20.21.29:948][325]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.12.05-20.21.29:973][325]LogShaderCompilers: Display: Shaders left to compile 22
+[2018.12.05-20.21.29:973][325]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2018.12.05-20.21.30:057][326]LogShaderCompilers: Display: Shaders left to compile 23
+[2018.12.05-20.21.30:134][328]LogShaderCompilers: Display: Shaders left to compile 22
+[2018.12.05-20.21.31:290][355]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.12.05-20.21.31:384][356]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.12.05-20.21.31:462][359]LogShaderCompilers: Display: Shaders left to compile 19
+[2018.12.05-20.21.31:538][361]LogShaderCompilers: Display: Shaders left to compile 18
+[2018.12.05-20.21.31:710][364]LogMaterial: Display: Missing cached shader map for material sausage, compiling. 
+[2018.12.05-20.21.32:319][374]LogShaderCompilers: Display: Shaders left to compile 23
+[2018.12.05-20.21.32:390][376]LogShaderCompilers: Display: Shaders left to compile 22
+[2018.12.05-20.21.32:390][376]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.12.05-20.21.32:525][380]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.12.05-20.21.33:534][408]LogShaderCompilers: Display: Shaders left to compile 19
+[2018.12.05-20.21.33:600][410]LogShaderCompilers: Display: Shaders left to compile 18
+[2018.12.05-20.21.33:653][411]LogMaterial: Display: Missing cached shader map for material sausage, compiling. 
+[2018.12.05-20.21.33:706][411]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.12.05-20.21.33:776][413]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.12.05-20.21.34:425][429]LogShaderCompilers: Display: Shaders left to compile 19
+[2018.12.05-20.21.34:568][432]LogShaderCompilers: Display: Shaders left to compile 18
+[2018.12.05-20.21.34:584][432]LogMaterial: Display: Missing cached shader map for material sausage, compiling. 
+[2018.12.05-20.21.34:659][432]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2018.12.05-20.21.34:741][433]LogShaderCompilers: Display: Shaders left to compile 23
+[2018.12.05-20.21.34:741][433]LogShaderCompilers: Display: Shaders left to compile 22
+[2018.12.05-20.21.35:280][446]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.12.05-20.21.35:318][447]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.12.05-20.21.35:725][458]LogShaderCompilers: Display: Shaders left to compile 19
+[2018.12.05-20.21.35:758][459]LogShaderCompilers: Display: Shaders left to compile 18
+[2018.12.05-20.21.36:224][472]LogShaderCompilers: Display: Shaders left to compile 17
+[2018.12.05-20.21.36:325][475]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.12.05-20.21.36:543][482]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.12.05-20.21.36:578][483]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.12.05-20.21.37:014][494]LogShaderCompilers: Display: Shaders left to compile 13
+[2018.12.05-20.21.37:046][495]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.12.05-20.21.37:348][504]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.12.05-20.21.38:186][527]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.12.05-20.21.38:406][533]LogShaderCompilers: Display: Shaders left to compile 9
+[2018.12.05-20.21.38:542][537]LogMaterial: Display: Missing cached shader map for material sausage, compiling. 
+[2018.12.05-20.21.38:637][537]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2018.12.05-20.21.38:773][540]LogShaderCompilers: Display: Shaders left to compile 23
+[2018.12.05-20.21.39:006][543]LogShaderCompilers: Display: Shaders left to compile 22
+[2018.12.05-20.21.39:307][552]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.12.05-20.21.39:706][564]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.12.05-20.21.39:781][566]LogShaderCompilers: Display: Shaders left to compile 19
+[2018.12.05-20.21.39:943][571]LogShaderCompilers: Display: Shaders left to compile 18
+[2018.12.05-20.21.40:269][581]LogShaderCompilers: Display: Shaders left to compile 17
+[2018.12.05-20.21.40:475][588]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.12.05-20.21.40:543][590]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.12.05-20.21.40:711][596]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.12.05-20.21.41:015][606]LogShaderCompilers: Display: Shaders left to compile 13
+[2018.12.05-20.21.41:045][607]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.12.05-20.21.41:307][615]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.12.05-20.21.41:448][619]LogMaterial: Display: Missing cached shader map for material sausage, compiling. 
+[2018.12.05-20.21.41:517][619]LogMaterial: Display: Missing cached shader map for material sausage, compiling. 
+[2018.12.05-20.21.41:921][627]LogShaderCompilers: Display: Shaders left to compile 23
+[2018.12.05-20.21.42:223][636]LogShaderCompilers: Display: Shaders left to compile 22
+[2018.12.05-20.21.42:637][649]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.12.05-20.21.42:803][654]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.12.05-20.21.43:192][666]LogShaderCompilers: Display: Shaders left to compile 19
+[2018.12.05-20.21.43:221][667]LogShaderCompilers: Display: Shaders left to compile 18
+[2018.12.05-20.21.43:410][672]LogMaterial: Display: Missing cached shader map for material sausage, compiling. 
+[2018.12.05-20.21.43:476][672]LogMaterialEditor: Saving and Compiling material sausage
+[2018.12.05-20.21.45:477][672]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.12.05-20.21.45:477][672]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.12.05-20.21.45:477][672]LogShaderCompilers: Display: Shaders left to compile 19
+[2018.12.05-20.21.45:477][672]LogShaderCompilers: Display: Shaders left to compile 18
+[2018.12.05-20.21.45:477][672]LogShaderCompilers: Display: Shaders left to compile 17
+[2018.12.05-20.21.45:477][672]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.12.05-20.21.45:477][672]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.12.05-20.21.45:477][672]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.12.05-20.21.45:477][672]LogShaderCompilers: Display: Shaders left to compile 13
+[2018.12.05-20.21.45:478][672]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.12.05-20.21.45:478][672]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.12.05-20.21.45:478][672]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.12.05-20.21.45:478][672]LogShaderCompilers: Display: Shaders left to compile 9
+[2018.12.05-20.21.45:478][672]LogShaderCompilers: Display: Shaders left to compile 8
+[2018.12.05-20.21.45:525][672]LogMaterial: Display: Missing cached shader map for material sausage, compiling. 
+[2018.12.05-20.21.45:666][672]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.12.05-20.21.45:666][672]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.12.05-20.21.45:724][672]LogMaterial: Display: Missing cached shader map for material sausage, compiling. 
+[2018.12.05-20.21.45:774][672]LogMaterial: Display: Missing cached shader map for material sausage, compiling. 
+[2018.12.05-20.21.45:899][672]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy sausage, compiling. 
+[2018.12.05-20.21.49:017][672]LogShaderCompilers: Display: Shaders left to compile 42
+[2018.12.05-20.21.49:017][672]LogShaderCompilers: Display: Shaders left to compile 41
+[2018.12.05-20.21.49:017][672]LogShaderCompilers: Display: Shaders left to compile 40
+[2018.12.05-20.21.49:017][672]LogShaderCompilers: Display: Shaders left to compile 39
+[2018.12.05-20.21.49:017][672]LogShaderCompilers: Display: Shaders left to compile 38
+[2018.12.05-20.21.49:017][672]LogShaderCompilers: Display: Shaders left to compile 37
+[2018.12.05-20.21.49:017][672]LogShaderCompilers: Display: Shaders left to compile 36
+[2018.12.05-20.21.49:017][672]LogShaderCompilers: Display: Shaders left to compile 35
+[2018.12.05-20.21.49:017][672]LogShaderCompilers: Display: Shaders left to compile 34
+[2018.12.05-20.21.49:017][672]LogShaderCompilers: Display: Shaders left to compile 33
+[2018.12.05-20.21.49:017][672]LogShaderCompilers: Display: Shaders left to compile 32
+[2018.12.05-20.21.49:017][672]LogShaderCompilers: Display: Shaders left to compile 31
+[2018.12.05-20.21.49:017][672]LogShaderCompilers: Display: Shaders left to compile 30
+[2018.12.05-20.21.49:017][672]LogShaderCompilers: Display: Shaders left to compile 29
+[2018.12.05-20.21.49:018][672]LogShaderCompilers: Display: Shaders left to compile 28
+[2018.12.05-20.21.49:018][672]LogShaderCompilers: Display: Shaders left to compile 27
+[2018.12.05-20.21.49:018][672]LogShaderCompilers: Display: Shaders left to compile 26
+[2018.12.05-20.21.49:018][672]LogShaderCompilers: Display: Shaders left to compile 25
+[2018.12.05-20.21.49:018][672]LogShaderCompilers: Display: Shaders left to compile 24
+[2018.12.05-20.21.49:018][672]LogShaderCompilers: Display: Shaders left to compile 23
+[2018.12.05-20.21.49:018][672]LogShaderCompilers: Display: Shaders left to compile 22
+[2018.12.05-20.21.49:018][672]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.12.05-20.21.49:018][672]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.12.05-20.21.49:027][672]TextureStreamingBuild: Display: Compiling optional shaders took 3.146 seconds.
+[2018.12.05-20.21.53:456][672]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/sasuage/sausage" FILE="../../../../../../Git Hub/TeamSadMen/TeamSadMen/Content/sasuage/sausage.uasset" SILENT=true
+[2018.12.05-20.21.53:491][672]LogSavePackage: Moving '../../../../../../Git Hub/TeamSadMen/TeamSadMen/Saved/sausageE8570776499D27275D3EAD986D0C247E.tmp' to '../../../../../../Git Hub/TeamSadMen/TeamSadMen/Content/sasuage/sausage.uasset'
+[2018.12.05-20.21.53:511][672]MaterialEditorStats: Base pass shader: 110 instructions
+[2018.12.05-20.21.53:511][672]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 183 instructions
+[2018.12.05-20.21.53:512][672]MaterialEditorStats: Base pass vertex shader: 36 instructions
+[2018.12.05-20.21.53:512][672]MaterialEditorStats: Texture samplers: 6/16
+[2018.12.05-20.21.53:512][672]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2018.12.05-20.21.53:512][672]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.12.05-20.21.55:449][753]LogMaterial: Display: Missing cached shader map for material sausage, compiling. 
+[2018.12.05-20.21.55:499][753]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.12.05-20.21.55:499][753]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.12.05-20.21.55:499][753]LogShaderCompilers: Display: Shaders left to compile 19
+[2018.12.05-20.21.55:499][753]LogShaderCompilers: Display: Shaders left to compile 18
+[2018.12.05-20.21.56:268][784]LogShaderCompilers: Display: Shaders left to compile 17
+[2018.12.05-20.21.56:294][785]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.12.05-20.21.56:359][787]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.12.05-20.21.56:385][788]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.12.05-20.21.56:507][791]LogMaterial: Display: Missing cached shader map for material sausage, compiling. 
+[2018.12.05-20.21.56:616][791]LogMaterial: Display: Missing cached shader map for material sausage, compiling. 
+[2018.12.05-20.21.56:686][791]LogMaterial: Display: Missing cached shader map for material sausage, compiling. 
+[2018.12.05-20.21.56:839][792]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.12.05-20.21.56:839][792]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.12.05-20.21.56:869][793]LogShaderCompilers: Display: Shaders left to compile 19
+[2018.12.05-20.21.56:924][795]LogShaderCompilers: Display: Shaders left to compile 18
+[2018.12.05-20.21.57:458][810]LogMaterialEditor: Saving and Compiling material sausage
+[2018.12.05-20.21.59:300][810]LogShaderCompilers: Display: Shaders left to compile 17
+[2018.12.05-20.21.59:300][810]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.12.05-20.21.59:300][810]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.12.05-20.21.59:300][810]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.12.05-20.21.59:300][810]LogShaderCompilers: Display: Shaders left to compile 13
+[2018.12.05-20.21.59:300][810]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.12.05-20.21.59:300][810]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.12.05-20.21.59:300][810]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.12.05-20.21.59:300][810]LogShaderCompilers: Display: Shaders left to compile 9
+[2018.12.05-20.21.59:300][810]LogShaderCompilers: Display: Shaders left to compile 8
+[2018.12.05-20.21.59:300][810]LogShaderCompilers: Display: Shaders left to compile 7
+[2018.12.05-20.21.59:300][810]LogShaderCompilers: Display: Shaders left to compile 6
+[2018.12.05-20.21.59:301][810]LogShaderCompilers: Display: Shaders left to compile 5
+[2018.12.05-20.21.59:354][810]LogMaterial: Display: Missing cached shader map for material sausage, compiling. 
+[2018.12.05-20.21.59:483][810]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.12.05-20.21.59:483][810]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.12.05-20.21.59:526][810]LogMaterial: Display: Missing cached shader map for material sausage, compiling. 
+[2018.12.05-20.21.59:573][810]LogMaterial: Display: Missing cached shader map for material sausage, compiling. 
+[2018.12.05-20.21.59:700][810]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy sausage, compiling. 
+[2018.12.05-20.22.02:642][810]LogShaderCompilers: Display: Shaders left to compile 42
+[2018.12.05-20.22.02:643][810]LogShaderCompilers: Display: Shaders left to compile 41
+[2018.12.05-20.22.02:643][810]LogShaderCompilers: Display: Shaders left to compile 40
+[2018.12.05-20.22.02:643][810]LogShaderCompilers: Display: Shaders left to compile 39
+[2018.12.05-20.22.02:643][810]LogShaderCompilers: Display: Shaders left to compile 38
+[2018.12.05-20.22.02:643][810]LogShaderCompilers: Display: Shaders left to compile 37
+[2018.12.05-20.22.02:643][810]LogShaderCompilers: Display: Shaders left to compile 36
+[2018.12.05-20.22.02:643][810]LogShaderCompilers: Display: Shaders left to compile 35
+[2018.12.05-20.22.02:643][810]LogShaderCompilers: Display: Shaders left to compile 34
+[2018.12.05-20.22.02:643][810]LogShaderCompilers: Display: Shaders left to compile 33
+[2018.12.05-20.22.02:643][810]LogShaderCompilers: Display: Shaders left to compile 32
+[2018.12.05-20.22.02:643][810]LogShaderCompilers: Display: Shaders left to compile 31
+[2018.12.05-20.22.02:643][810]LogShaderCompilers: Display: Shaders left to compile 30
+[2018.12.05-20.22.02:643][810]LogShaderCompilers: Display: Shaders left to compile 29
+[2018.12.05-20.22.02:643][810]LogShaderCompilers: Display: Shaders left to compile 28
+[2018.12.05-20.22.02:643][810]LogShaderCompilers: Display: Shaders left to compile 27
+[2018.12.05-20.22.02:643][810]LogShaderCompilers: Display: Shaders left to compile 26
+[2018.12.05-20.22.02:643][810]LogShaderCompilers: Display: Shaders left to compile 25
+[2018.12.05-20.22.02:643][810]LogShaderCompilers: Display: Shaders left to compile 24
+[2018.12.05-20.22.02:643][810]LogShaderCompilers: Display: Shaders left to compile 23
+[2018.12.05-20.22.02:643][810]LogShaderCompilers: Display: Shaders left to compile 22
+[2018.12.05-20.22.02:643][810]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.12.05-20.22.02:643][810]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.12.05-20.22.02:648][810]TextureStreamingBuild: Display: Compiling optional shaders took 2.968 seconds.
+[2018.12.05-20.22.06:692][810]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/sasuage/sausage" FILE="../../../../../../Git Hub/TeamSadMen/TeamSadMen/Content/sasuage/sausage.uasset" SILENT=true
+[2018.12.05-20.22.06:744][810]LogSavePackage: Moving '../../../../../../Git Hub/TeamSadMen/TeamSadMen/Saved/sausageA03EBC6F449A3976BAC6B4B21C16B48C.tmp' to '../../../../../../Git Hub/TeamSadMen/TeamSadMen/Content/sasuage/sausage.uasset'
+[2018.12.05-20.22.06:765][810]MaterialEditorStats: Base pass shader: 113 instructions
+[2018.12.05-20.22.06:765][810]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 189 instructions
+[2018.12.05-20.22.06:765][810]MaterialEditorStats: Base pass vertex shader: 36 instructions
+[2018.12.05-20.22.06:766][810]MaterialEditorStats: Texture samplers: 6/16
+[2018.12.05-20.22.06:766][810]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2018.12.05-20.22.06:766][810]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.12.05-20.22.10:447][972]LogSlate: Window 'sausage' being destroyed
+[2018.12.05-20.22.13:714][151]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.05-20.22.14:935][199]LogActorFactory: Actor Factory created sausage
+[2018.12.05-20.22.15:392][221]LogActorFactory: Actor Factory created sausage
+[2018.12.05-20.22.18:109][327]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.05-20.22.26:108][752]Cmd: DELETE
+[2018.12.05-20.22.26:108][752]Cmd: ACTOR DELETE
+[2018.12.05-20.22.26:117][752]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.12.05-20.22.26:153][752]LogEditorActor: Deleted 1 Actors (0.045 secs)
+[2018.12.05-20.22.27:330][818]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.05-20.22.32:129][ 37]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.05-20.22.33:283][ 93]LogActorFactory: Actor Factory created green_pepper
+[2018.12.05-20.22.33:760][118]LogActorFactory: Actor Factory created green_pepper
+[2018.12.05-20.22.34:512][151]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.05-20.22.37:967][303]LogMaterial: Warning: Material /Game/sasuage/sausage.sausage needed to have new flag set bUsedWithStaticLighting !
+[2018.12.05-20.22.37:968][303]LogMaterial: Warning: Material /Engine/Transient.sausage needed to have new flag set bUsedWithStaticLighting !
+[2018.12.05-20.22.37:972][303]LogMaterial: Display: Missing cached shader map for material sausage, compiling. 
+[2018.12.05-20.22.38:023][303]LogShaderCompilers: Display: Shaders left to compile 30
+[2018.12.05-20.22.38:023][303]LogShaderCompilers: Display: Shaders left to compile 29
+[2018.12.05-20.22.38:023][303]LogShaderCompilers: Display: Shaders left to compile 28
+[2018.12.05-20.22.38:023][303]LogShaderCompilers: Display: Shaders left to compile 27
+[2018.12.05-20.22.38:023][303]LogMaterial: Display: Missing cached shader map for material sausage, compiling. 
+[2018.12.05-20.22.38:806][338]LogShaderCompilers: Display: Shaders left to compile 57
+[2018.12.05-20.22.38:893][343]LogShaderCompilers: Display: Shaders left to compile 56
+[2018.12.05-20.22.38:893][343]LogShaderCompilers: Display: Shaders left to compile 55
+[2018.12.05-20.22.38:929][345]LogShaderCompilers: Display: Shaders left to compile 54
+[2018.12.05-20.22.39:126][356]LogShaderCompilers: Display: Shaders left to compile 53
+[2018.12.05-20.22.39:195][360]LogShaderCompilers: Display: Shaders left to compile 52
+[2018.12.05-20.22.39:228][362]LogShaderCompilers: Display: Shaders left to compile 51
+[2018.12.05-20.22.39:246][363]LogShaderCompilers: Display: Shaders left to compile 50
+[2018.12.05-20.22.39:306][366]Cmd: TRANSACTION UNDO
+[2018.12.05-20.22.39:306][366]LogEditorTransaction: Undo Create Actors
+[2018.12.05-20.22.39:326][366]LogPhysics: Warning: Found bad index buffer when cooking UModelComponent physics data! Component: /Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.ModelComponent_5, Buffer: 0, Buffer Size: 0, Element: 0
+[2018.12.05-20.22.39:326][366]LogPhysics: Warning: Found bad index buffer when cooking UModelComponent physics data! Component: /Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.ModelComponent_5, Buffer: 0, Buffer Size: 0, Element: 1
+[2018.12.05-20.22.39:327][366]LogPhysics: Warning: Found bad index buffer when cooking UModelComponent physics data! Component: /Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.ModelComponent_5, Buffer: 0, Buffer Size: 0, Element: 2
+[2018.12.05-20.22.39:327][366]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.ModelComponent_5' invalid (1162 verts, 0 indices).
+[2018.12.05-20.22.39:327][366]LogPhysics: Warning: Attempt to build physics data for /Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.ModelComponent_5.BodySetup_0 when we are unable to.
+[2018.12.05-20.22.39:354][366]LogMaterial: Display: Missing cached shader map for material DoughMaterial, compiling. 
+[2018.12.05-20.22.39:393][366]LogMaterial: Display: Missing cached shader map for material sausage, compiling. 
+[2018.12.05-20.22.39:425][366]LogShaderCompilers: Display: Shaders left to compile 52
+[2018.12.05-20.22.39:603][369]LogShaderCompilers: Display: Shaders left to compile 81
+[2018.12.05-20.22.39:740][369]LogShaderCompilers: Display: Shaders left to compile 80
+[2018.12.05-20.22.39:827][372]LogShaderCompilers: Display: Shaders left to compile 79
+[2018.12.05-20.22.39:880][376]LogShaderCompilers: Display: Shaders left to compile 78
+[2018.12.05-20.22.39:981][381]LogShaderCompilers: Display: Shaders left to compile 77
+[2018.12.05-20.22.40:059][385]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.05-20.22.40:130][389]LogShaderCompilers: Display: Shaders left to compile 76
+[2018.12.05-20.22.40:172][390]LogShaderCompilers: Display: Shaders left to compile 75
+[2018.12.05-20.22.40:172][390]LogShaderCompilers: Display: Shaders left to compile 74
+[2018.12.05-20.22.40:298][396]LogShaderCompilers: Display: Shaders left to compile 73
+[2018.12.05-20.22.40:394][400]LogShaderCompilers: Display: Shaders left to compile 72
+[2018.12.05-20.22.40:443][402]LogShaderCompilers: Display: Shaders left to compile 71
+[2018.12.05-20.22.40:455][402]LogShaderCompilers: Display: Shaders left to compile 70
+[2018.12.05-20.22.40:841][417]LogShaderCompilers: Display: Shaders left to compile 69
+[2018.12.05-20.22.40:960][422]LogShaderCompilers: Display: Shaders left to compile 68
+[2018.12.05-20.22.41:075][426]LogShaderCompilers: Display: Shaders left to compile 67
+[2018.12.05-20.22.41:107][428]LogShaderCompilers: Display: Shaders left to compile 66
+[2018.12.05-20.22.41:164][429]LogActorFactory: Actor Factory created sausage
+[2018.12.05-20.22.41:339][439]LogShaderCompilers: Display: Shaders left to compile 65
+[2018.12.05-20.22.41:474][445]LogShaderCompilers: Display: Shaders left to compile 64
+[2018.12.05-20.22.41:637][453]LogShaderCompilers: Display: Shaders left to compile 63
+[2018.12.05-20.22.41:679][456]LogShaderCompilers: Display: Shaders left to compile 62
+[2018.12.05-20.22.41:718][458]LogShaderCompilers: Display: Shaders left to compile 61
+[2018.12.05-20.22.41:900][467]LogShaderCompilers: Display: Shaders left to compile 60
+[2018.12.05-20.22.41:977][471]LogShaderCompilers: Display: Shaders left to compile 59
+[2018.12.05-20.22.42:011][473]LogShaderCompilers: Display: Shaders left to compile 58
+[2018.12.05-20.22.42:124][478]LogShaderCompilers: Display: Shaders left to compile 57
+[2018.12.05-20.22.42:144][478]LogActorFactory: Actor Factory created sausage
+[2018.12.05-20.22.42:178][478]LogShaderCompilers: Display: Shaders left to compile 56
+[2018.12.05-20.22.42:241][479]LogShaderCompilers: Display: Shaders left to compile 55
+[2018.12.05-20.22.42:241][479]LogShaderCompilers: Display: Shaders left to compile 54
+[2018.12.05-20.22.42:242][479]MaterialEditorStats: Base pass shader: 118 instructions
+[2018.12.05-20.22.42:242][479]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 194 instructions
+[2018.12.05-20.22.42:242][479]MaterialEditorStats: Base pass vertex shader: 36 instructions
+[2018.12.05-20.22.42:242][479]MaterialEditorStats: Texture samplers: 6/16
+[2018.12.05-20.22.42:243][479]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2018.12.05-20.22.42:243][479]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.12.05-20.22.42:333][483]LogShaderCompilers: Display: Shaders left to compile 53
+[2018.12.05-20.22.42:410][488]LogShaderCompilers: Display: Shaders left to compile 52
+[2018.12.05-20.22.42:427][489]LogShaderCompilers: Display: Shaders left to compile 51
+[2018.12.05-20.22.42:475][492]LogShaderCompilers: Display: Shaders left to compile 50
+[2018.12.05-20.22.42:616][500]LogShaderCompilers: Display: Shaders left to compile 49
+[2018.12.05-20.22.42:986][518]LogShaderCompilers: Display: Shaders left to compile 48
+[2018.12.05-20.22.43:172][525]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.05-20.22.43:212][527]LogShaderCompilers: Display: Shaders left to compile 47
+[2018.12.05-20.22.43:339][532]LogShaderCompilers: Display: Shaders left to compile 46
+[2018.12.05-20.22.43:552][541]LogShaderCompilers: Display: Shaders left to compile 45
+[2018.12.05-20.22.43:892][558]LogShaderCompilers: Display: Shaders left to compile 44
+[2018.12.05-20.22.44:061][563]LogShaderCompilers: Display: Shaders left to compile 43
+[2018.12.05-20.22.44:365][579]LogShaderCompilers: Display: Shaders left to compile 42
+[2018.12.05-20.22.44:541][589]LogShaderCompilers: Display: Shaders left to compile 41
+[2018.12.05-20.22.44:608][593]LogShaderCompilers: Display: Shaders left to compile 40
+[2018.12.05-20.22.44:758][599]LogActorFactory: Actor Factory created pineapple
+[2018.12.05-20.22.45:168][617]LogShaderCompilers: Display: Shaders left to compile 39
+[2018.12.05-20.22.45:189][618]LogShaderCompilers: Display: Shaders left to compile 38
+[2018.12.05-20.22.45:316][623]LogActorFactory: Actor Factory created pineapple
+[2018.12.05-20.22.45:452][624]LogShaderCompilers: Display: Shaders left to compile 37
+[2018.12.05-20.22.45:567][629]LogShaderCompilers: Display: Shaders left to compile 36
+[2018.12.05-20.22.45:745][638]LogShaderCompilers: Display: Shaders left to compile 35
+[2018.12.05-20.22.46:182][659]LogShaderCompilers: Display: Shaders left to compile 34
+[2018.12.05-20.22.46:206][660]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.05-20.22.46:319][664]LogShaderCompilers: Display: Shaders left to compile 33
+[2018.12.05-20.22.46:480][671]LogShaderCompilers: Display: Shaders left to compile 32
+[2018.12.05-20.22.46:681][679]LogShaderCompilers: Display: Shaders left to compile 31
+[2018.12.05-20.22.47:086][695]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.12.05-20.22.47:107][696]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.12.05-20.22.47:286][702]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.12.05-20.22.47:286][702]MaterialEditorStats: Base pass shader: 113 instructions
+[2018.12.05-20.22.47:286][702]MaterialEditorStats: Base pass shader with Surface Lightmap: 132 instructions
+[2018.12.05-20.22.47:286][702]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 189 instructions
+[2018.12.05-20.22.47:286][702]MaterialEditorStats: Base pass vertex shader: 36 instructions
+[2018.12.05-20.22.47:286][702]MaterialEditorStats: Texture samplers: 6/16
+[2018.12.05-20.22.47:286][702]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2018.12.05-20.22.47:286][702]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.12.05-20.22.49:095][780]LogActorFactory: Actor Factory created tomato
+[2018.12.05-20.22.49:848][815]LogActorFactory: Actor Factory created tomato
+[2018.12.05-20.22.50:489][841]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.05-20.22.54:937][ 51]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.05-20.23.03:116][387]LogActorFactory: Actor Factory created red_pepper
+[2018.12.05-20.23.04:336][449]LogActorFactory: Actor Factory created red_pepper
+[2018.12.05-20.23.07:422][611]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.05-20.23.31:911][631]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.05-20.23.33:556][694]LogActorFactory: Actor Factory created pepperoni
+[2018.12.05-20.23.34:140][721]LogActorFactory: Actor Factory created pepperoni
+[2018.12.05-20.23.37:163][876]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.05-20.23.38:847][942]LogMaterial: Display: Missing cached shader map for material Material_0, compiling. 
+[2018.12.05-20.23.38:864][943]LogShaderCompilers: Display: Shaders left to compile 5
+[2018.12.05-20.23.40:186][993]LogAssetEditorManager: Opening Asset editor for MaterialParameterCollection /Game/Materials/ColorBlind_MatParam_Collection.ColorBlind_MatParam_Collection
+[2018.12.05-20.23.44:035][218]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/ColorBlind_MatParam_Collection" FILE="../../../../../../Git Hub/TeamSadMen/TeamSadMen/Content/Materials/ColorBlind_MatParam_Collection.uasset" SILENT=true
+[2018.12.05-20.23.44:058][218]LogSavePackage: Moving '../../../../../../Git Hub/TeamSadMen/TeamSadMen/Saved/ColorBlind_MatParam_Collection04EA73A64B71353F2C04B7BF54B56839.tmp' to '../../../../../../Git Hub/TeamSadMen/TeamSadMen/Content/Materials/ColorBlind_MatParam_Collection.uasset'
+[2018.12.05-20.23.46:049][300]LogSavePackage: Moving '../../../../../../Git Hub/TeamSadMen/TeamSadMen/Saved/PizzaPlaceBA5FF7FC452711693919CBB70BB8E80F.tmp' to '../../../../../../Git Hub/TeamSadMen/TeamSadMen/Content/FirstPersonBP/Maps/PizzaPlace.umap'
+[2018.12.05-20.23.46:092][300]LogFileHelpers: Saving map 'PizzaPlace' took 0.447
+[2018.12.05-20.23.46:096][300]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/sasuage/sausage" FILE="../../../../../../Git Hub/TeamSadMen/TeamSadMen/Content/sasuage/sausage.uasset" SILENT=true
+[2018.12.05-20.23.46:116][300]LogSavePackage: Moving '../../../../../../Git Hub/TeamSadMen/TeamSadMen/Saved/sausageA2D2A2C64734E53F9C31BE9F8110742F.tmp' to '../../../../../../Git Hub/TeamSadMen/TeamSadMen/Content/sasuage/sausage.uasset'
+[2018.12.05-20.23.47:589][367]LogTemp: Repeating last play command: Selected Viewport
+[2018.12.05-20.23.47:611][367]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace' with GeneratedClass '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace'
+[2018.12.05-20.23.47:611][367]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.12.05-20.23.47:611][367]PIE: New page: PIE session: PizzaPlace (Dec 5, 2018, 10:23:47 AM)
+[2018.12.05-20.23.47:611][367]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_PizzaPlace
+[2018.12.05-20.23.47:637][367]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025848s)
+[2018.12.05-20.23.47:639][367]LogAIModule: Creating AISystem for world PizzaPlace
+[2018.12.05-20.23.47:639][367]LogPlayLevel: PIE: World Init took: (0.001673s)
+[2018.12.05-20.23.47:639][367]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace to /Game/FirstPersonBP/Maps/UEDPIE_0_PizzaPlace.PizzaPlace (0.027829s)
+[2018.12.05-20.23.47:671][367]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.12.05-20.23.47:699][367]LogInit: FAudioDevice initialized.
+[2018.12.05-20.23.47:732][367]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.12.05-20.23.47:738][367]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_PizzaPlace.PizzaPlace up for play (max tick rate 60) at 2018.12.05-15.23.47
+[2018.12.05-20.23.47:739][367]LogWorld: Bringing up level for play took: 0.004927
+[2018.12.05-20.23.47:751][367]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_PizzaPlace -0.742
+[2018.12.05-20.23.47:751][367]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace' with GeneratedClass '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace'
+[2018.12.05-20.25.25:868][735]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace' with GeneratedClass '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace'
+[2018.12.05-20.25.25:868][735]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.05-20.25.25:925][735]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.12.05-20.25.25:925][735]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace' with GeneratedClass '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace'
+[2018.12.05-20.25.25:958][735]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.05-20.25.26:000][736]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2018.12.05-20.25.34:555][207]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.05-20.25.47:352][958]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/ColorBlind_MatParam_Collection" FILE="../../../../../../Git Hub/TeamSadMen/TeamSadMen/Content/Materials/ColorBlind_MatParam_Collection.uasset" SILENT=true
+[2018.12.05-20.25.47:371][958]LogSavePackage: Moving '../../../../../../Git Hub/TeamSadMen/TeamSadMen/Saved/ColorBlind_MatParam_CollectionAC7D7BC24E7C4D6ECB99BC82A2EB19E0.tmp' to '../../../../../../Git Hub/TeamSadMen/TeamSadMen/Content/Materials/ColorBlind_MatParam_Collection.uasset'
+[2018.12.05-20.25.48:640][ 23]LogTemp: Repeating last play command: Selected Viewport
+[2018.12.05-20.25.48:664][ 23]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace' with GeneratedClass '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace'
+[2018.12.05-20.25.48:664][ 23]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.12.05-20.25.48:664][ 23]PIE: New page: PIE session: PizzaPlace (Dec 5, 2018, 10:25:48 AM)
+[2018.12.05-20.25.48:664][ 23]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_PizzaPlace
+[2018.12.05-20.25.48:694][ 23]LogPlayLevel: PIE: StaticDuplicateObject took: (0.029789s)
+[2018.12.05-20.25.48:695][ 23]LogAIModule: Creating AISystem for world PizzaPlace
+[2018.12.05-20.25.48:696][ 23]LogPlayLevel: PIE: World Init took: (0.001280s)
+[2018.12.05-20.25.48:696][ 23]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace to /Game/FirstPersonBP/Maps/UEDPIE_0_PizzaPlace.PizzaPlace (0.031270s)
+[2018.12.05-20.25.48:735][ 23]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.12.05-20.25.48:764][ 23]LogInit: FAudioDevice initialized.
+[2018.12.05-20.25.48:795][ 23]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.12.05-20.25.48:800][ 23]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_PizzaPlace.PizzaPlace up for play (max tick rate 60) at 2018.12.05-15.25.48
+[2018.12.05-20.25.48:800][ 23]LogWorld: Bringing up level for play took: 0.004583
+[2018.12.05-20.25.48:813][ 23]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_PizzaPlace 0.321
+[2018.12.05-20.25.48:813][ 23]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace' with GeneratedClass '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace'
+[2018.12.05-20.25.54:616][265]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace' with GeneratedClass '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace'
+[2018.12.05-20.25.54:617][265]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.05-20.25.54:674][265]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.12.05-20.25.54:674][265]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace' with GeneratedClass '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace'
+[2018.12.05-20.25.54:703][265]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.05-20.25.54:745][266]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2018.12.05-20.25.55:567][312]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.05-20.26.00:968][634]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/ColorBlind_MatParam_Collection" FILE="../../../../../../Git Hub/TeamSadMen/TeamSadMen/Content/Materials/ColorBlind_MatParam_Collection.uasset" SILENT=true
+[2018.12.05-20.26.00:986][634]LogSavePackage: Moving '../../../../../../Git Hub/TeamSadMen/TeamSadMen/Saved/ColorBlind_MatParam_Collection3B2766CB4016A3B4916C3EAB7C802996.tmp' to '../../../../../../Git Hub/TeamSadMen/TeamSadMen/Content/Materials/ColorBlind_MatParam_Collection.uasset'
+[2018.12.05-20.26.02:490][720]LogTemp: Repeating last play command: Selected Viewport
+[2018.12.05-20.26.02:512][720]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace' with GeneratedClass '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace'
+[2018.12.05-20.26.02:512][720]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.12.05-20.26.02:512][720]PIE: New page: PIE session: PizzaPlace (Dec 5, 2018, 10:26:02 AM)
+[2018.12.05-20.26.02:512][720]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_PizzaPlace
+[2018.12.05-20.26.02:542][720]LogPlayLevel: PIE: StaticDuplicateObject took: (0.029699s)
+[2018.12.05-20.26.02:543][720]LogAIModule: Creating AISystem for world PizzaPlace
+[2018.12.05-20.26.02:543][720]LogPlayLevel: PIE: World Init took: (0.001397s)
+[2018.12.05-20.26.02:543][720]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace to /Game/FirstPersonBP/Maps/UEDPIE_0_PizzaPlace.PizzaPlace (0.031371s)
+[2018.12.05-20.26.02:578][720]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.12.05-20.26.02:606][720]LogInit: FAudioDevice initialized.
+[2018.12.05-20.26.02:643][720]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.12.05-20.26.02:649][720]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_PizzaPlace.PizzaPlace up for play (max tick rate 60) at 2018.12.05-15.26.02
+[2018.12.05-20.26.02:650][720]LogWorld: Bringing up level for play took: 0.005773
+[2018.12.05-20.26.02:663][720]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_PizzaPlace 0.17
+[2018.12.05-20.26.02:663][720]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace' with GeneratedClass '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace'
+[2018.12.05-20.26.16:253][318]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace' with GeneratedClass '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace'
+[2018.12.05-20.26.16:253][318]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.05-20.26.16:307][318]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.12.05-20.26.16:307][318]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace' with GeneratedClass '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace'
+[2018.12.05-20.26.16:338][318]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.05-20.26.16:378][319]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2018.12.05-20.26.17:202][366]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.05-20.26.25:397][850]LogTemp: Repeating last play command: Selected Viewport
+[2018.12.05-20.26.25:419][850]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace' with GeneratedClass '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace'
+[2018.12.05-20.26.25:419][850]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.12.05-20.26.25:419][850]PIE: New page: PIE session: PizzaPlace (Dec 5, 2018, 10:26:25 AM)
+[2018.12.05-20.26.25:419][850]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_PizzaPlace
+[2018.12.05-20.26.25:446][850]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026814s)
+[2018.12.05-20.26.25:448][850]LogAIModule: Creating AISystem for world PizzaPlace
+[2018.12.05-20.26.25:448][850]LogPlayLevel: PIE: World Init took: (0.001530s)
+[2018.12.05-20.26.25:448][850]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace to /Game/FirstPersonBP/Maps/UEDPIE_0_PizzaPlace.PizzaPlace (0.028705s)
+[2018.12.05-20.26.25:482][850]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.12.05-20.26.25:514][850]LogInit: FAudioDevice initialized.
+[2018.12.05-20.26.25:549][850]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.12.05-20.26.25:554][850]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_PizzaPlace.PizzaPlace up for play (max tick rate 60) at 2018.12.05-15.26.25
+[2018.12.05-20.26.25:555][850]LogWorld: Bringing up level for play took: 0.004705
+[2018.12.05-20.26.25:568][850]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_PizzaPlace 1.075
+[2018.12.05-20.26.25:568][850]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace' with GeneratedClass '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace'
+[2018.12.05-20.26.35:613][280]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace' with GeneratedClass '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace'
+[2018.12.05-20.26.35:614][280]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.05-20.26.35:671][280]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.12.05-20.26.35:671][280]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace' with GeneratedClass '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace'
+[2018.12.05-20.26.35:696][280]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.05-20.26.35:737][281]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2018.12.05-20.26.36:408][318]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.05-20.26.42:189][659]LogRenderer: Reallocating scene render targets to support 1200x532 Format 10 NumSamples 1 (Frame:20287).
+[2018.12.05-20.26.42:765][689]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/ColorBlind_MatParam_Collection" FILE="../../../../../../Git Hub/TeamSadMen/TeamSadMen/Content/Materials/ColorBlind_MatParam_Collection.uasset" SILENT=true
+[2018.12.05-20.26.42:788][689]LogSavePackage: Moving '../../../../../../Git Hub/TeamSadMen/TeamSadMen/Saved/ColorBlind_MatParam_Collection7734B86040B230BA890A51B027C44C42.tmp' to '../../../../../../Git Hub/TeamSadMen/TeamSadMen/Content/Materials/ColorBlind_MatParam_Collection.uasset'
+[2018.12.05-20.26.46:625][892]LogTemp: Repeating last play command: Selected Viewport
+[2018.12.05-20.26.46:649][892]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace' with GeneratedClass '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace'
+[2018.12.05-20.26.46:650][892]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.12.05-20.26.46:650][892]PIE: New page: PIE session: PizzaPlace (Dec 5, 2018, 10:26:46 AM)
+[2018.12.05-20.26.46:650][892]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_PizzaPlace
+[2018.12.05-20.26.46:681][892]LogPlayLevel: PIE: StaticDuplicateObject took: (0.031100s)
+[2018.12.05-20.26.46:682][892]LogAIModule: Creating AISystem for world PizzaPlace
+[2018.12.05-20.26.46:683][892]LogPlayLevel: PIE: World Init took: (0.001556s)
+[2018.12.05-20.26.46:683][892]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace to /Game/FirstPersonBP/Maps/UEDPIE_0_PizzaPlace.PizzaPlace (0.032887s)
+[2018.12.05-20.26.46:722][892]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.12.05-20.26.46:752][892]LogInit: FAudioDevice initialized.
+[2018.12.05-20.26.46:784][892]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.12.05-20.26.46:790][892]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_PizzaPlace.PizzaPlace up for play (max tick rate 60) at 2018.12.05-15.26.46
+[2018.12.05-20.26.46:790][892]LogWorld: Bringing up level for play took: 0.004551
+[2018.12.05-20.26.46:803][892]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_PizzaPlace 0.311
+[2018.12.05-20.26.46:804][892]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace' with GeneratedClass '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace'
+[2018.12.05-20.26.52:686][134]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace' with GeneratedClass '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace'
+[2018.12.05-20.26.52:686][134]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.05-20.26.52:741][134]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.12.05-20.26.52:741][134]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace' with GeneratedClass '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace'
+[2018.12.05-20.26.52:769][134]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.05-20.26.52:810][135]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2018.12.05-20.27.14:895][153]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.05-20.29.23:943][655]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.05-20.29.30:661][769]LogSlate: Window 'Message' being destroyed
+[2018.12.05-20.29.31:249][769]LogMaterial: Display: Missing cached shader map for material DoughMaterial, compiling. 
+[2018.12.05-20.29.31:298][769]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.12.05-20.29.31:298][769]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.12.05-20.29.31:299][769]LogShaderCompilers: Display: Shaders left to compile 19
+[2018.12.05-20.29.31:299][769]LogShaderCompilers: Display: Shaders left to compile 18
+[2018.12.05-20.29.31:321][769]LogMaterial: Display: Missing cached shader map for material DoughMaterial, compiling. 
+[2018.12.05-20.29.31:344][769]LogMaterial: Display: Missing cached shader map for material DoughMaterial, compiling. 
+[2018.12.05-20.29.31:406][769]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy DoughMaterial, compiling. 
+[2018.12.05-20.29.33:312][769]LogShaderCompilers: Display: Shaders left to compile 40
+[2018.12.05-20.29.33:312][769]LogShaderCompilers: Display: Shaders left to compile 39
+[2018.12.05-20.29.33:312][769]LogShaderCompilers: Display: Shaders left to compile 38
+[2018.12.05-20.29.33:312][769]LogShaderCompilers: Display: Shaders left to compile 37
+[2018.12.05-20.29.33:312][769]LogShaderCompilers: Display: Shaders left to compile 36
+[2018.12.05-20.29.33:312][769]LogShaderCompilers: Display: Shaders left to compile 35
+[2018.12.05-20.29.33:312][769]LogShaderCompilers: Display: Shaders left to compile 34
+[2018.12.05-20.29.33:312][769]LogShaderCompilers: Display: Shaders left to compile 33
+[2018.12.05-20.29.33:312][769]LogShaderCompilers: Display: Shaders left to compile 32
+[2018.12.05-20.29.33:312][769]LogShaderCompilers: Display: Shaders left to compile 31
+[2018.12.05-20.29.33:312][769]LogShaderCompilers: Display: Shaders left to compile 30
+[2018.12.05-20.29.33:312][769]LogShaderCompilers: Display: Shaders left to compile 29
+[2018.12.05-20.29.33:312][769]LogShaderCompilers: Display: Shaders left to compile 28
+[2018.12.05-20.29.33:312][769]LogShaderCompilers: Display: Shaders left to compile 27
+[2018.12.05-20.29.33:312][769]LogShaderCompilers: Display: Shaders left to compile 26
+[2018.12.05-20.29.33:312][769]LogShaderCompilers: Display: Shaders left to compile 25
+[2018.12.05-20.29.33:312][769]LogShaderCompilers: Display: Shaders left to compile 24
+[2018.12.05-20.29.33:312][769]LogShaderCompilers: Display: Shaders left to compile 23
+[2018.12.05-20.29.33:312][769]LogShaderCompilers: Display: Shaders left to compile 22
+[2018.12.05-20.29.33:312][769]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.12.05-20.29.33:312][769]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.12.05-20.29.33:314][769]TextureStreamingBuild: Display: Compiling optional shaders took 1.917 seconds.
+[2018.12.05-20.29.36:998][794]LogSlate: Window 'Message' being destroyed
+[2018.12.05-20.29.37:583][794]LogMaterial: Display: Missing cached shader map for material sausage, compiling. 
+[2018.12.05-20.29.37:659][794]LogShaderCompilers: Display: Shaders left to compile 30
+[2018.12.05-20.29.37:659][794]LogShaderCompilers: Display: Shaders left to compile 29
+[2018.12.05-20.29.37:659][794]LogShaderCompilers: Display: Shaders left to compile 28
+[2018.12.05-20.29.37:659][794]LogShaderCompilers: Display: Shaders left to compile 27
+[2018.12.05-20.29.37:679][794]LogMaterial: Display: Missing cached shader map for material sausage, compiling. 
+[2018.12.05-20.29.37:702][794]LogMaterial: Display: Missing cached shader map for material sausage, compiling. 
+[2018.12.05-20.29.37:764][794]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy sausage, compiling. 
+[2018.12.05-20.29.40:029][794]LogShaderCompilers: Display: Shaders left to compile 58
+[2018.12.05-20.29.40:029][794]LogShaderCompilers: Display: Shaders left to compile 57
+[2018.12.05-20.29.40:029][794]LogShaderCompilers: Display: Shaders left to compile 56
+[2018.12.05-20.29.40:029][794]LogShaderCompilers: Display: Shaders left to compile 55
+[2018.12.05-20.29.40:029][794]LogShaderCompilers: Display: Shaders left to compile 54
+[2018.12.05-20.29.40:029][794]LogShaderCompilers: Display: Shaders left to compile 53
+[2018.12.05-20.29.40:030][794]LogShaderCompilers: Display: Shaders left to compile 52
+[2018.12.05-20.29.40:030][794]LogShaderCompilers: Display: Shaders left to compile 51
+[2018.12.05-20.29.40:030][794]LogShaderCompilers: Display: Shaders left to compile 50
+[2018.12.05-20.29.40:030][794]LogShaderCompilers: Display: Shaders left to compile 49
+[2018.12.05-20.29.40:030][794]LogShaderCompilers: Display: Shaders left to compile 48
+[2018.12.05-20.29.40:030][794]LogShaderCompilers: Display: Shaders left to compile 47
+[2018.12.05-20.29.40:030][794]LogShaderCompilers: Display: Shaders left to compile 46
+[2018.12.05-20.29.40:030][794]LogShaderCompilers: Display: Shaders left to compile 45
+[2018.12.05-20.29.40:030][794]LogShaderCompilers: Display: Shaders left to compile 44
+[2018.12.05-20.29.40:030][794]LogShaderCompilers: Display: Shaders left to compile 43
+[2018.12.05-20.29.40:030][794]LogShaderCompilers: Display: Shaders left to compile 42
+[2018.12.05-20.29.40:030][794]LogShaderCompilers: Display: Shaders left to compile 41
+[2018.12.05-20.29.40:030][794]LogShaderCompilers: Display: Shaders left to compile 40
+[2018.12.05-20.29.40:030][794]LogShaderCompilers: Display: Shaders left to compile 39
+[2018.12.05-20.29.40:030][794]LogShaderCompilers: Display: Shaders left to compile 38
+[2018.12.05-20.29.40:030][794]LogShaderCompilers: Display: Shaders left to compile 37
+[2018.12.05-20.29.40:030][794]LogShaderCompilers: Display: Shaders left to compile 36
+[2018.12.05-20.29.40:030][794]LogShaderCompilers: Display: Shaders left to compile 35
+[2018.12.05-20.29.40:030][794]LogShaderCompilers: Display: Shaders left to compile 34
+[2018.12.05-20.29.40:030][794]LogShaderCompilers: Display: Shaders left to compile 33
+[2018.12.05-20.29.40:030][794]LogShaderCompilers: Display: Shaders left to compile 32
+[2018.12.05-20.29.40:030][794]LogShaderCompilers: Display: Shaders left to compile 31
+[2018.12.05-20.29.40:030][794]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.12.05-20.29.40:030][794]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.12.05-20.29.40:033][794]TextureStreamingBuild: Display: Compiling optional shaders took 2.276 seconds.
+[2018.12.05-20.29.40:059][794]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.12.05-20.36.04:565][521]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/PizzaPlace' took 0.028
+[2018.12.05-20.36.04:568][521]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/dough/DoughMaterial] ([1] browsable assets)...
+[2018.12.05-20.36.04:625][521]OBJ SavePackage:     Rendered thumbnail for [Material /Game/dough/DoughMaterial.DoughMaterial]
+[2018.12.05-20.36.04:625][521]OBJ SavePackage: Finished generating thumbnails for package [/Game/dough/DoughMaterial]
+[2018.12.05-20.36.04:625][521]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/dough/DoughMaterial" FILE="../../../../../../Git Hub/TeamSadMen/TeamSadMen/Saved/Autosaves/Game/dough/DoughMaterial_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2018.12.05-20.36.04:667][521]LogSavePackage: Moving '../../../../../../Git Hub/TeamSadMen/TeamSadMen/Saved/DoughMaterial_Auto142427FD74BFA3FAD8A71EAB8AA306069.tmp' to '../../../../../../Git Hub/TeamSadMen/TeamSadMen/Saved/Autosaves/Game/dough/DoughMaterial_Auto1.uasset'
+[2018.12.05-20.36.04:671][521]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/sasuage/sausage] ([1] browsable assets)...
+[2018.12.05-20.36.04:710][521]OBJ SavePackage:     Rendered thumbnail for [Material /Game/sasuage/sausage.sausage]
+[2018.12.05-20.36.04:710][521]OBJ SavePackage: Finished generating thumbnails for package [/Game/sasuage/sausage]
+[2018.12.05-20.36.04:710][521]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/sasuage/sausage" FILE="../../../../../../Git Hub/TeamSadMen/TeamSadMen/Saved/Autosaves/Game/sasuage/sausage_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2018.12.05-20.36.04:755][521]LogSavePackage: Moving '../../../../../../Git Hub/TeamSadMen/TeamSadMen/Saved/sausage_Auto102A04AF14D171C0E3584A4B3D34D6649.tmp' to '../../../../../../Git Hub/TeamSadMen/TeamSadMen/Saved/Autosaves/Game/sasuage/sausage_Auto1.uasset'
+[2018.12.05-20.36.04:757][521]LogFileHelpers: Auto-saving content packages took 0.192
+[2018.12.05-20.38.06:458][886]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.05-20.38.15:547][955]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Git Hub\TeamSadMen\TeamSadMen\Import\Textures\sauces\green_pasto/sauce_lambert1_BaseColor.png)
+[2018.12.05-20.38.15:577][955]LogTexture: Display: Building textures: sauce_lambert1_BaseColor (AutoDXT, 1024X1024)
+[2018.12.05-20.38.16:035][955]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Git Hub\TeamSadMen\TeamSadMen\Import\Textures\sauces\green_pasto/sauce_lambert1_Normal.png)
+[2018.12.05-20.38.16:080][955]LogTexture: Display: Building textures: sauce_lambert1_Normal (BC5, 1024X1024)
+[2018.12.05-20.38.16:147][955]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Git Hub\TeamSadMen\TeamSadMen\Import\Textures\sauces\green_pasto/sauce_lambert1_OcclusionRoughnessMetallic.png)
+[2018.12.05-20.38.16:182][955]LogTexture: Display: Building textures: sauce_lambert1_OcclusionRoughnessMetallic (AutoDXT, 1024X1024)
+[2018.12.05-20.38.16:545][955]LogFactory: FactoryCreateFile: DataTable with ReimportDataTableFactory (0 1 C:\Git Hub\TeamSadMen\TeamSadMen\Import\Textures\sauces\green_pasto/Unreal Engine 4.json)
+[2018.12.05-20.38.18:764][955]LogSlate: Window 'DataTable Options' being destroyed
+[2018.12.05-20.38.19:682][955]LogSlate: Window 'Message' being destroyed
+[2018.12.05-20.38.19:687][955]LogAssetTools: Warning: Failed to import 'C:\Git Hub\TeamSadMen\TeamSadMen\Import\Textures\sauces\green_pasto/Unreal Engine 4.json'. Failed to create asset '/Game/green_pasto/Unreal_Engine_4'.
+Please see Output Log for details.
+[2018.12.05-20.38.19:695][955]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Git Hub\TeamSadMen\TeamSadMen\Import\Textures\sauces\marinara/sauce_lambert1_BaseColor.png)
+[2018.12.05-20.38.19:724][955]LogTexture: Display: Building textures: sauce_lambert1_BaseColor (AutoDXT, 1024X1024)
+[2018.12.05-20.38.20:183][955]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Git Hub\TeamSadMen\TeamSadMen\Import\Textures\sauces\marinara/sauce_lambert1_Normal.png)
+[2018.12.05-20.38.20:228][955]LogTexture: Display: Building textures: sauce_lambert1_Normal (BC5, 1024X1024)
+[2018.12.05-20.38.20:294][955]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Git Hub\TeamSadMen\TeamSadMen\Import\Textures\sauces\marinara/sauce_lambert1_OcclusionRoughnessMetallic.png)
+[2018.12.05-20.38.20:329][955]LogTexture: Display: Building textures: sauce_lambert1_OcclusionRoughnessMetallic (AutoDXT, 1024X1024)
+[2018.12.05-20.38.20:698][955]LogFactory: FactoryCreateFile: DataTable with ReimportDataTableFactory (0 1 C:\Git Hub\TeamSadMen\TeamSadMen\Import\Textures\sauces\marinara/Unreal Engine 4.json)
+[2018.12.05-20.38.21:508][955]LogSlate: Window 'DataTable Options' being destroyed
+[2018.12.05-20.38.22:465][955]LogSlate: Window 'Message' being destroyed
+[2018.12.05-20.38.22:471][955]LogAssetTools: Warning: Failed to import 'C:\Git Hub\TeamSadMen\TeamSadMen\Import\Textures\sauces\marinara/Unreal Engine 4.json'. Failed to create asset '/Game/marinara/Unreal_Engine_4'.
+Please see Output Log for details.
+[2018.12.05-20.38.22:478][955]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Git Hub\TeamSadMen\TeamSadMen\Import\Textures\sauces\red_pesto/sauce_lambert1_BaseColor.png)
+[2018.12.05-20.38.22:511][955]LogTexture: Display: Building textures: sauce_lambert1_BaseColor (AutoDXT, 1024X1024)
+[2018.12.05-20.38.22:943][955]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Git Hub\TeamSadMen\TeamSadMen\Import\Textures\sauces\red_pesto/sauce_lambert1_Normal.png)
+[2018.12.05-20.38.22:986][955]LogTexture: Display: Building textures: sauce_lambert1_Normal (BC5, 1024X1024)
+[2018.12.05-20.38.23:053][955]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Git Hub\TeamSadMen\TeamSadMen\Import\Textures\sauces\red_pesto/sauce_lambert1_OcclusionRoughnessMetallic.png)
+[2018.12.05-20.38.23:081][955]LogTexture: Display: Building textures: sauce_lambert1_OcclusionRoughnessMetallic (AutoDXT, 1024X1024)
+[2018.12.05-20.38.23:444][955]LogFactory: FactoryCreateFile: DataTable with ReimportDataTableFactory (0 1 C:\Git Hub\TeamSadMen\TeamSadMen\Import\Textures\sauces\red_pesto/Unreal Engine 4.json)
+[2018.12.05-20.38.24:312][955]LogSlate: Window 'DataTable Options' being destroyed
+[2018.12.05-20.38.25:025][955]LogSlate: Window 'Message' being destroyed
+[2018.12.05-20.38.25:030][955]LogAssetTools: Warning: Failed to import 'C:\Git Hub\TeamSadMen\TeamSadMen\Import\Textures\sauces\red_pesto/Unreal Engine 4.json'. Failed to create asset '/Game/red_pesto/Unreal_Engine_4'.
+Please see Output Log for details.
+[2018.12.05-20.39.08:350][501]LogSavePackage: Moving '../../../../../../Git Hub/TeamSadMen/TeamSadMen/Saved/sauce_lambert1_OcclusionRoughnes0E66ECFC477F0DF049B4B3AC377A192D.tmp' to '../../../../../../Git Hub/TeamSadMen/TeamSadMen/Content/Sauces/red_pesto/sauce_lambert1_OcclusionRoughnessMetallic.uasset'
+[2018.12.05-20.39.08:369][501]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sauces/red_pesto/sauce_lambert1_Normal" FILE="../../../../../../Git Hub/TeamSadMen/TeamSadMen/Content/Sauces/red_pesto/sauce_lambert1_Normal.uasset" SILENT=true
+[2018.12.05-20.39.08:522][501]LogSavePackage: Moving '../../../../../../Git Hub/TeamSadMen/TeamSadMen/Saved/sauce_lambert1_Normal7019B8DA40323FACCD6D2BA905EB3E4F.tmp' to '../../../../../../Git Hub/TeamSadMen/TeamSadMen/Content/Sauces/red_pesto/sauce_lambert1_Normal.uasset'
+[2018.12.05-20.39.08:542][501]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sauces/red_pesto/sauce_lambert1_BaseColor" FILE="../../../../../../Git Hub/TeamSadMen/TeamSadMen/Content/Sauces/red_pesto/sauce_lambert1_BaseColor.uasset" SILENT=true
+[2018.12.05-20.39.08:701][501]LogSavePackage: Moving '../../../../../../Git Hub/TeamSadMen/TeamSadMen/Saved/sauce_lambert1_BaseColor7CDF0A4A4C61614AF4A13194A8759389.tmp' to '../../../../../../Git Hub/TeamSadMen/TeamSadMen/Content/Sauces/red_pesto/sauce_lambert1_BaseColor.uasset'
+[2018.12.05-20.39.18:069][832]LogSavePackage: Moving '../../../../../../Git Hub/TeamSadMen/TeamSadMen/Saved/sauce_lambert1_OcclusionRoughnes3384AA4B40B6DA253C3898BCD5962C50.tmp' to '../../../../../../Git Hub/TeamSadMen/TeamSadMen/Content/Sauces/green_pasto/sauce_lambert1_OcclusionRoughnessMetallic.uasset'
+[2018.12.05-20.39.18:095][832]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sauces/green_pasto/sauce_lambert1_Normal" FILE="../../../../../../Git Hub/TeamSadMen/TeamSadMen/Content/Sauces/green_pasto/sauce_lambert1_Normal.uasset" SILENT=true
+[2018.12.05-20.39.18:269][832]LogSavePackage: Moving '../../../../../../Git Hub/TeamSadMen/TeamSadMen/Saved/sauce_lambert1_Normal78A5B78E41C87847481C39BA1E0553AD.tmp' to '../../../../../../Git Hub/TeamSadMen/TeamSadMen/Content/Sauces/green_pasto/sauce_lambert1_Normal.uasset'
+[2018.12.05-20.39.18:512][832]LogSavePackage: Moving '../../../../../../Git Hub/TeamSadMen/TeamSadMen/Saved/sauce_lambert1_BaseColor822FAA2D4C87E1EBA4E59BB9956EC94C.tmp' to '../../../../../../Git Hub/TeamSadMen/TeamSadMen/Content/Sauces/green_pasto/sauce_lambert1_BaseColor.uasset'
+[2018.12.05-20.39.28:210][158]LogSavePackage: Moving '../../../../../../Git Hub/TeamSadMen/TeamSadMen/Saved/sauce_lambert1_OcclusionRoughnesE04EC4074D54913D8F91DF9653928FBF.tmp' to '../../../../../../Git Hub/TeamSadMen/TeamSadMen/Content/Sauces/marinara/sauce_lambert1_OcclusionRoughnessMetallic.uasset'
+[2018.12.05-20.39.28:229][158]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sauces/marinara/sauce_lambert1_Normal" FILE="../../../../../../Git Hub/TeamSadMen/TeamSadMen/Content/Sauces/marinara/sauce_lambert1_Normal.uasset" SILENT=true
+[2018.12.05-20.39.28:376][158]LogSavePackage: Moving '../../../../../../Git Hub/TeamSadMen/TeamSadMen/Saved/sauce_lambert1_NormalA4C78057435E207CD33717B8E990D7A1.tmp' to '../../../../../../Git Hub/TeamSadMen/TeamSadMen/Content/Sauces/marinara/sauce_lambert1_Normal.uasset'
+[2018.12.05-20.39.28:396][158]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sauces/marinara/sauce_lambert1_BaseColor" FILE="../../../../../../Git Hub/TeamSadMen/TeamSadMen/Content/Sauces/marinara/sauce_lambert1_BaseColor.uasset" SILENT=true
+[2018.12.05-20.39.28:582][158]LogSavePackage: Moving '../../../../../../Git Hub/TeamSadMen/TeamSadMen/Saved/sauce_lambert1_BaseColorC6CC47B0470AA806866761B69563A095.tmp' to '../../../../../../Git Hub/TeamSadMen/TeamSadMen/Content/Sauces/marinara/sauce_lambert1_BaseColor.uasset'
+[2018.12.05-20.40.54:164][127]LogActorFactory: Actor Factory created sauce
+[2018.12.05-20.40.55:479][182]LogActorFactory: Actor Factory created sauce
+[2018.12.05-20.41.00:836][399]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.05-20.41.18:120][ 99]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.05-20.41.26:770][485]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.05-20.41.40:801][  0]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.05-20.41.40:892][  4]LogTemp: Repeating last play command: Selected Viewport
+[2018.12.05-20.41.40:933][  4]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace' with GeneratedClass '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace'
+[2018.12.05-20.41.40:933][  4]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.12.05-20.41.40:934][  4]PIE: New page: PIE session: PizzaPlace (Dec 5, 2018, 10:41:40 AM)
+[2018.12.05-20.41.40:934][  4]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_PizzaPlace
+[2018.12.05-20.41.40:980][  4]LogPlayLevel: PIE: StaticDuplicateObject took: (0.046000s)
+[2018.12.05-20.41.40:982][  4]LogAIModule: Creating AISystem for world PizzaPlace
+[2018.12.05-20.41.40:982][  4]LogPlayLevel: PIE: World Init took: (0.002050s)
+[2018.12.05-20.41.40:983][  4]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace to /Game/FirstPersonBP/Maps/UEDPIE_0_PizzaPlace.PizzaPlace (0.048485s)
+[2018.12.05-20.41.41:046][  4]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.12.05-20.41.41:095][  4]LogInit: FAudioDevice initialized.
+[2018.12.05-20.41.41:130][  4]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.12.05-20.41.41:139][  4]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_PizzaPlace.PizzaPlace up for play (max tick rate 60) at 2018.12.05-15.41.41
+[2018.12.05-20.41.41:140][  4]LogWorld: Bringing up level for play took: 0.007832
+[2018.12.05-20.41.41:154][  4]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_PizzaPlace 0.661
+[2018.12.05-20.41.41:154][  4]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace' with GeneratedClass '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace'
+[2018.12.05-20.41.47:934][277]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace' with GeneratedClass '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace'
+[2018.12.05-20.41.47:934][277]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.05-20.41.47:993][277]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.12.05-20.41.47:994][277]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace' with GeneratedClass '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace'
+[2018.12.05-20.41.48:054][277]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.05-20.41.48:264][278]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2018.12.05-20.41.52:267][446]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (sauce)
+[2018.12.05-20.42.18:317][558]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.05-20.42.18:448][564]LogTemp: Repeating last play command: Selected Viewport
+[2018.12.05-20.42.18:487][564]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace' with GeneratedClass '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace'
+[2018.12.05-20.42.18:487][564]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.12.05-20.42.18:488][564]PIE: New page: PIE session: PizzaPlace (Dec 5, 2018, 10:42:18 AM)
+[2018.12.05-20.42.18:488][564]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_PizzaPlace
+[2018.12.05-20.42.18:552][564]LogPlayLevel: PIE: StaticDuplicateObject took: (0.064118s)
+[2018.12.05-20.42.18:554][564]LogAIModule: Creating AISystem for world PizzaPlace
+[2018.12.05-20.42.18:554][564]LogPlayLevel: PIE: World Init took: (0.001946s)
+[2018.12.05-20.42.18:554][564]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace to /Game/FirstPersonBP/Maps/UEDPIE_0_PizzaPlace.PizzaPlace (0.066416s)
+[2018.12.05-20.42.18:619][564]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.12.05-20.42.18:671][564]LogInit: FAudioDevice initialized.
+[2018.12.05-20.42.18:710][564]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.12.05-20.42.18:719][564]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_PizzaPlace.PizzaPlace up for play (max tick rate 60) at 2018.12.05-15.42.18
+[2018.12.05-20.42.18:720][564]LogWorld: Bringing up level for play took: 0.007808
+[2018.12.05-20.42.18:734][564]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_PizzaPlace 0.241
+[2018.12.05-20.42.18:734][564]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace' with GeneratedClass '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace'
+[2018.12.05-20.42.25:558][839]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace' with GeneratedClass '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace'
+[2018.12.05-20.42.25:558][839]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.05-20.42.25:620][839]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.12.05-20.42.25:620][839]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace' with GeneratedClass '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace'
+[2018.12.05-20.42.25:695][839]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.05-20.42.25:732][840]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2018.12.05-20.42.28:314][909]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.05-20.43.04:313][194]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.05-20.43.08:692][384]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (sauce)
+[2018.12.05-20.43.09:402][414]Cmd: DELETE
+[2018.12.05-20.43.09:402][414]Cmd: ACTOR DELETE
+[2018.12.05-20.43.09:408][414]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.12.05-20.43.09:433][414]LogEditorActor: Deleted 1 Actors (0.031 secs)
+[2018.12.05-20.43.10:093][441]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.05-20.43.13:118][518]LogSlate: Window 'Delete Assets' being destroyed
+[2018.12.05-20.43.18:323][576]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Git Hub\TeamSadMen\TeamSadMen\Import\sauce.fbx)
+[2018.12.05-20.43.18:335][576]LogFbx: Loading FBX Scene from C:\Git Hub\TeamSadMen\TeamSadMen\Import\sauce.fbx
+[2018.12.05-20.43.18:341][576]LogFbx: FBX Scene Loaded Succesfully
+[2018.12.05-20.43.21:880][576]LogSlate: Window 'FBX Import Options' being destroyed
+[2018.12.05-20.43.21:910][576]LogFbx: Warning: Triangulating static mesh sauce
+[2018.12.05-20.43.21:962][576]LogStaticMesh: Building static mesh sauce...
+[2018.12.05-20.43.21:978][576]LogStaticMesh: Built static mesh [0.02s] /Game/sauce.sauce
+[2018.12.05-20.43.23:465][621]LogActorFactory: Actor Factory created sauce
+[2018.12.05-20.43.24:960][687]LogActorFactory: Actor Factory created sauce
+[2018.12.05-20.43.26:990][778]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (sauce)
+[2018.12.05-20.43.27:052][778]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.05-20.43.31:562][982]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (sauce)
+[2018.12.05-20.43.46:744][654]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (sauce)
+[2018.12.05-20.46.19:194][150]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.05-20.46.19:790][150]LogSavePackage: Moving '../../../../../../Git Hub/TeamSadMen/TeamSadMen/Saved/PizzaPlace_Auto298E168EF457CC4CB1F43BA84D96BD21F.tmp' to '../../../../../../Git Hub/TeamSadMen/TeamSadMen/Saved/Autosaves/Game/FirstPersonBP/Maps/PizzaPlace_Auto2.umap'
+[2018.12.05-20.46.19:803][150]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/PizzaPlace' took 0.540
+[2018.12.05-20.46.19:803][150]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.540
+[2018.12.05-20.46.19:807][150]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/sauce] ([1] browsable assets)...
+[2018.12.05-20.46.19:847][150]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/sauce.sauce]
+[2018.12.05-20.46.19:847][150]OBJ SavePackage: Finished generating thumbnails for package [/Game/sauce]
+[2018.12.05-20.46.19:847][150]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/sauce" FILE="../../../../../../Git Hub/TeamSadMen/TeamSadMen/Saved/Autosaves/Game/sauce_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2018.12.05-20.46.19:868][150]LogSavePackage: Moving '../../../../../../Git Hub/TeamSadMen/TeamSadMen/Saved/sauce_Auto2F928AA2F482B51B0D93624A55BE15F3E.tmp' to '../../../../../../Git Hub/TeamSadMen/TeamSadMen/Saved/Autosaves/Game/sauce_Auto2.uasset'
+[2018.12.05-20.46.19:871][150]LogFileHelpers: Auto-saving content packages took 0.066
+[2018.12.05-20.49.01:142][ 11]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.05-20.49.01:572][ 11]LogSavePackage: Moving '../../../../../../Git Hub/TeamSadMen/TeamSadMen/Saved/PizzaPlaceB88B62F3484A977917A853935309C4D5.tmp' to '../../../../../../Git Hub/TeamSadMen/TeamSadMen/Content/FirstPersonBP/Maps/PizzaPlace.umap'
+[2018.12.05-20.49.01:620][ 11]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Maps/PizzaPlace_BuiltData" FILE="../../../../../../Git Hub/TeamSadMen/TeamSadMen/Content/FirstPersonBP/Maps/PizzaPlace_BuiltData.uasset" SILENT=true
+[2018.12.05-20.49.01:814][ 11]LogSavePackage: Moving '../../../../../../Git Hub/TeamSadMen/TeamSadMen/Saved/PizzaPlace_BuiltData74BE2EAF413DC533E3156FB3F79CF03B.tmp' to '../../../../../../Git Hub/TeamSadMen/TeamSadMen/Content/FirstPersonBP/Maps/PizzaPlace_BuiltData.uasset'
+[2018.12.05-20.49.03:431][ 73]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.05-20.49.04:652][ 78]LogSlate: Window 'Save Content' being destroyed
+[2018.12.05-20.49.04:667][ 78]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.05-20.49.04:681][ 78]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/dough/DoughMaterial" FILE="../../../../../../Git Hub/TeamSadMen/TeamSadMen/Content/dough/DoughMaterial.uasset" SILENT=true
+[2018.12.05-20.49.04:710][ 78]LogSavePackage: Moving '../../../../../../Git Hub/TeamSadMen/TeamSadMen/Saved/DoughMaterial0F6E7C7C45F580128307A0B769411AF3.tmp' to '../../../../../../Git Hub/TeamSadMen/TeamSadMen/Content/dough/DoughMaterial.uasset'
+[2018.12.05-20.49.04:725][ 78]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/sasuage/sausage" FILE="../../../../../../Git Hub/TeamSadMen/TeamSadMen/Content/sasuage/sausage.uasset" SILENT=true
+[2018.12.05-20.49.04:757][ 78]LogSavePackage: Moving '../../../../../../Git Hub/TeamSadMen/TeamSadMen/Saved/sausage44CA2F434390ED8E33080794A409287F.tmp' to '../../../../../../Git Hub/TeamSadMen/TeamSadMen/Content/sasuage/sausage.uasset'
+[2018.12.05-20.49.04:771][ 78]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/sauce" FILE="../../../../../../Git Hub/TeamSadMen/TeamSadMen/Content/sauce.uasset" SILENT=true
+[2018.12.05-20.49.04:787][ 78]LogSavePackage: Moving '../../../../../../Git Hub/TeamSadMen/TeamSadMen/Saved/sauceC109E999457315B3D21FD59BA37C3E9E.tmp' to '../../../../../../Git Hub/TeamSadMen/TeamSadMen/Content/sauce.uasset'
+[2018.12.05-20.49.04:901][ 78]LogSlate: Window 'TeamSadMen - Unreal Editor' being destroyed
+[2018.12.05-20.49.05:095][ 79]Cmd: QUIT_EDITOR
+[2018.12.05-20.49.05:316][ 79]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.12.05-20.49.05:335][ 79]LogExit: Preparing to exit.
+[2018.12.05-20.49.06:486][ 79]LogExit: Editor shut down
+[2018.12.05-20.49.06:486][ 79]LogExit: Transaction tracking system shut down
+[2018.12.05-20.49.06:756][ 79]LogExit: Object subsystem successfully closed.
+[2018.12.05-20.49.06:783][ 79]LogShaderCompilers: Display: Shaders left to compile 0
+[2018.12.05-20.49.06:787][ 79]LogD3D11RHI: Shutdown
+[2018.12.05-20.49.06:787][ 79]LogD3D11RHI: CleanupD3DDevice
+[2018.12.05-20.49.06:797][ 79]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.12.05-20.49.06:829][ 79]LogModuleManager: Shutting down and abandoning module MeshBuilder (618)
+[2018.12.05-20.49.06:829][ 79]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (616)
+[2018.12.05-20.49.06:829][ 79]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (614)
+[2018.12.05-20.49.06:829][ 79]LogModuleManager: Shutting down and abandoning module Voice (612)
+[2018.12.05-20.49.06:829][ 79]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (610)
+[2018.12.05-20.49.06:829][ 79]LogModuleManager: Shutting down and abandoning module SceneOutliner (608)
+[2018.12.05-20.49.06:829][ 79]LogModuleManager: Shutting down and abandoning module AddContentDialog (606)
+[2018.12.05-20.49.06:830][ 79]LogModuleManager: Shutting down and abandoning module WidgetCarousel (605)
+[2018.12.05-20.49.06:830][ 79]LogModuleManager: Shutting down and abandoning module EditorWidgets (602)
+[2018.12.05-20.49.06:830][ 79]LogModuleManager: Shutting down and abandoning module CollectionManager (600)
+[2018.12.05-20.49.06:830][ 79]LogModuleManager: Shutting down and abandoning module StatsViewer (598)
+[2018.12.05-20.49.06:830][ 79]LogModuleManager: Shutting down and abandoning module FoliageEdit (596)
+[2018.12.05-20.49.06:830][ 79]LogModuleManager: Shutting down and abandoning module LandscapeEditor (594)
+[2018.12.05-20.49.06:830][ 79]LogModuleManager: Shutting down and abandoning module MeshPaintMode (592)
+[2018.12.05-20.49.06:830][ 79]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (590)
+[2018.12.05-20.49.06:830][ 79]LogModuleManager: Shutting down and abandoning module ActorPickerMode (588)
+[2018.12.05-20.49.06:830][ 79]LogModuleManager: Shutting down and abandoning module GeometryMode (586)
+[2018.12.05-20.49.06:830][ 79]LogModuleManager: Shutting down and abandoning module TextureAlignMode (584)
+[2018.12.05-20.49.06:830][ 79]LogModuleManager: Shutting down and abandoning module BspMode (582)
+[2018.12.05-20.49.06:830][ 79]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (580)
+[2018.12.05-20.49.06:830][ 79]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (578)
+[2018.12.05-20.49.06:830][ 79]LogModuleManager: Shutting down and abandoning module AutomationWorker (576)
+[2018.12.05-20.49.06:830][ 79]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (574)
+[2018.12.05-20.49.06:830][ 79]LogModuleManager: Shutting down and abandoning module SequenceRecorder (573)
+[2018.12.05-20.49.06:830][ 79]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (570)
+[2018.12.05-20.49.06:830][ 79]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (568)
+[2018.12.05-20.49.06:830][ 79]LogModuleManager: Shutting down and abandoning module PlacementMode (567)
+[2018.12.05-20.49.06:830][ 79]LogModuleManager: Shutting down and abandoning module MaterialEditor (566)
+[2018.12.05-20.49.06:830][ 79]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (562)
+[2018.12.05-20.49.06:830][ 79]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (560)
+[2018.12.05-20.49.06:830][ 79]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (558)
+[2018.12.05-20.49.06:831][ 79]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (556)
+[2018.12.05-20.49.06:831][ 79]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (554)
+[2018.12.05-20.49.06:831][ 79]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (552)
+[2018.12.05-20.49.06:831][ 79]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (550)
+[2018.12.05-20.49.06:831][ 79]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (548)
+[2018.12.05-20.49.06:831][ 79]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (546)
+[2018.12.05-20.49.06:831][ 79]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (544)
+[2018.12.05-20.49.06:831][ 79]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (542)
+[2018.12.05-20.49.06:831][ 79]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (540)
+[2018.12.05-20.49.06:831][ 79]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (538)
+[2018.12.05-20.49.06:831][ 79]LogModuleManager: Shutting down and abandoning module CharacterAI (536)
+[2018.12.05-20.49.06:831][ 79]LogModuleManager: Shutting down and abandoning module SmartSnapping (534)
+[2018.12.05-20.49.06:831][ 79]LogModuleManager: Shutting down and abandoning module SessionServices (532)
+[2018.12.05-20.49.06:831][ 79]LogModuleManager: Shutting down and abandoning module ViewportSnapping (530)
+[2018.12.05-20.49.06:831][ 79]LogModuleManager: Shutting down and abandoning module ViewportInteraction (528)
+[2018.12.05-20.49.06:831][ 79]LogModuleManager: Shutting down and abandoning module ClothPainter (526)
+[2018.12.05-20.49.06:831][ 79]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (525)
+[2018.12.05-20.49.06:831][ 79]LogModuleManager: Shutting down and abandoning module LogVisualizer (522)
+[2018.12.05-20.49.06:831][ 79]LogModuleManager: Shutting down and abandoning module IntroTutorials (520)
+[2018.12.05-20.49.06:831][ 79]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (519)
+[2018.12.05-20.49.06:831][ 79]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (516)
+[2018.12.05-20.49.06:831][ 79]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (514)
+[2018.12.05-20.49.06:831][ 79]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (512)
+[2018.12.05-20.49.06:831][ 79]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (510)
+[2018.12.05-20.49.06:831][ 79]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (509)
+[2018.12.05-20.49.08:657][ 79]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (506)
+[2018.12.05-20.49.08:657][ 79]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (504)
+[2018.12.05-20.49.08:657][ 79]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (502)
+[2018.12.05-20.49.08:657][ 79]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (500)
+[2018.12.05-20.49.08:657][ 79]LogModuleManager: Shutting down and abandoning module InputBindingEditor (498)
+[2018.12.05-20.49.08:657][ 79]LogModuleManager: Shutting down and abandoning module MergeActors (496)
+[2018.12.05-20.49.08:657][ 79]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (494)
+[2018.12.05-20.49.08:657][ 79]LogModuleManager: Shutting down and abandoning module LocalizationService (493)
+[2018.12.05-20.49.08:657][ 79]LogModuleManager: Shutting down and abandoning module HardwareTargeting (490)
+[2018.12.05-20.49.08:657][ 79]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (488)
+[2018.12.05-20.49.08:657][ 79]LogModuleManager: Shutting down and abandoning module UndoHistory (486)
+[2018.12.05-20.49.08:658][ 79]LogModuleManager: Shutting down and abandoning module XmlParser (484)
+[2018.12.05-20.49.08:658][ 79]LogModuleManager: Shutting down and abandoning module Blutility (482)
+[2018.12.05-20.49.08:658][ 79]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (480)
+[2018.12.05-20.49.08:658][ 79]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (479)
+[2018.12.05-20.49.08:658][ 79]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (476)
+[2018.12.05-20.49.08:658][ 79]LogModuleManager: Shutting down and abandoning module SettingsEditor (474)
+[2018.12.05-20.49.08:658][ 79]LogModuleManager: Shutting down and abandoning module ProjectLauncher (472)
+[2018.12.05-20.49.08:658][ 79]LogModuleManager: Shutting down and abandoning module SessionFrontend (470)
+[2018.12.05-20.49.08:658][ 79]LogModuleManager: Shutting down and abandoning module ProfilerClient (468)
+[2018.12.05-20.49.08:658][ 79]LogModuleManager: Shutting down and abandoning module DeviceManager (466)
+[2018.12.05-20.49.08:658][ 79]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (465)
+[2018.12.05-20.49.08:710][ 79]LogModuleManager: Shutting down and abandoning module AutomationController (462)
+[2018.12.05-20.49.08:710][ 79]LogModuleManager: Shutting down and abandoning module AutomationWindow (460)
+[2018.12.05-20.49.08:710][ 79]LogModuleManager: Shutting down and abandoning module Layers (458)
+[2018.12.05-20.49.08:710][ 79]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (456)
+[2018.12.05-20.49.08:710][ 79]LogModuleManager: Shutting down and abandoning module DetailCustomizations (454)
+[2018.12.05-20.49.08:710][ 79]LogModuleManager: Shutting down and abandoning module PackagesDialog (452)
+[2018.12.05-20.49.08:710][ 79]LogModuleManager: Shutting down and abandoning module Persona (450)
+[2018.12.05-20.49.08:710][ 79]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (449)
+[2018.12.05-20.49.08:710][ 79]LogModuleManager: Shutting down and abandoning module AnimGraph (447)
+[2018.12.05-20.49.08:710][ 79]LogModuleManager: Shutting down and abandoning module Kismet (444)
+[2018.12.05-20.49.08:711][ 79]LogModuleManager: Shutting down and abandoning module GraphEditor (442)
+[2018.12.05-20.49.08:711][ 79]LogModuleManager: Shutting down and abandoning module ClassViewer (440)
+[2018.12.05-20.49.08:711][ 79]LogModuleManager: Shutting down and abandoning module Toolbox (438)
+[2018.12.05-20.49.08:711][ 79]LogModuleManager: Shutting down and abandoning module ModuleUI (436)
+[2018.12.05-20.49.08:711][ 79]LogModuleManager: Shutting down and abandoning module MovieSceneTools (434)
+[2018.12.05-20.49.08:711][ 79]LogModuleManager: Shutting down and abandoning module OutputLog (432)
+[2018.12.05-20.49.08:711][ 79]LogModuleManager: Shutting down and abandoning module GammaUI (430)
+[2018.12.05-20.49.08:711][ 79]LogModuleManager: Shutting down and abandoning module Documentation (428)
+[2018.12.05-20.49.08:711][ 79]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (426)
+[2018.12.05-20.49.08:711][ 79]LogModuleManager: Shutting down and abandoning module MovieScene (424)
+[2018.12.05-20.49.08:711][ 79]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (422)
+[2018.12.05-20.49.08:711][ 79]LogModuleManager: Shutting down and abandoning module LauncherPlatform (420)
+[2018.12.05-20.49.08:711][ 79]LogModuleManager: Shutting down and abandoning module AnalyticsET (418)
+[2018.12.05-20.49.08:711][ 79]LogModuleManager: Shutting down and abandoning module PortalServices (416)
+[2018.12.05-20.49.08:711][ 79]LogModuleManager: Shutting down and abandoning module PortalRpc (414)
+[2018.12.05-20.49.08:711][ 79]LogModuleManager: Shutting down and abandoning module MessagingRpc (412)
+[2018.12.05-20.49.08:711][ 79]LogModuleManager: Shutting down and abandoning module AIModule (410)
+[2018.12.05-20.49.08:711][ 79]LogModuleManager: Shutting down and abandoning module GameplayDebugger (409)
+[2018.12.05-20.49.08:712][ 79]LogModuleManager: Shutting down and abandoning module AITestSuite (407)
+[2018.12.05-20.49.08:712][ 79]LogModuleManager: Shutting down and abandoning module NavigationSystem (405)
+[2018.12.05-20.49.08:712][ 79]LogModuleManager: Shutting down and abandoning module DesktopPlatform (402)
+[2018.12.05-20.49.08:712][ 79]LogModuleManager: Shutting down and abandoning module ProfilerService (400)
+[2018.12.05-20.49.08:776][ 79]LogModuleManager: Shutting down and abandoning module TaskGraph (398)
+[2018.12.05-20.49.08:776][ 79]LogModuleManager: Shutting down and abandoning module SteamVRController (396)
+[2018.12.05-20.49.08:776][ 79]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (394)
+[2018.12.05-20.49.08:776][ 79]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (392)
+[2018.12.05-20.49.08:776][ 79]LogModuleManager: Shutting down and abandoning module OculusInput (390)
+[2018.12.05-20.49.08:776][ 79]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (388)
+[2018.12.05-20.49.08:776][ 79]LogModuleManager: Shutting down and abandoning module EditableMesh (386)
+[2018.12.05-20.49.08:776][ 79]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (384)
+[2018.12.05-20.49.08:776][ 79]LogModuleManager: Shutting down and abandoning module CableComponent (382)
+[2018.12.05-20.49.08:776][ 79]LogModuleManager: Shutting down and abandoning module AudioCapture (380)
+[2018.12.05-20.49.08:776][ 79]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (378)
+[2018.12.05-20.49.08:776][ 79]LogModuleManager: Shutting down and abandoning module AndroidPermission (376)
+[2018.12.05-20.49.08:776][ 79]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (374)
+[2018.12.05-20.49.08:776][ 79]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (372)
+[2018.12.05-20.49.08:776][ 79]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (370)
+[2018.12.05-20.49.08:776][ 79]LogModuleManager: Shutting down and abandoning module MediaCompositing (368)
+[2018.12.05-20.49.08:776][ 79]LogModuleManager: Shutting down and abandoning module LinearTimecode (366)
+[2018.12.05-20.49.08:776][ 79]LogModuleManager: Shutting down and abandoning module ImgMedia (364)
+[2018.12.05-20.49.08:780][ 79]LogModuleManager: Shutting down and abandoning module HTML5Networking (362)
+[2018.12.05-20.49.08:781][ 79]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (360)
+[2018.12.05-20.49.08:781][ 79]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (358)
+[2018.12.05-20.49.08:781][ 79]LogModuleManager: Shutting down and abandoning module BackChannel (356)
+[2018.12.05-20.49.08:781][ 79]LogModuleManager: Shutting down and abandoning module AppleVision (354)
+[2018.12.05-20.49.08:781][ 79]LogModuleManager: Shutting down and abandoning module AppleImageUtils (352)
+[2018.12.05-20.49.08:781][ 79]LogModuleManager: Shutting down and abandoning module AlembicImporter (350)
+[2018.12.05-20.49.08:781][ 79]LogModuleManager: Shutting down and abandoning module AlembicLibrary (349)
+[2018.12.05-20.49.08:781][ 79]LogModuleManager: Shutting down and abandoning module GeometryCache (348)
+[2018.12.05-20.49.08:781][ 79]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (347)
+[2018.12.05-20.49.08:781][ 79]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (342)
+[2018.12.05-20.49.08:781][ 79]LogModuleManager: Shutting down and abandoning module DatasmithContent (340)
+[2018.12.05-20.49.08:781][ 79]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (338)
+[2018.12.05-20.49.08:782][ 79]LogModuleManager: Shutting down and abandoning module PluginBrowser (336)
+[2018.12.05-20.49.08:782][ 79]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (334)
+[2018.12.05-20.49.08:782][ 79]LogModuleManager: Shutting down and abandoning module PolygonModeling (332)
+[2018.12.05-20.49.08:782][ 79]LogModuleManager: Shutting down and abandoning module MeshEditor (330)
+[2018.12.05-20.49.08:782][ 79]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (328)
+[2018.12.05-20.49.08:782][ 79]LogModuleManager: Shutting down and abandoning module CryptoKeys (326)
+[2018.12.05-20.49.08:782][ 79]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (324)
+[2018.12.05-20.49.08:782][ 79]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (322)
+[2018.12.05-20.49.08:782][ 79]LogModuleManager: Shutting down and abandoning module UObjectPlugin (320)
+[2018.12.05-20.49.08:782][ 79]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (318)
+[2018.12.05-20.49.08:782][ 79]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (316)
+[2018.12.05-20.49.08:782][ 79]LogModuleManager: Shutting down and abandoning module GitSourceControl (314)
+[2018.12.05-20.49.08:782][ 79]LogModuleManager: Shutting down and abandoning module SourceControl (313)
+[2018.12.05-20.49.08:782][ 79]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (310)
+[2018.12.05-20.49.08:782][ 79]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (308)
+[2018.12.05-20.49.08:782][ 79]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (306)
+[2018.12.05-20.49.08:782][ 79]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (304)
+[2018.12.05-20.49.08:782][ 79]LogModuleManager: Shutting down and abandoning module Paper2DEditor (302)
+[2018.12.05-20.49.08:782][ 79]LogModuleManager: Shutting down and abandoning module MeshPaint (301)
+[2018.12.05-20.49.08:782][ 79]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (298)
+[2018.12.05-20.49.08:782][ 79]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (296)
+[2018.12.05-20.49.08:782][ 79]LogModuleManager: Shutting down and abandoning module PhysXVehicles (294)
+[2018.12.05-20.49.08:782][ 79]LogModuleManager: Shutting down and abandoning module OculusEditor (292)
+[2018.12.05-20.49.08:782][ 79]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (290)
+[2018.12.05-20.49.08:782][ 79]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (288)
+[2018.12.05-20.49.08:782][ 79]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (286)
+[2018.12.05-20.49.08:782][ 79]LogModuleManager: Shutting down and abandoning module ActorSequence (284)
+[2018.12.05-20.49.08:782][ 79]LogModuleManager: Shutting down and abandoning module UdpMessaging (282)
+[2018.12.05-20.49.08:883][ 79]LogModuleManager: Shutting down and abandoning module TcpMessaging (280)
+[2018.12.05-20.49.08:984][ 79]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (278)
+[2018.12.05-20.49.08:984][ 79]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (276)
+[2018.12.05-20.49.08:984][ 79]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (274)
+[2018.12.05-20.49.08:984][ 79]LogModuleManager: Shutting down and abandoning module FacialAnimation (272)
+[2018.12.05-20.49.08:984][ 79]LogModuleManager: Shutting down and abandoning module DataValidation (270)
+[2018.12.05-20.49.08:984][ 79]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (268)
+[2018.12.05-20.49.08:984][ 79]LogModuleManager: Shutting down and abandoning module LevelEditor (267)
+[2018.12.05-20.49.08:985][ 79]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (266)
+[2018.12.05-20.49.08:985][ 79]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (264)
+[2018.12.05-20.49.08:985][ 79]LogModuleManager: Shutting down and abandoning module MainFrame (262)
+[2018.12.05-20.49.08:985][ 79]LogModuleManager: Shutting down and abandoning module HotReload (261)
+[2018.12.05-20.49.08:986][ 79]LogModuleManager: Shutting down and abandoning module ContentBrowser (257)
+[2018.12.05-20.49.08:987][ 79]LogModuleManager: Shutting down and abandoning module TreeMap (255)
+[2018.12.05-20.49.08:987][ 79]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (252)
+[2018.12.05-20.49.08:987][ 79]LogModuleManager: Shutting down and abandoning module AISupportModule (250)
+[2018.12.05-20.49.08:987][ 79]LogModuleManager: Shutting down and abandoning module Paper2D (248)
+[2018.12.05-20.49.08:987][ 79]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (246)
+[2018.12.05-20.49.08:988][ 79]LogModuleManager: Shutting down and abandoning module WmfMedia (244)
+[2018.12.05-20.49.08:989][ 79]LogModuleManager: Shutting down and abandoning module Media (243)
+[2018.12.05-20.49.08:996][ 79]LogModuleManager: Shutting down and abandoning module PacketHandler (240)
+[2018.12.05-20.49.08:996][ 79]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (238)
+[2018.12.05-20.49.08:997][ 79]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (236)
+[2018.12.05-20.49.08:997][ 79]LogModuleManager: Shutting down and abandoning module MediaAssets (234)
+[2018.12.05-20.49.08:997][ 79]LogModuleManager: Shutting down and abandoning module Overlay (232)
+[2018.12.05-20.49.08:997][ 79]LogModuleManager: Shutting down and abandoning module OverlayEditor (231)
+[2018.12.05-20.49.08:997][ 79]LogModuleManager: Shutting down and abandoning module VREditor (228)
+[2018.12.05-20.49.08:997][ 79]LogModuleManager: Shutting down and abandoning module StringTableEditor (226)
+[2018.12.05-20.49.08:997][ 79]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (224)
+[2018.12.05-20.49.08:997][ 79]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (222)
+[2018.12.05-20.49.08:997][ 79]LogModuleManager: Shutting down and abandoning module FunctionalTesting (220)
+[2018.12.05-20.49.08:997][ 79]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (218)
+[2018.12.05-20.49.08:997][ 79]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (217)
+[2018.12.05-20.49.08:997][ 79]LogModuleManager: Shutting down and abandoning module UMG (214)
+[2018.12.05-20.49.08:997][ 79]LogModuleManager: Shutting down and abandoning module UMGEditor (213)
+[2018.12.05-20.49.08:997][ 79]LogModuleManager: Shutting down and abandoning module Sequencer (212)
+[2018.12.05-20.49.08:997][ 79]LogModuleManager: Shutting down and abandoning module MessageLog (209)
+[2018.12.05-20.49.08:997][ 79]LogModuleManager: Shutting down and abandoning module SlateReflector (204)
+[2018.12.05-20.49.08:997][ 79]LogModuleManager: Shutting down and abandoning module Slate (202)
+[2018.12.05-20.49.08:997][ 79]LogModuleManager: Shutting down and abandoning module EditorStyle (200)
+[2018.12.05-20.49.08:999][ 79]LogModuleManager: Shutting down and abandoning module MRMesh (198)
+[2018.12.05-20.49.08:999][ 79]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (196)
+[2018.12.05-20.49.08:999][ 79]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (194)
+[2018.12.05-20.49.08:999][ 79]LogModuleManager: Shutting down and abandoning module XAudio2 (192)
+[2018.12.05-20.49.08:999][ 79]LogModuleManager: Shutting down and abandoning module Networking (190)
+[2018.12.05-20.49.08:999][ 79]LogModuleManager: Shutting down and abandoning module Core (188)
+[2018.12.05-20.49.08:999][ 79]LogModuleManager: Shutting down and abandoning module LevelSequence (186)
+[2018.12.05-20.49.08:999][ 79]LogModuleManager: Shutting down and abandoning module KismetCompiler (184)
+[2018.12.05-20.49.08:999][ 79]LogModuleManager: Shutting down and abandoning module MeshUtilities (182)
+[2018.12.05-20.49.09:000][ 79]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (181)
+[2018.12.05-20.49.09:000][ 79]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (180)
+[2018.12.05-20.49.09:000][ 79]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (179)
+[2018.12.05-20.49.09:000][ 79]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (177)
+[2018.12.05-20.49.09:000][ 79]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (175)
+[2018.12.05-20.49.09:000][ 79]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (173)
+[2018.12.05-20.49.09:000][ 79]LogModuleManager: Shutting down and abandoning module MaterialBaking (169)
+[2018.12.05-20.49.09:000][ 79]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (165)
+[2018.12.05-20.49.09:000][ 79]LogModuleManager: Shutting down and abandoning module DerivedDataCache (162)
+[2018.12.05-20.49.09:092][ 79]LogDerivedDataCache: Shutdown
+[2018.12.05-20.49.09:092][ 79]LogModuleManager: Shutting down and abandoning module XGEController (160)
+[2018.12.05-20.49.09:092][ 79]LogXGEController: Cleaning working directory: C:/Users/kubok/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2018.12.05-20.49.09:092][ 79]LogModuleManager: Shutting down and abandoning module TargetPlatform (158)
+[2018.12.05-20.49.09:092][ 79]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (157)
+[2018.12.05-20.49.09:092][ 79]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (155)
+[2018.12.05-20.49.09:092][ 79]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (153)
+[2018.12.05-20.49.09:092][ 79]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (151)
+[2018.12.05-20.49.09:092][ 79]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (149)
+[2018.12.05-20.49.09:092][ 79]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (147)
+[2018.12.05-20.49.09:092][ 79]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (145)
+[2018.12.05-20.49.09:092][ 79]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (143)
+[2018.12.05-20.49.09:092][ 79]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (141)
+[2018.12.05-20.49.09:092][ 79]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (139)
+[2018.12.05-20.49.09:092][ 79]LogModuleManager: Shutting down and abandoning module ImageWrapper (138)
+[2018.12.05-20.49.09:092][ 79]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (135)
+[2018.12.05-20.49.09:092][ 79]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (133)
+[2018.12.05-20.49.09:092][ 79]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (131)
+[2018.12.05-20.49.09:092][ 79]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (129)
+[2018.12.05-20.49.09:092][ 79]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (127)
+[2018.12.05-20.49.09:092][ 79]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (125)
+[2018.12.05-20.49.09:092][ 79]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (123)
+[2018.12.05-20.49.09:092][ 79]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (121)
+[2018.12.05-20.49.09:092][ 79]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (119)
+[2018.12.05-20.49.09:092][ 79]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (117)
+[2018.12.05-20.49.09:093][ 79]LogModuleManager: Shutting down and abandoning module Messaging (115)
+[2018.12.05-20.49.09:093][ 79]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (113)
+[2018.12.05-20.49.09:094][ 79]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (111)
+[2018.12.05-20.49.09:094][ 79]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (109)
+[2018.12.05-20.49.09:099][ 79]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (107)
+[2018.12.05-20.49.09:099][ 79]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (105)
+[2018.12.05-20.49.09:099][ 79]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (103)
+[2018.12.05-20.49.09:099][ 79]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (101)
+[2018.12.05-20.49.09:099][ 79]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (99)
+[2018.12.05-20.49.09:099][ 79]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (97)
+[2018.12.05-20.49.09:099][ 79]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (95)
+[2018.12.05-20.49.09:099][ 79]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (93)
+[2018.12.05-20.49.09:099][ 79]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (91)
+[2018.12.05-20.49.09:099][ 79]LogModuleManager: Shutting down and abandoning module InputCore (88)
+[2018.12.05-20.49.09:099][ 79]LogModuleManager: Shutting down and abandoning module Settings (86)
+[2018.12.05-20.49.09:099][ 79]LogModuleManager: Shutting down and abandoning module PhysXCooking (84)
+[2018.12.05-20.49.09:100][ 79]LogModuleManager: Shutting down and abandoning module SteamVR (82)
+[2018.12.05-20.49.09:100][ 79]LogModuleManager: Shutting down and abandoning module OculusHMD (80)
+[2018.12.05-20.49.09:100][ 79]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (78)
+[2018.12.05-20.49.09:100][ 79]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (76)
+[2018.12.05-20.49.09:100][ 79]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
+[2018.12.05-20.49.09:100][ 79]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (70)
+[2018.12.05-20.49.09:100][ 79]LogModuleManager: Shutting down and abandoning module XMPP (65)
+[2018.12.05-20.49.09:101][ 79]LogModuleManager: Shutting down and abandoning module WebSockets (64)
+[2018.12.05-20.49.09:134][ 79]LogModuleManager: Shutting down and abandoning module HTTP (61)
+[2018.12.05-20.49.09:134][ 79]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2018.12.05-20.49.09:134][ 79]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BB3912A45-42AD-EE3E-8C63-B9965DCEA404%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.20.3-4369336%2B%2B%2BUE4%2BRelease-4.20&UserID=324ec0084dbef8438fffe5b8f7c64b97%7C0403635c1a57492d91b01d30c7d284ff%7C08e5cffc-2cd6-4bf4-a1a1-356897907582&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.12.05-20.49.09:165][ 79]LogModuleManager: Shutting down and abandoning module SSL (60)
+[2018.12.05-20.49.09:166][ 79]LogModuleManager: Shutting down and abandoning module MagicLeapEmulator (56)
+[2018.12.05-20.49.09:166][ 79]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (54)
+[2018.12.05-20.49.09:166][ 79]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (52)
+[2018.12.05-20.49.09:166][ 79]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (50)
+[2018.12.05-20.49.09:166][ 79]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (48)
+[2018.12.05-20.49.09:166][ 79]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (46)
+[2018.12.05-20.49.09:166][ 79]LogModuleManager: Shutting down and abandoning module MagicLeapGestures (44)
+[2018.12.05-20.49.09:166][ 79]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (42)
+[2018.12.05-20.49.09:166][ 79]LogModuleManager: Shutting down and abandoning module MagicLeapController (40)
+[2018.12.05-20.49.09:166][ 79]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2018.12.05-20.49.09:166][ 79]LogModuleManager: Shutting down and abandoning module MagicLeap (38)
+[2018.12.05-20.49.09:167][ 79]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2018.12.05-20.49.09:167][ 79]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2018.12.05-20.49.09:167][ 79]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2018.12.05-20.49.09:167][ 79]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2018.12.05-20.49.09:167][ 79]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2018.12.05-20.49.09:167][ 79]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2018.12.05-20.49.09:167][ 79]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2018.12.05-20.49.09:167][ 79]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2018.12.05-20.49.09:167][ 79]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2018.12.05-20.49.09:167][ 79]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2018.12.05-20.49.09:168][ 79]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2018.12.05-20.49.09:168][ 79]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2018.12.05-20.49.09:168][ 79]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2018.12.05-20.49.09:168][ 79]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2018.12.05-20.49.09:168][ 79]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2018.12.05-20.49.09:168][ 79]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.12.05-20.49.09:168][ 79]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.12.05-20.49.09:168][ 79]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.12.05-20.49.09:176][ 79]LogExit: Exiting.
+[2018.12.05-20.49.09:186][ 79]Log file closed, 12/05/18 15:49:09
