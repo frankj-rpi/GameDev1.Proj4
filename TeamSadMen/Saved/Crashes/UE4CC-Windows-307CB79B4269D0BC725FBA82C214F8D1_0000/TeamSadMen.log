@@ -1,0 +1,1654 @@
+﻿Log file open, 11/26/18 16:46:30
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: TeamSadMen
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.314611
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.188s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4369336
+LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-6700HQ CPU @ 2.60GHz, GPU: Intel(R) HD Graphics 530
+LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.001s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.11.26-21.46.31:338][  0]LogInit: Selected Device Profile: [Windows]
+[2018.11.26-21.46.31:338][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.11.26-21.46.31:351][  0]LogHAL: Display: Platform has ~ 16 GB [16962461696 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2018.11.26-21.46.31:351][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2018.11.26-21.46.31:352][  0]LogInit: Going up to parent DeviceProfile []
+[2018.11.26-21.46.31:352][  0]LogInit: Computer: DESKTOP-3KP1QRT
+[2018.11.26-21.46.31:352][  0]LogInit: User: jonest5
+[2018.11.26-21.46.31:352][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.11.26-21.46.31:352][  0]LogInit: High frequency timer resolution =2.531249 MHz
+[2018.11.26-21.46.31:352][  0]LogMemory: Memory total: Physical=15.8GB (16GB approx)
+[2018.11.26-21.46.31:352][  0]LogMemory: Platform Memory Stats for Windows
+[2018.11.26-21.46.31:352][  0]LogMemory: Process Physical Memory: 100.20 MB used, 100.20 MB peak
+[2018.11.26-21.46.31:352][  0]LogMemory: Process Virtual Memory: 91.31 MB used, 91.31 MB peak
+[2018.11.26-21.46.31:352][  0]LogMemory: Physical Memory: 9070.73 MB used,  7105.93 MB free, 16176.66 MB total
+[2018.11.26-21.46.31:352][  0]LogMemory: Virtual Memory: 4626.15 MB used,  7105.93 MB free, 134217728.00 MB total
+[2018.11.26-21.46.31:387][  0]LogInit: Using OS detected language (en-US).
+[2018.11.26-21.46.31:387][  0]LogInit: Using OS detected locale (en-US).
+[2018.11.26-21.46.31:389][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.11.26-21.46.31:850][  0]LogStreaming: Display: Took  0.463s to InitEngineTextLocalization.
+[2018.11.26-21.46.31:850][  0]LogInit: Setting process to per monitor DPI aware
+[2018.11.26-21.46.32:026][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.11.26-21.46.32:026][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.11.26-21.46.32:374][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.11.26-21.46.32:374][  0]LogD3D11RHI: D3D11 adapters:
+[2018.11.26-21.46.32:459][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960M' (Feature Level 11_0)
+[2018.11.26-21.46.32:459][  0]LogD3D11RHI:       2010/0/8088 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2018.11.26-21.46.32:469][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
+[2018.11.26-21.46.32:469][  0]LogD3D11RHI:       128/0/8088 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2018.11.26-21.46.32:472][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.11.26-21.46.32:472][  0]LogD3D11RHI:       0/0/8088 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.11.26-21.46.32:472][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.11.26-21.46.32:520][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.11.26-21.46.32:520][  0]LogD3D11RHI:     GPU DeviceId: 0x139b (for the marketing name, search the web for "GPU Device Id")
+[2018.11.26-21.46.32:520][  0]LogWindows: EnumDisplayDevices:
+[2018.11.26-21.46.32:520][  0]LogWindows:    0. 'Intel(R) HD Graphics 530' (P:0 D:1)
+[2018.11.26-21.46.32:521][  0]LogWindows:    1. 'Intel(R) HD Graphics 530' (P:1 D:1)
+[2018.11.26-21.46.32:521][  0]LogWindows:    2. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2018.11.26-21.46.32:521][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.11.26-21.46.32:521][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960M
+[2018.11.26-21.46.32:521][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.11.26-21.46.32:521][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.11.26-21.46.32:521][  0]LogRHI: Texture pool is 1407 MB (70% of 2010 MB)
+[2018.11.26-21.46.32:582][  0]LogD3D11RHI: Async texture creation enabled
+[2018.11.26-21.46.32:608][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.11.26-21.46.32:610][  0]LogShaderCompilers: Guid format shader working directory is -15 characters bigger than the processId version (../../../../../../Users/jonest5/GameDev1/TeamSadMen/TeamSadMen/Intermediate/Shaders/WorkingDirectory/21016/).
+[2018.11.26-21.46.32:610][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/jonest5/AppData/Local/Temp/UnrealShaderWorkingDir/1C9BC9694DB1D42C341F0D8280E0AB51/'.
+[2018.11.26-21.46.33:089][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.11.26-21.46.33:106][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.11.26-21.46.33:126][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.11.26-21.46.33:144][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.11.26-21.46.33:163][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.11.26-21.46.33:180][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.11.26-21.46.33:198][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.11.26-21.46.33:216][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.11.26-21.46.33:226][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.11.26-21.46.33:326][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.26-21.46.33:326][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.26-21.46.33:326][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.26-21.46.33:326][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.26-21.46.33:326][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.26-21.46.33:326][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.26-21.46.33:326][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.26-21.46.33:326][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.26-21.46.33:326][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.26-21.46.33:326][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.26-21.46.33:326][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.26-21.46.33:326][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.26-21.46.33:326][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.26-21.46.33:326][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.26-21.46.33:326][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.26-21.46.33:326][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.26-21.46.33:326][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.26-21.46.33:326][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.26-21.46.33:328][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.11.26-21.46.33:398][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.11.26-21.46.33:398][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.11.26-21.46.33:428][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.11.26-21.46.33:428][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.11.26-21.46.33:447][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.11.26-21.46.33:466][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.11.26-21.46.33:481][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.11.26-21.46.33:497][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.11.26-21.46.33:510][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2018.11.26-21.46.33:510][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.11.26-21.46.33:607][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.11.26-21.46.33:607][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.11.26-21.46.33:607][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.11.26-21.46.34:583][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.11.26-21.46.34:644][  0]LogDerivedDataCache: Loaded boot cache 0.06s 71MB C:/Users/jonest5/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.11.26-21.46.34:645][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/jonest5/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2018.11.26-21.46.34:645][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/jonest5/GameDev1/TeamSadMen/TeamSadMen/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.11.26-21.46.34:645][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.11.26-21.46.34:645][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/jonest5/GameDev1/TeamSadMen/TeamSadMen/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.11.26-21.46.34:645][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.11.26-21.46.34:662][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.11.26-21.46.34:675][  0]LogDerivedDataCache: Using Local data cache path C:/Users/jonest5/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.11.26-21.46.34:675][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.11.26-21.46.34:675][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.11.26-21.46.34:699][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.11.26-21.46.34:700][  0]LogSlate: Using FreeType 2.6.0
+[2018.11.26-21.46.34:701][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.11.26-21.46.34:803][  0]LogAssetRegistry: FAssetRegistry took 0.0270 seconds to start up
+[2018.11.26-21.46.35:225][  0]LogInit: Selected Device Profile: [Windows]
+[2018.11.26-21.46.35:418][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.11.26-21.46.35:424][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.11.26-21.46.35:424][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2018.11.26-21.46.35:424][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.11.26-21.46.35:424][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.11.26-21.46.35:458][  0]LogNetVersion: TeamSadMen 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 1220547581)
+[2018.11.26-21.46.36:245][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.222379 seconds
+[2018.11.26-21.46.36:254][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2018.11.26-21.46.36:254][  0]LogUObjectAllocator: 6690864 out of 0 bytes used by permanent object pool.
+[2018.11.26-21.46.36:254][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.11.26-21.46.37:542][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.11.26-21.46.37:556][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.11.26-21.46.37:732][  0]SourceControl: Source control is disabled
+[2018.11.26-21.46.37:732][  0]SourceControl: Source control is disabled
+[2018.11.26-21.46.37:734][  0]SourceControl: Source control is disabled
+[2018.11.26-21.46.37:735][  0]SourceControl: Source control is disabled
+[2018.11.26-21.46.37:921][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.11.26-21.46.38:085][  0]LogOcInput: OculusInput pre-init called
+[2018.11.26-21.46.38:160][  0]LogEngine: Initializing Engine...
+[2018.11.26-21.46.38:161][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.11.26-21.46.38:163][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.11.26-21.46.38:163][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.11.26-21.46.38:163][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.11.26-21.46.38:163][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.11.26-21.46.38:430][  0]LogInit: Initializing FReadOnlyCVARCache
+[2018.11.26-21.46.38:451][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.11.26-21.46.38:497][  0]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.26-21.46.38:733][  0]LogInit: FAudioDevice initialized.
+[2018.11.26-21.46.38:734][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2018.11.26-21.46.38:794][  0]LogDerivedDataCache: Saved boot cache 0.06s 71MB C:/Users/jonest5/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.11.26-21.46.38:804][  0]LogInit: Texture streaming: Enabled
+[2018.11.26-21.46.38:836][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.11.26-21.46.38:859][  0]LogInit: Transaction tracking system initialized
+[2018.11.26-21.46.38:895][  0]BlueprintLog: New page: Editor Load
+[2018.11.26-21.46.39:016][  0]LocalizationService: Localization service is disabled
+[2018.11.26-21.46.39:347][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.11.26-21.46.39:347][  0]LogCook: Display: Mobile HDR setting 1
+[2018.11.26-21.46.39:347][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.11.26-21.46.39:347][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.11.26-21.46.39:347][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.11.26-21.46.39:347][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.11.26-21.46.39:347][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.11.26-21.46.39:501][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jonest5/GameDev1/TeamSadMen/TeamSadMen/Content/' took 0.02s
+[2018.11.26-21.46.39:501][  0]SourceControl: Source control is disabled
+[2018.11.26-21.46.39:501][  0]Cmd: MAP LOAD FILE="../../../../../../Users/jonest5/GameDev1/TeamSadMen/TeamSadMen/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.11.26-21.46.39:502][  0]LightingResults: New page: Lighting Build
+[2018.11.26-21.46.39:506][  0]MapCheck: New page: Map Check
+[2018.11.26-21.46.39:506][  0]LightingResults: New page: Lighting Build
+[2018.11.26-21.46.40:224][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2018.11.26-21.46.40:246][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.11.26-21.46.40:277][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.11.26-21.46.40:407][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 130.045ms to complete.
+[2018.11.26-21.46.40:407][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 0.906
+[2018.11.26-21.46.40:847][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.26-21.46.40:859][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.26-21.46.40:872][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.26-21.46.40:882][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.26-21.46.40:898][  0]LogCollectionManager: Loaded 0 collections in 0.004211 seconds
+[2018.11.26-21.46.40:960][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jonest5/GameDev1/TeamSadMen/TeamSadMen/Saved/Collections/' took 0.01s
+[2018.11.26-21.46.40:960][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jonest5/GameDev1/TeamSadMen/TeamSadMen/Content/Developers/jonest5/Collections/' took 0.01s
+[2018.11.26-21.46.40:960][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jonest5/GameDev1/TeamSadMen/TeamSadMen/Content/Collections/' took 0.01s
+[2018.11.26-21.46.40:960][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.11.26-21.46.40:977][  0]LogContentBrowser: Native class hierarchy populated in 0.0158 seconds. Added 2572 classes and 603 folders.
+[2018.11.26-21.46.40:991][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.11.26-21.46.41:130][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.11.26-21.46.41:149][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2018.11.26-21.46.41:244][  0]LogSlate: Took 0.000294 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.11.26-21.46.41:250][  0]LogSlate: Took 0.000323 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.11.26-21.46.41:256][  0]LogSlate: Took 0.001449 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.11.26-21.46.41:349][  0]LogRenderer: Reallocating scene render targets to support 1180x560 Format 10 NumSamples 1 (Frame:1).
+[2018.11.26-21.46.41:433][  0]LogSlate: Took 0.001133 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.11.26-21.46.41:568][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.11.26-21.46.41:568][  0]LogLoad: (Engine Initialization) Total time: 13.15 seconds
+[2018.11.26-21.46.41:568][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.11.26-21.46.41:587][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.11.26-21.46.41:617][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.11.26-21.46.41:652][  1]LogAssetRegistry: Asset discovery search completed in 6.8705 seconds
+[2018.11.26-21.46.41:654][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.11.26-21.46.41:654][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000096 seconds (updated 0 objects)
+[2018.11.26-21.46.42:708][ 45]LogSlate: Took 0.000361 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.11.26-21.47.21:464][260]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.26-21.47.21:782][260]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter
+[2018.11.26-21.47.22:396][260]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 116 classes and 0 folders.
+[2018.11.26-21.47.23:492][260]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Countertop_Blueprint.Countertop_Blueprint
+[2018.11.26-21.47.24:053][260]LogSlate: Took 0.001357 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.11.26-21.47.24:364][261]LogSlate: Took 0.001519 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.11.26-21.49.02:920][ 18]LogRenderer: Reallocating scene render targets to support 1180x940 Format 10 NumSamples 1 (Frame:1).
+[2018.11.26-21.49.31:677][221]LogSlate: Window 'Select Path' being destroyed
+[2018.11.26-21.49.31:935][221]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Pizza_Blueprint.Pizza_Blueprint
+[2018.11.26-21.49.47:319][988]LogSlate: Took 0.001328 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2018.11.26-21.50.33:362][158]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2018.11.26-21.50.33:569][167]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.26-21.50.33:588][167]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.11.26-21.50.33:590][167]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.11.26-21.50.33:592][167]LogPlayLevel: [PlayLevel] Compiling Pizza_Blueprint before play...
+[2018.11.26-21.50.33:782][167]LogPlayLevel: PlayLevel: Blueprint regeneration took 192 ms (1 blueprints)
+[2018.11.26-21.50.33:800][167]PIE: New page: PIE session: FirstPersonExampleMap (Nov 26, 2018, 11:50:33 AM)
+[2018.11.26-21.50.33:800][167]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2018.11.26-21.50.33:818][167]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017168s)
+[2018.11.26-21.50.33:819][167]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2018.11.26-21.50.33:819][167]LogPlayLevel: PIE: World Init took: (0.001440s)
+[2018.11.26-21.50.33:819][167]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.018942s)
+[2018.11.26-21.50.33:891][167]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.26-21.50.33:933][167]LogInit: FAudioDevice initialized.
+[2018.11.26-21.50.33:934][167]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.26-21.50.33:981][167]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.11.26-21.50.33:990][167]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2018.11.26-16.50.33
+[2018.11.26-21.50.33:992][167]LogWorld: Bringing up level for play took: 0.004470
+[2018.11.26-21.50.34:026][167]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 10 classes and 0 folders.
+[2018.11.26-21.50.34:028][167]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 1.207
+[2018.11.26-21.50.34:028][167]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.11.26-21.50.40:137][523]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-21.50.54:437][378]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-21.51.08:451][214]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.11.26-21.51.08:453][214]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.26-21.51.08:513][214]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.26-21.51.08:513][214]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.11.26-21.51.08:551][214]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.26-21.51.08:629][215]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2018.11.26-21.51.08:919][228]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.26-21.51.08:938][228]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.11.26-21.51.08:939][228]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.26-21.51.08:939][228]PIE: New page: PIE session: FirstPersonExampleMap (Nov 26, 2018, 11:51:08 AM)
+[2018.11.26-21.51.08:939][228]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2018.11.26-21.51.08:960][228]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021222s)
+[2018.11.26-21.51.08:961][228]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2018.11.26-21.51.08:962][228]LogPlayLevel: PIE: World Init took: (0.001549s)
+[2018.11.26-21.51.08:962][228]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.023054s)
+[2018.11.26-21.51.09:018][228]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.26-21.51.09:056][228]LogInit: FAudioDevice initialized.
+[2018.11.26-21.51.09:056][228]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.26-21.51.09:090][228]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.11.26-21.51.09:092][228]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2018.11.26-16.51.09
+[2018.11.26-21.51.09:093][228]LogWorld: Bringing up level for play took: 0.002889
+[2018.11.26-21.51.09:106][228]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.285
+[2018.11.26-21.51.09:106][228]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.11.26-21.51.39:584][686]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.26-21.53.04:451][224]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-21.53.16:845][964]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.11.26-21.53.16:846][964]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.26-21.53.16:897][964]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.26-21.53.16:897][964]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.11.26-21.53.16:937][964]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.26-21.53.17:033][965]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2018.11.26-21.53.19:437][  9]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.26-21.53.22:419][129]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.11.26-21.53.23:872][207]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.26-21.53.23:888][207]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.11.26-21.53.23:888][207]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.26-21.53.23:888][207]PIE: New page: PIE session: FirstPersonExampleMap (Nov 26, 2018, 11:53:23 AM)
+[2018.11.26-21.53.23:888][207]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2018.11.26-21.53.23:906][207]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016936s)
+[2018.11.26-21.53.23:907][207]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2018.11.26-21.53.23:907][207]LogPlayLevel: PIE: World Init took: (0.001272s)
+[2018.11.26-21.53.23:907][207]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.018594s)
+[2018.11.26-21.53.23:970][207]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.26-21.53.24:011][207]LogInit: FAudioDevice initialized.
+[2018.11.26-21.53.24:011][207]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.26-21.53.24:044][207]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.11.26-21.53.24:047][207]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2018.11.26-16.53.24
+[2018.11.26-21.53.24:047][207]LogWorld: Bringing up level for play took: 0.002379
+[2018.11.26-21.53.24:060][207]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.762
+[2018.11.26-21.53.24:061][207]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.11.26-21.53.28:387][457]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-21.53.29:435][518]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-21.53.30:942][606]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-21.53.33:709][771]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-21.53.35:350][869]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-21.54.03:190][244]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.11.26-21.54.03:191][244]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.26-21.54.03:240][244]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.26-21.54.03:240][244]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.11.26-21.54.03:283][244]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.26-21.54.03:391][245]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2018.11.26-21.55.01:490][466]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall3)
+[2018.11.26-21.55.02:776][527]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.26-21.55.02:793][527]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.11.26-21.55.02:794][527]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.26-21.55.02:794][527]PIE: New page: PIE session: FirstPersonExampleMap (Nov 26, 2018, 11:55:02 AM)
+[2018.11.26-21.55.02:794][527]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2018.11.26-21.55.02:810][527]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015898s)
+[2018.11.26-21.55.02:811][527]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2018.11.26-21.55.02:812][527]LogPlayLevel: PIE: World Init took: (0.001175s)
+[2018.11.26-21.55.02:812][527]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.017388s)
+[2018.11.26-21.55.02:866][527]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.26-21.55.02:907][527]LogInit: FAudioDevice initialized.
+[2018.11.26-21.55.02:907][527]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.26-21.55.02:943][527]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.11.26-21.55.02:947][527]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2018.11.26-16.55.02
+[2018.11.26-21.55.02:947][527]LogWorld: Bringing up level for play took: 0.002573
+[2018.11.26-21.55.02:961][527]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.139
+[2018.11.26-21.55.02:961][527]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.11.26-21.55.09:895][915]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.11.26-21.55.09:895][915]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.26-21.55.09:940][915]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.26-21.55.09:940][915]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.11.26-21.55.09:980][915]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.26-21.55.10:038][916]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2018.11.26-21.55.14:735][ 70]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.26-21.55.26:326][493]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.11.26-21.55.26:510][500]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.26-21.55.26:526][500]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.11.26-21.55.26:526][500]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.26-21.55.26:526][500]PIE: New page: PIE session: FirstPersonExampleMap (Nov 26, 2018, 11:55:26 AM)
+[2018.11.26-21.55.26:526][500]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2018.11.26-21.55.26:545][500]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018078s)
+[2018.11.26-21.55.26:546][500]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2018.11.26-21.55.26:546][500]LogPlayLevel: PIE: World Init took: (0.001126s)
+[2018.11.26-21.55.26:546][500]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.019545s)
+[2018.11.26-21.55.26:600][500]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.26-21.55.26:637][500]LogInit: FAudioDevice initialized.
+[2018.11.26-21.55.26:637][500]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.26-21.55.26:670][500]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.11.26-21.55.26:673][500]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2018.11.26-16.55.26
+[2018.11.26-21.55.26:673][500]LogWorld: Bringing up level for play took: 0.002371
+[2018.11.26-21.55.26:687][500]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.134
+[2018.11.26-21.55.26:687][500]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.11.26-21.55.40:102][271]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-21.55.45:359][578]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.11.26-21.55.45:359][578]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.26-21.55.45:405][578]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.26-21.55.45:405][578]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.11.26-21.55.45:445][578]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.26-21.55.45:550][579]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2018.11.26-21.55.51:065][778]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.26-21.56.11:361][512]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.26-21.56.11:382][512]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.11.26-21.56.11:382][512]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.26-21.56.11:383][512]PIE: New page: PIE session: FirstPersonExampleMap (Nov 26, 2018, 11:56:11 AM)
+[2018.11.26-21.56.11:383][512]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2018.11.26-21.56.11:396][512]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013327s)
+[2018.11.26-21.56.11:398][512]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2018.11.26-21.56.11:398][512]LogPlayLevel: PIE: World Init took: (0.001624s)
+[2018.11.26-21.56.11:398][512]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.015285s)
+[2018.11.26-21.56.11:458][512]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.26-21.56.11:496][512]LogInit: FAudioDevice initialized.
+[2018.11.26-21.56.11:535][512]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.11.26-21.56.11:537][512]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2018.11.26-16.56.11
+[2018.11.26-21.56.11:538][512]LogWorld: Bringing up level for play took: 0.002237
+[2018.11.26-21.56.11:551][512]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.73
+[2018.11.26-21.56.11:551][512]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.11.26-21.56.30:590][596]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-21.56.33:437][763]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-21.56.34:926][852]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-21.56.37:032][978]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-21.56.38:310][ 54]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.11.26-21.56.38:311][ 54]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.26-21.56.38:361][ 54]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.26-21.56.38:361][ 54]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.11.26-21.56.38:389][ 54]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.26-21.56.38:495][ 55]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2018.11.26-21.56.40:710][114]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.26-21.56.49:073][339]LogSavePackage: Moving '../../../../../../Users/jonest5/GameDev1/TeamSadMen/TeamSadMen/Saved/FirstPersonExampleMap6C349F6544F38C962CDFBFA85B6E2488.tmp' to '../../../../../../Users/jonest5/GameDev1/TeamSadMen/TeamSadMen/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2018.11.26-21.56.52:680][467]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.26-21.56.52:703][467]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.11.26-21.56.52:703][467]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.26-21.56.52:704][467]PIE: New page: PIE session: FirstPersonExampleMap (Nov 26, 2018, 11:56:52 AM)
+[2018.11.26-21.56.52:704][467]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2018.11.26-21.56.52:718][467]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014116s)
+[2018.11.26-21.56.52:719][467]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2018.11.26-21.56.52:720][467]LogPlayLevel: PIE: World Init took: (0.001611s)
+[2018.11.26-21.56.52:720][467]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.016088s)
+[2018.11.26-21.56.52:778][467]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.26-21.56.52:813][467]LogInit: FAudioDevice initialized.
+[2018.11.26-21.56.52:851][467]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.11.26-21.56.52:855][467]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2018.11.26-16.56.52
+[2018.11.26-21.56.52:855][467]LogWorld: Bringing up level for play took: 0.004157
+[2018.11.26-21.56.52:869][467]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.048
+[2018.11.26-21.56.52:869][467]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.11.26-21.57.30:300][629]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.11.26-21.57.30:301][629]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.26-21.57.30:348][629]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.26-21.57.30:348][629]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.11.26-21.57.30:380][629]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.26-21.57.30:485][630]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2018.11.26-21.57.32:915][699]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.26-21.58.09:701][124]LogSavePackage: Moving '../../../../../../Users/jonest5/GameDev1/TeamSadMen/TeamSadMen/Saved/FirstPersonExampleMap3AEEE8D34A024DB23AE3DAA4FA116B81.tmp' to '../../../../../../Users/jonest5/GameDev1/TeamSadMen/TeamSadMen/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2018.11.26-21.58.12:098][253]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.26-21.58.12:116][253]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.11.26-21.58.12:116][253]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.26-21.58.12:116][253]PIE: New page: PIE session: FirstPersonExampleMap (Nov 26, 2018, 11:58:12 AM)
+[2018.11.26-21.58.12:116][253]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2018.11.26-21.58.12:131][253]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014967s)
+[2018.11.26-21.58.12:132][253]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2018.11.26-21.58.12:132][253]LogPlayLevel: PIE: World Init took: (0.001057s)
+[2018.11.26-21.58.12:132][253]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.016282s)
+[2018.11.26-21.58.12:187][253]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.26-21.58.12:224][253]LogInit: FAudioDevice initialized.
+[2018.11.26-21.58.12:258][253]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.11.26-21.58.12:261][253]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2018.11.26-16.58.12
+[2018.11.26-21.58.12:262][253]LogWorld: Bringing up level for play took: 0.002675
+[2018.11.26-21.58.12:275][253]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.546
+[2018.11.26-21.58.12:275][253]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.11.26-21.58.25:112][991]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-21.58.28:304][176]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-21.58.40:757][897]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-21.58.42:469][998]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.11.26-21.58.42:470][998]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.26-21.58.42:517][998]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.26-21.58.42:517][998]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.11.26-21.58.42:550][998]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.26-21.58.42:659][999]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2018.11.26-21.59.24:828][657]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.26-22.01.25:039][207]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall2)
+[2018.11.26-22.01.26:232][272]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.26-22.01.26:252][272]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.11.26-22.01.26:252][272]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.26-22.01.26:252][272]PIE: New page: PIE session: FirstPersonExampleMap (Nov 26, 2018, 12:01:26 PM)
+[2018.11.26-22.01.26:252][272]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2018.11.26-22.01.26:269][272]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016693s)
+[2018.11.26-22.01.26:270][272]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2018.11.26-22.01.26:270][272]LogPlayLevel: PIE: World Init took: (0.001356s)
+[2018.11.26-22.01.26:271][272]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.018448s)
+[2018.11.26-22.01.26:327][272]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.26-22.01.26:366][272]LogInit: FAudioDevice initialized.
+[2018.11.26-22.01.26:366][272]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.26-22.01.26:400][272]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.11.26-22.01.26:403][272]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2018.11.26-17.01.26
+[2018.11.26-22.01.26:404][272]LogWorld: Bringing up level for play took: 0.003197
+[2018.11.26-22.01.26:417][272]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.404
+[2018.11.26-22.01.26:418][272]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.11.26-22.02.01:409][292]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.11.26-22.02.01:409][292]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.26-22.02.01:469][292]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.26-22.02.01:469][292]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.11.26-22.02.01:509][292]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.26-22.02.01:603][293]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2018.11.26-22.04.01:363][667]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.26-22.04.31:052][ 59]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.26-22.04.31:071][ 59]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.11.26-22.04.31:072][ 59]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.26-22.04.31:072][ 59]PIE: New page: PIE session: FirstPersonExampleMap (Nov 26, 2018, 12:04:31 PM)
+[2018.11.26-22.04.31:072][ 59]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2018.11.26-22.04.31:087][ 59]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014993s)
+[2018.11.26-22.04.31:088][ 59]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2018.11.26-22.04.31:089][ 59]LogPlayLevel: PIE: World Init took: (0.001359s)
+[2018.11.26-22.04.31:089][ 59]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.016694s)
+[2018.11.26-22.04.31:147][ 59]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.26-22.04.31:180][ 59]LogInit: FAudioDevice initialized.
+[2018.11.26-22.04.31:218][ 59]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.11.26-22.04.31:221][ 59]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2018.11.26-17.04.31
+[2018.11.26-22.04.31:222][ 59]LogWorld: Bringing up level for play took: 0.002849
+[2018.11.26-22.04.31:235][ 59]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.413
+[2018.11.26-22.04.31:235][ 59]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.11.26-22.04.38:687][480]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.11.26-22.04.38:688][480]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.26-22.04.38:734][480]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.26-22.04.38:734][480]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.11.26-22.04.38:767][480]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.26-22.04.38:867][481]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2018.11.26-22.04.39:266][499]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.26-22.04.39:285][499]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.11.26-22.04.39:285][499]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.26-22.04.39:285][499]PIE: New page: PIE session: FirstPersonExampleMap (Nov 26, 2018, 12:04:39 PM)
+[2018.11.26-22.04.39:285][499]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2018.11.26-22.04.39:300][499]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014935s)
+[2018.11.26-22.04.39:301][499]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2018.11.26-22.04.39:302][499]LogPlayLevel: PIE: World Init took: (0.001332s)
+[2018.11.26-22.04.39:302][499]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.016614s)
+[2018.11.26-22.04.39:360][499]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.26-22.04.39:395][499]LogInit: FAudioDevice initialized.
+[2018.11.26-22.04.39:395][499]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.26-22.04.39:435][499]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.11.26-22.04.39:439][499]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2018.11.26-17.04.39
+[2018.11.26-22.04.39:440][499]LogWorld: Bringing up level for play took: 0.003381
+[2018.11.26-22.04.39:453][499]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.631
+[2018.11.26-22.04.39:453][499]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.11.26-22.06.25:302][593]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.11.26-22.06.25:302][593]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.26-22.06.25:351][593]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.26-22.06.25:351][593]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.11.26-22.06.25:382][593]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.26-22.06.25:474][594]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2018.11.26-22.06.29:103][798]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.26-22.06.29:129][798]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.11.26-22.06.29:129][798]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.26-22.06.29:129][798]PIE: New page: PIE session: FirstPersonExampleMap (Nov 26, 2018, 12:06:29 PM)
+[2018.11.26-22.06.29:129][798]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2018.11.26-22.06.29:142][798]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012373s)
+[2018.11.26-22.06.29:143][798]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2018.11.26-22.06.29:143][798]LogPlayLevel: PIE: World Init took: (0.001156s)
+[2018.11.26-22.06.29:143][798]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.013801s)
+[2018.11.26-22.06.29:208][798]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.26-22.06.29:242][798]LogInit: FAudioDevice initialized.
+[2018.11.26-22.06.29:243][798]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.26-22.06.29:279][798]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.11.26-22.06.29:282][798]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2018.11.26-17.06.29
+[2018.11.26-22.06.29:282][798]LogWorld: Bringing up level for play took: 0.002397
+[2018.11.26-22.06.29:295][798]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.474
+[2018.11.26-22.06.29:295][798]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.11.26-22.06.30:567][860]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.11.26-22.06.30:568][860]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.26-22.06.30:619][860]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.26-22.06.30:619][860]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.11.26-22.06.30:661][860]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.26-22.06.30:715][861]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2018.11.26-22.06.52:080][694]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2018.11.26-22.06.52:166][696]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.26-22.06.52:179][696]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.11.26-22.06.52:179][696]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.26-22.06.52:180][696]PIE: New page: PIE session: FirstPersonExampleMap (Nov 26, 2018, 12:06:52 PM)
+[2018.11.26-22.06.52:180][696]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2018.11.26-22.06.52:193][696]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013188s)
+[2018.11.26-22.06.52:194][696]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2018.11.26-22.06.52:195][696]LogPlayLevel: PIE: World Init took: (0.001482s)
+[2018.11.26-22.06.52:195][696]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.014924s)
+[2018.11.26-22.06.52:253][696]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.26-22.06.52:291][696]LogInit: FAudioDevice initialized.
+[2018.11.26-22.06.52:291][696]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.26-22.06.52:326][696]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.11.26-22.06.52:329][696]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2018.11.26-17.06.52
+[2018.11.26-22.06.52:330][696]LogWorld: Bringing up level for play took: 0.002594
+[2018.11.26-22.06.52:343][696]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.478
+[2018.11.26-22.06.52:343][696]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.11.26-22.06.58:083][ 28]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.11.26-22.06.58:083][ 28]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.26-22.06.58:129][ 28]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.26-22.06.58:129][ 28]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.11.26-22.06.58:168][ 28]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.26-22.06.58:272][ 29]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2018.11.26-22.07.00:081][ 73]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.26-22.07.21:110][863]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2018.11.26-22.07.21:343][874]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.26-22.07.21:358][874]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.11.26-22.07.21:359][874]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.26-22.07.21:359][874]PIE: New page: PIE session: FirstPersonExampleMap (Nov 26, 2018, 12:07:21 PM)
+[2018.11.26-22.07.21:359][874]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2018.11.26-22.07.21:373][874]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014255s)
+[2018.11.26-22.07.21:375][874]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2018.11.26-22.07.21:375][874]LogPlayLevel: PIE: World Init took: (0.001495s)
+[2018.11.26-22.07.21:375][874]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.016109s)
+[2018.11.26-22.07.21:436][874]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.26-22.07.21:478][874]LogInit: FAudioDevice initialized.
+[2018.11.26-22.07.21:479][874]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.26-22.07.21:514][874]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.11.26-22.07.21:517][874]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2018.11.26-17.07.21
+[2018.11.26-22.07.21:517][874]LogWorld: Bringing up level for play took: 0.002307
+[2018.11.26-22.07.21:531][874]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.71
+[2018.11.26-22.07.21:531][874]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.11.26-22.07.26:646][153]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.07.29:012][294]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.07.33:099][534]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.08.00:843][171]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.08.01:677][220]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.08.03:549][327]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.08.06:459][498]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.08.12:038][820]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.08.16:453][ 73]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.08.16:786][ 92]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.08.17:352][123]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.08.54:434][222]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.08.55:430][281]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.11.26-22.08.55:430][281]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.26-22.08.55:477][281]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.26-22.08.55:477][281]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.11.26-22.08.55:515][281]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.26-22.08.55:612][282]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2018.11.26-22.08.57:285][322]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.26-22.09.09:716][718]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall2)
+[2018.11.26-22.09.10:223][744]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.26-22.09.10:237][744]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.11.26-22.09.10:237][744]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.26-22.09.10:237][744]PIE: New page: PIE session: FirstPersonExampleMap (Nov 26, 2018, 12:09:10 PM)
+[2018.11.26-22.09.10:237][744]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2018.11.26-22.09.10:252][744]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015149s)
+[2018.11.26-22.09.10:253][744]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2018.11.26-22.09.10:254][744]LogPlayLevel: PIE: World Init took: (0.001559s)
+[2018.11.26-22.09.10:254][744]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.016978s)
+[2018.11.26-22.09.10:312][744]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.26-22.09.10:350][744]LogInit: FAudioDevice initialized.
+[2018.11.26-22.09.10:351][744]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.26-22.09.10:383][744]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.11.26-22.09.10:386][744]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2018.11.26-17.09.10
+[2018.11.26-22.09.10:387][744]LogWorld: Bringing up level for play took: 0.002352
+[2018.11.26-22.09.10:400][744]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.421
+[2018.11.26-22.09.10:400][744]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.11.26-22.09.19:160][252]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.09.24:781][585]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.11.26-22.09.24:781][585]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.26-22.09.24:833][585]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.26-22.09.24:833][585]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.11.26-22.09.24:867][585]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.26-22.09.24:960][586]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2018.11.26-22.11.20:357][ 73]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.26-22.13.27:798][390]LogSavePackage: Moving '../../../../../../Users/jonest5/GameDev1/TeamSadMen/TeamSadMen/Saved/FirstPersonExampleMap_Auto1E54B51234D151F43CB1E25A4E77265AB.tmp' to '../../../../../../Users/jonest5/GameDev1/TeamSadMen/TeamSadMen/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto1.umap'
+[2018.11.26-22.13.27:808][390]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 0.279
+[2018.11.26-22.13.27:808][390]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.279
+[2018.11.26-22.13.27:813][390]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Pizza_Blueprint] ([1] browsable assets)...
+[2018.11.26-22.13.27:854][390]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Pizza_Blueprint.Pizza_Blueprint]
+[2018.11.26-22.13.27:854][390]OBJ SavePackage: Finished generating thumbnails for package [/Game/Pizza_Blueprint]
+[2018.11.26-22.13.27:854][390]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Pizza_Blueprint" FILE="../../../../../../Users/jonest5/GameDev1/TeamSadMen/TeamSadMen/Saved/Autosaves/Game/Pizza_Blueprint_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2018.11.26-22.13.27:878][390]LogSavePackage: Moving '../../../../../../Users/jonest5/GameDev1/TeamSadMen/TeamSadMen/Saved/Pizza_Blueprint_Auto1C1F2A7F84E66AF328C71AFBEA4412858.tmp' to '../../../../../../Users/jonest5/GameDev1/TeamSadMen/TeamSadMen/Saved/Autosaves/Game/Pizza_Blueprint_Auto1.uasset'
+[2018.11.26-22.13.27:882][390]LogFileHelpers: Auto-saving content packages took 0.071
+[2018.11.26-22.40.17:454][593]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 0.038
+[2018.11.26-22.40.17:463][593]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Countertop_Blueprint] ([1] browsable assets)...
+[2018.11.26-22.40.17:514][593]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Countertop_Blueprint.Countertop_Blueprint]
+[2018.11.26-22.40.17:515][593]OBJ SavePackage: Finished generating thumbnails for package [/Game/Countertop_Blueprint]
+[2018.11.26-22.40.17:563][593]LogSavePackage: Moving '../../../../../../Users/jonest5/GameDev1/TeamSadMen/TeamSadMen/Saved/Countertop_Blueprint_Auto2381DC7AE4574F9426D9977856838D2CE.tmp' to '../../../../../../Users/jonest5/GameDev1/TeamSadMen/TeamSadMen/Saved/Autosaves/Game/Countertop_Blueprint_Auto2.uasset'
+[2018.11.26-22.40.17:568][593]LogFileHelpers: Auto-saving content packages took 0.106
+[2018.11.26-22.40.54:938][215]BlueprintLog: New page: Compile Countertop_Blueprint
+[2018.11.26-22.40.55:888][222]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Countertop_Blueprint" FILE="../../../../../../Users/jonest5/GameDev1/TeamSadMen/TeamSadMen/Content/Countertop_Blueprint.uasset" SILENT=true
+[2018.11.26-22.40.55:921][222]LogSavePackage: Moving '../../../../../../Users/jonest5/GameDev1/TeamSadMen/TeamSadMen/Saved/Countertop_Blueprint70A833CF4ED2749E59D6ABAC2AFEDE45.tmp' to '../../../../../../Users/jonest5/GameDev1/TeamSadMen/TeamSadMen/Content/Countertop_Blueprint.uasset'
+[2018.11.26-22.41.13:758][925]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.26-22.41.13:776][925]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.11.26-22.41.13:777][925]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.26-22.41.13:777][925]PIE: New page: PIE session: FirstPersonExampleMap (Nov 26, 2018, 12:41:13 PM)
+[2018.11.26-22.41.13:777][925]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2018.11.26-22.41.13:797][925]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020149s)
+[2018.11.26-22.41.13:799][925]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2018.11.26-22.41.13:799][925]LogPlayLevel: PIE: World Init took: (0.001710s)
+[2018.11.26-22.41.13:800][925]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.022468s)
+[2018.11.26-22.41.13:867][925]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.26-22.41.13:906][925]LogInit: FAudioDevice initialized.
+[2018.11.26-22.41.13:938][925]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.11.26-22.41.13:941][925]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2018.11.26-17.41.13
+[2018.11.26-22.41.13:942][925]LogWorld: Bringing up level for play took: 0.002633
+[2018.11.26-22.41.13:955][925]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 1.134
+[2018.11.26-22.41.13:955][925]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.11.26-22.41.19:910][251]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.19:929][252]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.19:945][253]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.19:960][254]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.19:977][255]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.19:994][256]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.20:011][257]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.20:028][258]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.20:044][259]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.20:062][260]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.20:078][261]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.20:094][262]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.20:111][263]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.20:132][264]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.20:150][265]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.20:169][266]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.20:186][267]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.20:208][268]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.20:224][269]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.20:242][270]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.20:260][271]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.20:276][272]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.20:293][273]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.20:309][274]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.20:327][275]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.20:343][276]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.20:360][277]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.20:376][278]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.20:395][279]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.20:410][280]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.20:427][281]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.20:444][282]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.20:460][283]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.20:478][284]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.20:495][285]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.20:510][286]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.20:528][287]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.20:544][288]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.20:560][289]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.20:576][290]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.20:593][291]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.20:609][292]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.20:626][293]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.20:642][294]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.20:660][295]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.20:676][296]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.20:694][297]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.20:709][298]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.20:727][299]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.20:743][300]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.20:760][301]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.20:777][302]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.20:796][303]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.20:821][304]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.21:734][354]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.21:750][355]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.21:771][356]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.21:793][357]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.21:812][358]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.21:832][359]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.21:861][360]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.21:880][361]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.21:899][362]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.21:914][363]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.21:932][364]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.21:949][365]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.21:966][366]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.21:983][367]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.22:000][368]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.22:017][369]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.22:036][370]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.22:053][371]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.22:068][372]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.22:085][373]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.22:102][374]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.22:119][375]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.22:137][376]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.22:154][377]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.22:170][378]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.22:187][379]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.22:205][380]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.22:226][381]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.22:244][382]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.22:261][383]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.22:279][384]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.22:296][385]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.22:310][386]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.22:328][387]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.22:344][388]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.22:363][389]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.22:378][390]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.22:394][391]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.22:412][392]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.22:429][393]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.22:445][394]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.22:464][395]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.22:478][396]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.22:500][397]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.22:516][398]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.22:538][399]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.22:554][400]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.22:579][401]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.25:331][556]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.25:500][566]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.25:518][567]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.25:534][568]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.25:552][569]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.25:568][570]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.25:584][571]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.25:602][572]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.25:618][573]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.25:634][574]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.25:650][575]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.25:668][576]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.25:683][577]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.25:700][578]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.25:717][579]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.25:733][580]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.25:750][581]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.25:767][582]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.25:784][583]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.41:650][464]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.41:667][465]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.41:683][466]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.41:701][467]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.41:716][468]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.41:736][469]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.41:752][470]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.41:768][471]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.41:786][472]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.41:802][473]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.41:819][474]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.41:836][475]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.41:855][476]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.41:872][477]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.41:888][478]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.41:907][479]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.41:935][480]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.41:950][481]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.41:967][482]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.42:099][490]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.42:115][491]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.42:132][492]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.42:149][493]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.42:166][494]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.42:183][495]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.42:201][496]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.42:216][497]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.42:233][498]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.42:249][499]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.42:268][500]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.42:284][501]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.42:301][502]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.42:319][503]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.42:334][504]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.42:351][505]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.42:368][506]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.42:383][507]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.42:401][508]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.42:417][509]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.42:437][510]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.42:454][511]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.42:472][512]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.42:491][513]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.42:508][514]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.42:526][515]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.42:543][516]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.42:565][517]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.42:583][518]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.42:599][519]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.42:616][520]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.42:633][521]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.42:650][522]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.42:666][523]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.42:684][524]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.42:700][525]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.42:716][526]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.42:733][527]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.42:750][528]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.42:768][529]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.42:785][530]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.42:804][531]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.42:822][532]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.42:841][533]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.42:859][534]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.42:884][535]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.42:898][536]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.42:917][537]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.42:935][538]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.42:955][539]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.42:970][540]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.42:987][541]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.43:005][542]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.43:022][543]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.43:047][544]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.43:070][545]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.43:088][546]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.43:105][547]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.43:122][548]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.43:139][549]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.43:155][550]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.43:174][551]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.43:196][552]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.43:216][553]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.43:234][554]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.43:252][555]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.43:271][556]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.43:288][557]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.43:308][558]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.43:333][559]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.43:355][560]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.43:372][561]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.43:389][562]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.43:407][563]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.43:424][564]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.43:445][565]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.43:459][566]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.43:483][567]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.43:500][568]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.44:202][607]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.44:218][608]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.44:237][609]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.44:255][610]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.44:269][611]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.44:287][612]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.44:304][613]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.44:320][614]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.44:337][615]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.44:352][616]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.44:370][617]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.44:386][618]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.44:404][619]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.44:419][620]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.44:436][621]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.44:453][622]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.44:472][623]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.44:489][624]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.44:506][625]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.44:524][626]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.44:541][627]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.44:558][628]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.44:579][629]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.44:596][630]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.44:616][631]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.44:634][632]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.44:649][633]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.44:666][634]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.44:684][635]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.44:700][636]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.44:716][637]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.44:734][638]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.44:750][639]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.44:768][640]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.44:790][641]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.44:807][642]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.44:825][643]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.44:855][644]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.44:871][645]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.44:888][646]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.44:906][647]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.44:922][648]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.44:939][649]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.44:957][650]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.44:974][651]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.44:991][652]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.45:009][653]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.45:026][654]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.45:044][655]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.45:060][656]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.45:077][657]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.45:093][658]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.45:110][659]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.45:129][660]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.45:147][661]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.45:164][662]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.45:182][663]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.45:201][664]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.45:216][665]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.45:234][666]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.45:250][667]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.45:267][668]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.45:286][669]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.45:305][670]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.45:321][671]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.48:589][851]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.48:788][863]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.48:805][864]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.48:825][865]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.48:838][866]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.48:858][867]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.48:873][868]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.48:888][869]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.48:906][870]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.48:923][871]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.48:942][872]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.48:958][873]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.48:976][874]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.48:994][875]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.49:010][876]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.49:029][877]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.49:045][878]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.41.51:225][  0]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.11.26-22.41.51:225][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.26-22.41.51:273][  0]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.26-22.41.51:274][  0]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.11.26-22.41.51:307][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.26-22.41.51:396][  1]LogPlayLevel: Display: Destroying online subsystem :Context_23
+[2018.11.26-22.42.13:882][174]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.26-22.42.47:417][155]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EditorCube14)
+[2018.11.26-22.42.48:039][186]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.26-22.42.48:055][186]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.11.26-22.42.48:055][186]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.26-22.42.48:055][186]PIE: New page: PIE session: FirstPersonExampleMap (Nov 26, 2018, 12:42:48 PM)
+[2018.11.26-22.42.48:055][186]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2018.11.26-22.42.48:071][186]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015520s)
+[2018.11.26-22.42.48:072][186]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2018.11.26-22.42.48:073][186]LogPlayLevel: PIE: World Init took: (0.001631s)
+[2018.11.26-22.42.48:073][186]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.017421s)
+[2018.11.26-22.42.48:136][186]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.26-22.42.48:176][186]LogInit: FAudioDevice initialized.
+[2018.11.26-22.42.48:176][186]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.26-22.42.48:211][186]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.11.26-22.42.48:215][186]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2018.11.26-17.42.48
+[2018.11.26-22.42.48:216][186]LogWorld: Bringing up level for play took: 0.003274
+[2018.11.26-22.42.48:229][186]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.592
+[2018.11.26-22.42.48:230][186]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.11.26-22.42.53:570][474]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.00:543][878]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.00:593][881]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.00:609][882]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.00:631][883]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.00:648][884]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.00:661][885]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.00:680][886]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.00:698][887]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.00:712][888]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.00:729][889]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.00:746][890]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.00:762][891]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.00:779][892]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.00:795][893]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.00:812][894]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.00:829][895]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.00:849][896]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.00:862][897]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.00:879][898]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.00:895][899]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.00:911][900]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.00:929][901]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.00:946][902]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.00:962][903]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.00:979][904]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.00:996][905]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.01:011][906]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.01:028][907]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.01:045][908]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.01:062][909]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.01:079][910]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.01:095][911]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.01:112][912]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.01:129][913]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.01:147][914]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.01:162][915]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.01:178][916]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.01:195][917]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.01:212][918]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.01:228][919]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.01:245][920]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.01:262][921]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.01:279][922]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.01:295][923]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.01:312][924]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.01:329][925]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.01:346][926]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.01:362][927]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.01:380][928]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.01:395][929]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.01:412][930]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.01:428][931]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.01:445][932]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.01:462][933]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.01:479][934]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.01:495][935]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.01:512][936]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.01:680][946]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.01:696][947]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.01:712][948]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.01:729][949]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.01:745][950]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.01:762][951]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.01:778][952]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.01:796][953]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.01:812][954]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.01:830][955]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.01:846][956]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.01:863][957]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.01:879][958]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.01:897][959]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.01:912][960]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.01:929][961]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.01:946][962]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.01:962][963]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.01:978][964]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.01:995][965]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.02:012][966]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.02:028][967]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.02:045][968]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.02:061][969]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.02:078][970]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.02:095][971]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.02:112][972]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.02:129][973]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.02:145][974]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.02:162][975]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.02:179][976]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.02:196][977]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.02:212][978]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.06:452][230]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.06:467][231]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.06:487][232]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.06:501][233]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.06:517][234]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.06:534][235]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.06:550][236]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.06:567][237]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.06:584][238]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.06:601][239]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.06:617][240]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.06:633][241]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.06:650][242]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.06:667][243]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.06:684][244]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.06:685][244]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.06:685][244]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.06:685][244]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.06:700][245]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.06:700][245]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.06:799][251]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.06:816][252]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.06:833][253]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.06:850][254]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.06:867][255]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.06:883][256]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.06:900][257]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.06:916][258]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.06:933][259]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.06:950][260]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.06:967][261]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.06:988][262]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.07:003][263]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.07:021][264]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.07:039][265]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.07:055][266]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.07:072][267]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.07:089][268]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.07:106][269]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.07:123][270]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.07:139][271]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.07:162][272]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.07:178][273]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.07:194][274]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.07:212][275]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.07:232][276]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.07:249][277]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.07:266][278]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.07:282][279]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.07:301][280]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.07:316][281]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.07:332][282]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.07:353][283]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.07:366][284]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.07:387][285]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.07:404][286]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.07:420][287]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.07:436][288]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.07:453][289]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.07:470][290]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.07:487][291]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.07:505][292]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.07:521][293]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.07:540][294]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.07:555][295]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.07:571][296]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.07:586][297]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.07:603][298]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.07:620][299]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.07:636][300]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.07:653][301]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.07:669][302]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.07:686][303]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.07:702][304]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.07:719][305]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.07:736][306]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.07:752][307]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.07:769][308]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.07:786][309]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.07:803][310]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.07:819][311]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.07:836][312]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.07:853][313]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.07:869][314]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.07:886][315]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.07:903][316]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.07:920][317]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.07:936][318]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.07:953][319]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.07:970][320]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.07:987][321]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.08:003][322]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.08:020][323]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.08:036][324]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.08:052][325]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.08:069][326]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.08:086][327]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.08:103][328]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.08:119][329]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.08:136][330]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.08:153][331]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.08:170][332]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.08:186][333]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.08:203][334]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.08:219][335]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.08:236][336]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.08:253][337]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.08:269][338]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.08:286][339]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.08:303][340]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.08:321][341]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.08:337][342]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.08:353][343]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.08:371][344]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.08:387][345]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.08:403][346]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.08:420][347]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.08:437][348]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.08:454][349]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.08:472][350]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.08:487][351]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.08:504][352]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.08:523][353]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.08:537][354]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.08:554][355]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.08:571][356]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.08:587][357]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.08:603][358]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.08:621][359]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.13:013][618]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.13:047][620]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.13:065][621]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.13:081][622]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.13:098][623]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.13:115][624]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.13:131][625]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.13:147][626]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.13:164][627]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.13:182][628]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.13:196][629]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.13:213][630]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.13:230][631]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.13:246][632]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.13:263][633]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.13:280][634]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.13:297][635]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.13:314][636]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.13:330][637]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.13:347][638]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.13:363][639]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.13:381][640]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.13:397][641]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.13:414][642]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.13:430][643]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.13:447][644]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.13:464][645]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.13:480][646]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.13:497][647]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.13:514][648]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.13:531][649]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.13:548][650]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.13:565][651]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.13:580][652]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.13:596][653]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.13:613][654]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.13:630][655]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.13:646][656]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.13:663][657]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.13:680][658]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.13:697][659]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.13:713][660]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.13:730][661]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.13:747][662]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.13:765][663]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.13:781][664]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.13:798][665]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.13:816][666]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.13:836][667]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.13:854][668]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.13:871][669]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.13:890][670]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.13:906][671]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.13:923][672]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.13:938][673]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.13:957][674]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.13:972][675]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.13:989][676]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.14:005][677]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.14:024][678]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.14:039][679]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.14:055][680]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.14:072][681]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.14:088][682]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.14:105][683]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.14:121][684]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.14:138][685]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.14:155][686]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.14:171][687]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.14:188][688]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.14:207][689]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.14:222][690]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.14:241][691]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.14:258][692]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.14:272][693]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.14:288][694]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.14:305][695]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.14:322][696]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.14:338][697]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.14:356][698]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.14:372][699]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.14:388][700]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.14:405][701]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.14:422][702]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.14:439][703]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.14:456][704]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.14:472][705]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.14:489][706]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.14:506][707]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.14:522][708]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.14:538][709]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.14:555][710]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.14:572][711]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.14:589][712]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.14:606][713]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.14:622][714]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.14:640][715]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.14:660][716]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.14:676][717]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.14:695][718]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.14:712][719]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.14:729][720]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.17:147][864]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.17:312][874]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.17:330][875]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.17:347][876]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.17:364][877]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.17:381][878]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.17:400][879]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.17:416][880]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.17:434][881]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.17:450][882]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.17:467][883]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.17:483][884]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.17:500][885]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.17:516][886]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.17:533][887]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.17:550][888]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.17:566][889]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.17:584][890]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.17:600][891]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.17:616][892]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.17:770][901]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.17:785][902]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.17:801][903]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.17:818][904]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.17:835][905]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.17:852][906]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.17:869][907]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.17:887][908]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.17:903][909]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.17:919][910]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.17:936][911]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.17:952][912]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.17:969][913]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.17:986][914]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.18:003][915]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.18:023][916]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.18:037][917]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.18:054][918]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.18:077][919]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.18:092][920]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.18:113][921]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.18:127][922]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.18:145][923]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.18:163][924]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.18:248][929]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.18:265][930]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.18:284][931]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.18:300][932]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.18:319][933]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.43.20:415][ 54]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.11.26-22.43.20:415][ 54]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.26-22.43.20:464][ 54]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.26-22.43.20:464][ 54]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.11.26-22.43.20:501][ 54]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.26-22.43.20:589][ 55]LogPlayLevel: Display: Destroying online subsystem :Context_24
+[2018.11.26-22.44.34:940][798]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.26-22.44.36:105][867]LogEditorTransaction: Undo Clicking on Actors
+[2018.11.26-22.44.36:544][872]LogEditorTransaction: Undo Clicking on Actors
+[2018.11.26-22.44.37:203][905]LogEditorTransaction: Undo Edit Simulation Generates Hit Events
+[2018.11.26-22.44.39:455][ 37]LogEditorTransaction: Undo Clicking on Actors
+[2018.11.26-22.44.40:291][ 75]LogEditorTransaction: Undo Clicking on Actors
+[2018.11.26-22.44.44:053][284]LogEditorTransaction: Undo Edit Simulation Generates Hit Events
+[2018.11.26-22.44.47:107][419]LogEditorTransaction: Undo Move Node
+[2018.11.26-22.44.49:057][458]LogEditorTransaction: Undo Move Node
+[2018.11.26-22.44.49:773][478]LogEditorTransaction: Undo Create Pin Link
+[2018.11.26-22.44.50:244][498]LogEditorTransaction: Undo Create Pin Link
+[2018.11.26-22.44.50:753][527]LogEditorTransaction: Undo Delete current selection
+[2018.11.26-22.44.51:495][567]LogEditorTransaction: Undo Move Node
+[2018.11.26-22.44.52:087][599]LogEditorTransaction: Undo Move Node
+[2018.11.26-22.44.52:562][626]LogEditorTransaction: Undo Add Node
+[2018.11.26-22.45.19:086][909]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.26-22.46.05:643][469]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.26-22.46.18:779][831]LogSlate: Window 'Select Path' being destroyed
+[2018.11.26-22.46.25:159][994]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.26-22.46.32:875][212]LogSlate: Window 'Select Path' being destroyed
+[2018.11.26-22.46.33:111][212]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.26-22.46.33:120][212]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/TriggerBox_Blueprint.TriggerBox_Blueprint
+[2018.11.26-22.46.58:208][240]BlueprintLog: New page: Compile TriggerBox_Blueprint
+[2018.11.26-22.46.59:519][252]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TriggerBox_Blueprint" FILE="../../../../../../Users/jonest5/GameDev1/TeamSadMen/TeamSadMen/Content/TriggerBox_Blueprint.uasset" SILENT=true
+[2018.11.26-22.46.59:542][252]LogSavePackage: Moving '../../../../../../Users/jonest5/GameDev1/TeamSadMen/TeamSadMen/Saved/TriggerBox_BlueprintF44223C74CCF47A188ADC3A175C2654A.tmp' to '../../../../../../Users/jonest5/GameDev1/TeamSadMen/TeamSadMen/Content/TriggerBox_Blueprint.uasset'
+[2018.11.26-22.47.02:138][328]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.26-22.47.02:158][328]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.11.26-22.47.02:158][328]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.26-22.47.02:158][328]PIE: New page: PIE session: FirstPersonExampleMap (Nov 26, 2018, 12:47:02 PM)
+[2018.11.26-22.47.02:158][328]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2018.11.26-22.47.02:175][328]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016970s)
+[2018.11.26-22.47.02:177][328]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2018.11.26-22.47.02:177][328]LogPlayLevel: PIE: World Init took: (0.002012s)
+[2018.11.26-22.47.02:178][328]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.019368s)
+[2018.11.26-22.47.02:243][328]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.26-22.47.02:283][328]LogInit: FAudioDevice initialized.
+[2018.11.26-22.47.02:283][328]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.26-22.47.02:322][328]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.11.26-22.47.02:326][328]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2018.11.26-17.47.02
+[2018.11.26-22.47.02:326][328]LogWorld: Bringing up level for play took: 0.002643
+[2018.11.26-22.47.02:339][328]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.483
+[2018.11.26-22.47.02:339][328]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.11.26-22.47.08:779][697]LogBlueprintUserMessages: [TriggerBox_Blueprint] REEE
+[2018.11.26-22.47.10:177][778]LogBlueprintUserMessages: [TriggerBox_Blueprint] REEE
+[2018.11.26-22.47.10:760][813]LogBlueprintUserMessages: [TriggerBox_Blueprint] REEE
+[2018.11.26-22.47.11:034][829]LogBlueprintUserMessages: [TriggerBox_Blueprint] REEE
+[2018.11.26-22.47.11:369][849]LogBlueprintUserMessages: [TriggerBox_Blueprint] REEE
+[2018.11.26-22.47.11:579][861]LogBlueprintUserMessages: [TriggerBox_Blueprint] REEE
+[2018.11.26-22.47.11:829][876]LogBlueprintUserMessages: [TriggerBox_Blueprint] REEE
+[2018.11.26-22.47.12:016][887]LogBlueprintUserMessages: [TriggerBox_Blueprint] REEE
+[2018.11.26-22.47.12:289][903]LogBlueprintUserMessages: [TriggerBox_Blueprint] REEE
+[2018.11.26-22.47.12:455][913]LogBlueprintUserMessages: [TriggerBox_Blueprint] REEE
+[2018.11.26-22.47.12:916][940]LogBlueprintUserMessages: [TriggerBox_Blueprint] REEE
+[2018.11.26-22.47.14:132][ 13]LogBlueprintUserMessages: [TriggerBox_Blueprint] REEE
+[2018.11.26-22.47.16:317][142]LogBlueprintUserMessages: [TriggerBox_Blueprint] REEE
+[2018.11.26-22.47.16:704][165]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.47.16:704][165]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.47.16:719][166]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.47.16:719][166]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.47.16:741][167]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.47.16:741][167]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.47.16:757][168]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.47.16:757][168]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.47.16:780][169]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.47.16:781][169]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.47.16:793][170]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.47.16:793][170]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.47.16:809][171]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.47.16:809][171]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.47.16:865][172]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.47.16:865][172]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.47.16:875][173]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.47.16:875][173]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.47.16:891][174]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.47.16:891][174]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.47.21:322][432]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.47.21:322][432]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.47.21:339][433]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.47.21:339][433]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.47.21:356][434]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.47.21:356][434]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.47.21:372][435]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.47.21:372][435]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.47.21:389][436]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.47.21:389][436]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.47.21:623][450]LogBlueprintUserMessages: [TriggerBox_Blueprint] REEE
+[2018.11.26-22.47.22:878][525]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.47.22:878][525]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.47.22:894][526]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.47.22:894][526]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.47.22:911][527]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.47.22:911][527]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.47.22:929][528]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.47.22:929][528]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.47.22:946][529]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.47.22:946][529]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.47.22:983][531]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.47.22:984][531]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.47.24:709][633]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.11.26-22.47.24:709][633]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.26-22.47.24:761][633]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.26-22.47.24:761][633]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.11.26-22.47.24:805][633]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.26-22.47.24:890][634]LogPlayLevel: Display: Destroying online subsystem :Context_26
+[2018.11.26-22.47.47:237][875]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.26-22.50.06:244][678]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.26-22.50.20:326][ 15]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.26-22.50.20:585][ 15]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.26-22.50.22:938][ 74]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.26-22.50.24:223][ 74]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2018.11.26-22.50.24:480][ 76]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.TeamSadMen
+[2018.11.26-22.50.24:480][ 76]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.20\Engine\Binaries\DotNET\IOS
+[2018.11.26-22.50.24:480][ 76]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.20
+[2018.11.26-22.50.24:480][ 76]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.20\Engine\Binaries\DotNET\IOS
+[2018.11.26-22.50.24:480][ 76]LogTemp: BranchPath = DESKTOP-3KP1QRT/C/Program Files/Epic Games/UE_4.20/Engine/Binaries --- GameBranchPath = DESKTOP-3KP1QRT/C/Program Files/Epic Games/UE_4.20/Engine/Binaries
+[2018.11.26-22.50.24:480][ 76]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\jonest5\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2018.11.26-22.51.20:949][592]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.11.26-22.51.20:949][592]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.11.26-22.51.20:950][592]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.001 s
+[2018.11.26-22.51.20:950][592]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.11.26-22.51.20:950][592]LogStats: ConstructGameplayTagTree GameplayTag tables after adding new tag -  0.001 s
+[2018.11.26-22.51.51:602][839]LogSavePackage: Moving '../../../../../../Users/jonest5/GameDev1/TeamSadMen/TeamSadMen/Saved/FirstPersonExampleMap_Auto35ADDC7FC495D0469A47A278EAB63EB8D.tmp' to '../../../../../../Users/jonest5/GameDev1/TeamSadMen/TeamSadMen/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto3.umap'
+[2018.11.26-22.51.51:611][839]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 0.279
+[2018.11.26-22.51.51:611][839]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.279
+[2018.11.26-22.51.51:616][839]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Countertop_Blueprint] ([1] browsable assets)...
+[2018.11.26-22.51.51:655][839]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Countertop_Blueprint.Countertop_Blueprint]
+[2018.11.26-22.51.51:656][839]OBJ SavePackage: Finished generating thumbnails for package [/Game/Countertop_Blueprint]
+[2018.11.26-22.51.51:681][839]LogSavePackage: Moving '../../../../../../Users/jonest5/GameDev1/TeamSadMen/TeamSadMen/Saved/Countertop_Blueprint_Auto385A1755248497EEC462A639068D2F0FA.tmp' to '../../../../../../Users/jonest5/GameDev1/TeamSadMen/TeamSadMen/Saved/Autosaves/Game/Countertop_Blueprint_Auto3.uasset'
+[2018.11.26-22.51.51:685][839]LogFileHelpers: Auto-saving content packages took 0.071
+[2018.11.26-22.52.17:867][ 18]LogSlate: Window 'Project Settings' being destroyed
+[2018.11.26-22.52.17:922][ 18]LogSlate: Window 'Project Settings' being destroyed
+[2018.11.26-22.52.22:411][147]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.26-22.53.21:853][865]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.26-22.53.21:869][865]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.11.26-22.53.21:869][865]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.26-22.53.21:869][865]PIE: New page: PIE session: FirstPersonExampleMap (Nov 26, 2018, 12:53:21 PM)
+[2018.11.26-22.53.21:869][865]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2018.11.26-22.53.21:886][865]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016239s)
+[2018.11.26-22.53.21:887][865]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2018.11.26-22.53.21:887][865]LogPlayLevel: PIE: World Init took: (0.001333s)
+[2018.11.26-22.53.21:887][865]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.017915s)
+[2018.11.26-22.53.21:951][865]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.26-22.53.21:988][865]LogInit: FAudioDevice initialized.
+[2018.11.26-22.53.22:021][865]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.11.26-22.53.22:024][865]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2018.11.26-17.53.22
+[2018.11.26-22.53.22:025][865]LogWorld: Bringing up level for play took: 0.002710
+[2018.11.26-22.53.22:038][865]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.783
+[2018.11.26-22.53.22:038][865]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.11.26-22.53.27:374][177]LogBlueprintUserMessages: [TriggerBox_Blueprint] REEE
+[2018.11.26-22.53.28:155][221]LogBlueprintUserMessages: [TriggerBox_Blueprint] REEE
+[2018.11.26-22.53.28:621][249]LogBlueprintUserMessages: [TriggerBox_Blueprint] REEE
+[2018.11.26-22.53.29:176][282]LogBlueprintUserMessages: [TriggerBox_Blueprint] REEE
+[2018.11.26-22.53.29:543][304]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.53.29:543][304]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.53.29:559][305]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.53.29:559][305]LogBlueprintUserMessages: [Countertop_Blueprint] REEE
+[2018.11.26-22.53.31:575][423]LogBlueprintUserMessages: [TriggerBox_Blueprint] REEE
+[2018.11.26-22.53.32:200][460]LogBlueprintUserMessages: [TriggerBox_Blueprint] REEE
+[2018.11.26-22.53.32:641][486]LogBlueprintUserMessages: [TriggerBox_Blueprint] REEE
+[2018.11.26-22.53.32:917][502]LogBlueprintUserMessages: [TriggerBox_Blueprint] REEE
+[2018.11.26-22.53.33:108][513]LogBlueprintUserMessages: [TriggerBox_Blueprint] REEE
+[2018.11.26-22.53.33:277][523]LogBlueprintUserMessages: [TriggerBox_Blueprint] REEE
+[2018.11.26-22.53.33:462][534]LogBlueprintUserMessages: [TriggerBox_Blueprint] REEE
+[2018.11.26-22.53.33:608][542]LogBlueprintUserMessages: [TriggerBox_Blueprint] REEE
+[2018.11.26-22.53.33:640][544]LogBlueprintUserMessages: [TriggerBox_Blueprint] REEE
+[2018.11.26-22.53.33:808][554]LogBlueprintUserMessages: [TriggerBox_Blueprint] REEE
+[2018.11.26-22.53.33:996][565]LogBlueprintUserMessages: [TriggerBox_Blueprint] REEE
+[2018.11.26-22.53.34:196][577]LogBlueprintUserMessages: [TriggerBox_Blueprint] REEE
+[2018.11.26-22.53.34:297][583]LogBlueprintUserMessages: [TriggerBox_Blueprint] REEE
+[2018.11.26-22.53.34:566][599]LogBlueprintUserMessages: [TriggerBox_Blueprint] REEE
+[2018.11.26-22.53.34:649][604]LogBlueprintUserMessages: [TriggerBox_Blueprint] REEE
+[2018.11.26-22.54.12:223][941]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.26-22.54.14:308][992]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.26-22.54.15:384][992]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2018.11.26-22.54.15:643][993]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.TeamSadMen
+[2018.11.26-22.54.15:643][993]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.20\Engine\Binaries\DotNET\IOS
+[2018.11.26-22.54.15:643][993]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.20
+[2018.11.26-22.54.15:643][993]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.20\Engine\Binaries\DotNET\IOS
+[2018.11.26-22.54.15:643][993]LogTemp: BranchPath = DESKTOP-3KP1QRT/C/Program Files/Epic Games/UE_4.20/Engine/Binaries --- GameBranchPath = DESKTOP-3KP1QRT/C/Program Files/Epic Games/UE_4.20/Engine/Binaries
+[2018.11.26-22.54.15:704][994]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\jonest5\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
