@@ -1,4 +1,4 @@
-﻿Log file open, 12/03/18 21:54:31
+﻿Log file open, 12/04/18 22:18:14
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
@@ -10,7 +10,7 @@ LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: TeamSadMen
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 11 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.355241
+LogStats: Stats thread started at 0.183143
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -93,7 +93,7 @@ LogPluginManager: Mounting plugin ProceduralMeshComponent
 LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogStreaming: Display: Took  0.393s to configure plugins.
+LogStreaming: Display: Took  0.153s to configure plugins.
 LogInit: Using libcurl 7.55.1-DEV
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2h
@@ -150,529 +150,817 @@ LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
 LogStreaming: Display: Took  0.001s to delete old logs.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2018.12.04-02.54.32:711][  0]LogInit: Selected Device Profile: [Windows]
-[2018.12.04-02.54.32:711][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2018.12.04-02.54.32:745][  0]LogHAL: Display: Platform has ~ 8 GB [7960453120 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2018.12.04-02.54.32:745][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
-[2018.12.04-02.54.32:745][  0]LogInit: Going up to parent DeviceProfile []
-[2018.12.04-02.54.32:746][  0]LogInit: Computer: DESKTOP-T8OATV8
-[2018.12.04-02.54.32:747][  0]LogInit: User: frankj6
-[2018.12.04-02.54.32:747][  0]LogInit: CPU Page size=4096, Cores=2
-[2018.12.04-02.54.32:747][  0]LogInit: High frequency timer resolution =2.742188 MHz
-[2018.12.04-02.54.32:749][  0]LogMemory: Memory total: Physical=7.4GB (8GB approx)
-[2018.12.04-02.54.32:749][  0]LogMemory: Platform Memory Stats for Windows
-[2018.12.04-02.54.32:749][  0]LogMemory: Process Physical Memory: 100.13 MB used, 100.13 MB peak
-[2018.12.04-02.54.32:749][  0]LogMemory: Process Virtual Memory: 84.25 MB used, 84.25 MB peak
-[2018.12.04-02.54.32:750][  0]LogMemory: Physical Memory: 5824.34 MB used,  1767.34 MB free, 7591.68 MB total
-[2018.12.04-02.54.32:750][  0]LogMemory: Virtual Memory: 4616.27 MB used,  1767.34 MB free, 134217728.00 MB total
-[2018.12.04-02.54.32:786][  0]LogInit: Using OS detected language (en-US).
-[2018.12.04-02.54.32:786][  0]LogInit: Using OS detected locale (en-US).
-[2018.12.04-02.54.32:788][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2018.12.04-02.54.33:609][  0]LogStreaming: Display: Took  0.823s to InitEngineTextLocalization.
-[2018.12.04-02.54.33:609][  0]LogInit: Setting process to per monitor DPI aware
-[2018.12.04-02.54.33:657][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2018.12.04-02.54.33:657][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2018.12.04-02.54.34:209][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2018.12.04-02.54.34:209][  0]LogD3D11RHI: D3D11 adapters:
-[2018.12.04-02.54.34:370][  0]LogD3D11RHI:    0. 'Intel(R) HD Graphics 520' (Feature Level 11_0)
-[2018.12.04-02.54.34:370][  0]LogD3D11RHI:       128/0/3795 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
-[2018.12.04-02.54.34:374][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2018.12.04-02.54.34:374][  0]LogD3D11RHI:       0/0/3795 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2018.12.04-02.54.34:375][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2018.12.04-02.54.34:393][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2018.12.04-02.54.34:393][  0]LogD3D11RHI:     GPU DeviceId: 0x1916 (for the marketing name, search the web for "GPU Device Id")
-[2018.12.04-02.54.34:393][  0]LogWindows: EnumDisplayDevices:
-[2018.12.04-02.54.34:394][  0]LogWindows:    0. 'Intel(R) HD Graphics 520' (P:1 D:1)
-[2018.12.04-02.54.34:394][  0]LogWindows:    1. 'Intel(R) HD Graphics 520' (P:0 D:0)
-[2018.12.04-02.54.34:395][  0]LogWindows:    2. 'Intel(R) HD Graphics 520' (P:0 D:0)
-[2018.12.04-02.54.34:395][  0]LogWindows: DebugString: FoundDriverCount:3 
-[2018.12.04-02.54.34:395][  0]LogD3D11RHI:     Adapter Name: Intel(R) HD Graphics 520
-[2018.12.04-02.54.34:395][  0]LogD3D11RHI:   Driver Version: 24.20.100.6170 (internal:24.20.100.6170, unified:24.20.100.6170)
-[2018.12.04-02.54.34:395][  0]LogD3D11RHI:      Driver Date: 6-18-2018
-[2018.12.04-02.54.34:395][  0]LogRHI: Texture pool is 1418 MB (70% of 2025 MB)
-[2018.12.04-02.54.34:430][  0]LogD3D11RHI: Async texture creation enabled
-[2018.12.04-02.54.34:443][  0]LogD3D11RHI: GPU Timing Frequency: 12.000048 (Debug: 2 0)
-[2018.12.04-02.54.34:453][  0]LogShaderCompilers: Guid format shader working directory is -37 characters bigger than the processId version (../../../../../../Users/frankj6/Documents/GameDevOne/TeamSadMen/TeamSadMen/TeamSadMen/Intermediate/Shaders/WorkingDirectory/3268/).
-[2018.12.04-02.54.34:454][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/frankj6/AppData/Local/Temp/UnrealShaderWorkingDir/3A123BBF46898801219955B80C854E06/'.
-[2018.12.04-02.54.35:418][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2018.12.04-02.54.35:460][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2018.12.04-02.54.35:504][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2018.12.04-02.54.35:544][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2018.12.04-02.54.35:592][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2018.12.04-02.54.35:634][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2018.12.04-02.54.35:677][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2018.12.04-02.54.35:718][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2018.12.04-02.54.35:736][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2018.12.04-02.54.35:952][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.12.04-02.54.35:952][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.12.04-02.54.35:952][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.12.04-02.54.35:952][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.12.04-02.54.35:952][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.12.04-02.54.35:952][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.12.04-02.54.35:952][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.12.04-02.54.35:952][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.12.04-02.54.35:952][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.12.04-02.54.35:952][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.12.04-02.54.35:952][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.12.04-02.54.35:952][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.12.04-02.54.35:952][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.12.04-02.54.35:952][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.12.04-02.54.35:952][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.12.04-02.54.35:952][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.12.04-02.54.35:952][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.12.04-02.54.35:952][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.12.04-02.54.35:955][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2018.12.04-02.54.36:051][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.12.04-02.54.36:051][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.12.04-02.54.36:107][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.12.04-02.54.36:108][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.12.04-02.54.36:135][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2018.12.04-02.54.36:162][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2018.12.04-02.54.36:191][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2018.12.04-02.54.36:223][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2018.12.04-02.54.36:241][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
-[2018.12.04-02.54.36:242][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2018.12.04-02.54.36:376][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2018.12.04-02.54.36:376][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2018.12.04-02.54.36:376][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2018.12.04-02.54.38:245][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2018.12.04-02.54.38:370][  0]LogDerivedDataCache: Loaded boot cache 0.12s 71MB C:/Users/frankj6/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
-[2018.12.04-02.54.38:371][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/frankj6/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
-[2018.12.04-02.54.38:371][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/frankj6/Documents/GameDevOne/TeamSadMen/TeamSadMen/TeamSadMen/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2018.12.04-02.54.38:371][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2018.12.04-02.54.38:371][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/frankj6/Documents/GameDevOne/TeamSadMen/TeamSadMen/TeamSadMen/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2018.12.04-02.54.38:371][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2018.12.04-02.54.38:405][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2018.12.04-02.54.38:421][  0]LogDerivedDataCache: Using Local data cache path C:/Users/frankj6/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2018.12.04-02.54.38:421][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2018.12.04-02.54.38:421][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2018.12.04-02.54.38:482][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2018.12.04-02.54.38:485][  0]LogSlate: Using FreeType 2.6.0
-[2018.12.04-02.54.38:488][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.12.04-02.54.38:653][  0]LogAssetRegistry: FAssetRegistry took 0.0355 seconds to start up
-[2018.12.04-02.54.39:618][  0]LogInit: Selected Device Profile: [Windows]
-[2018.12.04-02.54.40:152][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2018.12.04-02.54.40:162][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2018.12.04-02.54.40:162][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2018.12.04-02.54.40:162][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2018.12.04-02.54.40:162][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2018.12.04-02.54.40:211][  0]LogNetVersion: TeamSadMen 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 1220547581)
-[2018.12.04-02.54.41:673][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.385707 seconds
-[2018.12.04-02.54.41:692][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
-[2018.12.04-02.54.41:692][  0]LogUObjectAllocator: 6690864 out of 0 bytes used by permanent object pool.
-[2018.12.04-02.54.41:692][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2018.12.04-02.54.43:830][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2018.12.04-02.54.43:848][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2018.12.04-02.54.44:102][  0]SourceControl: Source control is disabled
-[2018.12.04-02.54.44:102][  0]SourceControl: Source control is disabled
-[2018.12.04-02.54.44:105][  0]SourceControl: Source control is disabled
-[2018.12.04-02.54.44:108][  0]SourceControl: Source control is disabled
-[2018.12.04-02.54.44:366][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2018.12.04-02.54.44:481][  0]LogOcInput: OculusInput pre-init called
-[2018.12.04-02.54.44:614][  0]LogEngine: Initializing Engine...
-[2018.12.04-02.54.44:616][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2018.12.04-02.54.44:619][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2018.12.04-02.54.44:619][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.12.04-02.54.44:619][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2018.12.04-02.54.44:619][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.12.04-02.54.45:083][  0]LogInit: Initializing FReadOnlyCVARCache
-[2018.12.04-02.54.45:115][  0]LogAIModule: Creating AISystem for world Untitled
-[2018.12.04-02.54.45:134][  0]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.12.04-02.54.45:251][  0]LogInit: FAudioDevice initialized.
-[2018.12.04-02.54.45:252][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2018.12.04-02.54.45:547][  0]LogDerivedDataCache: Saved boot cache 0.29s 71MB C:/Users/frankj6/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
-[2018.12.04-02.54.45:588][  0]LogInit: Texture streaming: Enabled
-[2018.12.04-02.54.45:630][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2018.12.04-02.54.45:666][  0]LogInit: Transaction tracking system initialized
-[2018.12.04-02.54.45:725][  0]BlueprintLog: New page: Editor Load
-[2018.12.04-02.54.45:919][  0]LocalizationService: Localization service is disabled
-[2018.12.04-02.54.46:555][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2018.12.04-02.54.46:555][  0]LogCook: Display: Mobile HDR setting 1
-[2018.12.04-02.54.46:555][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2018.12.04-02.54.46:555][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2018.12.04-02.54.46:556][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.12.04-02.54.46:556][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2018.12.04-02.54.46:556][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.12.04-02.54.46:686][  0]LogFileCache: Scanning file cache for directory 'C:/Users/frankj6/Documents/GameDevOne/TeamSadMen/TeamSadMen/TeamSadMen/Content/' took 0.03s
-[2018.12.04-02.54.46:841][  0]SourceControl: Source control is disabled
-[2018.12.04-02.54.46:841][  0]Cmd: MAP LOAD FILE="../../../../../../Users/frankj6/Documents/GameDevOne/TeamSadMen/TeamSadMen/TeamSadMen/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.12.04-02.54.46:842][  0]LightingResults: New page: Lighting Build
-[2018.12.04-02.54.46:848][  0]MapCheck: New page: Map Check
-[2018.12.04-02.54.46:848][  0]LightingResults: New page: Lighting Build
-[2018.12.04-02.54.48:572][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
-[2018.12.04-02.54.48:599][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.12.04-02.54.48:670][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.12.04-02.54.48:873][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 203.039ms to complete.
-[2018.12.04-02.54.48:873][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 2.032
-[2018.12.04-02.54.49:028][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.12.04-02.54.49:051][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.12.04-02.54.49:074][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.12.04-02.54.49:094][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.12.04-02.54.49:110][  0]LogCollectionManager: Loaded 0 collections in 0.003629 seconds
-[2018.12.04-02.54.49:166][  0]LogFileCache: Scanning file cache for directory 'C:/Users/frankj6/Documents/GameDevOne/TeamSadMen/TeamSadMen/TeamSadMen/Saved/Collections/' took 0.01s
-[2018.12.04-02.54.49:166][  0]LogFileCache: Scanning file cache for directory 'C:/Users/frankj6/Documents/GameDevOne/TeamSadMen/TeamSadMen/TeamSadMen/Content/Developers/frankj6/Collections/' took 0.01s
-[2018.12.04-02.54.49:166][  0]LogFileCache: Scanning file cache for directory 'C:/Users/frankj6/Documents/GameDevOne/TeamSadMen/TeamSadMen/TeamSadMen/Content/Collections/' took 0.01s
-[2018.12.04-02.54.49:166][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
-[2018.12.04-02.54.49:197][  0]LogContentBrowser: Native class hierarchy populated in 0.0303 seconds. Added 2572 classes and 603 folders.
-[2018.12.04-02.54.49:216][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
-[2018.12.04-02.54.49:328][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
-[2018.12.04-02.54.49:337][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
-[2018.12.04-02.54.49:379][  0]LogSlate: Took 0.000265 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.12.04-02.54.49:385][  0]LogSlate: Took 0.000551 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2018.12.04-02.54.49:400][  0]LogSlate: Took 0.000428 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2018.12.04-02.54.49:621][  0]LogRenderer: Reallocating scene render targets to support 964x436 Format 10 NumSamples 1 (Frame:1).
-[2018.12.04-02.54.50:360][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 0 classes and 0 folders.
-[2018.12.04-02.54.50:360][  0]LogLoad: (Engine Initialization) Total time: 21.38 seconds
-[2018.12.04-02.54.50:360][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2018.12.04-02.54.50:412][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2018.12.04-02.54.50:426][  0]LogSlate: Took 0.000367 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2018.12.04-02.54.52:836][  9]LogAssetRegistry: Asset discovery search completed in 14.2077 seconds
-[2018.12.04-02.54.52:850][  9]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2018.12.04-02.54.52:850][  9]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000160 seconds (updated 0 objects)
-[2018.12.04-03.00.39:141][102]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.12.04-03.01.13:042][ 31]LogSlate: Took 0.000445 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2018.12.04-03.01.13:075][ 31]LogAIModule: Creating AISystem for world BillTest
-[2018.12.04-03.01.57:559][893]LogSavePackage: Moving '../../../../../../Users/frankj6/Documents/GameDevOne/TeamSadMen/TeamSadMen/TeamSadMen/Saved/BillTestFA80452C4EA69E2F598B6DBCA1EE7E1D.tmp' to '../../../../../../Users/frankj6/Documents/GameDevOne/TeamSadMen/TeamSadMen/TeamSadMen/Content/FirstPersonBP/Maps/BillTest.umap'
-[2018.12.04-03.01.57:578][893]LogFileHelpers: Saving map 'BillTest' took 0.244
-[2018.12.04-03.02.17:986][606]LogSavePackage: Moving '../../../../../../Users/frankj6/Documents/GameDevOne/TeamSadMen/TeamSadMen/TeamSadMen/Saved/FirstPersonExampleMapF4F0D23747666748858193937DEDC92A.tmp' to '../../../../../../Users/frankj6/Documents/GameDevOne/TeamSadMen/TeamSadMen/TeamSadMen/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
-[2018.12.04-03.02.22:288][717]LogAssetEditorManager: Opening Asset editor for World /Game/FirstPersonBP/Maps/BillTest.BillTest
-[2018.12.04-03.02.22:371][717]Cmd: MAP LOAD FILE="../../../../../../Users/frankj6/Documents/GameDevOne/TeamSadMen/TeamSadMen/TeamSadMen/Content/FirstPersonBP/Maps/BillTest.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.12.04-03.02.22:372][717]LightingResults: New page: Lighting Build
-[2018.12.04-03.02.22:374][717]LoadErrors: New page: Loading map: BillTest.umap
-[2018.12.04-03.02.22:376][717]MapCheck: New page: Map Check
-[2018.12.04-03.02.22:376][717]LightingResults: New page: Lighting Build
-[2018.12.04-03.02.22:433][717]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.12.04-03.02.22:591][717]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.12.04-03.02.22:798][717]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 207.206ms to complete.
-[2018.12.04-03.02.22:800][717]LogFileHelpers: Loading map 'BillTest' took 0.430
-[2018.12.04-03.02.29:569][961]LogEditorViewport: Clicking Background
-[2018.12.04-03.02.48:339][499]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.12.04-03.45.09:570][552]LogAssetEditorManager: Opening Asset editor for World /Game/FirstPersonBP/Maps/BillTest.BillTest
-[2018.12.04-03.45.09:613][552]Cmd: MAP LOAD FILE="../../../../../../Users/frankj6/Documents/GameDevOne/TeamSadMen/TeamSadMen/TeamSadMen/Content/FirstPersonBP/Maps/BillTest.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.12.04-03.45.09:613][552]LightingResults: New page: Lighting Build
-[2018.12.04-03.45.09:614][552]LoadErrors: New page: Loading map: BillTest.umap
-[2018.12.04-03.45.09:615][552]MapCheck: New page: Map Check
-[2018.12.04-03.45.09:615][552]LightingResults: New page: Lighting Build
-[2018.12.04-03.45.09:648][552]LogAIModule: Creating AISystem for world BillTest
-[2018.12.04-03.45.09:649][552]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.12.04-03.45.09:717][552]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.12.04-03.45.09:821][552]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 104.138ms to complete.
-[2018.12.04-03.45.09:822][552]LogFileHelpers: Loading map 'BillTest' took 0.211
-[2018.12.04-03.45.16:268][804]LogSlate: Window 'TeamSadMen - Unreal Editor' being destroyed
-[2018.12.04-03.45.16:542][805]Cmd: QUIT_EDITOR
-[2018.12.04-03.45.16:580][805]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2018.12.04-03.45.16:602][805]LogExit: Preparing to exit.
-[2018.12.04-03.45.17:673][805]LogExit: Editor shut down
-[2018.12.04-03.45.17:676][805]LogExit: Transaction tracking system shut down
-[2018.12.04-03.45.18:365][805]LogExit: Object subsystem successfully closed.
-[2018.12.04-03.45.18:392][805]LogShaderCompilers: Display: Shaders left to compile 0
-[2018.12.04-03.45.18:402][805]LogD3D11RHI: Shutdown
-[2018.12.04-03.45.18:402][805]LogD3D11RHI: CleanupD3DDevice
-[2018.12.04-03.45.18:418][805]LogD3D11RHI: ~FD3D11DynamicRHI
-[2018.12.04-03.45.18:458][805]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (612)
-[2018.12.04-03.45.18:458][805]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (610)
-[2018.12.04-03.45.18:458][805]LogModuleManager: Shutting down and abandoning module SceneOutliner (608)
-[2018.12.04-03.45.18:458][805]LogModuleManager: Shutting down and abandoning module AddContentDialog (606)
-[2018.12.04-03.45.18:462][805]LogModuleManager: Shutting down and abandoning module WidgetCarousel (605)
-[2018.12.04-03.45.18:462][805]LogModuleManager: Shutting down and abandoning module EditorWidgets (602)
-[2018.12.04-03.45.18:462][805]LogModuleManager: Shutting down and abandoning module CollectionManager (600)
-[2018.12.04-03.45.18:462][805]LogModuleManager: Shutting down and abandoning module StatsViewer (598)
-[2018.12.04-03.45.18:462][805]LogModuleManager: Shutting down and abandoning module FoliageEdit (596)
-[2018.12.04-03.45.18:462][805]LogModuleManager: Shutting down and abandoning module LandscapeEditor (594)
-[2018.12.04-03.45.18:462][805]LogModuleManager: Shutting down and abandoning module MeshPaintMode (592)
-[2018.12.04-03.45.18:462][805]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (590)
-[2018.12.04-03.45.18:462][805]LogModuleManager: Shutting down and abandoning module ActorPickerMode (588)
-[2018.12.04-03.45.18:462][805]LogModuleManager: Shutting down and abandoning module GeometryMode (586)
-[2018.12.04-03.45.18:462][805]LogModuleManager: Shutting down and abandoning module TextureAlignMode (584)
-[2018.12.04-03.45.18:462][805]LogModuleManager: Shutting down and abandoning module BspMode (582)
-[2018.12.04-03.45.18:462][805]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (580)
-[2018.12.04-03.45.18:463][805]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (578)
-[2018.12.04-03.45.18:463][805]LogModuleManager: Shutting down and abandoning module AutomationWorker (576)
-[2018.12.04-03.45.18:463][805]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (574)
-[2018.12.04-03.45.18:463][805]LogModuleManager: Shutting down and abandoning module SequenceRecorder (573)
-[2018.12.04-03.45.18:463][805]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (570)
-[2018.12.04-03.45.18:463][805]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (568)
-[2018.12.04-03.45.18:463][805]LogModuleManager: Shutting down and abandoning module PlacementMode (567)
-[2018.12.04-03.45.18:463][805]LogModuleManager: Shutting down and abandoning module MaterialEditor (566)
-[2018.12.04-03.45.18:463][805]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (562)
-[2018.12.04-03.45.18:463][805]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (560)
-[2018.12.04-03.45.18:463][805]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (558)
-[2018.12.04-03.45.18:463][805]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (556)
-[2018.12.04-03.45.18:463][805]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (554)
-[2018.12.04-03.45.18:463][805]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (552)
-[2018.12.04-03.45.18:463][805]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (550)
-[2018.12.04-03.45.18:463][805]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (548)
-[2018.12.04-03.45.18:463][805]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (546)
-[2018.12.04-03.45.18:463][805]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (544)
-[2018.12.04-03.45.18:463][805]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (542)
-[2018.12.04-03.45.18:463][805]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (540)
-[2018.12.04-03.45.18:463][805]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (538)
-[2018.12.04-03.45.18:463][805]LogModuleManager: Shutting down and abandoning module CharacterAI (536)
-[2018.12.04-03.45.18:463][805]LogModuleManager: Shutting down and abandoning module SmartSnapping (534)
-[2018.12.04-03.45.18:464][805]LogModuleManager: Shutting down and abandoning module SessionServices (532)
-[2018.12.04-03.45.18:464][805]LogModuleManager: Shutting down and abandoning module ViewportSnapping (530)
-[2018.12.04-03.45.18:464][805]LogModuleManager: Shutting down and abandoning module ViewportInteraction (528)
-[2018.12.04-03.45.18:464][805]LogModuleManager: Shutting down and abandoning module ClothPainter (526)
-[2018.12.04-03.45.18:464][805]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (525)
-[2018.12.04-03.45.18:464][805]LogModuleManager: Shutting down and abandoning module LogVisualizer (522)
-[2018.12.04-03.45.18:464][805]LogModuleManager: Shutting down and abandoning module IntroTutorials (520)
-[2018.12.04-03.45.18:464][805]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (519)
-[2018.12.04-03.45.18:464][805]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (516)
-[2018.12.04-03.45.18:464][805]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (514)
-[2018.12.04-03.45.18:464][805]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (512)
-[2018.12.04-03.45.18:464][805]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (510)
-[2018.12.04-03.45.18:464][805]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (509)
-[2018.12.04-03.45.19:833][805]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (506)
-[2018.12.04-03.45.19:833][805]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (504)
-[2018.12.04-03.45.19:833][805]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (502)
-[2018.12.04-03.45.19:833][805]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (500)
-[2018.12.04-03.45.19:833][805]LogModuleManager: Shutting down and abandoning module InputBindingEditor (498)
-[2018.12.04-03.45.19:833][805]LogModuleManager: Shutting down and abandoning module MergeActors (496)
-[2018.12.04-03.45.19:833][805]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (494)
-[2018.12.04-03.45.19:833][805]LogModuleManager: Shutting down and abandoning module LocalizationService (493)
-[2018.12.04-03.45.19:833][805]LogModuleManager: Shutting down and abandoning module HardwareTargeting (490)
-[2018.12.04-03.45.19:833][805]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (488)
-[2018.12.04-03.45.19:834][805]LogModuleManager: Shutting down and abandoning module UndoHistory (486)
-[2018.12.04-03.45.19:834][805]LogModuleManager: Shutting down and abandoning module XmlParser (484)
-[2018.12.04-03.45.19:834][805]LogModuleManager: Shutting down and abandoning module Blutility (482)
-[2018.12.04-03.45.19:834][805]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (480)
-[2018.12.04-03.45.19:834][805]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (479)
-[2018.12.04-03.45.19:834][805]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (476)
-[2018.12.04-03.45.19:834][805]LogModuleManager: Shutting down and abandoning module SettingsEditor (474)
-[2018.12.04-03.45.19:834][805]LogModuleManager: Shutting down and abandoning module ProjectLauncher (472)
-[2018.12.04-03.45.19:834][805]LogModuleManager: Shutting down and abandoning module SessionFrontend (470)
-[2018.12.04-03.45.19:834][805]LogModuleManager: Shutting down and abandoning module ProfilerClient (468)
-[2018.12.04-03.45.19:834][805]LogModuleManager: Shutting down and abandoning module DeviceManager (466)
-[2018.12.04-03.45.19:834][805]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (465)
-[2018.12.04-03.45.19:905][805]LogModuleManager: Shutting down and abandoning module AutomationController (462)
-[2018.12.04-03.45.19:905][805]LogModuleManager: Shutting down and abandoning module AutomationWindow (460)
-[2018.12.04-03.45.19:905][805]LogModuleManager: Shutting down and abandoning module Layers (458)
-[2018.12.04-03.45.19:905][805]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (456)
-[2018.12.04-03.45.19:905][805]LogModuleManager: Shutting down and abandoning module DetailCustomizations (454)
-[2018.12.04-03.45.19:905][805]LogModuleManager: Shutting down and abandoning module PackagesDialog (452)
-[2018.12.04-03.45.19:906][805]LogModuleManager: Shutting down and abandoning module Persona (450)
-[2018.12.04-03.45.19:906][805]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (449)
-[2018.12.04-03.45.19:906][805]LogModuleManager: Shutting down and abandoning module AnimGraph (447)
-[2018.12.04-03.45.19:907][805]LogModuleManager: Shutting down and abandoning module Kismet (444)
-[2018.12.04-03.45.19:908][805]LogModuleManager: Shutting down and abandoning module GraphEditor (442)
-[2018.12.04-03.45.19:908][805]LogModuleManager: Shutting down and abandoning module ClassViewer (440)
-[2018.12.04-03.45.19:908][805]LogModuleManager: Shutting down and abandoning module Toolbox (438)
-[2018.12.04-03.45.19:908][805]LogModuleManager: Shutting down and abandoning module ModuleUI (436)
-[2018.12.04-03.45.19:909][805]LogModuleManager: Shutting down and abandoning module MovieSceneTools (434)
-[2018.12.04-03.45.19:909][805]LogModuleManager: Shutting down and abandoning module OutputLog (432)
-[2018.12.04-03.45.19:909][805]LogModuleManager: Shutting down and abandoning module GammaUI (430)
-[2018.12.04-03.45.19:910][805]LogModuleManager: Shutting down and abandoning module Documentation (428)
-[2018.12.04-03.45.19:910][805]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (426)
-[2018.12.04-03.45.19:910][805]LogModuleManager: Shutting down and abandoning module MovieScene (424)
-[2018.12.04-03.45.19:910][805]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (422)
-[2018.12.04-03.45.19:910][805]LogModuleManager: Shutting down and abandoning module LauncherPlatform (420)
-[2018.12.04-03.45.19:910][805]LogModuleManager: Shutting down and abandoning module AnalyticsET (418)
-[2018.12.04-03.45.19:910][805]LogModuleManager: Shutting down and abandoning module PortalServices (416)
-[2018.12.04-03.45.19:910][805]LogModuleManager: Shutting down and abandoning module PortalRpc (414)
-[2018.12.04-03.45.19:910][805]LogModuleManager: Shutting down and abandoning module MessagingRpc (412)
-[2018.12.04-03.45.19:910][805]LogModuleManager: Shutting down and abandoning module AIModule (410)
-[2018.12.04-03.45.19:910][805]LogModuleManager: Shutting down and abandoning module GameplayDebugger (409)
-[2018.12.04-03.45.19:910][805]LogModuleManager: Shutting down and abandoning module AITestSuite (407)
-[2018.12.04-03.45.19:910][805]LogModuleManager: Shutting down and abandoning module NavigationSystem (405)
-[2018.12.04-03.45.19:910][805]LogModuleManager: Shutting down and abandoning module DesktopPlatform (402)
-[2018.12.04-03.45.19:910][805]LogModuleManager: Shutting down and abandoning module ProfilerService (400)
-[2018.12.04-03.45.19:983][805]LogModuleManager: Shutting down and abandoning module TaskGraph (398)
-[2018.12.04-03.45.19:983][805]LogModuleManager: Shutting down and abandoning module SteamVRController (396)
-[2018.12.04-03.45.19:983][805]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (394)
-[2018.12.04-03.45.19:983][805]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (392)
-[2018.12.04-03.45.19:983][805]LogModuleManager: Shutting down and abandoning module OculusInput (390)
-[2018.12.04-03.45.19:983][805]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (388)
-[2018.12.04-03.45.19:983][805]LogModuleManager: Shutting down and abandoning module EditableMesh (386)
-[2018.12.04-03.45.19:983][805]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (384)
-[2018.12.04-03.45.19:983][805]LogModuleManager: Shutting down and abandoning module CableComponent (382)
-[2018.12.04-03.45.19:983][805]LogModuleManager: Shutting down and abandoning module AudioCapture (380)
-[2018.12.04-03.45.19:983][805]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (378)
-[2018.12.04-03.45.19:983][805]LogModuleManager: Shutting down and abandoning module AndroidPermission (376)
-[2018.12.04-03.45.19:983][805]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (374)
-[2018.12.04-03.45.19:983][805]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (372)
-[2018.12.04-03.45.19:984][805]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (370)
-[2018.12.04-03.45.19:984][805]LogModuleManager: Shutting down and abandoning module MediaCompositing (368)
-[2018.12.04-03.45.19:984][805]LogModuleManager: Shutting down and abandoning module LinearTimecode (366)
-[2018.12.04-03.45.19:984][805]LogModuleManager: Shutting down and abandoning module ImgMedia (364)
-[2018.12.04-03.45.19:989][805]LogModuleManager: Shutting down and abandoning module HTML5Networking (362)
-[2018.12.04-03.45.19:989][805]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (360)
-[2018.12.04-03.45.19:989][805]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (358)
-[2018.12.04-03.45.19:989][805]LogModuleManager: Shutting down and abandoning module BackChannel (356)
-[2018.12.04-03.45.19:990][805]LogModuleManager: Shutting down and abandoning module AppleVision (354)
-[2018.12.04-03.45.19:990][805]LogModuleManager: Shutting down and abandoning module AppleImageUtils (352)
-[2018.12.04-03.45.19:990][805]LogModuleManager: Shutting down and abandoning module AlembicImporter (350)
-[2018.12.04-03.45.19:990][805]LogModuleManager: Shutting down and abandoning module AlembicLibrary (349)
-[2018.12.04-03.45.19:990][805]LogModuleManager: Shutting down and abandoning module GeometryCache (348)
-[2018.12.04-03.45.19:990][805]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (347)
-[2018.12.04-03.45.19:990][805]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (342)
-[2018.12.04-03.45.19:990][805]LogModuleManager: Shutting down and abandoning module DatasmithContent (340)
-[2018.12.04-03.45.19:990][805]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (338)
-[2018.12.04-03.45.19:990][805]LogModuleManager: Shutting down and abandoning module PluginBrowser (336)
-[2018.12.04-03.45.19:991][805]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (334)
-[2018.12.04-03.45.19:991][805]LogModuleManager: Shutting down and abandoning module PolygonModeling (332)
-[2018.12.04-03.45.19:991][805]LogModuleManager: Shutting down and abandoning module MeshEditor (330)
-[2018.12.04-03.45.19:991][805]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (328)
-[2018.12.04-03.45.19:991][805]LogModuleManager: Shutting down and abandoning module CryptoKeys (326)
-[2018.12.04-03.45.19:991][805]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (324)
-[2018.12.04-03.45.19:991][805]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (322)
-[2018.12.04-03.45.19:991][805]LogModuleManager: Shutting down and abandoning module UObjectPlugin (320)
-[2018.12.04-03.45.19:991][805]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (318)
-[2018.12.04-03.45.19:991][805]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (316)
-[2018.12.04-03.45.19:991][805]LogModuleManager: Shutting down and abandoning module GitSourceControl (314)
-[2018.12.04-03.45.19:991][805]LogModuleManager: Shutting down and abandoning module SourceControl (313)
-[2018.12.04-03.45.19:991][805]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (310)
-[2018.12.04-03.45.19:991][805]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (308)
-[2018.12.04-03.45.19:991][805]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (306)
-[2018.12.04-03.45.19:991][805]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (304)
-[2018.12.04-03.45.19:991][805]LogModuleManager: Shutting down and abandoning module Paper2DEditor (302)
-[2018.12.04-03.45.19:992][805]LogModuleManager: Shutting down and abandoning module MeshPaint (301)
-[2018.12.04-03.45.19:992][805]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (298)
-[2018.12.04-03.45.19:992][805]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (296)
-[2018.12.04-03.45.19:992][805]LogModuleManager: Shutting down and abandoning module PhysXVehicles (294)
-[2018.12.04-03.45.19:992][805]LogModuleManager: Shutting down and abandoning module OculusEditor (292)
-[2018.12.04-03.45.19:992][805]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (290)
-[2018.12.04-03.45.19:992][805]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (288)
-[2018.12.04-03.45.19:992][805]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (286)
-[2018.12.04-03.45.19:992][805]LogModuleManager: Shutting down and abandoning module ActorSequence (284)
-[2018.12.04-03.45.19:992][805]LogModuleManager: Shutting down and abandoning module UdpMessaging (282)
-[2018.12.04-03.45.20:094][805]LogModuleManager: Shutting down and abandoning module TcpMessaging (280)
-[2018.12.04-03.45.20:199][805]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (278)
-[2018.12.04-03.45.20:199][805]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (276)
-[2018.12.04-03.45.20:199][805]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (274)
-[2018.12.04-03.45.20:199][805]LogModuleManager: Shutting down and abandoning module FacialAnimation (272)
-[2018.12.04-03.45.20:199][805]LogModuleManager: Shutting down and abandoning module DataValidation (270)
-[2018.12.04-03.45.20:199][805]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (268)
-[2018.12.04-03.45.20:200][805]LogModuleManager: Shutting down and abandoning module LevelEditor (267)
-[2018.12.04-03.45.20:206][805]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (266)
-[2018.12.04-03.45.20:206][805]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (264)
-[2018.12.04-03.45.20:206][805]LogModuleManager: Shutting down and abandoning module MainFrame (262)
-[2018.12.04-03.45.20:206][805]LogModuleManager: Shutting down and abandoning module HotReload (261)
-[2018.12.04-03.45.20:209][805]LogModuleManager: Shutting down and abandoning module ContentBrowser (257)
-[2018.12.04-03.45.20:215][805]LogModuleManager: Shutting down and abandoning module TreeMap (255)
-[2018.12.04-03.45.20:215][805]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (252)
-[2018.12.04-03.45.20:215][805]LogModuleManager: Shutting down and abandoning module AISupportModule (250)
-[2018.12.04-03.45.20:215][805]LogModuleManager: Shutting down and abandoning module Paper2D (248)
-[2018.12.04-03.45.20:215][805]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (246)
-[2018.12.04-03.45.20:215][805]LogModuleManager: Shutting down and abandoning module WmfMedia (244)
-[2018.12.04-03.45.20:217][805]LogModuleManager: Shutting down and abandoning module Media (243)
-[2018.12.04-03.45.20:223][805]LogModuleManager: Shutting down and abandoning module PacketHandler (240)
-[2018.12.04-03.45.20:223][805]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (238)
-[2018.12.04-03.45.20:223][805]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (236)
-[2018.12.04-03.45.20:224][805]LogModuleManager: Shutting down and abandoning module MediaAssets (234)
-[2018.12.04-03.45.20:224][805]LogModuleManager: Shutting down and abandoning module Overlay (232)
-[2018.12.04-03.45.20:224][805]LogModuleManager: Shutting down and abandoning module OverlayEditor (231)
-[2018.12.04-03.45.20:224][805]LogModuleManager: Shutting down and abandoning module VREditor (228)
-[2018.12.04-03.45.20:224][805]LogModuleManager: Shutting down and abandoning module StringTableEditor (226)
-[2018.12.04-03.45.20:224][805]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (224)
-[2018.12.04-03.45.20:224][805]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (222)
-[2018.12.04-03.45.20:224][805]LogModuleManager: Shutting down and abandoning module FunctionalTesting (220)
-[2018.12.04-03.45.20:224][805]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (218)
-[2018.12.04-03.45.20:224][805]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (217)
-[2018.12.04-03.45.20:224][805]LogModuleManager: Shutting down and abandoning module UMG (214)
-[2018.12.04-03.45.20:224][805]LogModuleManager: Shutting down and abandoning module UMGEditor (213)
-[2018.12.04-03.45.20:224][805]LogModuleManager: Shutting down and abandoning module Sequencer (212)
-[2018.12.04-03.45.20:225][805]LogModuleManager: Shutting down and abandoning module MessageLog (209)
-[2018.12.04-03.45.20:225][805]LogModuleManager: Shutting down and abandoning module SlateReflector (204)
-[2018.12.04-03.45.20:225][805]LogModuleManager: Shutting down and abandoning module Slate (202)
-[2018.12.04-03.45.20:225][805]LogModuleManager: Shutting down and abandoning module EditorStyle (200)
-[2018.12.04-03.45.20:232][805]LogModuleManager: Shutting down and abandoning module MRMesh (198)
-[2018.12.04-03.45.20:232][805]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (196)
-[2018.12.04-03.45.20:232][805]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (194)
-[2018.12.04-03.45.20:232][805]LogModuleManager: Shutting down and abandoning module XAudio2 (192)
-[2018.12.04-03.45.20:232][805]LogModuleManager: Shutting down and abandoning module Networking (190)
-[2018.12.04-03.45.20:232][805]LogModuleManager: Shutting down and abandoning module Core (188)
-[2018.12.04-03.45.20:232][805]LogModuleManager: Shutting down and abandoning module LevelSequence (186)
-[2018.12.04-03.45.20:232][805]LogModuleManager: Shutting down and abandoning module KismetCompiler (184)
-[2018.12.04-03.45.20:232][805]LogModuleManager: Shutting down and abandoning module MeshUtilities (182)
-[2018.12.04-03.45.20:232][805]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (181)
-[2018.12.04-03.45.20:232][805]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (180)
-[2018.12.04-03.45.20:232][805]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (179)
-[2018.12.04-03.45.20:232][805]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (177)
-[2018.12.04-03.45.20:233][805]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (175)
-[2018.12.04-03.45.20:233][805]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (173)
-[2018.12.04-03.45.20:233][805]LogModuleManager: Shutting down and abandoning module MaterialBaking (169)
-[2018.12.04-03.45.20:233][805]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (165)
-[2018.12.04-03.45.20:234][805]LogModuleManager: Shutting down and abandoning module DerivedDataCache (162)
-[2018.12.04-03.45.20:284][805]LogDerivedDataCache: Shutdown
-[2018.12.04-03.45.20:285][805]LogModuleManager: Shutting down and abandoning module XGEController (160)
-[2018.12.04-03.45.20:285][805]LogModuleManager: Shutting down and abandoning module TargetPlatform (158)
-[2018.12.04-03.45.20:285][805]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (157)
-[2018.12.04-03.45.20:285][805]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (155)
-[2018.12.04-03.45.20:285][805]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (153)
-[2018.12.04-03.45.20:285][805]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (151)
-[2018.12.04-03.45.20:285][805]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (149)
-[2018.12.04-03.45.20:285][805]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (147)
-[2018.12.04-03.45.20:286][805]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (145)
-[2018.12.04-03.45.20:286][805]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (143)
-[2018.12.04-03.45.20:286][805]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (141)
-[2018.12.04-03.45.20:286][805]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (139)
-[2018.12.04-03.45.20:286][805]LogModuleManager: Shutting down and abandoning module ImageWrapper (138)
-[2018.12.04-03.45.20:286][805]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (135)
-[2018.12.04-03.45.20:286][805]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (133)
-[2018.12.04-03.45.20:286][805]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (131)
-[2018.12.04-03.45.20:287][805]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (129)
-[2018.12.04-03.45.20:287][805]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (127)
-[2018.12.04-03.45.20:287][805]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (125)
-[2018.12.04-03.45.20:287][805]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (123)
-[2018.12.04-03.45.20:287][805]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (121)
-[2018.12.04-03.45.20:287][805]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (119)
-[2018.12.04-03.45.20:287][805]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (117)
-[2018.12.04-03.45.20:299][805]LogModuleManager: Shutting down and abandoning module Messaging (115)
-[2018.12.04-03.45.20:299][805]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (113)
-[2018.12.04-03.45.20:309][805]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (111)
-[2018.12.04-03.45.20:309][805]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (109)
-[2018.12.04-03.45.20:355][805]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (107)
-[2018.12.04-03.45.20:355][805]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (105)
-[2018.12.04-03.45.20:355][805]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (103)
-[2018.12.04-03.45.20:355][805]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (101)
-[2018.12.04-03.45.20:355][805]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (99)
-[2018.12.04-03.45.20:355][805]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (97)
-[2018.12.04-03.45.20:355][805]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (95)
-[2018.12.04-03.45.20:355][805]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (93)
-[2018.12.04-03.45.20:355][805]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (91)
-[2018.12.04-03.45.20:355][805]LogModuleManager: Shutting down and abandoning module InputCore (88)
-[2018.12.04-03.45.20:355][805]LogModuleManager: Shutting down and abandoning module Settings (86)
-[2018.12.04-03.45.20:356][805]LogModuleManager: Shutting down and abandoning module PhysXCooking (84)
-[2018.12.04-03.45.20:356][805]LogModuleManager: Shutting down and abandoning module SteamVR (82)
-[2018.12.04-03.45.20:356][805]LogModuleManager: Shutting down and abandoning module OculusHMD (80)
-[2018.12.04-03.45.20:356][805]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (78)
-[2018.12.04-03.45.20:356][805]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (76)
-[2018.12.04-03.45.20:356][805]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
-[2018.12.04-03.45.20:356][805]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (70)
-[2018.12.04-03.45.20:357][805]LogModuleManager: Shutting down and abandoning module XMPP (65)
-[2018.12.04-03.45.20:357][805]LogModuleManager: Shutting down and abandoning module WebSockets (64)
-[2018.12.04-03.45.20:383][805]LogModuleManager: Shutting down and abandoning module HTTP (61)
-[2018.12.04-03.45.20:384][805]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
-[2018.12.04-03.45.20:384][805]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B6E15FB5C-444A-1FDA-E45E-ABA6BB83CF0E%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.20.3-4369336%2B%2B%2BUE4%2BRelease-4.20&UserID=7183c292406cf04f5b54d1b76cc3e475%7C215950167ed840aeb891af1096fa62dd%7Cefb23bdc-d6bc-48ee-9213-8e5227b1425c&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
-[2018.12.04-03.45.20:396][805]LogModuleManager: Shutting down and abandoning module SSL (60)
-[2018.12.04-03.45.20:400][805]LogModuleManager: Shutting down and abandoning module MagicLeapEmulator (56)
-[2018.12.04-03.45.20:400][805]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (54)
-[2018.12.04-03.45.20:400][805]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (52)
-[2018.12.04-03.45.20:400][805]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (50)
-[2018.12.04-03.45.20:400][805]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (48)
-[2018.12.04-03.45.20:400][805]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (46)
-[2018.12.04-03.45.20:400][805]LogModuleManager: Shutting down and abandoning module MagicLeapGestures (44)
-[2018.12.04-03.45.20:400][805]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (42)
-[2018.12.04-03.45.20:400][805]LogModuleManager: Shutting down and abandoning module MagicLeapController (40)
-[2018.12.04-03.45.20:401][805]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
-[2018.12.04-03.45.20:401][805]LogModuleManager: Shutting down and abandoning module MagicLeap (38)
-[2018.12.04-03.45.20:402][805]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
-[2018.12.04-03.45.20:402][805]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
-[2018.12.04-03.45.20:402][805]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
-[2018.12.04-03.45.20:402][805]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
-[2018.12.04-03.45.20:402][805]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
-[2018.12.04-03.45.20:402][805]LogModuleManager: Shutting down and abandoning module Landscape (26)
-[2018.12.04-03.45.20:402][805]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
-[2018.12.04-03.45.20:403][805]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
-[2018.12.04-03.45.20:403][805]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
-[2018.12.04-03.45.20:403][805]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
-[2018.12.04-03.45.20:403][805]LogModuleManager: Shutting down and abandoning module Renderer (16)
-[2018.12.04-03.45.20:403][805]LogModuleManager: Shutting down and abandoning module Engine (14)
-[2018.12.04-03.45.20:404][805]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
-[2018.12.04-03.45.20:404][805]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
-[2018.12.04-03.45.20:404][805]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
-[2018.12.04-03.45.20:404][805]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
-[2018.12.04-03.45.20:404][805]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
-[2018.12.04-03.45.20:404][805]LogModuleManager: Shutting down and abandoning module PakFile (2)
-[2018.12.04-03.45.20:410][805]LogExit: Exiting.
-[2018.12.04-03.45.20:463][805]Log file closed, 12/03/18 22:45:20
+[2018.12.05-03.18.14:876][  0]LogInit: Selected Device Profile: [Windows]
+[2018.12.05-03.18.14:876][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.12.05-03.18.14:897][  0]LogHAL: Display: Platform has ~ 8 GB [7960453120 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2018.12.05-03.18.14:897][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2018.12.05-03.18.14:897][  0]LogInit: Going up to parent DeviceProfile []
+[2018.12.05-03.18.14:898][  0]LogInit: Computer: DESKTOP-T8OATV8
+[2018.12.05-03.18.14:898][  0]LogInit: User: frankj6
+[2018.12.05-03.18.14:898][  0]LogInit: CPU Page size=4096, Cores=2
+[2018.12.05-03.18.14:898][  0]LogInit: High frequency timer resolution =2.742185 MHz
+[2018.12.05-03.18.14:898][  0]LogMemory: Memory total: Physical=7.4GB (8GB approx)
+[2018.12.05-03.18.14:898][  0]LogMemory: Platform Memory Stats for Windows
+[2018.12.05-03.18.14:898][  0]LogMemory: Process Physical Memory: 100.13 MB used, 100.13 MB peak
+[2018.12.05-03.18.14:898][  0]LogMemory: Process Virtual Memory: 84.13 MB used, 84.13 MB peak
+[2018.12.05-03.18.14:898][  0]LogMemory: Physical Memory: 5453.96 MB used,  2137.72 MB free, 7591.68 MB total
+[2018.12.05-03.18.14:898][  0]LogMemory: Virtual Memory: 4616.27 MB used,  2137.72 MB free, 134217728.00 MB total
+[2018.12.05-03.18.14:918][  0]LogInit: Using OS detected language (en-US).
+[2018.12.05-03.18.14:918][  0]LogInit: Using OS detected locale (en-US).
+[2018.12.05-03.18.14:919][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.12.05-03.18.15:373][  0]LogStreaming: Display: Took  0.454s to InitEngineTextLocalization.
+[2018.12.05-03.18.15:373][  0]LogInit: Setting process to per monitor DPI aware
+[2018.12.05-03.18.15:423][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.12.05-03.18.15:423][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.12.05-03.18.15:662][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.12.05-03.18.15:662][  0]LogD3D11RHI: D3D11 adapters:
+[2018.12.05-03.18.15:683][  0]LogD3D11RHI:    0. 'Intel(R) HD Graphics 520' (Feature Level 11_0)
+[2018.12.05-03.18.15:683][  0]LogD3D11RHI:       128/0/3795 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
+[2018.12.05-03.18.15:685][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.12.05-03.18.15:685][  0]LogD3D11RHI:       0/0/3795 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.12.05-03.18.15:685][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.12.05-03.18.15:692][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.12.05-03.18.15:692][  0]LogD3D11RHI:     GPU DeviceId: 0x1916 (for the marketing name, search the web for "GPU Device Id")
+[2018.12.05-03.18.15:692][  0]LogWindows: EnumDisplayDevices:
+[2018.12.05-03.18.15:692][  0]LogWindows:    0. 'Intel(R) HD Graphics 520' (P:1 D:1)
+[2018.12.05-03.18.15:692][  0]LogWindows:    1. 'Intel(R) HD Graphics 520' (P:0 D:0)
+[2018.12.05-03.18.15:692][  0]LogWindows:    2. 'Intel(R) HD Graphics 520' (P:0 D:0)
+[2018.12.05-03.18.15:693][  0]LogWindows: DebugString: FoundDriverCount:3 
+[2018.12.05-03.18.15:693][  0]LogD3D11RHI:     Adapter Name: Intel(R) HD Graphics 520
+[2018.12.05-03.18.15:693][  0]LogD3D11RHI:   Driver Version: 24.20.100.6170 (internal:24.20.100.6170, unified:24.20.100.6170)
+[2018.12.05-03.18.15:693][  0]LogD3D11RHI:      Driver Date: 6-18-2018
+[2018.12.05-03.18.15:693][  0]LogRHI: Texture pool is 1418 MB (70% of 2025 MB)
+[2018.12.05-03.18.15:711][  0]LogD3D11RHI: Async texture creation enabled
+[2018.12.05-03.18.15:720][  0]LogD3D11RHI: GPU Timing Frequency: 12.000048 (Debug: 2 0)
+[2018.12.05-03.18.15:721][  0]LogShaderCompilers: Guid format shader working directory is -38 characters bigger than the processId version (../../../../../../Users/frankj6/Documents/GameDevOne/TeamSadMen/TeamSadMen/TeamSadMen/Intermediate/Shaders/WorkingDirectory/11824/).
+[2018.12.05-03.18.15:721][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/frankj6/AppData/Local/Temp/UnrealShaderWorkingDir/3B77C8FB4345149792C24893FB135FD7/'.
+[2018.12.05-03.18.16:099][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.12.05-03.18.16:116][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.12.05-03.18.16:130][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.12.05-03.18.16:145][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.12.05-03.18.16:159][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.12.05-03.18.16:174][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.12.05-03.18.16:189][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.12.05-03.18.16:204][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.12.05-03.18.16:212][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.12.05-03.18.16:325][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.05-03.18.16:325][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.05-03.18.16:325][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.05-03.18.16:325][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.05-03.18.16:325][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.05-03.18.16:325][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.05-03.18.16:325][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.05-03.18.16:325][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.05-03.18.16:325][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.05-03.18.16:325][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.05-03.18.16:325][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.05-03.18.16:325][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.05-03.18.16:325][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.05-03.18.16:325][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.05-03.18.16:325][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.05-03.18.16:325][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.05-03.18.16:325][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.05-03.18.16:325][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.05-03.18.16:327][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.12.05-03.18.16:393][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.12.05-03.18.16:393][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.12.05-03.18.16:423][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.12.05-03.18.16:423][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.12.05-03.18.16:442][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.12.05-03.18.16:457][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.12.05-03.18.16:470][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.12.05-03.18.16:489][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.12.05-03.18.16:500][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2018.12.05-03.18.16:500][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.12.05-03.18.16:593][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.12.05-03.18.16:593][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.12.05-03.18.16:593][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.12.05-03.18.17:454][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.12.05-03.18.17:516][  0]LogDerivedDataCache: Loaded boot cache 0.06s 71MB C:/Users/frankj6/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.12.05-03.18.17:517][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/frankj6/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2018.12.05-03.18.17:518][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/frankj6/Documents/GameDevOne/TeamSadMen/TeamSadMen/TeamSadMen/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.12.05-03.18.17:518][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.12.05-03.18.17:518][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/frankj6/Documents/GameDevOne/TeamSadMen/TeamSadMen/TeamSadMen/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.12.05-03.18.17:518][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.12.05-03.18.17:532][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.12.05-03.18.17:544][  0]LogDerivedDataCache: Using Local data cache path C:/Users/frankj6/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.12.05-03.18.17:544][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.12.05-03.18.17:544][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.12.05-03.18.17:565][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.12.05-03.18.17:567][  0]LogSlate: Using FreeType 2.6.0
+[2018.12.05-03.18.17:568][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.12.05-03.18.17:653][  0]LogAssetRegistry: FAssetRegistry took 0.0269 seconds to start up
+[2018.12.05-03.18.18:066][  0]LogInit: Selected Device Profile: [Windows]
+[2018.12.05-03.18.18:222][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.12.05-03.18.18:228][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.12.05-03.18.18:228][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2018.12.05-03.18.18:228][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.12.05-03.18.18:228][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.12.05-03.18.18:250][  0]LogNetVersion: TeamSadMen 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 1220547581)
+[2018.12.05-03.18.19:105][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.185069 seconds
+[2018.12.05-03.18.19:112][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2018.12.05-03.18.19:112][  0]LogUObjectAllocator: 6690864 out of 0 bytes used by permanent object pool.
+[2018.12.05-03.18.19:112][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.12.05-03.18.20:083][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.12.05-03.18.20:099][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.12.05-03.18.20:261][  0]SourceControl: Source control is disabled
+[2018.12.05-03.18.20:261][  0]SourceControl: Source control is disabled
+[2018.12.05-03.18.20:263][  0]SourceControl: Source control is disabled
+[2018.12.05-03.18.20:264][  0]SourceControl: Source control is disabled
+[2018.12.05-03.18.20:439][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.12.05-03.18.20:494][  0]LogOcInput: OculusInput pre-init called
+[2018.12.05-03.18.20:558][  0]LogEngine: Initializing Engine...
+[2018.12.05-03.18.20:559][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.12.05-03.18.20:560][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.12.05-03.18.20:560][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.12.05-03.18.20:560][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.12.05-03.18.20:560][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.12.05-03.18.20:791][  0]LogInit: Initializing FReadOnlyCVARCache
+[2018.12.05-03.18.20:806][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.12.05-03.18.21:006][  0]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.12.05-03.18.21:027][  0]LogInit: FAudioDevice initialized.
+[2018.12.05-03.18.21:027][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2018.12.05-03.18.21:126][  0]LogDerivedDataCache: Saved boot cache 0.10s 71MB C:/Users/frankj6/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.12.05-03.18.21:137][  0]LogInit: Texture streaming: Enabled
+[2018.12.05-03.18.21:157][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.12.05-03.18.21:173][  0]LogInit: Transaction tracking system initialized
+[2018.12.05-03.18.21:197][  0]BlueprintLog: New page: Editor Load
+[2018.12.05-03.18.21:281][  0]LocalizationService: Localization service is disabled
+[2018.12.05-03.18.21:616][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.12.05-03.18.21:616][  0]LogCook: Display: Mobile HDR setting 1
+[2018.12.05-03.18.21:617][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.12.05-03.18.21:617][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.12.05-03.18.21:617][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.12.05-03.18.21:617][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.12.05-03.18.21:617][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.12.05-03.18.21:754][  0]LogFileCache: Scanning file cache for directory 'C:/Users/frankj6/Documents/GameDevOne/TeamSadMen/TeamSadMen/TeamSadMen/Content/' took 0.02s
+[2018.12.05-03.18.21:754][  0]SourceControl: Source control is disabled
+[2018.12.05-03.18.21:755][  0]Cmd: MAP LOAD FILE="../../../../../../Users/frankj6/Documents/GameDevOne/TeamSadMen/TeamSadMen/TeamSadMen/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.12.05-03.18.21:755][  0]LightingResults: New page: Lighting Build
+[2018.12.05-03.18.21:758][  0]MapCheck: New page: Map Check
+[2018.12.05-03.18.21:758][  0]LightingResults: New page: Lighting Build
+[2018.12.05-03.18.23:204][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2018.12.05-03.18.23:350][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.12.05-03.18.23:378][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.12.05-03.18.23:479][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 99.777ms to complete.
+[2018.12.05-03.18.23:479][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 1.724
+[2018.12.05-03.18.23:874][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.05-03.18.23:886][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.05-03.18.23:897][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.05-03.18.23:905][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.05-03.18.23:928][  0]LogCollectionManager: Loaded 0 collections in 0.002001 seconds
+[2018.12.05-03.18.24:002][  0]LogFileCache: Scanning file cache for directory 'C:/Users/frankj6/Documents/GameDevOne/TeamSadMen/TeamSadMen/TeamSadMen/Saved/Collections/' took 0.01s
+[2018.12.05-03.18.24:002][  0]LogFileCache: Scanning file cache for directory 'C:/Users/frankj6/Documents/GameDevOne/TeamSadMen/TeamSadMen/TeamSadMen/Content/Developers/frankj6/Collections/' took 0.01s
+[2018.12.05-03.18.24:002][  0]LogFileCache: Scanning file cache for directory 'C:/Users/frankj6/Documents/GameDevOne/TeamSadMen/TeamSadMen/TeamSadMen/Content/Collections/' took 0.01s
+[2018.12.05-03.18.24:002][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.12.05-03.18.24:016][  0]LogContentBrowser: Native class hierarchy populated in 0.0119 seconds. Added 2572 classes and 603 folders.
+[2018.12.05-03.18.24:039][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.12.05-03.18.24:673][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.12.05-03.18.24:690][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2018.12.05-03.18.24:786][  0]LogSlate: Took 0.000248 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.12.05-03.18.24:790][  0]LogSlate: Took 0.000232 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.12.05-03.18.24:815][  0]LogSlate: Took 0.007830 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.12.05-03.18.25:035][  0]LogRenderer: Reallocating scene render targets to support 964x436 Format 10 NumSamples 1 (Frame:1).
+[2018.12.05-03.18.25:670][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2018.12.05-03.18.25:670][  0]LogLoad: (Engine Initialization) Total time: 12.62 seconds
+[2018.12.05-03.18.25:671][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.12.05-03.18.25:690][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.12.05-03.18.25:716][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.12.05-03.18.25:778][  0]LogSlate: Took 0.013949 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.12.05-03.18.25:797][  1]LogAssetRegistry: Asset discovery search completed in 8.1667 seconds
+[2018.12.05-03.18.25:799][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.12.05-03.18.25:799][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000071 seconds (updated 0 objects)
+[2018.12.05-03.18.44:542][561]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.05-03.18.44:700][566]LogSlate: Took 0.000699 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.12.05-03.18.44:730][566]LogAIModule: Creating AISystem for world BillTest
+[2018.12.05-03.18.44:737][566]LogAssetEditorManager: Opening Asset editor for World /Game/FirstPersonBP/Maps/BillTest.BillTest
+[2018.12.05-03.18.44:764][566]Cmd: MAP LOAD FILE="../../../../../../Users/frankj6/Documents/GameDevOne/TeamSadMen/TeamSadMen/TeamSadMen/Content/FirstPersonBP/Maps/BillTest.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.12.05-03.18.44:764][566]LightingResults: New page: Lighting Build
+[2018.12.05-03.18.44:764][566]LoadErrors: New page: Loading map: BillTest.umap
+[2018.12.05-03.18.44:767][566]MapCheck: New page: Map Check
+[2018.12.05-03.18.44:767][566]LightingResults: New page: Lighting Build
+[2018.12.05-03.18.44:792][566]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.12.05-03.18.44:846][566]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.12.05-03.18.44:942][566]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 95.739ms to complete.
+[2018.12.05-03.18.44:944][566]LogFileHelpers: Loading map 'BillTest' took 0.183
+[2018.12.05-03.18.55:995][ 33]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.05-03.18.57:149][ 83]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2018.12.05-03.18.57:162][ 83]LogAssetEditorManager: Opening Asset editor for World /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap
+[2018.12.05-03.18.57:187][ 83]Cmd: MAP LOAD FILE="../../../../../../Users/frankj6/Documents/GameDevOne/TeamSadMen/TeamSadMen/TeamSadMen/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.12.05-03.18.57:188][ 83]LightingResults: New page: Lighting Build
+[2018.12.05-03.18.57:189][ 83]LoadErrors: New page: Loading map: FirstPersonExampleMap.umap
+[2018.12.05-03.18.57:189][ 83]MapCheck: New page: Map Check
+[2018.12.05-03.18.57:189][ 83]LightingResults: New page: Lighting Build
+[2018.12.05-03.18.57:218][ 83]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.12.05-03.18.57:274][ 83]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.12.05-03.18.57:375][ 83]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 101.292ms to complete.
+[2018.12.05-03.18.57:378][ 83]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 0.191
+[2018.12.05-03.21.54:338][251]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (Light Source)
+[2018.12.05-03.21.57:578][339]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.05-03.21.58:694][373]LogAIModule: Creating AISystem for world BillTest
+[2018.12.05-03.21.58:699][373]LogAssetEditorManager: Opening Asset editor for World /Game/FirstPersonBP/Maps/BillTest.BillTest
+[2018.12.05-03.21.58:721][373]Cmd: MAP LOAD FILE="../../../../../../Users/frankj6/Documents/GameDevOne/TeamSadMen/TeamSadMen/TeamSadMen/Content/FirstPersonBP/Maps/BillTest.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.12.05-03.21.58:722][373]LightingResults: New page: Lighting Build
+[2018.12.05-03.21.58:722][373]LoadErrors: New page: Loading map: BillTest.umap
+[2018.12.05-03.21.58:728][373]MapCheck: New page: Map Check
+[2018.12.05-03.21.58:728][373]LightingResults: New page: Lighting Build
+[2018.12.05-03.21.58:749][373]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.12.05-03.21.58:800][373]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.12.05-03.21.58:896][373]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 96.349ms to complete.
+[2018.12.05-03.21.58:896][373]LogFileHelpers: Loading map 'BillTest' took 0.176
+[2018.12.05-03.22.08:778][785]LogEditorViewport: Clicking Background
+[2018.12.05-03.22.11:562][903]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.05-03.22.21:741][244]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.05-03.22.31:454][586]LogActorFactory: Actor Factory created Cube
+[2018.12.05-03.22.31:994][603]LogActorFactory: Actor Factory created Cube
+[2018.12.05-03.23.57:714][422]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.05-03.23.57:986][430]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2018.12.05-03.23.58:014][430]LogAssetEditorManager: Opening Asset editor for World /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap
+[2018.12.05-03.24.00:295][430]LogSlate: Window 'Save Content' being destroyed
+[2018.12.05-03.24.00:484][430]LogSavePackage: Moving '../../../../../../Users/frankj6/Documents/GameDevOne/TeamSadMen/TeamSadMen/TeamSadMen/Saved/BillTest02C1C5A7457C43E493DB1C827EBF95F5.tmp' to '../../../../../../Users/frankj6/Documents/GameDevOne/TeamSadMen/TeamSadMen/TeamSadMen/Content/FirstPersonBP/Maps/BillTest.umap'
+[2018.12.05-03.24.00:545][430]LogFileHelpers: Saving map 'BillTest' took 0.237
+[2018.12.05-03.24.00:547][430]Cmd: MAP LOAD FILE="../../../../../../Users/frankj6/Documents/GameDevOne/TeamSadMen/TeamSadMen/TeamSadMen/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.12.05-03.24.00:547][430]LightingResults: New page: Lighting Build
+[2018.12.05-03.24.00:548][430]LoadErrors: New page: Loading map: FirstPersonExampleMap.umap
+[2018.12.05-03.24.00:549][430]MapCheck: New page: Map Check
+[2018.12.05-03.24.00:549][430]LightingResults: New page: Lighting Build
+[2018.12.05-03.24.00:582][430]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.12.05-03.24.00:644][430]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.12.05-03.24.00:749][430]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 105.133ms to complete.
+[2018.12.05-03.24.00:751][430]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 0.207
+[2018.12.05-03.24.10:752][707]LogEditorViewport: Clicking on Actor (LMB): SphereReflectionCapture (SphereReflectionCapture)
+[2018.12.05-03.24.20:136][963]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.05-03.24.44:431][555]LogAIModule: Creating AISystem for world BillTest
+[2018.12.05-03.24.44:435][555]LogAssetEditorManager: Opening Asset editor for World /Game/FirstPersonBP/Maps/BillTest.BillTest
+[2018.12.05-03.24.44:460][555]Cmd: MAP LOAD FILE="../../../../../../Users/frankj6/Documents/GameDevOne/TeamSadMen/TeamSadMen/TeamSadMen/Content/FirstPersonBP/Maps/BillTest.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.12.05-03.24.44:460][555]LightingResults: New page: Lighting Build
+[2018.12.05-03.24.44:462][555]LoadErrors: New page: Loading map: BillTest.umap
+[2018.12.05-03.24.44:493][555]MapCheck: New page: Map Check
+[2018.12.05-03.24.44:493][555]LightingResults: New page: Lighting Build
+[2018.12.05-03.24.44:519][555]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.12.05-03.24.44:581][555]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.12.05-03.24.44:686][555]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 105.424ms to complete.
+[2018.12.05-03.24.44:687][555]LogFileHelpers: Loading map 'BillTest' took 0.229
+[2018.12.05-03.25.00:204][ 63]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.05-03.25.51:483][731]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.05-03.26.59:715][465]LogEditorViewport: Clicking on Actor (LMB): CameraActor (MainCamera)
+[2018.12.05-03.28.07:209][ 38]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.05-03.28.07:916][ 78]LogEditorViewport: Clicking Background
+[2018.12.05-03.28.22:950][575]LogEditorViewport: Clicking on Actor (LMB): CameraActor (MainCamera)
+[2018.12.05-03.28.35:830][871]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.05-03.28.48:750][181]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.05-03.29.53:336][680]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.05-03.29.53:467][685]LogTemp: Repeating last play command: Selected Viewport
+[2018.12.05-03.29.53:493][685]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.12.05-03.29.53:511][685]PIE: New page: PIE session: BillTest (Dec 4, 2018, 5:29:53 PM)
+[2018.12.05-03.29.53:512][685]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_BillTest
+[2018.12.05-03.29.53:516][685]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004340s)
+[2018.12.05-03.29.53:517][685]LogAIModule: Creating AISystem for world BillTest
+[2018.12.05-03.29.53:517][685]LogPlayLevel: PIE: World Init took: (0.001379s)
+[2018.12.05-03.29.53:517][685]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/BillTest.BillTest to /Game/FirstPersonBP/Maps/UEDPIE_0_BillTest.BillTest (0.005941s)
+[2018.12.05-03.29.53:576][685]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.12.05-03.29.53:596][685]LogInit: FAudioDevice initialized.
+[2018.12.05-03.29.53:643][685]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.12.05-03.29.53:650][685]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_BillTest.BillTest up for play (max tick rate 60) at 2018.12.04-22.29.53
+[2018.12.05-03.29.53:652][685]LogWorld: Bringing up level for play took: 0.002167
+[2018.12.05-03.29.53:685][685]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0007 seconds. Added 10 classes and 0 folders.
+[2018.12.05-03.29.53:700][685]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_BillTest -0.389
+[2018.12.05-03.29.59:075][910]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.05-03.29.59:128][910]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.12.05-03.29.59:153][910]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.05-03.29.59:179][911]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2018.12.05-03.30.31:952][989]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.05-03.30.56:728][753]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.05-03.31.02:064][899]LogTemp: Repeating last play command: Selected Viewport
+[2018.12.05-03.31.02:171][899]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.12.05-03.31.02:171][899]PIE: New page: PIE session: BillTest (Dec 4, 2018, 5:31:02 PM)
+[2018.12.05-03.31.02:172][899]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_BillTest
+[2018.12.05-03.31.02:172][899]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000874s)
+[2018.12.05-03.31.02:173][899]LogAIModule: Creating AISystem for world BillTest
+[2018.12.05-03.31.02:173][899]LogPlayLevel: PIE: World Init took: (0.000939s)
+[2018.12.05-03.31.02:174][899]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/BillTest.BillTest to /Game/FirstPersonBP/Maps/UEDPIE_0_BillTest.BillTest (0.002000s)
+[2018.12.05-03.31.02:231][899]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.12.05-03.31.02:249][899]LogInit: FAudioDevice initialized.
+[2018.12.05-03.31.02:284][899]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.12.05-03.31.02:285][899]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_BillTest.BillTest up for play (max tick rate 60) at 2018.12.04-22.31.02
+[2018.12.05-03.31.02:285][899]LogWorld: Bringing up level for play took: 0.000696
+[2018.12.05-03.31.02:300][899]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_BillTest 0.209
+[2018.12.05-03.31.04:813][  1]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.05-03.31.04:853][  1]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.12.05-03.31.04:875][  1]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.05-03.31.04:927][  4]LogPlayLevel: Display: Destroying online subsystem :Context_4
+[2018.12.05-03.31.11:675][250]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.05-03.31.27:468][621]Cmd: MODE GRID=0
+[2018.12.05-03.31.27:982][634]Cmd: MODE GRID=1
+[2018.12.05-03.31.29:758][678]Cmd: MODE GRID=0
+[2018.12.05-03.31.33:401][765]Cmd: MODE GRID=1
+[2018.12.05-03.31.53:125][323]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.05-03.31.53:406][329]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2018.12.05-03.31.53:426][329]LogAssetEditorManager: Opening Asset editor for World /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap
+[2018.12.05-03.31.55:829][329]LogSlate: Window 'Save Content' being destroyed
+[2018.12.05-03.31.55:986][329]LogSavePackage: Moving '../../../../../../Users/frankj6/Documents/GameDevOne/TeamSadMen/TeamSadMen/TeamSadMen/Saved/BillTest1376DC0C46F5778E984E38A591311652.tmp' to '../../../../../../Users/frankj6/Documents/GameDevOne/TeamSadMen/TeamSadMen/TeamSadMen/Content/FirstPersonBP/Maps/BillTest.umap'
+[2018.12.05-03.31.56:033][329]LogFileHelpers: Saving map 'BillTest' took 0.193
+[2018.12.05-03.31.56:033][329]Cmd: MAP LOAD FILE="../../../../../../Users/frankj6/Documents/GameDevOne/TeamSadMen/TeamSadMen/TeamSadMen/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.12.05-03.31.56:034][329]LightingResults: New page: Lighting Build
+[2018.12.05-03.31.56:035][329]LoadErrors: New page: Loading map: FirstPersonExampleMap.umap
+[2018.12.05-03.31.56:066][329]MapCheck: New page: Map Check
+[2018.12.05-03.31.56:066][329]LightingResults: New page: Lighting Build
+[2018.12.05-03.31.56:102][329]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.12.05-03.31.56:159][329]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.12.05-03.31.56:265][329]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 106.053ms to complete.
+[2018.12.05-03.31.56:265][329]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 0.232
+[2018.12.05-03.31.57:824][367]LogAIModule: Creating AISystem for world BillTest
+[2018.12.05-03.31.57:830][367]LogAssetEditorManager: Opening Asset editor for World /Game/FirstPersonBP/Maps/BillTest.BillTest
+[2018.12.05-03.31.57:850][367]Cmd: MAP LOAD FILE="../../../../../../Users/frankj6/Documents/GameDevOne/TeamSadMen/TeamSadMen/TeamSadMen/Content/FirstPersonBP/Maps/BillTest.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.12.05-03.31.57:850][367]LightingResults: New page: Lighting Build
+[2018.12.05-03.31.57:850][367]LoadErrors: New page: Loading map: BillTest.umap
+[2018.12.05-03.31.57:851][367]MapCheck: New page: Map Check
+[2018.12.05-03.31.57:851][367]LightingResults: New page: Lighting Build
+[2018.12.05-03.31.57:875][367]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.12.05-03.31.57:927][367]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.12.05-03.31.58:031][367]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 102.84ms to complete.
+[2018.12.05-03.31.58:034][367]LogFileHelpers: Loading map 'BillTest' took 0.184
+[2018.12.05-03.32.02:239][499]LogTemp: Repeating last play command: Selected Viewport
+[2018.12.05-03.32.02:263][499]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.12.05-03.32.02:264][499]PIE: New page: PIE session: BillTest (Dec 4, 2018, 5:32:02 PM)
+[2018.12.05-03.32.02:264][499]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_BillTest
+[2018.12.05-03.32.02:265][499]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001328s)
+[2018.12.05-03.32.02:266][499]LogAIModule: Creating AISystem for world BillTest
+[2018.12.05-03.32.02:266][499]LogPlayLevel: PIE: World Init took: (0.001086s)
+[2018.12.05-03.32.02:266][499]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/BillTest.BillTest to /Game/FirstPersonBP/Maps/UEDPIE_0_BillTest.BillTest (0.002662s)
+[2018.12.05-03.32.02:299][499]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.12.05-03.32.02:316][499]LogInit: FAudioDevice initialized.
+[2018.12.05-03.32.02:353][499]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.12.05-03.32.02:355][499]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_BillTest.BillTest up for play (max tick rate 60) at 2018.12.04-22.32.02
+[2018.12.05-03.32.02:355][499]LogWorld: Bringing up level for play took: 0.000787
+[2018.12.05-03.32.02:371][499]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_BillTest 0.281
+[2018.12.05-03.32.05:461][631]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.05-03.32.05:506][631]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.12.05-03.32.05:575][631]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.05-03.32.05:586][632]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2018.12.05-03.32.30:859][356]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.05-03.32.45:496][803]Cmd: ACTOR SELECT ALL
+[2018.12.05-03.32.48:472][872]Cmd: EDIT CUT
+[2018.12.05-03.32.48:490][872]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.12.05-03.32.48:493][872]LogEditorActor: Deleted Actor: DirectionalLight
+[2018.12.05-03.32.48:494][872]LogEditorActor: Deleted Actor: CameraActor
+[2018.12.05-03.32.48:580][872]LogEditorActor: Deleted 3 Actors (0.095 secs)
+[2018.12.05-03.32.50:184][933]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.05-03.32.50:288][938]LogTemp: Repeating last play command: Selected Viewport
+[2018.12.05-03.32.50:315][938]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.12.05-03.32.50:315][938]PIE: New page: PIE session: BillTest (Dec 4, 2018, 5:32:50 PM)
+[2018.12.05-03.32.50:315][938]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_BillTest
+[2018.12.05-03.32.50:316][938]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000648s)
+[2018.12.05-03.32.50:316][938]LogAIModule: Creating AISystem for world BillTest
+[2018.12.05-03.32.50:316][938]LogPlayLevel: PIE: World Init took: (0.000766s)
+[2018.12.05-03.32.50:316][938]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/BillTest.BillTest to /Game/FirstPersonBP/Maps/UEDPIE_0_BillTest.BillTest (0.001575s)
+[2018.12.05-03.32.50:343][938]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.12.05-03.32.50:362][938]LogInit: FAudioDevice initialized.
+[2018.12.05-03.32.50:395][938]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.12.05-03.32.50:396][938]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_BillTest.BillTest up for play (max tick rate 60) at 2018.12.04-22.32.50
+[2018.12.05-03.32.50:396][938]LogWorld: Bringing up level for play took: 0.000620
+[2018.12.05-03.32.50:411][938]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_BillTest 0.32
+[2018.12.05-03.32.52:917][ 62]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.05-03.32.52:956][ 62]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.12.05-03.32.52:980][ 62]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.05-03.32.53:025][ 65]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2018.12.05-03.32.54:356][122]Cmd: EDIT PASTE
+[2018.12.05-03.33.04:729][378]LogTemp: Repeating last play command: Selected Viewport
+[2018.12.05-03.33.04:766][378]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.12.05-03.33.04:767][378]PIE: New page: PIE session: BillTest (Dec 4, 2018, 5:33:04 PM)
+[2018.12.05-03.33.04:767][378]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_BillTest
+[2018.12.05-03.33.04:769][378]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001746s)
+[2018.12.05-03.33.04:769][378]LogAIModule: Creating AISystem for world BillTest
+[2018.12.05-03.33.04:770][378]LogPlayLevel: PIE: World Init took: (0.001084s)
+[2018.12.05-03.33.04:770][378]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/BillTest.BillTest to /Game/FirstPersonBP/Maps/UEDPIE_0_BillTest.BillTest (0.003054s)
+[2018.12.05-03.33.04:825][378]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.12.05-03.33.04:846][378]LogInit: FAudioDevice initialized.
+[2018.12.05-03.33.04:882][378]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.12.05-03.33.04:883][378]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_BillTest.BillTest up for play (max tick rate 60) at 2018.12.04-22.33.04
+[2018.12.05-03.33.04:883][378]LogWorld: Bringing up level for play took: 0.000625
+[2018.12.05-03.33.04:897][378]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_BillTest 0.808
+[2018.12.05-03.33.09:312][562]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.05-03.33.09:354][562]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.12.05-03.33.09:379][562]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.05-03.33.09:424][565]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2018.12.05-03.33.10:040][589]LogTemp: Repeating last play command: Selected Viewport
+[2018.12.05-03.33.10:064][589]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.12.05-03.33.10:064][589]PIE: New page: PIE session: BillTest (Dec 4, 2018, 5:33:10 PM)
+[2018.12.05-03.33.10:064][589]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_BillTest
+[2018.12.05-03.33.10:065][589]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001004s)
+[2018.12.05-03.33.10:066][589]LogAIModule: Creating AISystem for world BillTest
+[2018.12.05-03.33.10:066][589]LogPlayLevel: PIE: World Init took: (0.000676s)
+[2018.12.05-03.33.10:066][589]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/BillTest.BillTest to /Game/FirstPersonBP/Maps/UEDPIE_0_BillTest.BillTest (0.001814s)
+[2018.12.05-03.33.10:088][589]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.12.05-03.33.10:109][589]LogInit: FAudioDevice initialized.
+[2018.12.05-03.33.10:142][589]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.12.05-03.33.10:143][589]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_BillTest.BillTest up for play (max tick rate 60) at 2018.12.04-22.33.10
+[2018.12.05-03.33.10:144][589]LogWorld: Bringing up level for play took: 0.000924
+[2018.12.05-03.33.10:160][589]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_BillTest 0.07
+[2018.12.05-03.33.12:108][673]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.05-03.33.12:148][673]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.12.05-03.33.12:173][673]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.05-03.33.12:216][676]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2018.12.05-03.33.20:240][948]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.05-03.33.37:443][498]LogEditorViewport: Clicking on Actor (LMB): CameraActor (MainCamera)
+[2018.12.05-03.33.39:896][553]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2018.12.05-03.33.55:789][ 57]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.05-03.35.59:994][590]LogEditorViewport: Clicking Background
+[2018.12.05-03.36.00:735][613]LogEditorViewport: Clicking on Actor (LMB): CameraActor (MainCamera)
+[2018.12.05-03.36.47:379][690]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (DirectionalLight)
+[2018.12.05-03.37.08:448][334]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.05-03.37.25:372][874]LogSavePackage: Moving '../../../../../../Users/frankj6/Documents/GameDevOne/TeamSadMen/TeamSadMen/TeamSadMen/Saved/BillTest175A192A48660CF3A366EFB4D6F958A6.tmp' to '../../../../../../Users/frankj6/Documents/GameDevOne/TeamSadMen/TeamSadMen/TeamSadMen/Content/FirstPersonBP/Maps/BillTest.umap'
+[2018.12.05-03.37.27:461][937]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2018.12.05-03.37.27:473][937]LogAssetEditorManager: Opening Asset editor for World /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap
+[2018.12.05-03.37.27:494][937]Cmd: MAP LOAD FILE="../../../../../../Users/frankj6/Documents/GameDevOne/TeamSadMen/TeamSadMen/TeamSadMen/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.12.05-03.37.27:494][937]LightingResults: New page: Lighting Build
+[2018.12.05-03.37.27:495][937]LoadErrors: New page: Loading map: FirstPersonExampleMap.umap
+[2018.12.05-03.37.27:496][937]MapCheck: New page: Map Check
+[2018.12.05-03.37.27:496][937]LightingResults: New page: Lighting Build
+[2018.12.05-03.37.27:617][937]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.12.05-03.37.27:686][937]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.12.05-03.37.27:792][937]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 106.719ms to complete.
+[2018.12.05-03.37.27:792][937]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 0.299
+[2018.12.05-03.37.55:433][755]LogAIModule: Creating AISystem for world BillTest
+[2018.12.05-03.37.55:436][755]LogAssetEditorManager: Opening Asset editor for World /Game/FirstPersonBP/Maps/BillTest.BillTest
+[2018.12.05-03.37.55:458][755]Cmd: MAP LOAD FILE="../../../../../../Users/frankj6/Documents/GameDevOne/TeamSadMen/TeamSadMen/TeamSadMen/Content/FirstPersonBP/Maps/BillTest.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.12.05-03.37.55:458][755]LightingResults: New page: Lighting Build
+[2018.12.05-03.37.55:459][755]LoadErrors: New page: Loading map: BillTest.umap
+[2018.12.05-03.37.55:460][755]MapCheck: New page: Map Check
+[2018.12.05-03.37.55:460][755]LightingResults: New page: Lighting Build
+[2018.12.05-03.37.55:535][755]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.12.05-03.37.55:585][755]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.12.05-03.37.55:682][755]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 97.133ms to complete.
+[2018.12.05-03.37.55:684][755]LogFileHelpers: Loading map 'BillTest' took 0.226
+[2018.12.05-03.37.57:278][804]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (DirectionalLight)
+[2018.12.05-03.37.59:193][859]Cmd: DELETE
+[2018.12.05-03.37.59:193][859]Cmd: ACTOR DELETE
+[2018.12.05-03.37.59:197][859]LogEditorActor: Deleted Actor: DirectionalLight
+[2018.12.05-03.37.59:228][859]LogEditorActor: Deleted 1 Actors (0.033 secs)
+[2018.12.05-03.38.02:044][964]Cmd: TRANSACTION UNDO
+[2018.12.05-03.38.02:044][964]LogEditorTransaction: Undo Delete Actors
+[2018.12.05-03.38.03:644][ 11]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.05-03.38.46:238][305]Cmd: DELETE
+[2018.12.05-03.38.46:238][305]Cmd: ACTOR DELETE
+[2018.12.05-03.38.46:242][305]LogEditorActor: Deleted Actor: SpotLight
+[2018.12.05-03.38.46:271][305]LogEditorActor: Deleted 1 Actors (0.033 secs)
+[2018.12.05-03.38.59:828][746]LogEditorViewport: Clicking on Actor (LMB): CameraActor (MainCamera)
+[2018.12.05-03.39.01:498][782]LogEditorViewport: Clicking Background
+[2018.12.05-03.39.03:722][852]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.05-03.39.03:800][855]LogTemp: Repeating last play command: Selected Viewport
+[2018.12.05-03.39.03:826][855]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.12.05-03.39.03:826][855]PIE: New page: PIE session: BillTest (Dec 4, 2018, 5:39:03 PM)
+[2018.12.05-03.39.03:826][855]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_BillTest
+[2018.12.05-03.39.03:827][855]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000989s)
+[2018.12.05-03.39.03:828][855]LogAIModule: Creating AISystem for world BillTest
+[2018.12.05-03.39.03:828][855]LogPlayLevel: PIE: World Init took: (0.000807s)
+[2018.12.05-03.39.03:828][855]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/BillTest.BillTest to /Game/FirstPersonBP/Maps/UEDPIE_0_BillTest.BillTest (0.002016s)
+[2018.12.05-03.39.03:852][855]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.12.05-03.39.03:871][855]LogInit: FAudioDevice initialized.
+[2018.12.05-03.39.03:904][855]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.12.05-03.39.03:906][855]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_BillTest.BillTest up for play (max tick rate 60) at 2018.12.04-22.39.03
+[2018.12.05-03.39.03:906][855]LogWorld: Bringing up level for play took: 0.001650
+[2018.12.05-03.39.03:921][855]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_BillTest -0.169
+[2018.12.05-03.39.06:981][982]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.05-03.39.07:016][982]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.12.05-03.39.07:044][982]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.05-03.39.07:103][985]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2018.12.05-03.39.08:032][ 19]LogTemp: Repeating last play command: Selected Viewport
+[2018.12.05-03.39.08:058][ 19]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.12.05-03.39.08:058][ 19]PIE: New page: PIE session: BillTest (Dec 4, 2018, 5:39:08 PM)
+[2018.12.05-03.39.08:059][ 19]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_BillTest
+[2018.12.05-03.39.08:059][ 19]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000830s)
+[2018.12.05-03.39.08:060][ 19]LogAIModule: Creating AISystem for world BillTest
+[2018.12.05-03.39.08:060][ 19]LogPlayLevel: PIE: World Init took: (0.000729s)
+[2018.12.05-03.39.08:060][ 19]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/BillTest.BillTest to /Game/FirstPersonBP/Maps/UEDPIE_0_BillTest.BillTest (0.001705s)
+[2018.12.05-03.39.08:094][ 19]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.12.05-03.39.08:111][ 19]LogInit: FAudioDevice initialized.
+[2018.12.05-03.39.08:141][ 19]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.12.05-03.39.08:142][ 19]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_BillTest.BillTest up for play (max tick rate 60) at 2018.12.04-22.39.08
+[2018.12.05-03.39.08:142][ 19]LogWorld: Bringing up level for play took: 0.000557
+[2018.12.05-03.39.08:156][ 19]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_BillTest 0.067
+[2018.12.05-03.39.09:634][ 82]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.05-03.39.09:674][ 82]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.12.05-03.39.09:701][ 82]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.05-03.39.09:746][ 85]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2018.12.05-03.39.18:945][378]LogTemp: Repeating last play command: Selected Viewport
+[2018.12.05-03.39.18:975][378]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.12.05-03.39.18:975][378]PIE: New page: PIE session: BillTest (Dec 4, 2018, 5:39:18 PM)
+[2018.12.05-03.39.18:975][378]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_BillTest
+[2018.12.05-03.39.18:976][378]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000973s)
+[2018.12.05-03.39.18:977][378]LogAIModule: Creating AISystem for world BillTest
+[2018.12.05-03.39.18:977][378]LogPlayLevel: PIE: World Init took: (0.000736s)
+[2018.12.05-03.39.18:977][378]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/BillTest.BillTest to /Game/FirstPersonBP/Maps/UEDPIE_0_BillTest.BillTest (0.001841s)
+[2018.12.05-03.39.19:002][378]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.12.05-03.39.19:020][378]LogInit: FAudioDevice initialized.
+[2018.12.05-03.39.19:049][378]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.12.05-03.39.19:050][378]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_BillTest.BillTest up for play (max tick rate 60) at 2018.12.04-22.39.19
+[2018.12.05-03.39.19:050][378]LogWorld: Bringing up level for play took: 0.000566
+[2018.12.05-03.39.19:068][378]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_BillTest 0.978
+[2018.12.05-03.39.20:874][457]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.05-03.39.20:915][457]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.12.05-03.39.20:939][457]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.05-03.39.20:987][460]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2018.12.05-03.39.27:181][683]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.05-03.39.27:614][703]LogTemp: Repeating last play command: Selected Viewport
+[2018.12.05-03.39.27:635][703]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.12.05-03.39.27:635][703]PIE: New page: PIE session: BillTest (Dec 4, 2018, 5:39:27 PM)
+[2018.12.05-03.39.27:635][703]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_BillTest
+[2018.12.05-03.39.27:636][703]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000876s)
+[2018.12.05-03.39.27:637][703]LogAIModule: Creating AISystem for world BillTest
+[2018.12.05-03.39.27:637][703]LogPlayLevel: PIE: World Init took: (0.000789s)
+[2018.12.05-03.39.27:637][703]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/BillTest.BillTest to /Game/FirstPersonBP/Maps/UEDPIE_0_BillTest.BillTest (0.001783s)
+[2018.12.05-03.39.27:668][703]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.12.05-03.39.27:685][703]LogInit: FAudioDevice initialized.
+[2018.12.05-03.39.27:721][703]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.12.05-03.39.27:722][703]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_BillTest.BillTest up for play (max tick rate 60) at 2018.12.04-22.39.27
+[2018.12.05-03.39.27:722][703]LogWorld: Bringing up level for play took: 0.000577
+[2018.12.05-03.39.27:737][703]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_BillTest -0.354
+[2018.12.05-03.39.34:272][977]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.05-03.39.34:308][977]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.12.05-03.39.34:347][977]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.05-03.39.34:374][979]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2018.12.05-03.39.37:934][100]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.05-03.39.38:015][103]LogTemp: Repeating last play command: Selected Viewport
+[2018.12.05-03.39.38:041][103]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.12.05-03.39.38:041][103]PIE: New page: PIE session: BillTest (Dec 4, 2018, 5:39:38 PM)
+[2018.12.05-03.39.38:041][103]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_BillTest
+[2018.12.05-03.39.38:042][103]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000927s)
+[2018.12.05-03.39.38:043][103]LogAIModule: Creating AISystem for world BillTest
+[2018.12.05-03.39.38:043][103]LogPlayLevel: PIE: World Init took: (0.000767s)
+[2018.12.05-03.39.38:043][103]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/BillTest.BillTest to /Game/FirstPersonBP/Maps/UEDPIE_0_BillTest.BillTest (0.001852s)
+[2018.12.05-03.39.38:068][103]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.12.05-03.39.38:090][103]LogInit: FAudioDevice initialized.
+[2018.12.05-03.39.38:126][103]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.12.05-03.39.38:127][103]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_BillTest.BillTest up for play (max tick rate 60) at 2018.12.04-22.39.38
+[2018.12.05-03.39.38:127][103]LogWorld: Bringing up level for play took: 0.000541
+[2018.12.05-03.39.38:144][103]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_BillTest 0.054
+[2018.12.05-03.39.40:132][173]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.05-03.39.40:172][173]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.12.05-03.39.40:199][173]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.05-03.39.40:249][176]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2018.12.05-03.39.55:487][654]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.05-03.40.18:004][427]LogAssetEditorManager: Opening Asset editor for LevelScriptBlueprint /Game/FirstPersonBP/Maps/BillTest.BillTest:PersistentLevel.BillTest
+[2018.12.05-03.40.18:865][427]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 116 classes and 0 folders.
+[2018.12.05-03.40.19:811][427]LogSlate: Took 0.005503 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.12.05-03.40.33:195][769]LogSlate: Took 0.006622 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.12.05-03.40.35:387][819]LogSlate: Window 'BillTest* - Level Blueprint Editor' being destroyed
+[2018.12.05-03.40.35:436][819]LogSlate: Window 'BillTest* - Level Blueprint Editor' being destroyed
+[2018.12.05-03.41.47:285][122]LogAIModule: Creating AISystem for world HomeLevel
+[2018.12.05-03.41.47:307][122]LogAssetEditorManager: Opening Asset editor for World /Game/FirstPersonBP/Maps/HomeLevel.HomeLevel
+[2018.12.05-03.41.49:057][122]LogSlate: Window 'Save Content' being destroyed
+[2018.12.05-03.41.49:241][122]LogSavePackage: Moving '../../../../../../Users/frankj6/Documents/GameDevOne/TeamSadMen/TeamSadMen/TeamSadMen/Saved/BillTest473D018F40A4EA57677DD1997B811A63.tmp' to '../../../../../../Users/frankj6/Documents/GameDevOne/TeamSadMen/TeamSadMen/TeamSadMen/Content/FirstPersonBP/Maps/BillTest.umap'
+[2018.12.05-03.41.49:290][122]LogFileHelpers: Saving map 'BillTest' took 0.223
+[2018.12.05-03.41.49:292][122]Cmd: MAP LOAD FILE="../../../../../../Users/frankj6/Documents/GameDevOne/TeamSadMen/TeamSadMen/TeamSadMen/Content/FirstPersonBP/Maps/HomeLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.12.05-03.41.49:292][122]LightingResults: New page: Lighting Build
+[2018.12.05-03.41.49:293][122]LoadErrors: New page: Loading map: HomeLevel.umap
+[2018.12.05-03.41.49:319][122]MapCheck: New page: Map Check
+[2018.12.05-03.41.49:319][122]LightingResults: New page: Lighting Build
+[2018.12.05-03.41.49:622][122]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.12.05-03.41.49:683][122]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.12.05-03.41.49:774][122]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 91.733ms to complete.
+[2018.12.05-03.41.49:776][122]LogFileHelpers: Loading map 'HomeLevel' took 0.486
+[2018.12.05-03.41.58:311][350]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.05-03.42.16:575][865]LogLinker: Warning: Can't find file '/Game/FirstPersonBP/Maps/PizzaPlace_BuiltData'
+[2018.12.05-03.42.16:575][865]LogLinker: Warning: Can't find file for asset '/Game/FirstPersonBP/Maps/PizzaPlace_BuiltData' while loading ../../../../../../Users/frankj6/Documents/GameDevOne/TeamSadMen/TeamSadMen/TeamSadMen/Content/FirstPersonBP/Maps/PizzaPlace.umap.
+[2018.12.05-03.42.16:575][865]LoadErrors: Error: /Game/FirstPersonBP/Maps/PizzaPlace : Can't find file for asset. /Game/FirstPersonBP/Maps/PizzaPlace_BuiltData
+[2018.12.05-03.42.16:682][865]LogLinker: Warning: Can't find file '/Game/FirstPersonBP/Maps/PizzaPlace_BuiltData'
+[2018.12.05-03.42.16:683][865]LogLinker: Warning: Can't find file for asset '/Game/FirstPersonBP/Maps/PizzaPlace_BuiltData' while loading ../../../../../../Users/frankj6/Documents/GameDevOne/TeamSadMen/TeamSadMen/TeamSadMen/Content/FirstPersonBP/Maps/PizzaPlace.umap.
+[2018.12.05-03.42.16:936][865]LogLinker: Warning: Can't find file '/Game/FirstPersonBP/Maps/PizzaPlace_BuiltData'
+[2018.12.05-03.42.16:936][865]LogLinker: Warning: Can't find file for asset '/Game/FirstPersonBP/Maps/PizzaPlace_BuiltData' while loading NULL.
+[2018.12.05-03.42.16:936][865]LogLinker: Warning: Can't find file '/Game/FirstPersonBP/Maps/PizzaPlace_BuiltData'
+[2018.12.05-03.42.16:936][865]LogLinker: Warning: Can't find file for asset '/Game/FirstPersonBP/Maps/PizzaPlace_BuiltData' while loading NULL.
+[2018.12.05-03.42.16:968][865]LogLinker: Warning: Can't find file '/Game/FirstPersonBP/Maps/PizzaPlace_BuiltData'
+[2018.12.05-03.42.16:968][865]LoadErrors: Failed to load /Game/FirstPersonBP/Maps/PizzaPlace_BuiltData.PizzaPlace_BuiltData Referenced by PersistentLevel
+[2018.12.05-03.42.16:968][865]LogLinker: Warning: Can't find file for asset '/Game/FirstPersonBP/Maps/PizzaPlace_BuiltData' while loading NULL.
+[2018.12.05-03.42.17:204][865]LogAIModule: Creating AISystem for world PizzaPlace
+[2018.12.05-03.42.17:231][865]LogAssetEditorManager: Opening Asset editor for World /Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace
+[2018.12.05-03.42.17:262][865]Cmd: MAP LOAD FILE="../../../../../../Users/frankj6/Documents/GameDevOne/TeamSadMen/TeamSadMen/TeamSadMen/Content/FirstPersonBP/Maps/PizzaPlace.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.12.05-03.42.17:262][865]LightingResults: New page: Lighting Build
+[2018.12.05-03.42.17:263][865]LoadErrors: New page: Loading map: PizzaPlace.umap
+[2018.12.05-03.42.17:265][865]MapCheck: New page: Map Check
+[2018.12.05-03.42.17:265][865]LightingResults: New page: Lighting Build
+[2018.12.05-03.42.18:036][865]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.12.05-03.42.18:097][865]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.12.05-03.42.18:217][865]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 120.245ms to complete.
+[2018.12.05-03.42.18:222][865]LogFileHelpers: Loading map 'PizzaPlace' took 0.961
+[2018.12.05-03.44.27:724][538]LogAIModule: Creating AISystem for world BillTest
+[2018.12.05-03.44.27:727][538]LogAssetEditorManager: Opening Asset editor for World /Game/FirstPersonBP/Maps/BillTest.BillTest
+[2018.12.05-03.44.27:757][538]Cmd: MAP LOAD FILE="../../../../../../Users/frankj6/Documents/GameDevOne/TeamSadMen/TeamSadMen/TeamSadMen/Content/FirstPersonBP/Maps/BillTest.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.12.05-03.44.27:757][538]LightingResults: New page: Lighting Build
+[2018.12.05-03.44.27:758][538]LoadErrors: New page: Loading map: BillTest.umap
+[2018.12.05-03.44.27:759][538]MapCheck: New page: Map Check
+[2018.12.05-03.44.27:759][538]LightingResults: New page: Lighting Build
+[2018.12.05-03.44.27:852][538]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.12.05-03.44.27:912][538]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.12.05-03.44.28:031][538]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 118.83ms to complete.
+[2018.12.05-03.44.28:033][538]LogFileHelpers: Loading map 'BillTest' took 0.277
+[2018.12.05-03.44.52:243][376]LogUObjectGlobals: Warning: Failed to find object 'Class None.None'
+[2018.12.05-03.44.55:359][477]LogTemp: Repeating last play command: Selected Viewport
+[2018.12.05-03.44.55:406][477]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/BillTest.BillTest:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/BillTest.BillTest:PersistentLevel.BillTest' with GeneratedClass '/Game/FirstPersonBP/Maps/BillTest.BillTest_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/BillTest.BillTest:PersistentLevel.BillTest'
+[2018.12.05-03.44.55:406][477]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.12.05-03.44.55:407][477]PIE: New page: PIE session: BillTest (Dec 4, 2018, 5:44:55 PM)
+[2018.12.05-03.44.55:407][477]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_BillTest
+[2018.12.05-03.44.55:409][477]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002058s)
+[2018.12.05-03.44.55:410][477]LogAIModule: Creating AISystem for world BillTest
+[2018.12.05-03.44.55:410][477]LogPlayLevel: PIE: World Init took: (0.001248s)
+[2018.12.05-03.44.55:410][477]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/BillTest.BillTest to /Game/FirstPersonBP/Maps/UEDPIE_0_BillTest.BillTest (0.003524s)
+[2018.12.05-03.44.55:451][477]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.12.05-03.44.55:468][477]LogInit: FAudioDevice initialized.
+[2018.12.05-03.44.55:501][477]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.12.05-03.44.55:502][477]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_BillTest.BillTest up for play (max tick rate 60) at 2018.12.04-22.44.55
+[2018.12.05-03.44.55:502][477]LogWorld: Bringing up level for play took: 0.000587
+[2018.12.05-03.44.55:518][477]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_BillTest -0.572
+[2018.12.05-03.44.55:518][477]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/BillTest.BillTest:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/BillTest.BillTest:PersistentLevel.BillTest' with GeneratedClass '/Game/FirstPersonBP/Maps/BillTest.BillTest_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/BillTest.BillTest:PersistentLevel.BillTest'
+[2018.12.05-03.44.58:431][596]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/BillTest.BillTest:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/BillTest.BillTest:PersistentLevel.BillTest' with GeneratedClass '/Game/FirstPersonBP/Maps/BillTest.BillTest_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/BillTest.BillTest:PersistentLevel.BillTest'
+[2018.12.05-03.44.58:431][596]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.05-03.44.58:471][596]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.12.05-03.44.58:471][596]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/BillTest.BillTest:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/BillTest.BillTest:PersistentLevel.BillTest' with GeneratedClass '/Game/FirstPersonBP/Maps/BillTest.BillTest_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/BillTest.BillTest:PersistentLevel.BillTest'
+[2018.12.05-03.44.58:502][596]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.05-03.44.58:531][598]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2018.12.05-03.45.11:926][ 18]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.05-03.45.40:764][688]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.05-03.46.07:023][487]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/FirstPersonBP/Blueprints/FirstPersonGameMode.FirstPersonGameMode
+[2018.12.05-03.46.30:937][975]LogSlate: Window 'FirstPersonGameMode' being destroyed
+[2018.12.05-03.46.30:959][975]LogSlate: Window 'FirstPersonGameMode' being destroyed
+[2018.12.05-03.46.31:821][992]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.05-03.47.20:995][144]LogSlate: Window 'Pick Parent Class' being destroyed
+[2018.12.05-03.47.46:875][693]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/FirstPersonBP/Blueprints/BillGameMode.BillGameMode
+[2018.12.05-03.51.52:293][341]LogSlate: Window 'Tutorials' being destroyed
+[2018.12.05-03.53.20:502][363]LogSlate: Window 'Tutorials' being destroyed
+[2018.12.05-03.53.20:564][363]LogSlate: Window 'Tutorials' being destroyed
+[2018.12.05-03.54.43:376][684]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.12.05-03.55.30:998][776]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/BillTest' took 0.038
+[2018.12.05-03.55.31:001][776]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/FirstPersonBP/Blueprints/BillGameMode] ([1] browsable assets)...
+[2018.12.05-03.55.31:001][776]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Blueprints/BillGameMode]
+[2018.12.05-03.55.31:034][776]LogSavePackage: Moving '../../../../../../Users/frankj6/Documents/GameDevOne/TeamSadMen/TeamSadMen/TeamSadMen/Saved/BillGameMode_Auto1B2ED71C74DFE43922D3FD2A994B108CA.tmp' to '../../../../../../Users/frankj6/Documents/GameDevOne/TeamSadMen/TeamSadMen/TeamSadMen/Saved/Autosaves/Game/FirstPersonBP/Blueprints/BillGameMode_Auto1.uasset'
+[2018.12.05-03.55.31:038][776]LogFileHelpers: Auto-saving content packages took 0.038
+[2018.12.05-03.56.54:516][140]LogSavePackage: Moving '../../../../../../Users/frankj6/Documents/GameDevOne/TeamSadMen/TeamSadMen/TeamSadMen/Saved/BillGameMode7535581D4494FBE6A6F5D4AE20F287DB.tmp' to '../../../../../../Users/frankj6/Documents/GameDevOne/TeamSadMen/TeamSadMen/TeamSadMen/Content/FirstPersonBP/Blueprints/BillGameMode.uasset'
+[2018.12.05-03.58.07:714][925]LogSavePackage: Moving '../../../../../../Users/frankj6/Documents/GameDevOne/TeamSadMen/TeamSadMen/TeamSadMen/Saved/BillGameMode1B01A6F0400B3FB0B51B6E9C3E6E7B21.tmp' to '../../../../../../Users/frankj6/Documents/GameDevOne/TeamSadMen/TeamSadMen/TeamSadMen/Content/FirstPersonBP/Blueprints/BillGameMode.uasset'
+[2018.12.05-03.58.08:976][951]LogRenderer: Reallocating scene render targets to support 964x540 Format 10 NumSamples 1 (Frame:390).
+[2018.12.05-03.58.10:167][965]LogTemp: Repeating last play command: Selected Viewport
+[2018.12.05-03.58.10:272][965]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/BillTest.BillTest:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/BillTest.BillTest:PersistentLevel.BillTest' with GeneratedClass '/Game/FirstPersonBP/Maps/BillTest.BillTest_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/BillTest.BillTest:PersistentLevel.BillTest'
+[2018.12.05-03.58.10:272][965]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.12.05-03.58.10:275][965]LogPlayLevel: [PlayLevel] Compiling BillGameMode before play...
+[2018.12.05-03.58.10:471][965]LogPlayLevel: PlayLevel: Blueprint regeneration took 199 ms (1 blueprints)
+[2018.12.05-03.58.10:471][965]PIE: New page: PIE session: BillTest (Dec 4, 2018, 5:58:10 PM)
+[2018.12.05-03.58.10:471][965]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_BillTest
+[2018.12.05-03.58.10:473][965]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001451s)
+[2018.12.05-03.58.10:474][965]LogAIModule: Creating AISystem for world BillTest
+[2018.12.05-03.58.10:474][965]LogPlayLevel: PIE: World Init took: (0.001016s)
+[2018.12.05-03.58.10:474][965]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/BillTest.BillTest to /Game/FirstPersonBP/Maps/UEDPIE_0_BillTest.BillTest (0.002644s)
+[2018.12.05-03.58.10:545][965]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.12.05-03.58.10:570][965]LogInit: FAudioDevice initialized.
+[2018.12.05-03.58.10:608][965]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.12.05-03.58.10:610][965]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_BillTest.BillTest up for play (max tick rate 60) at 2018.12.04-22.58.10
+[2018.12.05-03.58.10:610][965]LogWorld: Bringing up level for play took: 0.000846
+[2018.12.05-03.58.10:626][965]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_BillTest 0.536
+[2018.12.05-03.58.10:626][965]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/BillTest.BillTest:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/BillTest.BillTest:PersistentLevel.BillTest' with GeneratedClass '/Game/FirstPersonBP/Maps/BillTest.BillTest_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/BillTest.BillTest:PersistentLevel.BillTest'
+[2018.12.05-03.58.15:453][123]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/BillTest.BillTest:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/BillTest.BillTest:PersistentLevel.BillTest' with GeneratedClass '/Game/FirstPersonBP/Maps/BillTest.BillTest_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/BillTest.BillTest:PersistentLevel.BillTest'
+[2018.12.05-03.58.15:453][123]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.05-03.58.15:502][123]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.12.05-03.58.15:502][123]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/BillTest.BillTest:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/BillTest.BillTest:PersistentLevel.BillTest' with GeneratedClass '/Game/FirstPersonBP/Maps/BillTest.BillTest_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/BillTest.BillTest:PersistentLevel.BillTest'
+[2018.12.05-03.58.15:534][123]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.05-03.58.15:569][125]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2018.12.05-03.58.22:116][271]BlueprintLog: New page: Compile BillGameMode
+[2018.12.05-03.58.25:806][337]LogTemp: Repeating last play command: Selected Viewport
+[2018.12.05-03.58.25:884][337]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/BillTest.BillTest:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/BillTest.BillTest:PersistentLevel.BillTest' with GeneratedClass '/Game/FirstPersonBP/Maps/BillTest.BillTest_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/BillTest.BillTest:PersistentLevel.BillTest'
+[2018.12.05-03.58.25:884][337]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.12.05-03.58.25:884][337]PIE: New page: PIE session: BillTest (Dec 4, 2018, 5:58:25 PM)
+[2018.12.05-03.58.25:884][337]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_BillTest
+[2018.12.05-03.58.25:886][337]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001087s)
+[2018.12.05-03.58.25:886][337]LogAIModule: Creating AISystem for world BillTest
+[2018.12.05-03.58.25:886][337]LogPlayLevel: PIE: World Init took: (0.000717s)
+[2018.12.05-03.58.25:886][337]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/BillTest.BillTest to /Game/FirstPersonBP/Maps/UEDPIE_0_BillTest.BillTest (0.001970s)
+[2018.12.05-03.58.25:922][337]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.12.05-03.58.25:940][337]LogInit: FAudioDevice initialized.
+[2018.12.05-03.58.25:980][337]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.12.05-03.58.25:981][337]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_BillTest.BillTest up for play (max tick rate 60) at 2018.12.04-22.58.25
+[2018.12.05-03.58.25:981][337]LogWorld: Bringing up level for play took: 0.000891
+[2018.12.05-03.58.25:996][337]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_BillTest -0.094
+[2018.12.05-03.58.25:996][337]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/BillTest.BillTest:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/BillTest.BillTest:PersistentLevel.BillTest' with GeneratedClass '/Game/FirstPersonBP/Maps/BillTest.BillTest_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/BillTest.BillTest:PersistentLevel.BillTest'
+[2018.12.05-03.58.27:556][389]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/BillTest.BillTest:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/BillTest.BillTest:PersistentLevel.BillTest' with GeneratedClass '/Game/FirstPersonBP/Maps/BillTest.BillTest_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/BillTest.BillTest:PersistentLevel.BillTest'
+[2018.12.05-03.58.27:556][389]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.05-03.58.27:601][389]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.12.05-03.58.27:601][389]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/BillTest.BillTest:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/BillTest.BillTest:PersistentLevel.BillTest' with GeneratedClass '/Game/FirstPersonBP/Maps/BillTest.BillTest_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/BillTest.BillTest:PersistentLevel.BillTest'
+[2018.12.05-03.58.27:636][389]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.05-03.58.27:670][391]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2018.12.05-03.58.36:797][554]LogSlate: Window 'BillGameMode' being destroyed
+[2018.12.05-03.58.36:814][554]LogSlate: Window 'BillGameMode' being destroyed
+[2018.12.05-03.58.40:256][657]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.12.05-03.58.43:101][787]LogTemp: Repeating last play command: Selected Viewport
+[2018.12.05-03.58.43:137][787]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/BillTest.BillTest:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/BillTest.BillTest:PersistentLevel.BillTest' with GeneratedClass '/Game/FirstPersonBP/Maps/BillTest.BillTest_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/BillTest.BillTest:PersistentLevel.BillTest'
+[2018.12.05-03.58.43:137][787]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.12.05-03.58.43:138][787]PIE: New page: PIE session: BillTest (Dec 4, 2018, 5:58:43 PM)
+[2018.12.05-03.58.43:138][787]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_BillTest
+[2018.12.05-03.58.43:139][787]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001054s)
+[2018.12.05-03.58.43:139][787]LogAIModule: Creating AISystem for world BillTest
+[2018.12.05-03.58.43:140][787]LogPlayLevel: PIE: World Init took: (0.000838s)
+[2018.12.05-03.58.43:140][787]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/BillTest.BillTest to /Game/FirstPersonBP/Maps/UEDPIE_0_BillTest.BillTest (0.002031s)
+[2018.12.05-03.58.43:185][787]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.12.05-03.58.43:202][787]LogInit: FAudioDevice initialized.
+[2018.12.05-03.58.43:232][787]LogLoad: Game class is 'BillGameMode_C'
+[2018.12.05-03.58.43:233][787]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_BillTest.BillTest up for play (max tick rate 60) at 2018.12.04-22.58.43
+[2018.12.05-03.58.43:233][787]LogWorld: Bringing up level for play took: 0.000632
+[2018.12.05-03.58.43:246][787]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_BillTest -0.844
+[2018.12.05-03.58.43:247][787]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/BillTest.BillTest:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/BillTest.BillTest:PersistentLevel.BillTest' with GeneratedClass '/Game/FirstPersonBP/Maps/BillTest.BillTest_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/BillTest.BillTest:PersistentLevel.BillTest'
+[2018.12.05-03.58.47:175][950]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/BillTest.BillTest:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/BillTest.BillTest:PersistentLevel.BillTest' with GeneratedClass '/Game/FirstPersonBP/Maps/BillTest.BillTest_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/BillTest.BillTest:PersistentLevel.BillTest'
+[2018.12.05-03.58.47:176][950]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.05-03.58.47:220][950]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.12.05-03.58.47:220][950]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/BillTest.BillTest:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/BillTest.BillTest:PersistentLevel.BillTest' with GeneratedClass '/Game/FirstPersonBP/Maps/BillTest.BillTest_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/BillTest.BillTest:PersistentLevel.BillTest'
+[2018.12.05-03.58.47:252][950]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.05-03.58.47:285][951]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2018.12.05-03.59.05:570][605]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.05-03.59.34:029][462]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.05-03.59.42:375][688]LogAssetEditorManager: Opening Asset editor for World /Game/FirstPersonBP/Maps/BillTest.BillTest
+[2018.12.05-03.59.44:794][688]LogSlate: Window 'Save Content' being destroyed
+[2018.12.05-03.59.45:166][688]LogSavePackage: Moving '../../../../../../Users/frankj6/Documents/GameDevOne/TeamSadMen/TeamSadMen/TeamSadMen/Saved/BillTest37D10DAE4FB81439007640BC93D76B5E.tmp' to '../../../../../../Users/frankj6/Documents/GameDevOne/TeamSadMen/TeamSadMen/TeamSadMen/Content/FirstPersonBP/Maps/BillTest.umap'
+[2018.12.05-03.59.45:210][688]LogFileHelpers: Saving map 'BillTest' took 0.406
+[2018.12.05-03.59.45:212][688]Cmd: MAP LOAD FILE="../../../../../../Users/frankj6/Documents/GameDevOne/TeamSadMen/TeamSadMen/TeamSadMen/Content/FirstPersonBP/Maps/BillTest.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.12.05-03.59.45:213][688]LightingResults: New page: Lighting Build
+[2018.12.05-03.59.45:213][688]LoadErrors: New page: Loading map: BillTest.umap
+[2018.12.05-03.59.45:214][688]MapCheck: New page: Map Check
+[2018.12.05-03.59.45:214][688]LightingResults: New page: Lighting Build
+[2018.12.05-03.59.45:251][688]LogAIModule: Creating AISystem for world BillTest
+[2018.12.05-03.59.45:317][688]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.12.05-03.59.45:380][688]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.12.05-03.59.45:490][688]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 109.893ms to complete.
+[2018.12.05-03.59.45:491][688]LogFileHelpers: Loading map 'BillTest' took 0.280
+[2018.12.05-03.59.51:348][866]LogAssetEditorManager: Opening Asset editor for World /Game/FirstPersonBP/Maps/BillTest.BillTest
+[2018.12.05-03.59.51:386][866]Cmd: MAP LOAD FILE="../../../../../../Users/frankj6/Documents/GameDevOne/TeamSadMen/TeamSadMen/TeamSadMen/Content/FirstPersonBP/Maps/BillTest.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.12.05-03.59.51:387][866]LightingResults: New page: Lighting Build
+[2018.12.05-03.59.51:388][866]LoadErrors: New page: Loading map: BillTest.umap
+[2018.12.05-03.59.51:389][866]MapCheck: New page: Map Check
+[2018.12.05-03.59.51:389][866]LightingResults: New page: Lighting Build
+[2018.12.05-03.59.51:426][866]LogAIModule: Creating AISystem for world BillTest
+[2018.12.05-03.59.51:490][866]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.12.05-03.59.51:556][866]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.12.05-03.59.51:685][866]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 128.91ms to complete.
+[2018.12.05-03.59.51:687][866]LogFileHelpers: Loading map 'BillTest' took 0.302
+[2018.12.05-03.59.59:190][ 93]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.12.05-03.59.59:942][114]LogAssetEditorManager: Opening Asset editor for LevelScriptBlueprint /Game/FirstPersonBP/Maps/BillTest.BillTest:PersistentLevel.BillTest
+[2018.12.05-04.09.53:450][515]LogTemp: Repeating last play command: Selected Viewport
+[2018.12.05-04.09.53:544][515]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/BillTest.BillTest:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/BillTest.BillTest:PersistentLevel.BillTest' with GeneratedClass '/Game/FirstPersonBP/Maps/BillTest.BillTest_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/BillTest.BillTest:PersistentLevel.BillTest'
+[2018.12.05-04.09.53:544][515]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.12.05-04.09.53:546][515]LogPlayLevel: [PlayLevel] Compiling BillTest before play...
+[2018.12.05-04.09.53:727][515]LogPlayLevel: PlayLevel: Blueprint regeneration took 183 ms (1 blueprints)
+[2018.12.05-04.09.53:727][515]PIE: New page: PIE session: BillTest (Dec 4, 2018, 6:09:53 PM)
+[2018.12.05-04.09.53:727][515]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_BillTest
+[2018.12.05-04.09.53:729][515]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001522s)
+[2018.12.05-04.09.53:730][515]LogAIModule: Creating AISystem for world BillTest
+[2018.12.05-04.09.53:730][515]LogPlayLevel: PIE: World Init took: (0.001227s)
+[2018.12.05-04.09.53:730][515]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/BillTest.BillTest to /Game/FirstPersonBP/Maps/UEDPIE_0_BillTest.BillTest (0.002924s)
+[2018.12.05-04.09.53:798][515]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.12.05-04.09.53:826][515]LogInit: FAudioDevice initialized.
+[2018.12.05-04.09.53:866][515]LogLoad: Game class is 'BillGameMode_C'
+[2018.12.05-04.09.53:867][515]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_BillTest.BillTest up for play (max tick rate 60) at 2018.12.04-23.09.53
+[2018.12.05-04.09.53:868][515]LogWorld: Bringing up level for play took: 0.000891
+[2018.12.05-04.09.53:883][515]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_BillTest -0.207
+[2018.12.05-04.09.53:883][515]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/BillTest.BillTest:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/BillTest.BillTest:PersistentLevel.BillTest' with GeneratedClass '/Game/FirstPersonBP/Maps/BillTest.BillTest_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/BillTest.BillTest:PersistentLevel.BillTest'
+[2018.12.05-04.10.03:151][879]LogSlate: Window 'BillTest* - Level Blueprint Editor' being destroyed
+[2018.12.05-04.10.03:163][879]LogSlate: Window 'BillTest* - Level Blueprint Editor' being destroyed
+[2018.12.05-04.10.06:081][  6]LogAssetEditorManager: Opening Asset editor for World /Game/FirstPersonBP/Maps/BillTest.BillTest
+[2018.12.05-04.10.07:554][  6]LogSlate: Window 'Save Content' being destroyed
+[2018.12.05-04.10.07:915][  6]LogSavePackage: Moving '../../../../../../Users/frankj6/Documents/GameDevOne/TeamSadMen/TeamSadMen/TeamSadMen/Saved/BillTest7DC3C7844FA5324E01FAF8B4D9C6148D.tmp' to '../../../../../../Users/frankj6/Documents/GameDevOne/TeamSadMen/TeamSadMen/TeamSadMen/Content/FirstPersonBP/Maps/BillTest.umap'
+[2018.12.05-04.10.07:963][  6]LogFileHelpers: Saving map 'BillTest' took 0.397
+[2018.12.05-04.10.09:380][  6]LogSlate: Window 'Message' being destroyed
+[2018.12.05-04.10.09:388][  6]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/BillTest.BillTest:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/BillTest.BillTest:PersistentLevel.BillTest' with GeneratedClass '/Game/FirstPersonBP/Maps/BillTest.BillTest_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/BillTest.BillTest:PersistentLevel.BillTest'
+[2018.12.05-04.10.09:389][  6]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.05-04.10.09:427][  6]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.12.05-04.10.09:427][  6]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/BillTest.BillTest:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/BillTest.BillTest:PersistentLevel.BillTest' with GeneratedClass '/Game/FirstPersonBP/Maps/BillTest.BillTest_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/BillTest.BillTest:PersistentLevel.BillTest'
+[2018.12.05-04.10.09:460][  6]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.05-04.10.09:469][  6]Cmd: MAP LOAD FILE="../../../../../../Users/frankj6/Documents/GameDevOne/TeamSadMen/TeamSadMen/TeamSadMen/Content/FirstPersonBP/Maps/BillTest.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.12.05-04.10.09:482][  6]LightingResults: New page: Lighting Build
+[2018.12.05-04.10.09:483][  6]LoadErrors: New page: Loading map: BillTest.umap
+[2018.12.05-04.10.09:483][  6]MapCheck: New page: Map Check
+[2018.12.05-04.10.09:483][  6]LightingResults: New page: Lighting Build
+[2018.12.05-04.10.09:527][  6]LogAIModule: Creating AISystem for world BillTest
+[2018.12.05-04.10.09:594][  6]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.12.05-04.10.09:662][  6]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.12.05-04.10.09:781][  6]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 118.268ms to complete.
+[2018.12.05-04.10.09:781][  6]LogFileHelpers: Loading map 'BillTest' took 1.818
+[2018.12.05-04.10.09:854][  7]LogPlayLevel: Display: Destroying online subsystem :Context_24
+[2018.12.05-04.10.11:420][ 62]LogTemp: Repeating last play command: Selected Viewport
+[2018.12.05-04.10.11:439][ 62]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/BillTest.BillTest:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/BillTest.BillTest:PersistentLevel.BillTest' with GeneratedClass '/Game/FirstPersonBP/Maps/BillTest.BillTest_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/BillTest.BillTest:PersistentLevel.BillTest'
+[2018.12.05-04.10.11:439][ 62]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.12.05-04.10.11:439][ 62]PIE: New page: PIE session: BillTest (Dec 4, 2018, 6:10:11 PM)
+[2018.12.05-04.10.11:439][ 62]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_BillTest
+[2018.12.05-04.10.11:441][ 62]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001220s)
+[2018.12.05-04.10.11:441][ 62]LogAIModule: Creating AISystem for world BillTest
+[2018.12.05-04.10.11:442][ 62]LogPlayLevel: PIE: World Init took: (0.000756s)
+[2018.12.05-04.10.11:442][ 62]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/BillTest.BillTest to /Game/FirstPersonBP/Maps/UEDPIE_0_BillTest.BillTest (0.002148s)
+[2018.12.05-04.10.11:472][ 62]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.12.05-04.10.11:488][ 62]LogInit: FAudioDevice initialized.
+[2018.12.05-04.10.11:520][ 62]LogLoad: Game class is 'BillGameMode_C'
+[2018.12.05-04.10.11:521][ 62]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_BillTest.BillTest up for play (max tick rate 60) at 2018.12.04-23.10.11
+[2018.12.05-04.10.11:521][ 62]LogWorld: Bringing up level for play took: 0.000580
+[2018.12.05-04.10.11:534][ 62]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_BillTest -0.556
+[2018.12.05-04.10.11:534][ 62]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/BillTest.BillTest:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/BillTest.BillTest:PersistentLevel.BillTest' with GeneratedClass '/Game/FirstPersonBP/Maps/BillTest.BillTest_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/BillTest.BillTest:PersistentLevel.BillTest'
+[2018.12.05-04.10.15:049][214]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/BillTest.BillTest:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/BillTest.BillTest:PersistentLevel.BillTest' with GeneratedClass '/Game/FirstPersonBP/Maps/BillTest.BillTest_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/BillTest.BillTest:PersistentLevel.BillTest'
+[2018.12.05-04.10.15:049][214]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.05-04.10.15:089][214]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.12.05-04.10.15:089][214]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/BillTest.BillTest:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/BillTest.BillTest:PersistentLevel.BillTest' with GeneratedClass '/Game/FirstPersonBP/Maps/BillTest.BillTest_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/BillTest.BillTest:PersistentLevel.BillTest'
+[2018.12.05-04.10.15:119][214]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.05-04.10.15:149][216]LogPlayLevel: Display: Destroying online subsystem :Context_25
+[2018.12.05-04.10.29:967][722]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.05-04.10.30:204][722]LogSavePackage: Moving '../../../../../../Users/frankj6/Documents/GameDevOne/TeamSadMen/TeamSadMen/TeamSadMen/Saved/BillTest3E9BF34443A555B3F0745094EE1A50E6.tmp' to '../../../../../../Users/frankj6/Documents/GameDevOne/TeamSadMen/TeamSadMen/TeamSadMen/Content/FirstPersonBP/Maps/BillTest.umap'
