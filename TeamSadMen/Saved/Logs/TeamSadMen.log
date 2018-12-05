@@ -1772,3 +1772,440 @@ LogInit: Object subsystem initialized
 [2018.12.05-19.53.22:688][172]OBJ SavePackage: Finished generating thumbnails for package [/Game/AlexWPizzaStuff/OrderObject]
 [2018.12.05-19.53.22:753][172]LogSavePackage: Moving '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Saved/OrderObject_Auto7F58AA4D2447196A7F4ECFCA2BFE5D1B2.tmp' to '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Saved/Autosaves/Game/AlexWPizzaStuff/OrderObject_Auto7.uasset'
 [2018.12.05-19.53.22:757][172]LogFileHelpers: Auto-saving content packages took 0.252
+[2018.12.05-20.12.00:583][754]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/AlexWPizzaStuff/real_sausage_tester.real_sausage_tester
+[2018.12.05-20.12.09:810][270]LogSavePackage: Moving '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Saved/real_sausage_tester58D9A1694B97C310219A46B353CE6C40.tmp' to '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Content/AlexWPizzaStuff/real_sausage_tester.uasset'
+[2018.12.05-20.12.12:794][448]LogEditorViewport: Clicking on Actor (LMB): real_pepperoni_tester_C (real_pepperoni_tester)
+[2018.12.05-20.12.18:428][775]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.05-20.12.27:080][281]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.05-20.12.27:247][291]LogTemp: Repeating last play command: Selected Viewport
+[2018.12.05-20.12.27:280][291]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.12.05-20.12.27:280][291]PIE: New page: PIE session: PizzaTester (Dec 5, 2018, 10:12:27 AM)
+[2018.12.05-20.12.27:280][291]LogPlayLevel: Creating play world package: /Game/AlexWPizzaStuff/UEDPIE_0_PizzaTester
+[2018.12.05-20.12.27:293][291]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012792s)
+[2018.12.05-20.12.27:293][291]LogAIModule: Creating AISystem for world PizzaTester
+[2018.12.05-20.12.27:294][291]LogPlayLevel: PIE: World Init took: (0.000814s)
+[2018.12.05-20.12.27:294][291]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/AlexWPizzaStuff/PizzaTester.PizzaTester to /Game/AlexWPizzaStuff/UEDPIE_0_PizzaTester.PizzaTester (0.013732s)
+[2018.12.05-20.12.27:343][291]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.12.05-20.12.27:377][291]LogInit: FAudioDevice initialized.
+[2018.12.05-20.12.27:412][291]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.12.05-20.12.27:416][291]LogWorld: Bringing World /Game/AlexWPizzaStuff/UEDPIE_0_PizzaTester.PizzaTester up for play (max tick rate 60) at 2018.12.05-15.12.27
+[2018.12.05-20.12.27:416][291]LogWorld: Bringing up level for play took: 0.002968
+[2018.12.05-20.12.27:431][291]PIE: Play in editor start time for /Game/AlexWPizzaStuff/UEDPIE_0_PizzaTester -0.495
+[2018.12.05-20.12.27:725][308]LogBlueprintUserMessages: [Pizza_scripting_9] Sauce
+[2018.12.05-20.12.27:725][308]LogScript: Warning: Script Msg: Attempted to access index -1 from array 'AddedIngredientModels' of length 1 in '/Game/AlexWPizzaStuff/Pizza_scripting.Pizza_scripting_C'!
+[2018.12.05-20.12.27:725][308]LogScript: Warning: UGameplayStatics::BeginSpawningActorFromClass: can not spawn an actor from a NULL class
+[2018.12.05-20.12.27:725][308]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue". Blueprint:  Pizza_scripting Function:  Execute Ubergraph Pizza Scripting Graph:  EventGraph Node:  AttachToActor
+[2018.12.05-20.12.27:725][308]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue". Blueprint:  Pizza_scripting Function:  Execute Ubergraph Pizza Scripting Graph:  EventGraph Node:  SetActorRelativeLocation
+[2018.12.05-20.12.27:725][308]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue". Blueprint:  Pizza_scripting Function:  Execute Ubergraph Pizza Scripting Graph:  EventGraph Node:  SetActorRotation
+[2018.12.05-20.12.28:058][328]LogBlueprintUserMessages: [Pizza_scripting_9] Sauce
+[2018.12.05-20.12.28:058][328]LogBlueprintUserMessages: [Pizza_scripting_9] Cheese
+[2018.12.05-20.12.28:058][328]LogScript: Warning: Script Msg: Attempted to access index -1 from array 'AddedIngredientModels' of length 1 in '/Game/AlexWPizzaStuff/Pizza_scripting.Pizza_scripting_C'!
+[2018.12.05-20.12.28:058][328]LogScript: Warning: UGameplayStatics::BeginSpawningActorFromClass: can not spawn an actor from a NULL class
+[2018.12.05-20.12.28:059][328]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue". Blueprint:  Pizza_scripting Function:  Execute Ubergraph Pizza Scripting Graph:  EventGraph Node:  AttachToActor
+[2018.12.05-20.12.28:059][328]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue". Blueprint:  Pizza_scripting Function:  Execute Ubergraph Pizza Scripting Graph:  EventGraph Node:  SetActorRelativeLocation
+[2018.12.05-20.12.28:059][328]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue". Blueprint:  Pizza_scripting Function:  Execute Ubergraph Pizza Scripting Graph:  EventGraph Node:  SetActorRotation
+[2018.12.05-20.12.28:328][344]LogBlueprintUserMessages: [Pizza_scripting_9] Sauce
+[2018.12.05-20.12.28:329][344]LogBlueprintUserMessages: [Pizza_scripting_9] Cheese
+[2018.12.05-20.12.28:329][344]LogBlueprintUserMessages: [Pizza_scripting_9] Sausage
+[2018.12.05-20.12.28:329][344]LogScript: Warning: Script Msg: Attempted to access index -1 from array 'AddedIngredientModels' of length 1 in '/Game/AlexWPizzaStuff/Pizza_scripting.Pizza_scripting_C'!
+[2018.12.05-20.12.28:329][344]LogScript: Warning: UGameplayStatics::BeginSpawningActorFromClass: can not spawn an actor from a NULL class
+[2018.12.05-20.12.28:329][344]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue". Blueprint:  Pizza_scripting Function:  Execute Ubergraph Pizza Scripting Graph:  EventGraph Node:  AttachToActor
+[2018.12.05-20.12.28:329][344]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue". Blueprint:  Pizza_scripting Function:  Execute Ubergraph Pizza Scripting Graph:  EventGraph Node:  SetActorRelativeLocation
+[2018.12.05-20.12.28:329][344]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue". Blueprint:  Pizza_scripting Function:  Execute Ubergraph Pizza Scripting Graph:  EventGraph Node:  SetActorRotation
+[2018.12.05-20.12.28:460][352]LogBlueprintUserMessages: [Pizza_scripting_9] Sauce
+[2018.12.05-20.12.28:460][352]LogBlueprintUserMessages: [Pizza_scripting_9] Cheese
+[2018.12.05-20.12.28:460][352]LogBlueprintUserMessages: [Pizza_scripting_9] Sausage
+[2018.12.05-20.12.28:460][352]LogBlueprintUserMessages: [Pizza_scripting_9] Pepperoni
+[2018.12.05-20.12.38:598][943]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Tags' of length 0 in '/Script/Engine.Actor'!
+[2018.12.05-20.12.38:598][943]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Tags' of length 0 in '/Script/Engine.Actor'!
+[2018.12.05-20.12.38:598][943]LogBlueprintUserMessages: [Pizza_scripting_9] None
+[2018.12.05-20.12.38:598][943]LogBlueprintUserMessages: [CheckOrderCorrectness_4] Sausage
+[2018.12.05-20.12.38:598][943]LogBlueprintUserMessages: [CheckOrderCorrectness_4] Ingredient List Still Has 4
+[2018.12.05-20.12.38:598][943]LogBlueprintUserMessages: [CheckOrderCorrectness_4] Pizza is correct
+[2018.12.05-20.12.41:532][119]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Tags' of length 0 in '/Script/Engine.Actor'!
+[2018.12.05-20.12.41:532][119]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Tags' of length 0 in '/Script/Engine.Actor'!
+[2018.12.05-20.12.41:532][119]LogBlueprintUserMessages: [Pizza_scripting_9] None
+[2018.12.05-20.12.41:532][119]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Orders' of length 0 in '/Game/AlexWPizzaStuff/CheckOrderCorrectness.CheckOrderCorrectness_C'!
+[2018.12.05-20.12.41:532][119]LogScript: Warning: Accessed None trying to read property CallFunc_Array_Get_Item4
+	CheckOrderCorrectness_C /Game/AlexWPizzaStuff/UEDPIE_0_PizzaTester.PizzaTester:PersistentLevel.CheckOrderCorrectness_4
+	Function /Game/AlexWPizzaStuff/CheckOrderCorrectness.CheckOrderCorrectness_C:ExecuteUbergraph_CheckOrderCorrectness:0B6E
+[2018.12.05-20.12.41:532][119]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Array_Get_Item4". Blueprint:  CheckOrderCorrectness Function:  Execute Ubergraph Check Order Correctness Graph:  EventGraph Node:  Get Ingredient List
+[2018.12.05-20.12.41:532][119]LogBlueprintUserMessages: [CheckOrderCorrectness_4] Sausage
+[2018.12.05-20.12.41:532][119]LogBlueprintUserMessages: [CheckOrderCorrectness_4] Ingredient List Still Has 4
+[2018.12.05-20.12.41:532][119]LogScript: Warning: Script Msg: Attempted to remove an item from an invalid index from array Orders [0/0]!
+[2018.12.05-20.12.41:532][119]LogBlueprintUserMessages: [CheckOrderCorrectness_4] Pizza is correct
+[2018.12.05-20.12.44:315][286]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Tags' of length 0 in '/Script/Engine.Actor'!
+[2018.12.05-20.12.44:315][286]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Tags' of length 0 in '/Script/Engine.Actor'!
+[2018.12.05-20.12.44:315][286]LogBlueprintUserMessages: [Pizza_scripting_9] None
+[2018.12.05-20.12.44:315][286]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Orders' of length 0 in '/Game/AlexWPizzaStuff/CheckOrderCorrectness.CheckOrderCorrectness_C'!
+[2018.12.05-20.12.44:315][286]LogScript: Warning: Accessed None trying to read property CallFunc_Array_Get_Item4
+	CheckOrderCorrectness_C /Game/AlexWPizzaStuff/UEDPIE_0_PizzaTester.PizzaTester:PersistentLevel.CheckOrderCorrectness_4
+	Function /Game/AlexWPizzaStuff/CheckOrderCorrectness.CheckOrderCorrectness_C:ExecuteUbergraph_CheckOrderCorrectness:0B6E
+[2018.12.05-20.12.44:315][286]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Array_Get_Item4". Blueprint:  CheckOrderCorrectness Function:  Execute Ubergraph Check Order Correctness Graph:  EventGraph Node:  Get Ingredient List
+[2018.12.05-20.12.44:315][286]LogBlueprintUserMessages: [CheckOrderCorrectness_4] Sausage
+[2018.12.05-20.12.44:315][286]LogBlueprintUserMessages: [CheckOrderCorrectness_4] Ingredient List Still Has 4
+[2018.12.05-20.12.44:315][286]LogScript: Warning: Script Msg: Attempted to remove an item from an invalid index from array Orders [0/0]!
+[2018.12.05-20.12.44:315][286]LogBlueprintUserMessages: [CheckOrderCorrectness_4] Pizza is correct
+[2018.12.05-20.12.46:732][431]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Tags' of length 0 in '/Script/Engine.Actor'!
+[2018.12.05-20.12.46:732][431]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Tags' of length 0 in '/Script/Engine.Actor'!
+[2018.12.05-20.12.46:732][431]LogBlueprintUserMessages: [Pizza_scripting_9] None
+[2018.12.05-20.12.46:732][431]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Orders' of length 0 in '/Game/AlexWPizzaStuff/CheckOrderCorrectness.CheckOrderCorrectness_C'!
+[2018.12.05-20.12.46:732][431]LogScript: Warning: Accessed None trying to read property CallFunc_Array_Get_Item4
+	CheckOrderCorrectness_C /Game/AlexWPizzaStuff/UEDPIE_0_PizzaTester.PizzaTester:PersistentLevel.CheckOrderCorrectness_4
+	Function /Game/AlexWPizzaStuff/CheckOrderCorrectness.CheckOrderCorrectness_C:ExecuteUbergraph_CheckOrderCorrectness:0B6E
+[2018.12.05-20.12.46:732][431]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Array_Get_Item4". Blueprint:  CheckOrderCorrectness Function:  Execute Ubergraph Check Order Correctness Graph:  EventGraph Node:  Get Ingredient List
+[2018.12.05-20.12.46:732][431]LogBlueprintUserMessages: [CheckOrderCorrectness_4] Sausage
+[2018.12.05-20.12.46:732][431]LogBlueprintUserMessages: [CheckOrderCorrectness_4] Ingredient List Still Has 4
+[2018.12.05-20.12.46:732][431]LogScript: Warning: Script Msg: Attempted to remove an item from an invalid index from array Orders [0/0]!
+[2018.12.05-20.12.46:732][431]LogBlueprintUserMessages: [CheckOrderCorrectness_4] Pizza is correct
+[2018.12.05-20.12.49:950][624]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Tags' of length 0 in '/Script/Engine.Actor'!
+[2018.12.05-20.12.49:950][624]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Tags' of length 0 in '/Script/Engine.Actor'!
+[2018.12.05-20.12.49:950][624]LogBlueprintUserMessages: [Pizza_scripting_9] None
+[2018.12.05-20.12.49:950][624]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Orders' of length 0 in '/Game/AlexWPizzaStuff/CheckOrderCorrectness.CheckOrderCorrectness_C'!
+[2018.12.05-20.12.49:950][624]LogScript: Warning: Accessed None trying to read property CallFunc_Array_Get_Item4
+	CheckOrderCorrectness_C /Game/AlexWPizzaStuff/UEDPIE_0_PizzaTester.PizzaTester:PersistentLevel.CheckOrderCorrectness_4
+	Function /Game/AlexWPizzaStuff/CheckOrderCorrectness.CheckOrderCorrectness_C:ExecuteUbergraph_CheckOrderCorrectness:0B6E
+[2018.12.05-20.12.49:951][624]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Array_Get_Item4". Blueprint:  CheckOrderCorrectness Function:  Execute Ubergraph Check Order Correctness Graph:  EventGraph Node:  Get Ingredient List
+[2018.12.05-20.12.49:951][624]LogBlueprintUserMessages: [CheckOrderCorrectness_4] Sausage
+[2018.12.05-20.12.49:951][624]LogBlueprintUserMessages: [CheckOrderCorrectness_4] Ingredient List Still Has 4
+[2018.12.05-20.12.49:951][624]LogScript: Warning: Script Msg: Attempted to remove an item from an invalid index from array Orders [0/0]!
+[2018.12.05-20.12.49:951][624]LogBlueprintUserMessages: [CheckOrderCorrectness_4] Pizza is correct
+[2018.12.05-20.12.50:101][633]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Tags' of length 0 in '/Script/Engine.Actor'!
+[2018.12.05-20.12.50:101][633]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Tags' of length 0 in '/Script/Engine.Actor'!
+[2018.12.05-20.12.50:101][633]LogBlueprintUserMessages: [Pizza_scripting_9] None
+[2018.12.05-20.12.50:101][633]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Orders' of length 0 in '/Game/AlexWPizzaStuff/CheckOrderCorrectness.CheckOrderCorrectness_C'!
+[2018.12.05-20.12.50:101][633]LogScript: Warning: Accessed None trying to read property CallFunc_Array_Get_Item4
+	CheckOrderCorrectness_C /Game/AlexWPizzaStuff/UEDPIE_0_PizzaTester.PizzaTester:PersistentLevel.CheckOrderCorrectness_4
+	Function /Game/AlexWPizzaStuff/CheckOrderCorrectness.CheckOrderCorrectness_C:ExecuteUbergraph_CheckOrderCorrectness:0B6E
+[2018.12.05-20.12.50:101][633]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Array_Get_Item4". Blueprint:  CheckOrderCorrectness Function:  Execute Ubergraph Check Order Correctness Graph:  EventGraph Node:  Get Ingredient List
+[2018.12.05-20.12.50:102][633]LogBlueprintUserMessages: [CheckOrderCorrectness_4] Sausage
+[2018.12.05-20.12.50:102][633]LogBlueprintUserMessages: [CheckOrderCorrectness_4] Ingredient List Still Has 4
+[2018.12.05-20.12.50:102][633]LogScript: Warning: Script Msg: Attempted to remove an item from an invalid index from array Orders [0/0]!
+[2018.12.05-20.12.50:102][633]LogBlueprintUserMessages: [CheckOrderCorrectness_4] Pizza is correct
+[2018.12.05-20.12.54:141][871]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.05-20.12.58:140][106]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.05-20.12.58:199][106]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.12.05-20.12.58:246][106]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.05-20.12.58:324][107]LogPlayLevel: Display: Destroying online subsystem :Context_36
+[2018.12.05-20.13.40:819][633]LogSavePackage: Moving '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Saved/PizzaTester_Auto8E5A9338042906B66ADF52C8FF4469C62.tmp' to '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Saved/Autosaves/Game/AlexWPizzaStuff/PizzaTester_Auto8.umap'
+[2018.12.05-20.13.40:828][633]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/AlexWPizzaStuff/PizzaTester' took 0.289
+[2018.12.05-20.13.40:828][633]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.289
+[2018.12.05-20.13.40:832][633]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/AlexWPizzaStuff/CheckOrderCorrectness] ([1] browsable assets)...
+[2018.12.05-20.13.40:832][633]OBJ SavePackage: Finished generating thumbnails for package [/Game/AlexWPizzaStuff/CheckOrderCorrectness]
+[2018.12.05-20.13.40:905][633]LogSavePackage: Moving '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Saved/CheckOrderCorrectness_Auto8E36F49FE482CE9CEBD5D79A381EA6980.tmp' to '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Saved/Autosaves/Game/AlexWPizzaStuff/CheckOrderCorrectness_Auto8.uasset'
+[2018.12.05-20.13.40:908][633]LogFileHelpers: Auto-saving content packages took 0.078
+[2018.12.05-20.13.57:253][608]BlueprintLog: New page: Compile CheckOrderCorrectness
+[2018.12.05-20.14.02:338][896]LogTemp: Repeating last play command: Selected Viewport
+[2018.12.05-20.14.02:396][896]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.12.05-20.14.02:396][896]PIE: New page: PIE session: PizzaTester (Dec 5, 2018, 10:14:02 AM)
+[2018.12.05-20.14.02:396][896]LogPlayLevel: Creating play world package: /Game/AlexWPizzaStuff/UEDPIE_0_PizzaTester
+[2018.12.05-20.14.02:408][896]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011462s)
+[2018.12.05-20.14.02:409][896]LogAIModule: Creating AISystem for world PizzaTester
+[2018.12.05-20.14.02:409][896]LogPlayLevel: PIE: World Init took: (0.000889s)
+[2018.12.05-20.14.02:409][896]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/AlexWPizzaStuff/PizzaTester.PizzaTester to /Game/AlexWPizzaStuff/UEDPIE_0_PizzaTester.PizzaTester (0.012538s)
+[2018.12.05-20.14.02:456][896]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.12.05-20.14.02:484][896]LogInit: FAudioDevice initialized.
+[2018.12.05-20.14.02:519][896]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.12.05-20.14.02:523][896]LogWorld: Bringing World /Game/AlexWPizzaStuff/UEDPIE_0_PizzaTester.PizzaTester up for play (max tick rate 60) at 2018.12.05-15.14.02
+[2018.12.05-20.14.02:523][896]LogWorld: Bringing up level for play took: 0.002862
+[2018.12.05-20.14.02:539][896]PIE: Play in editor start time for /Game/AlexWPizzaStuff/UEDPIE_0_PizzaTester 0.613
+[2018.12.05-20.14.02:831][913]LogBlueprintUserMessages: [Pizza_scripting_9] Sauce
+[2018.12.05-20.14.02:831][913]LogScript: Warning: Script Msg: Attempted to access index -1 from array 'AddedIngredientModels' of length 1 in '/Game/AlexWPizzaStuff/Pizza_scripting.Pizza_scripting_C'!
+[2018.12.05-20.14.02:831][913]LogScript: Warning: UGameplayStatics::BeginSpawningActorFromClass: can not spawn an actor from a NULL class
+[2018.12.05-20.14.02:831][913]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue". Blueprint:  Pizza_scripting Function:  Execute Ubergraph Pizza Scripting Graph:  EventGraph Node:  AttachToActor
+[2018.12.05-20.14.02:831][913]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue". Blueprint:  Pizza_scripting Function:  Execute Ubergraph Pizza Scripting Graph:  EventGraph Node:  SetActorRelativeLocation
+[2018.12.05-20.14.02:831][913]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue". Blueprint:  Pizza_scripting Function:  Execute Ubergraph Pizza Scripting Graph:  EventGraph Node:  SetActorRotation
+[2018.12.05-20.14.03:165][933]LogBlueprintUserMessages: [Pizza_scripting_9] Sauce
+[2018.12.05-20.14.03:165][933]LogBlueprintUserMessages: [Pizza_scripting_9] Cheese
+[2018.12.05-20.14.03:165][933]LogScript: Warning: Script Msg: Attempted to access index -1 from array 'AddedIngredientModels' of length 1 in '/Game/AlexWPizzaStuff/Pizza_scripting.Pizza_scripting_C'!
+[2018.12.05-20.14.03:165][933]LogScript: Warning: UGameplayStatics::BeginSpawningActorFromClass: can not spawn an actor from a NULL class
+[2018.12.05-20.14.03:165][933]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue". Blueprint:  Pizza_scripting Function:  Execute Ubergraph Pizza Scripting Graph:  EventGraph Node:  AttachToActor
+[2018.12.05-20.14.03:165][933]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue". Blueprint:  Pizza_scripting Function:  Execute Ubergraph Pizza Scripting Graph:  EventGraph Node:  SetActorRelativeLocation
+[2018.12.05-20.14.03:165][933]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue". Blueprint:  Pizza_scripting Function:  Execute Ubergraph Pizza Scripting Graph:  EventGraph Node:  SetActorRotation
+[2018.12.05-20.14.03:432][949]LogBlueprintUserMessages: [Pizza_scripting_9] Sauce
+[2018.12.05-20.14.03:432][949]LogBlueprintUserMessages: [Pizza_scripting_9] Cheese
+[2018.12.05-20.14.03:432][949]LogBlueprintUserMessages: [Pizza_scripting_9] Sausage
+[2018.12.05-20.14.03:432][949]LogScript: Warning: Script Msg: Attempted to access index -1 from array 'AddedIngredientModels' of length 1 in '/Game/AlexWPizzaStuff/Pizza_scripting.Pizza_scripting_C'!
+[2018.12.05-20.14.03:432][949]LogScript: Warning: UGameplayStatics::BeginSpawningActorFromClass: can not spawn an actor from a NULL class
+[2018.12.05-20.14.03:432][949]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue". Blueprint:  Pizza_scripting Function:  Execute Ubergraph Pizza Scripting Graph:  EventGraph Node:  AttachToActor
+[2018.12.05-20.14.03:432][949]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue". Blueprint:  Pizza_scripting Function:  Execute Ubergraph Pizza Scripting Graph:  EventGraph Node:  SetActorRelativeLocation
+[2018.12.05-20.14.03:432][949]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue". Blueprint:  Pizza_scripting Function:  Execute Ubergraph Pizza Scripting Graph:  EventGraph Node:  SetActorRotation
+[2018.12.05-20.14.03:582][958]LogBlueprintUserMessages: [Pizza_scripting_9] Sauce
+[2018.12.05-20.14.03:582][958]LogBlueprintUserMessages: [Pizza_scripting_9] Cheese
+[2018.12.05-20.14.03:582][958]LogBlueprintUserMessages: [Pizza_scripting_9] Sausage
+[2018.12.05-20.14.03:582][958]LogBlueprintUserMessages: [Pizza_scripting_9] Pepperoni
+[2018.12.05-20.14.11:348][416]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Tags' of length 0 in '/Script/Engine.Actor'!
+[2018.12.05-20.14.11:348][416]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Tags' of length 0 in '/Script/Engine.Actor'!
+[2018.12.05-20.14.11:348][416]LogBlueprintUserMessages: [Pizza_scripting_9] None
+[2018.12.05-20.14.11:348][416]LogBlueprintUserMessages: [CheckOrderCorrectness_4] Sausage
+[2018.12.05-20.14.11:348][416]LogBlueprintUserMessages: [CheckOrderCorrectness_4] Ingredient List Still Has 4, pizza is wrong
+[2018.12.05-20.14.13:332][535]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Tags' of length 0 in '/Script/Engine.Actor'!
+[2018.12.05-20.14.13:332][535]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Tags' of length 0 in '/Script/Engine.Actor'!
+[2018.12.05-20.14.13:332][535]LogBlueprintUserMessages: [Pizza_scripting_9] None
+[2018.12.05-20.14.13:332][535]LogBlueprintUserMessages: [CheckOrderCorrectness_4] Sausage
+[2018.12.05-20.14.13:332][535]LogBlueprintUserMessages: [CheckOrderCorrectness_4] Ingredient List Still Has 4, pizza is wrong
+[2018.12.05-20.14.14:184][586]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Tags' of length 0 in '/Script/Engine.Actor'!
+[2018.12.05-20.14.14:184][586]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Tags' of length 0 in '/Script/Engine.Actor'!
+[2018.12.05-20.14.14:184][586]LogBlueprintUserMessages: [Pizza_scripting_9] None
+[2018.12.05-20.14.14:184][586]LogBlueprintUserMessages: [CheckOrderCorrectness_4] Sausage
+[2018.12.05-20.14.14:184][586]LogBlueprintUserMessages: [CheckOrderCorrectness_4] Ingredient List Still Has 4, pizza is wrong
+[2018.12.05-20.14.18:027][812]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.05-20.14.18:198][822]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.05-20.14.18:243][822]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.12.05-20.14.18:285][822]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.05-20.14.18:317][823]LogPlayLevel: Display: Destroying online subsystem :Context_37
+[2018.12.05-20.15.05:581][648]LogEditorViewport: Clicking on Actor (LMB): real_sauce_tester_C (real_sauce_tester)
+[2018.12.05-20.15.06:506][700]LogEditorViewport: Clicking on Actor (LMB): real_cheese_tester_C (real_cheese_tester)
+[2018.12.05-20.15.07:575][761]LogEditorViewport: Clicking on Actor (LMB): real_sausage_tester_C (real_sausage_tester)
+[2018.12.05-20.15.09:846][894]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.05-20.15.25:292][820]LogTemp: Repeating last play command: Selected Viewport
+[2018.12.05-20.15.25:333][820]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.12.05-20.15.25:354][820]LogPlayLevel: [PlayLevel] Compiling CheckOrderCorrectness before play...
+[2018.12.05-20.15.25:583][820]LogPlayLevel: PlayLevel: Blueprint regeneration took 249 ms (1 blueprints)
+[2018.12.05-20.15.25:584][820]PIE: New page: PIE session: PizzaTester (Dec 5, 2018, 10:15:25 AM)
+[2018.12.05-20.15.25:585][820]LogPlayLevel: Creating play world package: /Game/AlexWPizzaStuff/UEDPIE_0_PizzaTester
+[2018.12.05-20.15.25:600][820]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015247s)
+[2018.12.05-20.15.25:601][820]LogAIModule: Creating AISystem for world PizzaTester
+[2018.12.05-20.15.25:601][820]LogPlayLevel: PIE: World Init took: (0.000923s)
+[2018.12.05-20.15.25:601][820]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/AlexWPizzaStuff/PizzaTester.PizzaTester to /Game/AlexWPizzaStuff/UEDPIE_0_PizzaTester.PizzaTester (0.016358s)
+[2018.12.05-20.15.25:646][820]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.12.05-20.15.25:671][820]LogInit: FAudioDevice initialized.
+[2018.12.05-20.15.25:706][820]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.12.05-20.15.25:710][820]LogWorld: Bringing World /Game/AlexWPizzaStuff/UEDPIE_0_PizzaTester.PizzaTester up for play (max tick rate 60) at 2018.12.05-15.15.25
+[2018.12.05-20.15.25:710][820]LogWorld: Bringing up level for play took: 0.002688
+[2018.12.05-20.15.25:725][820]PIE: Play in editor start time for /Game/AlexWPizzaStuff/UEDPIE_0_PizzaTester -0.201
+[2018.12.05-20.15.26:012][837]LogBlueprintUserMessages: [Pizza_scripting_9] Sauce
+[2018.12.05-20.15.26:012][837]LogScript: Warning: Script Msg: Attempted to access index -1 from array 'AddedIngredientModels' of length 1 in '/Game/AlexWPizzaStuff/Pizza_scripting.Pizza_scripting_C'!
+[2018.12.05-20.15.26:012][837]LogScript: Warning: UGameplayStatics::BeginSpawningActorFromClass: can not spawn an actor from a NULL class
+[2018.12.05-20.15.26:012][837]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue". Blueprint:  Pizza_scripting Function:  Execute Ubergraph Pizza Scripting Graph:  EventGraph Node:  AttachToActor
+[2018.12.05-20.15.26:012][837]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue". Blueprint:  Pizza_scripting Function:  Execute Ubergraph Pizza Scripting Graph:  EventGraph Node:  SetActorRelativeLocation
+[2018.12.05-20.15.26:012][837]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue". Blueprint:  Pizza_scripting Function:  Execute Ubergraph Pizza Scripting Graph:  EventGraph Node:  SetActorRotation
+[2018.12.05-20.15.26:345][857]LogBlueprintUserMessages: [Pizza_scripting_9] Sauce
+[2018.12.05-20.15.26:345][857]LogBlueprintUserMessages: [Pizza_scripting_9] Cheese
+[2018.12.05-20.15.26:345][857]LogScript: Warning: Script Msg: Attempted to access index -1 from array 'AddedIngredientModels' of length 1 in '/Game/AlexWPizzaStuff/Pizza_scripting.Pizza_scripting_C'!
+[2018.12.05-20.15.26:345][857]LogScript: Warning: UGameplayStatics::BeginSpawningActorFromClass: can not spawn an actor from a NULL class
+[2018.12.05-20.15.26:345][857]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue". Blueprint:  Pizza_scripting Function:  Execute Ubergraph Pizza Scripting Graph:  EventGraph Node:  AttachToActor
+[2018.12.05-20.15.26:345][857]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue". Blueprint:  Pizza_scripting Function:  Execute Ubergraph Pizza Scripting Graph:  EventGraph Node:  SetActorRelativeLocation
+[2018.12.05-20.15.26:345][857]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue". Blueprint:  Pizza_scripting Function:  Execute Ubergraph Pizza Scripting Graph:  EventGraph Node:  SetActorRotation
+[2018.12.05-20.15.26:611][873]LogBlueprintUserMessages: [Pizza_scripting_9] Sauce
+[2018.12.05-20.15.26:611][873]LogBlueprintUserMessages: [Pizza_scripting_9] Cheese
+[2018.12.05-20.15.26:611][873]LogBlueprintUserMessages: [Pizza_scripting_9] Sausage
+[2018.12.05-20.15.26:611][873]LogScript: Warning: Script Msg: Attempted to access index -1 from array 'AddedIngredientModels' of length 1 in '/Game/AlexWPizzaStuff/Pizza_scripting.Pizza_scripting_C'!
+[2018.12.05-20.15.26:611][873]LogScript: Warning: UGameplayStatics::BeginSpawningActorFromClass: can not spawn an actor from a NULL class
+[2018.12.05-20.15.26:612][873]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue". Blueprint:  Pizza_scripting Function:  Execute Ubergraph Pizza Scripting Graph:  EventGraph Node:  AttachToActor
+[2018.12.05-20.15.26:612][873]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue". Blueprint:  Pizza_scripting Function:  Execute Ubergraph Pizza Scripting Graph:  EventGraph Node:  SetActorRelativeLocation
+[2018.12.05-20.15.26:612][873]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue". Blueprint:  Pizza_scripting Function:  Execute Ubergraph Pizza Scripting Graph:  EventGraph Node:  SetActorRotation
+[2018.12.05-20.15.26:763][882]LogBlueprintUserMessages: [Pizza_scripting_9] Sauce
+[2018.12.05-20.15.26:763][882]LogBlueprintUserMessages: [Pizza_scripting_9] Cheese
+[2018.12.05-20.15.26:763][882]LogBlueprintUserMessages: [Pizza_scripting_9] Sausage
+[2018.12.05-20.15.26:763][882]LogBlueprintUserMessages: [Pizza_scripting_9] Pepperoni
+[2018.12.05-20.15.28:364][978]LogEditorSelectUtils: Warning: SelectActor: The requested operation could not be completed because the actor has invalid flags. (real_sausage_tester)
+[2018.12.05-20.15.31:868][179]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Tags' of length 0 in '/Script/Engine.Actor'!
+[2018.12.05-20.15.31:868][179]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Tags' of length 0 in '/Script/Engine.Actor'!
+[2018.12.05-20.15.31:868][179]LogBlueprintUserMessages: [Pizza_scripting_9] None
+[2018.12.05-20.15.31:868][179]LogScript: Warning: Script Msg: Attempted to access index 4 from array 'CallFunc_GetPizzaStatus_IngredientsAdded' of length 4 in '/Game/AlexWPizzaStuff/CheckOrderCorrectness.CheckOrderCorrectness_C:ExecuteUbergraph_CheckOrderCorrectness'!
+[2018.12.05-20.15.31:868][179]LogScript: Warning: Script Msg: Attempted to access index 4 from array 'CallFunc_GetPizzaStatus_IngredientsAdded' of length 4 in '/Game/AlexWPizzaStuff/CheckOrderCorrectness.CheckOrderCorrectness_C:ExecuteUbergraph_CheckOrderCorrectness'!
+[2018.12.05-20.15.31:868][179]LogBlueprintUserMessages: [CheckOrderCorrectness_4] 
+[2018.12.05-20.15.31:868][179]LogBlueprintUserMessages: [CheckOrderCorrectness_4] Pizza is correct
+[2018.12.05-20.15.35:866][407]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.05-20.15.46:714][ 52]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.05-20.15.46:767][ 52]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.12.05-20.15.46:813][ 52]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.05-20.15.46:841][ 53]LogPlayLevel: Display: Destroying online subsystem :Context_38
+[2018.12.05-20.16.08:707][354]LogSavePackage: Moving '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Saved/CheckOrderCorrectness668500034D9842C7058CC1A15C02F888.tmp' to '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Content/AlexWPizzaStuff/CheckOrderCorrectness.uasset'
+[2018.12.05-20.17.59:417][993]BlueprintLog: New page: Compile CheckOrderCorrectness
+[2018.12.05-20.18.01:506][101]LogTemp: Repeating last play command: Selected Viewport
+[2018.12.05-20.18.01:565][101]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.12.05-20.18.01:566][101]PIE: New page: PIE session: PizzaTester (Dec 5, 2018, 10:18:01 AM)
+[2018.12.05-20.18.01:566][101]LogPlayLevel: Creating play world package: /Game/AlexWPizzaStuff/UEDPIE_0_PizzaTester
+[2018.12.05-20.18.01:578][101]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012074s)
+[2018.12.05-20.18.01:580][101]LogAIModule: Creating AISystem for world PizzaTester
+[2018.12.05-20.18.01:580][101]LogPlayLevel: PIE: World Init took: (0.001438s)
+[2018.12.05-20.18.01:580][101]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/AlexWPizzaStuff/PizzaTester.PizzaTester to /Game/AlexWPizzaStuff/UEDPIE_0_PizzaTester.PizzaTester (0.013755s)
+[2018.12.05-20.18.01:627][101]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.12.05-20.18.01:655][101]LogInit: FAudioDevice initialized.
+[2018.12.05-20.18.01:693][101]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.12.05-20.18.01:697][101]LogWorld: Bringing World /Game/AlexWPizzaStuff/UEDPIE_0_PizzaTester.PizzaTester up for play (max tick rate 60) at 2018.12.05-15.18.01
+[2018.12.05-20.18.01:697][101]LogWorld: Bringing up level for play took: 0.002554
+[2018.12.05-20.18.01:711][101]PIE: Play in editor start time for /Game/AlexWPizzaStuff/UEDPIE_0_PizzaTester -0.214
+[2018.12.05-20.18.02:001][118]LogBlueprintUserMessages: [Pizza_scripting_9] Sauce
+[2018.12.05-20.18.02:001][118]LogScript: Warning: Script Msg: Attempted to access index -1 from array 'AddedIngredientModels' of length 1 in '/Game/AlexWPizzaStuff/Pizza_scripting.Pizza_scripting_C'!
+[2018.12.05-20.18.02:001][118]LogScript: Warning: UGameplayStatics::BeginSpawningActorFromClass: can not spawn an actor from a NULL class
+[2018.12.05-20.18.02:001][118]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue". Blueprint:  Pizza_scripting Function:  Execute Ubergraph Pizza Scripting Graph:  EventGraph Node:  AttachToActor
+[2018.12.05-20.18.02:001][118]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue". Blueprint:  Pizza_scripting Function:  Execute Ubergraph Pizza Scripting Graph:  EventGraph Node:  SetActorRelativeLocation
+[2018.12.05-20.18.02:001][118]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue". Blueprint:  Pizza_scripting Function:  Execute Ubergraph Pizza Scripting Graph:  EventGraph Node:  SetActorRotation
+[2018.12.05-20.18.02:334][138]LogBlueprintUserMessages: [Pizza_scripting_9] Sauce
+[2018.12.05-20.18.02:334][138]LogBlueprintUserMessages: [Pizza_scripting_9] Cheese
+[2018.12.05-20.18.02:334][138]LogScript: Warning: Script Msg: Attempted to access index -1 from array 'AddedIngredientModels' of length 1 in '/Game/AlexWPizzaStuff/Pizza_scripting.Pizza_scripting_C'!
+[2018.12.05-20.18.02:334][138]LogScript: Warning: UGameplayStatics::BeginSpawningActorFromClass: can not spawn an actor from a NULL class
+[2018.12.05-20.18.02:334][138]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue". Blueprint:  Pizza_scripting Function:  Execute Ubergraph Pizza Scripting Graph:  EventGraph Node:  AttachToActor
+[2018.12.05-20.18.02:334][138]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue". Blueprint:  Pizza_scripting Function:  Execute Ubergraph Pizza Scripting Graph:  EventGraph Node:  SetActorRelativeLocation
+[2018.12.05-20.18.02:334][138]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue". Blueprint:  Pizza_scripting Function:  Execute Ubergraph Pizza Scripting Graph:  EventGraph Node:  SetActorRotation
+[2018.12.05-20.18.02:602][154]LogBlueprintUserMessages: [Pizza_scripting_9] Sauce
+[2018.12.05-20.18.02:602][154]LogBlueprintUserMessages: [Pizza_scripting_9] Cheese
+[2018.12.05-20.18.02:602][154]LogBlueprintUserMessages: [Pizza_scripting_9] Sausage
+[2018.12.05-20.18.02:602][154]LogScript: Warning: Script Msg: Attempted to access index -1 from array 'AddedIngredientModels' of length 1 in '/Game/AlexWPizzaStuff/Pizza_scripting.Pizza_scripting_C'!
+[2018.12.05-20.18.02:602][154]LogScript: Warning: UGameplayStatics::BeginSpawningActorFromClass: can not spawn an actor from a NULL class
+[2018.12.05-20.18.02:602][154]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue". Blueprint:  Pizza_scripting Function:  Execute Ubergraph Pizza Scripting Graph:  EventGraph Node:  AttachToActor
+[2018.12.05-20.18.02:602][154]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue". Blueprint:  Pizza_scripting Function:  Execute Ubergraph Pizza Scripting Graph:  EventGraph Node:  SetActorRelativeLocation
+[2018.12.05-20.18.02:602][154]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue". Blueprint:  Pizza_scripting Function:  Execute Ubergraph Pizza Scripting Graph:  EventGraph Node:  SetActorRotation
+[2018.12.05-20.18.02:751][163]LogBlueprintUserMessages: [Pizza_scripting_9] Sauce
+[2018.12.05-20.18.02:751][163]LogBlueprintUserMessages: [Pizza_scripting_9] Cheese
+[2018.12.05-20.18.02:751][163]LogBlueprintUserMessages: [Pizza_scripting_9] Sausage
+[2018.12.05-20.18.02:751][163]LogBlueprintUserMessages: [Pizza_scripting_9] Pepperoni
+[2018.12.05-20.18.09:490][560]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Tags' of length 0 in '/Script/Engine.Actor'!
+[2018.12.05-20.18.09:490][560]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Tags' of length 0 in '/Script/Engine.Actor'!
+[2018.12.05-20.18.09:490][560]LogBlueprintUserMessages: [Pizza_scripting_9] None
+[2018.12.05-20.18.09:490][560]LogScript: Warning: Script Msg: Attempted to access index 4 from array 'CallFunc_GetPizzaStatus_IngredientsAdded' of length 4 in '/Game/AlexWPizzaStuff/CheckOrderCorrectness.CheckOrderCorrectness_C:ExecuteUbergraph_CheckOrderCorrectness'!
+[2018.12.05-20.18.09:490][560]LogScript: Warning: Script Msg: Attempted to access index 4 from array 'CallFunc_GetPizzaStatus_IngredientsAdded' of length 4 in '/Game/AlexWPizzaStuff/CheckOrderCorrectness.CheckOrderCorrectness_C:ExecuteUbergraph_CheckOrderCorrectness'!
+[2018.12.05-20.18.09:490][560]LogBlueprintUserMessages: [CheckOrderCorrectness_4] 
+[2018.12.05-20.18.09:490][560]LogBlueprintUserMessages: [CheckOrderCorrectness_4] Pizza is correct
+[2018.12.05-20.18.12:264][718]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.05-20.18.12:399][726]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.05-20.18.12:446][726]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.12.05-20.18.12:491][726]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.05-20.18.12:521][727]LogPlayLevel: Display: Destroying online subsystem :Context_39
+[2018.12.05-20.18.13:421][781]LogTemp: Repeating last play command: Selected Viewport
+[2018.12.05-20.18.13:461][781]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.12.05-20.18.13:461][781]PIE: New page: PIE session: PizzaTester (Dec 5, 2018, 10:18:13 AM)
+[2018.12.05-20.18.13:462][781]LogPlayLevel: Creating play world package: /Game/AlexWPizzaStuff/UEDPIE_0_PizzaTester
+[2018.12.05-20.18.13:474][781]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012054s)
+[2018.12.05-20.18.13:474][781]LogAIModule: Creating AISystem for world PizzaTester
+[2018.12.05-20.18.13:474][781]LogPlayLevel: PIE: World Init took: (0.000699s)
+[2018.12.05-20.18.13:475][781]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/AlexWPizzaStuff/PizzaTester.PizzaTester to /Game/AlexWPizzaStuff/UEDPIE_0_PizzaTester.PizzaTester (0.012905s)
+[2018.12.05-20.18.13:522][781]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.12.05-20.18.13:548][781]LogInit: FAudioDevice initialized.
+[2018.12.05-20.18.13:580][781]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.12.05-20.18.13:584][781]LogWorld: Bringing World /Game/AlexWPizzaStuff/UEDPIE_0_PizzaTester.PizzaTester up for play (max tick rate 60) at 2018.12.05-15.18.13
+[2018.12.05-20.18.13:584][781]LogWorld: Bringing up level for play took: 0.003100
+[2018.12.05-20.18.13:599][781]PIE: Play in editor start time for /Game/AlexWPizzaStuff/UEDPIE_0_PizzaTester -0.327
+[2018.12.05-20.18.13:885][798]LogBlueprintUserMessages: [Pizza_scripting_9] Sauce
+[2018.12.05-20.18.13:885][798]LogScript: Warning: Script Msg: Attempted to access index -1 from array 'AddedIngredientModels' of length 1 in '/Game/AlexWPizzaStuff/Pizza_scripting.Pizza_scripting_C'!
+[2018.12.05-20.18.13:885][798]LogScript: Warning: UGameplayStatics::BeginSpawningActorFromClass: can not spawn an actor from a NULL class
+[2018.12.05-20.18.13:885][798]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue". Blueprint:  Pizza_scripting Function:  Execute Ubergraph Pizza Scripting Graph:  EventGraph Node:  AttachToActor
+[2018.12.05-20.18.13:885][798]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue". Blueprint:  Pizza_scripting Function:  Execute Ubergraph Pizza Scripting Graph:  EventGraph Node:  SetActorRelativeLocation
+[2018.12.05-20.18.13:886][798]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue". Blueprint:  Pizza_scripting Function:  Execute Ubergraph Pizza Scripting Graph:  EventGraph Node:  SetActorRotation
+[2018.12.05-20.18.14:218][818]LogBlueprintUserMessages: [Pizza_scripting_9] Sauce
+[2018.12.05-20.18.14:218][818]LogBlueprintUserMessages: [Pizza_scripting_9] Cheese
+[2018.12.05-20.18.14:218][818]LogScript: Warning: Script Msg: Attempted to access index -1 from array 'AddedIngredientModels' of length 1 in '/Game/AlexWPizzaStuff/Pizza_scripting.Pizza_scripting_C'!
+[2018.12.05-20.18.14:218][818]LogScript: Warning: UGameplayStatics::BeginSpawningActorFromClass: can not spawn an actor from a NULL class
+[2018.12.05-20.18.14:219][818]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue". Blueprint:  Pizza_scripting Function:  Execute Ubergraph Pizza Scripting Graph:  EventGraph Node:  AttachToActor
+[2018.12.05-20.18.14:219][818]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue". Blueprint:  Pizza_scripting Function:  Execute Ubergraph Pizza Scripting Graph:  EventGraph Node:  SetActorRelativeLocation
+[2018.12.05-20.18.14:219][818]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue". Blueprint:  Pizza_scripting Function:  Execute Ubergraph Pizza Scripting Graph:  EventGraph Node:  SetActorRotation
+[2018.12.05-20.18.14:486][834]LogBlueprintUserMessages: [Pizza_scripting_9] Sauce
+[2018.12.05-20.18.14:486][834]LogBlueprintUserMessages: [Pizza_scripting_9] Cheese
+[2018.12.05-20.18.14:486][834]LogBlueprintUserMessages: [Pizza_scripting_9] Sausage
+[2018.12.05-20.18.14:486][834]LogScript: Warning: Script Msg: Attempted to access index -1 from array 'AddedIngredientModels' of length 1 in '/Game/AlexWPizzaStuff/Pizza_scripting.Pizza_scripting_C'!
+[2018.12.05-20.18.14:486][834]LogScript: Warning: UGameplayStatics::BeginSpawningActorFromClass: can not spawn an actor from a NULL class
+[2018.12.05-20.18.14:486][834]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue". Blueprint:  Pizza_scripting Function:  Execute Ubergraph Pizza Scripting Graph:  EventGraph Node:  AttachToActor
+[2018.12.05-20.18.14:486][834]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue". Blueprint:  Pizza_scripting Function:  Execute Ubergraph Pizza Scripting Graph:  EventGraph Node:  SetActorRelativeLocation
+[2018.12.05-20.18.14:486][834]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue". Blueprint:  Pizza_scripting Function:  Execute Ubergraph Pizza Scripting Graph:  EventGraph Node:  SetActorRotation
+[2018.12.05-20.18.14:636][843]LogBlueprintUserMessages: [Pizza_scripting_9] Sauce
+[2018.12.05-20.18.14:636][843]LogBlueprintUserMessages: [Pizza_scripting_9] Cheese
+[2018.12.05-20.18.14:636][843]LogBlueprintUserMessages: [Pizza_scripting_9] Sausage
+[2018.12.05-20.18.14:636][843]LogBlueprintUserMessages: [Pizza_scripting_9] Pepperoni
+[2018.12.05-20.18.19:587][140]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.05-20.18.19:632][140]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.12.05-20.18.19:672][140]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.05-20.18.19:701][141]LogPlayLevel: Display: Destroying online subsystem :Context_40
+[2018.12.05-20.18.21:841][268]LogEditorViewport: Clicking on Actor (LMB): real_sausage_tester_C (real_sausage_tester)
+[2018.12.05-20.18.25:396][477]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.05-20.18.28:371][652]LogTemp: Repeating last play command: Selected Viewport
+[2018.12.05-20.18.28:410][652]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.12.05-20.18.28:410][652]PIE: New page: PIE session: PizzaTester (Dec 5, 2018, 10:18:28 AM)
+[2018.12.05-20.18.28:411][652]LogPlayLevel: Creating play world package: /Game/AlexWPizzaStuff/UEDPIE_0_PizzaTester
+[2018.12.05-20.18.28:437][652]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026546s)
+[2018.12.05-20.18.28:438][652]LogAIModule: Creating AISystem for world PizzaTester
+[2018.12.05-20.18.28:438][652]LogPlayLevel: PIE: World Init took: (0.000850s)
+[2018.12.05-20.18.28:438][652]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/AlexWPizzaStuff/PizzaTester.PizzaTester to /Game/AlexWPizzaStuff/UEDPIE_0_PizzaTester.PizzaTester (0.027616s)
+[2018.12.05-20.18.28:477][652]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.12.05-20.18.28:504][652]LogInit: FAudioDevice initialized.
+[2018.12.05-20.18.28:538][652]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.12.05-20.18.28:542][652]LogWorld: Bringing World /Game/AlexWPizzaStuff/UEDPIE_0_PizzaTester.PizzaTester up for play (max tick rate 60) at 2018.12.05-15.18.28
+[2018.12.05-20.18.28:542][652]LogWorld: Bringing up level for play took: 0.002648
+[2018.12.05-20.18.28:557][652]PIE: Play in editor start time for /Game/AlexWPizzaStuff/UEDPIE_0_PizzaTester 0.631
+[2018.12.05-20.18.28:845][669]LogBlueprintUserMessages: [Pizza_scripting_9] Sauce
+[2018.12.05-20.18.28:845][669]LogScript: Warning: Script Msg: Attempted to access index -1 from array 'AddedIngredientModels' of length 1 in '/Game/AlexWPizzaStuff/Pizza_scripting.Pizza_scripting_C'!
+[2018.12.05-20.18.28:845][669]LogScript: Warning: UGameplayStatics::BeginSpawningActorFromClass: can not spawn an actor from a NULL class
+[2018.12.05-20.18.28:845][669]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue". Blueprint:  Pizza_scripting Function:  Execute Ubergraph Pizza Scripting Graph:  EventGraph Node:  AttachToActor
+[2018.12.05-20.18.28:845][669]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue". Blueprint:  Pizza_scripting Function:  Execute Ubergraph Pizza Scripting Graph:  EventGraph Node:  SetActorRelativeLocation
+[2018.12.05-20.18.28:845][669]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue". Blueprint:  Pizza_scripting Function:  Execute Ubergraph Pizza Scripting Graph:  EventGraph Node:  SetActorRotation
+[2018.12.05-20.18.29:178][689]LogBlueprintUserMessages: [Pizza_scripting_9] Sauce
+[2018.12.05-20.18.29:178][689]LogBlueprintUserMessages: [Pizza_scripting_9] Cheese
+[2018.12.05-20.18.29:178][689]LogScript: Warning: Script Msg: Attempted to access index -1 from array 'AddedIngredientModels' of length 1 in '/Game/AlexWPizzaStuff/Pizza_scripting.Pizza_scripting_C'!
+[2018.12.05-20.18.29:178][689]LogScript: Warning: UGameplayStatics::BeginSpawningActorFromClass: can not spawn an actor from a NULL class
+[2018.12.05-20.18.29:178][689]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue". Blueprint:  Pizza_scripting Function:  Execute Ubergraph Pizza Scripting Graph:  EventGraph Node:  AttachToActor
+[2018.12.05-20.18.29:178][689]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue". Blueprint:  Pizza_scripting Function:  Execute Ubergraph Pizza Scripting Graph:  EventGraph Node:  SetActorRelativeLocation
+[2018.12.05-20.18.29:178][689]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue". Blueprint:  Pizza_scripting Function:  Execute Ubergraph Pizza Scripting Graph:  EventGraph Node:  SetActorRotation
+[2018.12.05-20.18.29:444][705]LogBlueprintUserMessages: [Pizza_scripting_9] Sauce
+[2018.12.05-20.18.29:444][705]LogBlueprintUserMessages: [Pizza_scripting_9] Cheese
+[2018.12.05-20.18.29:444][705]LogBlueprintUserMessages: [Pizza_scripting_9] Sausage
+[2018.12.05-20.18.29:444][705]LogScript: Warning: Script Msg: Attempted to access index -1 from array 'AddedIngredientModels' of length 1 in '/Game/AlexWPizzaStuff/Pizza_scripting.Pizza_scripting_C'!
+[2018.12.05-20.18.29:444][705]LogScript: Warning: UGameplayStatics::BeginSpawningActorFromClass: can not spawn an actor from a NULL class
+[2018.12.05-20.18.29:444][705]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue". Blueprint:  Pizza_scripting Function:  Execute Ubergraph Pizza Scripting Graph:  EventGraph Node:  AttachToActor
+[2018.12.05-20.18.29:444][705]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue". Blueprint:  Pizza_scripting Function:  Execute Ubergraph Pizza Scripting Graph:  EventGraph Node:  SetActorRelativeLocation
+[2018.12.05-20.18.29:445][705]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue". Blueprint:  Pizza_scripting Function:  Execute Ubergraph Pizza Scripting Graph:  EventGraph Node:  SetActorRotation
+[2018.12.05-20.18.29:595][714]LogBlueprintUserMessages: [Pizza_scripting_9] Sauce
+[2018.12.05-20.18.29:595][714]LogBlueprintUserMessages: [Pizza_scripting_9] Cheese
+[2018.12.05-20.18.29:595][714]LogBlueprintUserMessages: [Pizza_scripting_9] Sausage
+[2018.12.05-20.18.29:595][714]LogBlueprintUserMessages: [Pizza_scripting_9] Pepperoni
+[2018.12.05-20.18.31:296][816]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.05-20.18.31:356][816]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.12.05-20.18.31:397][816]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.05-20.18.31:426][817]LogPlayLevel: Display: Destroying online subsystem :Context_41
+[2018.12.05-20.22.38:954][564]LogEditorViewport: Clicking Background
+[2018.12.05-20.22.43:060][807]LogEditorViewport: Clicking Background
+[2018.12.05-20.22.43:114][810]LogEditorViewport: Clicking Background
+[2018.12.05-20.22.44:237][877]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.05-20.22.44:258][877]LogSlate: Took 0.009965 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2018.12.05-20.22.45:333][942]LogEditorViewport: Clicking Background
+[2018.12.05-20.22.47:205][ 54]LogEditorViewport: Clicking Background
+[2018.12.05-20.22.48:798][149]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.05-20.22.48:948][158]LogTemp: Repeating last play command: Selected Viewport
+[2018.12.05-20.22.48:995][158]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.12.05-20.22.48:995][158]PIE: New page: PIE session: PizzaTester (Dec 5, 2018, 10:22:48 AM)
+[2018.12.05-20.22.48:995][158]LogPlayLevel: Creating play world package: /Game/AlexWPizzaStuff/UEDPIE_0_PizzaTester
+[2018.12.05-20.22.49:009][158]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012977s)
+[2018.12.05-20.22.49:009][158]LogAIModule: Creating AISystem for world PizzaTester
+[2018.12.05-20.22.49:010][158]LogPlayLevel: PIE: World Init took: (0.001055s)
+[2018.12.05-20.22.49:010][158]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/AlexWPizzaStuff/PizzaTester.PizzaTester to /Game/AlexWPizzaStuff/UEDPIE_0_PizzaTester.PizzaTester (0.014288s)
+[2018.12.05-20.22.49:055][158]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.12.05-20.22.49:084][158]LogInit: FAudioDevice initialized.
+[2018.12.05-20.22.49:118][158]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.12.05-20.22.49:122][158]LogWorld: Bringing World /Game/AlexWPizzaStuff/UEDPIE_0_PizzaTester.PizzaTester up for play (max tick rate 60) at 2018.12.05-15.22.49
+[2018.12.05-20.22.49:122][158]LogWorld: Bringing up level for play took: 0.002982
+[2018.12.05-20.22.49:137][158]PIE: Play in editor start time for /Game/AlexWPizzaStuff/UEDPIE_0_PizzaTester -0.789
+[2018.12.05-20.22.49:423][175]LogBlueprintUserMessages: [Pizza_scripting_9] Sauce
+[2018.12.05-20.22.49:423][175]LogScript: Warning: Script Msg: Attempted to access index -1 from array 'AddedIngredientModels' of length 1 in '/Game/AlexWPizzaStuff/Pizza_scripting.Pizza_scripting_C'!
+[2018.12.05-20.22.49:423][175]LogScript: Warning: UGameplayStatics::BeginSpawningActorFromClass: can not spawn an actor from a NULL class
+[2018.12.05-20.22.49:424][175]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue". Blueprint:  Pizza_scripting Function:  Execute Ubergraph Pizza Scripting Graph:  EventGraph Node:  AttachToActor
+[2018.12.05-20.22.49:424][175]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue". Blueprint:  Pizza_scripting Function:  Execute Ubergraph Pizza Scripting Graph:  EventGraph Node:  SetActorRelativeLocation
+[2018.12.05-20.22.49:424][175]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue". Blueprint:  Pizza_scripting Function:  Execute Ubergraph Pizza Scripting Graph:  EventGraph Node:  SetActorRotation
+[2018.12.05-20.22.49:757][195]LogBlueprintUserMessages: [Pizza_scripting_9] Sauce
+[2018.12.05-20.22.49:757][195]LogBlueprintUserMessages: [Pizza_scripting_9] Cheese
+[2018.12.05-20.22.49:757][195]LogScript: Warning: Script Msg: Attempted to access index -1 from array 'AddedIngredientModels' of length 1 in '/Game/AlexWPizzaStuff/Pizza_scripting.Pizza_scripting_C'!
+[2018.12.05-20.22.49:757][195]LogScript: Warning: UGameplayStatics::BeginSpawningActorFromClass: can not spawn an actor from a NULL class
+[2018.12.05-20.22.49:759][195]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue". Blueprint:  Pizza_scripting Function:  Execute Ubergraph Pizza Scripting Graph:  EventGraph Node:  AttachToActor
+[2018.12.05-20.22.49:759][195]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue". Blueprint:  Pizza_scripting Function:  Execute Ubergraph Pizza Scripting Graph:  EventGraph Node:  SetActorRelativeLocation
+[2018.12.05-20.22.49:759][195]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue". Blueprint:  Pizza_scripting Function:  Execute Ubergraph Pizza Scripting Graph:  EventGraph Node:  SetActorRotation
+[2018.12.05-20.22.50:157][219]LogBlueprintUserMessages: [Pizza_scripting_9] Sauce
+[2018.12.05-20.22.50:157][219]LogBlueprintUserMessages: [Pizza_scripting_9] Cheese
+[2018.12.05-20.22.50:157][219]LogBlueprintUserMessages: [Pizza_scripting_9] Sausage
+[2018.12.05-20.22.50:157][219]LogScript: Warning: Script Msg: Attempted to access index -1 from array 'AddedIngredientModels' of length 1 in '/Game/AlexWPizzaStuff/Pizza_scripting.Pizza_scripting_C'!
+[2018.12.05-20.22.50:157][219]LogScript: Warning: UGameplayStatics::BeginSpawningActorFromClass: can not spawn an actor from a NULL class
+[2018.12.05-20.22.50:157][219]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue". Blueprint:  Pizza_scripting Function:  Execute Ubergraph Pizza Scripting Graph:  EventGraph Node:  AttachToActor
+[2018.12.05-20.22.50:157][219]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue". Blueprint:  Pizza_scripting Function:  Execute Ubergraph Pizza Scripting Graph:  EventGraph Node:  SetActorRelativeLocation
+[2018.12.05-20.22.50:157][219]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue". Blueprint:  Pizza_scripting Function:  Execute Ubergraph Pizza Scripting Graph:  EventGraph Node:  SetActorRotation
+[2018.12.05-20.22.50:159][219]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.05-20.22.50:204][219]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.12.05-20.22.50:249][219]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.05-20.22.50:280][220]LogPlayLevel: Display: Destroying online subsystem :Context_42
+[2018.12.05-20.22.50:791][250]LogEditorViewport: Clicking Background
+[2018.12.05-20.23.10:852][447]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.05-20.23.13:504][604]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.05-20.23.14:444][659]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.05-20.23.31:626][667]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.05-20.23.40:992][210]LogSavePackage: Moving '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Saved/PizzaTester40B9FC9547F4BB3958ACA4B57B4E7B53.tmp' to '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Content/AlexWPizzaStuff/PizzaTester.umap'
+[2018.12.05-20.28.28:719][189]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.05-20.49.02:801][ 47]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AlexWPizzaStuff/Pizza_scripting" FILE="../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Content/AlexWPizzaStuff/Pizza_scripting.uasset" SILENT=true
+[2018.12.05-20.49.02:890][ 47]LogSavePackage: Moving '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Saved/Pizza_scriptingF753F1E8499C8C675061CF929EFF1D5F.tmp' to '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Content/AlexWPizzaStuff/Pizza_scripting.uasset'
