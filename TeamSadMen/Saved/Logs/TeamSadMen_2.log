@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 ﻿Log file open, 12/09/18 23:25:59
+=======
+﻿Log file open, 12/09/18 19:38:21
+>>>>>>> OrderSystem
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
@@ -9,8 +13,13 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: TeamSadMen
 LogPlatformFile: Not using cached read wrapper
+<<<<<<< HEAD
 LogTaskGraph: Started task graph with 5 named threads and 11 total threads with 3 sets of task threads.
 LogStats: Stats thread started at 0.186825
+=======
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.310093
+>>>>>>> OrderSystem
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -93,7 +102,11 @@ LogPluginManager: Mounting plugin ProceduralMeshComponent
 LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WindowsMoviePlayer
+<<<<<<< HEAD
 LogStreaming: Display: Took  0.228s to configure plugins.
+=======
+LogStreaming: Display: Took  0.167s to configure plugins.
+>>>>>>> OrderSystem
 LogInit: Using libcurl 7.55.1-DEV
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2h
@@ -123,7 +136,7 @@ LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
 LogInit: Compiled with Visual C++: 19.13.26129.00
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.20
-LogInit: Command Line:  
+LogInit: Command Line: -EpicPortal  -epicusername="THECONE112" -epicuserid=cb1c4ce6838b46c39dd2121a03b99467 -epiclocale=en-US
 LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogDevObjectVersion: Number of dev versions registered: 20
@@ -147,6 +160,7 @@ LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC
 LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
 LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
 LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+<<<<<<< HEAD
 LogStreaming: Display: Took  0.007s to delete old logs.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
@@ -647,3 +661,243 @@ LogInit: Object subsystem initialized
 [2018.12.10-04.26.16:497][ 19]LogModuleManager: Shutting down and abandoning module PakFile (2)
 [2018.12.10-04.26.16:506][ 19]LogExit: Exiting.
 [2018.12.10-04.26.16:511][ 19]Log file closed, 12/09/18 23:26:16
+=======
+LogStreaming: Display: Took  0.004s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.12.10-00.38.21:686][  0]LogInit: Selected Device Profile: [Windows]
+[2018.12.10-00.38.21:686][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.12.10-00.38.21:705][  0]LogHAL: Display: Platform has ~ 16 GB [16914079744 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2018.12.10-00.38.21:705][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2018.12.10-00.38.21:705][  0]LogInit: Going up to parent DeviceProfile []
+[2018.12.10-00.38.21:706][  0]LogInit: Computer: DESKTOP-3J9G0A4
+[2018.12.10-00.38.21:706][  0]LogInit: User: weisea3
+[2018.12.10-00.38.21:706][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.12.10-00.38.21:706][  0]LogInit: High frequency timer resolution =2.531249 MHz
+[2018.12.10-00.38.21:707][  0]LogMemory: Memory total: Physical=15.8GB (16GB approx)
+[2018.12.10-00.38.21:707][  0]LogMemory: Platform Memory Stats for Windows
+[2018.12.10-00.38.21:707][  0]LogMemory: Process Physical Memory: 100.36 MB used, 100.36 MB peak
+[2018.12.10-00.38.21:707][  0]LogMemory: Process Virtual Memory: 91.25 MB used, 91.25 MB peak
+[2018.12.10-00.38.21:707][  0]LogMemory: Physical Memory: 9411.55 MB used,  6718.97 MB free, 16130.52 MB total
+[2018.12.10-00.38.21:707][  0]LogMemory: Virtual Memory: 4640.40 MB used,  6718.97 MB free, 134217728.00 MB total
+[2018.12.10-00.38.21:737][  0]LogInit: Using OS detected language (en-US).
+[2018.12.10-00.38.21:738][  0]LogInit: Using OS detected locale (en-US).
+[2018.12.10-00.38.21:739][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.12.10-00.38.22:200][  0]LogStreaming: Display: Took  0.462s to InitEngineTextLocalization.
+[2018.12.10-00.38.22:200][  0]LogInit: Setting process to per monitor DPI aware
+[2018.12.10-00.38.22:263][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.12.10-00.38.22:263][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.12.10-00.38.22:532][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.12.10-00.38.22:532][  0]LogD3D11RHI: D3D11 adapters:
+[2018.12.10-00.38.22:599][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960M' (Feature Level 11_0)
+[2018.12.10-00.38.22:599][  0]LogD3D11RHI:       2010/0/8065 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.12.10-00.38.22:611][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
+[2018.12.10-00.38.22:611][  0]LogD3D11RHI:       128/0/8065 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2018.12.10-00.38.22:613][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.12.10-00.38.22:613][  0]LogD3D11RHI:       0/0/8065 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.12.10-00.38.22:613][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.12.10-00.38.22:666][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.12.10-00.38.22:666][  0]LogD3D11RHI:     GPU DeviceId: 0x139b (for the marketing name, search the web for "GPU Device Id")
+[2018.12.10-00.38.22:666][  0]LogWindows: EnumDisplayDevices:
+[2018.12.10-00.38.22:666][  0]LogWindows:    0. 'Intel(R) HD Graphics 530' (P:1 D:1)
+[2018.12.10-00.38.22:667][  0]LogWindows:    1. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2018.12.10-00.38.22:667][  0]LogWindows:    2. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2018.12.10-00.38.22:667][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.12.10-00.38.22:667][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960M
+[2018.12.10-00.38.22:667][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.12.10-00.38.22:667][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.12.10-00.38.22:667][  0]LogRHI: Texture pool is 1407 MB (70% of 2010 MB)
+[2018.12.10-00.38.22:708][  0]LogD3D11RHI: Async texture creation enabled
+[2018.12.10-00.38.22:736][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.12.10-00.38.22:739][  0]LogShaderCompilers: Guid format shader working directory is -16 characters bigger than the processId version (../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Intermediate/Shaders/WorkingDirectory/60012/).
+[2018.12.10-00.38.22:739][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/weisea3/AppData/Local/Temp/UnrealShaderWorkingDir/3ECAA45740B2431CFDF8829651B1A9CE/'.
+[2018.12.10-00.38.23:091][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.12.10-00.38.23:108][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.12.10-00.38.23:131][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.12.10-00.38.23:148][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.12.10-00.38.23:170][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.12.10-00.38.23:188][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.12.10-00.38.23:203][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.12.10-00.38.23:220][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.12.10-00.38.23:228][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.12.10-00.38.23:345][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.10-00.38.23:345][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.10-00.38.23:345][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.10-00.38.23:345][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.10-00.38.23:345][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.10-00.38.23:345][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.10-00.38.23:345][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.10-00.38.23:345][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.10-00.38.23:345][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.10-00.38.23:345][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.10-00.38.23:345][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.10-00.38.23:345][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.10-00.38.23:345][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.10-00.38.23:345][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.10-00.38.23:345][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.10-00.38.23:345][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.10-00.38.23:345][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.10-00.38.23:345][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.10-00.38.23:347][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.12.10-00.38.23:420][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.12.10-00.38.23:420][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.12.10-00.38.23:449][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.12.10-00.38.23:449][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.12.10-00.38.23:464][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.12.10-00.38.23:479][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.12.10-00.38.23:495][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.12.10-00.38.23:510][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.12.10-00.38.23:523][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2018.12.10-00.38.23:524][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.12.10-00.38.23:597][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.12.10-00.38.23:598][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.12.10-00.38.23:598][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.12.10-00.38.24:561][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.12.10-00.38.24:627][  0]LogDerivedDataCache: Loaded boot cache 0.07s 71MB C:/Users/weisea3/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.12.10-00.38.24:627][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/weisea3/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2018.12.10-00.38.24:627][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.12.10-00.38.24:627][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.12.10-00.38.24:627][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.12.10-00.38.24:627][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.12.10-00.38.24:643][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.12.10-00.38.24:656][  0]LogDerivedDataCache: Using Local data cache path C:/Users/weisea3/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.12.10-00.38.24:656][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.12.10-00.38.24:656][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.12.10-00.38.24:685][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.12.10-00.38.24:686][  0]LogSlate: Using FreeType 2.6.0
+[2018.12.10-00.38.24:687][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.12.10-00.38.24:773][  0]LogAssetRegistry: FAssetRegistry took 0.0277 seconds to start up
+[2018.12.10-00.38.25:187][  0]LogInit: Selected Device Profile: [Windows]
+[2018.12.10-00.38.25:343][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.12.10-00.38.25:352][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.12.10-00.38.25:352][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2018.12.10-00.38.25:352][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.12.10-00.38.25:352][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.12.10-00.38.25:372][  0]LogNetVersion: TeamSadMen 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 1220547581)
+[2018.12.10-00.38.26:141][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.214336 seconds
+[2018.12.10-00.38.26:150][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2018.12.10-00.38.26:150][  0]LogUObjectAllocator: 6690864 out of 0 bytes used by permanent object pool.
+[2018.12.10-00.38.26:150][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.12.10-00.38.27:208][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.12.10-00.38.27:222][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.12.10-00.38.27:223][  0]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1
+[2018.12.10-00.38.27:223][  0]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2018.12.10-00.38.27:223][  0]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2018.12.10-00.38.27:382][  0]SourceControl: Source control is disabled
+[2018.12.10-00.38.27:382][  0]SourceControl: Source control is disabled
+[2018.12.10-00.38.27:385][  0]SourceControl: Source control is disabled
+[2018.12.10-00.38.27:386][  0]SourceControl: Source control is disabled
+[2018.12.10-00.38.27:560][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.12.10-00.38.27:686][  0]LogOcInput: OculusInput pre-init called
+[2018.12.10-00.38.27:758][  0]LogEngine: Initializing Engine...
+[2018.12.10-00.38.27:758][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.12.10-00.38.27:760][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.12.10-00.38.27:760][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.12.10-00.38.27:760][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.12.10-00.38.27:760][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.12.10-00.38.28:024][  0]LogInit: Initializing FReadOnlyCVARCache
+[2018.12.10-00.38.28:041][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.12.10-00.38.28:072][  0]LogInit: XAudio2 using 'Headphones (2- E7 Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.12.10-00.38.28:107][  0]LogInit: FAudioDevice initialized.
+[2018.12.10-00.38.28:107][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2018.12.10-00.38.28:163][  0]LogDerivedDataCache: Saved boot cache 0.06s 71MB C:/Users/weisea3/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.12.10-00.38.28:179][  0]LogInit: Texture streaming: Enabled
+[2018.12.10-00.38.28:198][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.12.10-00.38.28:226][  0]LogInit: Transaction tracking system initialized
+[2018.12.10-00.38.28:255][  0]BlueprintLog: New page: Editor Load
+[2018.12.10-00.38.28:350][  0]LocalizationService: Localization service is disabled
+[2018.12.10-00.38.28:655][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.12.10-00.38.28:655][  0]LogCook: Display: Mobile HDR setting 1
+[2018.12.10-00.38.28:655][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.12.10-00.38.28:655][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.12.10-00.38.28:655][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.12.10-00.38.28:656][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.12.10-00.38.28:656][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.12.10-00.38.28:793][  0]LogFileCache: Scanning file cache for directory 'C:/Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Content/' took 0.02s
+[2018.12.10-00.38.28:793][  0]SourceControl: Source control is disabled
+[2018.12.10-00.38.28:793][  0]Cmd: MAP LOAD FILE="../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.12.10-00.38.28:793][  0]LightingResults: New page: Lighting Build
+[2018.12.10-00.38.28:796][  0]MapCheck: New page: Map Check
+[2018.12.10-00.38.28:796][  0]LightingResults: New page: Lighting Build
+[2018.12.10-00.38.29:657][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2018.12.10-00.38.29:673][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.12.10-00.38.29:703][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.12.10-00.38.29:810][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 107.255ms to complete.
+[2018.12.10-00.38.29:810][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 1.018
+[2018.12.10-00.38.29:926][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.10-00.38.29:936][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.10-00.38.29:945][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.10-00.38.29:955][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.10-00.38.29:963][  0]LogCollectionManager: Loaded 0 collections in 0.001768 seconds
+[2018.12.10-00.38.30:005][  0]LogFileCache: Scanning file cache for directory 'C:/Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Saved/Collections/' took 0.01s
+[2018.12.10-00.38.30:006][  0]LogFileCache: Scanning file cache for directory 'C:/Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Content/Developers/weisea3/Collections/' took 0.01s
+[2018.12.10-00.38.30:006][  0]LogFileCache: Scanning file cache for directory 'C:/Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Content/Collections/' took 0.01s
+[2018.12.10-00.38.30:006][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.12.10-00.38.30:016][  0]LogContentBrowser: Native class hierarchy populated in 0.0100 seconds. Added 2572 classes and 603 folders.
+[2018.12.10-00.38.30:024][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2018.12.10-00.38.30:077][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.12.10-00.38.30:082][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2018.12.10-00.38.30:101][  0]LogSlate: Took 0.000265 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.12.10-00.38.30:104][  0]LogSlate: Took 0.000229 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.12.10-00.38.30:113][  0]LogSlate: Took 0.000354 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.12.10-00.38.30:229][  0]LogRenderer: Reallocating scene render targets to support 964x460 Format 10 NumSamples 1 (Frame:1).
+[2018.12.10-00.38.30:453][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.12.10-00.38.30:453][  0]LogLoad: (Engine Initialization) Total time: 10.81 seconds
+[2018.12.10-00.38.30:453][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.12.10-00.38.30:473][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.12.10-00.38.30:497][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.12.10-00.38.30:516][  0]LogSlate: Took 0.000257 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.12.10-00.38.30:897][  2]LogAssetRegistry: Asset discovery search completed in 6.1476 seconds
+[2018.12.10-00.38.30:899][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.12.10-00.38.30:899][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000069 seconds (updated 0 objects)
+[2018.12.10-00.38.31:505][ 33]LogSlate: Took 0.000258 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.12.10-00.38.33:819][153]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.10-00.38.34:603][198]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Tyler/Order_Text_Blueprint.Order_Text_Blueprint
+[2018.12.10-00.38.35:227][198]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 116 classes and 0 folders.
+[2018.12.10-00.38.36:286][198]LogSlate: Took 0.000214 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.12.10-00.38.36:446][199]LogSlate: Took 0.000327 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.12.10-00.38.39:141][352]LogSlate: Window 'Order_Text_Blueprint' being destroyed
+[2018.12.10-00.38.39:883][396]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.10-00.39.03:539][705]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/AlexWPizzaStuff/CheckOrderCorrectness.CheckOrderCorrectness
+[2018.12.10-00.39.12:132][178]BlueprintLog: New page: Compile CheckOrderCorrectness
+[2018.12.10-00.39.13:630][234]LogSavePackage: Moving '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Saved/CheckOrderCorrectness446CA38748D4A4C860480BA764C79F7E.tmp' to '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Content/AlexWPizzaStuff/CheckOrderCorrectness.uasset'
+[2018.12.10-00.39.13:631][234]LogFileManager: Warning: DeleteFile was unable to delete '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Content/AlexWPizzaStuff/CheckOrderCorrectness.uasset', retrying in .5s...
+[2018.12.10-00.39.14:132][234]LogFileManager: Error: Error deleting file '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Content/AlexWPizzaStuff/CheckOrderCorrectness.uasset'.
+[2018.12.10-00.39.14:132][234]LogSavePackage: Error: Error saving '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Content/AlexWPizzaStuff/CheckOrderCorrectness.uasset'
+[2018.12.10-00.41.30:892][234]LogSlate: Window 'Message' being destroyed
+[2018.12.10-00.41.30:975][234]LogSavePackage: Moving '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Saved/CheckOrderCorrectnessD17B2D0D4B16781BE23CE096F0E58CA9.tmp' to '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Content/AlexWPizzaStuff/CheckOrderCorrectness.uasset'
+[2018.12.10-00.41.30:976][234]LogFileManager: Warning: DeleteFile was unable to delete '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Content/AlexWPizzaStuff/CheckOrderCorrectness.uasset', retrying in .5s...
+[2018.12.10-00.41.31:477][234]LogFileManager: Error: Error deleting file '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Content/AlexWPizzaStuff/CheckOrderCorrectness.uasset'.
+[2018.12.10-00.41.31:477][234]LogSavePackage: Error: Error saving '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Content/AlexWPizzaStuff/CheckOrderCorrectness.uasset'
+[2018.12.10-00.41.45:077][234]LogSlate: Window 'Message' being destroyed
+[2018.12.10-00.41.45:089][234]EditorErrors: New page: Save Output
+[2018.12.10-00.41.45:089][234]EditorErrors: Warning: Error saving '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Content/AlexWPizzaStuff/CheckOrderCorrectness.uasset'
+[2018.12.10-00.41.45:089][234]EditorErrors: Warning: Error saving '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Content/AlexWPizzaStuff/CheckOrderCorrectness.uasset'
+[2018.12.10-00.41.56:973][912]BlueprintLog: New page: Compile CheckOrderCorrectness
+[2018.12.10-00.41.58:327][961]LogSavePackage: Moving '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Saved/CheckOrderCorrectness8C620DDF47EDC18F1135EBAE09CED907.tmp' to '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Content/AlexWPizzaStuff/CheckOrderCorrectness.uasset'
+[2018.12.10-00.41.58:328][961]LogFileManager: Warning: DeleteFile was unable to delete '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Content/AlexWPizzaStuff/CheckOrderCorrectness.uasset', retrying in .5s...
+[2018.12.10-00.41.58:829][961]LogFileManager: Error: Error deleting file '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Content/AlexWPizzaStuff/CheckOrderCorrectness.uasset'.
+[2018.12.10-00.41.58:829][961]LogSavePackage: Error: Error saving '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Content/AlexWPizzaStuff/CheckOrderCorrectness.uasset'
+[2018.12.10-00.42.04:815][961]LogSlate: Window 'Message' being destroyed
+[2018.12.10-00.42.04:900][961]LogSavePackage: Moving '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Saved/CheckOrderCorrectnessBE9531E74988A06CE172E3AF2C54CB4A.tmp' to '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Content/AlexWPizzaStuff/CheckOrderCorrectness.uasset'
+[2018.12.10-00.42.04:900][961]LogFileManager: Warning: DeleteFile was unable to delete '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Content/AlexWPizzaStuff/CheckOrderCorrectness.uasset', retrying in .5s...
+[2018.12.10-00.42.05:402][961]LogFileManager: Error: Error deleting file '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Content/AlexWPizzaStuff/CheckOrderCorrectness.uasset'.
+[2018.12.10-00.42.05:402][961]LogSavePackage: Error: Error saving '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Content/AlexWPizzaStuff/CheckOrderCorrectness.uasset'
+[2018.12.10-00.42.06:046][961]LogSlate: Window 'Message' being destroyed
+[2018.12.10-00.42.06:120][961]LogSavePackage: Moving '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Saved/CheckOrderCorrectness34A1D1984256C2C0B97762AF751DC6CA.tmp' to '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Content/AlexWPizzaStuff/CheckOrderCorrectness.uasset'
+[2018.12.10-00.42.06:121][961]LogFileManager: Warning: DeleteFile was unable to delete '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Content/AlexWPizzaStuff/CheckOrderCorrectness.uasset', retrying in .5s...
+[2018.12.10-00.42.06:622][961]LogFileManager: Error: Error deleting file '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Content/AlexWPizzaStuff/CheckOrderCorrectness.uasset'.
+[2018.12.10-00.42.06:622][961]LogSavePackage: Error: Error saving '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Content/AlexWPizzaStuff/CheckOrderCorrectness.uasset'
+[2018.12.10-00.42.54:054][961]LogSlate: Window 'Message' being destroyed
+[2018.12.10-00.42.54:064][961]EditorErrors: New page: Save Output
+[2018.12.10-00.42.54:064][961]EditorErrors: Warning: Error saving '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Content/AlexWPizzaStuff/CheckOrderCorrectness.uasset'
+[2018.12.10-00.42.54:064][961]EditorErrors: Warning: Error saving '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Content/AlexWPizzaStuff/CheckOrderCorrectness.uasset'
+[2018.12.10-00.42.54:064][961]EditorErrors: Warning: Error saving '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Content/AlexWPizzaStuff/CheckOrderCorrectness.uasset'
+[2018.12.10-00.42.57:274][961]LogSlate: Window 'Packages Failed To Save' being destroyed
+[2018.12.10-00.43.03:061][296]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.12.10-00.43.08:512][405]LogSlate: Window 'Save Content' being destroyed
+[2018.12.10-00.43.08:664][405]LogSlate: Window 'TeamSadMen - Unreal Editor' being destroyed
+[2018.12.10-00.43.08:881][406]Cmd: QUIT_EDITOR
+[2018.12.10-00.43.08:943][406]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.12.10-00.43.08:961][406]LogExit: Preparing to exit.
+>>>>>>> OrderSystem
