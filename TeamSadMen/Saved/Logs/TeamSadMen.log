@@ -792,3 +792,107 @@ LogInit: Object subsystem initialized
 [2018.12.10-04.56.13:500][661]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
 [2018.12.10-04.56.13:524][662]LogPlayLevel: Display: Destroying online subsystem :Context_25
 [2018.12.10-04.56.18:714][957]LogSavePackage: Moving '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Saved/PizzaTester258EAF5F4B0D4367D78F5882ACDB628E.tmp' to '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Content/AlexWPizzaStuff/PizzaTester.umap'
+[2018.12.10-05.03.42:071][635]LogHttp: Warning: 00000147C3241300: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.12.10-05.03.42:071][635]LogHttp: Warning: 00000147C3241300: libcurl info message cache 0 (Connection 36 seems to be dead!)
+[2018.12.10-05.03.42:071][635]LogHttp: Warning: 00000147C3241300: libcurl info message cache 1 (Closing connection 36)
+[2018.12.10-05.03.42:071][635]LogHttp: Warning: 00000147C3241300: libcurl info message cache 2 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.12.10-05.03.42:071][635]LogHttp: Warning: 00000147C3241300: libcurl info message cache 3 (Closing connection 37)
+[2018.12.10-06.16.18:031][678]LogAudio: Warning: Current Audio Device with ID {0.0.0.00000000}.{3f1d5bc3-5c7d-484f-b93c-1890668ca08b} was removed. Shutting down audio device.
+[2018.12.10-06.16.18:031][678]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.12.10-17.35.33:328][684]LogHttp: Warning: 00000147C32425C0: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.12.10-17.35.33:328][684]LogHttp: Warning: 00000147C32425C0: libcurl info message cache 0 (Connection 77 seems to be dead!)
+[2018.12.10-17.35.33:329][684]LogHttp: Warning: 00000147C32425C0: libcurl info message cache 1 (Closing connection 77)
+[2018.12.10-17.35.33:329][684]LogHttp: Warning: 00000147C32425C0: libcurl info message cache 2 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.12.10-17.35.33:329][684]LogHttp: Warning: 00000147C32425C0: libcurl info message cache 3 (Closing connection 78)
+[2018.12.10-17.35.48:037][699]LogAudio: Error: GetDeviceCount error: Unhandled error code -2147024809
+[2018.12.10-17.35.48:038][699]LogInit: No audio devices found!
+[2018.12.10-17.35.50:494][700]LogInit: XAudio2 using 'Headphones (2- E7 Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.12.10-18.03.12:983][278]LogAudio: Warning: Current Audio Device with ID {0.0.0.00000000}.{3f1d5bc3-5c7d-484f-b93c-1890668ca08b} was removed. Shutting down audio device.
+[2018.12.10-18.03.13:636][278]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.12.10-18.03.15:661][280]LogHttp: Warning: 00000147C3241D00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.12.10-18.03.15:662][280]LogHttp: Warning: 00000147C3241D00: libcurl info message cache 0 (Connection 88 seems to be dead!)
+[2018.12.10-18.03.15:662][280]LogHttp: Warning: 00000147C3241D00: libcurl info message cache 1 (Closing connection 88)
+[2018.12.10-18.03.15:662][280]LogHttp: Warning: 00000147C3241D00: libcurl info message cache 2 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.12.10-18.03.15:662][280]LogHttp: Warning: 00000147C3241D00: libcurl info message cache 3 (Closing connection 89)
+[2018.12.10-18.03.20:077][283]LogInit: XAudio2 using 'Headphones (2- E7 Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.12.10-18.03.24:205][292]LogInit: XAudio2 using 'NVIDIA HDMI Out (NVIDIA Virtual Audio Device (Wave Extensible) (WDM))' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.12.10-18.03.24:234][292]LogAudio: Error: CreateMasteringVoice error: Unhandled error code -2147024893
+[2018.12.10-18.03.24:234][292]LogInit: Warning: Failed to create the mastering voice for XAudio2
+[2018.12.10-18.03.24:254][293]LogAudio: Warning: Current Audio Device with ID {0.0.0.00000000}.{b4c338a5-b301-4a75-8509-dd9c32f9e4a4} was removed. Shutting down audio device.
+[2018.12.10-18.03.24:386][293]LogInit: XAudio2 using 'Headphones (2- E7 Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.12.10-18.03.29:468][308]LogInit: XAudio2 using 'Headphones (2- E7 Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.12.10-20.49.08:773][ 76]LogAudio: Warning: Current Audio Device with ID {0.0.0.00000000}.{3f1d5bc3-5c7d-484f-b93c-1890668ca08b} was removed. Shutting down audio device.
+[2018.12.10-20.49.08:773][ 76]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.12.10-21.49.15:555][379]LogHttp: Warning: 00000147C3241080: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.12.10-21.49.15:555][379]LogHttp: Warning: 00000147C3241080: libcurl info message cache 0 (Connection 169 seems to be dead!)
+[2018.12.10-21.49.15:557][379]LogHttp: Warning: 00000147C3241080: libcurl info message cache 1 (Closing connection 169)
+[2018.12.10-21.49.15:557][379]LogHttp: Warning: 00000147C3241080: libcurl info message cache 2 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.12.10-21.49.15:557][379]LogHttp: Warning: 00000147C3241080: libcurl info message cache 3 (Closing connection 170)
+[2018.12.10-21.49.21:065][381]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.12.10-22.57.53:836][419]LogHttp: Warning: 00000147C3241080: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.12.10-22.57.53:836][419]LogHttp: Warning: 00000147C3241080: libcurl info message cache 0 (Connection 179 seems to be dead!)
+[2018.12.10-22.57.53:845][419]LogHttp: Warning: 00000147C3241080: libcurl info message cache 1 (Closing connection 179)
+[2018.12.10-22.57.53:845][419]LogHttp: Warning: 00000147C3241080: libcurl info message cache 2 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.12.10-22.57.53:845][419]LogHttp: Warning: 00000147C3241080: libcurl info message cache 3 (Closing connection 180)
+[2018.12.10-22.57.59:244][429]LogInit: XAudio2 using 'NVIDIA HDMI Out (NVIDIA Virtual Audio Device (Wave Extensible) (WDM))' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.12.10-22.57.59:328][429]LogAudio: Warning: Current Audio Device with ID {0.0.0.00000000}.{b4c338a5-b301-4a75-8509-dd9c32f9e4a4} was removed. Shutting down audio device.
+[2018.12.10-22.57.59:328][429]LogAudio: Error: CreateMasteringVoice error: Unhandled error code -2147024893
+[2018.12.10-22.57.59:328][429]LogInit: Warning: Failed to create the mastering voice for XAudio2
+[2018.12.10-22.57.59:531][430]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.12.11-00.56.52:851][349]LogHttp: Warning: 00000147C32425C0: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.12.11-00.56.52:852][349]LogHttp: Warning: 00000147C32425C0: libcurl info message cache 0 (Connection 236 seems to be dead!)
+[2018.12.11-00.56.52:852][349]LogHttp: Warning: 00000147C32425C0: libcurl info message cache 1 (Closing connection 236)
+[2018.12.11-00.56.52:852][349]LogHttp: Warning: 00000147C32425C0: libcurl info message cache 2 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.12.11-00.56.52:852][349]LogHttp: Warning: 00000147C32425C0: libcurl info message cache 3 (Closing connection 237)
+[2018.12.11-00.57.02:133][359]LogInit: XAudio2 using 'NVIDIA HDMI Out (NVIDIA Virtual Audio Device (Wave Extensible) (WDM))' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.12.11-00.57.02:270][359]LogAudio: Warning: Current Audio Device with ID {0.0.0.00000000}.{b4c338a5-b301-4a75-8509-dd9c32f9e4a4} was removed. Shutting down audio device.
+[2018.12.11-00.57.02:271][359]LogAudio: Error: CreateMasteringVoice error: Unhandled error code -2147024893
+[2018.12.11-00.57.02:271][359]LogInit: Warning: Failed to create the mastering voice for XAudio2
+[2018.12.11-00.57.02:696][360]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.12.11-01.00.29:715][677]LogTemp: Repeating last play command: Selected Viewport
+[2018.12.11-01.00.29:767][677]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.12.11-01.00.29:771][677]PIE: New page: PIE session: PizzaTester (Dec 10, 2018, 3:00:29 PM)
+[2018.12.11-01.00.29:771][677]LogPlayLevel: Creating play world package: /Game/AlexWPizzaStuff/UEDPIE_0_PizzaTester
+[2018.12.11-01.00.29:815][677]LogPlayLevel: PIE: StaticDuplicateObject took: (0.043061s)
+[2018.12.11-01.00.29:823][677]LogAIModule: Creating AISystem for world PizzaTester
+[2018.12.11-01.00.29:827][677]LogPlayLevel: PIE: World Init took: (0.011906s)
+[2018.12.11-01.00.29:827][677]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/AlexWPizzaStuff/PizzaTester.PizzaTester to /Game/AlexWPizzaStuff/UEDPIE_0_PizzaTester.PizzaTester (0.055607s)
+[2018.12.11-01.00.29:937][677]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.12.11-01.00.29:969][677]LogInit: FAudioDevice initialized.
+[2018.12.11-01.00.30:014][677]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.12.11-01.00.30:023][677]LogWorld: Bringing World /Game/AlexWPizzaStuff/UEDPIE_0_PizzaTester.PizzaTester up for play (max tick rate 0) at 2018.12.10-20.00.30
+[2018.12.11-01.00.30:025][677]LogWorld: Bringing up level for play took: 0.007396
+[2018.12.11-01.00.30:060][677]PIE: Play in editor start time for /Game/AlexWPizzaStuff/UEDPIE_0_PizzaTester -0.194
+[2018.12.11-01.00.30:376][686]LogBlueprintUserMessages: [Pizza_scripting_9] Sauce
+[2018.12.11-01.00.30:778][697]LogBlueprintUserMessages: [Pizza_scripting_9] Sauce
+[2018.12.11-01.00.30:778][697]LogBlueprintUserMessages: [Pizza_scripting_9] Cheese
+[2018.12.11-01.00.30:779][697]LogScript: Warning: Script Msg: Attempted to access index -1 from array 'AddedIngredientModels' of length 2 in '/Game/AlexWPizzaStuff/Pizza_scripting.Pizza_scripting_C'!
+[2018.12.11-01.00.30:779][697]LogScript: Warning: UGameplayStatics::BeginSpawningActorFromClass: can not spawn an actor from a NULL class
+[2018.12.11-01.00.30:782][697]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue". Blueprint:  Pizza_scripting Function:  Execute Ubergraph Pizza Scripting Graph:  EventGraph Node:  AttachToActor
+[2018.12.11-01.00.30:782][697]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue". Blueprint:  Pizza_scripting Function:  Execute Ubergraph Pizza Scripting Graph:  EventGraph Node:  SetActorRelativeLocation
+[2018.12.11-01.00.30:783][697]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue". Blueprint:  Pizza_scripting Function:  Execute Ubergraph Pizza Scripting Graph:  EventGraph Node:  SetActorRotation
+[2018.12.11-01.00.31:043][705]LogBlueprintUserMessages: [Pizza_scripting_9] Sauce
+[2018.12.11-01.00.31:043][705]LogBlueprintUserMessages: [Pizza_scripting_9] Cheese
+[2018.12.11-01.00.31:043][705]LogBlueprintUserMessages: [Pizza_scripting_9] Sausage
+[2018.12.11-01.00.31:043][705]LogScript: Warning: Script Msg: Attempted to access index -1 from array 'AddedIngredientModels' of length 2 in '/Game/AlexWPizzaStuff/Pizza_scripting.Pizza_scripting_C'!
+[2018.12.11-01.00.31:043][705]LogScript: Warning: UGameplayStatics::BeginSpawningActorFromClass: can not spawn an actor from a NULL class
+[2018.12.11-01.00.31:043][705]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue". Blueprint:  Pizza_scripting Function:  Execute Ubergraph Pizza Scripting Graph:  EventGraph Node:  AttachToActor
+[2018.12.11-01.00.31:044][705]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue". Blueprint:  Pizza_scripting Function:  Execute Ubergraph Pizza Scripting Graph:  EventGraph Node:  SetActorRelativeLocation
+[2018.12.11-01.00.31:044][705]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue". Blueprint:  Pizza_scripting Function:  Execute Ubergraph Pizza Scripting Graph:  EventGraph Node:  SetActorRotation
+[2018.12.11-01.00.31:178][709]LogBlueprintUserMessages: [Pizza_scripting_9] Sauce
+[2018.12.11-01.00.31:178][709]LogBlueprintUserMessages: [Pizza_scripting_9] Cheese
+[2018.12.11-01.00.31:179][709]LogBlueprintUserMessages: [Pizza_scripting_9] Sausage
+[2018.12.11-01.00.31:179][709]LogBlueprintUserMessages: [Pizza_scripting_9] Pepperoni
+[2018.12.11-01.00.37:485][898]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Tags' of length 0 in '/Script/Engine.Actor'!
+[2018.12.11-01.00.37:485][898]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Tags' of length 0 in '/Script/Engine.Actor'!
+[2018.12.11-01.00.37:485][898]LogBlueprintUserMessages: [Pizza_scripting_9] None
+[2018.12.11-01.01.40:754][794]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.11-01.01.40:848][794]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.12.11-01.01.40:884][794]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.11-01.01.40:953][795]LogPlayLevel: Display: Destroying online subsystem :Context_26
+[2018.12.11-01.01.45:531][862]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.11-01.01.45:933][865]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.12.11-01.01.46:122][865]LogSlate: Window 'TeamSadMen - Unreal Editor' being destroyed
+[2018.12.11-01.01.46:126][865]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.12.11-01.01.46:449][866]Cmd: QUIT_EDITOR
+[2018.12.11-01.01.46:811][866]LogExit: Preparing to exit.
