@@ -1,0 +1,754 @@
+﻿Log file open, 12/11/18 00:10:43
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: TeamSadMen
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.347334
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.242s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4369336
+LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-6700HQ CPU @ 2.60GHz, GPU: Intel(R) HD Graphics 530
+LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.008s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.12.11-05.10.43:551][  0]LogInit: Selected Device Profile: [Windows]
+[2018.12.11-05.10.43:551][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.12.11-05.10.43:566][  0]LogHAL: Display: Platform has ~ 16 GB [16962461696 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2018.12.11-05.10.43:566][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2018.12.11-05.10.43:566][  0]LogInit: Going up to parent DeviceProfile []
+[2018.12.11-05.10.43:567][  0]LogInit: Computer: DESKTOP-3KP1QRT
+[2018.12.11-05.10.43:567][  0]LogInit: User: jonest5
+[2018.12.11-05.10.43:567][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.12.11-05.10.43:567][  0]LogInit: High frequency timer resolution =2.531250 MHz
+[2018.12.11-05.10.43:567][  0]LogMemory: Memory total: Physical=15.8GB (16GB approx)
+[2018.12.11-05.10.43:567][  0]LogMemory: Platform Memory Stats for Windows
+[2018.12.11-05.10.43:568][  0]LogMemory: Process Physical Memory: 101.91 MB used, 101.91 MB peak
+[2018.12.11-05.10.43:568][  0]LogMemory: Process Virtual Memory: 89.72 MB used, 89.72 MB peak
+[2018.12.11-05.10.43:568][  0]LogMemory: Physical Memory: 10285.04 MB used,  5891.62 MB free, 16176.66 MB total
+[2018.12.11-05.10.43:568][  0]LogMemory: Virtual Memory: 4624.59 MB used,  5891.62 MB free, 134217728.00 MB total
+[2018.12.11-05.10.43:613][  0]LogInit: Using OS detected language (en-US).
+[2018.12.11-05.10.43:613][  0]LogInit: Using OS detected locale (en-US).
+[2018.12.11-05.10.43:616][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.12.11-05.10.44:097][  0]LogStreaming: Display: Took  0.484s to InitEngineTextLocalization.
+[2018.12.11-05.10.44:097][  0]LogInit: Setting process to per monitor DPI aware
+[2018.12.11-05.10.44:196][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.12.11-05.10.44:196][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.12.11-05.10.44:625][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.12.11-05.10.44:625][  0]LogD3D11RHI: D3D11 adapters:
+[2018.12.11-05.10.44:734][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960M' (Feature Level 11_0)
+[2018.12.11-05.10.44:734][  0]LogD3D11RHI:       2010/0/8088 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2018.12.11-05.10.44:747][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
+[2018.12.11-05.10.44:747][  0]LogD3D11RHI:       128/0/8088 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2018.12.11-05.10.44:752][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.12.11-05.10.44:752][  0]LogD3D11RHI:       0/0/8088 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.12.11-05.10.44:752][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.12.11-05.10.44:812][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.12.11-05.10.44:812][  0]LogD3D11RHI:     GPU DeviceId: 0x139b (for the marketing name, search the web for "GPU Device Id")
+[2018.12.11-05.10.44:812][  0]LogWindows: EnumDisplayDevices:
+[2018.12.11-05.10.44:813][  0]LogWindows:    0. 'Intel(R) HD Graphics 530' (P:0 D:1)
+[2018.12.11-05.10.44:814][  0]LogWindows:    1. 'Intel(R) HD Graphics 530' (P:1 D:1)
+[2018.12.11-05.10.44:816][  0]LogWindows:    2. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2018.12.11-05.10.44:817][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.12.11-05.10.44:817][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960M
+[2018.12.11-05.10.44:817][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.12.11-05.10.44:817][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.12.11-05.10.44:817][  0]LogRHI: Texture pool is 1407 MB (70% of 2010 MB)
+[2018.12.11-05.10.44:890][  0]LogD3D11RHI: Async texture creation enabled
+[2018.12.11-05.10.44:919][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.12.11-05.10.44:921][  0]LogShaderCompilers: Guid format shader working directory is -15 characters bigger than the processId version (../../../../../../Users/jonest5/GameDev1/TeamSadMen/TeamSadMen/Intermediate/Shaders/WorkingDirectory/22892/).
+[2018.12.11-05.10.44:921][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/jonest5/AppData/Local/Temp/UnrealShaderWorkingDir/80A444C24B293AA02A772E8C0D12B7A8/'.
+[2018.12.11-05.10.45:398][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.12.11-05.10.45:416][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.12.11-05.10.45:434][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.12.11-05.10.45:452][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.12.11-05.10.45:472][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.12.11-05.10.45:493][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.12.11-05.10.45:511][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.12.11-05.10.45:529][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.12.11-05.10.45:538][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.12.11-05.10.45:642][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.11-05.10.45:642][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.11-05.10.45:642][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.11-05.10.45:642][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.11-05.10.45:642][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.11-05.10.45:642][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.11-05.10.45:642][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.11-05.10.45:642][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.11-05.10.45:642][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.11-05.10.45:642][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.11-05.10.45:642][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.11-05.10.45:642][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.11-05.10.45:642][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.11-05.10.45:643][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.11-05.10.45:643][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.11-05.10.45:643][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.11-05.10.45:643][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.11-05.10.45:643][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.11-05.10.45:645][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.12.11-05.10.45:717][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.12.11-05.10.45:717][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.12.11-05.10.45:749][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.12.11-05.10.45:749][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.12.11-05.10.45:765][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.12.11-05.10.45:781][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.12.11-05.10.45:797][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.12.11-05.10.45:815][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.12.11-05.10.45:828][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2018.12.11-05.10.45:828][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.12.11-05.10.45:930][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.12.11-05.10.45:930][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.12.11-05.10.45:930][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.12.11-05.10.47:018][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.12.11-05.10.47:105][  0]LogDerivedDataCache: Loaded boot cache 0.09s 71MB C:/Users/jonest5/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.12.11-05.10.47:105][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/jonest5/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2018.12.11-05.10.47:105][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/jonest5/GameDev1/TeamSadMen/TeamSadMen/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.12.11-05.10.47:106][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.12.11-05.10.47:106][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/jonest5/GameDev1/TeamSadMen/TeamSadMen/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.12.11-05.10.47:106][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.12.11-05.10.47:125][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.12.11-05.10.47:139][  0]LogDerivedDataCache: Using Local data cache path C:/Users/jonest5/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.12.11-05.10.47:139][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.12.11-05.10.47:139][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.12.11-05.10.47:165][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.12.11-05.10.47:167][  0]LogSlate: Using FreeType 2.6.0
+[2018.12.11-05.10.47:168][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.12.11-05.10.47:285][  0]LogAssetRegistry: FAssetRegistry took 0.0280 seconds to start up
+[2018.12.11-05.10.47:761][  0]LogInit: Selected Device Profile: [Windows]
+[2018.12.11-05.10.47:854][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.12.11-05.10.47:862][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.12.11-05.10.47:862][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2018.12.11-05.10.47:862][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.12.11-05.10.47:862][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.12.11-05.10.47:999][  0]LogNetVersion: TeamSadMen 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 1220547581)
+[2018.12.11-05.10.48:896][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.241634 seconds
+[2018.12.11-05.10.48:904][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2018.12.11-05.10.48:904][  0]LogUObjectAllocator: 6690864 out of 0 bytes used by permanent object pool.
+[2018.12.11-05.10.48:904][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.12.11-05.10.50:334][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.12.11-05.10.50:349][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.12.11-05.10.50:584][  0]SourceControl: Source control is disabled
+[2018.12.11-05.10.50:584][  0]SourceControl: Source control is disabled
+[2018.12.11-05.10.50:586][  0]SourceControl: Source control is disabled
+[2018.12.11-05.10.50:588][  0]SourceControl: Source control is disabled
+[2018.12.11-05.10.50:822][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.12.11-05.10.51:027][  0]LogOcInput: OculusInput pre-init called
+[2018.12.11-05.10.51:115][  0]LogEngine: Initializing Engine...
+[2018.12.11-05.10.51:116][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.12.11-05.10.51:118][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.12.11-05.10.51:118][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.12.11-05.10.51:119][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.001 s
+[2018.12.11-05.10.51:119][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.12.11-05.10.51:455][  0]LogInit: Initializing FReadOnlyCVARCache
+[2018.12.11-05.10.51:478][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.12.11-05.10.51:530][  0]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.12.11-05.10.51:578][  0]LogInit: FAudioDevice initialized.
+[2018.12.11-05.10.51:579][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2018.12.11-05.10.51:643][  0]LogDerivedDataCache: Saved boot cache 0.06s 71MB C:/Users/jonest5/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.12.11-05.10.51:644][  0]LogInit: Texture streaming: Enabled
+[2018.12.11-05.10.51:673][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.12.11-05.10.51:698][  0]LogInit: Transaction tracking system initialized
+[2018.12.11-05.10.51:738][  0]BlueprintLog: New page: Editor Load
+[2018.12.11-05.10.51:870][  0]LocalizationService: Localization service is disabled
+[2018.12.11-05.10.52:273][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.12.11-05.10.52:273][  0]LogCook: Display: Mobile HDR setting 1
+[2018.12.11-05.10.52:273][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.12.11-05.10.52:273][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.12.11-05.10.52:273][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.12.11-05.10.52:273][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.12.11-05.10.52:273][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.12.11-05.10.52:461][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jonest5/GameDev1/TeamSadMen/TeamSadMen/Content/' took 0.02s
+[2018.12.11-05.10.52:461][  0]SourceControl: Source control is disabled
+[2018.12.11-05.10.52:461][  0]Cmd: MAP LOAD FILE="../../../../../../Users/jonest5/GameDev1/TeamSadMen/TeamSadMen/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.12.11-05.10.52:461][  0]LightingResults: New page: Lighting Build
+[2018.12.11-05.10.52:466][  0]MapCheck: New page: Map Check
+[2018.12.11-05.10.52:466][  0]LightingResults: New page: Lighting Build
+[2018.12.11-05.10.53:168][  0]LogStaticMesh: Building static mesh pizza...
+[2018.12.11-05.10.53:192][  0]LogStaticMesh: Built static mesh [0.02s] /Game/pizza.pizza
+[2018.12.11-05.10.53:215][  0]LogMaterial: Display: Missing cached shader map for material lambert1, compiling. 
+[2018.12.11-05.10.53:310][  0]LogShaderCompilers: Display: Shaders left to compile 31
+[2018.12.11-05.10.53:310][  0]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.12.11-05.10.53:310][  0]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.12.11-05.10.53:310][  0]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.12.11-05.10.53:573][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2018.12.11-05.10.53:607][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.12.11-05.10.53:641][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.12.11-05.10.53:805][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 164.186ms to complete.
+[2018.12.11-05.10.53:805][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 1.344
+[2018.12.11-05.10.54:008][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.11-05.10.54:021][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.11-05.10.54:032][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.11-05.10.54:044][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.11-05.10.54:058][  0]LogCollectionManager: Loaded 0 collections in 0.003674 seconds
+[2018.12.11-05.10.54:114][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jonest5/GameDev1/TeamSadMen/TeamSadMen/Saved/Collections/' took 0.01s
+[2018.12.11-05.10.54:114][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jonest5/GameDev1/TeamSadMen/TeamSadMen/Content/Developers/jonest5/Collections/' took 0.01s
+[2018.12.11-05.10.54:114][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jonest5/GameDev1/TeamSadMen/TeamSadMen/Content/Collections/' took 0.01s
+[2018.12.11-05.10.54:114][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.12.11-05.10.54:130][  0]LogContentBrowser: Native class hierarchy populated in 0.0154 seconds. Added 2572 classes and 603 folders.
+[2018.12.11-05.10.54:141][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2018.12.11-05.10.54:257][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.12.11-05.10.54:273][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2018.12.11-05.10.54:408][  0]LogSlate: Took 0.000319 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.12.11-05.10.54:412][  0]LogSlate: Took 0.000373 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.12.11-05.10.54:417][  0]LogSlate: Took 0.000568 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.12.11-05.10.54:569][  0]LogRenderer: Reallocating scene render targets to support 1180x560 Format 10 NumSamples 1 (Frame:1).
+[2018.12.11-05.10.54:688][  0]LogSlate: Took 0.000356 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.12.11-05.10.54:872][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.12.11-05.10.54:873][  0]LogLoad: (Engine Initialization) Total time: 14.73 seconds
+[2018.12.11-05.10.54:873][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.12.11-05.10.54:931][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.12.11-05.10.55:195][  3]LogAssetRegistry: Asset discovery search completed in 7.9324 seconds
+[2018.12.11-05.10.55:198][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.12.11-05.10.55:198][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000122 seconds (updated 0 objects)
+[2018.12.11-05.10.55:969][ 32]LogSlate: Took 0.000480 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.12.11-05.10.58:955][134]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.11-05.10.59:115][137]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/FirstPersonBP/Maps/MainMenu.MainMenu
+[2018.12.11-05.11.00:055][137]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0009 seconds. Added 116 classes and 0 folders.
+[2018.12.11-05.11.01:288][137]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter
+[2018.12.11-05.11.01:808][137]LogLinker: Warning: Can't resolve asset name
+[2018.12.11-05.11.02:051][137]LogSlate: Took 0.000381 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.12.11-05.11.02:389][138]LogSlate: Took 0.000456 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.12.11-05.11.08:376][349]LogSlate: Window 'MainMenu' being destroyed
+[2018.12.11-05.11.16:674][642]LogSlate: Took 0.014097 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2018.12.11-05.11.40:972][167]LogLinker: Warning: Can't find file '/Game/FirstPersonBP/Maps/PizzaPlace_BuiltData'
+[2018.12.11-05.11.40:973][167]LogLinker: Warning: Can't find file for asset '/Game/FirstPersonBP/Maps/PizzaPlace_BuiltData' while loading ../../../../../../Users/jonest5/GameDev1/TeamSadMen/TeamSadMen/Content/FirstPersonBP/Maps/PizzaPlace.umap.
+[2018.12.11-05.11.40:973][167]LoadErrors: Error: /Game/FirstPersonBP/Maps/PizzaPlace : Can't find file for asset. /Game/FirstPersonBP/Maps/PizzaPlace_BuiltData
+[2018.12.11-05.11.41:053][167]LogLinker: Warning: Can't find file '/Game/FirstPersonBP/Maps/PizzaPlace_BuiltData'
+[2018.12.11-05.11.41:053][167]LogLinker: Warning: Can't find file for asset '/Game/FirstPersonBP/Maps/PizzaPlace_BuiltData' while loading ../../../../../../Users/jonest5/GameDev1/TeamSadMen/TeamSadMen/Content/FirstPersonBP/Maps/PizzaPlace.umap.
+[2018.12.11-05.11.41:220][167]LogLinker: Warning: Can't find file '/Game/FirstPersonBP/Maps/PizzaPlace_BuiltData'
+[2018.12.11-05.11.41:221][167]LogLinker: Warning: Can't find file for asset '/Game/FirstPersonBP/Maps/PizzaPlace_BuiltData' while loading NULL.
+[2018.12.11-05.11.41:221][167]LogLinker: Warning: Can't find file '/Game/FirstPersonBP/Maps/PizzaPlace_BuiltData'
+[2018.12.11-05.11.41:221][167]LogLinker: Warning: Can't find file for asset '/Game/FirstPersonBP/Maps/PizzaPlace_BuiltData' while loading NULL.
+[2018.12.11-05.11.41:281][167]LogTexture: Display: Building textures: bowl_lambert1_BaseColor (AutoDXT, 1024X1024)
+[2018.12.11-05.11.41:281][167]LogLinker: Warning: Can't find file '/Game/FirstPersonBP/Maps/PizzaPlace_BuiltData'
+[2018.12.11-05.11.41:281][167]LoadErrors: Failed to load /Game/FirstPersonBP/Maps/PizzaPlace_BuiltData.PizzaPlace_BuiltData Referenced by PersistentLevel
+[2018.12.11-05.11.41:282][167]LogLinker: Warning: Can't find file for asset '/Game/FirstPersonBP/Maps/PizzaPlace_BuiltData' while loading NULL.
+[2018.12.11-05.11.41:568][167]LogTexture: Display: Building textures: bell_lambert1_OcclusionRoughnessMetallic (AutoDXT, 1024X1024)
+[2018.12.11-05.11.41:568][167]LogTexture: Display: Building textures: Texture2D_0 (BGRA8, 512X512)
+[2018.12.11-05.11.41:569][167]LogTexture: Display: Building textures: bell_lambert1_Normal (BC5, 1024X1024)
+[2018.12.11-05.11.41:569][167]LogTexture: Display: Building textures: bell_lambert1_BaseColor (AutoDXT, 1024X1024)
+[2018.12.11-05.11.41:569][167]LogTexture: Display: Building textures: green_pepper_lambert1_BaseColor (AutoDXT, 1024X1024)
+[2018.12.11-05.11.41:569][167]LogTexture: Display: Building textures: green_pepper_lambert1_Normal (BC5, 1024X1024)
+[2018.12.11-05.11.41:569][167]LogTexture: Display: Building textures: dough_lambert1_OcclusionRoughnessMetallic (AutoDXT, 1024X1024)
+[2018.12.11-05.11.41:570][167]LogTexture: Display: Building textures: dough_lambert1_Normal (BC5, 1024X1024)
+[2018.12.11-05.11.41:580][167]LogTexture: Display: Building textures: dough_lambert1_BaseColor (AutoDXT, 1024X1024)
+[2018.12.11-05.11.41:581][167]LogTexture: Display: Building textures: bowl_lambert1_OcclusionRoughnessMetallic (AutoDXT, 1024X1024)
+[2018.12.11-05.11.41:833][167]LogTexture: Display: Building textures: sausage_lambert1_OcclusionRoughnessMetallic (AutoDXT, 1024X1024)
+[2018.12.11-05.11.41:833][167]LogTexture: Display: Building textures: sausage_lambert1_Normal (BC5, 1024X1024)
+[2018.12.11-05.11.41:833][167]LogTexture: Display: Building textures: sausage_lambert1_BaseColor (AutoDXT, 1024X1024)
+[2018.12.11-05.11.41:834][167]LogTexture: Display: Building textures: bowl_lambert1_Normal (BC5, 1024X1024)
+[2018.12.11-05.11.42:062][167]LogTexture: Display: Building textures: oven_lambert1_Normal (BC5, 1024X1024)
+[2018.12.11-05.11.42:063][167]LogTexture: Display: Building textures: oven_lambert1_OcclusionRoughnessMetallic (AutoDXT, 1024X1024)
+[2018.12.11-05.11.42:063][167]LogTexture: Display: Building textures: oven_lambert1_BaseColor (AutoDXT, 1024X1024)
+[2018.12.11-05.11.42:069][167]LogMaterial: Display: Missing cached shader map for material BowlMaterial, compiling. 
+[2018.12.11-05.11.42:141][167]LogTexture: Display: Building textures: tomato_lambert1_OcclusionRoughnessMetallic (AutoDXT, 1024X1024)
+[2018.12.11-05.11.42:141][167]LogMaterial: Display: Missing cached shader map for material BellMaterial, compiling. 
+[2018.12.11-05.11.42:261][167]LogShaderCompilers: Display: Shaders left to compile 31
+[2018.12.11-05.11.42:261][167]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.12.11-05.11.42:262][167]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.12.11-05.11.42:262][167]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.12.11-05.11.42:263][167]LogTexture: Display: Building textures: tomato_lambert1_Normal (BC5, 1024X1024)
+[2018.12.11-05.11.42:263][167]LogTexture: Display: Building textures: tomato_lambert1_BaseColor (AutoDXT, 1024X1024)
+[2018.12.11-05.11.42:264][167]LogTexture: Display: Building textures: sauce_lambert1_OcclusionRoughnessMetallic (AutoDXT, 1024X1024)
+[2018.12.11-05.11.42:290][167]LogTexture: Display: Building textures: sauce_lambert1_Normal (BC5, 1024X1024)
+[2018.12.11-05.11.42:349][167]LogMaterial: Display: Missing cached shader map for material WorldGridMaterial, compiling. Is special engine material.
+[2018.12.11-05.12.01:314][167]LogTexture: Display: Building textures: sauce_lambert1_BaseColor (AutoDXT, 1024X1024)
+[2018.12.11-05.12.01:314][167]LogTexture: Display: Building textures: sauce_lambert1_OcclusionRoughnessMetallic (AutoDXT, 1024X1024)
+[2018.12.11-05.12.01:314][167]LogTexture: Display: Building textures: sauce_lambert1_Normal (BC5, 1024X1024)
+[2018.12.11-05.12.01:314][167]LogTexture: Display: Building textures: sauce_lambert1_BaseColor (AutoDXT, 1024X1024)
+[2018.12.11-05.12.01:314][167]LogTexture: Display: Building textures: sauce_lambert1_OcclusionRoughnessMetallic (AutoDXT, 1024X1024)
+[2018.12.11-05.12.01:315][167]LogTexture: Display: Building textures: sauce_lambert1_Normal (BC5, 1024X1024)
+[2018.12.11-05.12.01:315][167]LogTexture: Display: Building textures: sauce_lambert1_BaseColor (AutoDXT, 1024X1024)
+[2018.12.11-05.12.01:315][167]LogTexture: Display: Building textures: red_pepper_lambert1_OcclusionRoughnessMetallic (AutoDXT, 1024X1024)
+[2018.12.11-05.12.01:315][167]LogTexture: Display: Building textures: red_pepper_lambert1_Normal (BC5, 1024X1024)
+[2018.12.11-05.12.01:315][167]LogTexture: Display: Building textures: red_pepper_lambert1_BaseColor (AutoDXT, 1024X1024)
+[2018.12.11-05.12.01:316][167]LogTexture: Display: Building textures: pineapple_lambert1_OcclusionRoughnessMetallic (AutoDXT, 1024X1024)
+[2018.12.11-05.12.01:316][167]LogTexture: Display: Building textures: pineapple_lambert1_Normal (BC5, 1024X1024)
+[2018.12.11-05.12.01:316][167]LogTexture: Display: Building textures: pineapple_lambert1_BaseColor (AutoDXT, 1024X1024)
+[2018.12.11-05.12.01:316][167]LogTexture: Display: Building textures: pepperoni_lambert1_OcclusionRoughnessMetallic (AutoDXT, 1024X1024)
+[2018.12.11-05.12.01:317][167]LogTexture: Display: Building textures: pepperoni_lambert1_Normal (AutoDXT, 1024X1024)
+[2018.12.11-05.12.01:317][167]LogTexture: Display: Building textures: pepperoni_lambert1_BaseColor (AutoDXT, 1024X1024)
+[2018.12.11-05.12.01:317][167]LogTexture: Display: Building textures: overhead_lamp_lambert1_OcclusionRoughnessMetallic (AutoDXT, 1024X1024)
+[2018.12.11-05.12.01:318][167]LogTexture: Display: Building textures: overhead_lamp_lambert1_Normal (BC5, 1024X1024)
+[2018.12.11-05.12.01:318][167]LogTexture: Display: Building textures: overhead_lamp_lambert1_BaseColor (AutoDXT, 1024X1024)
+[2018.12.11-05.12.01:318][167]LogTexture: Display: Building textures: green_pepper_lambert1_OcclusionRoughnessMetallic (AutoDXT, 1024X1024)
+[2018.12.11-05.12.01:318][167]LogShaderCompilers: Display: Shaders left to compile 143
+[2018.12.11-05.12.01:319][167]LogShaderCompilers: Display: Shaders left to compile 142
+[2018.12.11-05.12.01:319][167]LogShaderCompilers: Display: Shaders left to compile 141
+[2018.12.11-05.12.01:319][167]LogShaderCompilers: Display: Shaders left to compile 140
+[2018.12.11-05.12.01:319][167]LogShaderCompilers: Display: Shaders left to compile 139
+[2018.12.11-05.12.01:319][167]LogShaderCompilers: Display: Shaders left to compile 138
+[2018.12.11-05.12.01:319][167]LogShaderCompilers: Display: Shaders left to compile 137
+[2018.12.11-05.12.01:319][167]LogShaderCompilers: Display: Shaders left to compile 136
+[2018.12.11-05.12.01:319][167]LogShaderCompilers: Display: Shaders left to compile 135
+[2018.12.11-05.12.01:320][167]LogShaderCompilers: Display: Shaders left to compile 134
+[2018.12.11-05.12.01:320][167]LogShaderCompilers: Display: Shaders left to compile 133
+[2018.12.11-05.12.01:320][167]LogShaderCompilers: Display: Shaders left to compile 132
+[2018.12.11-05.12.01:320][167]LogShaderCompilers: Display: Shaders left to compile 131
+[2018.12.11-05.12.01:321][167]LogShaderCompilers: Display: Shaders left to compile 130
+[2018.12.11-05.12.01:321][167]LogShaderCompilers: Display: Shaders left to compile 129
+[2018.12.11-05.12.01:321][167]LogShaderCompilers: Display: Shaders left to compile 128
+[2018.12.11-05.12.01:321][167]LogShaderCompilers: Display: Shaders left to compile 127
+[2018.12.11-05.12.01:322][167]LogShaderCompilers: Display: Shaders left to compile 126
+[2018.12.11-05.12.01:322][167]LogShaderCompilers: Display: Shaders left to compile 125
+[2018.12.11-05.12.01:322][167]LogShaderCompilers: Display: Shaders left to compile 124
+[2018.12.11-05.12.01:322][167]LogShaderCompilers: Display: Shaders left to compile 123
+[2018.12.11-05.12.01:322][167]LogShaderCompilers: Display: Shaders left to compile 122
+[2018.12.11-05.12.01:322][167]LogShaderCompilers: Display: Shaders left to compile 121
+[2018.12.11-05.12.01:322][167]LogShaderCompilers: Display: Shaders left to compile 120
+[2018.12.11-05.12.01:323][167]LogShaderCompilers: Display: Shaders left to compile 119
+[2018.12.11-05.12.01:323][167]LogShaderCompilers: Display: Shaders left to compile 118
+[2018.12.11-05.12.01:323][167]LogShaderCompilers: Display: Shaders left to compile 117
+[2018.12.11-05.12.01:323][167]LogShaderCompilers: Display: Shaders left to compile 116
+[2018.12.11-05.12.01:323][167]LogShaderCompilers: Display: Shaders left to compile 115
+[2018.12.11-05.12.01:323][167]LogShaderCompilers: Display: Shaders left to compile 114
+[2018.12.11-05.12.01:323][167]LogShaderCompilers: Display: Shaders left to compile 113
+[2018.12.11-05.12.01:324][167]LogShaderCompilers: Display: Shaders left to compile 112
+[2018.12.11-05.12.01:324][167]LogShaderCompilers: Display: Shaders left to compile 111
+[2018.12.11-05.12.01:324][167]LogShaderCompilers: Display: Shaders left to compile 110
+[2018.12.11-05.12.01:324][167]LogShaderCompilers: Display: Shaders left to compile 109
+[2018.12.11-05.12.01:324][167]LogShaderCompilers: Display: Shaders left to compile 108
+[2018.12.11-05.12.01:324][167]LogShaderCompilers: Display: Shaders left to compile 107
+[2018.12.11-05.12.01:325][167]LogShaderCompilers: Display: Shaders left to compile 106
+[2018.12.11-05.12.01:325][167]LogShaderCompilers: Display: Shaders left to compile 105
+[2018.12.11-05.12.01:325][167]LogShaderCompilers: Display: Shaders left to compile 104
+[2018.12.11-05.12.01:325][167]LogShaderCompilers: Display: Shaders left to compile 103
+[2018.12.11-05.12.01:325][167]LogShaderCompilers: Display: Shaders left to compile 102
+[2018.12.11-05.12.01:325][167]LogShaderCompilers: Display: Shaders left to compile 101
+[2018.12.11-05.12.01:326][167]LogShaderCompilers: Display: Shaders left to compile 100
+[2018.12.11-05.12.01:326][167]LogShaderCompilers: Display: Shaders left to compile 99
+[2018.12.11-05.12.01:326][167]LogShaderCompilers: Display: Shaders left to compile 98
+[2018.12.11-05.12.01:326][167]LogShaderCompilers: Display: Shaders left to compile 97
+[2018.12.11-05.12.01:326][167]LogShaderCompilers: Display: Shaders left to compile 96
+[2018.12.11-05.12.01:326][167]LogShaderCompilers: Display: Shaders left to compile 95
+[2018.12.11-05.12.01:327][167]LogShaderCompilers: Display: Shaders left to compile 94
+[2018.12.11-05.12.01:327][167]LogShaderCompilers: Display: Shaders left to compile 93
+[2018.12.11-05.12.01:327][167]LogShaderCompilers: Display: Shaders left to compile 92
+[2018.12.11-05.12.01:327][167]LogShaderCompilers: Display: Shaders left to compile 91
+[2018.12.11-05.12.01:327][167]LogShaderCompilers: Display: Shaders left to compile 90
+[2018.12.11-05.12.01:327][167]LogShaderCompilers: Display: Shaders left to compile 89
+[2018.12.11-05.12.01:327][167]LogShaderCompilers: Display: Shaders left to compile 88
+[2018.12.11-05.12.01:327][167]LogShaderCompilers: Display: Shaders left to compile 87
+[2018.12.11-05.12.01:327][167]LogShaderCompilers: Display: Shaders left to compile 86
+[2018.12.11-05.12.01:328][167]LogShaderCompilers: Display: Shaders left to compile 85
+[2018.12.11-05.12.01:328][167]LogShaderCompilers: Display: Shaders left to compile 84
+[2018.12.11-05.12.01:328][167]LogShaderCompilers: Display: Shaders left to compile 83
+[2018.12.11-05.12.01:328][167]LogShaderCompilers: Display: Shaders left to compile 82
+[2018.12.11-05.12.01:328][167]LogShaderCompilers: Display: Shaders left to compile 81
+[2018.12.11-05.12.01:328][167]LogShaderCompilers: Display: Shaders left to compile 80
+[2018.12.11-05.12.01:329][167]LogShaderCompilers: Display: Shaders left to compile 79
+[2018.12.11-05.12.01:329][167]LogShaderCompilers: Display: Shaders left to compile 78
+[2018.12.11-05.12.01:329][167]LogShaderCompilers: Display: Shaders left to compile 77
+[2018.12.11-05.12.01:329][167]LogShaderCompilers: Display: Shaders left to compile 76
+[2018.12.11-05.12.01:329][167]LogShaderCompilers: Display: Shaders left to compile 75
+[2018.12.11-05.12.01:329][167]LogShaderCompilers: Display: Shaders left to compile 74
+[2018.12.11-05.12.01:329][167]LogShaderCompilers: Display: Shaders left to compile 73
+[2018.12.11-05.12.01:329][167]LogShaderCompilers: Display: Shaders left to compile 72
+[2018.12.11-05.12.01:329][167]LogShaderCompilers: Display: Shaders left to compile 71
+[2018.12.11-05.12.01:329][167]LogShaderCompilers: Display: Shaders left to compile 70
+[2018.12.11-05.12.01:330][167]LogShaderCompilers: Display: Shaders left to compile 69
+[2018.12.11-05.12.01:330][167]LogShaderCompilers: Display: Shaders left to compile 68
+[2018.12.11-05.12.01:330][167]LogShaderCompilers: Display: Shaders left to compile 67
+[2018.12.11-05.12.01:330][167]LogShaderCompilers: Display: Shaders left to compile 66
+[2018.12.11-05.12.01:330][167]LogShaderCompilers: Display: Shaders left to compile 65
+[2018.12.11-05.12.01:330][167]LogShaderCompilers: Display: Shaders left to compile 64
+[2018.12.11-05.12.01:330][167]LogShaderCompilers: Display: Shaders left to compile 63
+[2018.12.11-05.12.01:330][167]LogShaderCompilers: Display: Shaders left to compile 62
+[2018.12.11-05.12.01:330][167]LogShaderCompilers: Display: Shaders left to compile 61
+[2018.12.11-05.12.01:330][167]LogShaderCompilers: Display: Shaders left to compile 60
+[2018.12.11-05.12.01:330][167]LogShaderCompilers: Display: Shaders left to compile 59
+[2018.12.11-05.12.01:331][167]LogShaderCompilers: Display: Shaders left to compile 58
+[2018.12.11-05.12.01:331][167]LogShaderCompilers: Display: Shaders left to compile 57
+[2018.12.11-05.12.01:331][167]LogShaderCompilers: Display: Shaders left to compile 56
+[2018.12.11-05.12.01:331][167]LogShaderCompilers: Display: Shaders left to compile 55
+[2018.12.11-05.12.01:331][167]LogShaderCompilers: Display: Shaders left to compile 54
+[2018.12.11-05.12.01:331][167]LogShaderCompilers: Display: Shaders left to compile 53
+[2018.12.11-05.12.01:331][167]LogShaderCompilers: Display: Shaders left to compile 52
+[2018.12.11-05.12.01:331][167]LogShaderCompilers: Display: Shaders left to compile 51
+[2018.12.11-05.12.01:331][167]LogShaderCompilers: Display: Shaders left to compile 50
+[2018.12.11-05.12.01:331][167]LogShaderCompilers: Display: Shaders left to compile 49
+[2018.12.11-05.12.01:332][167]LogShaderCompilers: Display: Shaders left to compile 48
+[2018.12.11-05.12.01:332][167]LogShaderCompilers: Display: Shaders left to compile 47
+[2018.12.11-05.12.01:332][167]LogShaderCompilers: Display: Shaders left to compile 46
+[2018.12.11-05.12.01:332][167]LogShaderCompilers: Display: Shaders left to compile 45
+[2018.12.11-05.12.01:332][167]LogShaderCompilers: Display: Shaders left to compile 44
+[2018.12.11-05.12.01:332][167]LogShaderCompilers: Display: Shaders left to compile 43
+[2018.12.11-05.12.01:332][167]LogShaderCompilers: Display: Shaders left to compile 42
+[2018.12.11-05.12.01:332][167]LogShaderCompilers: Display: Shaders left to compile 41
+[2018.12.11-05.12.01:333][167]LogShaderCompilers: Display: Shaders left to compile 40
+[2018.12.11-05.12.01:333][167]LogShaderCompilers: Display: Shaders left to compile 39
+[2018.12.11-05.12.01:333][167]LogShaderCompilers: Display: Shaders left to compile 38
+[2018.12.11-05.12.01:333][167]LogShaderCompilers: Display: Shaders left to compile 37
+[2018.12.11-05.12.01:333][167]LogShaderCompilers: Display: Shaders left to compile 36
+[2018.12.11-05.12.01:333][167]LogShaderCompilers: Display: Shaders left to compile 35
+[2018.12.11-05.12.01:334][167]LogShaderCompilers: Display: Shaders left to compile 34
+[2018.12.11-05.12.01:334][167]LogShaderCompilers: Display: Shaders left to compile 33
+[2018.12.11-05.12.01:334][167]LogShaderCompilers: Display: Shaders left to compile 32
+[2018.12.11-05.12.01:334][167]LogShaderCompilers: Display: Shaders left to compile 31
+[2018.12.11-05.12.01:334][167]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.12.11-05.12.01:334][167]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.12.11-05.12.01:335][167]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.12.11-05.12.01:355][167]LogStaticMesh: Building static mesh bell...
+[2018.12.11-05.12.01:381][167]LogStaticMesh: Built static mesh [0.03s] /Game/Bell/bell.bell
+[2018.12.11-05.12.01:386][167]LogStaticMesh: Building static mesh bowl...
+[2018.12.11-05.12.01:395][167]LogStaticMesh: Built static mesh [0.01s] /Game/bowl/bowl.bowl
+[2018.12.11-05.12.01:405][167]LogStaticMesh: Building static mesh dough...
+[2018.12.11-05.12.01:427][167]LogStaticMesh: Built static mesh [0.02s] /Game/dough/dough.dough
+[2018.12.11-05.12.01:438][167]LogStaticMesh: Building static mesh green_pepper...
+[2018.12.11-05.12.01:461][167]LogStaticMesh: Built static mesh [0.02s] /Game/green_pepper/green_pepper.green_pepper
+[2018.12.11-05.12.01:472][167]LogStaticMesh: Building static mesh Green_Pesto...
+[2018.12.11-05.12.01:491][167]LogStaticMesh: Built static mesh [0.02s] /Game/Sauces/green_pasto/Green_Pesto.Green_Pesto
+[2018.12.11-05.12.01:508][167]LogStaticMesh: Building static mesh hand...
+[2018.12.11-05.12.01:547][167]LogStaticMesh: Built static mesh [0.04s] /Game/hand.hand
+[2018.12.11-05.12.01:569][167]LogStaticMesh: Building static mesh oven...
+[2018.12.11-05.12.01:585][167]LogStaticMesh: Built static mesh [0.02s] /Game/oven/oven.oven
+[2018.12.11-05.12.01:591][167]LogStaticMesh: Building static mesh overhead_lamp...
+[2018.12.11-05.12.01:605][167]LogStaticMesh: Built static mesh [0.01s] /Game/overhead_lamp/overhead_lamp.overhead_lamp
+[2018.12.11-05.12.01:614][167]LogStaticMesh: Building static mesh pepperoni...
+[2018.12.11-05.12.01:642][167]LogStaticMesh: Built static mesh [0.03s] /Game/pepperoni/pepperoni.pepperoni
+[2018.12.11-05.12.01:648][167]LogStaticMesh: Building static mesh pineapple...
+[2018.12.11-05.12.01:658][167]LogStaticMesh: Built static mesh [0.01s] /Game/pineapple/pineapple.pineapple
+[2018.12.11-05.12.01:665][167]LogStaticMesh: Building static mesh red_pepper...
+[2018.12.11-05.12.01:691][167]LogStaticMesh: Built static mesh [0.03s] /Game/red_pepper/red_pepper.red_pepper
+[2018.12.11-05.12.01:729][167]LogStaticMesh: Building static mesh sausage...
+[2018.12.11-05.12.01:754][167]LogStaticMesh: Built static mesh [0.03s] /Game/sausage.sausage
+[2018.12.11-05.12.01:801][167]LogStaticMesh: Building static mesh spoon...
+[2018.12.11-05.12.01:805][167]LogStaticMesh: Built static mesh [0.00s] /Game/spoon.spoon
+[2018.12.11-05.12.01:813][167]LogStaticMesh: Building static mesh tomato...
+[2018.12.11-05.12.01:837][167]LogStaticMesh: Built static mesh [0.02s] /Game/tomato/tomato.tomato
+[2018.12.11-05.12.01:843][167]LogMaterial: Display: Missing cached shader map for material GreenPepperMaterial, compiling. 
+[2018.12.11-05.12.01:875][167]LogShaderCompilers: Display: Shaders left to compile 31
+[2018.12.11-05.12.01:875][167]LogMaterial: Display: Missing cached shader map for material DoughMaterial, compiling. 
+[2018.12.11-05.12.01:937][167]LogMaterial: Display: Missing cached shader map for material sausage, compiling. 
+[2018.12.11-05.12.01:965][167]LogMaterial: Display: Missing cached shader map for material OvenMaterial, compiling. 
+[2018.12.11-05.12.01:994][167]LogMaterial: Display: Missing cached shader map for material TomatoMaterial, compiling. 
+[2018.12.11-05.12.02:059][167]LogMaterial: Display: Missing cached shader map for material RedPestoSauce, compiling. 
+[2018.12.11-05.12.02:095][167]LogMaterial: Display: Missing cached shader map for material MarinaraMaterial, compiling. 
+[2018.12.11-05.12.02:129][167]LogMaterial: Display: Missing cached shader map for material GreenPestoMaterial, compiling. 
+[2018.12.11-05.12.02:160][167]LogMaterial: Display: Missing cached shader map for material RedPepperMaterial, compiling. 
+[2018.12.11-05.12.02:197][167]LogMaterial: Display: Missing cached shader map for material PineappleMaterial, compiling. 
+[2018.12.11-05.12.02:227][167]LogMaterial: Display: Missing cached shader map for material PepperoniMaterial, compiling. 
+[2018.12.11-05.12.02:261][167]LogMaterial: Display: Missing cached shader map for material OverheadLampMaterial, compiling. 
+[2018.12.11-05.12.02:301][167]LogAIModule: Creating AISystem for world PizzaPlace
+[2018.12.11-05.12.02:386][167]LogAssetEditorManager: Opening Asset editor for World /Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace
+[2018.12.11-05.12.02:444][167]Cmd: MAP LOAD FILE="../../../../../../Users/jonest5/GameDev1/TeamSadMen/TeamSadMen/Content/FirstPersonBP/Maps/PizzaPlace.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.12.11-05.12.02:444][167]LightingResults: New page: Lighting Build
+[2018.12.11-05.12.02:445][167]LoadErrors: New page: Loading map: PizzaPlace.umap
+[2018.12.11-05.12.02:447][167]MapCheck: New page: Map Check
+[2018.12.11-05.12.02:447][167]LightingResults: New page: Lighting Build
+[2018.12.11-05.12.02:761][167]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.12.11-05.12.02:845][167]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.12.11-05.12.03:120][167]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 274.527ms to complete.
+[2018.12.11-05.12.03:122][167]LogFileHelpers: Loading map 'PizzaPlace' took 0.679
+[2018.12.11-05.12.04:055][176]LogShaderCompilers: Display: Shaders left to compile 362
+[2018.12.11-05.12.05:771][229]LogShaderCompilers: Display: Shaders left to compile 352
+[2018.12.11-05.12.07:087][260]LogShaderCompilers: Display: Shaders left to compile 342
+[2018.12.11-05.12.07:413][260]LogShaderCompilers: Display: Shaders left to compile 332
+[2018.12.11-05.12.09:756][305]LogShaderCompilers: Display: Shaders left to compile 322
+[2018.12.11-05.12.10:382][325]LogShaderCompilers: Display: Shaders left to compile 312
+[2018.12.11-05.12.11:427][348]LogShaderCompilers: Display: Shaders left to compile 302
+[2018.12.11-05.12.13:521][440]LogShaderCompilers: Display: Shaders left to compile 292
+[2018.12.11-05.12.14:206][479]LogShaderCompilers: Display: Shaders left to compile 282
+[2018.12.11-05.12.15:612][519]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.12.11-05.12.15:682][519]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace' with GeneratedClass '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace'
+[2018.12.11-05.12.15:683][519]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.12.11-05.12.15:699][519]PIE: New page: PIE session: PizzaPlace (Dec 10, 2018, 7:12:15 PM)
+[2018.12.11-05.12.15:699][519]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_PizzaPlace
+[2018.12.11-05.12.15:758][519]LogPlayLevel: PIE: StaticDuplicateObject took: (0.058460s)
+[2018.12.11-05.12.15:760][519]LogAIModule: Creating AISystem for world PizzaPlace
+[2018.12.11-05.12.15:760][519]LogPlayLevel: PIE: World Init took: (0.001911s)
+[2018.12.11-05.12.15:761][519]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace to /Game/FirstPersonBP/Maps/UEDPIE_0_PizzaPlace.PizzaPlace (0.061490s)
+[2018.12.11-05.12.15:847][519]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.12.11-05.12.15:894][519]LogInit: FAudioDevice initialized.
+[2018.12.11-05.12.15:994][519]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.11-05.12.16:101][519]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.12.11-05.12.16:109][519]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_PizzaPlace.PizzaPlace up for play (max tick rate 60) at 2018.12.11-00.12.16
+[2018.12.11-05.12.16:111][519]LogWorld: Bringing up level for play took: 0.008736
+[2018.12.11-05.12.16:136][519]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0010 seconds. Added 10 classes and 0 folders.
+[2018.12.11-05.12.16:145][519]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_PizzaPlace -0.073
+[2018.12.11-05.12.16:145][519]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace' with GeneratedClass '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace'
+[2018.12.11-05.12.16:199][519]LogRenderer: Reallocating scene render targets to support 1292x756 Format 10 NumSamples 1 (Frame:1).
+[2018.12.11-05.12.17:003][523]LogShaderCompilers: Display: Shaders left to compile 272
+[2018.12.11-05.12.18:116][546]LogShaderCompilers: Display: Shaders left to compile 262
+[2018.12.11-05.12.19:092][569]LogShaderCompilers: Display: Shaders left to compile 252
+[2018.12.11-05.12.21:468][625]LogShaderCompilers: Display: Shaders left to compile 242
+[2018.12.11-05.12.22:583][648]LogShaderCompilers: Display: Shaders left to compile 232
+[2018.12.11-05.12.23:278][663]LogShaderCompilers: Display: Shaders left to compile 222
+[2018.12.11-05.12.24:389][682]LogShaderCompilers: Display: Shaders left to compile 212
+[2018.12.11-05.12.26:667][709]LogShaderCompilers: Display: Shaders left to compile 202
+[2018.12.11-05.12.27:437][723]LogShaderCompilers: Display: Shaders left to compile 192
+[2018.12.11-05.12.29:423][751]LogShaderCompilers: Display: Shaders left to compile 182
+[2018.12.11-05.12.29:757][754]LogShaderCompilers: Display: Shaders left to compile 172
+[2018.12.11-05.12.33:048][826]LogShaderCompilers: Display: Shaders left to compile 162
+[2018.12.11-05.12.34:226][856]LogShaderCompilers: Display: Shaders left to compile 152
+[2018.12.11-05.12.35:147][878]LogShaderCompilers: Display: Shaders left to compile 142
+[2018.12.11-05.12.36:714][918]LogShaderCompilers: Display: Shaders left to compile 132
+[2018.12.11-05.12.39:581][985]LogShaderCompilers: Display: Shaders left to compile 122
+[2018.12.11-05.12.39:620][986]LogShaderCompilers: Display: Shaders left to compile 112
+[2018.12.11-05.12.42:169][ 44]LogShaderCompilers: Display: Shaders left to compile 102
+[2018.12.11-05.12.42:456][ 52]LogShaderCompilers: Display: Shaders left to compile 92
+[2018.12.11-05.12.43:656][ 78]LogShaderCompilers: Display: Shaders left to compile 82
+[2018.12.11-05.12.46:006][126]LogShaderCompilers: Display: Shaders left to compile 72
+[2018.12.11-05.12.46:437][132]LogShaderCompilers: Display: Shaders left to compile 62
+[2018.12.11-05.12.47:780][165]LogShaderCompilers: Display: Shaders left to compile 52
+[2018.12.11-05.12.49:751][216]LogShaderCompilers: Display: Shaders left to compile 42
+[2018.12.11-05.12.50:104][227]LogShaderCompilers: Display: Shaders left to compile 32
+[2018.12.11-05.12.51:925][271]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace' with GeneratedClass '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace'
+[2018.12.11-05.12.51:930][271]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.11-05.12.52:043][271]LogSlate: Window 'TeamSadMen Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.12.11-05.12.52:233][271]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.12.11-05.12.52:235][271]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace' with GeneratedClass '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace'
+[2018.12.11-05.12.53:506][272]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2018.12.11-05.13.03:936][422]LogShaderCompilers: Display: Shaders left to compile 22
+[2018.12.11-05.13.05:274][448]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.12.11-05.13.07:577][498]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.12.11-05.14.18:809][959]LogAIModule: Creating AISystem for world Root
+[2018.12.11-05.14.18:813][959]LogAssetEditorManager: Opening Asset editor for World /Game/FirstPersonBP/Maps/Root.Root
+[2018.12.11-05.14.18:859][959]Cmd: MAP LOAD FILE="../../../../../../Users/jonest5/GameDev1/TeamSadMen/TeamSadMen/Content/FirstPersonBP/Maps/Root.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.12.11-05.14.18:859][959]LightingResults: New page: Lighting Build
+[2018.12.11-05.14.18:860][959]LoadErrors: New page: Loading map: Root.umap
+[2018.12.11-05.14.18:862][959]MapCheck: New page: Map Check
+[2018.12.11-05.14.18:862][959]LightingResults: New page: Lighting Build
+[2018.12.11-05.14.18:992][959]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.12.11-05.14.19:068][959]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.12.11-05.14.19:311][959]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 242.606ms to complete.
+[2018.12.11-05.14.19:315][959]LogFileHelpers: Loading map 'Root' took 0.457
+[2018.12.11-05.14.31:512][249]LogAssetEditorManager: Opening Asset editor for LevelScriptBlueprint /Game/FirstPersonBP/Maps/Root.Root:PersistentLevel.Root
+[2018.12.11-05.14.55:917][282]BlueprintLog: New page: Compile MainMenu
+[2018.12.11-05.14.56:623][303]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Maps/MainMenu" FILE="../../../../../../Users/jonest5/GameDev1/TeamSadMen/TeamSadMen/Content/FirstPersonBP/Maps/MainMenu.uasset" SILENT=true
+[2018.12.11-05.14.56:658][303]LogSavePackage: Moving '../../../../../../Users/jonest5/GameDev1/TeamSadMen/TeamSadMen/Saved/MainMenu5BDC99E84BCE365CBF0A979D7A0F2FB2.tmp' to '../../../../../../Users/jonest5/GameDev1/TeamSadMen/TeamSadMen/Content/FirstPersonBP/Maps/MainMenu.uasset'
+[2018.12.11-05.15.00:872][440]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.12.11-05.15.00:904][440]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/Root.Root:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Root.Root:PersistentLevel.Root' with GeneratedClass '/Game/FirstPersonBP/Maps/Root.Root_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Root.Root:PersistentLevel.Root'
+[2018.12.11-05.15.00:904][440]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.12.11-05.15.00:905][440]PIE: New page: PIE session: Root (Dec 10, 2018, 7:15:00 PM)
+[2018.12.11-05.15.00:905][440]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_Root
+[2018.12.11-05.15.00:907][440]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002084s)
+[2018.12.11-05.15.00:909][440]LogAIModule: Creating AISystem for world Root
+[2018.12.11-05.15.00:909][440]LogPlayLevel: PIE: World Init took: (0.001515s)
+[2018.12.11-05.15.00:909][440]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/Root.Root to /Game/FirstPersonBP/Maps/UEDPIE_0_Root.Root (0.004344s)
+[2018.12.11-05.15.00:978][440]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.12.11-05.15.01:031][440]LogInit: FAudioDevice initialized.
+[2018.12.11-05.15.01:109][440]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.11-05.15.01:180][440]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.12.11-05.15.01:184][440]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_Root.Root up for play (max tick rate 60) at 2018.12.11-00.15.01
+[2018.12.11-05.15.01:185][440]LogWorld: Bringing up level for play took: 0.003769
+[2018.12.11-05.15.01:210][440]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_Root 0.992
+[2018.12.11-05.15.01:210][440]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/Root.Root:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Root.Root:PersistentLevel.Root' with GeneratedClass '/Game/FirstPersonBP/Maps/Root.Root_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Root.Root:PersistentLevel.Root'
+[2018.12.11-05.15.02:336][462]LogNet: Browse: /Game/FirstPersonBP/Maps/PizzaPlace
+[2018.12.11-05.15.02:337][462]LogLoad: LoadMap: /Game/FirstPersonBP/Maps/PizzaPlace
+[2018.12.11-05.15.02:388][462]LogLinker: Warning: Can't find file '/Game/FirstPersonBP/Maps/PizzaPlace_BuiltData'
+[2018.12.11-05.15.02:389][462]LogLinker: Warning: Can't find file for asset '/Game/FirstPersonBP/Maps/PizzaPlace_BuiltData' while loading ../../../../../../Users/jonest5/GameDev1/TeamSadMen/TeamSadMen/Content/FirstPersonBP/Maps/PizzaPlace.umap.
+[2018.12.11-05.15.02:389][462]LoadErrors: Error: /Game/FirstPersonBP/Maps/PizzaPlace : Can't find file for asset. /Game/FirstPersonBP/Maps/PizzaPlace_BuiltData
+[2018.12.11-05.15.02:396][462]LogLinker: Warning: Can't find file '/Game/FirstPersonBP/Maps/PizzaPlace_BuiltData'
+[2018.12.11-05.15.02:396][462]LogLinker: Warning: Can't find file for asset '/Game/FirstPersonBP/Maps/PizzaPlace_BuiltData' while loading ../../../../../../Users/jonest5/GameDev1/TeamSadMen/TeamSadMen/Content/FirstPersonBP/Maps/PizzaPlace.umap.
+[2018.12.11-05.15.02:413][462]LogLinker: Warning: Can't find file '/Game/FirstPersonBP/Maps/PizzaPlace_BuiltData'
+[2018.12.11-05.15.02:413][462]LogLinker: Warning: Can't find file for asset '/Game/FirstPersonBP/Maps/PizzaPlace_BuiltData' while loading NULL.
+[2018.12.11-05.15.02:413][462]LogLinker: Warning: Can't find file '/Game/FirstPersonBP/Maps/PizzaPlace_BuiltData'
+[2018.12.11-05.15.02:414][462]LogLinker: Warning: Can't find file for asset '/Game/FirstPersonBP/Maps/PizzaPlace_BuiltData' while loading NULL.
+[2018.12.11-05.15.02:458][462]LogLinker: Warning: Can't find file '/Game/FirstPersonBP/Maps/PizzaPlace_BuiltData'
+[2018.12.11-05.15.02:458][462]LoadErrors: Failed to load /Game/FirstPersonBP/Maps/PizzaPlace_BuiltData.PizzaPlace_BuiltData Referenced by PersistentLevel
+[2018.12.11-05.15.02:459][462]LogLinker: Warning: Can't find file for asset '/Game/FirstPersonBP/Maps/PizzaPlace_BuiltData' while loading NULL.
+[2018.12.11-05.15.03:191][462]LogAIModule: Creating AISystem for world PizzaPlace
+[2018.12.11-05.15.03:192][462]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.12.11-05.15.03:209][462]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_PizzaPlace.PizzaPlace up for play (max tick rate 60) at 2018.12.11-00.15.03
+[2018.12.11-05.15.03:210][462]LogWorld: Bringing up level for play took: 0.016941
+[2018.12.11-05.15.03:212][462]LogLoad: Took 0.874178 seconds to LoadMap(/Game/FirstPersonBP/Maps/PizzaPlace)
+[2018.12.11-05.15.06:344][527]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/Root.Root:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Root.Root:PersistentLevel.Root' with GeneratedClass '/Game/FirstPersonBP/Maps/Root.Root_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Root.Root:PersistentLevel.Root'
+[2018.12.11-05.15.06:345][527]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.11-05.15.06:367][527]LogSlate: Window 'TeamSadMen Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.12.11-05.15.06:473][527]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.12.11-05.15.06:474][527]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/Root.Root:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Root.Root:PersistentLevel.Root' with GeneratedClass '/Game/FirstPersonBP/Maps/Root.Root_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Root.Root:PersistentLevel.Root'
+[2018.12.11-05.15.06:551][528]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2018.12.11-05.15.10:472][693]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.12.11-05.15.10:511][693]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/Root.Root:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Root.Root:PersistentLevel.Root' with GeneratedClass '/Game/FirstPersonBP/Maps/Root.Root_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Root.Root:PersistentLevel.Root'
+[2018.12.11-05.15.10:511][693]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.12.11-05.15.10:512][693]PIE: New page: PIE session: Root (Dec 10, 2018, 7:15:10 PM)
+[2018.12.11-05.15.10:512][693]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_Root
+[2018.12.11-05.15.10:513][693]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001035s)
+[2018.12.11-05.15.10:514][693]LogAIModule: Creating AISystem for world Root
+[2018.12.11-05.15.10:514][693]LogPlayLevel: PIE: World Init took: (0.001197s)
+[2018.12.11-05.15.10:515][693]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/Root.Root to /Game/FirstPersonBP/Maps/UEDPIE_0_Root.Root (0.002803s)
+[2018.12.11-05.15.10:581][693]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.12.11-05.15.10:619][693]LogInit: FAudioDevice initialized.
+[2018.12.11-05.15.10:677][693]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.11-05.15.10:755][693]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.12.11-05.15.10:759][693]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_Root.Root up for play (max tick rate 60) at 2018.12.11-00.15.10
+[2018.12.11-05.15.10:760][693]LogWorld: Bringing up level for play took: 0.003584
+[2018.12.11-05.15.10:786][693]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_Root 0.568
+[2018.12.11-05.15.10:787][693]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/Root.Root:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Root.Root:PersistentLevel.Root' with GeneratedClass '/Game/FirstPersonBP/Maps/Root.Root_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Root.Root:PersistentLevel.Root'
+[2018.12.11-05.15.17:019][883]LogSlate: Window 'TeamSadMen Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.12.11-05.15.17:067][883]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/Root.Root:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Root.Root:PersistentLevel.Root' with GeneratedClass '/Game/FirstPersonBP/Maps/Root.Root_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Root.Root:PersistentLevel.Root'
+[2018.12.11-05.15.17:107][883]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.12.11-05.15.17:108][883]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/Root.Root:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Root.Root:PersistentLevel.Root' with GeneratedClass '/Game/FirstPersonBP/Maps/Root.Root_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Root.Root:PersistentLevel.Root'
+[2018.12.11-05.15.17:176][884]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2018.12.11-05.15.53:961][ 69]LogLinker: Warning: Can't find file '/Game/FirstPersonBP/Maps/PizzaPlace_BuiltData'
+[2018.12.11-05.15.53:961][ 69]LogLinker: Warning: Can't find file for asset '/Game/FirstPersonBP/Maps/PizzaPlace_BuiltData' while loading ../../../../../../Users/jonest5/GameDev1/TeamSadMen/TeamSadMen/Content/FirstPersonBP/Maps/PizzaPlace.umap.
+[2018.12.11-05.15.54:056][ 69]LogLinker: Warning: Can't find file '/Game/FirstPersonBP/Maps/PizzaPlace_BuiltData'
+[2018.12.11-05.15.54:056][ 69]LogLinker: Warning: Can't find file for asset '/Game/FirstPersonBP/Maps/PizzaPlace_BuiltData' while loading ../../../../../../Users/jonest5/GameDev1/TeamSadMen/TeamSadMen/Content/FirstPersonBP/Maps/PizzaPlace.umap.
+[2018.12.11-05.15.54:204][ 69]LogLinker: Warning: Can't find file '/Game/FirstPersonBP/Maps/PizzaPlace_BuiltData'
+[2018.12.11-05.15.54:204][ 69]LogLinker: Warning: Can't find file for asset '/Game/FirstPersonBP/Maps/PizzaPlace_BuiltData' while loading NULL.
+[2018.12.11-05.15.54:205][ 69]LogLinker: Warning: Can't find file '/Game/FirstPersonBP/Maps/PizzaPlace_BuiltData'
+[2018.12.11-05.15.54:205][ 69]LogLinker: Warning: Can't find file for asset '/Game/FirstPersonBP/Maps/PizzaPlace_BuiltData' while loading NULL.
+[2018.12.11-05.15.54:252][ 69]LogLinker: Warning: Can't find file '/Game/FirstPersonBP/Maps/PizzaPlace_BuiltData'
+[2018.12.11-05.15.54:253][ 69]LogLinker: Warning: Can't find file for asset '/Game/FirstPersonBP/Maps/PizzaPlace_BuiltData' while loading NULL.
+[2018.12.11-05.15.54:300][ 69]LogAIModule: Creating AISystem for world PizzaPlace
+[2018.12.11-05.15.54:326][ 69]LogAssetEditorManager: Opening Asset editor for World /Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace
+[2018.12.11-05.15.54:365][ 69]Cmd: MAP LOAD FILE="../../../../../../Users/jonest5/GameDev1/TeamSadMen/TeamSadMen/Content/FirstPersonBP/Maps/PizzaPlace.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.12.11-05.15.54:365][ 69]LightingResults: New page: Lighting Build
+[2018.12.11-05.15.54:367][ 69]LoadErrors: New page: Loading map: PizzaPlace.umap
+[2018.12.11-05.15.54:415][ 69]MapCheck: New page: Map Check
+[2018.12.11-05.15.54:415][ 69]LightingResults: New page: Lighting Build
+[2018.12.11-05.15.54:607][ 69]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.12.11-05.15.54:669][ 69]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.12.11-05.15.54:890][ 69]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 221.037ms to complete.
+[2018.12.11-05.15.54:893][ 69]LogFileHelpers: Loading map 'PizzaPlace' took 0.530
+[2018.12.11-05.16.27:606][877]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.11-05.17.04:944][679]Cmd: TRANSACTION UNDO
+[2018.12.11-05.17.04:944][679]LogEditorTransaction: Undo Create Actors
+[2018.12.11-05.17.07:165][727]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.11-05.18.37:070][416]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.11-05.24.04:117][ 30]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.11-05.24.04:987][ 30]LogSavePackage: Moving '../../../../../../Users/jonest5/GameDev1/TeamSadMen/TeamSadMen/Saved/PizzaPlace0703941D4DE8097265FC1CBBBF96C7C5.tmp' to '../../../../../../Users/jonest5/GameDev1/TeamSadMen/TeamSadMen/Content/FirstPersonBP/Maps/PizzaPlace.umap'
+[2018.12.11-05.25.19:206][836]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.11-05.25.41:587][302]Cmd: DELETE
+[2018.12.11-05.25.41:589][302]Cmd: ACTOR DELETE
+[2018.12.11-05.25.41:606][302]LogEditorActor: Deleted Actor: CheckOrderCorrectness_C
+[2018.12.11-05.25.41:645][302]LogEditorActor: Deleted 1 Actors (0.050 secs)
+[2018.12.11-05.25.43:319][332]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.11-05.25.44:024][335]LogSavePackage: Moving '../../../../../../Users/jonest5/GameDev1/TeamSadMen/TeamSadMen/Saved/PizzaPlace91B20624480AABA7C7793FA7FCE853C6.tmp' to '../../../../../../Users/jonest5/GameDev1/TeamSadMen/TeamSadMen/Content/FirstPersonBP/Maps/PizzaPlace.umap'
