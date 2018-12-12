@@ -1,0 +1,631 @@
+﻿Log file open, 12/11/18 20:12:50
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: TeamSadMen
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.317926
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.214s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4369336
+LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-6700HQ CPU @ 2.60GHz, GPU: Intel(R) HD Graphics 530
+LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.006s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.12.12-01.12.50:858][  0]LogInit: Selected Device Profile: [Windows]
+[2018.12.12-01.12.50:858][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.12.12-01.12.50:870][  0]LogHAL: Display: Platform has ~ 16 GB [16962461696 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2018.12.12-01.12.50:870][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2018.12.12-01.12.50:870][  0]LogInit: Going up to parent DeviceProfile []
+[2018.12.12-01.12.50:870][  0]LogInit: Computer: DESKTOP-3KP1QRT
+[2018.12.12-01.12.50:870][  0]LogInit: User: jonest5
+[2018.12.12-01.12.50:870][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.12.12-01.12.50:870][  0]LogInit: High frequency timer resolution =2.531250 MHz
+[2018.12.12-01.12.50:871][  0]LogMemory: Memory total: Physical=15.8GB (16GB approx)
+[2018.12.12-01.12.50:871][  0]LogMemory: Platform Memory Stats for Windows
+[2018.12.12-01.12.50:871][  0]LogMemory: Process Physical Memory: 101.66 MB used, 101.66 MB peak
+[2018.12.12-01.12.50:871][  0]LogMemory: Process Virtual Memory: 89.66 MB used, 89.66 MB peak
+[2018.12.12-01.12.50:871][  0]LogMemory: Physical Memory: 9612.16 MB used,  6564.50 MB free, 16176.66 MB total
+[2018.12.12-01.12.50:871][  0]LogMemory: Virtual Memory: 4624.59 MB used,  6564.50 MB free, 134217728.00 MB total
+[2018.12.12-01.12.50:904][  0]LogInit: Using OS detected language (en-US).
+[2018.12.12-01.12.50:904][  0]LogInit: Using OS detected locale (en-US).
+[2018.12.12-01.12.50:906][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.12.12-01.12.51:326][  0]LogStreaming: Display: Took  0.422s to InitEngineTextLocalization.
+[2018.12.12-01.12.51:326][  0]LogInit: Setting process to per monitor DPI aware
+[2018.12.12-01.12.51:441][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.12.12-01.12.51:441][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.12.12-01.12.51:783][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.12.12-01.12.51:783][  0]LogD3D11RHI: D3D11 adapters:
+[2018.12.12-01.12.51:872][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960M' (Feature Level 11_0)
+[2018.12.12-01.12.51:872][  0]LogD3D11RHI:       2010/0/8088 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.12.12-01.12.51:883][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
+[2018.12.12-01.12.51:883][  0]LogD3D11RHI:       128/0/8088 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2018.12.12-01.12.51:886][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.12.12-01.12.51:886][  0]LogD3D11RHI:       0/0/8088 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.12.12-01.12.51:886][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.12.12-01.12.51:935][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.12.12-01.12.51:935][  0]LogD3D11RHI:     GPU DeviceId: 0x139b (for the marketing name, search the web for "GPU Device Id")
+[2018.12.12-01.12.51:935][  0]LogWindows: EnumDisplayDevices:
+[2018.12.12-01.12.51:936][  0]LogWindows:    0. 'Intel(R) HD Graphics 530' (P:1 D:1)
+[2018.12.12-01.12.51:937][  0]LogWindows:    1. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2018.12.12-01.12.51:937][  0]LogWindows:    2. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2018.12.12-01.12.51:937][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.12.12-01.12.51:937][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960M
+[2018.12.12-01.12.51:937][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.12.12-01.12.51:937][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.12.12-01.12.51:937][  0]LogRHI: Texture pool is 1407 MB (70% of 2010 MB)
+[2018.12.12-01.12.51:995][  0]LogD3D11RHI: Async texture creation enabled
+[2018.12.12-01.12.52:019][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.12.12-01.12.52:020][  0]LogShaderCompilers: Guid format shader working directory is -15 characters bigger than the processId version (../../../../../../Users/jonest5/GameDev1/TeamSadMen/TeamSadMen/Intermediate/Shaders/WorkingDirectory/25096/).
+[2018.12.12-01.12.52:021][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/jonest5/AppData/Local/Temp/UnrealShaderWorkingDir/3981B6D64980113BAAD4218BFDC7B839/'.
+[2018.12.12-01.12.52:425][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.12.12-01.12.52:440][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.12.12-01.12.52:457][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.12.12-01.12.52:475][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.12.12-01.12.52:492][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.12.12-01.12.52:512][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.12.12-01.12.52:531][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.12.12-01.12.52:554][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.12.12-01.12.52:566][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.12.12-01.12.52:677][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.12-01.12.52:677][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.12-01.12.52:677][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.12-01.12.52:677][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.12-01.12.52:677][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.12-01.12.52:677][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.12-01.12.52:677][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.12-01.12.52:677][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.12-01.12.52:677][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.12-01.12.52:677][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.12-01.12.52:677][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.12-01.12.52:677][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.12-01.12.52:677][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.12-01.12.52:677][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.12-01.12.52:677][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.12-01.12.52:677][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.12-01.12.52:677][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.12-01.12.52:677][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.12-01.12.52:679][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.12.12-01.12.52:752][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.12.12-01.12.52:752][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.12.12-01.12.52:782][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.12.12-01.12.52:782][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.12.12-01.12.52:797][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.12.12-01.12.52:811][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.12.12-01.12.52:826][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.12.12-01.12.52:842][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.12.12-01.12.52:852][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2018.12.12-01.12.52:854][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.12.12-01.12.52:966][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.12.12-01.12.52:966][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.12.12-01.12.52:966][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.12.12-01.12.53:932][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.12.12-01.12.53:997][  0]LogDerivedDataCache: Loaded boot cache 0.06s 71MB C:/Users/jonest5/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.12.12-01.12.53:997][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/jonest5/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2018.12.12-01.12.53:997][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/jonest5/GameDev1/TeamSadMen/TeamSadMen/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.12.12-01.12.53:997][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.12.12-01.12.53:997][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/jonest5/GameDev1/TeamSadMen/TeamSadMen/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.12.12-01.12.53:997][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.12.12-01.12.54:015][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.12.12-01.12.54:028][  0]LogDerivedDataCache: Using Local data cache path C:/Users/jonest5/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.12.12-01.12.54:028][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.12.12-01.12.54:028][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.12.12-01.12.54:049][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.12.12-01.12.54:053][  0]LogSlate: Using FreeType 2.6.0
+[2018.12.12-01.12.54:054][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.12.12-01.12.54:159][  0]LogAssetRegistry: FAssetRegistry took 0.0279 seconds to start up
+[2018.12.12-01.12.54:638][  0]LogInit: Selected Device Profile: [Windows]
+[2018.12.12-01.12.54:842][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.12.12-01.12.54:848][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.12.12-01.12.54:848][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2018.12.12-01.12.54:848][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.12.12-01.12.54:848][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.12.12-01.12.54:896][  0]LogNetVersion: TeamSadMen 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 1220547581)
+[2018.12.12-01.12.55:729][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.218682 seconds
+[2018.12.12-01.12.55:738][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2018.12.12-01.12.55:738][  0]LogUObjectAllocator: 6690864 out of 0 bytes used by permanent object pool.
+[2018.12.12-01.12.55:738][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.12.12-01.12.56:956][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.12.12-01.12.56:969][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.12.12-01.12.57:150][  0]SourceControl: Source control is disabled
+[2018.12.12-01.12.57:150][  0]SourceControl: Source control is disabled
+[2018.12.12-01.12.57:153][  0]SourceControl: Source control is disabled
+[2018.12.12-01.12.57:155][  0]SourceControl: Source control is disabled
+[2018.12.12-01.12.57:350][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.12.12-01.12.57:556][  0]LogOcInput: OculusInput pre-init called
+[2018.12.12-01.12.57:629][  0]LogEngine: Initializing Engine...
+[2018.12.12-01.12.57:630][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.12.12-01.12.57:631][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.12.12-01.12.57:631][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.12.12-01.12.57:632][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.12.12-01.12.57:632][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.12.12-01.12.57:880][  0]LogInit: Initializing FReadOnlyCVARCache
+[2018.12.12-01.12.57:907][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.12.12-01.12.57:956][  0]LogInit: XAudio2 using 'Headphones (WH-CH500 Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.12.12-01.12.57:979][  0]LogInit: FAudioDevice initialized.
+[2018.12.12-01.12.57:979][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2018.12.12-01.12.58:033][  0]LogDerivedDataCache: Saved boot cache 0.05s 71MB C:/Users/jonest5/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.12.12-01.12.58:034][  0]LogInit: Texture streaming: Enabled
+[2018.12.12-01.12.58:062][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.12.12-01.12.58:084][  0]LogInit: Transaction tracking system initialized
+[2018.12.12-01.12.58:119][  0]BlueprintLog: New page: Editor Load
+[2018.12.12-01.12.58:245][  0]LocalizationService: Localization service is disabled
+[2018.12.12-01.12.58:584][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.12.12-01.12.58:584][  0]LogCook: Display: Mobile HDR setting 1
+[2018.12.12-01.12.58:584][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.12.12-01.12.58:584][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.12.12-01.12.58:584][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.12.12-01.12.58:584][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.12.12-01.12.58:584][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.12.12-01.12.58:738][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jonest5/GameDev1/TeamSadMen/TeamSadMen/Content/' took 0.02s
+[2018.12.12-01.12.58:752][  0]SourceControl: Source control is disabled
+[2018.12.12-01.12.58:752][  0]Cmd: MAP LOAD FILE="../../../../../../Users/jonest5/GameDev1/TeamSadMen/TeamSadMen/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.12.12-01.12.58:754][  0]LightingResults: New page: Lighting Build
+[2018.12.12-01.12.58:758][  0]MapCheck: New page: Map Check
+[2018.12.12-01.12.58:759][  0]LightingResults: New page: Lighting Build
+[2018.12.12-01.12.59:628][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2018.12.12-01.12.59:642][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.12.12-01.12.59:669][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.12.12-01.12.59:796][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 127.344ms to complete.
+[2018.12.12-01.12.59:796][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 1.045
+[2018.12.12-01.13.00:030][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.12-01.13.00:040][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.12-01.13.00:050][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.12-01.13.00:060][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.12-01.13.00:070][  0]LogCollectionManager: Loaded 0 collections in 0.002682 seconds
+[2018.12.12-01.13.00:114][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jonest5/GameDev1/TeamSadMen/TeamSadMen/Saved/Collections/' took 0.01s
+[2018.12.12-01.13.00:115][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jonest5/GameDev1/TeamSadMen/TeamSadMen/Content/Developers/jonest5/Collections/' took 0.01s
+[2018.12.12-01.13.00:115][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jonest5/GameDev1/TeamSadMen/TeamSadMen/Content/Collections/' took 0.01s
+[2018.12.12-01.13.00:115][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.12.12-01.13.00:129][  0]LogContentBrowser: Native class hierarchy populated in 0.0140 seconds. Added 2572 classes and 603 folders.
+[2018.12.12-01.13.00:139][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.12.12-01.13.00:236][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.12.12-01.13.00:252][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2018.12.12-01.13.00:353][  0]LogSlate: Took 0.000385 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.12.12-01.13.00:359][  0]LogSlate: Took 0.000401 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.12.12-01.13.00:363][  0]LogSlate: Took 0.000428 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.12.12-01.13.00:449][  0]LogRenderer: Reallocating scene render targets to support 1180x560 Format 10 NumSamples 1 (Frame:1).
+[2018.12.12-01.13.00:514][  0]LogSlate: Took 0.000336 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.12.12-01.13.00:668][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.12.12-01.13.00:668][  0]LogLoad: (Engine Initialization) Total time: 12.78 seconds
+[2018.12.12-01.13.00:668][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.12.12-01.13.00:690][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.12.12-01.13.00:734][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.12.12-01.13.01:125][  2]LogAssetRegistry: Asset discovery search completed in 6.9877 seconds
+[2018.12.12-01.13.01:127][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.12.12-01.13.01:127][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000120 seconds (updated 0 objects)
+[2018.12.12-01.13.01:809][ 23]LogSlate: Took 0.000273 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.12.12-01.13.05:930][170]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.12-01.13.06:124][178]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/FirstPersonBP/Maps/MainMenu.MainMenu
+[2018.12.12-01.13.06:709][178]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0010 seconds. Added 116 classes and 0 folders.
+[2018.12.12-01.13.07:606][178]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter
+[2018.12.12-01.13.08:082][178]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/AlexWPizzaStuff/CheckOrderCorrectness.CheckOrderCorrectness
+[2018.12.12-01.13.08:634][178]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Tyler/Order_Text_Blueprint.Order_Text_Blueprint
+[2018.12.12-01.13.09:092][178]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Dough_Detection_Trigger_Blueprint.Dough_Detection_Trigger_Blueprint
+[2018.12.12-01.13.09:509][178]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Tyler/Oven_Trigger_Blueprint.Oven_Trigger_Blueprint
+[2018.12.12-01.13.09:977][178]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/AlexWPizzaStuff/Pizza_scripting.Pizza_scripting
+[2018.12.12-01.13.10:457][178]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Tyler/Pizza_Blueprint.Pizza_Blueprint
+[2018.12.12-01.13.10:894][178]LogBlueprintUserMessages: [Pizza_scripting_C_0] Pizza
+[2018.12.12-01.13.10:894][178]LogBlueprintUserMessages: [Pizza_scripting_C_0] Pizza
+[2018.12.12-01.13.10:899][178]LogSlate: Took 0.000572 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.12.12-01.13.11:194][179]LogSlate: Took 0.000425 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.12.12-01.22.46:646][702]LogSlate: Took 0.000282 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2018.12.12-01.22.56:360][951]LogSlate: Window 'Change Variable Type' being destroyed
+[2018.12.12-01.30.55:826][558]LogEditorTransaction: Undo Delete current selection
+[2018.12.12-01.31.48:109][452]BlueprintLog: New page: Compile Oven_Trigger_Blueprint
+[2018.12.12-01.31.48:129][452]LogBlueprint: Error: [Compiler Oven_Trigger_Blueprint] The property associated with  Is Partially Cooked  could not be found in '/Game/Tyler/Oven_Trigger_Blueprint.Oven_Trigger_Blueprint_C'
+[2018.12.12-01.31.48:129][452]LogBlueprint: Error: [Compiler Oven_Trigger_Blueprint] The property associated with  Is Partially Cooked  could not be found in '/Game/Tyler/Oven_Trigger_Blueprint.Oven_Trigger_Blueprint_C'
+[2018.12.12-01.31.48:342][452]LogBlueprint: Warning: [Compiler Oven_Trigger_Blueprint] [1140.46] Compile of Oven_Trigger_Blueprint failed. 2 Fatal Issue(s) 0 Warning(s) [in 232 ms] (/Game/Tyler/Oven_Trigger_Blueprint.Oven_Trigger_Blueprint)
+[2018.12.12-01.32.25:896][150]BlueprintLog: New page: Compile Pizza_scripting
+[2018.12.12-01.32.27:286][194]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AlexWPizzaStuff/Pizza_scripting" FILE="../../../../../../Users/jonest5/GameDev1/TeamSadMen/TeamSadMen/Content/AlexWPizzaStuff/Pizza_scripting.uasset" SILENT=true
+[2018.12.12-01.32.27:362][194]LogSavePackage: Moving '../../../../../../Users/jonest5/GameDev1/TeamSadMen/TeamSadMen/Saved/Pizza_scriptingCCB1720D44E1F943EC2C678FEA16CA7F.tmp' to '../../../../../../Users/jonest5/GameDev1/TeamSadMen/TeamSadMen/Content/AlexWPizzaStuff/Pizza_scripting.uasset'
+[2018.12.12-01.32.30:313][293]BlueprintLog: New page: Compile Oven_Trigger_Blueprint
+[2018.12.12-01.32.31:407][328]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tyler/Oven_Trigger_Blueprint" FILE="../../../../../../Users/jonest5/GameDev1/TeamSadMen/TeamSadMen/Content/Tyler/Oven_Trigger_Blueprint.uasset" SILENT=true
+[2018.12.12-01.32.31:456][328]LogSavePackage: Moving '../../../../../../Users/jonest5/GameDev1/TeamSadMen/TeamSadMen/Saved/Oven_Trigger_Blueprint85A743484345CA7E3BBE03965E9DBBA1.tmp' to '../../../../../../Users/jonest5/GameDev1/TeamSadMen/TeamSadMen/Content/Tyler/Oven_Trigger_Blueprint.uasset'
+[2018.12.12-01.33.09:923][173]BlueprintLog: New page: Compile Oven_Trigger_Blueprint
+[2018.12.12-01.33.10:740][190]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tyler/Oven_Trigger_Blueprint" FILE="../../../../../../Users/jonest5/GameDev1/TeamSadMen/TeamSadMen/Content/Tyler/Oven_Trigger_Blueprint.uasset" SILENT=true
+[2018.12.12-01.33.10:790][190]LogSavePackage: Moving '../../../../../../Users/jonest5/GameDev1/TeamSadMen/TeamSadMen/Saved/Oven_Trigger_Blueprint7EDD4BAB49C21EEC37BC3D9BB85C7B4D.tmp' to '../../../../../../Users/jonest5/GameDev1/TeamSadMen/TeamSadMen/Content/Tyler/Oven_Trigger_Blueprint.uasset'
+[2018.12.12-01.33.15:947][458]LogSlate: Window 'Find in Blueprints' being destroyed
+[2018.12.12-01.33.15:978][458]LogSlate: Window 'Find in Blueprints' being destroyed
+[2018.12.12-01.33.28:997][ 38]LogAIModule: Creating AISystem for world PizzaPlace
+[2018.12.12-01.33.29:049][ 38]LogAssetEditorManager: Opening Asset editor for World /Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace
+[2018.12.12-01.33.31:890][ 38]LogSlate: Window 'Save Content' being destroyed
+[2018.12.12-01.33.32:444][ 38]LogSavePackage: Moving '../../../../../../Users/jonest5/GameDev1/TeamSadMen/TeamSadMen/Saved/FirstPersonExampleMap76C7B95541F1B69ECE0E4F9040C08A02.tmp' to '../../../../../../Users/jonest5/GameDev1/TeamSadMen/TeamSadMen/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2018.12.12-01.33.32:488][ 38]LogFileHelpers: Saving map 'FirstPersonExampleMap' took 0.558
+[2018.12.12-01.33.32:489][ 38]Cmd: MAP LOAD FILE="../../../../../../Users/jonest5/GameDev1/TeamSadMen/TeamSadMen/Content/FirstPersonBP/Maps/PizzaPlace.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.12.12-01.33.32:490][ 38]LightingResults: New page: Lighting Build
+[2018.12.12-01.33.32:490][ 38]LoadErrors: New page: Loading map: PizzaPlace.umap
+[2018.12.12-01.33.32:492][ 38]MapCheck: New page: Map Check
+[2018.12.12-01.33.32:492][ 38]LightingResults: New page: Lighting Build
+[2018.12.12-01.33.32:675][ 38]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.12.12-01.33.32:744][ 38]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.12.12-01.33.32:916][ 38]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 172.325ms to complete.
+[2018.12.12-01.33.32:918][ 38]LogFileHelpers: Loading map 'PizzaPlace' took 0.430
+[2018.12.12-01.33.38:941][352]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.12.12-01.33.38:996][352]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace' with GeneratedClass '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace'
+[2018.12.12-01.33.38:997][352]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.12.12-01.33.39:009][352]PIE: New page: PIE session: PizzaPlace (Dec 11, 2018, 3:33:39 PM)
+[2018.12.12-01.33.39:009][352]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_PizzaPlace
+[2018.12.12-01.33.39:045][352]LogPlayLevel: PIE: StaticDuplicateObject took: (0.035432s)
+[2018.12.12-01.33.39:046][352]LogAIModule: Creating AISystem for world PizzaPlace
+[2018.12.12-01.33.39:047][352]LogPlayLevel: PIE: World Init took: (0.001549s)
+[2018.12.12-01.33.39:047][352]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace to /Game/FirstPersonBP/Maps/UEDPIE_0_PizzaPlace.PizzaPlace (0.037530s)
+[2018.12.12-01.33.39:128][352]LogInit: XAudio2 using 'Headphones (WH-CH500 Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.12.12-01.33.39:142][352]LogInit: FAudioDevice initialized.
+[2018.12.12-01.33.39:196][352]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.12-01.33.39:257][352]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.12.12-01.33.39:263][352]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_PizzaPlace.PizzaPlace up for play (max tick rate 60) at 2018.12.11-20.33.39
+[2018.12.12-01.33.39:264][352]LogWorld: Bringing up level for play took: 0.006010
+[2018.12.12-01.33.39:291][352]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 10 classes and 0 folders.
+[2018.12.12-01.33.39:297][352]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_PizzaPlace -0.214
+[2018.12.12-01.33.39:297][352]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace' with GeneratedClass '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace'
+[2018.12.12-01.33.39:404][352]LogRenderer: Reallocating scene render targets to support 1292x756 Format 10 NumSamples 1 (Frame:1).
+[2018.12.12-01.33.48:213][537]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.12-01.33.52:663][634]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace' with GeneratedClass '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace'
+[2018.12.12-01.33.52:663][634]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.12-01.33.52:687][634]LogSlate: Window 'TeamSadMen Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.12.12-01.33.52:743][634]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.12.12-01.33.52:744][634]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace' with GeneratedClass '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace'
+[2018.12.12-01.33.52:807][635]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2018.12.12-01.34.12:501][461]LogEditorViewport: Clicking on Actor (LMB): FirstPersonCharacter_C (FirstPersonCharacter)
+[2018.12.12-01.34.28:454][153]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.12-01.34.29:120][158]LogSavePackage: Moving '../../../../../../Users/jonest5/GameDev1/TeamSadMen/TeamSadMen/Saved/PizzaPlace3CE7B27A455F3C4BD50CF3BC14189BFF.tmp' to '../../../../../../Users/jonest5/GameDev1/TeamSadMen/TeamSadMen/Content/FirstPersonBP/Maps/PizzaPlace.umap'
+[2018.12.12-01.34.29:631][162]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.12.12-01.34.29:665][162]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace' with GeneratedClass '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace'
+[2018.12.12-01.34.29:666][162]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.12.12-01.34.29:666][162]PIE: New page: PIE session: PizzaPlace (Dec 11, 2018, 3:34:29 PM)
+[2018.12.12-01.34.29:666][162]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_PizzaPlace
+[2018.12.12-01.34.29:695][162]LogPlayLevel: PIE: StaticDuplicateObject took: (0.029039s)
+[2018.12.12-01.34.29:696][162]LogAIModule: Creating AISystem for world PizzaPlace
+[2018.12.12-01.34.29:696][162]LogPlayLevel: PIE: World Init took: (0.001052s)
+[2018.12.12-01.34.29:696][162]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace to /Game/FirstPersonBP/Maps/UEDPIE_0_PizzaPlace.PizzaPlace (0.030385s)
+[2018.12.12-01.34.29:794][162]LogInit: XAudio2 using 'Headphones (WH-CH500 Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.12.12-01.34.29:808][162]LogInit: FAudioDevice initialized.
+[2018.12.12-01.34.29:859][162]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.12-01.34.29:901][162]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.12.12-01.34.29:908][162]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_PizzaPlace.PizzaPlace up for play (max tick rate 60) at 2018.12.11-20.34.29
+[2018.12.12-01.34.29:909][162]LogWorld: Bringing up level for play took: 0.006472
+[2018.12.12-01.34.29:927][162]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_PizzaPlace 0.417
+[2018.12.12-01.34.29:928][162]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace' with GeneratedClass '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace'
+[2018.12.12-01.34.39:632][371]LogBlueprintUserMessages: [Pizza_scripting_C_0] Dough
+[2018.12.12-01.34.39:632][371]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Tags' of length 0 in '/Script/Engine.Actor'!
+[2018.12.12-01.34.39:632][371]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Tags' of length 0 in '/Script/Engine.Actor'!
+[2018.12.12-01.34.39:632][371]LogBlueprintUserMessages: [Pizza_scripting_C_0] None
+[2018.12.12-01.34.39:632][371]LogBlueprintUserMessages: [Pizza_scripting_C_0] Pizza
+[2018.12.12-01.34.39:632][371]LogBlueprintUserMessages: [Pizza_scripting_C_0] Pizza
+[2018.12.12-01.34.51:956][656]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.12-01.34.53:476][686]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace' with GeneratedClass '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace'
+[2018.12.12-01.34.53:477][686]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.12-01.34.53:497][686]LogSlate: Window 'TeamSadMen Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.12.12-01.34.53:558][686]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.12.12-01.34.53:558][686]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace' with GeneratedClass '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace'
+[2018.12.12-01.34.53:625][687]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2018.12.12-01.35.08:159][338]LogEditorViewport: Clicking on Actor (LMB): Pizza_Blueprint_C (Pizza_Blueprint)
+[2018.12.12-01.35.14:095][683]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (pizza)
+[2018.12.12-01.35.52:153][637]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.12-01.35.56:701][801]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.12-01.36.37:788][916]LogEditorViewport: Clicking on Actor (LMB): Pizza_Blueprint_C (Pizza_Blueprint)
+[2018.12.12-01.36.39:530][  6]LogEditorViewport: Clicking on Actor (LMB): Pizza_scripting_C (Pizza_scripting2)
+[2018.12.12-01.36.47:074][370]Cmd: TRANSACTION UNDO
+[2018.12.12-01.36.47:074][370]LogEditorTransaction: Undo Clicking on Actors
+[2018.12.12-01.36.53:293][714]Cmd: TRANSACTION UNDO
+[2018.12.12-01.36.53:293][714]LogEditorTransaction: Undo Clicking on Actors
+[2018.12.12-01.36.54:196][752]Cmd: TRANSACTION UNDO
+[2018.12.12-01.36.54:197][752]LogEditorTransaction: Undo Move Actors
+[2018.12.12-01.36.54:748][781]Cmd: TRANSACTION UNDO
+[2018.12.12-01.36.54:748][781]LogEditorTransaction: Undo Animatable Property Changed
+[2018.12.12-01.36.55:283][809]Cmd: TRANSACTION UNDO
+[2018.12.12-01.36.55:283][809]LogEditorTransaction: Undo Create Actors
+[2018.12.12-01.37.00:096][ 67]Cmd: DELETE
+[2018.12.12-01.37.00:096][ 67]Cmd: ACTOR DELETE
+[2018.12.12-01.37.00:102][ 67]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.12.12-01.37.00:146][ 67]LogEditorActor: Deleted 1 Actors (0.049 secs)
+[2018.12.12-01.37.01:923][135]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.12-01.37.02:841][180]LogEditorActor: Deleted Actor: Pizza_Blueprint_C
+[2018.12.12-01.37.02:882][180]LogEditorActor: Deleted 1 Actors (0.048 secs)
+[2018.12.12-01.37.05:311][297]LogEditorViewport: Clicking on Actor (LMB): Pizza_scripting_C (Pizza_scripting)
+[2018.12.12-01.37.10:914][547]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.12-01.37.34:009][676]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.12.12-01.37.34:042][676]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace' with GeneratedClass '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace'
+[2018.12.12-01.37.34:042][676]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.12.12-01.37.34:043][676]PIE: New page: PIE session: PizzaPlace (Dec 11, 2018, 3:37:34 PM)
+[2018.12.12-01.37.34:043][676]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_PizzaPlace
+[2018.12.12-01.37.34:069][676]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026219s)
+[2018.12.12-01.37.34:070][676]LogAIModule: Creating AISystem for world PizzaPlace
+[2018.12.12-01.37.34:070][676]LogPlayLevel: PIE: World Init took: (0.001201s)
+[2018.12.12-01.37.34:071][676]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace to /Game/FirstPersonBP/Maps/UEDPIE_0_PizzaPlace.PizzaPlace (0.027671s)
+[2018.12.12-01.37.34:142][676]LogInit: XAudio2 using 'Headphones (WH-CH500 Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.12.12-01.37.34:158][676]LogInit: FAudioDevice initialized.
+[2018.12.12-01.37.34:209][676]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.12-01.37.34:274][676]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.12.12-01.37.34:279][676]PIE: Warning: Invalid Simulate Options: Body (Pizza_scripting_2.Box) is set to simulate physics but Collision Enabled is incompatible
+[2018.12.12-01.37.34:279][676]PIE: Warning: Invalid Simulate Options: Body (Pizza_scripting_2.Box) is set to simulate physics but Collision Enabled is incompatible
+[2018.12.12-01.37.34:280][676]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_PizzaPlace.PizzaPlace up for play (max tick rate 60) at 2018.12.11-20.37.34
+[2018.12.12-01.37.34:281][676]LogWorld: Bringing up level for play took: 0.005695
+[2018.12.12-01.37.34:299][676]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_PizzaPlace 0.788
+[2018.12.12-01.37.34:299][676]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace' with GeneratedClass '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace'
+[2018.12.12-01.37.34:887][682]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Tags' of length 0 in '/Script/Engine.Actor'!
+[2018.12.12-01.37.34:887][682]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Tags' of length 0 in '/Script/Engine.Actor'!
+[2018.12.12-01.37.34:887][682]LogBlueprintUserMessages: [Pizza_scripting_2] None
+[2018.12.12-01.37.45:213][944]LogScript: Warning: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+	FirstPersonCharacter_C /Game/FirstPersonBP/Maps/UEDPIE_0_PizzaPlace.PizzaPlace:PersistentLevel.FirstPersonCharacter_C_1
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter:09C9
+[2018.12.12-01.37.45:214][944]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_BreakHitResult_HitActor". Blueprint:  FirstPersonCharacter Function:  Execute Ubergraph First Person Character Graph:  EventGraph Node:  Branch
+[2018.12.12-01.37.45:214][944]LogScript: Warning: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+	FirstPersonCharacter_C /Game/FirstPersonBP/Maps/UEDPIE_0_PizzaPlace.PizzaPlace:PersistentLevel.FirstPersonCharacter_C_1
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter:0DEA
+[2018.12.12-01.37.45:214][944]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_BreakHitResult_HitActor". Blueprint:  FirstPersonCharacter Function:  Execute Ubergraph First Person Character Graph:  EventGraph Node:  Branch
+[2018.12.12-01.37.52:869][124]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.12-01.37.54:352][156]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace' with GeneratedClass '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace'
+[2018.12.12-01.37.54:352][156]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.12-01.37.54:374][156]LogSlate: Window 'TeamSadMen Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.12.12-01.37.54:428][156]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.12.12-01.37.54:428][156]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace' with GeneratedClass '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace'
+[2018.12.12-01.37.54:537][157]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2018.12.12-01.38.08:800][265]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.12-01.38.39:691][145]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.12-01.38.56:070][340]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.12-01.38.56:186][354]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.12.12-01.38.56:214][354]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace' with GeneratedClass '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace'
+[2018.12.12-01.38.56:215][354]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.12.12-01.38.56:215][354]PIE: New page: PIE session: PizzaPlace (Dec 11, 2018, 3:38:56 PM)
+[2018.12.12-01.38.56:215][354]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_PizzaPlace
+[2018.12.12-01.38.56:244][354]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028625s)
+[2018.12.12-01.38.56:245][354]LogAIModule: Creating AISystem for world PizzaPlace
+[2018.12.12-01.38.56:245][354]LogPlayLevel: PIE: World Init took: (0.001410s)
+[2018.12.12-01.38.56:245][354]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace to /Game/FirstPersonBP/Maps/UEDPIE_0_PizzaPlace.PizzaPlace (0.030349s)
+[2018.12.12-01.38.56:318][354]LogInit: XAudio2 using 'Headphones (WH-CH500 Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.12.12-01.38.56:333][354]LogInit: FAudioDevice initialized.
+[2018.12.12-01.38.56:397][354]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.12-01.38.56:445][354]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.12.12-01.38.56:450][354]PIE: Warning: Invalid Simulate Options: Body (Pizza_scripting_2.Box) is set to simulate physics but Collision Enabled is incompatible
+[2018.12.12-01.38.56:450][354]PIE: Warning: Invalid Simulate Options: Body (Pizza_scripting_2.Box) is set to simulate physics but Collision Enabled is incompatible
+[2018.12.12-01.38.56:451][354]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_PizzaPlace.PizzaPlace up for play (max tick rate 0) at 2018.12.11-20.38.56
+[2018.12.12-01.38.56:452][354]LogWorld: Bringing up level for play took: 0.005435
+[2018.12.12-01.38.56:466][354]LogScript: Warning: Accessed None trying to read property OrderReceiver
+	Order_Text_Blueprint_C /Game/FirstPersonBP/Maps/UEDPIE_0_PizzaPlace.PizzaPlace:PersistentLevel.Order_Text_Blueprint_2
+	Function /Game/Tyler/Order_Text_Blueprint.Order_Text_Blueprint_C:NewOrder:214B
+[2018.12.12-01.38.56:466][354]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property OrderReceiver". Blueprint:  Order_Text_Blueprint Function:  New Order Graph:  NewOrder Node:  Add New Order
+[2018.12.12-01.38.56:472][354]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_PizzaPlace 0.961
+[2018.12.12-01.38.56:473][354]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace' with GeneratedClass '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace'
+[2018.12.12-01.38.56:980][360]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Tags' of length 0 in '/Script/Engine.Actor'!
+[2018.12.12-01.38.56:980][360]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Tags' of length 0 in '/Script/Engine.Actor'!
+[2018.12.12-01.38.56:980][360]LogBlueprintUserMessages: [Pizza_scripting_2] None
+[2018.12.12-01.39.06:123][590]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.12-01.39.07:986][636]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace' with GeneratedClass '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace'
+[2018.12.12-01.39.07:987][636]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.12-01.39.08:007][636]LogSlate: Window 'TeamSadMen Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.12.12-01.39.08:066][636]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.12.12-01.39.08:066][636]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace' with GeneratedClass '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace'
+[2018.12.12-01.39.08:216][637]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2018.12.12-01.39.13:936][971]LogEditorViewport: Clicking on Actor (LMB): Pizza_scripting_C (Pizza_scripting)
+[2018.12.12-01.39.17:024][152]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.12-01.42.07:698][697]LogEditorViewport: Clicking on Actor (LMB): Pizza_scripting_C (Pizza_scripting)
+[2018.12.12-01.42.12:416][  7]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.12-01.42.26:617][263]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.12.12-01.42.26:645][263]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace' with GeneratedClass '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace'
+[2018.12.12-01.42.26:645][263]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.12.12-01.42.26:645][263]PIE: New page: PIE session: PizzaPlace (Dec 11, 2018, 3:42:26 PM)
+[2018.12.12-01.42.26:645][263]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_PizzaPlace
+[2018.12.12-01.42.26:672][263]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026580s)
+[2018.12.12-01.42.26:673][263]LogAIModule: Creating AISystem for world PizzaPlace
+[2018.12.12-01.42.26:674][263]LogPlayLevel: PIE: World Init took: (0.001559s)
+[2018.12.12-01.42.26:674][263]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace to /Game/FirstPersonBP/Maps/UEDPIE_0_PizzaPlace.PizzaPlace (0.028519s)
+[2018.12.12-01.42.26:755][263]LogInit: XAudio2 using 'Headphones (WH-CH500 Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.12.12-01.42.26:770][263]LogInit: FAudioDevice initialized.
+[2018.12.12-01.42.26:826][263]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.12-01.42.26:873][263]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.12.12-01.42.26:879][263]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_PizzaPlace.PizzaPlace up for play (max tick rate 0) at 2018.12.11-20.42.26
+[2018.12.12-01.42.26:880][263]LogWorld: Bringing up level for play took: 0.005103
+[2018.12.12-01.42.26:893][263]LogScript: Warning: Accessed None trying to read property OrderReceiver
+	Order_Text_Blueprint_C /Game/FirstPersonBP/Maps/UEDPIE_0_PizzaPlace.PizzaPlace:PersistentLevel.Order_Text_Blueprint_2
+	Function /Game/Tyler/Order_Text_Blueprint.Order_Text_Blueprint_C:NewOrder:214B
+[2018.12.12-01.42.26:893][263]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property OrderReceiver". Blueprint:  Order_Text_Blueprint Function:  New Order Graph:  NewOrder Node:  Add New Order
+[2018.12.12-01.42.26:898][263]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_PizzaPlace -0.612
+[2018.12.12-01.42.26:899][263]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace' with GeneratedClass '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace'
+[2018.12.12-01.42.28:398][291]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Tags' of length 0 in '/Script/Engine.Actor'!
+[2018.12.12-01.42.28:398][291]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Tags' of length 0 in '/Script/Engine.Actor'!
+[2018.12.12-01.42.28:398][291]LogBlueprintUserMessages: [Pizza_scripting_2] None
+[2018.12.12-01.42.39:710][561]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.12-01.42.39:819][565]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace' with GeneratedClass '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace'
+[2018.12.12-01.42.39:819][565]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.12-01.42.39:842][565]LogSlate: Window 'TeamSadMen Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.12.12-01.42.39:897][565]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.12.12-01.42.39:897][565]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace' with GeneratedClass '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace'
+[2018.12.12-01.42.40:013][566]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2018.12.12-01.45.36:744][411]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.12-01.45.40:124][646]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.12-01.49.24:372][996]LogSlate: Window 'Change Variable Type' being destroyed
+[2018.12.12-01.49.24:436][996]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.12-01.49.28:546][232]LogSlate: Window 'Find in Blueprints' being destroyed
+[2018.12.12-01.49.28:575][232]LogSlate: Window 'Find in Blueprints' being destroyed
+[2018.12.12-01.49.31:337][395]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.12-01.50.43:251][317]LogSlate: Window 'Change Variable Type' being destroyed
+[2018.12.12-01.50.43:322][317]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.12-01.50.46:389][496]LogSlate: Window 'Find in Blueprints' being destroyed
+[2018.12.12-01.50.46:418][496]LogSlate: Window 'Find in Blueprints' being destroyed
+[2018.12.12-01.50.48:941][661]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.12-01.51.50:927][328]BlueprintLog: New page: Compile Pizza_Blueprint
+[2018.12.12-01.51.52:068][355]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tyler/Pizza_Blueprint" FILE="../../../../../../Users/jonest5/GameDev1/TeamSadMen/TeamSadMen/Content/Tyler/Pizza_Blueprint.uasset" SILENT=true
+[2018.12.12-01.51.52:142][355]LogSavePackage: Moving '../../../../../../Users/jonest5/GameDev1/TeamSadMen/TeamSadMen/Saved/Pizza_Blueprint038ADE3144F068DD0E6B03A3F3F1CAD5.tmp' to '../../../../../../Users/jonest5/GameDev1/TeamSadMen/TeamSadMen/Content/Tyler/Pizza_Blueprint.uasset'
+[2018.12.12-01.51.53:698][399]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.12-01.51.55:799][471]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AlexWPizzaStuff/Pizza_scripting" FILE="../../../../../../Users/jonest5/GameDev1/TeamSadMen/TeamSadMen/Content/AlexWPizzaStuff/Pizza_scripting.uasset" SILENT=true
+[2018.12.12-01.51.55:878][471]LogSavePackage: Moving '../../../../../../Users/jonest5/GameDev1/TeamSadMen/TeamSadMen/Saved/Pizza_scripting5A30CCD04E45276EEA785BB073526B4E.tmp' to '../../../../../../Users/jonest5/GameDev1/TeamSadMen/TeamSadMen/Content/AlexWPizzaStuff/Pizza_scripting.uasset'
+[2018.12.12-01.52.08:844][643]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.12-01.52.14:029][ 45]LogEditorViewport: Clicking on Actor (LMB): Pizza_scripting_C (Pizza_scripting)
+[2018.12.12-01.52.17:806][373]LogEditorViewport: Clicking on Actor (LMB): Pizza_Blueprint_C (Pizza_Blueprint)
+[2018.12.12-01.52.23:318][862]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.12-01.52.45:427][ 66]LogSlate: Window 'Change Variable Type' being destroyed
+[2018.12.12-01.52.45:491][ 66]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.12-01.52.57:864][821]LogUObjectArray: Warning: Other object in slot
+[2018.12.12-01.52.58:927][821]LogStats: FPlatformStackWalk::StackWalkAndDump -  1.062 s
+[2018.12.12-01.52.58:927][821]LogOutputDevice: Error: === Handled ensure: ===
+[2018.12.12-01.52.58:927][821]LogOutputDevice: Error: 
+[2018.12.12-01.52.58:927][821]LogOutputDevice: Error: Ensure condition failed: false [File:D:\Build\++UE4\Sync\Engine\Source\Editor\UnrealEd\Private\Kismet2\KismetDebugUtilities.cpp] [Line: 1142]
+[2018.12.12-01.52.58:927][821]LogOutputDevice: Error: Error: Invalid (but non-null) property associated with pin; cannot get variable value
+[2018.12.12-01.52.58:927][821]LogOutputDevice: Error: Stack: 
+[2018.12.12-01.52.58:927][821]LogOutputDevice: Error: [Callstack] 0x00007ffc07ce71f6 UE4Editor-Core.dll!UnknownFunction []
+[2018.12.12-01.52.58:927][821]LogOutputDevice: Error: [Callstack] 0x00007ffc07a20c92 UE4Editor-Core.dll!UnknownFunction []
+[2018.12.12-01.52.58:927][821]LogOutputDevice: Error: [Callstack] 0x00007ffc07a3b356 UE4Editor-Core.dll!UnknownFunction []
+[2018.12.12-01.52.58:927][821]LogOutputDevice: Error: [Callstack] 0x00007ffc035a11db UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.12.12-01.52.58:927][821]LogOutputDevice: Error: [Callstack] 0x00007ffc035b060e UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.12.12-01.52.58:927][821]LogOutputDevice: Error: [Callstack] 0x00007ffc014cda7a UE4Editor-BlueprintGraph.dll!UnknownFunction []
+[2018.12.12-01.52.58:927][821]LogOutputDevice: Error: [Callstack] 0x00007ffc000aec2a UE4Editor-GraphEditor.dll!UnknownFunction []
+[2018.12.12-01.52.58:927][821]LogOutputDevice: Error: [Callstack] 0x00007ffc0006f337 UE4Editor-GraphEditor.dll!UnknownFunction []
+[2018.12.12-01.52.58:927][821]LogOutputDevice: Error: [Callstack] 0x00007ffc09af8204 UE4Editor-Slate.dll!UnknownFunction []
+[2018.12.12-01.52.58:927][821]LogOutputDevice: Error: [Callstack] 0x00007ffc09d3e933 UE4Editor-Slate.dll!UnknownFunction []
+[2018.12.12-01.52.58:927][821]LogOutputDevice: Error: [Callstack] 0x00007ffc09b5281a UE4Editor-Slate.dll!UnknownFunction []
+[2018.12.12-01.52.58:927][821]LogOutputDevice: Error: [Callstack] 0x00007ffc09b28190 UE4Editor-Slate.dll!UnknownFunction []
+[2018.12.12-01.52.58:927][821]LogOutputDevice: Error: [Callstack] 0x00007ffc09b1b073 UE4Editor-Slate.dll!UnknownFunction []
+[2018.12.12-01.52.58:927][821]LogOutputDevice: Error: [Callstack] 0x00007ffc21ced007 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.12.12-01.52.58:927][821]LogOutputDevice: Error: [Callstack] 0x00007ffc21ce0270 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.12.12-01.52.58:927][821]LogOutputDevice: Error: [Callstack] 0x00007ffc21cef4c5 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.12.12-01.52.58:927][821]LogOutputDevice: Error: [Callstack] 0x00007ffc21cdc209 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.12.12-01.52.58:927][821]LogOutputDevice: Error: [Callstack] 0x00007ffc77b66d41 USER32.dll!UnknownFunction []
+[2018.12.12-01.52.58:927][821]LogOutputDevice: Error: [Callstack] 0x00007ffc77b66713 USER32.dll!UnknownFunction []
+[2018.12.12-01.52.58:927][821]LogOutputDevice: Error: [Callstack] 0x00007ffc21cf0646 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.12.12-01.52.58:927][821]LogOutputDevice: Error: [Callstack] 0x00007ff6c2cf54e5 UE4Editor.exe!UnknownFunction []
+[2018.12.12-01.52.58:927][821]LogOutputDevice: Error: [Callstack] 0x00007ff6c2d05b3c UE4Editor.exe!UnknownFunction []
+[2018.12.12-01.52.58:927][821]LogOutputDevice: Error: [Callstack] 0x00007ff6c2d05bba UE4Editor.exe!UnknownFunction []
+[2018.12.12-01.52.58:927][821]LogOutputDevice: Error: [Callstack] 0x00007ff6c2d13dac UE4Editor.exe!UnknownFunction []
+[2018.12.12-01.52.58:927][821]LogOutputDevice: Error: [Callstack] 0x00007ff6c2d15aaa UE4Editor.exe!UnknownFunction []
+[2018.12.12-01.52.58:927][821]LogOutputDevice: Error: [Callstack] 0x00007ffc777e3034 KERNEL32.DLL!UnknownFunction []
+[2018.12.12-01.52.58:927][821]LogOutputDevice: Error: [Callstack] 0x00007ffc77f31471 ntdll.dll!UnknownFunction []
+[2018.12.12-01.52.58:927][821]LogOutputDevice: Error: 
+[2018.12.12-01.52.58:934][821]LogStats:                SubmitErrorReport -  0.000 s
