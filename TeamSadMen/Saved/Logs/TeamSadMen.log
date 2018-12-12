@@ -17701,3 +17701,615 @@ Make sure 'RightHand_AnimBP_C' has been compiled for  Set TapTimer
 [2018.12.12-10.37.44:997][977]LogPlayLevel: Display: Destroying online subsystem :Context_79
 [2018.12.12-10.37.47:458][118]LogSlate: FSceneViewport::OnFocusLost() reason 2
 [2018.12.12-10.37.47:886][118]LogSavePackage: Moving '../../../../../../Git Hub/TeamSadMen/TeamSadMen/Saved/HomeLevel95DCFE0448EAEA6C5270F8B9AC85861E.tmp' to '../../../../../../Git Hub/TeamSadMen/TeamSadMen/Content/FirstPersonBP/Maps/HomeLevel.umap'
+[2018.12.12-10.43.14:177][748]LogTemp: Repeating last play command: Selected Viewport
+[2018.12.12-10.43.14:202][748]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/HomeLevel.HomeLevel:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/HomeLevel.HomeLevel:PersistentLevel.HomeLevel' with GeneratedClass '/Game/FirstPersonBP/Maps/HomeLevel.HomeLevel_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/HomeLevel.HomeLevel:PersistentLevel.HomeLevel'
+[2018.12.12-10.43.14:202][748]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.12.12-10.43.14:202][748]PIE: New page: PIE session: HomeLevel (Dec 12, 2018, 12:43:14 AM)
+[2018.12.12-10.43.14:202][748]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_HomeLevel
+[2018.12.12-10.43.14:222][748]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019584s)
+[2018.12.12-10.43.14:223][748]LogAIModule: Creating AISystem for world HomeLevel
+[2018.12.12-10.43.14:223][748]LogPlayLevel: PIE: World Init took: (0.001229s)
+[2018.12.12-10.43.14:223][748]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/HomeLevel.HomeLevel to /Game/FirstPersonBP/Maps/UEDPIE_0_HomeLevel.HomeLevel (0.021058s)
+[2018.12.12-10.43.14:286][748]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.12.12-10.43.14:313][748]LogInit: FAudioDevice initialized.
+[2018.12.12-10.43.14:343][748]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.12.12-10.43.14:347][748]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue". Blueprint:  LeftHand_AnimBP Function:  Execute Ubergraph Left Hand Anim BP Graph:  EventGraph Node:  Branch
+[2018.12.12-10.43.14:347][748]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue1". Blueprint:  LeftHand_AnimBP Function:  Execute Ubergraph Left Hand Anim BP Graph:  EventGraph Node:  Branch
+[2018.12.12-10.43.14:348][748]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue
+	RightHand_AnimBP_C /Game/FirstPersonBP/Maps/UEDPIE_0_HomeLevel.HomeLevel:PersistentLevel.RightHand_AnimBP_19.SkeletalMeshComponent0.RightHand_AnimBP_C_0
+	Function /Game/Animations/RightHand_AnimBP.RightHand_AnimBP_C:ExecuteUbergraph_RightHand_AnimBP:0130
+[2018.12.12-10.43.14:348][748]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue". Blueprint:  RightHand_AnimBP Function:  Execute Ubergraph Right Hand Anim BP Graph:  EventGraph Node:  Branch
+[2018.12.12-10.43.14:348][748]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue1". Blueprint:  RightHand_AnimBP Function:  Execute Ubergraph Right Hand Anim BP Graph:  EventGraph Node:  Branch
+[2018.12.12-10.43.14:349][748]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_HomeLevel.HomeLevel up for play (max tick rate 60) at 2018.12.12-05.43.14
+[2018.12.12-10.43.14:349][748]LogWorld: Bringing up level for play took: 0.004446
+[2018.12.12-10.43.14:362][748]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_HomeLevel 0.475
+[2018.12.12-10.43.14:362][748]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/HomeLevel.HomeLevel:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/HomeLevel.HomeLevel:PersistentLevel.HomeLevel' with GeneratedClass '/Game/FirstPersonBP/Maps/HomeLevel.HomeLevel_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/HomeLevel.HomeLevel:PersistentLevel.HomeLevel'
+[2018.12.12-10.43.38:958][104]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/HomeLevel.HomeLevel:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/HomeLevel.HomeLevel:PersistentLevel.HomeLevel' with GeneratedClass '/Game/FirstPersonBP/Maps/HomeLevel.HomeLevel_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/HomeLevel.HomeLevel:PersistentLevel.HomeLevel'
+[2018.12.12-10.43.38:958][104]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.12-10.43.38:996][104]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.12.12-10.43.38:996][104]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/HomeLevel.HomeLevel:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/HomeLevel.HomeLevel:PersistentLevel.HomeLevel' with GeneratedClass '/Game/FirstPersonBP/Maps/HomeLevel.HomeLevel_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/HomeLevel.HomeLevel:PersistentLevel.HomeLevel'
+[2018.12.12-10.43.39:029][104]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.12-10.43.39:097][105]LogPlayLevel: Display: Destroying online subsystem :Context_80
+[2018.12.12-10.43.45:422][480]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (RightHand_AnimBP)
+[2018.12.12-10.43.50:457][778]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.12-10.43.51:172][821]EditorErrors: New page: Actor attachment
+[2018.12.12-10.43.53:175][938]EditorErrors: New page: Actor attachment
+[2018.12.12-10.43.54:610][ 24]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape)
+[2018.12.12-10.43.54:654][ 24]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.12-10.43.55:238][ 57]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.12.12-10.43.56:543][131]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (RightHand_AnimBP)
+[2018.12.12-10.44.10:404][933]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.12.12-10.44.11:201][978]LogEditorViewport: Clicking on Actor (LMB): FirstPersonCharacter_C (FirstPersonCharacter)
+[2018.12.12-10.44.12:980][ 78]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (RightHand_AnimBP)
+[2018.12.12-10.44.17:032][312]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (LeftHand_AnimBP)
+[2018.12.12-10.45.42:992][452]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.12-10.45.43:091][458]LogTemp: Repeating last play command: Selected Viewport
+[2018.12.12-10.45.43:115][458]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/HomeLevel.HomeLevel:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/HomeLevel.HomeLevel:PersistentLevel.HomeLevel' with GeneratedClass '/Game/FirstPersonBP/Maps/HomeLevel.HomeLevel_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/HomeLevel.HomeLevel:PersistentLevel.HomeLevel'
+[2018.12.12-10.45.43:115][458]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.12.12-10.45.43:115][458]PIE: New page: PIE session: HomeLevel (Dec 12, 2018, 12:45:43 AM)
+[2018.12.12-10.45.43:116][458]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_HomeLevel
+[2018.12.12-10.45.43:137][458]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021041s)
+[2018.12.12-10.45.43:138][458]LogAIModule: Creating AISystem for world HomeLevel
+[2018.12.12-10.45.43:138][458]LogPlayLevel: PIE: World Init took: (0.001444s)
+[2018.12.12-10.45.43:138][458]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/HomeLevel.HomeLevel to /Game/FirstPersonBP/Maps/UEDPIE_0_HomeLevel.HomeLevel (0.022776s)
+[2018.12.12-10.45.43:179][458]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.12.12-10.45.43:205][458]LogInit: FAudioDevice initialized.
+[2018.12.12-10.45.43:236][458]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.12.12-10.45.43:241][458]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue". Blueprint:  LeftHand_AnimBP Function:  Execute Ubergraph Left Hand Anim BP Graph:  EventGraph Node:  Branch
+[2018.12.12-10.45.43:241][458]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue1". Blueprint:  LeftHand_AnimBP Function:  Execute Ubergraph Left Hand Anim BP Graph:  EventGraph Node:  Branch
+[2018.12.12-10.45.43:241][458]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue". Blueprint:  RightHand_AnimBP Function:  Execute Ubergraph Right Hand Anim BP Graph:  EventGraph Node:  Branch
+[2018.12.12-10.45.43:241][458]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue1". Blueprint:  RightHand_AnimBP Function:  Execute Ubergraph Right Hand Anim BP Graph:  EventGraph Node:  Branch
+[2018.12.12-10.45.43:242][458]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_HomeLevel.HomeLevel up for play (max tick rate 60) at 2018.12.12-05.45.43
+[2018.12.12-10.45.43:243][458]LogWorld: Bringing up level for play took: 0.005338
+[2018.12.12-10.45.43:256][458]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_HomeLevel -0.63
+[2018.12.12-10.45.43:257][458]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/HomeLevel.HomeLevel:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/HomeLevel.HomeLevel:PersistentLevel.HomeLevel' with GeneratedClass '/Game/FirstPersonBP/Maps/HomeLevel.HomeLevel_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/HomeLevel.HomeLevel:PersistentLevel.HomeLevel'
+[2018.12.12-10.46.02:360][602]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/HomeLevel.HomeLevel:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/HomeLevel.HomeLevel:PersistentLevel.HomeLevel' with GeneratedClass '/Game/FirstPersonBP/Maps/HomeLevel.HomeLevel_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/HomeLevel.HomeLevel:PersistentLevel.HomeLevel'
+[2018.12.12-10.46.02:360][602]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.12-10.46.02:397][602]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.12.12-10.46.02:397][602]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/HomeLevel.HomeLevel:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/HomeLevel.HomeLevel:PersistentLevel.HomeLevel' with GeneratedClass '/Game/FirstPersonBP/Maps/HomeLevel.HomeLevel_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/HomeLevel.HomeLevel:PersistentLevel.HomeLevel'
+[2018.12.12-10.46.02:429][602]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.12-10.46.02:499][603]LogPlayLevel: Display: Destroying online subsystem :Context_81
+[2018.12.12-10.46.05:443][770]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (LeftHand_AnimBP)
+[2018.12.12-10.46.12:311][160]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (RightHand_AnimBP)
+[2018.12.12-10.46.14:529][288]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.12-10.46.14:629][294]LogTemp: Repeating last play command: Selected Viewport
+[2018.12.12-10.46.14:652][294]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/HomeLevel.HomeLevel:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/HomeLevel.HomeLevel:PersistentLevel.HomeLevel' with GeneratedClass '/Game/FirstPersonBP/Maps/HomeLevel.HomeLevel_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/HomeLevel.HomeLevel:PersistentLevel.HomeLevel'
+[2018.12.12-10.46.14:652][294]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.12.12-10.46.14:652][294]PIE: New page: PIE session: HomeLevel (Dec 12, 2018, 12:46:14 AM)
+[2018.12.12-10.46.14:652][294]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_HomeLevel
+[2018.12.12-10.46.14:670][294]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018077s)
+[2018.12.12-10.46.14:671][294]LogAIModule: Creating AISystem for world HomeLevel
+[2018.12.12-10.46.14:672][294]LogPlayLevel: PIE: World Init took: (0.001408s)
+[2018.12.12-10.46.14:672][294]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/HomeLevel.HomeLevel to /Game/FirstPersonBP/Maps/UEDPIE_0_HomeLevel.HomeLevel (0.019684s)
+[2018.12.12-10.46.14:715][294]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.12.12-10.46.14:739][294]LogInit: FAudioDevice initialized.
+[2018.12.12-10.46.14:772][294]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.12.12-10.46.14:776][294]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue". Blueprint:  LeftHand_AnimBP Function:  Execute Ubergraph Left Hand Anim BP Graph:  EventGraph Node:  Branch
+[2018.12.12-10.46.14:776][294]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue1". Blueprint:  LeftHand_AnimBP Function:  Execute Ubergraph Left Hand Anim BP Graph:  EventGraph Node:  Branch
+[2018.12.12-10.46.14:777][294]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue". Blueprint:  RightHand_AnimBP Function:  Execute Ubergraph Right Hand Anim BP Graph:  EventGraph Node:  Branch
+[2018.12.12-10.46.14:777][294]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue1". Blueprint:  RightHand_AnimBP Function:  Execute Ubergraph Right Hand Anim BP Graph:  EventGraph Node:  Branch
+[2018.12.12-10.46.14:778][294]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_HomeLevel.HomeLevel up for play (max tick rate 60) at 2018.12.12-05.46.14
+[2018.12.12-10.46.14:778][294]LogWorld: Bringing up level for play took: 0.005205
+[2018.12.12-10.46.14:791][294]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_HomeLevel 0.905
+[2018.12.12-10.46.14:791][294]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/HomeLevel.HomeLevel:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/HomeLevel.HomeLevel:PersistentLevel.HomeLevel' with GeneratedClass '/Game/FirstPersonBP/Maps/HomeLevel.HomeLevel_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/HomeLevel.HomeLevel:PersistentLevel.HomeLevel'
+[2018.12.12-10.46.15:656][344]LogCharacterMovement: FirstPersonCharacter_C_1 is stuck and failed to move! Velocity: X=8.92 Y=-32.95 Z=0.00 Location: X=-2477.42 Y=-78.59 Z=196.01 Normal: X=-0.98 Y=0.13 Z=-0.14 PenetrationDepth:15.998 Actor:RightHand_AnimBP_19 Component:SkeletalMeshComponent0 BoneName:joint18 (0 other events since notify)
+[2018.12.12-10.46.16:756][410]LogCharacterMovement: FirstPersonCharacter_C_1 is stuck and failed to move! Velocity: X=-6.31 Y=33.55 Z=0.00 Location: X=-2477.50 Y=-78.48 Z=196.00 Normal: X=-0.57 Y=-0.79 Z=-0.24 PenetrationDepth:29.250 Actor:LeftHand_AnimBP_12 Component:SkeletalMeshComponent0 BoneName:joint1 (32 other events since notify)
+[2018.12.12-10.46.17:756][470]LogCharacterMovement: FirstPersonCharacter_C_1 is stuck and failed to move! Velocity: X=-25.54 Y=-78.48 Z=0.00 Location: X=-2474.45 Y=-109.80 Z=196.08 Normal: X=0.95 Y=-0.26 Z=-0.14 PenetrationDepth:16.052 Actor:RightHand_AnimBP_19 Component:SkeletalMeshComponent0 BoneName:joint18 (55 other events since notify)
+[2018.12.12-10.46.18:756][530]LogCharacterMovement: FirstPersonCharacter_C_1 is stuck and failed to move! Velocity: X=87.34 Y=-376.71 Z=0.00 Location: X=-2474.73 Y=-111.38 Z=196.00 Normal: X=-0.75 Y=0.63 Z=-0.22 PenetrationDepth:25.405 Actor:LeftHand_AnimBP_12 Component:SkeletalMeshComponent0 BoneName:joint1 (55 other events since notify)
+[2018.12.12-10.46.19:108][551]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/HomeLevel.HomeLevel:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/HomeLevel.HomeLevel:PersistentLevel.HomeLevel' with GeneratedClass '/Game/FirstPersonBP/Maps/HomeLevel.HomeLevel_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/HomeLevel.HomeLevel:PersistentLevel.HomeLevel'
+[2018.12.12-10.46.19:108][551]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.12-10.46.19:146][551]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.12.12-10.46.19:146][551]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/HomeLevel.HomeLevel:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/HomeLevel.HomeLevel:PersistentLevel.HomeLevel' with GeneratedClass '/Game/FirstPersonBP/Maps/HomeLevel.HomeLevel_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/HomeLevel.HomeLevel:PersistentLevel.HomeLevel'
+[2018.12.12-10.46.19:179][551]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.12-10.46.19:255][552]LogPlayLevel: Display: Destroying online subsystem :Context_82
+[2018.12.12-10.46.23:304][782]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (LeftHand_AnimBP)
+[2018.12.12-10.46.25:342][898]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (RightHand_AnimBP)
+[2018.12.12-10.46.31:401][248]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.12-10.46.31:501][254]LogTemp: Repeating last play command: Selected Viewport
+[2018.12.12-10.46.31:526][254]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/HomeLevel.HomeLevel:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/HomeLevel.HomeLevel:PersistentLevel.HomeLevel' with GeneratedClass '/Game/FirstPersonBP/Maps/HomeLevel.HomeLevel_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/HomeLevel.HomeLevel:PersistentLevel.HomeLevel'
+[2018.12.12-10.46.31:527][254]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.12.12-10.46.31:527][254]PIE: New page: PIE session: HomeLevel (Dec 12, 2018, 12:46:31 AM)
+[2018.12.12-10.46.31:527][254]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_HomeLevel
+[2018.12.12-10.46.31:545][254]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018045s)
+[2018.12.12-10.46.31:546][254]LogAIModule: Creating AISystem for world HomeLevel
+[2018.12.12-10.46.31:546][254]LogPlayLevel: PIE: World Init took: (0.001149s)
+[2018.12.12-10.46.31:546][254]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/HomeLevel.HomeLevel to /Game/FirstPersonBP/Maps/UEDPIE_0_HomeLevel.HomeLevel (0.019369s)
+[2018.12.12-10.46.31:587][254]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.12.12-10.46.31:613][254]LogInit: FAudioDevice initialized.
+[2018.12.12-10.46.31:646][254]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.12.12-10.46.31:650][254]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue". Blueprint:  LeftHand_AnimBP Function:  Execute Ubergraph Left Hand Anim BP Graph:  EventGraph Node:  Branch
+[2018.12.12-10.46.31:650][254]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue1". Blueprint:  LeftHand_AnimBP Function:  Execute Ubergraph Left Hand Anim BP Graph:  EventGraph Node:  Branch
+[2018.12.12-10.46.31:651][254]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue". Blueprint:  RightHand_AnimBP Function:  Execute Ubergraph Right Hand Anim BP Graph:  EventGraph Node:  Branch
+[2018.12.12-10.46.31:651][254]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue1". Blueprint:  RightHand_AnimBP Function:  Execute Ubergraph Right Hand Anim BP Graph:  EventGraph Node:  Branch
+[2018.12.12-10.46.31:651][254]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_HomeLevel.HomeLevel up for play (max tick rate 60) at 2018.12.12-05.46.31
+[2018.12.12-10.46.31:652][254]LogWorld: Bringing up level for play took: 0.004484
+[2018.12.12-10.46.31:665][254]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_HomeLevel -0.221
+[2018.12.12-10.46.31:665][254]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/HomeLevel.HomeLevel:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/HomeLevel.HomeLevel:PersistentLevel.HomeLevel' with GeneratedClass '/Game/FirstPersonBP/Maps/HomeLevel.HomeLevel_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/HomeLevel.HomeLevel:PersistentLevel.HomeLevel'
+[2018.12.12-10.46.34:382][415]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/HomeLevel.HomeLevel:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/HomeLevel.HomeLevel:PersistentLevel.HomeLevel' with GeneratedClass '/Game/FirstPersonBP/Maps/HomeLevel.HomeLevel_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/HomeLevel.HomeLevel:PersistentLevel.HomeLevel'
+[2018.12.12-10.46.34:382][415]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.12-10.46.34:422][415]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.12.12-10.46.34:422][415]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/HomeLevel.HomeLevel:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/HomeLevel.HomeLevel:PersistentLevel.HomeLevel' with GeneratedClass '/Game/FirstPersonBP/Maps/HomeLevel.HomeLevel_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/HomeLevel.HomeLevel:PersistentLevel.HomeLevel'
+[2018.12.12-10.46.34:459][415]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.12-10.46.34:530][416]LogPlayLevel: Display: Destroying online subsystem :Context_83
+[2018.12.12-10.46.44:929][ 28]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (RightHand_AnimBP)
+[2018.12.12-10.46.47:793][195]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (LeftHand_AnimBP)
+[2018.12.12-10.46.49:604][299]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (RightHand_AnimBP)
+[2018.12.12-10.46.51:616][415]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.12-10.46.51:698][420]LogTemp: Repeating last play command: Selected Viewport
+[2018.12.12-10.46.51:721][420]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/HomeLevel.HomeLevel:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/HomeLevel.HomeLevel:PersistentLevel.HomeLevel' with GeneratedClass '/Game/FirstPersonBP/Maps/HomeLevel.HomeLevel_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/HomeLevel.HomeLevel:PersistentLevel.HomeLevel'
+[2018.12.12-10.46.51:721][420]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.12.12-10.46.51:721][420]PIE: New page: PIE session: HomeLevel (Dec 12, 2018, 12:46:51 AM)
+[2018.12.12-10.46.51:721][420]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_HomeLevel
+[2018.12.12-10.46.51:738][420]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017098s)
+[2018.12.12-10.46.51:739][420]LogAIModule: Creating AISystem for world HomeLevel
+[2018.12.12-10.46.51:739][420]LogPlayLevel: PIE: World Init took: (0.001193s)
+[2018.12.12-10.46.51:739][420]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/HomeLevel.HomeLevel to /Game/FirstPersonBP/Maps/UEDPIE_0_HomeLevel.HomeLevel (0.018492s)
+[2018.12.12-10.46.51:781][420]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.12.12-10.46.51:804][420]LogInit: FAudioDevice initialized.
+[2018.12.12-10.46.51:839][420]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.12.12-10.46.51:843][420]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue". Blueprint:  LeftHand_AnimBP Function:  Execute Ubergraph Left Hand Anim BP Graph:  EventGraph Node:  Branch
+[2018.12.12-10.46.51:843][420]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue1". Blueprint:  LeftHand_AnimBP Function:  Execute Ubergraph Left Hand Anim BP Graph:  EventGraph Node:  Branch
+[2018.12.12-10.46.51:844][420]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue". Blueprint:  RightHand_AnimBP Function:  Execute Ubergraph Right Hand Anim BP Graph:  EventGraph Node:  Branch
+[2018.12.12-10.46.51:844][420]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue1". Blueprint:  RightHand_AnimBP Function:  Execute Ubergraph Right Hand Anim BP Graph:  EventGraph Node:  Branch
+[2018.12.12-10.46.51:844][420]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_HomeLevel.HomeLevel up for play (max tick rate 60) at 2018.12.12-05.46.51
+[2018.12.12-10.46.51:845][420]LogWorld: Bringing up level for play took: 0.004332
+[2018.12.12-10.46.51:858][420]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_HomeLevel -0.028
+[2018.12.12-10.46.51:858][420]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/HomeLevel.HomeLevel:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/HomeLevel.HomeLevel:PersistentLevel.HomeLevel' with GeneratedClass '/Game/FirstPersonBP/Maps/HomeLevel.HomeLevel_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/HomeLevel.HomeLevel:PersistentLevel.HomeLevel'
+[2018.12.12-10.46.56:426][692]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/HomeLevel.HomeLevel:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/HomeLevel.HomeLevel:PersistentLevel.HomeLevel' with GeneratedClass '/Game/FirstPersonBP/Maps/HomeLevel.HomeLevel_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/HomeLevel.HomeLevel:PersistentLevel.HomeLevel'
+[2018.12.12-10.46.56:426][692]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.12-10.46.56:463][692]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.12.12-10.46.56:463][692]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/HomeLevel.HomeLevel:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/HomeLevel.HomeLevel:PersistentLevel.HomeLevel' with GeneratedClass '/Game/FirstPersonBP/Maps/HomeLevel.HomeLevel_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/HomeLevel.HomeLevel:PersistentLevel.HomeLevel'
+[2018.12.12-10.46.56:497][692]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.12-10.46.56:572][693]LogPlayLevel: Display: Destroying online subsystem :Context_84
+[2018.12.12-10.47.01:057][951]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (RightHand_AnimBP)
+[2018.12.12-10.47.18:320][951]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.12-10.47.19:567][ 26]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue
+	RightHand_AnimBP_C /Game/FirstPersonBP/Maps/HomeLevel.HomeLevel:PersistentLevel.RightHand_AnimBP_19.SkeletalMeshComponent0.RightHand_AnimBP_C_1
+	Function /Game/Animations/RightHand_AnimBP.RightHand_AnimBP_C:ExecuteUbergraph_RightHand_AnimBP:0130
+[2018.12.12-10.47.19:567][ 26]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue1
+	RightHand_AnimBP_C /Game/FirstPersonBP/Maps/HomeLevel.HomeLevel:PersistentLevel.RightHand_AnimBP_19.SkeletalMeshComponent0.RightHand_AnimBP_C_1
+	Function /Game/Animations/RightHand_AnimBP.RightHand_AnimBP_C:ExecuteUbergraph_RightHand_AnimBP:02AC
+[2018.12.12-10.47.19:568][ 26]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue
+	RightHand_AnimBP_C /Game/FirstPersonBP/Maps/HomeLevel.HomeLevel:PersistentLevel.RightHand_AnimBP_19.SkeletalMeshComponent0.RightHand_AnimBP_C_1
+	Function /Game/Animations/RightHand_AnimBP.RightHand_AnimBP_C:ExecuteUbergraph_RightHand_AnimBP:0130
+[2018.12.12-10.47.19:568][ 26]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue1
+	RightHand_AnimBP_C /Game/FirstPersonBP/Maps/HomeLevel.HomeLevel:PersistentLevel.RightHand_AnimBP_19.SkeletalMeshComponent0.RightHand_AnimBP_C_1
+	Function /Game/Animations/RightHand_AnimBP.RightHand_AnimBP_C:ExecuteUbergraph_RightHand_AnimBP:02AC
+[2018.12.12-10.47.19:569][ 26]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue
+	RightHand_AnimBP_C /Game/FirstPersonBP/Maps/HomeLevel.HomeLevel:PersistentLevel.RightHand_AnimBP_19.SkeletalMeshComponent0.RightHand_AnimBP_C_1
+	Function /Game/Animations/RightHand_AnimBP.RightHand_AnimBP_C:ExecuteUbergraph_RightHand_AnimBP:0130
+[2018.12.12-10.47.19:569][ 26]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue1
+	RightHand_AnimBP_C /Game/FirstPersonBP/Maps/HomeLevel.HomeLevel:PersistentLevel.RightHand_AnimBP_19.SkeletalMeshComponent0.RightHand_AnimBP_C_1
+	Function /Game/Animations/RightHand_AnimBP.RightHand_AnimBP_C:ExecuteUbergraph_RightHand_AnimBP:02AC
+[2018.12.12-10.47.19:569][ 26]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue
+	RightHand_AnimBP_C /Game/FirstPersonBP/Maps/HomeLevel.HomeLevel:PersistentLevel.RightHand_AnimBP_19.SkeletalMeshComponent0.RightHand_AnimBP_C_1
+	Function /Game/Animations/RightHand_AnimBP.RightHand_AnimBP_C:ExecuteUbergraph_RightHand_AnimBP:0130
+[2018.12.12-10.47.19:569][ 26]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue1
+	RightHand_AnimBP_C /Game/FirstPersonBP/Maps/HomeLevel.HomeLevel:PersistentLevel.RightHand_AnimBP_19.SkeletalMeshComponent0.RightHand_AnimBP_C_1
+	Function /Game/Animations/RightHand_AnimBP.RightHand_AnimBP_C:ExecuteUbergraph_RightHand_AnimBP:02AC
+[2018.12.12-10.47.19:570][ 26]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue
+	RightHand_AnimBP_C /Game/FirstPersonBP/Maps/HomeLevel.HomeLevel:PersistentLevel.RightHand_AnimBP_19.SkeletalMeshComponent0.RightHand_AnimBP_C_1
+	Function /Game/Animations/RightHand_AnimBP.RightHand_AnimBP_C:ExecuteUbergraph_RightHand_AnimBP:0130
+[2018.12.12-10.47.19:570][ 26]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue1
+	RightHand_AnimBP_C /Game/FirstPersonBP/Maps/HomeLevel.HomeLevel:PersistentLevel.RightHand_AnimBP_19.SkeletalMeshComponent0.RightHand_AnimBP_C_1
+	Function /Game/Animations/RightHand_AnimBP.RightHand_AnimBP_C:ExecuteUbergraph_RightHand_AnimBP:02AC
+[2018.12.12-10.47.19:571][ 26]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue
+	RightHand_AnimBP_C /Game/FirstPersonBP/Maps/HomeLevel.HomeLevel:PersistentLevel.RightHand_AnimBP_19.SkeletalMeshComponent0.RightHand_AnimBP_C_1
+	Function /Game/Animations/RightHand_AnimBP.RightHand_AnimBP_C:ExecuteUbergraph_RightHand_AnimBP:0130
+[2018.12.12-10.47.19:571][ 26]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue1
+	RightHand_AnimBP_C /Game/FirstPersonBP/Maps/HomeLevel.HomeLevel:PersistentLevel.RightHand_AnimBP_19.SkeletalMeshComponent0.RightHand_AnimBP_C_1
+	Function /Game/Animations/RightHand_AnimBP.RightHand_AnimBP_C:ExecuteUbergraph_RightHand_AnimBP:02AC
+[2018.12.12-10.47.19:572][ 26]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue
+	RightHand_AnimBP_C /Game/FirstPersonBP/Maps/HomeLevel.HomeLevel:PersistentLevel.RightHand_AnimBP_19.SkeletalMeshComponent0.RightHand_AnimBP_C_1
+	Function /Game/Animations/RightHand_AnimBP.RightHand_AnimBP_C:ExecuteUbergraph_RightHand_AnimBP:0130
+[2018.12.12-10.47.19:572][ 26]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue1
+	RightHand_AnimBP_C /Game/FirstPersonBP/Maps/HomeLevel.HomeLevel:PersistentLevel.RightHand_AnimBP_19.SkeletalMeshComponent0.RightHand_AnimBP_C_1
+	Function /Game/Animations/RightHand_AnimBP.RightHand_AnimBP_C:ExecuteUbergraph_RightHand_AnimBP:02AC
+[2018.12.12-10.47.19:572][ 26]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue
+	RightHand_AnimBP_C /Game/FirstPersonBP/Maps/HomeLevel.HomeLevel:PersistentLevel.RightHand_AnimBP_19.SkeletalMeshComponent0.RightHand_AnimBP_C_1
+	Function /Game/Animations/RightHand_AnimBP.RightHand_AnimBP_C:ExecuteUbergraph_RightHand_AnimBP:0130
+[2018.12.12-10.47.20:288][ 69]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (LeftHand_AnimBP)
+[2018.12.12-10.47.21:065][111]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.12-10.47.22:618][204]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.12-10.47.22:701][209]LogTemp: Repeating last play command: Selected Viewport
+[2018.12.12-10.47.22:724][209]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/HomeLevel.HomeLevel:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/HomeLevel.HomeLevel:PersistentLevel.HomeLevel' with GeneratedClass '/Game/FirstPersonBP/Maps/HomeLevel.HomeLevel_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/HomeLevel.HomeLevel:PersistentLevel.HomeLevel'
+[2018.12.12-10.47.22:724][209]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.12.12-10.47.22:724][209]PIE: New page: PIE session: HomeLevel (Dec 12, 2018, 12:47:22 AM)
+[2018.12.12-10.47.22:724][209]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_HomeLevel
+[2018.12.12-10.47.22:743][209]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018642s)
+[2018.12.12-10.47.22:744][209]LogAIModule: Creating AISystem for world HomeLevel
+[2018.12.12-10.47.22:744][209]LogPlayLevel: PIE: World Init took: (0.001134s)
+[2018.12.12-10.47.22:744][209]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/HomeLevel.HomeLevel to /Game/FirstPersonBP/Maps/UEDPIE_0_HomeLevel.HomeLevel (0.019952s)
+[2018.12.12-10.47.22:787][209]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.12.12-10.47.22:810][209]LogInit: FAudioDevice initialized.
+[2018.12.12-10.47.22:841][209]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.12.12-10.47.22:845][209]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue". Blueprint:  LeftHand_AnimBP Function:  Execute Ubergraph Left Hand Anim BP Graph:  EventGraph Node:  Branch
+[2018.12.12-10.47.22:845][209]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue1". Blueprint:  LeftHand_AnimBP Function:  Execute Ubergraph Left Hand Anim BP Graph:  EventGraph Node:  Branch
+[2018.12.12-10.47.22:845][209]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue". Blueprint:  RightHand_AnimBP Function:  Execute Ubergraph Right Hand Anim BP Graph:  EventGraph Node:  Branch
+[2018.12.12-10.47.22:845][209]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue1". Blueprint:  RightHand_AnimBP Function:  Execute Ubergraph Right Hand Anim BP Graph:  EventGraph Node:  Branch
+[2018.12.12-10.47.22:846][209]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_HomeLevel.HomeLevel up for play (max tick rate 60) at 2018.12.12-05.47.22
+[2018.12.12-10.47.22:846][209]LogWorld: Bringing up level for play took: 0.003779
+[2018.12.12-10.47.22:859][209]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_HomeLevel 0.972
+[2018.12.12-10.47.22:859][209]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/HomeLevel.HomeLevel:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/HomeLevel.HomeLevel:PersistentLevel.HomeLevel' with GeneratedClass '/Game/FirstPersonBP/Maps/HomeLevel.HomeLevel_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/HomeLevel.HomeLevel:PersistentLevel.HomeLevel'
+[2018.12.12-10.47.36:808][ 44]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/HomeLevel.HomeLevel:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/HomeLevel.HomeLevel:PersistentLevel.HomeLevel' with GeneratedClass '/Game/FirstPersonBP/Maps/HomeLevel.HomeLevel_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/HomeLevel.HomeLevel:PersistentLevel.HomeLevel'
+[2018.12.12-10.47.36:809][ 44]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.12-10.47.36:845][ 44]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.12.12-10.47.36:845][ 44]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/HomeLevel.HomeLevel:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/HomeLevel.HomeLevel:PersistentLevel.HomeLevel' with GeneratedClass '/Game/FirstPersonBP/Maps/HomeLevel.HomeLevel_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/HomeLevel.HomeLevel:PersistentLevel.HomeLevel'
+[2018.12.12-10.47.36:877][ 44]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.12-10.47.36:948][ 45]LogPlayLevel: Display: Destroying online subsystem :Context_85
+[2018.12.12-10.47.39:446][183]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (LeftHand_AnimBP)
+[2018.12.12-10.47.42:272][346]LogEditorViewport: Clicking on Actor (LMB): FirstPersonCharacter_C (FirstPersonCharacter)
+[2018.12.12-10.47.46:744][597]LogEditorViewport: Clicking on Actor (LMB): FirstPersonCharacter_C (FirstPersonCharacter)
+[2018.12.12-10.47.49:098][737]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (LeftHand_AnimBP)
+[2018.12.12-10.47.54:523][ 51]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (oven)
+[2018.12.12-10.47.55:368][ 96]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.12-10.48.00:916][427]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.12.12-10.48.01:344][450]Cmd: TRANSACTION UNDO
+[2018.12.12-10.48.01:344][450]LogEditorTransaction: Undo Clicking on Actors
+[2018.12.12-10.48.01:885][479]Cmd: TRANSACTION UNDO
+[2018.12.12-10.48.01:885][479]LogEditorTransaction: Undo Set Location
+[2018.12.12-10.48.02:941][542]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (RightHand_AnimBP)
+[2018.12.12-10.48.03:987][601]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.12-10.48.10:908][ 16]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (LeftHand_AnimBP)
+[2018.12.12-10.48.12:485][107]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (RightHand_AnimBP)
+[2018.12.12-10.48.14:507][224]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.12-10.48.17:946][430]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (LeftHand_AnimBP)
+[2018.12.12-10.48.19:056][493]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.12-10.48.19:139][498]LogTemp: Repeating last play command: Selected Viewport
+[2018.12.12-10.48.19:162][498]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/HomeLevel.HomeLevel:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/HomeLevel.HomeLevel:PersistentLevel.HomeLevel' with GeneratedClass '/Game/FirstPersonBP/Maps/HomeLevel.HomeLevel_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/HomeLevel.HomeLevel:PersistentLevel.HomeLevel'
+[2018.12.12-10.48.19:162][498]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.12.12-10.48.19:162][498]PIE: New page: PIE session: HomeLevel (Dec 12, 2018, 12:48:19 AM)
+[2018.12.12-10.48.19:162][498]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_HomeLevel
+[2018.12.12-10.48.19:180][498]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017699s)
+[2018.12.12-10.48.19:181][498]LogAIModule: Creating AISystem for world HomeLevel
+[2018.12.12-10.48.19:182][498]LogPlayLevel: PIE: World Init took: (0.001540s)
+[2018.12.12-10.48.19:182][498]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/HomeLevel.HomeLevel to /Game/FirstPersonBP/Maps/UEDPIE_0_HomeLevel.HomeLevel (0.019463s)
+[2018.12.12-10.48.19:225][498]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.12.12-10.48.19:249][498]LogInit: FAudioDevice initialized.
+[2018.12.12-10.48.19:283][498]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.12.12-10.48.19:287][498]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue". Blueprint:  LeftHand_AnimBP Function:  Execute Ubergraph Left Hand Anim BP Graph:  EventGraph Node:  Branch
+[2018.12.12-10.48.19:287][498]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue1". Blueprint:  LeftHand_AnimBP Function:  Execute Ubergraph Left Hand Anim BP Graph:  EventGraph Node:  Branch
+[2018.12.12-10.48.19:287][498]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue". Blueprint:  RightHand_AnimBP Function:  Execute Ubergraph Right Hand Anim BP Graph:  EventGraph Node:  Branch
+[2018.12.12-10.48.19:287][498]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue1". Blueprint:  RightHand_AnimBP Function:  Execute Ubergraph Right Hand Anim BP Graph:  EventGraph Node:  Branch
+[2018.12.12-10.48.19:287][498]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_HomeLevel.HomeLevel up for play (max tick rate 60) at 2018.12.12-05.48.19
+[2018.12.12-10.48.19:288][498]LogWorld: Bringing up level for play took: 0.003881
+[2018.12.12-10.48.19:300][498]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_HomeLevel -0.586
+[2018.12.12-10.48.19:300][498]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/HomeLevel.HomeLevel:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/HomeLevel.HomeLevel:PersistentLevel.HomeLevel' with GeneratedClass '/Game/FirstPersonBP/Maps/HomeLevel.HomeLevel_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/HomeLevel.HomeLevel:PersistentLevel.HomeLevel'
+[2018.12.12-10.48.29:873][129]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/HomeLevel.HomeLevel:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/HomeLevel.HomeLevel:PersistentLevel.HomeLevel' with GeneratedClass '/Game/FirstPersonBP/Maps/HomeLevel.HomeLevel_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/HomeLevel.HomeLevel:PersistentLevel.HomeLevel'
+[2018.12.12-10.48.29:873][129]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.12-10.48.29:913][129]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.12.12-10.48.29:913][129]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/HomeLevel.HomeLevel:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/HomeLevel.HomeLevel:PersistentLevel.HomeLevel' with GeneratedClass '/Game/FirstPersonBP/Maps/HomeLevel.HomeLevel_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/HomeLevel.HomeLevel:PersistentLevel.HomeLevel'
+[2018.12.12-10.48.29:944][129]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.12-10.48.30:015][130]LogPlayLevel: Display: Destroying online subsystem :Context_86
+[2018.12.12-10.48.31:024][180]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.12-10.48.31:412][180]LogSavePackage: Moving '../../../../../../Git Hub/TeamSadMen/TeamSadMen/Saved/HomeLevelC86B8EC44A946D10C97570A2CF758C6C.tmp' to '../../../../../../Git Hub/TeamSadMen/TeamSadMen/Content/FirstPersonBP/Maps/HomeLevel.umap'
+[2018.12.12-10.48.34:002][320]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.12-10.48.41:265][755]LogSlate: Window 'Message Log' being destroyed
+[2018.12.12-10.48.41:274][755]LogSlate: Window 'Message Log' being destroyed
+[2018.12.12-10.48.44:311][937]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.12-10.48.44:567][944]LogSlate: Window 'TeamSadMen - Unreal Editor' being destroyed
+[2018.12.12-10.48.44:942][945]Cmd: QUIT_EDITOR
+[2018.12.12-10.48.45:431][945]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.12.12-10.48.45:448][945]LogExit: Preparing to exit.
+[2018.12.12-10.48.46:143][945]LogExit: Editor shut down
+[2018.12.12-10.48.46:144][945]LogExit: Transaction tracking system shut down
+[2018.12.12-10.48.46:656][945]LogExit: Object subsystem successfully closed.
+[2018.12.12-10.48.46:682][945]LogShaderCompilers: Display: Shaders left to compile 0
+[2018.12.12-10.48.46:706][945]LogD3D11RHI: Shutdown
+[2018.12.12-10.48.46:707][945]LogD3D11RHI: CleanupD3DDevice
+[2018.12.12-10.48.46:776][945]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.12.12-10.48.46:803][945]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (628)
+[2018.12.12-10.48.46:803][945]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (626)
+[2018.12.12-10.48.46:803][945]LogModuleManager: Shutting down and abandoning module Voice (624)
+[2018.12.12-10.48.46:803][945]LogModuleManager: Shutting down and abandoning module BlueprintGraph (622)
+[2018.12.12-10.48.46:803][945]LogModuleManager: Shutting down and abandoning module AnimationBlueprintEditor (620)
+[2018.12.12-10.48.46:803][945]LogModuleManager: Shutting down and abandoning module ClothingSystemEditorInterface (618)
+[2018.12.12-10.48.46:803][945]LogModuleManager: Shutting down and abandoning module PinnedCommandList (616)
+[2018.12.12-10.48.46:803][945]LogModuleManager: Shutting down and abandoning module SkeletonEditor (614)
+[2018.12.12-10.48.46:804][945]LogModuleManager: Shutting down and abandoning module AnimationEditor (612)
+[2018.12.12-10.48.46:804][945]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (610)
+[2018.12.12-10.48.46:804][945]LogModuleManager: Shutting down and abandoning module SceneOutliner (608)
+[2018.12.12-10.48.46:804][945]LogModuleManager: Shutting down and abandoning module AddContentDialog (606)
+[2018.12.12-10.48.46:809][945]LogModuleManager: Shutting down and abandoning module WidgetCarousel (605)
+[2018.12.12-10.48.46:809][945]LogModuleManager: Shutting down and abandoning module EditorWidgets (602)
+[2018.12.12-10.48.46:809][945]LogModuleManager: Shutting down and abandoning module CollectionManager (600)
+[2018.12.12-10.48.46:809][945]LogModuleManager: Shutting down and abandoning module StatsViewer (598)
+[2018.12.12-10.48.46:809][945]LogModuleManager: Shutting down and abandoning module FoliageEdit (596)
+[2018.12.12-10.48.46:809][945]LogModuleManager: Shutting down and abandoning module LandscapeEditor (594)
+[2018.12.12-10.48.46:809][945]LogModuleManager: Shutting down and abandoning module MeshPaintMode (592)
+[2018.12.12-10.48.46:809][945]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (590)
+[2018.12.12-10.48.46:809][945]LogModuleManager: Shutting down and abandoning module ActorPickerMode (588)
+[2018.12.12-10.48.46:809][945]LogModuleManager: Shutting down and abandoning module GeometryMode (586)
+[2018.12.12-10.48.46:809][945]LogModuleManager: Shutting down and abandoning module TextureAlignMode (584)
+[2018.12.12-10.48.46:809][945]LogModuleManager: Shutting down and abandoning module BspMode (582)
+[2018.12.12-10.48.46:809][945]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (580)
+[2018.12.12-10.48.46:809][945]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (578)
+[2018.12.12-10.48.46:809][945]LogModuleManager: Shutting down and abandoning module AutomationWorker (576)
+[2018.12.12-10.48.46:809][945]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (574)
+[2018.12.12-10.48.46:809][945]LogModuleManager: Shutting down and abandoning module SequenceRecorder (573)
+[2018.12.12-10.48.46:810][945]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (570)
+[2018.12.12-10.48.46:810][945]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (568)
+[2018.12.12-10.48.46:810][945]LogModuleManager: Shutting down and abandoning module PlacementMode (567)
+[2018.12.12-10.48.46:810][945]LogModuleManager: Shutting down and abandoning module MaterialEditor (566)
+[2018.12.12-10.48.46:810][945]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (562)
+[2018.12.12-10.48.46:810][945]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (560)
+[2018.12.12-10.48.46:810][945]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (558)
+[2018.12.12-10.48.46:810][945]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (556)
+[2018.12.12-10.48.46:810][945]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (554)
+[2018.12.12-10.48.46:810][945]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (552)
+[2018.12.12-10.48.46:810][945]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (550)
+[2018.12.12-10.48.46:810][945]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (548)
+[2018.12.12-10.48.46:810][945]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (546)
+[2018.12.12-10.48.46:810][945]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (544)
+[2018.12.12-10.48.46:810][945]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (542)
+[2018.12.12-10.48.46:810][945]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (540)
+[2018.12.12-10.48.46:810][945]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (538)
+[2018.12.12-10.48.46:810][945]LogModuleManager: Shutting down and abandoning module CharacterAI (536)
+[2018.12.12-10.48.46:810][945]LogModuleManager: Shutting down and abandoning module SmartSnapping (534)
+[2018.12.12-10.48.46:810][945]LogModuleManager: Shutting down and abandoning module SessionServices (532)
+[2018.12.12-10.48.46:810][945]LogModuleManager: Shutting down and abandoning module ViewportSnapping (530)
+[2018.12.12-10.48.46:810][945]LogModuleManager: Shutting down and abandoning module ViewportInteraction (528)
+[2018.12.12-10.48.46:810][945]LogModuleManager: Shutting down and abandoning module ClothPainter (526)
+[2018.12.12-10.48.46:810][945]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (525)
+[2018.12.12-10.48.46:810][945]LogModuleManager: Shutting down and abandoning module LogVisualizer (522)
+[2018.12.12-10.48.46:810][945]LogModuleManager: Shutting down and abandoning module IntroTutorials (520)
+[2018.12.12-10.48.46:811][945]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (519)
+[2018.12.12-10.48.46:811][945]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (516)
+[2018.12.12-10.48.46:811][945]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (514)
+[2018.12.12-10.48.46:811][945]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (512)
+[2018.12.12-10.48.46:811][945]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (510)
+[2018.12.12-10.48.46:811][945]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (509)
+[2018.12.12-10.48.47:595][945]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (506)
+[2018.12.12-10.48.47:595][945]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (504)
+[2018.12.12-10.48.47:595][945]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (502)
+[2018.12.12-10.48.47:596][945]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (500)
+[2018.12.12-10.48.47:596][945]LogModuleManager: Shutting down and abandoning module InputBindingEditor (498)
+[2018.12.12-10.48.47:596][945]LogModuleManager: Shutting down and abandoning module MergeActors (496)
+[2018.12.12-10.48.47:596][945]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (494)
+[2018.12.12-10.48.47:596][945]LogModuleManager: Shutting down and abandoning module LocalizationService (493)
+[2018.12.12-10.48.47:596][945]LogModuleManager: Shutting down and abandoning module HardwareTargeting (490)
+[2018.12.12-10.48.47:596][945]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (488)
+[2018.12.12-10.48.47:596][945]LogModuleManager: Shutting down and abandoning module UndoHistory (486)
+[2018.12.12-10.48.47:596][945]LogModuleManager: Shutting down and abandoning module XmlParser (484)
+[2018.12.12-10.48.47:596][945]LogModuleManager: Shutting down and abandoning module Blutility (482)
+[2018.12.12-10.48.47:596][945]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (480)
+[2018.12.12-10.48.47:596][945]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (479)
+[2018.12.12-10.48.47:597][945]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (476)
+[2018.12.12-10.48.47:597][945]LogModuleManager: Shutting down and abandoning module SettingsEditor (474)
+[2018.12.12-10.48.47:597][945]LogModuleManager: Shutting down and abandoning module ProjectLauncher (472)
+[2018.12.12-10.48.47:597][945]LogModuleManager: Shutting down and abandoning module SessionFrontend (470)
+[2018.12.12-10.48.47:597][945]LogModuleManager: Shutting down and abandoning module ProfilerClient (468)
+[2018.12.12-10.48.47:597][945]LogModuleManager: Shutting down and abandoning module DeviceManager (466)
+[2018.12.12-10.48.47:597][945]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (465)
+[2018.12.12-10.48.47:653][945]LogModuleManager: Shutting down and abandoning module AutomationController (462)
+[2018.12.12-10.48.47:653][945]LogModuleManager: Shutting down and abandoning module AutomationWindow (460)
+[2018.12.12-10.48.47:653][945]LogModuleManager: Shutting down and abandoning module Layers (458)
+[2018.12.12-10.48.47:653][945]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (456)
+[2018.12.12-10.48.47:653][945]LogModuleManager: Shutting down and abandoning module DetailCustomizations (454)
+[2018.12.12-10.48.47:653][945]LogModuleManager: Shutting down and abandoning module PackagesDialog (452)
+[2018.12.12-10.48.47:653][945]LogModuleManager: Shutting down and abandoning module Persona (450)
+[2018.12.12-10.48.47:653][945]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (449)
+[2018.12.12-10.48.47:653][945]LogModuleManager: Shutting down and abandoning module AnimGraph (447)
+[2018.12.12-10.48.47:653][945]LogModuleManager: Shutting down and abandoning module Kismet (444)
+[2018.12.12-10.48.47:663][945]LogModuleManager: Shutting down and abandoning module GraphEditor (442)
+[2018.12.12-10.48.47:663][945]LogModuleManager: Shutting down and abandoning module ClassViewer (440)
+[2018.12.12-10.48.47:663][945]LogModuleManager: Shutting down and abandoning module Toolbox (438)
+[2018.12.12-10.48.47:663][945]LogModuleManager: Shutting down and abandoning module ModuleUI (436)
+[2018.12.12-10.48.47:663][945]LogModuleManager: Shutting down and abandoning module MovieSceneTools (434)
+[2018.12.12-10.48.47:663][945]LogModuleManager: Shutting down and abandoning module OutputLog (432)
+[2018.12.12-10.48.47:663][945]LogModuleManager: Shutting down and abandoning module GammaUI (430)
+[2018.12.12-10.48.47:663][945]LogModuleManager: Shutting down and abandoning module Documentation (428)
+[2018.12.12-10.48.47:670][945]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (426)
+[2018.12.12-10.48.47:670][945]LogModuleManager: Shutting down and abandoning module MovieScene (424)
+[2018.12.12-10.48.47:670][945]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (422)
+[2018.12.12-10.48.47:670][945]LogModuleManager: Shutting down and abandoning module LauncherPlatform (420)
+[2018.12.12-10.48.47:670][945]LogModuleManager: Shutting down and abandoning module AnalyticsET (418)
+[2018.12.12-10.48.47:670][945]LogModuleManager: Shutting down and abandoning module PortalServices (416)
+[2018.12.12-10.48.47:670][945]LogModuleManager: Shutting down and abandoning module PortalRpc (414)
+[2018.12.12-10.48.47:670][945]LogModuleManager: Shutting down and abandoning module MessagingRpc (412)
+[2018.12.12-10.48.47:670][945]LogModuleManager: Shutting down and abandoning module AIModule (410)
+[2018.12.12-10.48.47:670][945]LogModuleManager: Shutting down and abandoning module GameplayDebugger (409)
+[2018.12.12-10.48.47:670][945]LogModuleManager: Shutting down and abandoning module AITestSuite (407)
+[2018.12.12-10.48.47:670][945]LogModuleManager: Shutting down and abandoning module NavigationSystem (405)
+[2018.12.12-10.48.47:671][945]LogModuleManager: Shutting down and abandoning module DesktopPlatform (402)
+[2018.12.12-10.48.47:671][945]LogModuleManager: Shutting down and abandoning module ProfilerService (400)
+[2018.12.12-10.48.47:722][945]LogModuleManager: Shutting down and abandoning module TaskGraph (398)
+[2018.12.12-10.48.47:722][945]LogModuleManager: Shutting down and abandoning module SteamVRController (396)
+[2018.12.12-10.48.47:722][945]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (394)
+[2018.12.12-10.48.47:722][945]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (392)
+[2018.12.12-10.48.47:722][945]LogModuleManager: Shutting down and abandoning module OculusInput (390)
+[2018.12.12-10.48.47:722][945]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (388)
+[2018.12.12-10.48.47:722][945]LogModuleManager: Shutting down and abandoning module EditableMesh (386)
+[2018.12.12-10.48.47:722][945]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (384)
+[2018.12.12-10.48.47:723][945]LogModuleManager: Shutting down and abandoning module CableComponent (382)
+[2018.12.12-10.48.47:723][945]LogModuleManager: Shutting down and abandoning module AudioCapture (380)
+[2018.12.12-10.48.47:723][945]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (378)
+[2018.12.12-10.48.47:723][945]LogModuleManager: Shutting down and abandoning module AndroidPermission (376)
+[2018.12.12-10.48.47:723][945]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (374)
+[2018.12.12-10.48.47:723][945]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (372)
+[2018.12.12-10.48.47:723][945]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (370)
+[2018.12.12-10.48.47:723][945]LogModuleManager: Shutting down and abandoning module MediaCompositing (368)
+[2018.12.12-10.48.47:723][945]LogModuleManager: Shutting down and abandoning module LinearTimecode (366)
+[2018.12.12-10.48.47:723][945]LogModuleManager: Shutting down and abandoning module ImgMedia (364)
+[2018.12.12-10.48.47:727][945]LogModuleManager: Shutting down and abandoning module HTML5Networking (362)
+[2018.12.12-10.48.47:728][945]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (360)
+[2018.12.12-10.48.47:728][945]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (358)
+[2018.12.12-10.48.47:728][945]LogModuleManager: Shutting down and abandoning module BackChannel (356)
+[2018.12.12-10.48.47:728][945]LogModuleManager: Shutting down and abandoning module AppleVision (354)
+[2018.12.12-10.48.47:728][945]LogModuleManager: Shutting down and abandoning module AppleImageUtils (352)
+[2018.12.12-10.48.47:728][945]LogModuleManager: Shutting down and abandoning module AlembicImporter (350)
+[2018.12.12-10.48.47:728][945]LogModuleManager: Shutting down and abandoning module AlembicLibrary (349)
+[2018.12.12-10.48.47:728][945]LogModuleManager: Shutting down and abandoning module GeometryCache (348)
+[2018.12.12-10.48.47:728][945]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (347)
+[2018.12.12-10.48.47:728][945]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (342)
+[2018.12.12-10.48.47:728][945]LogModuleManager: Shutting down and abandoning module DatasmithContent (340)
+[2018.12.12-10.48.47:728][945]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (338)
+[2018.12.12-10.48.47:728][945]LogModuleManager: Shutting down and abandoning module PluginBrowser (336)
+[2018.12.12-10.48.47:728][945]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (334)
+[2018.12.12-10.48.47:729][945]LogModuleManager: Shutting down and abandoning module PolygonModeling (332)
+[2018.12.12-10.48.47:729][945]LogModuleManager: Shutting down and abandoning module MeshEditor (330)
+[2018.12.12-10.48.47:729][945]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (328)
+[2018.12.12-10.48.47:729][945]LogModuleManager: Shutting down and abandoning module CryptoKeys (326)
+[2018.12.12-10.48.47:729][945]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (324)
+[2018.12.12-10.48.47:729][945]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (322)
+[2018.12.12-10.48.47:729][945]LogModuleManager: Shutting down and abandoning module UObjectPlugin (320)
+[2018.12.12-10.48.47:729][945]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (318)
+[2018.12.12-10.48.47:729][945]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (316)
+[2018.12.12-10.48.47:729][945]LogModuleManager: Shutting down and abandoning module GitSourceControl (314)
+[2018.12.12-10.48.47:729][945]LogModuleManager: Shutting down and abandoning module SourceControl (313)
+[2018.12.12-10.48.47:729][945]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (310)
+[2018.12.12-10.48.47:729][945]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (308)
+[2018.12.12-10.48.47:729][945]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (306)
+[2018.12.12-10.48.47:729][945]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (304)
+[2018.12.12-10.48.47:729][945]LogModuleManager: Shutting down and abandoning module Paper2DEditor (302)
+[2018.12.12-10.48.47:729][945]LogModuleManager: Shutting down and abandoning module MeshPaint (301)
+[2018.12.12-10.48.47:729][945]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (298)
+[2018.12.12-10.48.47:729][945]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (296)
+[2018.12.12-10.48.47:729][945]LogModuleManager: Shutting down and abandoning module PhysXVehicles (294)
+[2018.12.12-10.48.47:729][945]LogModuleManager: Shutting down and abandoning module OculusEditor (292)
+[2018.12.12-10.48.47:729][945]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (290)
+[2018.12.12-10.48.47:729][945]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (288)
+[2018.12.12-10.48.47:729][945]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (286)
+[2018.12.12-10.48.47:729][945]LogModuleManager: Shutting down and abandoning module ActorSequence (284)
+[2018.12.12-10.48.47:729][945]LogModuleManager: Shutting down and abandoning module UdpMessaging (282)
+[2018.12.12-10.48.47:831][945]LogModuleManager: Shutting down and abandoning module TcpMessaging (280)
+[2018.12.12-10.48.47:931][945]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (278)
+[2018.12.12-10.48.47:931][945]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (276)
+[2018.12.12-10.48.47:931][945]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (274)
+[2018.12.12-10.48.47:931][945]LogModuleManager: Shutting down and abandoning module FacialAnimation (272)
+[2018.12.12-10.48.47:931][945]LogModuleManager: Shutting down and abandoning module DataValidation (270)
+[2018.12.12-10.48.47:931][945]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (268)
+[2018.12.12-10.48.47:931][945]LogModuleManager: Shutting down and abandoning module LevelEditor (267)
+[2018.12.12-10.48.47:932][945]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (266)
+[2018.12.12-10.48.47:932][945]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (264)
+[2018.12.12-10.48.47:933][945]LogModuleManager: Shutting down and abandoning module MainFrame (262)
+[2018.12.12-10.48.47:933][945]LogModuleManager: Shutting down and abandoning module HotReload (261)
+[2018.12.12-10.48.47:933][945]LogModuleManager: Shutting down and abandoning module ContentBrowser (257)
+[2018.12.12-10.48.47:936][945]LogModuleManager: Shutting down and abandoning module TreeMap (255)
+[2018.12.12-10.48.47:936][945]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (252)
+[2018.12.12-10.48.47:936][945]LogModuleManager: Shutting down and abandoning module AISupportModule (250)
+[2018.12.12-10.48.47:936][945]LogModuleManager: Shutting down and abandoning module Paper2D (248)
+[2018.12.12-10.48.47:936][945]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (246)
+[2018.12.12-10.48.47:936][945]LogModuleManager: Shutting down and abandoning module WmfMedia (244)
+[2018.12.12-10.48.47:938][945]LogModuleManager: Shutting down and abandoning module Media (243)
+[2018.12.12-10.48.47:945][945]LogModuleManager: Shutting down and abandoning module PacketHandler (240)
+[2018.12.12-10.48.47:945][945]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (238)
+[2018.12.12-10.48.47:945][945]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (236)
+[2018.12.12-10.48.47:945][945]LogModuleManager: Shutting down and abandoning module MediaAssets (234)
+[2018.12.12-10.48.47:945][945]LogModuleManager: Shutting down and abandoning module Overlay (232)
+[2018.12.12-10.48.47:945][945]LogModuleManager: Shutting down and abandoning module OverlayEditor (231)
+[2018.12.12-10.48.47:945][945]LogModuleManager: Shutting down and abandoning module VREditor (228)
+[2018.12.12-10.48.47:945][945]LogModuleManager: Shutting down and abandoning module StringTableEditor (226)
+[2018.12.12-10.48.47:945][945]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (224)
+[2018.12.12-10.48.47:945][945]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (222)
+[2018.12.12-10.48.47:945][945]LogModuleManager: Shutting down and abandoning module FunctionalTesting (220)
+[2018.12.12-10.48.47:945][945]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (218)
+[2018.12.12-10.48.47:945][945]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (217)
+[2018.12.12-10.48.47:945][945]LogModuleManager: Shutting down and abandoning module UMG (214)
+[2018.12.12-10.48.47:946][945]LogModuleManager: Shutting down and abandoning module UMGEditor (213)
+[2018.12.12-10.48.47:946][945]LogModuleManager: Shutting down and abandoning module Sequencer (212)
+[2018.12.12-10.48.47:946][945]LogModuleManager: Shutting down and abandoning module MessageLog (209)
+[2018.12.12-10.48.47:946][945]LogModuleManager: Shutting down and abandoning module SlateReflector (204)
+[2018.12.12-10.48.47:946][945]LogModuleManager: Shutting down and abandoning module Slate (202)
+[2018.12.12-10.48.47:946][945]LogModuleManager: Shutting down and abandoning module EditorStyle (200)
+[2018.12.12-10.48.47:948][945]LogModuleManager: Shutting down and abandoning module MRMesh (198)
+[2018.12.12-10.48.47:948][945]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (196)
+[2018.12.12-10.48.47:948][945]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (194)
+[2018.12.12-10.48.47:948][945]LogModuleManager: Shutting down and abandoning module XAudio2 (192)
+[2018.12.12-10.48.47:948][945]LogModuleManager: Shutting down and abandoning module Networking (190)
+[2018.12.12-10.48.47:948][945]LogModuleManager: Shutting down and abandoning module Core (188)
+[2018.12.12-10.48.47:948][945]LogModuleManager: Shutting down and abandoning module LevelSequence (186)
+[2018.12.12-10.48.47:948][945]LogModuleManager: Shutting down and abandoning module KismetCompiler (184)
+[2018.12.12-10.48.47:948][945]LogModuleManager: Shutting down and abandoning module MeshUtilities (182)
+[2018.12.12-10.48.47:949][945]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (181)
+[2018.12.12-10.48.47:949][945]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (180)
+[2018.12.12-10.48.47:949][945]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (179)
+[2018.12.12-10.48.47:949][945]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (177)
+[2018.12.12-10.48.47:949][945]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (175)
+[2018.12.12-10.48.47:949][945]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (173)
+[2018.12.12-10.48.47:949][945]LogModuleManager: Shutting down and abandoning module MaterialBaking (169)
+[2018.12.12-10.48.47:949][945]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (165)
+[2018.12.12-10.48.47:949][945]LogModuleManager: Shutting down and abandoning module DerivedDataCache (162)
+[2018.12.12-10.48.48:041][945]LogDerivedDataCache: Shutdown
+[2018.12.12-10.48.48:042][945]LogModuleManager: Shutting down and abandoning module XGEController (160)
+[2018.12.12-10.48.48:042][945]LogModuleManager: Shutting down and abandoning module TargetPlatform (158)
+[2018.12.12-10.48.48:042][945]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (157)
+[2018.12.12-10.48.48:042][945]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (155)
+[2018.12.12-10.48.48:042][945]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (153)
+[2018.12.12-10.48.48:042][945]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (151)
+[2018.12.12-10.48.48:042][945]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (149)
+[2018.12.12-10.48.48:042][945]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (147)
+[2018.12.12-10.48.48:042][945]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (145)
+[2018.12.12-10.48.48:042][945]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (143)
+[2018.12.12-10.48.48:042][945]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (141)
+[2018.12.12-10.48.48:042][945]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (139)
+[2018.12.12-10.48.48:042][945]LogModuleManager: Shutting down and abandoning module ImageWrapper (138)
+[2018.12.12-10.48.48:042][945]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (135)
+[2018.12.12-10.48.48:042][945]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (133)
+[2018.12.12-10.48.48:043][945]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (131)
+[2018.12.12-10.48.48:043][945]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (129)
+[2018.12.12-10.48.48:043][945]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (127)
+[2018.12.12-10.48.48:043][945]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (125)
+[2018.12.12-10.48.48:043][945]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (123)
+[2018.12.12-10.48.48:043][945]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (121)
+[2018.12.12-10.48.48:043][945]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (119)
+[2018.12.12-10.48.48:043][945]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (117)
+[2018.12.12-10.48.48:051][945]LogModuleManager: Shutting down and abandoning module Messaging (115)
+[2018.12.12-10.48.48:051][945]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (113)
+[2018.12.12-10.48.48:056][945]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (111)
+[2018.12.12-10.48.48:056][945]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (109)
+[2018.12.12-10.48.48:096][945]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (107)
+[2018.12.12-10.48.48:096][945]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (105)
+[2018.12.12-10.48.48:096][945]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (103)
+[2018.12.12-10.48.48:096][945]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (101)
+[2018.12.12-10.48.48:096][945]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (99)
+[2018.12.12-10.48.48:096][945]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (97)
+[2018.12.12-10.48.48:096][945]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (95)
+[2018.12.12-10.48.48:096][945]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (93)
+[2018.12.12-10.48.48:096][945]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (91)
+[2018.12.12-10.48.48:096][945]LogModuleManager: Shutting down and abandoning module InputCore (88)
+[2018.12.12-10.48.48:096][945]LogModuleManager: Shutting down and abandoning module Settings (86)
+[2018.12.12-10.48.48:097][945]LogModuleManager: Shutting down and abandoning module PhysXCooking (84)
+[2018.12.12-10.48.48:097][945]LogModuleManager: Shutting down and abandoning module SteamVR (82)
+[2018.12.12-10.48.48:097][945]LogModuleManager: Shutting down and abandoning module OculusHMD (80)
+[2018.12.12-10.48.48:097][945]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (78)
+[2018.12.12-10.48.48:097][945]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (76)
+[2018.12.12-10.48.48:097][945]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
+[2018.12.12-10.48.48:097][945]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (70)
+[2018.12.12-10.48.48:098][945]LogModuleManager: Shutting down and abandoning module XMPP (65)
+[2018.12.12-10.48.48:098][945]LogModuleManager: Shutting down and abandoning module WebSockets (64)
+[2018.12.12-10.48.48:127][945]LogModuleManager: Shutting down and abandoning module HTTP (61)
+[2018.12.12-10.48.48:127][945]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2018.12.12-10.48.48:127][945]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BE66E11B8-45E6-7097-C9B3-B9965F6AA1D2%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.20.3-4369336%2B%2B%2BUE4%2BRelease-4.20&UserID=324ec0084dbef8438fffe5b8f7c64b97%7C0403635c1a57492d91b01d30c7d284ff%7C08e5cffc-2cd6-4bf4-a1a1-356897907582&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.12.12-10.48.48:136][945]LogModuleManager: Shutting down and abandoning module SSL (60)
+[2018.12.12-10.48.48:138][945]LogModuleManager: Shutting down and abandoning module MagicLeapEmulator (56)
+[2018.12.12-10.48.48:138][945]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (54)
+[2018.12.12-10.48.48:138][945]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (52)
+[2018.12.12-10.48.48:138][945]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (50)
+[2018.12.12-10.48.48:138][945]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (48)
+[2018.12.12-10.48.48:138][945]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (46)
+[2018.12.12-10.48.48:138][945]LogModuleManager: Shutting down and abandoning module MagicLeapGestures (44)
+[2018.12.12-10.48.48:138][945]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (42)
+[2018.12.12-10.48.48:138][945]LogModuleManager: Shutting down and abandoning module MagicLeapController (40)
+[2018.12.12-10.48.48:139][945]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2018.12.12-10.48.48:139][945]LogModuleManager: Shutting down and abandoning module MagicLeap (38)
+[2018.12.12-10.48.48:139][945]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2018.12.12-10.48.48:139][945]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2018.12.12-10.48.48:139][945]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2018.12.12-10.48.48:139][945]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2018.12.12-10.48.48:140][945]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2018.12.12-10.48.48:140][945]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2018.12.12-10.48.48:140][945]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2018.12.12-10.48.48:143][945]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2018.12.12-10.48.48:143][945]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2018.12.12-10.48.48:143][945]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2018.12.12-10.48.48:143][945]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2018.12.12-10.48.48:143][945]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2018.12.12-10.48.48:143][945]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2018.12.12-10.48.48:143][945]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2018.12.12-10.48.48:143][945]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2018.12.12-10.48.48:143][945]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.12.12-10.48.48:143][945]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.12.12-10.48.48:143][945]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.12.12-10.48.48:152][945]LogExit: Exiting.
+[2018.12.12-10.48.48:187][945]Log file closed, 12/12/18 05:48:48
