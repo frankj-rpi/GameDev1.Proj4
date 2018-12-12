@@ -1032,3 +1032,170 @@ Please see Output Log for details.
 [2018.12.12-02.12.35:952][631]LogPlayLevel: Display: Shutting down PIE online subsystems
 [2018.12.12-02.12.35:990][631]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
 [2018.12.12-02.12.36:017][632]LogPlayLevel: Display: Destroying online subsystem :Context_24
+[2018.12.12-02.22.09:878][738]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/AlexWPizzaStuff/PizzaTester' took 0.042
+[2018.12.12-02.22.09:881][738]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Tyler/Oven_Trigger_Blueprint] ([1] browsable assets)...
+[2018.12.12-02.22.09:882][738]OBJ SavePackage: Finished generating thumbnails for package [/Game/Tyler/Oven_Trigger_Blueprint]
+[2018.12.12-02.22.09:969][738]LogSavePackage: Moving '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Saved/Oven_Trigger_Blueprint_Auto9279613734EB1F7D2F5BB4391960050D6.tmp' to '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Saved/Autosaves/Game/Tyler/Oven_Trigger_Blueprint_Auto9.uasset'
+[2018.12.12-02.22.09:975][738]LogFileHelpers: Auto-saving content packages took 0.095
+[2018.12.12-02.27.29:698][693]LogAudio: Warning: Current Audio Device with ID {0.0.0.00000000}.{3f1d5bc3-5c7d-484f-b93c-1890668ca08b} was removed. Shutting down audio device.
+[2018.12.12-02.27.29:699][693]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.12.12-02.28.44:153][597]BlueprintLog: New page: Compile Oven_Trigger_Blueprint
+[2018.12.12-02.28.45:659][668]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tyler/Oven_Trigger_Blueprint" FILE="../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Content/Tyler/Oven_Trigger_Blueprint.uasset" SILENT=true
+[2018.12.12-02.28.45:734][668]LogSavePackage: Moving '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Saved/Oven_Trigger_BlueprintF613B4624252EA8AD3459CA2DD6E3891.tmp' to '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Content/Tyler/Oven_Trigger_Blueprint.uasset'
+[2018.12.12-02.28.49:206][866]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.12.12-02.32.10:581][911]LogSavePackage: Moving '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Saved/PizzaTester_Auto0A7A8D7094738DFC3DA95EFA298BC4EDB.tmp' to '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Saved/Autosaves/Game/AlexWPizzaStuff/PizzaTester_Auto0.umap'
+[2018.12.12-02.32.10:589][911]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/AlexWPizzaStuff/PizzaTester' took 0.282
+[2018.12.12-02.32.10:589][911]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.282
+[2018.12.12-02.42.47:142][135]LogSlate: Window 'Pick Parent Class' being destroyed
+[2018.12.12-02.43.26:922][479]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/AlexWPizzaStuff/ManagerVoiceActor.ManagerVoiceActor
+[2018.12.12-02.44.25:545][921]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/AlexWPizzaStuff/PizzaTester' took 0.035
+[2018.12.12-02.44.25:548][921]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/AlexWPizzaStuff/ManagerVoiceActor] ([1] browsable assets)...
+[2018.12.12-02.44.25:548][921]OBJ SavePackage: Finished generating thumbnails for package [/Game/AlexWPizzaStuff/ManagerVoiceActor]
+[2018.12.12-02.44.25:571][921]LogSavePackage: Moving '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Saved/ManagerVoiceActor_Auto194C2ABEC456E16CC3ACFECA2E17EDE02.tmp' to '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Saved/Autosaves/Game/AlexWPizzaStuff/ManagerVoiceActor_Auto1.uasset'
+[2018.12.12-02.44.25:575][921]LogFileHelpers: Auto-saving content packages took 0.028
+[2018.12.12-02.50.15:174][375]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AlexWPizzaStuff/ManagerVoiceActor" FILE="../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Content/AlexWPizzaStuff/ManagerVoiceActor.uasset" SILENT=true
+[2018.12.12-02.50.15:206][375]LogSavePackage: Moving '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Saved/ManagerVoiceActor58241B3646CAF60C2354509133FB73C1.tmp' to '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Content/AlexWPizzaStuff/ManagerVoiceActor.uasset'
+[2018.12.12-02.52.43:694][285]LogInit: XAudio2 using 'Headphones (2- E7 Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.12.12-02.53.25:700][499]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AlexWPizzaStuff/ManagerVoiceActor" FILE="../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Content/AlexWPizzaStuff/ManagerVoiceActor.uasset" SILENT=true
+[2018.12.12-02.53.25:765][499]LogSavePackage: Moving '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Saved/ManagerVoiceActorE5E45BE34A22D5BF64B0E68AC76BE367.tmp' to '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Content/AlexWPizzaStuff/ManagerVoiceActor.uasset'
+[2018.12.12-02.57.45:757][766]LogAudio: Warning: Current Audio Device with ID {0.0.0.00000000}.{3f1d5bc3-5c7d-484f-b93c-1890668ca08b} was removed. Shutting down audio device.
+[2018.12.12-02.57.45:757][766]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.12.12-02.57.49:135][776]LogInit: XAudio2 using 'Headphones (2- E7 Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.12.12-02.58.07:928][832]LogAudio: Warning: Current Audio Device with ID {0.0.0.00000000}.{3f1d5bc3-5c7d-484f-b93c-1890668ca08b} was removed. Shutting down audio device.
+[2018.12.12-02.58.07:928][832]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.12.12-02.58.41:580][932]LogInit: XAudio2 using 'Headphones (2- E7 Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.12.12-02.58.41:921][933]LogInit: XAudio2 using 'Headphones (2- E7 Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.12.12-03.34.26:809][832]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 ../../../../../../Users/weisea3/3D Objects/are_you_sure1.wav)
+[2018.12.12-03.34.26:827][832]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 ../../../../../../Users/weisea3/3D Objects/as_long_as1.wav)
+[2018.12.12-03.34.26:841][832]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 ../../../../../../Users/weisea3/3D Objects/as_long_as2.wav)
+[2018.12.12-03.34.26:855][832]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 ../../../../../../Users/weisea3/3D Objects/gladToHaveYou1.wav)
+[2018.12.12-03.34.26:869][832]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 ../../../../../../Users/weisea3/3D Objects/hey_dont_worry1.wav)
+[2018.12.12-03.34.26:882][832]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 ../../../../../../Users/weisea3/3D Objects/hey_dont_worry2.wav)
+[2018.12.12-03.34.26:895][832]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 ../../../../../../Users/weisea3/3D Objects/how_do_you1.wav)
+[2018.12.12-03.34.26:908][832]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 ../../../../../../Users/weisea3/3D Objects/how_do_you2.wav)
+[2018.12.12-03.34.26:921][832]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 ../../../../../../Users/weisea3/3D Objects/just_move_on1.wav)
+[2018.12.12-03.34.26:934][832]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 ../../../../../../Users/weisea3/3D Objects/just_move_on2.wav)
+[2018.12.12-03.34.26:947][832]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 ../../../../../../Users/weisea3/3D Objects/just_use_the1.wav)
+[2018.12.12-03.34.26:960][832]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 ../../../../../../Users/weisea3/3D Objects/just_use_the2.wav)
+[2018.12.12-03.34.26:972][832]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 ../../../../../../Users/weisea3/3D Objects/just_what_are1.wav)
+[2018.12.12-03.34.53:392][682]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 ../../../../../../Users/weisea3/3D Objects/please_try_to1.wav)
+[2018.12.12-03.34.53:403][682]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 ../../../../../../Users/weisea3/3D Objects/please_try_to2.wav)
+[2018.12.12-03.34.53:414][682]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 ../../../../../../Users/weisea3/3D Objects/random_comment1.wav)
+[2018.12.12-03.34.53:427][682]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 ../../../../../../Users/weisea3/3D Objects/so_first-slower1.wav)
+[2018.12.12-03.34.53:441][682]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 ../../../../../../Users/weisea3/3D Objects/why_is_dif1.wav)
+[2018.12.12-03.34.53:453][682]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 ../../../../../../Users/weisea3/3D Objects/you_need_to1.wav)
+[2018.12.12-03.34.53:466][682]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 ../../../../../../Users/weisea3/3D Objects/you'll_get_the1.wav)
+[2018.12.12-03.34.53:726][683]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/AlexWPizzaStuff/PizzaTester' took 0.112
+[2018.12.12-03.34.53:729][683]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/SoundAssets/are_you_sure1] ([1] browsable assets)...
+[2018.12.12-03.34.53:735][683]OBJ SavePackage:     Rendered thumbnail for [SoundWave /Game/SoundAssets/are_you_sure1.are_you_sure1]
+[2018.12.12-03.34.53:735][683]OBJ SavePackage: Finished generating thumbnails for package [/Game/SoundAssets/are_you_sure1]
+[2018.12.12-03.34.53:755][683]LogSavePackage: Moving '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Saved/are_you_sure1_Auto243BAEA4D4564932AC688FFBE721FCB9B.tmp' to '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Saved/Autosaves/Game/SoundAssets/are_you_sure1_Auto2.uasset'
+[2018.12.12-03.34.53:761][683]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/SoundAssets/as_long_as1] ([1] browsable assets)...
+[2018.12.12-03.34.53:767][683]OBJ SavePackage:     Rendered thumbnail for [SoundWave /Game/SoundAssets/as_long_as1.as_long_as1]
+[2018.12.12-03.34.53:767][683]OBJ SavePackage: Finished generating thumbnails for package [/Game/SoundAssets/as_long_as1]
+[2018.12.12-03.34.53:786][683]LogSavePackage: Moving '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Saved/as_long_as1_Auto2B07F50B148538ECC4666DEA3E1863FA9.tmp' to '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Saved/Autosaves/Game/SoundAssets/as_long_as1_Auto2.uasset'
+[2018.12.12-03.34.53:792][683]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/SoundAssets/as_long_as2] ([1] browsable assets)...
+[2018.12.12-03.34.53:798][683]OBJ SavePackage:     Rendered thumbnail for [SoundWave /Game/SoundAssets/as_long_as2.as_long_as2]
+[2018.12.12-03.34.53:799][683]OBJ SavePackage: Finished generating thumbnails for package [/Game/SoundAssets/as_long_as2]
+[2018.12.12-03.34.53:819][683]LogSavePackage: Moving '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Saved/as_long_as2_Auto2E4B3C9E34FD5F5EDB110F5ABA53F83C1.tmp' to '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Saved/Autosaves/Game/SoundAssets/as_long_as2_Auto2.uasset'
+[2018.12.12-03.34.53:823][683]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/SoundAssets/gladToHaveYou1] ([1] browsable assets)...
+[2018.12.12-03.34.53:831][683]OBJ SavePackage:     Rendered thumbnail for [SoundWave /Game/SoundAssets/gladToHaveYou1.gladToHaveYou1]
+[2018.12.12-03.34.53:831][683]OBJ SavePackage: Finished generating thumbnails for package [/Game/SoundAssets/gladToHaveYou1]
+[2018.12.12-03.34.53:851][683]LogSavePackage: Moving '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Saved/gladToHaveYou1_Auto22AD72EBA45BD4D313125F6A5E3CD2F50.tmp' to '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Saved/Autosaves/Game/SoundAssets/gladToHaveYou1_Auto2.uasset'
+[2018.12.12-03.34.53:856][683]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/SoundAssets/hey_dont_worry1] ([1] browsable assets)...
+[2018.12.12-03.34.53:862][683]OBJ SavePackage:     Rendered thumbnail for [SoundWave /Game/SoundAssets/hey_dont_worry1.hey_dont_worry1]
+[2018.12.12-03.34.53:863][683]OBJ SavePackage: Finished generating thumbnails for package [/Game/SoundAssets/hey_dont_worry1]
+[2018.12.12-03.34.53:883][683]LogSavePackage: Moving '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Saved/hey_dont_worry1_Auto2E6C259EE48559210B175838E2F660798.tmp' to '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Saved/Autosaves/Game/SoundAssets/hey_dont_worry1_Auto2.uasset'
+[2018.12.12-03.34.53:888][683]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/SoundAssets/hey_dont_worry2] ([1] browsable assets)...
+[2018.12.12-03.34.53:895][683]OBJ SavePackage:     Rendered thumbnail for [SoundWave /Game/SoundAssets/hey_dont_worry2.hey_dont_worry2]
+[2018.12.12-03.34.53:895][683]OBJ SavePackage: Finished generating thumbnails for package [/Game/SoundAssets/hey_dont_worry2]
+[2018.12.12-03.34.53:915][683]LogSavePackage: Moving '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Saved/hey_dont_worry2_Auto2797F67D041CA040DADA8BAB1063E1F84.tmp' to '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Saved/Autosaves/Game/SoundAssets/hey_dont_worry2_Auto2.uasset'
+[2018.12.12-03.34.53:919][683]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/SoundAssets/how_do_you1] ([1] browsable assets)...
+[2018.12.12-03.34.53:926][683]OBJ SavePackage:     Rendered thumbnail for [SoundWave /Game/SoundAssets/how_do_you1.how_do_you1]
+[2018.12.12-03.34.53:926][683]OBJ SavePackage: Finished generating thumbnails for package [/Game/SoundAssets/how_do_you1]
+[2018.12.12-03.34.53:948][683]LogSavePackage: Moving '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Saved/how_do_you1_Auto2A6E5AEF24C334146C584A4BF02BAFA60.tmp' to '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Saved/Autosaves/Game/SoundAssets/how_do_you1_Auto2.uasset'
+[2018.12.12-03.34.53:953][683]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/SoundAssets/how_do_you2] ([1] browsable assets)...
+[2018.12.12-03.34.53:961][683]OBJ SavePackage:     Rendered thumbnail for [SoundWave /Game/SoundAssets/how_do_you2.how_do_you2]
+[2018.12.12-03.34.53:961][683]OBJ SavePackage: Finished generating thumbnails for package [/Game/SoundAssets/how_do_you2]
+[2018.12.12-03.34.53:979][683]LogSavePackage: Moving '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Saved/how_do_you2_Auto2A384FEC34DCFF9DDAD86D18495597AAC.tmp' to '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Saved/Autosaves/Game/SoundAssets/how_do_you2_Auto2.uasset'
+[2018.12.12-03.34.53:984][683]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/SoundAssets/just_move_on1] ([1] browsable assets)...
+[2018.12.12-03.34.53:991][683]OBJ SavePackage:     Rendered thumbnail for [SoundWave /Game/SoundAssets/just_move_on1.just_move_on1]
+[2018.12.12-03.34.53:991][683]OBJ SavePackage: Finished generating thumbnails for package [/Game/SoundAssets/just_move_on1]
+[2018.12.12-03.34.54:010][683]LogSavePackage: Moving '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Saved/just_move_on1_Auto2BF62E9624F74634F92F562B9813C7FF6.tmp' to '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Saved/Autosaves/Game/SoundAssets/just_move_on1_Auto2.uasset'
+[2018.12.12-03.34.54:016][683]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/SoundAssets/just_move_on2] ([1] browsable assets)...
+[2018.12.12-03.34.54:024][683]OBJ SavePackage:     Rendered thumbnail for [SoundWave /Game/SoundAssets/just_move_on2.just_move_on2]
+[2018.12.12-03.34.54:024][683]OBJ SavePackage: Finished generating thumbnails for package [/Game/SoundAssets/just_move_on2]
+[2018.12.12-03.34.54:043][683]LogSavePackage: Moving '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Saved/just_move_on2_Auto28D31FE9F4D36916539EA82A5B70AF901.tmp' to '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Saved/Autosaves/Game/SoundAssets/just_move_on2_Auto2.uasset'
+[2018.12.12-03.34.54:048][683]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/SoundAssets/just_use_the1] ([1] browsable assets)...
+[2018.12.12-03.34.54:055][683]OBJ SavePackage:     Rendered thumbnail for [SoundWave /Game/SoundAssets/just_use_the1.just_use_the1]
+[2018.12.12-03.34.54:055][683]OBJ SavePackage: Finished generating thumbnails for package [/Game/SoundAssets/just_use_the1]
+[2018.12.12-03.34.54:076][683]LogSavePackage: Moving '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Saved/just_use_the1_Auto2E4586F5D469FCD7C4AF90181FE538704.tmp' to '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Saved/Autosaves/Game/SoundAssets/just_use_the1_Auto2.uasset'
+[2018.12.12-03.34.54:081][683]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/SoundAssets/just_use_the2] ([1] browsable assets)...
+[2018.12.12-03.34.54:088][683]OBJ SavePackage:     Rendered thumbnail for [SoundWave /Game/SoundAssets/just_use_the2.just_use_the2]
+[2018.12.12-03.34.54:089][683]OBJ SavePackage: Finished generating thumbnails for package [/Game/SoundAssets/just_use_the2]
+[2018.12.12-03.34.54:107][683]LogSavePackage: Moving '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Saved/just_use_the2_Auto20382D55D4B3579DA1D6937B87F807935.tmp' to '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Saved/Autosaves/Game/SoundAssets/just_use_the2_Auto2.uasset'
+[2018.12.12-03.34.54:112][683]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/SoundAssets/just_what_are1] ([1] browsable assets)...
+[2018.12.12-03.34.54:118][683]OBJ SavePackage:     Rendered thumbnail for [SoundWave /Game/SoundAssets/just_what_are1.just_what_are1]
+[2018.12.12-03.34.54:118][683]OBJ SavePackage: Finished generating thumbnails for package [/Game/SoundAssets/just_what_are1]
+[2018.12.12-03.34.54:139][683]LogSavePackage: Moving '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Saved/just_what_are1_Auto21DFEB29945CB71EB07E22F945B0EC526.tmp' to '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Saved/Autosaves/Game/SoundAssets/just_what_are1_Auto2.uasset'
+[2018.12.12-03.34.54:144][683]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/SoundAssets/please_try_to1] ([1] browsable assets)...
+[2018.12.12-03.34.54:150][683]OBJ SavePackage:     Rendered thumbnail for [SoundWave /Game/SoundAssets/please_try_to1.please_try_to1]
+[2018.12.12-03.34.54:151][683]OBJ SavePackage: Finished generating thumbnails for package [/Game/SoundAssets/please_try_to1]
+[2018.12.12-03.34.54:168][683]LogSavePackage: Moving '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Saved/please_try_to1_Auto2043D712640310F0FC69FD1B6B2BDDD2F.tmp' to '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Saved/Autosaves/Game/SoundAssets/please_try_to1_Auto2.uasset'
+[2018.12.12-03.34.54:173][683]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/SoundAssets/please_try_to2] ([1] browsable assets)...
+[2018.12.12-03.34.54:180][683]OBJ SavePackage:     Rendered thumbnail for [SoundWave /Game/SoundAssets/please_try_to2.please_try_to2]
+[2018.12.12-03.34.54:180][683]OBJ SavePackage: Finished generating thumbnails for package [/Game/SoundAssets/please_try_to2]
+[2018.12.12-03.34.54:198][683]LogSavePackage: Moving '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Saved/please_try_to2_Auto23DE08F91486BB616EBE7A18958931A01.tmp' to '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Saved/Autosaves/Game/SoundAssets/please_try_to2_Auto2.uasset'
+[2018.12.12-03.34.54:204][683]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/SoundAssets/random_comment1] ([1] browsable assets)...
+[2018.12.12-03.34.54:211][683]OBJ SavePackage:     Rendered thumbnail for [SoundWave /Game/SoundAssets/random_comment1.random_comment1]
+[2018.12.12-03.34.54:211][683]OBJ SavePackage: Finished generating thumbnails for package [/Game/SoundAssets/random_comment1]
+[2018.12.12-03.34.54:228][683]LogSavePackage: Moving '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Saved/random_comment1_Auto28F33A24742B3CCAC51A5E99EB423EB2F.tmp' to '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Saved/Autosaves/Game/SoundAssets/random_comment1_Auto2.uasset'
+[2018.12.12-03.34.54:233][683]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/SoundAssets/so_first-slower1] ([1] browsable assets)...
+[2018.12.12-03.34.54:241][683]OBJ SavePackage:     Rendered thumbnail for [SoundWave /Game/SoundAssets/so_first-slower1.so_first-slower1]
+[2018.12.12-03.34.54:241][683]OBJ SavePackage: Finished generating thumbnails for package [/Game/SoundAssets/so_first-slower1]
+[2018.12.12-03.34.54:261][683]LogSavePackage: Moving '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Saved/so_first-slower1_Auto2A4AAD9F0491AD607280CAC911053548B.tmp' to '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Saved/Autosaves/Game/SoundAssets/so_first-slower1_Auto2.uasset'
+[2018.12.12-03.34.54:269][683]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/SoundAssets/why_is_dif1] ([1] browsable assets)...
+[2018.12.12-03.34.54:275][683]OBJ SavePackage:     Rendered thumbnail for [SoundWave /Game/SoundAssets/why_is_dif1.why_is_dif1]
+[2018.12.12-03.34.54:276][683]OBJ SavePackage: Finished generating thumbnails for package [/Game/SoundAssets/why_is_dif1]
+[2018.12.12-03.34.54:293][683]LogSavePackage: Moving '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Saved/why_is_dif1_Auto2B80E3F1E4A0E077393E65CBFDC1E8653.tmp' to '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Saved/Autosaves/Game/SoundAssets/why_is_dif1_Auto2.uasset'
+[2018.12.12-03.34.54:298][683]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/SoundAssets/you_need_to1] ([1] browsable assets)...
+[2018.12.12-03.34.54:304][683]OBJ SavePackage:     Rendered thumbnail for [SoundWave /Game/SoundAssets/you_need_to1.you_need_to1]
+[2018.12.12-03.34.54:305][683]OBJ SavePackage: Finished generating thumbnails for package [/Game/SoundAssets/you_need_to1]
+[2018.12.12-03.34.54:323][683]LogSavePackage: Moving '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Saved/you_need_to1_Auto2D5D5502948DEA73DAF653FB8456423E0.tmp' to '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Saved/Autosaves/Game/SoundAssets/you_need_to1_Auto2.uasset'
+[2018.12.12-03.34.54:327][683]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/SoundAssets/you_ll_get_the1] ([1] browsable assets)...
+[2018.12.12-03.34.54:334][683]OBJ SavePackage:     Rendered thumbnail for [SoundWave /Game/SoundAssets/you_ll_get_the1.you_ll_get_the1]
+[2018.12.12-03.34.54:335][683]OBJ SavePackage: Finished generating thumbnails for package [/Game/SoundAssets/you_ll_get_the1]
+[2018.12.12-03.34.54:357][683]LogSavePackage: Moving '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Saved/you_ll_get_the1_Auto2D145483D4009E2752474BD942BC1B5CC.tmp' to '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Saved/Autosaves/Game/SoundAssets/you_ll_get_the1_Auto2.uasset'
+[2018.12.12-03.34.54:362][683]LogFileHelpers: Auto-saving content packages took 0.634
+[2018.12.12-03.36.20:549][427]LogAssetEditorManager: Opening Asset editor for SoundCue /Game/SoundAssets/still_nice_Cue.still_nice_Cue
+[2018.12.12-03.37.57:772][455]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SoundAssets/still_nice_Cue" FILE="../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Content/SoundAssets/still_nice_Cue.uasset" SILENT=true
+[2018.12.12-03.37.57:790][455]LogSavePackage: Moving '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Saved/still_nice_Cue3A6B150F4BCD09D81734BAA24442EB59.tmp' to '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Content/SoundAssets/still_nice_Cue.uasset'
+[2018.12.12-03.38.32:587][ 35]LogAssetEditorManager: Opening Asset editor for SoundCue /Game/SoundAssets/you_need_to1_Cue.you_need_to1_Cue
+[2018.12.12-03.38.46:298][832]LogMetaData: Removing '/Game/SoundAssets/angrier_Cue.angrier_Cue:SoundCueGraph_0.SoundCueGraphNode_Root_0' ref from Metadata '/Game/SoundAssets/you_need_to1_Cue.PackageMetaData'
+[2018.12.12-03.38.46:339][832]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SoundAssets/angrier_Cue" FILE="../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Content/SoundAssets/angrier_Cue.uasset" SILENT=true
+[2018.12.12-03.38.46:356][832]LogSavePackage: Moving '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Saved/angrier_Cue9336AA4648F463A82A0385861942E207.tmp' to '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Content/SoundAssets/angrier_Cue.uasset'
+[2018.12.12-03.38.49:517][986]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave you_need_to1...
+[2018.12.12-03.38.49:517][986]LogTemp: Couldn't find amount to resample to.
+[2018.12.12-03.38.49:548][986]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 182890 while cooking SoundWave /Game/SoundAssets/you_need_to1.you_need_to1.
+[2018.12.12-03.38.50:727][ 56]LogAssetEditorManager: Opening Asset editor for SoundCue /Game/SoundAssets/angrier_Cue.angrier_Cue
+[2018.12.12-03.40.24:919][976]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SoundAssets/angrier_Cue" FILE="../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Content/SoundAssets/angrier_Cue.uasset" SILENT=true
+[2018.12.12-03.40.24:957][976]LogSavePackage: Moving '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Saved/angrier_Cue7659FA304138F7A835FF719A220FB86D.tmp' to '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Content/SoundAssets/angrier_Cue.uasset'
+[2018.12.12-03.40.26:283][ 53]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SoundAssets/angrier_Cue" FILE="../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Content/SoundAssets/angrier_Cue.uasset" SILENT=true
+[2018.12.12-03.40.26:312][ 53]LogSavePackage: Moving '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Saved/angrier_Cue8ED74454486B54FF3A83AFB0B0323B78.tmp' to '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Content/SoundAssets/angrier_Cue.uasset'
+[2018.12.12-03.42.46:105][271]LogAssetEditorManager: Opening Asset editor for SoundCue /Game/SoundAssets/angry_Cue.angry_Cue
+[2018.12.12-03.42.58:896][ 24]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave are_you_sure1...
+[2018.12.12-03.42.58:896][ 24]LogTemp: Couldn't find amount to resample to.
+[2018.12.12-03.42.58:922][ 24]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 203926 while cooking SoundWave /Game/SoundAssets/are_you_sure1.are_you_sure1.
+[2018.12.12-03.44.33:944][ 44]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SoundAssets/angry_Cue" FILE="../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Content/SoundAssets/angry_Cue.uasset" SILENT=true
+[2018.12.12-03.44.33:966][ 44]LogSavePackage: Moving '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Saved/angry_CueE367ADD84A154DB6E175D1BD72D6D9CB.tmp' to '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Content/SoundAssets/angry_Cue.uasset'
+[2018.12.12-03.44.34:982][103]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SoundAssets/angry_Cue" FILE="../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Content/SoundAssets/angry_Cue.uasset" SILENT=true
+[2018.12.12-03.44.35:023][103]LogSavePackage: Moving '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Saved/angry_CueDFB1350E44E1A14D18AF3BBE621CCC15.tmp' to '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Content/SoundAssets/angry_Cue.uasset'
+[2018.12.12-03.44.52:869][169]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AlexWPizzaStuff/ManagerVoiceActor" FILE="../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Content/AlexWPizzaStuff/ManagerVoiceActor.uasset" SILENT=true
+[2018.12.12-03.44.52:925][169]LogSavePackage: Moving '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Saved/ManagerVoiceActorE880E1C747DED9F2B8E5C2A5D93DF073.tmp' to '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Content/AlexWPizzaStuff/ManagerVoiceActor.uasset'
+[2018.12.12-03.44.55:939][345]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AlexWPizzaStuff/ManagerVoiceActor" FILE="../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Content/AlexWPizzaStuff/ManagerVoiceActor.uasset" SILENT=true
+[2018.12.12-03.44.55:981][345]LogSavePackage: Moving '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Saved/ManagerVoiceActorDB351EA34E7A02B796C861A812D68F64.tmp' to '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Content/AlexWPizzaStuff/ManagerVoiceActor.uasset'
+[2018.12.12-03.44.58:405][485]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AlexWPizzaStuff/ManagerVoiceActor" FILE="../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Content/AlexWPizzaStuff/ManagerVoiceActor.uasset" SILENT=true
+[2018.12.12-03.44.58:447][485]LogSavePackage: Moving '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Saved/ManagerVoiceActor0883AC16468E194AC02344B85430FE3C.tmp' to '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Content/AlexWPizzaStuff/ManagerVoiceActor.uasset'
+[2018.12.12-03.45.39:704][924]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AlexWPizzaStuff/ManagerVoiceActor" FILE="../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Content/AlexWPizzaStuff/ManagerVoiceActor.uasset" SILENT=true
+[2018.12.12-03.45.39:751][924]LogSavePackage: Moving '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Saved/ManagerVoiceActorD4216AF949DC2EE83791AF91D7A2DB5D.tmp' to '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Content/AlexWPizzaStuff/ManagerVoiceActor.uasset'
+[2018.12.12-03.45.42:096][ 64]BlueprintLog: New page: Compile ManagerVoiceActor
