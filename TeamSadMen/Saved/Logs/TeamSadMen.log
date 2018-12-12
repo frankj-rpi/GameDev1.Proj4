@@ -1262,3 +1262,602 @@ LogInit: Object subsystem initialized
 [2018.12.12-09.49.53:426][250]LogPlayLevel: Display: Shutting down PIE online subsystems
 [2018.12.12-09.49.53:426][250]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace' with GeneratedClass '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace'
 [2018.12.12-09.49.53:532][251]LogPlayLevel: Display: Destroying online subsystem :Context_73
+[2018.12.12-09.50.56:816][536]LogSlate: Took 0.000189 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2018.12.12-09.51.00:917][772]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.12.12-09.51.02:347][852]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.12.12-09.51.03:490][916]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.12.12-09.51.04:617][979]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.12.12-09.51.09:723][273]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tyler/Pizza_Blueprint" FILE="../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Content/Tyler/Pizza_Blueprint.uasset" SILENT=true
+[2018.12.12-09.51.09:809][273]LogSavePackage: Moving '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Saved/Pizza_Blueprint6C5FC0554A87988A99ECCE9F70E38412.tmp' to '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Content/Tyler/Pizza_Blueprint.uasset'
+[2018.12.12-09.51.11:315][361]BlueprintLog: New page: Compile Pizza_Blueprint
+[2018.12.12-09.51.12:126][388]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tyler/Pizza_Blueprint" FILE="../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Content/Tyler/Pizza_Blueprint.uasset" SILENT=true
+[2018.12.12-09.51.12:196][388]LogSavePackage: Moving '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Saved/Pizza_Blueprint7A8BFECE44B0D9C9F882B0B7EC1216A9.tmp' to '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Content/Tyler/Pizza_Blueprint.uasset'
+[2018.12.12-09.51.13:689][477]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.12.12-09.51.13:728][477]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace' with GeneratedClass '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace'
+[2018.12.12-09.51.13:729][477]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.12.12-09.51.13:729][477]PIE: New page: PIE session: PizzaPlace (Dec 11, 2018, 11:51:13 PM)
+[2018.12.12-09.51.13:729][477]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_PizzaPlace
+[2018.12.12-09.51.13:761][477]LogPlayLevel: PIE: StaticDuplicateObject took: (0.031385s)
+[2018.12.12-09.51.13:762][477]LogAIModule: Creating AISystem for world PizzaPlace
+[2018.12.12-09.51.13:763][477]LogPlayLevel: PIE: World Init took: (0.001201s)
+[2018.12.12-09.51.13:763][477]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace to /Game/FirstPersonBP/Maps/UEDPIE_0_PizzaPlace.PizzaPlace (0.033708s)
+[2018.12.12-09.51.13:812][477]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.12.12-09.51.13:839][477]LogInit: FAudioDevice initialized.
+[2018.12.12-09.51.13:849][477]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.12-09.51.14:000][477]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.12.12-09.51.14:007][477]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_PizzaPlace.PizzaPlace up for play (max tick rate 60) at 2018.12.12-04.51.14
+[2018.12.12-09.51.14:008][477]LogWorld: Bringing up level for play took: 0.007131
+[2018.12.12-09.51.14:027][477]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_PizzaPlace -0.175
+[2018.12.12-09.51.14:028][477]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace' with GeneratedClass '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace'
+[2018.12.12-09.51.20:122][654]LogBlueprintUserMessages: [Pizza_Blueprint_2] Marinara
+[2018.12.12-09.51.23:840][763]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace' with GeneratedClass '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace'
+[2018.12.12-09.51.23:841][763]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.12-09.51.23:874][763]LogSlate: Window 'TeamSadMen Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.12.12-09.51.23:916][763]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.12.12-09.51.23:917][763]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace' with GeneratedClass '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace'
+[2018.12.12-09.51.24:012][764]LogPlayLevel: Display: Destroying online subsystem :Context_74
+[2018.12.12-09.51.29:263][ 69]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tyler/Pizza_Blueprint" FILE="../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Content/Tyler/Pizza_Blueprint.uasset" SILENT=true
+[2018.12.12-09.51.29:337][ 69]LogSavePackage: Moving '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Saved/Pizza_BlueprintF7B432B0448778C48EFAC2BA667FF3B7.tmp' to '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Content/Tyler/Pizza_Blueprint.uasset'
+[2018.12.12-09.51.30:641][145]BlueprintLog: New page: Compile Pizza_Blueprint
+[2018.12.12-09.51.31:322][165]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tyler/Pizza_Blueprint" FILE="../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Content/Tyler/Pizza_Blueprint.uasset" SILENT=true
+[2018.12.12-09.51.31:390][165]LogSavePackage: Moving '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Saved/Pizza_BlueprintD29259714EB69B2EA144BAB16B3FA16D.tmp' to '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Content/Tyler/Pizza_Blueprint.uasset'
+[2018.12.12-09.51.38:295][579]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.12.12-09.51.38:335][579]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace' with GeneratedClass '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace'
+[2018.12.12-09.51.38:336][579]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.12.12-09.51.38:336][579]PIE: New page: PIE session: PizzaPlace (Dec 11, 2018, 11:51:38 PM)
+[2018.12.12-09.51.38:336][579]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_PizzaPlace
+[2018.12.12-09.51.38:364][579]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027812s)
+[2018.12.12-09.51.38:366][579]LogAIModule: Creating AISystem for world PizzaPlace
+[2018.12.12-09.51.38:367][579]LogPlayLevel: PIE: World Init took: (0.002349s)
+[2018.12.12-09.51.38:367][579]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace to /Game/FirstPersonBP/Maps/UEDPIE_0_PizzaPlace.PizzaPlace (0.031082s)
+[2018.12.12-09.51.38:412][579]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.12.12-09.51.38:442][579]LogInit: FAudioDevice initialized.
+[2018.12.12-09.51.38:454][579]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.12-09.51.38:541][579]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.12.12-09.51.38:548][579]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_PizzaPlace.PizzaPlace up for play (max tick rate 60) at 2018.12.12-04.51.38
+[2018.12.12-09.51.38:549][579]LogWorld: Bringing up level for play took: 0.007055
+[2018.12.12-09.51.38:565][579]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_PizzaPlace 0.363
+[2018.12.12-09.51.38:566][579]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace' with GeneratedClass '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace'
+[2018.12.12-09.51.44:083][736]LogBlueprintUserMessages: [Pizza_Blueprint_2] RedPesto
+[2018.12.12-09.51.49:318][893]LogBlueprintUserMessages: [Pizza_Blueprint_2] RedPesto
+[2018.12.12-09.51.49:319][893]LogBlueprintUserMessages: [Pizza_Blueprint_2] Marinara
+[2018.12.12-09.51.53:525][ 19]LogBlueprintUserMessages: [Pizza_Blueprint_2] RedPesto
+[2018.12.12-09.51.53:525][ 19]LogBlueprintUserMessages: [Pizza_Blueprint_2] Marinara
+[2018.12.12-09.51.53:525][ 19]LogBlueprintUserMessages: [Pizza_Blueprint_2] Pepperoni
+[2018.12.12-09.51.56:891][120]LogBlueprintUserMessages: [Pizza_Blueprint_2] RedPesto
+[2018.12.12-09.51.56:892][120]LogBlueprintUserMessages: [Pizza_Blueprint_2] Marinara
+[2018.12.12-09.51.56:892][120]LogBlueprintUserMessages: [Pizza_Blueprint_2] Pepperoni
+[2018.12.12-09.51.56:892][120]LogBlueprintUserMessages: [Pizza_Blueprint_2] GreenPesto
+[2018.12.12-09.52.01:716][265]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace' with GeneratedClass '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace'
+[2018.12.12-09.52.01:717][265]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.12-09.52.01:750][265]LogSlate: Window 'TeamSadMen Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.12.12-09.52.01:796][265]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.12.12-09.52.01:797][265]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace' with GeneratedClass '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace'
+[2018.12.12-09.52.01:894][266]LogPlayLevel: Display: Destroying online subsystem :Context_75
+[2018.12.12-09.52.07:380][578]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/ToppingModels/Green_Pesto_on_pizza_model.Green_Pesto_on_pizza_model
+[2018.12.12-09.52.20:242][323]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.12-09.52.22:442][443]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/ToppingModels/Marinara_on_pizza_model.Marinara_on_pizza_model
+[2018.12.12-09.52.30:833][920]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.12-09.52.36:671][264]LogSavePackage: Moving '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Saved/Green_Pesto_on_pizza_model899BB2B94175851253C81D81DAAD3B9D.tmp' to '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Content/ToppingModels/Green_Pesto_on_pizza_model.uasset'
+[2018.12.12-09.52.45:103][762]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/ToppingModels/Red_Pesto_on_pizza_model.Red_Pesto_on_pizza_model
+[2018.12.12-09.52.51:998][149]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.12-09.52.55:436][322]LogSavePackage: Moving '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Saved/PizzaPlaceE7CDE88A4D26E84D340C02BE98C497E6.tmp' to '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Content/FirstPersonBP/Maps/PizzaPlace.umap'
+[2018.12.12-09.52.57:169][419]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.12.12-09.52.57:199][419]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace' with GeneratedClass '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace'
+[2018.12.12-09.52.57:199][419]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.12.12-09.52.57:202][419]LogPlayLevel: [PlayLevel] Compiling Green_Pesto_on_pizza_model before play...
+[2018.12.12-09.52.57:387][419]LogPlayLevel: PlayLevel: Blueprint regeneration took 186 ms (1 blueprints)
+[2018.12.12-09.52.57:387][419]PIE: New page: PIE session: PizzaPlace (Dec 11, 2018, 11:52:57 PM)
+[2018.12.12-09.52.57:388][419]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_PizzaPlace
+[2018.12.12-09.52.57:418][419]LogPlayLevel: PIE: StaticDuplicateObject took: (0.030466s)
+[2018.12.12-09.52.57:419][419]LogAIModule: Creating AISystem for world PizzaPlace
+[2018.12.12-09.52.57:419][419]LogPlayLevel: PIE: World Init took: (0.001396s)
+[2018.12.12-09.52.57:420][419]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace to /Game/FirstPersonBP/Maps/UEDPIE_0_PizzaPlace.PizzaPlace (0.032918s)
+[2018.12.12-09.52.57:469][419]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.12.12-09.52.57:503][419]LogInit: FAudioDevice initialized.
+[2018.12.12-09.52.57:514][419]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.12-09.52.57:676][419]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.12.12-09.52.57:684][419]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_PizzaPlace.PizzaPlace up for play (max tick rate 60) at 2018.12.12-04.52.57
+[2018.12.12-09.52.57:684][419]LogWorld: Bringing up level for play took: 0.006619
+[2018.12.12-09.52.57:701][419]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_PizzaPlace 1.499
+[2018.12.12-09.52.57:702][419]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace' with GeneratedClass '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace'
+[2018.12.12-09.53.03:276][577]LogBlueprintUserMessages: [Pizza_Blueprint_2] Marinara
+[2018.12.12-09.53.06:912][686]LogBlueprintUserMessages: [Pizza_Blueprint_2] Marinara
+[2018.12.12-09.53.06:913][686]LogBlueprintUserMessages: [Pizza_Blueprint_2] GreenPesto
+[2018.12.12-09.53.08:303][728]LogBlueprintUserMessages: [Pizza_Blueprint_2] Marinara
+[2018.12.12-09.53.08:303][728]LogBlueprintUserMessages: [Pizza_Blueprint_2] GreenPesto
+[2018.12.12-09.53.08:303][728]LogBlueprintUserMessages: [Pizza_Blueprint_2] RedPesto
+[2018.12.12-09.53.13:264][874]LogBlueprintUserMessages: [Pizza_Blueprint_2] Marinara
+[2018.12.12-09.53.13:264][874]LogBlueprintUserMessages: [Pizza_Blueprint_2] GreenPesto
+[2018.12.12-09.53.13:264][874]LogBlueprintUserMessages: [Pizza_Blueprint_2] RedPesto
+[2018.12.12-09.53.13:264][874]LogBlueprintUserMessages: [Pizza_Blueprint_2] Cheese
+[2018.12.12-09.53.17:681][  2]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_BreakHitResult_HitActor". Blueprint:  FirstPersonCharacter Function:  Execute Ubergraph First Person Character Graph:  EventGraph Node:  Branch
+[2018.12.12-09.53.17:682][  2]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_BreakHitResult_HitActor". Blueprint:  FirstPersonCharacter Function:  Execute Ubergraph First Person Character Graph:  EventGraph Node:  Branch
+[2018.12.12-09.53.17:682][  2]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_BreakHitResult_HitActor". Blueprint:  FirstPersonCharacter Function:  Execute Ubergraph First Person Character Graph:  EventGraph Node:  Branch
+[2018.12.12-09.53.23:386][166]LogBlueprintUserMessages: [Pizza_Blueprint_2] Marinara
+[2018.12.12-09.53.23:386][166]LogBlueprintUserMessages: [Pizza_Blueprint_2] GreenPesto
+[2018.12.12-09.53.23:386][166]LogBlueprintUserMessages: [Pizza_Blueprint_2] RedPesto
+[2018.12.12-09.53.23:387][166]LogBlueprintUserMessages: [Pizza_Blueprint_2] Cheese
+[2018.12.12-09.53.23:387][166]LogBlueprintUserMessages: [Pizza_Blueprint_2] Pepperoni
+[2018.12.12-09.53.29:100][330]LogBlueprintUserMessages: [Pizza_Blueprint_2] Marinara
+[2018.12.12-09.53.29:101][330]LogBlueprintUserMessages: [Pizza_Blueprint_2] GreenPesto
+[2018.12.12-09.53.29:101][330]LogBlueprintUserMessages: [Pizza_Blueprint_2] RedPesto
+[2018.12.12-09.53.29:101][330]LogBlueprintUserMessages: [Pizza_Blueprint_2] Cheese
+[2018.12.12-09.53.29:101][330]LogBlueprintUserMessages: [Pizza_Blueprint_2] Pepperoni
+[2018.12.12-09.53.29:101][330]LogBlueprintUserMessages: [Pizza_Blueprint_2] Pineapple
+[2018.12.12-09.53.30:984][385]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Tags' of length 0 in '/Script/Engine.Actor'!
+[2018.12.12-09.53.30:985][385]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Tags' of length 0 in '/Script/Engine.Actor'!
+[2018.12.12-09.53.30:985][385]LogBlueprintUserMessages: [Pizza_Blueprint_2] None
+[2018.12.12-09.53.33:610][459]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace' with GeneratedClass '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace'
+[2018.12.12-09.53.33:611][459]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.12-09.53.33:643][459]LogSlate: Window 'TeamSadMen Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.12.12-09.53.33:697][459]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.12.12-09.53.33:698][459]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace' with GeneratedClass '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace'
+[2018.12.12-09.53.33:773][460]LogPlayLevel: Display: Destroying online subsystem :Context_79
+[2018.12.12-09.53.40:427][843]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/ToppingModels/Pineapple_on_pizza_model.Pineapple_on_pizza_model
+[2018.12.12-09.53.55:284][711]BlueprintLog: New page: Compile Pineapple_on_pizza_model
+[2018.12.12-09.53.56:709][774]LogSavePackage: Moving '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Saved/Pineapple_on_pizza_modelB7B0E80247165107C1A42E962483D8A7.tmp' to '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Content/ToppingModels/Pineapple_on_pizza_model.uasset'
+[2018.12.12-09.55.29:151][876]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.12.12-09.55.29:187][876]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace' with GeneratedClass '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace'
+[2018.12.12-09.55.29:188][876]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.12.12-09.55.29:188][876]PIE: New page: PIE session: PizzaPlace (Dec 11, 2018, 11:55:29 PM)
+[2018.12.12-09.55.29:189][876]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_PizzaPlace
+[2018.12.12-09.55.29:226][876]LogPlayLevel: PIE: StaticDuplicateObject took: (0.036628s)
+[2018.12.12-09.55.29:227][876]LogAIModule: Creating AISystem for world PizzaPlace
+[2018.12.12-09.55.29:228][876]LogPlayLevel: PIE: World Init took: (0.002355s)
+[2018.12.12-09.55.29:229][876]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace to /Game/FirstPersonBP/Maps/UEDPIE_0_PizzaPlace.PizzaPlace (0.039885s)
+[2018.12.12-09.55.29:284][876]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.12.12-09.55.29:314][876]LogInit: FAudioDevice initialized.
+[2018.12.12-09.55.29:325][876]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.12-09.55.29:414][876]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.12.12-09.55.29:422][876]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_PizzaPlace.PizzaPlace up for play (max tick rate 60) at 2018.12.12-04.55.29
+[2018.12.12-09.55.29:423][876]LogWorld: Bringing up level for play took: 0.008121
+[2018.12.12-09.55.29:443][876]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_PizzaPlace 1.241
+[2018.12.12-09.55.29:443][876]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace' with GeneratedClass '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace'
+[2018.12.12-09.55.38:543][139]LogBlueprintUserMessages: [Pizza_Blueprint_2] Marinara
+[2018.12.12-09.55.41:481][225]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_BreakHitResult_HitActor". Blueprint:  FirstPersonCharacter Function:  Execute Ubergraph First Person Character Graph:  EventGraph Node:  Branch
+[2018.12.12-09.55.41:481][225]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_BreakHitResult_HitActor". Blueprint:  FirstPersonCharacter Function:  Execute Ubergraph First Person Character Graph:  EventGraph Node:  Branch
+[2018.12.12-09.55.41:482][225]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_BreakHitResult_HitActor". Blueprint:  FirstPersonCharacter Function:  Execute Ubergraph First Person Character Graph:  EventGraph Node:  Branch
+[2018.12.12-09.55.42:137][244]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_BreakHitResult_HitActor". Blueprint:  FirstPersonCharacter Function:  Execute Ubergraph First Person Character Graph:  EventGraph Node:  Branch
+[2018.12.12-09.55.42:137][244]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_BreakHitResult_HitActor". Blueprint:  FirstPersonCharacter Function:  Execute Ubergraph First Person Character Graph:  EventGraph Node:  Branch
+[2018.12.12-09.55.42:138][244]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_BreakHitResult_HitActor". Blueprint:  FirstPersonCharacter Function:  Execute Ubergraph First Person Character Graph:  EventGraph Node:  Branch
+[2018.12.12-09.55.43:501][284]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_BreakHitResult_HitActor". Blueprint:  FirstPersonCharacter Function:  Execute Ubergraph First Person Character Graph:  EventGraph Node:  Branch
+[2018.12.12-09.55.43:501][284]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_BreakHitResult_HitActor". Blueprint:  FirstPersonCharacter Function:  Execute Ubergraph First Person Character Graph:  EventGraph Node:  Branch
+[2018.12.12-09.55.43:502][284]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_BreakHitResult_HitActor". Blueprint:  FirstPersonCharacter Function:  Execute Ubergraph First Person Character Graph:  EventGraph Node:  Branch
+[2018.12.12-09.55.49:399][460]LogBlueprintUserMessages: [Pizza_Blueprint_2] Marinara
+[2018.12.12-09.55.49:400][460]LogBlueprintUserMessages: [Pizza_Blueprint_2] Cheese
+[2018.12.12-09.55.54:286][604]LogBlueprintUserMessages: [Pizza_Blueprint_2] Marinara
+[2018.12.12-09.55.54:286][604]LogBlueprintUserMessages: [Pizza_Blueprint_2] Cheese
+[2018.12.12-09.55.54:286][604]LogBlueprintUserMessages: [Pizza_Blueprint_2] Tomato
+[2018.12.12-09.55.57:714][706]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Tags' of length 0 in '/Script/Engine.Actor'!
+[2018.12.12-09.55.57:715][706]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Tags' of length 0 in '/Script/Engine.Actor'!
+[2018.12.12-09.55.57:715][706]LogBlueprintUserMessages: [Pizza_Blueprint_2] None
+[2018.12.12-09.55.57:715][706]LogScript: Warning: Accessed None trying to read property Pizza
+	Oven_Trigger_Blueprint_C /Game/FirstPersonBP/Maps/UEDPIE_0_PizzaPlace.PizzaPlace:PersistentLevel.Oven_Trigger_Blueprint_2
+	Function /Game/Tyler/Oven_Trigger_Blueprint.Oven_Trigger_Blueprint_C:ExecuteUbergraph_Oven_Trigger_Blueprint:013D
+[2018.12.12-09.55.57:716][706]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Pizza". Blueprint:  Oven_Trigger_Blueprint Function:  Execute Ubergraph Oven Trigger Blueprint Graph:  EventGraph Node:  Branch
+[2018.12.12-09.55.57:716][706]LogScript: Warning: Accessed None trying to read property Pizza
+	Oven_Trigger_Blueprint_C /Game/FirstPersonBP/Maps/UEDPIE_0_PizzaPlace.PizzaPlace:PersistentLevel.Oven_Trigger_Blueprint_2
+	Function /Game/Tyler/Oven_Trigger_Blueprint.Oven_Trigger_Blueprint_C:ExecuteUbergraph_Oven_Trigger_Blueprint:01F3
+[2018.12.12-09.55.57:717][706]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Pizza". Blueprint:  Oven_Trigger_Blueprint Function:  Execute Ubergraph Oven Trigger Blueprint Graph:  EventGraph Node:  Set isPartiallyCooked
+[2018.12.12-09.55.57:812][709]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Tags' of length 0 in '/Script/Engine.Actor'!
+[2018.12.12-09.55.57:812][709]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Tags' of length 0 in '/Script/Engine.Actor'!
+[2018.12.12-09.55.57:812][709]LogBlueprintUserMessages: [Pizza_Blueprint_2] None
+[2018.12.12-09.55.57:876][711]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Tags' of length 0 in '/Script/Engine.Actor'!
+[2018.12.12-09.55.57:877][711]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Tags' of length 0 in '/Script/Engine.Actor'!
+[2018.12.12-09.55.57:877][711]LogBlueprintUserMessages: [Pizza_Blueprint_2] None
+[2018.12.12-09.55.57:909][712]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Tags' of length 0 in '/Script/Engine.Actor'!
+[2018.12.12-09.55.57:909][712]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Tags' of length 0 in '/Script/Engine.Actor'!
+[2018.12.12-09.55.57:909][712]LogBlueprintUserMessages: [Pizza_Blueprint_2] None
+[2018.12.12-09.56.07:725][  8]LogScript: Warning: Accessed None trying to read property Pizza
+	Oven_Trigger_Blueprint_C /Game/FirstPersonBP/Maps/UEDPIE_0_PizzaPlace.PizzaPlace:PersistentLevel.Oven_Trigger_Blueprint_2
+	Function /Game/Tyler/Oven_Trigger_Blueprint.Oven_Trigger_Blueprint_C:SetCooked:000E
+[2018.12.12-09.56.07:727][  8]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Pizza". Blueprint:  Oven_Trigger_Blueprint Function:  Set Cooked Graph:  SetCooked Node:  Set isCooked
+[2018.12.12-09.56.07:727][  8]LogBlueprintUserMessages: [Oven_Trigger_Blueprint_2] Pizza is Cooked
+[2018.12.12-09.56.15:026][226]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Tags' of length 0 in '/Script/Engine.Actor'!
+[2018.12.12-09.56.15:026][226]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Tags' of length 0 in '/Script/Engine.Actor'!
+[2018.12.12-09.56.15:027][226]LogBlueprintUserMessages: [Pizza_Blueprint_2] None
+[2018.12.12-09.56.15:062][227]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Tags' of length 0 in '/Script/Engine.Actor'!
+[2018.12.12-09.56.15:062][227]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Tags' of length 0 in '/Script/Engine.Actor'!
+[2018.12.12-09.56.15:063][227]LogBlueprintUserMessages: [Pizza_Blueprint_2] None
+[2018.12.12-09.56.15:353][235]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Tags' of length 0 in '/Script/Engine.Actor'!
+[2018.12.12-09.56.15:354][235]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Tags' of length 0 in '/Script/Engine.Actor'!
+[2018.12.12-09.56.15:354][235]LogBlueprintUserMessages: [Pizza_Blueprint_2] None
+[2018.12.12-09.56.15:354][235]LogScript: Warning: Accessed None trying to read property Player
+	CheckOrderCorrectness_C /Game/FirstPersonBP/Maps/UEDPIE_0_PizzaPlace.PizzaPlace:PersistentLevel.CheckOrderCorrectness_2
+	Function /Game/AlexWPizzaStuff/CheckOrderCorrectness.CheckOrderCorrectness_C:ExecuteUbergraph_CheckOrderCorrectness:0B0C
+[2018.12.12-09.56.15:355][235]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Player". Blueprint:  CheckOrderCorrectness Function:  Execute Ubergraph Check Order Correctness Graph:  EventGraph Node:  Set pizzaNull
+[2018.12.12-09.56.15:355][235]LogBlueprintUserMessages: [CheckOrderCorrectness_2] pizza isn't cooked
+[2018.12.12-09.56.21:216][396]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace' with GeneratedClass '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace'
+[2018.12.12-09.56.21:217][396]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.12-09.56.21:252][396]LogSlate: Window 'TeamSadMen Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.12.12-09.56.21:304][396]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.12.12-09.56.21:304][396]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace' with GeneratedClass '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace'
+[2018.12.12-09.56.21:384][397]LogPlayLevel: Display: Destroying online subsystem :Context_81
+[2018.12.12-09.57.53:700][915]LogEditorViewport: Clicking on Actor (LMB): Pizza_Blueprint_C (Pizza_Blueprint)
+[2018.12.12-09.58.37:899][ 41]LogEditorViewport: Clicking on Actor (LMB): dough_Blueprint_C (dough_Blueprint)
+[2018.12.12-09.58.39:835][147]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.12-09.58.40:014][157]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/ToppingBlueprints/dough_Blueprint.dough_Blueprint
+[2018.12.12-09.59.01:568][418]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Dough_Detection_Trigger_Blueprint.Dough_Detection_Trigger_Blueprint
+[2018.12.12-10.00.18:686][979]LogTexture: Display: Building textures: pizza_lambert1_OcclusionRoughnessMetallic (AutoDXT, 1024X1024)
+[2018.12.12-10.00.18:687][979]LogTexture: Display: Building textures: pizza_lambert1_BaseColor (AutoDXT, 1024X1024)
+[2018.12.12-10.00.18:687][979]LogTexture: Display: Building textures: pizza_lambert1_Normal (BC5, 1024X1024)
+[2018.12.12-10.00.18:687][979]LogMaterial: Display: Missing cached shader map for material CookedPizzaMaterial, compiling. 
+[2018.12.12-10.00.18:773][980]LogShaderCompilers: Display: Shaders left to compile 22
+[2018.12.12-10.00.18:773][980]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.12.12-10.00.18:773][980]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.12.12-10.00.20:593][ 87]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tyler/Pizza_Blueprint" FILE="../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Content/Tyler/Pizza_Blueprint.uasset" SILENT=true
+[2018.12.12-10.00.20:683][ 87]LogSavePackage: Moving '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Saved/Pizza_Blueprint6E845A1F4ABEBB1B0539FB99511EF95F.tmp' to '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Content/Tyler/Pizza_Blueprint.uasset'
+[2018.12.12-10.00.39:937][213]LogTexture: Display: Building textures: pizza_lambert1_BaseColor (AutoDXT, 1024X1024)
+[2018.12.12-10.00.39:938][213]LogTexture: Display: Building textures: pizza_lambert1_OcclusionRoughnessMetallic (AutoDXT, 1024X1024)
+[2018.12.12-10.00.39:938][213]LogTexture: Display: Building textures: pizza_lambert1_Normal (BC5, 1024X1024)
+[2018.12.12-10.00.39:938][213]LogMaterial: Display: Missing cached shader map for material BurnedPizzaMaterial, compiling. 
+[2018.12.12-10.00.39:996][214]LogShaderCompilers: Display: Shaders left to compile 22
+[2018.12.12-10.00.39:996][214]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.12.12-10.00.39:996][214]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.12.12-10.00.42:965][392]BlueprintLog: New page: Compile Pizza_Blueprint
+[2018.12.12-10.00.45:692][535]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.12.12-10.00.45:733][535]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace' with GeneratedClass '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace'
+[2018.12.12-10.00.45:734][535]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.12.12-10.00.45:734][535]PIE: New page: PIE session: PizzaPlace (Dec 12, 2018, 12:00:45 AM)
+[2018.12.12-10.00.45:735][535]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_PizzaPlace
+[2018.12.12-10.00.45:765][535]LogPlayLevel: PIE: StaticDuplicateObject took: (0.030704s)
+[2018.12.12-10.00.45:767][535]LogAIModule: Creating AISystem for world PizzaPlace
+[2018.12.12-10.00.45:768][535]LogPlayLevel: PIE: World Init took: (0.002166s)
+[2018.12.12-10.00.45:768][535]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace to /Game/FirstPersonBP/Maps/UEDPIE_0_PizzaPlace.PizzaPlace (0.033596s)
+[2018.12.12-10.00.45:811][535]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.12.12-10.00.45:839][535]LogInit: FAudioDevice initialized.
+[2018.12.12-10.00.45:851][535]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.12-10.00.46:029][535]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.12.12-10.00.46:036][535]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_PizzaPlace.PizzaPlace up for play (max tick rate 60) at 2018.12.12-05.00.46
+[2018.12.12-10.00.46:037][535]LogWorld: Bringing up level for play took: 0.006499
+[2018.12.12-10.00.46:054][535]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_PizzaPlace -0.148
+[2018.12.12-10.00.46:055][535]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace' with GeneratedClass '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace'
+[2018.12.12-10.00.50:538][661]LogBlueprintUserMessages: [Pizza_Blueprint_2] Marinara
+[2018.12.12-10.00.50:539][661]LogBlueprintUserMessages: [Pizza_Blueprint_2] Marinara
+[2018.12.12-10.00.50:540][661]LogBlueprintUserMessages: [Pizza_Blueprint_2] GreenPesto
+[2018.12.12-10.00.52:702][726]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Tags' of length 0 in '/Script/Engine.Actor'!
+[2018.12.12-10.00.52:702][726]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Tags' of length 0 in '/Script/Engine.Actor'!
+[2018.12.12-10.00.52:702][726]LogBlueprintUserMessages: [Pizza_Blueprint_2] None
+[2018.12.12-10.00.52:703][726]LogScript: Warning: Accessed None trying to read property Pizza
+	Oven_Trigger_Blueprint_C /Game/FirstPersonBP/Maps/UEDPIE_0_PizzaPlace.PizzaPlace:PersistentLevel.Oven_Trigger_Blueprint_2
+	Function /Game/Tyler/Oven_Trigger_Blueprint.Oven_Trigger_Blueprint_C:ExecuteUbergraph_Oven_Trigger_Blueprint:013D
+[2018.12.12-10.00.52:703][726]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Pizza". Blueprint:  Oven_Trigger_Blueprint Function:  Execute Ubergraph Oven Trigger Blueprint Graph:  EventGraph Node:  Branch
+[2018.12.12-10.00.52:704][726]LogScript: Warning: Accessed None trying to read property Pizza
+	Oven_Trigger_Blueprint_C /Game/FirstPersonBP/Maps/UEDPIE_0_PizzaPlace.PizzaPlace:PersistentLevel.Oven_Trigger_Blueprint_2
+	Function /Game/Tyler/Oven_Trigger_Blueprint.Oven_Trigger_Blueprint_C:ExecuteUbergraph_Oven_Trigger_Blueprint:01F3
+[2018.12.12-10.00.52:704][726]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Pizza". Blueprint:  Oven_Trigger_Blueprint Function:  Execute Ubergraph Oven Trigger Blueprint Graph:  EventGraph Node:  Set isPartiallyCooked
+[2018.12.12-10.01.02:723][ 39]LogScript: Warning: Accessed None trying to read property Pizza
+	Oven_Trigger_Blueprint_C /Game/FirstPersonBP/Maps/UEDPIE_0_PizzaPlace.PizzaPlace:PersistentLevel.Oven_Trigger_Blueprint_2
+	Function /Game/Tyler/Oven_Trigger_Blueprint.Oven_Trigger_Blueprint_C:SetCooked:000E
+[2018.12.12-10.01.02:724][ 39]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Pizza". Blueprint:  Oven_Trigger_Blueprint Function:  Set Cooked Graph:  SetCooked Node:  Set isCooked
+[2018.12.12-10.01.02:724][ 39]LogBlueprintUserMessages: [Oven_Trigger_Blueprint_2] Pizza is Cooked
+[2018.12.12-10.01.15:133][456]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Tags' of length 0 in '/Script/Engine.Actor'!
+[2018.12.12-10.01.15:133][456]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Tags' of length 0 in '/Script/Engine.Actor'!
+[2018.12.12-10.01.15:134][456]LogBlueprintUserMessages: [Pizza_Blueprint_2] None
+[2018.12.12-10.01.16:225][491]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace' with GeneratedClass '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace'
+[2018.12.12-10.01.16:226][491]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.12-10.01.16:259][491]LogSlate: Window 'TeamSadMen Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.12.12-10.01.16:310][491]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.12.12-10.01.16:310][491]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace' with GeneratedClass '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace'
+[2018.12.12-10.01.16:381][492]LogPlayLevel: Display: Destroying online subsystem :Context_84
+[2018.12.12-10.01.40:272][923]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.12.12-10.01.42:158][ 28]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.12.12-10.01.43:305][ 92]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.12.12-10.01.44:663][166]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.12.12-10.01.46:193][249]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tyler/Pizza_Blueprint" FILE="../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Content/Tyler/Pizza_Blueprint.uasset" SILENT=true
+[2018.12.12-10.01.46:267][249]LogSavePackage: Moving '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Saved/Pizza_BlueprintFDAEC87E4FA2E24A3FBEBB84D081712B.tmp' to '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Content/Tyler/Pizza_Blueprint.uasset'
+[2018.12.12-10.02.55:063][348]BlueprintLog: New page: Compile Pizza_Blueprint
+[2018.12.12-10.02.55:786][371]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tyler/Pizza_Blueprint" FILE="../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Content/Tyler/Pizza_Blueprint.uasset" SILENT=true
+[2018.12.12-10.02.55:865][371]LogSavePackage: Moving '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Saved/Pizza_BlueprintC15281D041D348B20CAEAEA5FADE9859.tmp' to '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Content/Tyler/Pizza_Blueprint.uasset'
+[2018.12.12-10.02.57:763][483]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.12.12-10.02.57:806][483]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace' with GeneratedClass '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace'
+[2018.12.12-10.02.57:807][483]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.12.12-10.02.57:807][483]PIE: New page: PIE session: PizzaPlace (Dec 12, 2018, 12:02:57 AM)
+[2018.12.12-10.02.57:807][483]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_PizzaPlace
+[2018.12.12-10.02.57:838][483]LogPlayLevel: PIE: StaticDuplicateObject took: (0.030089s)
+[2018.12.12-10.02.57:839][483]LogAIModule: Creating AISystem for world PizzaPlace
+[2018.12.12-10.02.57:840][483]LogPlayLevel: PIE: World Init took: (0.001845s)
+[2018.12.12-10.02.57:840][483]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace to /Game/FirstPersonBP/Maps/UEDPIE_0_PizzaPlace.PizzaPlace (0.032904s)
+[2018.12.12-10.02.57:885][483]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.12.12-10.02.57:912][483]LogInit: FAudioDevice initialized.
+[2018.12.12-10.02.57:924][483]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.12-10.02.58:010][483]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.12.12-10.02.58:017][483]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_PizzaPlace.PizzaPlace up for play (max tick rate 60) at 2018.12.12-05.02.58
+[2018.12.12-10.02.58:018][483]LogWorld: Bringing up level for play took: 0.006723
+[2018.12.12-10.02.58:035][483]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_PizzaPlace -0.168
+[2018.12.12-10.02.58:036][483]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace' with GeneratedClass '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace'
+[2018.12.12-10.03.04:257][662]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Tags' of length 0 in '/Script/Engine.Actor'!
+[2018.12.12-10.03.04:257][662]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Tags' of length 0 in '/Script/Engine.Actor'!
+[2018.12.12-10.03.04:258][662]LogBlueprintUserMessages: [Pizza_Blueprint_2] None
+[2018.12.12-10.03.04:258][662]LogScript: Warning: Accessed None trying to read property Pizza
+	Oven_Trigger_Blueprint_C /Game/FirstPersonBP/Maps/UEDPIE_0_PizzaPlace.PizzaPlace:PersistentLevel.Oven_Trigger_Blueprint_2
+	Function /Game/Tyler/Oven_Trigger_Blueprint.Oven_Trigger_Blueprint_C:ExecuteUbergraph_Oven_Trigger_Blueprint:013D
+[2018.12.12-10.03.04:258][662]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Pizza". Blueprint:  Oven_Trigger_Blueprint Function:  Execute Ubergraph Oven Trigger Blueprint Graph:  EventGraph Node:  Branch
+[2018.12.12-10.03.04:259][662]LogScript: Warning: Accessed None trying to read property Pizza
+	Oven_Trigger_Blueprint_C /Game/FirstPersonBP/Maps/UEDPIE_0_PizzaPlace.PizzaPlace:PersistentLevel.Oven_Trigger_Blueprint_2
+	Function /Game/Tyler/Oven_Trigger_Blueprint.Oven_Trigger_Blueprint_C:ExecuteUbergraph_Oven_Trigger_Blueprint:01F3
+[2018.12.12-10.03.04:260][662]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Pizza". Blueprint:  Oven_Trigger_Blueprint Function:  Execute Ubergraph Oven Trigger Blueprint Graph:  EventGraph Node:  Set isPartiallyCooked
+[2018.12.12-10.03.04:417][667]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Tags' of length 0 in '/Script/Engine.Actor'!
+[2018.12.12-10.03.04:417][667]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Tags' of length 0 in '/Script/Engine.Actor'!
+[2018.12.12-10.03.04:417][667]LogBlueprintUserMessages: [Pizza_Blueprint_2] None
+[2018.12.12-10.03.04:417][667]LogScript: Warning: Accessed None trying to read property Pizza
+	Oven_Trigger_Blueprint_C /Game/FirstPersonBP/Maps/UEDPIE_0_PizzaPlace.PizzaPlace:PersistentLevel.Oven_Trigger_Blueprint_2
+	Function /Game/Tyler/Oven_Trigger_Blueprint.Oven_Trigger_Blueprint_C:ExecuteUbergraph_Oven_Trigger_Blueprint:013D
+[2018.12.12-10.03.04:418][667]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Pizza". Blueprint:  Oven_Trigger_Blueprint Function:  Execute Ubergraph Oven Trigger Blueprint Graph:  EventGraph Node:  Branch
+[2018.12.12-10.03.04:418][667]LogScript: Warning: Accessed None trying to read property Pizza
+	Oven_Trigger_Blueprint_C /Game/FirstPersonBP/Maps/UEDPIE_0_PizzaPlace.PizzaPlace:PersistentLevel.Oven_Trigger_Blueprint_2
+	Function /Game/Tyler/Oven_Trigger_Blueprint.Oven_Trigger_Blueprint_C:ExecuteUbergraph_Oven_Trigger_Blueprint:01F3
+[2018.12.12-10.03.04:418][667]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Pizza". Blueprint:  Oven_Trigger_Blueprint Function:  Execute Ubergraph Oven Trigger Blueprint Graph:  EventGraph Node:  Set isPartiallyCooked
+[2018.12.12-10.03.14:441][982]LogScript: Warning: Accessed None trying to read property Pizza
+	Oven_Trigger_Blueprint_C /Game/FirstPersonBP/Maps/UEDPIE_0_PizzaPlace.PizzaPlace:PersistentLevel.Oven_Trigger_Blueprint_2
+	Function /Game/Tyler/Oven_Trigger_Blueprint.Oven_Trigger_Blueprint_C:SetCooked:000E
+[2018.12.12-10.03.14:442][982]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Pizza". Blueprint:  Oven_Trigger_Blueprint Function:  Set Cooked Graph:  SetCooked Node:  Set isCooked
+[2018.12.12-10.03.14:443][982]LogBlueprintUserMessages: [Oven_Trigger_Blueprint_2] Pizza is Cooked
+[2018.12.12-10.03.22:740][266]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace' with GeneratedClass '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace'
+[2018.12.12-10.03.22:741][266]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.12-10.03.22:772][266]LogSlate: Window 'TeamSadMen Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.12.12-10.03.22:813][266]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.12.12-10.03.22:814][266]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace' with GeneratedClass '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace'
+[2018.12.12-10.03.22:885][267]LogPlayLevel: Display: Destroying online subsystem :Context_85
+[2018.12.12-10.03.32:340][824]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.12.12-10.03.32:368][824]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace' with GeneratedClass '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace'
+[2018.12.12-10.03.32:368][824]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.12.12-10.03.32:369][824]PIE: New page: PIE session: PizzaPlace (Dec 12, 2018, 12:03:32 AM)
+[2018.12.12-10.03.32:369][824]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_PizzaPlace
+[2018.12.12-10.03.32:396][824]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027746s)
+[2018.12.12-10.03.32:397][824]LogAIModule: Creating AISystem for world PizzaPlace
+[2018.12.12-10.03.32:398][824]LogPlayLevel: PIE: World Init took: (0.001716s)
+[2018.12.12-10.03.32:398][824]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace to /Game/FirstPersonBP/Maps/UEDPIE_0_PizzaPlace.PizzaPlace (0.030216s)
+[2018.12.12-10.03.32:441][824]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.12.12-10.03.32:468][824]LogInit: FAudioDevice initialized.
+[2018.12.12-10.03.32:480][824]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.12-10.03.32:567][824]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.12.12-10.03.32:576][824]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_PizzaPlace.PizzaPlace up for play (max tick rate 60) at 2018.12.12-05.03.32
+[2018.12.12-10.03.32:577][824]LogWorld: Bringing up level for play took: 0.008225
+[2018.12.12-10.03.32:595][824]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_PizzaPlace 0.393
+[2018.12.12-10.03.32:596][824]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace' with GeneratedClass '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace'
+[2018.12.12-10.03.44:858][ 85]LogBlueprintUserMessages: [Pizza_Blueprint_2] Cheese
+[2018.12.12-10.03.44:858][ 85]LogBlueprintUserMessages: [Pizza_Blueprint_2] Cheese
+[2018.12.12-10.03.44:858][ 85]LogBlueprintUserMessages: [Pizza_Blueprint_2] Marinara
+[2018.12.12-10.03.46:635][139]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Tags' of length 0 in '/Script/Engine.Actor'!
+[2018.12.12-10.03.46:635][139]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Tags' of length 0 in '/Script/Engine.Actor'!
+[2018.12.12-10.03.46:636][139]LogBlueprintUserMessages: [Pizza_Blueprint_2] None
+[2018.12.12-10.03.46:636][139]LogScript: Warning: Accessed None trying to read property Pizza
+	Oven_Trigger_Blueprint_C /Game/FirstPersonBP/Maps/UEDPIE_0_PizzaPlace.PizzaPlace:PersistentLevel.Oven_Trigger_Blueprint_2
+	Function /Game/Tyler/Oven_Trigger_Blueprint.Oven_Trigger_Blueprint_C:ExecuteUbergraph_Oven_Trigger_Blueprint:013D
+[2018.12.12-10.03.46:636][139]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Pizza". Blueprint:  Oven_Trigger_Blueprint Function:  Execute Ubergraph Oven Trigger Blueprint Graph:  EventGraph Node:  Branch
+[2018.12.12-10.03.46:637][139]LogScript: Warning: Accessed None trying to read property Pizza
+	Oven_Trigger_Blueprint_C /Game/FirstPersonBP/Maps/UEDPIE_0_PizzaPlace.PizzaPlace:PersistentLevel.Oven_Trigger_Blueprint_2
+	Function /Game/Tyler/Oven_Trigger_Blueprint.Oven_Trigger_Blueprint_C:ExecuteUbergraph_Oven_Trigger_Blueprint:01F3
+[2018.12.12-10.03.46:637][139]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Pizza". Blueprint:  Oven_Trigger_Blueprint Function:  Execute Ubergraph Oven Trigger Blueprint Graph:  EventGraph Node:  Set isPartiallyCooked
+[2018.12.12-10.03.56:638][491]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Pizza". Blueprint:  Oven_Trigger_Blueprint Function:  Set Cooked Graph:  SetCooked Node:  Set isCooked
+[2018.12.12-10.03.56:639][491]LogBlueprintUserMessages: [Oven_Trigger_Blueprint_2] Pizza is Cooked
+[2018.12.12-10.04.03:707][731]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace' with GeneratedClass '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace'
+[2018.12.12-10.04.03:708][731]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.12-10.04.03:742][731]LogSlate: Window 'TeamSadMen Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.12.12-10.04.03:786][731]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.12.12-10.04.03:786][731]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace' with GeneratedClass '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace'
+[2018.12.12-10.04.03:872][732]LogPlayLevel: Display: Destroying online subsystem :Context_86
+[2018.12.12-10.04.37:059][445]LogSlate: Window 'Pizza_Blueprint' being destroyed
+[2018.12.12-10.05.49:996][244]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Tyler/Oven_Trigger_Blueprint.Oven_Trigger_Blueprint
+[2018.12.12-10.05.50:979][245]LogSavePackage: Moving '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Saved/PizzaPlace_Auto484CC78CA4E096D833FE23189DD29DC64.tmp' to '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Saved/Autosaves/Game/FirstPersonBP/Maps/PizzaPlace_Auto4.umap'
+[2018.12.12-10.05.50:992][245]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/PizzaPlace' took 0.532
+[2018.12.12-10.05.50:993][245]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.532
+[2018.12.12-10.05.50:997][245]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ToppingModels/Marinara_on_pizza_model] ([1] browsable assets)...
+[2018.12.12-10.05.51:017][245]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ToppingModels/Marinara_on_pizza_model.Marinara_on_pizza_model]
+[2018.12.12-10.05.51:017][245]OBJ SavePackage: Finished generating thumbnails for package [/Game/ToppingModels/Marinara_on_pizza_model]
+[2018.12.12-10.05.51:068][245]LogSavePackage: Moving '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Saved/Marinara_on_pizza_model_Auto4BD9E4360468E1193D4E149815DD92DA1.tmp' to '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Saved/Autosaves/Game/ToppingModels/Marinara_on_pizza_model_Auto4.uasset'
+[2018.12.12-10.05.51:073][245]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ToppingModels/Sausage_on_pizza_model] ([1] browsable assets)...
+[2018.12.12-10.05.51:073][245]OBJ SavePackage: Finished generating thumbnails for package [/Game/ToppingModels/Sausage_on_pizza_model]
+[2018.12.12-10.05.51:125][245]LogSavePackage: Moving '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Saved/Sausage_on_pizza_model_Auto44EBE05DD4BB2F717443E258EDA8418D7.tmp' to '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Saved/Autosaves/Game/ToppingModels/Sausage_on_pizza_model_Auto4.uasset'
+[2018.12.12-10.05.51:130][245]LogFileHelpers: Auto-saving content packages took 0.135
+[2018.12.12-10.06.56:072][452]LogUObjectArray: Warning: Other object in slot
+[2018.12.12-10.06.56:873][452]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.800 s
+[2018.12.12-10.06.56:873][452]LogOutputDevice: Error: === Handled ensure: ===
+[2018.12.12-10.06.56:873][452]LogOutputDevice: Error: 
+[2018.12.12-10.06.56:873][452]LogOutputDevice: Error: Ensure condition failed: false [File:D:\Build\++UE4\Sync\Engine\Source\Editor\UnrealEd\Private\Kismet2\KismetDebugUtilities.cpp] [Line: 1142]
+[2018.12.12-10.06.56:873][452]LogOutputDevice: Error: Error: Invalid (but non-null) property associated with pin; cannot get variable value
+[2018.12.12-10.06.56:873][452]LogOutputDevice: Error: Stack: 
+[2018.12.12-10.06.56:873][452]LogOutputDevice: Error: [Callstack] 0x00007ffab3b771f6 UE4Editor-Core.dll!UnknownFunction []
+[2018.12.12-10.06.56:874][452]LogOutputDevice: Error: [Callstack] 0x00007ffab38b0c92 UE4Editor-Core.dll!UnknownFunction []
+[2018.12.12-10.06.56:874][452]LogOutputDevice: Error: [Callstack] 0x00007ffab38cb356 UE4Editor-Core.dll!UnknownFunction []
+[2018.12.12-10.06.56:874][452]LogOutputDevice: Error: [Callstack] 0x00007ffaa3b611db UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.12.12-10.06.56:874][452]LogOutputDevice: Error: [Callstack] 0x00007ffaa3b7060e UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.12.12-10.06.56:874][452]LogOutputDevice: Error: [Callstack] 0x00007ffaa27bda7a UE4Editor-BlueprintGraph.dll!UnknownFunction []
+[2018.12.12-10.06.56:874][452]LogOutputDevice: Error: [Callstack] 0x00007ffaa1ecec2a UE4Editor-GraphEditor.dll!UnknownFunction []
+[2018.12.12-10.06.56:874][452]LogOutputDevice: Error: [Callstack] 0x00007ffaa1e8f337 UE4Editor-GraphEditor.dll!UnknownFunction []
+[2018.12.12-10.06.56:874][452]LogOutputDevice: Error: [Callstack] 0x00007ffaae878204 UE4Editor-Slate.dll!UnknownFunction []
+[2018.12.12-10.06.56:875][452]LogOutputDevice: Error: [Callstack] 0x00007ffaaeabe933 UE4Editor-Slate.dll!UnknownFunction []
+[2018.12.12-10.06.56:875][452]LogOutputDevice: Error: [Callstack] 0x00007ffaae8d281a UE4Editor-Slate.dll!UnknownFunction []
+[2018.12.12-10.06.56:875][452]LogOutputDevice: Error: [Callstack] 0x00007ffaae8a8190 UE4Editor-Slate.dll!UnknownFunction []
+[2018.12.12-10.06.56:875][452]LogOutputDevice: Error: [Callstack] 0x00007ffaae89b073 UE4Editor-Slate.dll!UnknownFunction []
+[2018.12.12-10.06.56:875][452]LogOutputDevice: Error: [Callstack] 0x00007ffaf86ad007 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.12.12-10.06.56:875][452]LogOutputDevice: Error: [Callstack] 0x00007ffaf86a0270 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.12.12-10.06.56:875][452]LogOutputDevice: Error: [Callstack] 0x00007ffaf86af4c5 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.12.12-10.06.56:876][452]LogOutputDevice: Error: [Callstack] 0x00007ffaf869c209 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.12.12-10.06.56:876][452]LogOutputDevice: Error: [Callstack] 0x00007ffb29686d41 USER32.dll!UnknownFunction []
+[2018.12.12-10.06.56:876][452]LogOutputDevice: Error: [Callstack] 0x00007ffb29686713 USER32.dll!UnknownFunction []
+[2018.12.12-10.06.56:876][452]LogOutputDevice: Error: [Callstack] 0x00007ffaf86b0646 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.12.12-10.06.56:876][452]LogOutputDevice: Error: [Callstack] 0x00007ff7c06c54e5 UE4Editor.exe!UnknownFunction []
+[2018.12.12-10.06.56:876][452]LogOutputDevice: Error: [Callstack] 0x00007ff7c06d5b3c UE4Editor.exe!UnknownFunction []
+[2018.12.12-10.06.56:876][452]LogOutputDevice: Error: [Callstack] 0x00007ff7c06d5bba UE4Editor.exe!UnknownFunction []
+[2018.12.12-10.06.56:877][452]LogOutputDevice: Error: [Callstack] 0x00007ff7c06e3dac UE4Editor.exe!UnknownFunction []
+[2018.12.12-10.06.56:877][452]LogOutputDevice: Error: [Callstack] 0x00007ff7c06e5aaa UE4Editor.exe!UnknownFunction []
+[2018.12.12-10.06.56:877][452]LogOutputDevice: Error: [Callstack] 0x00007ffb2b153034 KERNEL32.DLL!UnknownFunction []
+[2018.12.12-10.06.56:877][452]LogOutputDevice: Error: [Callstack] 0x00007ffb2bbe1471 ntdll.dll!UnknownFunction []
+[2018.12.12-10.06.56:877][452]LogOutputDevice: Error: 
+[2018.12.12-10.06.56:886][452]LogStats:                SubmitErrorReport -  0.000 s
+[2018.12.12-10.06.57:773][452]LogStats:                    SendNewReport -  0.886 s
+[2018.12.12-10.06.57:773][452]LogStats:             FDebug::EnsureFailed -  1.700 s
+[2018.12.12-10.06.57:774][452]LogUObjectArray: Warning: Other object in slot
+[2018.12.12-10.07.08:615][ 25]LogUObjectArray: Warning: Other object in slot
+[2018.12.12-10.07.08:616][ 25]LogUObjectArray: Warning: Other object in slot
+[2018.12.12-10.07.08:618][ 25]LogUObjectArray: Warning: Other object in slot
+[2018.12.12-10.07.08:620][ 25]LogUObjectArray: Warning: Other object in slot
+[2018.12.12-10.08.31:664][671]BlueprintLog: New page: Compile Oven_Trigger_Blueprint
+[2018.12.12-10.08.59:363][279]BlueprintLog: New page: Compile Oven_Trigger_Blueprint
+[2018.12.12-10.09.00:437][327]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tyler/Oven_Trigger_Blueprint" FILE="../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Content/Tyler/Oven_Trigger_Blueprint.uasset" SILENT=true
+[2018.12.12-10.09.00:521][327]LogSavePackage: Moving '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Saved/Oven_Trigger_BlueprintD470C9EB4D71CFC8A40084ACE5296860.tmp' to '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Content/Tyler/Oven_Trigger_Blueprint.uasset'
+[2018.12.12-10.09.03:937][530]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.12.12-10.09.03:973][530]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace' with GeneratedClass '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace'
+[2018.12.12-10.09.03:974][530]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.12.12-10.09.03:974][530]PIE: New page: PIE session: PizzaPlace (Dec 12, 2018, 12:09:03 AM)
+[2018.12.12-10.09.03:974][530]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_PizzaPlace
+[2018.12.12-10.09.04:005][530]LogPlayLevel: PIE: StaticDuplicateObject took: (0.030160s)
+[2018.12.12-10.09.04:006][530]LogAIModule: Creating AISystem for world PizzaPlace
+[2018.12.12-10.09.04:006][530]LogPlayLevel: PIE: World Init took: (0.001421s)
+[2018.12.12-10.09.04:007][530]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace to /Game/FirstPersonBP/Maps/UEDPIE_0_PizzaPlace.PizzaPlace (0.032441s)
+[2018.12.12-10.09.04:053][530]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.12.12-10.09.04:081][530]LogInit: FAudioDevice initialized.
+[2018.12.12-10.09.04:093][530]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.12-10.09.04:182][530]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.12.12-10.09.04:190][530]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_PizzaPlace.PizzaPlace up for play (max tick rate 60) at 2018.12.12-05.09.04
+[2018.12.12-10.09.04:191][530]LogWorld: Bringing up level for play took: 0.007089
+[2018.12.12-10.09.04:211][530]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_PizzaPlace 0.008
+[2018.12.12-10.09.04:211][530]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace' with GeneratedClass '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace'
+[2018.12.12-10.09.08:692][659]LogBlueprintUserMessages: [Pizza_Blueprint_2] Marinara
+[2018.12.12-10.09.08:692][659]LogBlueprintUserMessages: [Pizza_Blueprint_2] Marinara
+[2018.12.12-10.09.08:692][659]LogBlueprintUserMessages: [Pizza_Blueprint_2] Cheese
+[2018.12.12-10.09.10:165][705]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Tags' of length 0 in '/Script/Engine.Actor'!
+[2018.12.12-10.09.10:165][705]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Tags' of length 0 in '/Script/Engine.Actor'!
+[2018.12.12-10.09.10:166][705]LogBlueprintUserMessages: [Pizza_Blueprint_2] None
+[2018.12.12-10.09.10:166][705]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Pizza". Blueprint:  Oven_Trigger_Blueprint Function:  Execute Ubergraph Oven Trigger Blueprint Graph:  EventGraph Node:  Branch
+[2018.12.12-10.09.10:166][705]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Pizza". Blueprint:  Oven_Trigger_Blueprint Function:  Execute Ubergraph Oven Trigger Blueprint Graph:  EventGraph Node:  Set isPartiallyCooked
+[2018.12.12-10.09.13:493][805]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Tags' of length 0 in '/Script/Engine.Actor'!
+[2018.12.12-10.09.13:493][805]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Tags' of length 0 in '/Script/Engine.Actor'!
+[2018.12.12-10.09.13:493][805]LogBlueprintUserMessages: [Pizza_Blueprint_2] None
+[2018.12.12-10.09.13:493][805]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Pizza". Blueprint:  Oven_Trigger_Blueprint Function:  Execute Ubergraph Oven Trigger Blueprint Graph:  EventGraph Node:  Branch
+[2018.12.12-10.09.13:494][805]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Pizza". Blueprint:  Oven_Trigger_Blueprint Function:  Execute Ubergraph Oven Trigger Blueprint Graph:  EventGraph Node:  Set isPartiallyCooked
+[2018.12.12-10.09.23:524][107]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Pizza". Blueprint:  Oven_Trigger_Blueprint Function:  Set Cooked Graph:  SetCooked Node:  Set Cooked
+[2018.12.12-10.09.23:525][107]LogBlueprintUserMessages: [Oven_Trigger_Blueprint_2] Pizza is Cooked
+[2018.12.12-10.09.33:532][412]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Pizza". Blueprint:  Oven_Trigger_Blueprint Function:  Set Burned Graph:  SetBurned Node:  Set Burned
+[2018.12.12-10.09.33:532][412]LogBlueprintUserMessages: [Oven_Trigger_Blueprint_2] Pizza is burned
+[2018.12.12-10.09.36:489][510]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace' with GeneratedClass '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace'
+[2018.12.12-10.09.36:490][510]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.12-10.09.36:525][510]LogSlate: Window 'TeamSadMen Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.12.12-10.09.36:574][510]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.12.12-10.09.36:574][510]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace' with GeneratedClass '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace'
+[2018.12.12-10.09.36:677][511]LogPlayLevel: Display: Destroying online subsystem :Context_90
+[2018.12.12-10.09.51:676][355]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.12-10.10.26:633][183]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.12.12-10.10.26:661][183]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace' with GeneratedClass '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace'
+[2018.12.12-10.10.26:662][183]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.12.12-10.10.26:663][183]PIE: New page: PIE session: PizzaPlace (Dec 12, 2018, 12:10:26 AM)
+[2018.12.12-10.10.26:663][183]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_PizzaPlace
+[2018.12.12-10.10.26:691][183]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028314s)
+[2018.12.12-10.10.26:693][183]LogAIModule: Creating AISystem for world PizzaPlace
+[2018.12.12-10.10.26:694][183]LogPlayLevel: PIE: World Init took: (0.002079s)
+[2018.12.12-10.10.26:694][183]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace to /Game/FirstPersonBP/Maps/UEDPIE_0_PizzaPlace.PizzaPlace (0.031191s)
+[2018.12.12-10.10.26:739][183]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.12.12-10.10.26:766][183]LogInit: FAudioDevice initialized.
+[2018.12.12-10.10.26:777][183]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.12-10.10.26:870][183]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.12.12-10.10.26:877][183]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_PizzaPlace.PizzaPlace up for play (max tick rate 60) at 2018.12.12-05.10.26
+[2018.12.12-10.10.26:878][183]LogWorld: Bringing up level for play took: 0.006246
+[2018.12.12-10.10.26:899][183]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_PizzaPlace 0.697
+[2018.12.12-10.10.26:908][183]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace' with GeneratedClass '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace'
+[2018.12.12-10.10.35:506][248]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (oven)
+[2018.12.12-10.10.37:960][286]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.12-10.10.44:995][488]LogBlueprintUserMessages: [Pizza_Blueprint_2] Cheese
+[2018.12.12-10.10.46:864][544]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Tags' of length 0 in '/Script/Engine.Actor'!
+[2018.12.12-10.10.46:865][544]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Tags' of length 0 in '/Script/Engine.Actor'!
+[2018.12.12-10.10.46:865][544]LogBlueprintUserMessages: [Pizza_Blueprint_2] None
+[2018.12.12-10.10.46:865][544]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Pizza". Blueprint:  Oven_Trigger_Blueprint Function:  Execute Ubergraph Oven Trigger Blueprint Graph:  EventGraph Node:  Branch
+[2018.12.12-10.10.46:865][544]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Pizza". Blueprint:  Oven_Trigger_Blueprint Function:  Execute Ubergraph Oven Trigger Blueprint Graph:  EventGraph Node:  Set isPartiallyCooked
+[2018.12.12-10.10.56:870][870]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Pizza". Blueprint:  Oven_Trigger_Blueprint Function:  Set Cooked Graph:  SetCooked Node:  Set Cooked
+[2018.12.12-10.10.56:871][870]LogBlueprintUserMessages: [Oven_Trigger_Blueprint_2] Pizza is Cooked
+[2018.12.12-10.11.06:872][189]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Pizza". Blueprint:  Oven_Trigger_Blueprint Function:  Set Burned Graph:  SetBurned Node:  Set Burned
+[2018.12.12-10.11.06:873][189]LogBlueprintUserMessages: [Oven_Trigger_Blueprint_2] Pizza is burned
+[2018.12.12-10.11.07:318][203]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace' with GeneratedClass '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace'
+[2018.12.12-10.11.07:319][203]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.12-10.11.07:353][203]LogSlate: Window 'TeamSadMen Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.12.12-10.11.07:409][203]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.12.12-10.11.07:410][203]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace' with GeneratedClass '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace'
+[2018.12.12-10.11.07:548][204]LogPlayLevel: Display: Destroying online subsystem :Context_91
+[2018.12.12-10.11.35:197][743]BlueprintLog: New page: Compile Pizza_Blueprint
+[2018.12.12-10.12.10:758][255]LogSlate: Window 'Pizza_Blueprint*' being destroyed
+[2018.12.12-10.12.16:335][466]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.12.12-10.12.16:373][466]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace' with GeneratedClass '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace'
+[2018.12.12-10.12.16:374][466]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.12.12-10.12.16:374][466]PIE: New page: PIE session: PizzaPlace (Dec 12, 2018, 12:12:16 AM)
+[2018.12.12-10.12.16:374][466]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_PizzaPlace
+[2018.12.12-10.12.16:402][466]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027160s)
+[2018.12.12-10.12.16:403][466]LogAIModule: Creating AISystem for world PizzaPlace
+[2018.12.12-10.12.16:404][466]LogPlayLevel: PIE: World Init took: (0.001518s)
+[2018.12.12-10.12.16:404][466]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace to /Game/FirstPersonBP/Maps/UEDPIE_0_PizzaPlace.PizzaPlace (0.029372s)
+[2018.12.12-10.12.16:449][466]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.12.12-10.12.16:477][466]LogInit: FAudioDevice initialized.
+[2018.12.12-10.12.16:487][466]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.12-10.12.16:606][466]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.12.12-10.12.16:613][466]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_PizzaPlace.PizzaPlace up for play (max tick rate 60) at 2018.12.12-05.12.16
+[2018.12.12-10.12.16:614][466]LogWorld: Bringing up level for play took: 0.006830
+[2018.12.12-10.12.16:634][466]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_PizzaPlace 0.432
+[2018.12.12-10.12.16:635][466]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace' with GeneratedClass '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace'
+[2018.12.12-10.12.21:577][606]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_BreakHitResult_HitActor". Blueprint:  FirstPersonCharacter Function:  Execute Ubergraph First Person Character Graph:  EventGraph Node:  Branch
+[2018.12.12-10.12.21:577][606]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_BreakHitResult_HitActor". Blueprint:  FirstPersonCharacter Function:  Execute Ubergraph First Person Character Graph:  EventGraph Node:  Branch
+[2018.12.12-10.12.21:577][606]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_BreakHitResult_HitActor". Blueprint:  FirstPersonCharacter Function:  Execute Ubergraph First Person Character Graph:  EventGraph Node:  Branch
+[2018.12.12-10.12.22:752][641]LogBlueprintUserMessages: [Pizza_Blueprint_2] Cheese
+[2018.12.12-10.12.22:752][641]LogBlueprintUserMessages: [Pizza_Blueprint_2] Cheese
+[2018.12.12-10.12.22:752][641]LogBlueprintUserMessages: [Pizza_Blueprint_2] Marinara
+[2018.12.12-10.12.24:219][686]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Tags' of length 0 in '/Script/Engine.Actor'!
+[2018.12.12-10.12.24:219][686]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Tags' of length 0 in '/Script/Engine.Actor'!
+[2018.12.12-10.12.24:219][686]LogBlueprintUserMessages: [Pizza_Blueprint_2] None
+[2018.12.12-10.12.24:220][686]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Pizza". Blueprint:  Oven_Trigger_Blueprint Function:  Execute Ubergraph Oven Trigger Blueprint Graph:  EventGraph Node:  Branch
+[2018.12.12-10.12.24:220][686]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Pizza". Blueprint:  Oven_Trigger_Blueprint Function:  Execute Ubergraph Oven Trigger Blueprint Graph:  EventGraph Node:  Set isPartiallyCooked
+[2018.12.12-10.12.25:023][712]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Tags' of length 0 in '/Script/Engine.Actor'!
+[2018.12.12-10.12.25:023][712]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Tags' of length 0 in '/Script/Engine.Actor'!
+[2018.12.12-10.12.25:025][712]LogBlueprintUserMessages: [Pizza_Blueprint_2] None
+[2018.12.12-10.12.25:025][712]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Pizza". Blueprint:  Oven_Trigger_Blueprint Function:  Execute Ubergraph Oven Trigger Blueprint Graph:  EventGraph Node:  Branch
+[2018.12.12-10.12.25:026][712]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Pizza". Blueprint:  Oven_Trigger_Blueprint Function:  Execute Ubergraph Oven Trigger Blueprint Graph:  EventGraph Node:  Set isPartiallyCooked
+[2018.12.12-10.12.33:677][  0]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.12-10.12.35:053][ 46]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Pizza". Blueprint:  Oven_Trigger_Blueprint Function:  Set Cooked Graph:  SetCooked Node:  Set Cooked
+[2018.12.12-10.12.35:053][ 46]LogBlueprintUserMessages: [Oven_Trigger_Blueprint_2] Pizza is Cooked
+[2018.12.12-10.12.41:147][ 71]LogSlate: Window 'TeamSadMen Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.12.12-10.12.41:168][ 71]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace' with GeneratedClass '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace'
+[2018.12.12-10.12.41:214][ 71]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.12.12-10.12.41:214][ 71]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace' with GeneratedClass '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace'
+[2018.12.12-10.12.41:415][ 72]LogPlayLevel: Display: Destroying online subsystem :Context_92
+[2018.12.12-10.13.01:815][271]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.12.12-10.13.01:847][271]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace' with GeneratedClass '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace'
+[2018.12.12-10.13.01:847][271]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.12.12-10.13.01:847][271]PIE: New page: PIE session: PizzaPlace (Dec 12, 2018, 12:13:01 AM)
+[2018.12.12-10.13.01:847][271]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_PizzaPlace
+[2018.12.12-10.13.01:877][271]LogPlayLevel: PIE: StaticDuplicateObject took: (0.029734s)
+[2018.12.12-10.13.01:879][271]LogAIModule: Creating AISystem for world PizzaPlace
+[2018.12.12-10.13.01:880][271]LogPlayLevel: PIE: World Init took: (0.002377s)
+[2018.12.12-10.13.01:880][271]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace to /Game/FirstPersonBP/Maps/UEDPIE_0_PizzaPlace.PizzaPlace (0.033156s)
+[2018.12.12-10.13.01:932][271]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.12.12-10.13.01:959][271]LogInit: FAudioDevice initialized.
+[2018.12.12-10.13.01:969][271]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.12-10.13.02:060][271]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.12.12-10.13.02:067][271]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_PizzaPlace.PizzaPlace up for play (max tick rate 60) at 2018.12.12-05.13.02
+[2018.12.12-10.13.02:068][271]LogWorld: Bringing up level for play took: 0.006267
+[2018.12.12-10.13.02:090][271]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_PizzaPlace -0.113
+[2018.12.12-10.13.02:091][271]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace' with GeneratedClass '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace'
+[2018.12.12-10.13.07:014][408]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_BreakHitResult_HitActor". Blueprint:  FirstPersonCharacter Function:  Execute Ubergraph First Person Character Graph:  EventGraph Node:  Branch
+[2018.12.12-10.13.07:014][408]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_BreakHitResult_HitActor". Blueprint:  FirstPersonCharacter Function:  Execute Ubergraph First Person Character Graph:  EventGraph Node:  Branch
+[2018.12.12-10.13.07:014][408]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_BreakHitResult_HitActor". Blueprint:  FirstPersonCharacter Function:  Execute Ubergraph First Person Character Graph:  EventGraph Node:  Branch
+[2018.12.12-10.13.08:252][445]LogBlueprintUserMessages: [Pizza_Blueprint_2] Cheese
+[2018.12.12-10.13.10:732][522]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Tags' of length 0 in '/Script/Engine.Actor'!
+[2018.12.12-10.13.10:733][522]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'Tags' of length 0 in '/Script/Engine.Actor'!
+[2018.12.12-10.13.10:733][522]LogBlueprintUserMessages: [Pizza_Blueprint_2] None
+[2018.12.12-10.13.10:733][522]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Pizza". Blueprint:  Oven_Trigger_Blueprint Function:  Execute Ubergraph Oven Trigger Blueprint Graph:  EventGraph Node:  Branch
+[2018.12.12-10.13.10:733][522]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Pizza". Blueprint:  Oven_Trigger_Blueprint Function:  Execute Ubergraph Oven Trigger Blueprint Graph:  EventGraph Node:  Set isPartiallyCooked
+[2018.12.12-10.13.13:481][613]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.12-10.13.47:655][820]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Pizza". Blueprint:  Oven_Trigger_Blueprint Function:  Set Cooked Graph:  SetCooked Node:  Set Cooked
+[2018.12.12-10.13.47:656][820]LogBlueprintUserMessages: [Oven_Trigger_Blueprint_2] Pizza is Cooked
+[2018.12.12-10.13.55:032][ 65]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace' with GeneratedClass '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace'
+[2018.12.12-10.13.55:032][ 65]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.12-10.13.55:066][ 65]LogSlate: Window 'TeamSadMen Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.12.12-10.13.55:125][ 65]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.12.12-10.13.55:125][ 65]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace' with GeneratedClass '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace'
+[2018.12.12-10.13.55:298][ 66]LogPlayLevel: Display: Destroying online subsystem :Context_93
+[2018.12.12-10.18.23:349][824]LogSavePackage: Moving '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Saved/PizzaPlace_Auto51D01F8D44E155D0F401F879E3296C4CF.tmp' to '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Saved/Autosaves/Game/FirstPersonBP/Maps/PizzaPlace_Auto5.umap'
+[2018.12.12-10.18.23:359][824]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/PizzaPlace' took 0.550
+[2018.12.12-10.18.23:360][824]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.550
+[2018.12.12-10.18.23:364][824]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Tyler/Pizza_Blueprint] ([1] browsable assets)...
+[2018.12.12-10.18.23:424][824]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Tyler/Pizza_Blueprint.Pizza_Blueprint]
+[2018.12.12-10.18.23:424][824]OBJ SavePackage: Finished generating thumbnails for package [/Game/Tyler/Pizza_Blueprint]
+[2018.12.12-10.18.23:511][824]LogSavePackage: Moving '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Saved/Pizza_Blueprint_Auto5197EB969468B90AE5BA64DAB0BC5C1A7.tmp' to '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Saved/Autosaves/Game/Tyler/Pizza_Blueprint_Auto5.uasset'
+[2018.12.12-10.18.23:515][824]LogFileHelpers: Auto-saving content packages took 0.152
