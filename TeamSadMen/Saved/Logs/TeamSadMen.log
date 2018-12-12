@@ -1058,3 +1058,146 @@ LogInit: Object subsystem initialized
 [2018.12.12-13.21.44:152][345]LogSavePackage: Moving '../../../../../../Users/frankj6/Documents/GameDevOne/TeamSadMen/TeamSadMen/TeamSadMen/Saved/ManagerVoiceActor312EBDDA4A268E5099A2449A540A32F3.tmp' to '../../../../../../Users/frankj6/Documents/GameDevOne/TeamSadMen/TeamSadMen/TeamSadMen/Content/AlexWPizzaStuff/ManagerVoiceActor.uasset'
 [2018.12.12-13.21.56:914][ 94]LogSlate: Window 'PizzaGameInstance' being destroyed
 [2018.12.12-13.21.56:923][ 94]LogSlate: Window 'PizzaGameInstance' being destroyed
+[2018.12.12-13.22.24:845][605]LogAssetEditorManager: Opening Asset editor for LevelScriptBlueprint /Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace
+[2018.12.12-13.22.32:387][ 28]LogUObjectArray: Warning: Invalid object index 6488181
+[2018.12.12-13.22.34:114][ 28]LogStats: FPlatformStackWalk::StackWalkAndDump -  1.724 s
+[2018.12.12-13.22.34:114][ 28]LogOutputDevice: Error: === Handled ensure: ===
+[2018.12.12-13.22.34:114][ 28]LogOutputDevice: Error: 
+[2018.12.12-13.22.34:114][ 28]LogOutputDevice: Error: Ensure condition failed: false [File:D:\Build\++UE4\Sync\Engine\Source\Editor\UnrealEd\Private\Kismet2\KismetDebugUtilities.cpp] [Line: 1142]
+[2018.12.12-13.22.34:114][ 28]LogOutputDevice: Error: Error: Invalid (but non-null) property associated with pin; cannot get variable value
+[2018.12.12-13.22.34:114][ 28]LogOutputDevice: Error: Stack: 
+[2018.12.12-13.22.34:114][ 28]LogOutputDevice: Error: [Callstack] 0x00007ffc40ae71f6 UE4Editor-Core.dll!UnknownFunction []
+[2018.12.12-13.22.34:114][ 28]LogOutputDevice: Error: [Callstack] 0x00007ffc40820c92 UE4Editor-Core.dll!UnknownFunction []
+[2018.12.12-13.22.34:114][ 28]LogOutputDevice: Error: [Callstack] 0x00007ffc4083b356 UE4Editor-Core.dll!UnknownFunction []
+[2018.12.12-13.22.34:114][ 28]LogOutputDevice: Error: [Callstack] 0x00007ffc3cb311db UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.12.12-13.22.34:114][ 28]LogOutputDevice: Error: [Callstack] 0x00007ffc3cb4060e UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.12.12-13.22.34:114][ 28]LogOutputDevice: Error: [Callstack] 0x00007ffc4b97da7a UE4Editor-BlueprintGraph.dll!UnknownFunction []
+[2018.12.12-13.22.34:114][ 28]LogOutputDevice: Error: [Callstack] 0x00007ffc3a92ec2a UE4Editor-GraphEditor.dll!UnknownFunction []
+[2018.12.12-13.22.34:114][ 28]LogOutputDevice: Error: [Callstack] 0x00007ffc3a8ef337 UE4Editor-GraphEditor.dll!UnknownFunction []
+[2018.12.12-13.22.34:114][ 28]LogOutputDevice: Error: [Callstack] 0x00007ffc61868204 UE4Editor-Slate.dll!UnknownFunction []
+[2018.12.12-13.22.34:114][ 28]LogOutputDevice: Error: [Callstack] 0x00007ffc61aae933 UE4Editor-Slate.dll!UnknownFunction []
+[2018.12.12-13.22.34:114][ 28]LogOutputDevice: Error: [Callstack] 0x00007ffc618c281a UE4Editor-Slate.dll!UnknownFunction []
+[2018.12.12-13.22.34:114][ 28]LogOutputDevice: Error: [Callstack] 0x00007ffc61898190 UE4Editor-Slate.dll!UnknownFunction []
+[2018.12.12-13.22.34:114][ 28]LogOutputDevice: Error: [Callstack] 0x00007ffc6188b073 UE4Editor-Slate.dll!UnknownFunction []
+[2018.12.12-13.22.34:114][ 28]LogOutputDevice: Error: [Callstack] 0x00007ffc8ae7d007 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.12.12-13.22.34:114][ 28]LogOutputDevice: Error: [Callstack] 0x00007ffc8ae70270 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.12.12-13.22.34:114][ 28]LogOutputDevice: Error: [Callstack] 0x00007ffc8ae7f4c5 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.12.12-13.22.34:114][ 28]LogOutputDevice: Error: [Callstack] 0x00007ffc8ae6c209 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.12.12-13.22.34:114][ 28]LogOutputDevice: Error: [Callstack] 0x00007ffc9a156d41 USER32.dll!UnknownFunction []
+[2018.12.12-13.22.34:114][ 28]LogOutputDevice: Error: [Callstack] 0x00007ffc9a156713 USER32.dll!UnknownFunction []
+[2018.12.12-13.22.34:114][ 28]LogOutputDevice: Error: [Callstack] 0x00007ffc8ae80646 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.12.12-13.22.34:114][ 28]LogOutputDevice: Error: [Callstack] 0x00007ff6b50854e5 UE4Editor.exe!UnknownFunction []
+[2018.12.12-13.22.34:114][ 28]LogOutputDevice: Error: [Callstack] 0x00007ff6b5095b3c UE4Editor.exe!UnknownFunction []
+[2018.12.12-13.22.34:114][ 28]LogOutputDevice: Error: [Callstack] 0x00007ff6b5095bba UE4Editor.exe!UnknownFunction []
+[2018.12.12-13.22.34:114][ 28]LogOutputDevice: Error: [Callstack] 0x00007ff6b50a3dac UE4Editor.exe!UnknownFunction []
+[2018.12.12-13.22.34:114][ 28]LogOutputDevice: Error: [Callstack] 0x00007ff6b50a5aaa UE4Editor.exe!UnknownFunction []
+[2018.12.12-13.22.34:114][ 28]LogOutputDevice: Error: [Callstack] 0x00007ffc9c673034 KERNEL32.DLL!UnknownFunction []
+[2018.12.12-13.22.34:114][ 28]LogOutputDevice: Error: [Callstack] 0x00007ffc9cc73691 ntdll.dll!UnknownFunction []
+[2018.12.12-13.22.34:114][ 28]LogOutputDevice: Error: 
+[2018.12.12-13.22.34:128][ 28]LogStats:                SubmitErrorReport -  0.002 s
+[2018.12.12-13.22.35:539][ 28]LogStats:                    SendNewReport -  1.411 s
+[2018.12.12-13.22.35:539][ 28]LogStats:             FDebug::EnsureFailed -  3.152 s
+[2018.12.12-13.22.35:539][ 28]LogUObjectArray: Warning: Invalid object index 6488181
+[2018.12.12-13.22.58:357][224]LogSavePackage: Moving '../../../../../../Users/frankj6/Documents/GameDevOne/TeamSadMen/TeamSadMen/TeamSadMen/Saved/PizzaPlace9FCB354640C95A2263A5CC9B7765A5EB.tmp' to '../../../../../../Users/frankj6/Documents/GameDevOne/TeamSadMen/TeamSadMen/TeamSadMen/Content/FirstPersonBP/Maps/PizzaPlace.umap'
+[2018.12.12-13.22.58:451][224]LogFileHelpers: Saving map 'PizzaPlace' took 1.176
+[2018.12.12-13.23.07:173][677]LogSlate: Window 'PizzaPlace - Level Blueprint Editor' being destroyed
+[2018.12.12-13.23.07:191][677]LogSlate: Window 'PizzaPlace - Level Blueprint Editor' being destroyed
+[2018.12.12-13.23.14:238][ 68]LogMaterial: Display: Missing cached shader map for material Material_0, compiling. 
+[2018.12.12-13.23.14:280][ 69]LogShaderCompilers: Display: Shaders left to compile 5
+[2018.12.12-13.23.22:120][372]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/AlexWPizzaStuff/ManagerVoiceActor.ManagerVoiceActor
+[2018.12.12-13.25.02:584][ 37]LogAssetEditorManager: Opening Asset editor for LevelScriptBlueprint /Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace
+[2018.12.12-13.27.10:393][366]LogSlate: Window 'Color Picker' being destroyed
+[2018.12.12-13.29.57:901][631]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.013 s
+[2018.12.12-13.29.57:901][631]LogOutputDevice: Error: === Handled ensure: ===
+[2018.12.12-13.29.57:901][631]LogOutputDevice: Error: 
+[2018.12.12-13.29.57:901][631]LogOutputDevice: Error: Ensure condition failed: ToPin->LinkedTo.Contains(this) [File:D:\Build\++UE4\Sync\Engine\Source\Runtime\Engine\Private\EdGraph\EdGraphPin.cpp] [Line: 476]
+[2018.12.12-13.29.57:901][631]LogOutputDevice: Error: UEdGraphPin::BreakLinkTo Pin 'Delegate' on node 'Set Timer by Event' not reciprocally linked with pin 'OutputDelegate' on node 'CustomEvent_1'
+[2018.12.12-13.29.57:901][631]LogOutputDevice: Error: Stack: 
+[2018.12.12-13.29.57:901][631]LogOutputDevice: Error: [Callstack] 0x00007ffc40ae71f6 UE4Editor-Core.dll!UnknownFunction []
+[2018.12.12-13.29.57:901][631]LogOutputDevice: Error: [Callstack] 0x00007ffc40820c92 UE4Editor-Core.dll!UnknownFunction []
+[2018.12.12-13.29.57:902][631]LogOutputDevice: Error: [Callstack] 0x00007ffc4083b356 UE4Editor-Core.dll!UnknownFunction []
+[2018.12.12-13.29.57:902][631]LogOutputDevice: Error: [Callstack] 0x00007ffc3e20538f UE4Editor-Engine.dll!UnknownFunction []
+[2018.12.12-13.29.57:902][631]LogOutputDevice: Error: [Callstack] 0x00007ffc3e20518f UE4Editor-Engine.dll!UnknownFunction []
+[2018.12.12-13.29.57:902][631]LogOutputDevice: Error: [Callstack] 0x00007ffc3e204b89 UE4Editor-Engine.dll!UnknownFunction []
+[2018.12.12-13.29.57:902][631]LogOutputDevice: Error: [Callstack] 0x00007ffc3c61bef8 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.12.12-13.29.57:902][631]LogOutputDevice: Error: [Callstack] 0x00007ffc3c82122a UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.12.12-13.29.57:902][631]LogOutputDevice: Error: [Callstack] 0x00007ffc3c605cd3 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.12.12-13.29.57:902][631]LogOutputDevice: Error: [Callstack] 0x00007ffc3bacedc9 UE4Editor-Kismet.dll!UnknownFunction []
+[2018.12.12-13.29.57:902][631]LogOutputDevice: Error: [Callstack] 0x00007ffc3baceb73 UE4Editor-Kismet.dll!UnknownFunction []
+[2018.12.12-13.29.57:902][631]LogOutputDevice: Error: [Callstack] 0x00007ffc3ba605b8 UE4Editor-Kismet.dll!UnknownFunction []
+[2018.12.12-13.29.57:902][631]LogOutputDevice: Error: [Callstack] 0x00007ffc618524df UE4Editor-Slate.dll!UnknownFunction []
+[2018.12.12-13.29.57:902][631]LogOutputDevice: Error: [Callstack] 0x00007ffc6189437e UE4Editor-Slate.dll!UnknownFunction []
+[2018.12.12-13.29.57:902][631]LogOutputDevice: Error: [Callstack] 0x00007ffc3a96cd80 UE4Editor-GraphEditor.dll!UnknownFunction []
+[2018.12.12-13.29.57:902][631]LogOutputDevice: Error: [Callstack] 0x00007ffc618170ac UE4Editor-Slate.dll!UnknownFunction []
+[2018.12.12-13.29.57:902][631]LogOutputDevice: Error: [Callstack] 0x00007ffc6189606c UE4Editor-Slate.dll!UnknownFunction []
+[2018.12.12-13.29.57:902][631]LogOutputDevice: Error: [Callstack] 0x00007ffc61889846 UE4Editor-Slate.dll!UnknownFunction []
+[2018.12.12-13.29.57:902][631]LogOutputDevice: Error: [Callstack] 0x00007ffc8ae7ce45 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.12.12-13.29.57:902][631]LogOutputDevice: Error: [Callstack] 0x00007ffc8ae70270 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.12.12-13.29.57:902][631]LogOutputDevice: Error: [Callstack] 0x00007ffc8ae7f4c5 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.12.12-13.29.57:902][631]LogOutputDevice: Error: [Callstack] 0x00007ffc8ae6c209 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.12.12-13.29.57:902][631]LogOutputDevice: Error: [Callstack] 0x00007ffc9a156d41 USER32.dll!UnknownFunction []
+[2018.12.12-13.29.57:902][631]LogOutputDevice: Error: [Callstack] 0x00007ffc9a156713 USER32.dll!UnknownFunction []
+[2018.12.12-13.29.57:902][631]LogOutputDevice: Error: [Callstack] 0x00007ffc8ae80646 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.12.12-13.29.57:902][631]LogOutputDevice: Error: [Callstack] 0x00007ff6b50854e5 UE4Editor.exe!UnknownFunction []
+[2018.12.12-13.29.57:902][631]LogOutputDevice: Error: [Callstack] 0x00007ff6b5095b3c UE4Editor.exe!UnknownFunction []
+[2018.12.12-13.29.57:902][631]LogOutputDevice: Error: [Callstack] 0x00007ff6b5095bba UE4Editor.exe!UnknownFunction []
+[2018.12.12-13.29.57:902][631]LogOutputDevice: Error: [Callstack] 0x00007ff6b50a3dac UE4Editor.exe!UnknownFunction []
+[2018.12.12-13.29.57:902][631]LogOutputDevice: Error: [Callstack] 0x00007ff6b50a5aaa UE4Editor.exe!UnknownFunction []
+[2018.12.12-13.29.57:902][631]LogOutputDevice: Error: [Callstack] 0x00007ffc9c673034 KERNEL32.DLL!UnknownFunction []
+[2018.12.12-13.29.57:902][631]LogOutputDevice: Error: [Callstack] 0x00007ffc9cc73691 ntdll.dll!UnknownFunction []
+[2018.12.12-13.29.57:902][631]LogOutputDevice: Error: 
+[2018.12.12-13.29.57:903][631]LogStats:                SubmitErrorReport -  0.000 s
+[2018.12.12-13.29.58:694][631]LogStats:                    SendNewReport -  0.791 s
+[2018.12.12-13.29.58:694][631]LogStats:             FDebug::EnsureFailed -  0.806 s
+[2018.12.12-13.29.58:695][631]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.001 s
+[2018.12.12-13.29.58:695][631]LogOutputDevice: Error: === Handled ensure: ===
+[2018.12.12-13.29.58:695][631]LogOutputDevice: Error: 
+[2018.12.12-13.29.58:695][631]LogOutputDevice: Error: Ensure condition failed: ToPin->LinkedTo.Contains(this) [File:D:\Build\++UE4\Sync\Engine\Source\Runtime\Engine\Private\EdGraph\EdGraphPin.cpp] [Line: 476]
+[2018.12.12-13.29.58:695][631]LogOutputDevice: Error: UEdGraphPin::BreakLinkTo Pin 'execute' on node 'Cast To PizzaGameInstance' not reciprocally linked with pin 'then' on node 'CustomEvent_1'
+[2018.12.12-13.29.58:696][631]LogOutputDevice: Error: Stack: 
+[2018.12.12-13.29.58:696][631]LogOutputDevice: Error: [Callstack] 0x00007ffc40ae71f6 UE4Editor-Core.dll!UnknownFunction []
+[2018.12.12-13.29.58:696][631]LogOutputDevice: Error: [Callstack] 0x00007ffc40820c92 UE4Editor-Core.dll!UnknownFunction []
+[2018.12.12-13.29.58:696][631]LogOutputDevice: Error: [Callstack] 0x00007ffc4083b356 UE4Editor-Core.dll!UnknownFunction []
+[2018.12.12-13.29.58:696][631]LogOutputDevice: Error: [Callstack] 0x00007ffc3e20538f UE4Editor-Engine.dll!UnknownFunction []
+[2018.12.12-13.29.58:696][631]LogOutputDevice: Error: [Callstack] 0x00007ffc3e20518f UE4Editor-Engine.dll!UnknownFunction []
+[2018.12.12-13.29.58:696][631]LogOutputDevice: Error: [Callstack] 0x00007ffc3e204b89 UE4Editor-Engine.dll!UnknownFunction []
+[2018.12.12-13.29.58:696][631]LogOutputDevice: Error: [Callstack] 0x00007ffc3c61bef8 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.12.12-13.29.58:696][631]LogOutputDevice: Error: [Callstack] 0x00007ffc3c82122a UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.12.12-13.29.58:696][631]LogOutputDevice: Error: [Callstack] 0x00007ffc3c605cd3 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.12.12-13.29.58:696][631]LogOutputDevice: Error: [Callstack] 0x00007ffc3bacedc9 UE4Editor-Kismet.dll!UnknownFunction []
+[2018.12.12-13.29.58:696][631]LogOutputDevice: Error: [Callstack] 0x00007ffc3baceb73 UE4Editor-Kismet.dll!UnknownFunction []
+[2018.12.12-13.29.58:696][631]LogOutputDevice: Error: [Callstack] 0x00007ffc3ba605b8 UE4Editor-Kismet.dll!UnknownFunction []
+[2018.12.12-13.29.58:696][631]LogOutputDevice: Error: [Callstack] 0x00007ffc618524df UE4Editor-Slate.dll!UnknownFunction []
+[2018.12.12-13.29.58:696][631]LogOutputDevice: Error: [Callstack] 0x00007ffc6189437e UE4Editor-Slate.dll!UnknownFunction []
+[2018.12.12-13.29.58:696][631]LogOutputDevice: Error: [Callstack] 0x00007ffc3a96cd80 UE4Editor-GraphEditor.dll!UnknownFunction []
+[2018.12.12-13.29.58:696][631]LogOutputDevice: Error: [Callstack] 0x00007ffc618170ac UE4Editor-Slate.dll!UnknownFunction []
+[2018.12.12-13.29.58:696][631]LogOutputDevice: Error: [Callstack] 0x00007ffc6189606c UE4Editor-Slate.dll!UnknownFunction []
+[2018.12.12-13.29.58:696][631]LogOutputDevice: Error: [Callstack] 0x00007ffc61889846 UE4Editor-Slate.dll!UnknownFunction []
+[2018.12.12-13.29.58:696][631]LogOutputDevice: Error: [Callstack] 0x00007ffc8ae7ce45 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.12.12-13.29.58:696][631]LogOutputDevice: Error: [Callstack] 0x00007ffc8ae70270 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.12.12-13.29.58:696][631]LogOutputDevice: Error: [Callstack] 0x00007ffc8ae7f4c5 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.12.12-13.29.58:696][631]LogOutputDevice: Error: [Callstack] 0x00007ffc8ae6c209 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.12.12-13.29.58:696][631]LogOutputDevice: Error: [Callstack] 0x00007ffc9a156d41 USER32.dll!UnknownFunction []
+[2018.12.12-13.29.58:696][631]LogOutputDevice: Error: [Callstack] 0x00007ffc9a156713 USER32.dll!UnknownFunction []
+[2018.12.12-13.29.58:696][631]LogOutputDevice: Error: [Callstack] 0x00007ffc8ae80646 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.12.12-13.29.58:696][631]LogOutputDevice: Error: [Callstack] 0x00007ff6b50854e5 UE4Editor.exe!UnknownFunction []
+[2018.12.12-13.29.58:696][631]LogOutputDevice: Error: [Callstack] 0x00007ff6b5095b3c UE4Editor.exe!UnknownFunction []
+[2018.12.12-13.29.58:697][631]LogOutputDevice: Error: [Callstack] 0x00007ff6b5095bba UE4Editor.exe!UnknownFunction []
+[2018.12.12-13.29.58:697][631]LogOutputDevice: Error: [Callstack] 0x00007ff6b50a3dac UE4Editor.exe!UnknownFunction []
+[2018.12.12-13.29.58:697][631]LogOutputDevice: Error: [Callstack] 0x00007ff6b50a5aaa UE4Editor.exe!UnknownFunction []
+[2018.12.12-13.29.58:697][631]LogOutputDevice: Error: [Callstack] 0x00007ffc9c673034 KERNEL32.DLL!UnknownFunction []
+[2018.12.12-13.29.58:697][631]LogOutputDevice: Error: [Callstack] 0x00007ffc9cc73691 ntdll.dll!UnknownFunction []
+[2018.12.12-13.29.58:697][631]LogOutputDevice: Error: 
+[2018.12.12-13.29.58:699][631]LogStats:                SubmitErrorReport -  0.000 s
+[2018.12.12-13.29.59:481][631]LogStats:                    SendNewReport -  0.782 s
+[2018.12.12-13.29.59:481][631]LogStats:             FDebug::EnsureFailed -  0.787 s
+[2018.12.12-13.30.52:561][493]BlueprintLog: New page: Compile ManagerVoiceActor
+[2018.12.12-13.30.54:212][556]LogSavePackage: Moving '../../../../../../Users/frankj6/Documents/GameDevOne/TeamSadMen/TeamSadMen/TeamSadMen/Saved/ManagerVoiceActor5203A7CA48F76C7801146EAD0A757FC4.tmp' to '../../../../../../Users/frankj6/Documents/GameDevOne/TeamSadMen/TeamSadMen/TeamSadMen/Content/AlexWPizzaStuff/ManagerVoiceActor.uasset'
+[2018.12.12-13.31.30:459][594]BlueprintLog: New page: Compile ManagerVoiceActor
+[2018.12.12-13.31.31:446][619]LogSavePackage: Moving '../../../../../../Users/frankj6/Documents/GameDevOne/TeamSadMen/TeamSadMen/TeamSadMen/Saved/ManagerVoiceActor1CF3253240E5B5160466BC8C21B11635.tmp' to '../../../../../../Users/frankj6/Documents/GameDevOne/TeamSadMen/TeamSadMen/TeamSadMen/Content/AlexWPizzaStuff/ManagerVoiceActor.uasset'
+[2018.12.12-13.31.58:149][141]BlueprintLog: New page: Compile PizzaPlace
+[2018.12.12-13.32.00:086][164]LogSavePackage: Moving '../../../../../../Users/frankj6/Documents/GameDevOne/TeamSadMen/TeamSadMen/TeamSadMen/Saved/PizzaPlaceD0B715CA46D2687C088777ACB361188F.tmp' to '../../../../../../Users/frankj6/Documents/GameDevOne/TeamSadMen/TeamSadMen/TeamSadMen/Content/FirstPersonBP/Maps/PizzaPlace.umap'
+[2018.12.12-13.32.00:175][164]LogFileHelpers: Saving map 'PizzaPlace' took 1.283
+[2018.12.12-13.32.14:791][998]LogSavePackage: Moving '../../../../../../Users/frankj6/Documents/GameDevOne/TeamSadMen/TeamSadMen/TeamSadMen/Saved/ManagerVoiceActor08F48C284F0724E4F5ED0ABD09A93CBD.tmp' to '../../../../../../Users/frankj6/Documents/GameDevOne/TeamSadMen/TeamSadMen/TeamSadMen/Content/AlexWPizzaStuff/ManagerVoiceActor.uasset'
+[2018.12.12-13.32.25:431][479]LogSavePackage: Moving '../../../../../../Users/frankj6/Documents/GameDevOne/TeamSadMen/TeamSadMen/TeamSadMen/Saved/PizzaPlaceE5315E67465B158BC14639963D700C51.tmp' to '../../../../../../Users/frankj6/Documents/GameDevOne/TeamSadMen/TeamSadMen/TeamSadMen/Content/FirstPersonBP/Maps/PizzaPlace.umap'
+[2018.12.12-13.32.25:515][479]LogFileHelpers: Saving map 'PizzaPlace' took 1.315
