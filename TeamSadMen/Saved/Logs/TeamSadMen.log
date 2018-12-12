@@ -456,3 +456,10 @@ LogInit: Object subsystem initialized
 [2018.12.12-06.39.26:155][872]LogPlayLevel: Display: Shutting down PIE online subsystems
 [2018.12.12-06.39.26:195][872]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
 [2018.12.12-06.39.26:227][873]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2018.12.12-06.48.55:011][997]LogSavePackage: Moving '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Saved/PizzaTester_Auto142A166F348C9F6AEC771008C46D29AB6.tmp' to '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Saved/Autosaves/Game/AlexWPizzaStuff/PizzaTester_Auto1.umap'
+[2018.12.12-06.48.55:026][997]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/AlexWPizzaStuff/PizzaTester' took 0.370
+[2018.12.12-06.48.55:026][997]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.370
+[2018.12.12-06.48.55:029][997]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Tyler/Oven_Trigger_Blueprint] ([1] browsable assets)...
+[2018.12.12-06.48.55:029][997]OBJ SavePackage: Finished generating thumbnails for package [/Game/Tyler/Oven_Trigger_Blueprint]
+[2018.12.12-06.48.55:110][997]LogSavePackage: Moving '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Saved/Oven_Trigger_Blueprint_Auto14A6EDC12497F5B98339656B63B38D6AB.tmp' to '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Saved/Autosaves/Game/Tyler/Oven_Trigger_Blueprint_Auto1.uasset'
+[2018.12.12-06.48.55:116][997]LogFileHelpers: Auto-saving content packages took 0.087
