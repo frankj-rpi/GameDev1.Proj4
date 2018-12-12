@@ -1,0 +1,1050 @@
+﻿Log file open, 12/12/18 01:16:26
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: TeamSadMen
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.291853
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.139s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4369336
+LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-6700HQ CPU @ 2.60GHz, GPU: Intel(R) HD Graphics 530
+LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line:  
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.003s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.12.12-06.16.26:817][  0]LogInit: Selected Device Profile: [Windows]
+[2018.12.12-06.16.26:817][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.12.12-06.16.26:835][  0]LogHAL: Display: Platform has ~ 16 GB [16964771840 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2018.12.12-06.16.26:835][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2018.12.12-06.16.26:835][  0]LogInit: Going up to parent DeviceProfile []
+[2018.12.12-06.16.26:835][  0]LogInit: Computer: DESKTOP-HIBAT0Q
+[2018.12.12-06.16.26:835][  0]LogInit: User: kubok
+[2018.12.12-06.16.26:835][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.12.12-06.16.26:835][  0]LogInit: High frequency timer resolution =2.531255 MHz
+[2018.12.12-06.16.26:835][  0]LogMemory: Memory total: Physical=15.8GB (16GB approx)
+[2018.12.12-06.16.26:835][  0]LogMemory: Platform Memory Stats for Windows
+[2018.12.12-06.16.26:835][  0]LogMemory: Process Physical Memory: 100.96 MB used, 100.96 MB peak
+[2018.12.12-06.16.26:835][  0]LogMemory: Process Virtual Memory: 89.32 MB used, 89.32 MB peak
+[2018.12.12-06.16.26:835][  0]LogMemory: Physical Memory: 6493.48 MB used,  9685.38 MB free, 16178.87 MB total
+[2018.12.12-06.16.26:835][  0]LogMemory: Virtual Memory: 4638.84 MB used,  9685.38 MB free, 134217728.00 MB total
+[2018.12.12-06.16.26:860][  0]LogInit: Using OS detected language (en-US).
+[2018.12.12-06.16.26:860][  0]LogInit: Using OS detected locale (en-US).
+[2018.12.12-06.16.26:861][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.12.12-06.16.27:245][  0]LogStreaming: Display: Took  0.385s to InitEngineTextLocalization.
+[2018.12.12-06.16.27:245][  0]LogInit: Setting process to per monitor DPI aware
+[2018.12.12-06.16.27:289][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.12.12-06.16.27:289][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.12.12-06.16.27:531][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.12.12-06.16.27:531][  0]LogD3D11RHI: D3D11 adapters:
+[2018.12.12-06.16.27:600][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960M' (Feature Level 11_0)
+[2018.12.12-06.16.27:600][  0]LogD3D11RHI:       2010/0/8089 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.12.12-06.16.27:608][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
+[2018.12.12-06.16.27:608][  0]LogD3D11RHI:       128/0/8089 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2018.12.12-06.16.27:610][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.12.12-06.16.27:610][  0]LogD3D11RHI:       0/0/8089 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.12.12-06.16.27:610][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.12.12-06.16.27:648][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.12.12-06.16.27:648][  0]LogD3D11RHI:     GPU DeviceId: 0x139b (for the marketing name, search the web for "GPU Device Id")
+[2018.12.12-06.16.27:648][  0]LogWindows: EnumDisplayDevices:
+[2018.12.12-06.16.27:648][  0]LogWindows:    0. 'Intel(R) HD Graphics 530' (P:1 D:1)
+[2018.12.12-06.16.27:649][  0]LogWindows:    1. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2018.12.12-06.16.27:650][  0]LogWindows:    2. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2018.12.12-06.16.27:650][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.12.12-06.16.27:651][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960M
+[2018.12.12-06.16.27:651][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.12.12-06.16.27:651][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.12.12-06.16.27:651][  0]LogRHI: Texture pool is 1407 MB (70% of 2010 MB)
+[2018.12.12-06.16.27:701][  0]LogD3D11RHI: Async texture creation enabled
+[2018.12.12-06.16.27:735][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.12.12-06.16.27:736][  0]LogShaderCompilers: Guid format shader working directory is -2 characters bigger than the processId version (../../../../../../Git Hub/TeamSadMen/TeamSadMen/Intermediate/Shaders/WorkingDirectory/17760/).
+[2018.12.12-06.16.27:736][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/kubok/AppData/Local/Temp/UnrealShaderWorkingDir/41462C5E40BB1B137394CE9F99B12BC7/'.
+[2018.12.12-06.16.28:044][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.12.12-06.16.28:061][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.12.12-06.16.28:077][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.12.12-06.16.28:093][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.12.12-06.16.28:109][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.12.12-06.16.28:124][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.12.12-06.16.28:139][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.12.12-06.16.28:154][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.12.12-06.16.28:160][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.12.12-06.16.28:252][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.12-06.16.28:253][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.12-06.16.28:253][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.12-06.16.28:253][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.12-06.16.28:253][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.12-06.16.28:253][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.12-06.16.28:253][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.12-06.16.28:253][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.12-06.16.28:253][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.12-06.16.28:253][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.12-06.16.28:253][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.12-06.16.28:253][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.12-06.16.28:253][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.12-06.16.28:253][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.12-06.16.28:253][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.12-06.16.28:253][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.12-06.16.28:253][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.12-06.16.28:253][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.12-06.16.28:254][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.12.12-06.16.28:320][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.12.12-06.16.28:320][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.12.12-06.16.28:348][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.12.12-06.16.28:348][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.12.12-06.16.28:363][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.12.12-06.16.28:377][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.12.12-06.16.28:391][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.12.12-06.16.28:406][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.12.12-06.16.28:417][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2018.12.12-06.16.28:417][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.12.12-06.16.28:495][  0]LogXGEController: Cleaning working directory: C:/Users/kubok/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2018.12.12-06.16.28:495][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.12.12-06.16.28:495][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.12.12-06.16.28:495][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.12.12-06.16.29:325][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.12.12-06.16.29:386][  0]LogDerivedDataCache: Loaded boot cache 0.06s 71MB C:/Users/kubok/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.12.12-06.16.29:387][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/kubok/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2018.12.12-06.16.29:387][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Git Hub/TeamSadMen/TeamSadMen/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.12.12-06.16.29:387][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.12.12-06.16.29:387][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Git Hub/TeamSadMen/TeamSadMen/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.12.12-06.16.29:387][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.12.12-06.16.29:402][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.12.12-06.16.29:415][  0]LogDerivedDataCache: Using Local data cache path C:/Users/kubok/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.12.12-06.16.29:415][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.12.12-06.16.29:415][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.12.12-06.16.29:436][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.12.12-06.16.29:437][  0]LogSlate: Using FreeType 2.6.0
+[2018.12.12-06.16.29:438][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.12.12-06.16.29:527][  0]LogAssetRegistry: FAssetRegistry took 0.0269 seconds to start up
+[2018.12.12-06.16.29:880][  0]LogInit: Selected Device Profile: [Windows]
+[2018.12.12-06.16.30:031][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.12.12-06.16.30:034][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.12.12-06.16.30:034][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2018.12.12-06.16.30:034][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.12.12-06.16.30:034][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.12.12-06.16.30:054][  0]LogNetVersion: TeamSadMen 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 1220547581)
+[2018.12.12-06.16.30:668][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.158703 seconds
+[2018.12.12-06.16.30:674][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2018.12.12-06.16.30:674][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
+[2018.12.12-06.16.30:674][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.12.12-06.16.31:581][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.12.12-06.16.31:593][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.12.12-06.16.31:744][  0]SourceControl: Source control is disabled
+[2018.12.12-06.16.31:744][  0]SourceControl: Source control is disabled
+[2018.12.12-06.16.31:745][  0]SourceControl: Source control is disabled
+[2018.12.12-06.16.31:746][  0]SourceControl: Source control is disabled
+[2018.12.12-06.16.31:911][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.12.12-06.16.31:978][  0]LogOcInput: OculusInput pre-init called
+[2018.12.12-06.16.32:044][  0]LogEngine: Initializing Engine...
+[2018.12.12-06.16.32:045][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.12.12-06.16.32:047][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.12.12-06.16.32:047][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.12.12-06.16.32:047][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.12.12-06.16.32:047][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.12.12-06.16.32:307][  0]LogInit: Initializing FReadOnlyCVARCache
+[2018.12.12-06.16.32:323][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.12.12-06.16.32:336][  0]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.12.12-06.16.32:497][  0]LogInit: FAudioDevice initialized.
+[2018.12.12-06.16.32:497][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2018.12.12-06.16.32:552][  0]LogDerivedDataCache: Saved boot cache 0.05s 71MB C:/Users/kubok/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.12.12-06.16.32:570][  0]LogInit: Texture streaming: Enabled
+[2018.12.12-06.16.32:587][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.12.12-06.16.32:608][  0]LogInit: Transaction tracking system initialized
+[2018.12.12-06.16.32:633][  0]BlueprintLog: New page: Editor Load
+[2018.12.12-06.16.32:720][  0]LocalizationService: Localization service is disabled
+[2018.12.12-06.16.32:997][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.12.12-06.16.32:997][  0]LogCook: Display: Mobile HDR setting 1
+[2018.12.12-06.16.32:997][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.12.12-06.16.32:997][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.12.12-06.16.32:997][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.12.12-06.16.32:997][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.12.12-06.16.32:997][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.12.12-06.16.33:119][  0]LogFileCache: Scanning file cache for directory 'C:/Git Hub/TeamSadMen/TeamSadMen/Content/' took 0.02s
+[2018.12.12-06.16.33:119][  0]SourceControl: Source control is disabled
+[2018.12.12-06.16.33:119][  0]Cmd: MAP LOAD FILE="../../../../../../Git Hub/TeamSadMen/TeamSadMen/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.12.12-06.16.33:119][  0]LightingResults: New page: Lighting Build
+[2018.12.12-06.16.33:122][  0]MapCheck: New page: Map Check
+[2018.12.12-06.16.33:122][  0]LightingResults: New page: Lighting Build
+[2018.12.12-06.16.33:725][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2018.12.12-06.16.33:754][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.12.12-06.16.33:779][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.12.12-06.16.33:863][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 82.95ms to complete.
+[2018.12.12-06.16.33:863][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 0.743
+[2018.12.12-06.16.33:968][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.12-06.16.33:978][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.12-06.16.33:986][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.12-06.16.33:996][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.12-06.16.34:002][  0]LogCollectionManager: Loaded 0 collections in 0.001735 seconds
+[2018.12.12-06.16.34:045][  0]LogFileCache: Scanning file cache for directory 'C:/Git Hub/TeamSadMen/TeamSadMen/Saved/Collections/' took 0.01s
+[2018.12.12-06.16.34:045][  0]LogFileCache: Scanning file cache for directory 'C:/Git Hub/TeamSadMen/TeamSadMen/Content/Developers/kubok/Collections/' took 0.01s
+[2018.12.12-06.16.34:045][  0]LogFileCache: Scanning file cache for directory 'C:/Git Hub/TeamSadMen/TeamSadMen/Content/Collections/' took 0.01s
+[2018.12.12-06.16.34:045][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.12.12-06.16.34:055][  0]LogContentBrowser: Native class hierarchy populated in 0.0095 seconds. Added 2572 classes and 603 folders.
+[2018.12.12-06.16.34:063][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.12.12-06.16.34:109][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.12.12-06.16.34:113][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2018.12.12-06.16.34:186][  0]LogSlate: Took 0.000265 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.12.12-06.16.34:189][  0]LogSlate: Took 0.000275 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.12.12-06.16.34:199][  0]LogSlate: Took 0.000224 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.12.12-06.16.34:300][  0]LogRenderer: Reallocating scene render targets to support 960x396 Format 10 NumSamples 1 (Frame:1).
+[2018.12.12-06.16.34:458][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2018.12.12-06.16.34:458][  0]LogLoad: (Engine Initialization) Total time: 9.47 seconds
+[2018.12.12-06.16.34:458][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.12.12-06.16.34:478][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.12.12-06.16.34:500][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.12.12-06.16.34:519][  0]LogSlate: Took 0.000192 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.12.12-06.16.34:547][  1]LogAssetRegistry: Asset discovery search completed in 5.0426 seconds
+[2018.12.12-06.16.34:549][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.12.12-06.16.34:549][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000045 seconds (updated 0 objects)
+[2018.12.12-06.17.05:383][833]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.12-06.17.07:444][956]LogSlate: Took 0.000246 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.12.12-06.17.07:531][956]LogAIModule: Creating AISystem for world HomeLevel
+[2018.12.12-06.17.07:543][956]LogAssetEditorManager: Opening Asset editor for World /Game/FirstPersonBP/Maps/HomeLevel.HomeLevel
+[2018.12.12-06.17.07:567][956]Cmd: MAP LOAD FILE="../../../../../../Git Hub/TeamSadMen/TeamSadMen/Content/FirstPersonBP/Maps/HomeLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.12.12-06.17.07:567][956]LightingResults: New page: Lighting Build
+[2018.12.12-06.17.07:567][956]LoadErrors: New page: Loading map: HomeLevel.umap
+[2018.12.12-06.17.07:568][956]MapCheck: New page: Map Check
+[2018.12.12-06.17.07:568][956]LightingResults: New page: Lighting Build
+[2018.12.12-06.17.07:685][956]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.12.12-06.17.07:745][956]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.12.12-06.17.07:847][956]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 102.941ms to complete.
+[2018.12.12-06.17.07:848][956]LogFileHelpers: Loading map 'HomeLevel' took 0.282
+[2018.12.12-06.17.10:492][100]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape)
+[2018.12.12-06.17.10:540][100]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.12-06.17.13:556][274]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2018.12.12-06.17.14:202][309]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.12-06.17.16:905][471]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.12.12-06.17.18:035][536]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.12-06.17.25:805][  2]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2018.12.12-06.17.32:580][399]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2018.12.12-06.17.33:394][447]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.12.12-06.17.34:283][498]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.12-06.17.48:932][344]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animations/left_hand_idle" FILE="../../../../../../Git Hub/TeamSadMen/TeamSadMen/Content/Animations/left_hand_idle.uasset" SILENT=true
+[2018.12.12-06.17.48:957][344]LogSavePackage: Moving '../../../../../../Git Hub/TeamSadMen/TeamSadMen/Saved/left_hand_idleCC95D3164AFE941DC8C42591430000B5.tmp' to '../../../../../../Git Hub/TeamSadMen/TeamSadMen/Content/Animations/left_hand_idle.uasset'
+[2018.12.12-06.17.49:010][344]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animations/left_hand_idle_Anim" FILE="../../../../../../Git Hub/TeamSadMen/TeamSadMen/Content/Animations/left_hand_idle_Anim.uasset" SILENT=true
+[2018.12.12-06.17.49:031][344]LogSavePackage: Moving '../../../../../../Git Hub/TeamSadMen/TeamSadMen/Saved/left_hand_idle_AnimE7586F264063675BDB838FA1B723B321.tmp' to '../../../../../../Git Hub/TeamSadMen/TeamSadMen/Content/Animations/left_hand_idle_Anim.uasset'
+[2018.12.12-06.17.49:082][344]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animations/left_hand_idle_PhysicsAsset" FILE="../../../../../../Git Hub/TeamSadMen/TeamSadMen/Content/Animations/left_hand_idle_PhysicsAsset.uasset" SILENT=true
+[2018.12.12-06.17.49:108][344]LogSavePackage: Moving '../../../../../../Git Hub/TeamSadMen/TeamSadMen/Saved/left_hand_idle_PhysicsAssetC4BBC80C46E7BBB8403C60B5FB95CF29.tmp' to '../../../../../../Git Hub/TeamSadMen/TeamSadMen/Content/Animations/left_hand_idle_PhysicsAsset.uasset'
+[2018.12.12-06.17.49:120][344]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animations/left_hand_idle_Skeleton" FILE="../../../../../../Git Hub/TeamSadMen/TeamSadMen/Content/Animations/left_hand_idle_Skeleton.uasset" SILENT=true
+[2018.12.12-06.17.49:133][344]LogSavePackage: Moving '../../../../../../Git Hub/TeamSadMen/TeamSadMen/Saved/left_hand_idle_Skeleton83640AAA4EB9CDB2A9B66DB6C74AFCF9.tmp' to '../../../../../../Git Hub/TeamSadMen/TeamSadMen/Content/Animations/left_hand_idle_Skeleton.uasset'
+[2018.12.12-06.17.49:183][344]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animations/right_hand_idle" FILE="../../../../../../Git Hub/TeamSadMen/TeamSadMen/Content/Animations/right_hand_idle.uasset" SILENT=true
+[2018.12.12-06.17.49:208][344]LogSavePackage: Moving '../../../../../../Git Hub/TeamSadMen/TeamSadMen/Saved/right_hand_idle6CBCEDAC41710E927BEC8B87A28E0C2D.tmp' to '../../../../../../Git Hub/TeamSadMen/TeamSadMen/Content/Animations/right_hand_idle.uasset'
+[2018.12.12-06.17.49:257][344]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animations/right_hand_idle_Anim" FILE="../../../../../../Git Hub/TeamSadMen/TeamSadMen/Content/Animations/right_hand_idle_Anim.uasset" SILENT=true
+[2018.12.12-06.17.49:279][344]LogSavePackage: Moving '../../../../../../Git Hub/TeamSadMen/TeamSadMen/Saved/right_hand_idle_Anim1AF9E27B4DD74E7F85AF93957DAC35BA.tmp' to '../../../../../../Git Hub/TeamSadMen/TeamSadMen/Content/Animations/right_hand_idle_Anim.uasset'
+[2018.12.12-06.17.49:327][344]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animations/right_hand_idle_PhysicsAsset" FILE="../../../../../../Git Hub/TeamSadMen/TeamSadMen/Content/Animations/right_hand_idle_PhysicsAsset.uasset" SILENT=true
+[2018.12.12-06.17.49:351][344]LogSavePackage: Moving '../../../../../../Git Hub/TeamSadMen/TeamSadMen/Saved/right_hand_idle_PhysicsAsset3784B33348A39D6161FBEC9AD7550E1E.tmp' to '../../../../../../Git Hub/TeamSadMen/TeamSadMen/Content/Animations/right_hand_idle_PhysicsAsset.uasset'
+[2018.12.12-06.17.49:361][344]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animations/right_hand_idle_Skeleton" FILE="../../../../../../Git Hub/TeamSadMen/TeamSadMen/Content/Animations/right_hand_idle_Skeleton.uasset" SILENT=true
+[2018.12.12-06.17.49:374][344]LogSavePackage: Moving '../../../../../../Git Hub/TeamSadMen/TeamSadMen/Saved/right_hand_idle_Skeleton28840577421D642627E8E1829F2607C7.tmp' to '../../../../../../Git Hub/TeamSadMen/TeamSadMen/Content/Animations/right_hand_idle_Skeleton.uasset'
+[2018.12.12-06.18.00:975][750]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Git Hub/TeamSadMen/TeamSadMen/Import/left_hand_bell.fbx)
+[2018.12.12-06.18.00:991][750]LogFbx: Loading FBX Scene from ../../../../../../Git Hub/TeamSadMen/TeamSadMen/Import/left_hand_bell.fbx
+[2018.12.12-06.18.01:009][750]LogFbx: FBX Scene Loaded Succesfully
+[2018.12.12-06.18.13:562][750]LogSlate: Window 'FBX Import Options' being destroyed
+[2018.12.12-06.18.13:592][750]LogFbx: =================================================
+[2018.12.12-06.18.13:592][750]LogFbx: Dumping Node START [left] 
+[2018.12.12-06.18.13:592][750]LogFbx: 	Total Deformer Count 1727193408.
+[2018.12.12-06.18.13:592][750]LogFbx: 		[Node 1]  (Type Skin).
+[2018.12.12-06.18.13:592][750]LogFbx: =================================================
+[2018.12.12-06.18.13:592][750]LogFbx: 	Attribute () Type (4).
+[2018.12.12-06.18.13:592][750]LogFbx: 		[Node Attribute Child 1] left (Type Mesh).
+[2018.12.12-06.18.13:592][750]LogFbx: Dumping Node END [left]
+[2018.12.12-06.18.13:592][750]LogFbx: =================================================
+[2018.12.12-06.18.13:592][750]LogFbx: Dumping Node START [left] 
+[2018.12.12-06.18.13:592][750]LogFbx: 	Total Deformer Count 1727193408.
+[2018.12.12-06.18.13:592][750]LogFbx: 		[Node 1]  (Type Skin).
+[2018.12.12-06.18.13:592][750]LogFbx: =================================================
+[2018.12.12-06.18.13:592][750]LogFbx: 	Attribute () Type (4).
+[2018.12.12-06.18.13:592][750]LogFbx: 		[Node Attribute Child 1] left (Type Mesh).
+[2018.12.12-06.18.13:592][750]LogFbx: Dumping Node END [left]
+[2018.12.12-06.18.13:592][750]LogFbx: =================================================
+[2018.12.12-06.18.13:592][750]LogFbx: Dumping Node START [left] 
+[2018.12.12-06.18.13:592][750]LogFbx: 	Total Deformer Count 1727192352.
+[2018.12.12-06.18.13:592][750]LogFbx: 		[Node 1]  (Type Skin).
+[2018.12.12-06.18.13:592][750]LogFbx: =================================================
+[2018.12.12-06.18.13:592][750]LogFbx: 	Attribute () Type (4).
+[2018.12.12-06.18.13:592][750]LogFbx: 		[Node Attribute Child 1] left (Type Mesh).
+[2018.12.12-06.18.13:592][750]LogFbx: Dumping Node END [left]
+[2018.12.12-06.18.13:593][750]LogFbx: Valid bind pose for Pose (skinCluster2) - left
+[2018.12.12-06.18.13:751][750]LogMaterial: Warning: Material /Game/Animations/lambert1.lambert1 needed to have new flag set bUsedWithSkeletalMesh !
+[2018.12.12-06.18.13:753][750]LogMaterial: Display: Missing cached shader map for material lambert1, compiling. 
+[2018.12.12-06.18.13:832][750]LogShaderCompilers: Display: Shaders left to compile 60
+[2018.12.12-06.18.13:832][750]LogShaderCompilers: Display: Shaders left to compile 50
+[2018.12.12-06.18.13:832][750]LogShaderCompilers: Display: Shaders left to compile 40
+[2018.12.12-06.18.13:832][750]LogShaderCompilers: Display: Shaders left to compile 30
+[2018.12.12-06.18.13:836][750]LogMaterial: Display: Missing cached shader map for material lambert1, compiling. 
+[2018.12.12-06.18.13:875][750]LogFbx: Triangulating skeletal mesh left
+[2018.12.12-06.18.13:986][750]LogFbx: Warning: Bones digested - 17  Depth of hierarchy - 6
+[2018.12.12-06.18.14:037][750]LogSkeletalMesh: Section 0: 1312 vertices, 17 active bones
+[2018.12.12-06.18.14:037][750]LogSkeletalMesh: Section 0: Material=0, 1768 triangles
+[2018.12.12-06.18.14:038][750]LogSkeletalMesh: Building Skeletal Mesh left_hand_bell...
+[2018.12.12-06.18.14:040][750]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/Animations/left_hand_bell.left_hand_bell
+[2018.12.12-06.18.14:041][750]LogLinker: Can't find file '/Game/Animations/left_hand_bell_PhysicsAsset'
+[2018.12.12-06.18.14:041][750]LogLinker: Can't find file '/Game/Animations/left_hand_bell_PhysicsAsset'
+[2018.12.12-06.18.14:051][750]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_4:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0'
+[2018.12.12-06.18.14:057][750]LogFbx: =================================================
+[2018.12.12-06.18.14:057][750]LogFbx: Dumping Node START [left] 
+[2018.12.12-06.18.14:057][750]LogFbx: 	Total Deformer Count 1461686800.
+[2018.12.12-06.18.14:057][750]LogFbx: 		[Node 1]  (Type Skin).
+[2018.12.12-06.18.14:057][750]LogFbx: =================================================
+[2018.12.12-06.18.14:057][750]LogFbx: 	Attribute () Type (4).
+[2018.12.12-06.18.14:057][750]LogFbx: 		[Node Attribute Child 1] left (Type Mesh).
+[2018.12.12-06.18.14:058][750]LogFbx: Dumping Node END [left]
+[2018.12.12-06.18.14:058][750]LogFbx: =================================================
+[2018.12.12-06.18.14:058][750]LogFbx: Dumping Node START [left] 
+[2018.12.12-06.18.14:058][750]LogFbx: 	Total Deformer Count 1461686800.
+[2018.12.12-06.18.14:058][750]LogFbx: 		[Node 1]  (Type Skin).
+[2018.12.12-06.18.14:058][750]LogFbx: =================================================
+[2018.12.12-06.18.14:058][750]LogFbx: 	Attribute () Type (4).
+[2018.12.12-06.18.14:058][750]LogFbx: 		[Node Attribute Child 1] left (Type Mesh).
+[2018.12.12-06.18.14:058][750]LogFbx: Dumping Node END [left]
+[2018.12.12-06.18.14:058][750]LogFbx: =================================================
+[2018.12.12-06.18.14:058][750]LogFbx: Dumping Node START [left] 
+[2018.12.12-06.18.14:058][750]LogFbx: 	Total Deformer Count 1461690112.
+[2018.12.12-06.18.14:058][750]LogFbx: 		[Node 1]  (Type Skin).
+[2018.12.12-06.18.14:058][750]LogFbx: =================================================
+[2018.12.12-06.18.14:058][750]LogFbx: 	Attribute () Type (4).
+[2018.12.12-06.18.14:058][750]LogFbx: 		[Node Attribute Child 1] left (Type Mesh).
+[2018.12.12-06.18.14:058][750]LogFbx: Dumping Node END [left]
+[2018.12.12-06.18.14:058][750]LogFbx: SortedLinks :(0) joint1
+[2018.12.12-06.18.14:058][750]LogFbx: SortedLinks :(1) joint2
+[2018.12.12-06.18.14:058][750]LogFbx: SortedLinks :(2) joint3
+[2018.12.12-06.18.14:058][750]LogFbx: SortedLinks :(3) joint4
+[2018.12.12-06.18.14:058][750]LogFbx: SortedLinks :(4) joint5
+[2018.12.12-06.18.14:058][750]LogFbx: SortedLinks :(5) joint6
+[2018.12.12-06.18.14:058][750]LogFbx: SortedLinks :(6) joint7
+[2018.12.12-06.18.14:058][750]LogFbx: SortedLinks :(7) joint8
+[2018.12.12-06.18.14:058][750]LogFbx: SortedLinks :(8) joint9
+[2018.12.12-06.18.14:058][750]LogFbx: SortedLinks :(9) joint10
+[2018.12.12-06.18.14:058][750]LogFbx: SortedLinks :(10) joint11
+[2018.12.12-06.18.14:058][750]LogFbx: SortedLinks :(11) joint12
+[2018.12.12-06.18.14:058][750]LogFbx: SortedLinks :(12) joint13
+[2018.12.12-06.18.14:058][750]LogFbx: SortedLinks :(13) joint14
+[2018.12.12-06.18.14:058][750]LogFbx: SortedLinks :(14) joint15
+[2018.12.12-06.18.14:058][750]LogFbx: SortedLinks :(15) joint16
+[2018.12.12-06.18.14:058][750]LogFbx: SortedLinks :(16) joint17
+[2018.12.12-06.18.14:059][750]LogFbx: Parsing AnimStack Take 001
+[2018.12.12-06.18.14:060][750]LogLinker: Can't find file '/Game/Animations/left_hand_bell_Anim'
+[2018.12.12-06.18.14:060][750]LogLinker: Can't find file '/Game/Animations/left_hand_bell_Anim'
+[2018.12.12-06.18.14:183][750]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Animations/left_hand_bell_Anim.left_hand_bell_Anim
+[2018.12.12-06.18.14:184][750]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.left_hand_bell_Anim) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2018.12.12-06.18.14:190][750]LogSkeletalMesh: Building Skeletal Mesh left_hand_bell...
+[2018.12.12-06.18.14:193][750]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/Animations/left_hand_bell.left_hand_bell
+[2018.12.12-06.18.14:203][750]LogSkeletalMesh: Building Skeletal Mesh left_hand_bell...
+[2018.12.12-06.18.14:205][750]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/Animations/left_hand_bell.left_hand_bell
+[2018.12.12-06.18.16:732][882]LogShaderCompilers: Display: Shaders left to compile 60
+[2018.12.12-06.18.17:264][912]LogShaderCompilers: Display: Shaders left to compile 50
+[2018.12.12-06.18.20:262][918]LogShaderCompilers: Display: Shaders left to compile 40
+[2018.12.12-06.18.20:262][918]LogShaderCompilers: Display: Shaders left to compile 30
+[2018.12.12-06.18.20:262][918]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.12.12-06.18.20:282][918]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Git Hub/TeamSadMen/TeamSadMen/Import/left_hand_slam.fbx)
+[2018.12.12-06.18.20:299][918]LogFbx: Loading FBX Scene from ../../../../../../Git Hub/TeamSadMen/TeamSadMen/Import/left_hand_slam.fbx
+[2018.12.12-06.18.20:325][918]LogFbx: FBX Scene Loaded Succesfully
+[2018.12.12-06.18.20:594][918]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.12.12-06.18.24:786][918]LogSlate: Window 'FBX Import Options' being destroyed
+[2018.12.12-06.18.24:817][918]LogFbx: =================================================
+[2018.12.12-06.18.24:817][918]LogFbx: Dumping Node START [left] 
+[2018.12.12-06.18.24:817][918]LogFbx: 	Total Deformer Count 216709824.
+[2018.12.12-06.18.24:817][918]LogFbx: 		[Node 1]  (Type Skin).
+[2018.12.12-06.18.24:817][918]LogFbx: =================================================
+[2018.12.12-06.18.24:817][918]LogFbx: 	Attribute () Type (4).
+[2018.12.12-06.18.24:817][918]LogFbx: 		[Node Attribute Child 1] left (Type Mesh).
+[2018.12.12-06.18.24:817][918]LogFbx: Dumping Node END [left]
+[2018.12.12-06.18.24:817][918]LogFbx: =================================================
+[2018.12.12-06.18.24:817][918]LogFbx: Dumping Node START [left] 
+[2018.12.12-06.18.24:817][918]LogFbx: 	Total Deformer Count 216709824.
+[2018.12.12-06.18.24:817][918]LogFbx: 		[Node 1]  (Type Skin).
+[2018.12.12-06.18.24:817][918]LogFbx: =================================================
+[2018.12.12-06.18.24:817][918]LogFbx: 	Attribute () Type (4).
+[2018.12.12-06.18.24:817][918]LogFbx: 		[Node Attribute Child 1] left (Type Mesh).
+[2018.12.12-06.18.24:817][918]LogFbx: Dumping Node END [left]
+[2018.12.12-06.18.24:817][918]LogFbx: =================================================
+[2018.12.12-06.18.24:817][918]LogFbx: Dumping Node START [left] 
+[2018.12.12-06.18.24:817][918]LogFbx: 	Total Deformer Count 216710736.
+[2018.12.12-06.18.24:817][918]LogFbx: 		[Node 1]  (Type Skin).
+[2018.12.12-06.18.24:817][918]LogFbx: =================================================
+[2018.12.12-06.18.24:817][918]LogFbx: 	Attribute () Type (4).
+[2018.12.12-06.18.24:817][918]LogFbx: 		[Node Attribute Child 1] left (Type Mesh).
+[2018.12.12-06.18.24:817][918]LogFbx: Dumping Node END [left]
+[2018.12.12-06.18.24:818][918]LogFbx: Valid bind pose for Pose (skinCluster2) - left
+[2018.12.12-06.18.24:821][918]LogFbx: Triangulating skeletal mesh left
+[2018.12.12-06.18.24:914][918]LogFbx: Warning: Bones digested - 17  Depth of hierarchy - 6
+[2018.12.12-06.18.24:960][918]LogSkeletalMesh: Section 0: 1312 vertices, 17 active bones
+[2018.12.12-06.18.24:960][918]LogSkeletalMesh: Section 0: Material=0, 1768 triangles
+[2018.12.12-06.18.24:961][918]LogSkeletalMesh: Building Skeletal Mesh left_hand_slam...
+[2018.12.12-06.18.24:963][918]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/Animations/left_hand_slam.left_hand_slam
+[2018.12.12-06.18.24:964][918]LogLinker: Can't find file '/Game/Animations/left_hand_slam_PhysicsAsset'
+[2018.12.12-06.18.24:964][918]LogLinker: Can't find file '/Game/Animations/left_hand_slam_PhysicsAsset'
+[2018.12.12-06.18.24:974][918]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0'
+[2018.12.12-06.18.24:980][918]LogFbx: =================================================
+[2018.12.12-06.18.24:980][918]LogFbx: Dumping Node START [left] 
+[2018.12.12-06.18.24:980][918]LogFbx: 	Total Deformer Count 216702672.
+[2018.12.12-06.18.24:980][918]LogFbx: 		[Node 1]  (Type Skin).
+[2018.12.12-06.18.24:980][918]LogFbx: =================================================
+[2018.12.12-06.18.24:980][918]LogFbx: 	Attribute () Type (4).
+[2018.12.12-06.18.24:980][918]LogFbx: 		[Node Attribute Child 1] left (Type Mesh).
+[2018.12.12-06.18.24:980][918]LogFbx: Dumping Node END [left]
+[2018.12.12-06.18.24:980][918]LogFbx: =================================================
+[2018.12.12-06.18.24:980][918]LogFbx: Dumping Node START [left] 
+[2018.12.12-06.18.24:980][918]LogFbx: 	Total Deformer Count 216702672.
+[2018.12.12-06.18.24:980][918]LogFbx: 		[Node 1]  (Type Skin).
+[2018.12.12-06.18.24:981][918]LogFbx: =================================================
+[2018.12.12-06.18.24:981][918]LogFbx: 	Attribute () Type (4).
+[2018.12.12-06.18.24:981][918]LogFbx: 		[Node Attribute Child 1] left (Type Mesh).
+[2018.12.12-06.18.24:981][918]LogFbx: Dumping Node END [left]
+[2018.12.12-06.18.24:981][918]LogFbx: =================================================
+[2018.12.12-06.18.24:981][918]LogFbx: Dumping Node START [left] 
+[2018.12.12-06.18.24:981][918]LogFbx: 	Total Deformer Count 216702720.
+[2018.12.12-06.18.24:981][918]LogFbx: 		[Node 1]  (Type Skin).
+[2018.12.12-06.18.24:981][918]LogFbx: =================================================
+[2018.12.12-06.18.24:981][918]LogFbx: 	Attribute () Type (4).
+[2018.12.12-06.18.24:981][918]LogFbx: 		[Node Attribute Child 1] left (Type Mesh).
+[2018.12.12-06.18.24:981][918]LogFbx: Dumping Node END [left]
+[2018.12.12-06.18.24:981][918]LogFbx: SortedLinks :(0) joint1
+[2018.12.12-06.18.24:981][918]LogFbx: SortedLinks :(1) joint2
+[2018.12.12-06.18.24:981][918]LogFbx: SortedLinks :(2) joint3
+[2018.12.12-06.18.24:981][918]LogFbx: SortedLinks :(3) joint4
+[2018.12.12-06.18.24:981][918]LogFbx: SortedLinks :(4) joint5
+[2018.12.12-06.18.24:981][918]LogFbx: SortedLinks :(5) joint6
+[2018.12.12-06.18.24:981][918]LogFbx: SortedLinks :(6) joint7
+[2018.12.12-06.18.24:981][918]LogFbx: SortedLinks :(7) joint8
+[2018.12.12-06.18.24:981][918]LogFbx: SortedLinks :(8) joint9
+[2018.12.12-06.18.24:981][918]LogFbx: SortedLinks :(9) joint10
+[2018.12.12-06.18.24:981][918]LogFbx: SortedLinks :(10) joint11
+[2018.12.12-06.18.24:981][918]LogFbx: SortedLinks :(11) joint12
+[2018.12.12-06.18.24:981][918]LogFbx: SortedLinks :(12) joint13
+[2018.12.12-06.18.24:981][918]LogFbx: SortedLinks :(13) joint14
+[2018.12.12-06.18.24:981][918]LogFbx: SortedLinks :(14) joint15
+[2018.12.12-06.18.24:981][918]LogFbx: SortedLinks :(15) joint16
+[2018.12.12-06.18.24:981][918]LogFbx: SortedLinks :(16) joint17
+[2018.12.12-06.18.24:982][918]LogFbx: Parsing AnimStack Take 001
+[2018.12.12-06.18.24:983][918]LogLinker: Can't find file '/Game/Animations/left_hand_slam_Anim'
+[2018.12.12-06.18.24:983][918]LogLinker: Can't find file '/Game/Animations/left_hand_slam_Anim'
+[2018.12.12-06.18.25:292][918]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Animations/left_hand_slam_Anim.left_hand_slam_Anim
+[2018.12.12-06.18.25:293][918]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.left_hand_slam_Anim) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2018.12.12-06.18.25:301][918]LogSkeletalMesh: Building Skeletal Mesh left_hand_slam...
+[2018.12.12-06.18.25:303][918]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/Animations/left_hand_slam.left_hand_slam
+[2018.12.12-06.18.25:313][918]LogSkeletalMesh: Building Skeletal Mesh left_hand_slam...
+[2018.12.12-06.18.25:315][918]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/Animations/left_hand_slam.left_hand_slam
+[2018.12.12-06.18.30:235][ 63]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Git Hub/TeamSadMen/TeamSadMen/Import/right_hand_bell.fbx)
+[2018.12.12-06.18.30:247][ 63]LogFbx: Loading FBX Scene from ../../../../../../Git Hub/TeamSadMen/TeamSadMen/Import/right_hand_bell.fbx
+[2018.12.12-06.18.30:264][ 63]LogFbx: FBX Scene Loaded Succesfully
+[2018.12.12-06.18.32:815][ 63]LogSlate: Window 'FBX Import Options' being destroyed
+[2018.12.12-06.18.32:848][ 63]LogFbx: =================================================
+[2018.12.12-06.18.32:848][ 63]LogFbx: Dumping Node START [right] 
+[2018.12.12-06.18.32:848][ 63]LogFbx: 	Total Deformer Count 1832395552.
+[2018.12.12-06.18.32:848][ 63]LogFbx: 		[Node 1]  (Type Skin).
+[2018.12.12-06.18.32:848][ 63]LogFbx: =================================================
+[2018.12.12-06.18.32:848][ 63]LogFbx: 	Attribute () Type (4).
+[2018.12.12-06.18.32:848][ 63]LogFbx: 		[Node Attribute Child 1] right (Type Mesh).
+[2018.12.12-06.18.32:848][ 63]LogFbx: Dumping Node END [right]
+[2018.12.12-06.18.32:849][ 63]LogFbx: =================================================
+[2018.12.12-06.18.32:849][ 63]LogFbx: Dumping Node START [right] 
+[2018.12.12-06.18.32:849][ 63]LogFbx: 	Total Deformer Count 1832395552.
+[2018.12.12-06.18.32:849][ 63]LogFbx: 		[Node 1]  (Type Skin).
+[2018.12.12-06.18.32:849][ 63]LogFbx: =================================================
+[2018.12.12-06.18.32:849][ 63]LogFbx: 	Attribute () Type (4).
+[2018.12.12-06.18.32:849][ 63]LogFbx: 		[Node Attribute Child 1] right (Type Mesh).
+[2018.12.12-06.18.32:849][ 63]LogFbx: Dumping Node END [right]
+[2018.12.12-06.18.32:849][ 63]LogFbx: =================================================
+[2018.12.12-06.18.32:849][ 63]LogFbx: Dumping Node START [right] 
+[2018.12.12-06.18.32:849][ 63]LogFbx: 	Total Deformer Count 1832396416.
+[2018.12.12-06.18.32:849][ 63]LogFbx: 		[Node 1]  (Type Skin).
+[2018.12.12-06.18.32:849][ 63]LogFbx: =================================================
+[2018.12.12-06.18.32:849][ 63]LogFbx: 	Attribute () Type (4).
+[2018.12.12-06.18.32:849][ 63]LogFbx: 		[Node Attribute Child 1] right (Type Mesh).
+[2018.12.12-06.18.32:849][ 63]LogFbx: Dumping Node END [right]
+[2018.12.12-06.18.32:850][ 63]LogFbx: Valid bind pose for Pose (skinCluster1) - right
+[2018.12.12-06.18.32:854][ 63]LogFbx: Triangulating skeletal mesh right
+[2018.12.12-06.18.32:961][ 63]LogFbx: Warning: Bones digested - 17  Depth of hierarchy - 6
+[2018.12.12-06.18.32:999][ 63]LogSkeletalMesh: Section 0: 1312 vertices, 17 active bones
+[2018.12.12-06.18.32:999][ 63]LogSkeletalMesh: Section 0: Material=0, 1768 triangles
+[2018.12.12-06.18.32:999][ 63]LogSkeletalMesh: Building Skeletal Mesh right_hand_bell...
+[2018.12.12-06.18.33:001][ 63]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/Animations/right_hand_bell.right_hand_bell
+[2018.12.12-06.18.33:003][ 63]LogLinker: Can't find file '/Game/Animations/right_hand_bell_PhysicsAsset'
+[2018.12.12-06.18.33:003][ 63]LogLinker: Can't find file '/Game/Animations/right_hand_bell_PhysicsAsset'
+[2018.12.12-06.18.33:012][ 63]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0'
+[2018.12.12-06.18.33:019][ 63]LogFbx: =================================================
+[2018.12.12-06.18.33:019][ 63]LogFbx: Dumping Node START [right] 
+[2018.12.12-06.18.33:019][ 63]LogFbx: 	Total Deformer Count 1832399872.
+[2018.12.12-06.18.33:019][ 63]LogFbx: 		[Node 1]  (Type Skin).
+[2018.12.12-06.18.33:019][ 63]LogFbx: =================================================
+[2018.12.12-06.18.33:019][ 63]LogFbx: 	Attribute () Type (4).
+[2018.12.12-06.18.33:020][ 63]LogFbx: 		[Node Attribute Child 1] right (Type Mesh).
+[2018.12.12-06.18.33:020][ 63]LogFbx: Dumping Node END [right]
+[2018.12.12-06.18.33:020][ 63]LogFbx: =================================================
+[2018.12.12-06.18.33:020][ 63]LogFbx: Dumping Node START [right] 
+[2018.12.12-06.18.33:020][ 63]LogFbx: 	Total Deformer Count 1832399872.
+[2018.12.12-06.18.33:020][ 63]LogFbx: 		[Node 1]  (Type Skin).
+[2018.12.12-06.18.33:020][ 63]LogFbx: =================================================
+[2018.12.12-06.18.33:020][ 63]LogFbx: 	Attribute () Type (4).
+[2018.12.12-06.18.33:020][ 63]LogFbx: 		[Node Attribute Child 1] right (Type Mesh).
+[2018.12.12-06.18.33:020][ 63]LogFbx: Dumping Node END [right]
+[2018.12.12-06.18.33:020][ 63]LogFbx: =================================================
+[2018.12.12-06.18.33:020][ 63]LogFbx: Dumping Node START [right] 
+[2018.12.12-06.18.33:020][ 63]LogFbx: 	Total Deformer Count 1832388592.
+[2018.12.12-06.18.33:020][ 63]LogFbx: 		[Node 1]  (Type Skin).
+[2018.12.12-06.18.33:020][ 63]LogFbx: =================================================
+[2018.12.12-06.18.33:020][ 63]LogFbx: 	Attribute () Type (4).
+[2018.12.12-06.18.33:020][ 63]LogFbx: 		[Node Attribute Child 1] right (Type Mesh).
+[2018.12.12-06.18.33:020][ 63]LogFbx: Dumping Node END [right]
+[2018.12.12-06.18.33:020][ 63]LogFbx: SortedLinks :(0) joint18
+[2018.12.12-06.18.33:020][ 63]LogFbx: SortedLinks :(1) joint19
+[2018.12.12-06.18.33:020][ 63]LogFbx: SortedLinks :(2) joint20
+[2018.12.12-06.18.33:020][ 63]LogFbx: SortedLinks :(3) joint21
+[2018.12.12-06.18.33:020][ 63]LogFbx: SortedLinks :(4) joint22
+[2018.12.12-06.18.33:020][ 63]LogFbx: SortedLinks :(5) joint23
+[2018.12.12-06.18.33:020][ 63]LogFbx: SortedLinks :(6) joint24
+[2018.12.12-06.18.33:020][ 63]LogFbx: SortedLinks :(7) joint25
+[2018.12.12-06.18.33:020][ 63]LogFbx: SortedLinks :(8) joint26
+[2018.12.12-06.18.33:020][ 63]LogFbx: SortedLinks :(9) joint27
+[2018.12.12-06.18.33:020][ 63]LogFbx: SortedLinks :(10) joint28
+[2018.12.12-06.18.33:020][ 63]LogFbx: SortedLinks :(11) joint29
+[2018.12.12-06.18.33:020][ 63]LogFbx: SortedLinks :(12) joint30
+[2018.12.12-06.18.33:020][ 63]LogFbx: SortedLinks :(13) joint31
+[2018.12.12-06.18.33:021][ 63]LogFbx: SortedLinks :(14) joint32
+[2018.12.12-06.18.33:021][ 63]LogFbx: SortedLinks :(15) joint33
+[2018.12.12-06.18.33:021][ 63]LogFbx: SortedLinks :(16) joint34
+[2018.12.12-06.18.33:021][ 63]LogFbx: Parsing AnimStack Take 001
+[2018.12.12-06.18.33:022][ 63]LogLinker: Can't find file '/Game/Animations/right_hand_bell_Anim'
+[2018.12.12-06.18.33:022][ 63]LogLinker: Can't find file '/Game/Animations/right_hand_bell_Anim'
+[2018.12.12-06.18.33:141][ 63]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Animations/right_hand_bell_Anim.right_hand_bell_Anim
+[2018.12.12-06.18.33:141][ 63]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.right_hand_bell_Anim) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2018.12.12-06.18.33:147][ 63]LogSkeletalMesh: Building Skeletal Mesh right_hand_bell...
+[2018.12.12-06.18.33:149][ 63]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/Animations/right_hand_bell.right_hand_bell
+[2018.12.12-06.18.33:158][ 63]LogSkeletalMesh: Building Skeletal Mesh right_hand_bell...
+[2018.12.12-06.18.33:159][ 63]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/Animations/right_hand_bell.right_hand_bell
+[2018.12.12-06.18.38:546][ 96]LogSlate: Window 'Message' being destroyed
+[2018.12.12-06.18.41:580][134]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Git Hub/TeamSadMen/TeamSadMen/Import/right_hand_slam.fbx)
+[2018.12.12-06.18.41:593][134]LogFbx: Loading FBX Scene from ../../../../../../Git Hub/TeamSadMen/TeamSadMen/Import/right_hand_slam.fbx
+[2018.12.12-06.18.41:611][134]LogFbx: FBX Scene Loaded Succesfully
+[2018.12.12-06.18.43:609][134]LogSlate: Window 'FBX Import Options' being destroyed
+[2018.12.12-06.18.43:638][134]LogFbx: =================================================
+[2018.12.12-06.18.43:638][134]LogFbx: Dumping Node START [right] 
+[2018.12.12-06.18.43:638][134]LogFbx: 	Total Deformer Count -2101793184.
+[2018.12.12-06.18.43:638][134]LogFbx: 		[Node 1]  (Type Skin).
+[2018.12.12-06.18.43:638][134]LogFbx: =================================================
+[2018.12.12-06.18.43:638][134]LogFbx: 	Attribute () Type (4).
+[2018.12.12-06.18.43:638][134]LogFbx: 		[Node Attribute Child 1] right (Type Mesh).
+[2018.12.12-06.18.43:638][134]LogFbx: Dumping Node END [right]
+[2018.12.12-06.18.43:638][134]LogFbx: =================================================
+[2018.12.12-06.18.43:638][134]LogFbx: Dumping Node START [right] 
+[2018.12.12-06.18.43:638][134]LogFbx: 	Total Deformer Count -2101793184.
+[2018.12.12-06.18.43:638][134]LogFbx: 		[Node 1]  (Type Skin).
+[2018.12.12-06.18.43:638][134]LogFbx: =================================================
+[2018.12.12-06.18.43:638][134]LogFbx: 	Attribute () Type (4).
+[2018.12.12-06.18.43:638][134]LogFbx: 		[Node Attribute Child 1] right (Type Mesh).
+[2018.12.12-06.18.43:638][134]LogFbx: Dumping Node END [right]
+[2018.12.12-06.18.43:638][134]LogFbx: =================================================
+[2018.12.12-06.18.43:638][134]LogFbx: Dumping Node START [right] 
+[2018.12.12-06.18.43:638][134]LogFbx: 	Total Deformer Count -2101792128.
+[2018.12.12-06.18.43:638][134]LogFbx: 		[Node 1]  (Type Skin).
+[2018.12.12-06.18.43:638][134]LogFbx: =================================================
+[2018.12.12-06.18.43:638][134]LogFbx: 	Attribute () Type (4).
+[2018.12.12-06.18.43:638][134]LogFbx: 		[Node Attribute Child 1] right (Type Mesh).
+[2018.12.12-06.18.43:638][134]LogFbx: Dumping Node END [right]
+[2018.12.12-06.18.43:639][134]LogFbx: Valid bind pose for Pose (skinCluster1) - right
+[2018.12.12-06.18.43:642][134]LogFbx: Triangulating skeletal mesh right
+[2018.12.12-06.18.43:737][134]LogFbx: Warning: Bones digested - 17  Depth of hierarchy - 6
+[2018.12.12-06.18.43:776][134]LogSkeletalMesh: Section 0: 1312 vertices, 17 active bones
+[2018.12.12-06.18.43:776][134]LogSkeletalMesh: Section 0: Material=0, 1768 triangles
+[2018.12.12-06.18.43:777][134]LogSkeletalMesh: Building Skeletal Mesh right_hand_slam...
+[2018.12.12-06.18.43:778][134]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/Animations/right_hand_slam.right_hand_slam
+[2018.12.12-06.18.43:780][134]LogLinker: Can't find file '/Game/Animations/right_hand_slam_PhysicsAsset'
+[2018.12.12-06.18.43:780][134]LogLinker: Can't find file '/Game/Animations/right_hand_slam_PhysicsAsset'
+[2018.12.12-06.18.43:789][134]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_10:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0'
+[2018.12.12-06.18.43:795][134]LogFbx: =================================================
+[2018.12.12-06.18.43:796][134]LogFbx: Dumping Node START [right] 
+[2018.12.12-06.18.43:796][134]LogFbx: 	Total Deformer Count -2101797456.
+[2018.12.12-06.18.43:796][134]LogFbx: 		[Node 1]  (Type Skin).
+[2018.12.12-06.18.43:796][134]LogFbx: =================================================
+[2018.12.12-06.18.43:796][134]LogFbx: 	Attribute () Type (4).
+[2018.12.12-06.18.43:796][134]LogFbx: 		[Node Attribute Child 1] right (Type Mesh).
+[2018.12.12-06.18.43:796][134]LogFbx: Dumping Node END [right]
+[2018.12.12-06.18.43:796][134]LogFbx: =================================================
+[2018.12.12-06.18.43:796][134]LogFbx: Dumping Node START [right] 
+[2018.12.12-06.18.43:796][134]LogFbx: 	Total Deformer Count -2101797456.
+[2018.12.12-06.18.43:796][134]LogFbx: 		[Node 1]  (Type Skin).
+[2018.12.12-06.18.43:796][134]LogFbx: =================================================
+[2018.12.12-06.18.43:796][134]LogFbx: 	Attribute () Type (4).
+[2018.12.12-06.18.43:796][134]LogFbx: 		[Node Attribute Child 1] right (Type Mesh).
+[2018.12.12-06.18.43:796][134]LogFbx: Dumping Node END [right]
+[2018.12.12-06.18.43:796][134]LogFbx: =================================================
+[2018.12.12-06.18.43:796][134]LogFbx: Dumping Node START [right] 
+[2018.12.12-06.18.43:796][134]LogFbx: 	Total Deformer Count -2101797408.
+[2018.12.12-06.18.43:796][134]LogFbx: 		[Node 1]  (Type Skin).
+[2018.12.12-06.18.43:796][134]LogFbx: =================================================
+[2018.12.12-06.18.43:796][134]LogFbx: 	Attribute () Type (4).
+[2018.12.12-06.18.43:796][134]LogFbx: 		[Node Attribute Child 1] right (Type Mesh).
+[2018.12.12-06.18.43:796][134]LogFbx: Dumping Node END [right]
+[2018.12.12-06.18.43:796][134]LogFbx: SortedLinks :(0) joint18
+[2018.12.12-06.18.43:796][134]LogFbx: SortedLinks :(1) joint19
+[2018.12.12-06.18.43:796][134]LogFbx: SortedLinks :(2) joint20
+[2018.12.12-06.18.43:796][134]LogFbx: SortedLinks :(3) joint21
+[2018.12.12-06.18.43:796][134]LogFbx: SortedLinks :(4) joint22
+[2018.12.12-06.18.43:796][134]LogFbx: SortedLinks :(5) joint23
+[2018.12.12-06.18.43:796][134]LogFbx: SortedLinks :(6) joint24
+[2018.12.12-06.18.43:796][134]LogFbx: SortedLinks :(7) joint25
+[2018.12.12-06.18.43:796][134]LogFbx: SortedLinks :(8) joint26
+[2018.12.12-06.18.43:796][134]LogFbx: SortedLinks :(9) joint27
+[2018.12.12-06.18.43:796][134]LogFbx: SortedLinks :(10) joint28
+[2018.12.12-06.18.43:796][134]LogFbx: SortedLinks :(11) joint29
+[2018.12.12-06.18.43:796][134]LogFbx: SortedLinks :(12) joint30
+[2018.12.12-06.18.43:797][134]LogFbx: SortedLinks :(13) joint31
+[2018.12.12-06.18.43:797][134]LogFbx: SortedLinks :(14) joint32
+[2018.12.12-06.18.43:797][134]LogFbx: SortedLinks :(15) joint33
+[2018.12.12-06.18.43:797][134]LogFbx: SortedLinks :(16) joint34
+[2018.12.12-06.18.43:797][134]LogFbx: Parsing AnimStack Take 001
+[2018.12.12-06.18.43:798][134]LogLinker: Can't find file '/Game/Animations/right_hand_slam_Anim'
+[2018.12.12-06.18.43:798][134]LogLinker: Can't find file '/Game/Animations/right_hand_slam_Anim'
+[2018.12.12-06.18.44:099][134]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Animations/right_hand_slam_Anim.right_hand_slam_Anim
+[2018.12.12-06.18.44:100][134]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.right_hand_slam_Anim) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2018.12.12-06.18.44:107][134]LogSkeletalMesh: Building Skeletal Mesh right_hand_slam...
+[2018.12.12-06.18.44:109][134]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/Animations/right_hand_slam.right_hand_slam
+[2018.12.12-06.18.44:117][134]LogSkeletalMesh: Building Skeletal Mesh right_hand_slam...
+[2018.12.12-06.18.44:119][134]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/Animations/right_hand_slam.right_hand_slam
+[2018.12.12-06.18.45:982][222]LogAssetEditorManager: Opening Asset editor for AnimSequence /Game/Animations/right_hand_slam_Anim.right_hand_slam_Anim
+[2018.12.12-06.18.45:991][222]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2018.12.12-06.18.46:234][222]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_12:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.12.12-06.18.46:237][222]LogContentBrowser: Native class hierarchy updated for 'PinnedCommandList' in 0.0002 seconds. Added 1 classes and 0 folders.
+[2018.12.12-06.18.46:273][222]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_12:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2018.12.12-06.18.46:708][222]LogContentBrowser: Native class hierarchy updated for 'ClothingSystemEditorInterface' in 0.0002 seconds. Added 1 classes and 0 folders.
+[2018.12.12-06.18.46:712][222]LogRenderer: Reallocating scene render targets to support 960x420 Format 10 NumSamples 1 (Frame:1).
+[2018.12.12-06.18.46:712][222]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2018.12.12-06.18.48:313][313]LogAssetEditorManager: Opening Asset editor for Skeleton /Game/Animations/right_hand_idle_Skeleton.right_hand_idle_Skeleton
+[2018.12.12-06.18.48:332][313]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_15:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.12.12-06.18.48:367][313]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_15:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2018.12.12-06.18.48:667][314]LogRenderer: Reallocating scene render targets to support 960x672 Format 10 NumSamples 1 (Frame:1).
+[2018.12.12-06.18.49:969][384]LogAssetEditorManager: Opening Asset editor for SkeletalMesh /Game/Animations/right_hand_idle.right_hand_idle
+[2018.12.12-06.18.49:983][384]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_16:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.12.12-06.18.50:020][384]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_16:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2018.12.12-06.18.50:294][384]LogSlate: Took 0.000188 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.12.12-06.18.59:652][905]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.12-06.19.01:809][ 17]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.12-06.19.10:015][447]LogSlate: Window 'right_hand_idle' being destroyed
+[2018.12.12-06.19.13:075][602]LogAssetEditorManager: Opening Asset editor for AnimSequence /Game/Animations/left_hand_bell_Anim.left_hand_bell_Anim
+[2018.12.12-06.19.13:091][602]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_21:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.12.12-06.19.13:122][602]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_21:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2018.12.12-06.19.13:597][602]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2018.12.12-06.19.15:030][677]LogSlate: Window 'left_hand_bell_Anim*' being destroyed
+[2018.12.12-06.19.15:044][678]LogRenderer: Reallocating scene render targets to support 1200x672 Format 10 NumSamples 1 (Frame:3777).
+[2018.12.12-06.20.06:236][563]LogAssetEditorManager: Opening Asset editor for AnimSequence /Game/Animations/right_hand_slam_Anim.right_hand_slam_Anim
+[2018.12.12-06.20.06:261][563]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_27:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.12.12-06.20.06:271][563]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_27:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2018.12.12-06.20.06:728][563]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2018.12.12-06.20.43:322][725]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animations/right_hand_slam_Anim" FILE="../../../../../../Git Hub/TeamSadMen/TeamSadMen/Content/Animations/right_hand_slam_Anim.uasset" SILENT=true
+[2018.12.12-06.20.43:344][725]LogSavePackage: Moving '../../../../../../Git Hub/TeamSadMen/TeamSadMen/Saved/right_hand_slam_Anim6A84EB1E4BB1F21123D911A99EFF992F.tmp' to '../../../../../../Git Hub/TeamSadMen/TeamSadMen/Content/Animations/right_hand_slam_Anim.uasset'
+[2018.12.12-06.20.43:370][725]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animations/right_hand_slam_PhysicsAsset" FILE="../../../../../../Git Hub/TeamSadMen/TeamSadMen/Content/Animations/right_hand_slam_PhysicsAsset.uasset" SILENT=true
+[2018.12.12-06.20.43:395][725]LogSavePackage: Moving '../../../../../../Git Hub/TeamSadMen/TeamSadMen/Saved/right_hand_slam_PhysicsAssetC863AD0B48CDBC13BF8A37AC66C58610.tmp' to '../../../../../../Git Hub/TeamSadMen/TeamSadMen/Content/Animations/right_hand_slam_PhysicsAsset.uasset'
+[2018.12.12-06.20.43:420][725]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animations/right_hand_slam" FILE="../../../../../../Git Hub/TeamSadMen/TeamSadMen/Content/Animations/right_hand_slam.uasset" SILENT=true
+[2018.12.12-06.20.43:445][725]LogSavePackage: Moving '../../../../../../Git Hub/TeamSadMen/TeamSadMen/Saved/right_hand_slam1C4D778C41A71CF2E05D968DB1B5857D.tmp' to '../../../../../../Git Hub/TeamSadMen/TeamSadMen/Content/Animations/right_hand_slam.uasset'
+[2018.12.12-06.20.43:474][725]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animations/right_hand_bell_Anim" FILE="../../../../../../Git Hub/TeamSadMen/TeamSadMen/Content/Animations/right_hand_bell_Anim.uasset" SILENT=true
+[2018.12.12-06.20.43:496][725]LogSavePackage: Moving '../../../../../../Git Hub/TeamSadMen/TeamSadMen/Saved/right_hand_bell_Anim9B7849954600256CC7C37B9DD0F4C959.tmp' to '../../../../../../Git Hub/TeamSadMen/TeamSadMen/Content/Animations/right_hand_bell_Anim.uasset'
+[2018.12.12-06.20.43:523][725]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animations/right_hand_bell_PhysicsAsset" FILE="../../../../../../Git Hub/TeamSadMen/TeamSadMen/Content/Animations/right_hand_bell_PhysicsAsset.uasset" SILENT=true
+[2018.12.12-06.20.43:547][725]LogSavePackage: Moving '../../../../../../Git Hub/TeamSadMen/TeamSadMen/Saved/right_hand_bell_PhysicsAssetED46272545D380ECE92230A04D102AC9.tmp' to '../../../../../../Git Hub/TeamSadMen/TeamSadMen/Content/Animations/right_hand_bell_PhysicsAsset.uasset'
+[2018.12.12-06.20.43:574][725]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animations/right_hand_bell" FILE="../../../../../../Git Hub/TeamSadMen/TeamSadMen/Content/Animations/right_hand_bell.uasset" SILENT=true
+[2018.12.12-06.20.43:605][725]LogSavePackage: Moving '../../../../../../Git Hub/TeamSadMen/TeamSadMen/Saved/right_hand_bellBEE939A3453073DBE33492956E3E4142.tmp' to '../../../../../../Git Hub/TeamSadMen/TeamSadMen/Content/Animations/right_hand_bell.uasset'
+[2018.12.12-06.20.43:632][725]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animations/left_hand_slam_Anim" FILE="../../../../../../Git Hub/TeamSadMen/TeamSadMen/Content/Animations/left_hand_slam_Anim.uasset" SILENT=true
+[2018.12.12-06.20.43:655][725]LogSavePackage: Moving '../../../../../../Git Hub/TeamSadMen/TeamSadMen/Saved/left_hand_slam_Anim3294B4144871D9683AB0BDB536D745A6.tmp' to '../../../../../../Git Hub/TeamSadMen/TeamSadMen/Content/Animations/left_hand_slam_Anim.uasset'
+[2018.12.12-06.20.43:682][725]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animations/left_hand_slam_PhysicsAsset" FILE="../../../../../../Git Hub/TeamSadMen/TeamSadMen/Content/Animations/left_hand_slam_PhysicsAsset.uasset" SILENT=true
+[2018.12.12-06.20.43:706][725]LogSavePackage: Moving '../../../../../../Git Hub/TeamSadMen/TeamSadMen/Saved/left_hand_slam_PhysicsAsset9DF6B8A8472348C5BB4A2FAF4B40C9C9.tmp' to '../../../../../../Git Hub/TeamSadMen/TeamSadMen/Content/Animations/left_hand_slam_PhysicsAsset.uasset'
+[2018.12.12-06.20.43:732][725]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animations/left_hand_slam" FILE="../../../../../../Git Hub/TeamSadMen/TeamSadMen/Content/Animations/left_hand_slam.uasset" SILENT=true
+[2018.12.12-06.20.43:757][725]LogSavePackage: Moving '../../../../../../Git Hub/TeamSadMen/TeamSadMen/Saved/left_hand_slamB7C34C8B41DC6309549778B4F707F270.tmp' to '../../../../../../Git Hub/TeamSadMen/TeamSadMen/Content/Animations/left_hand_slam.uasset'
+[2018.12.12-06.20.43:783][725]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animations/left_hand_bell_Anim" FILE="../../../../../../Git Hub/TeamSadMen/TeamSadMen/Content/Animations/left_hand_bell_Anim.uasset" SILENT=true
+[2018.12.12-06.20.43:804][725]LogSavePackage: Moving '../../../../../../Git Hub/TeamSadMen/TeamSadMen/Saved/left_hand_bell_Anim2DEE08D248FB10D869D9D6AC9AD30B44.tmp' to '../../../../../../Git Hub/TeamSadMen/TeamSadMen/Content/Animations/left_hand_bell_Anim.uasset'
+[2018.12.12-06.20.43:829][725]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animations/left_hand_bell_PhysicsAsset" FILE="../../../../../../Git Hub/TeamSadMen/TeamSadMen/Content/Animations/left_hand_bell_PhysicsAsset.uasset" SILENT=true
+[2018.12.12-06.20.43:854][725]LogSavePackage: Moving '../../../../../../Git Hub/TeamSadMen/TeamSadMen/Saved/left_hand_bell_PhysicsAsset50EA7DF84C432A544BAAEB88CCCCE89F.tmp' to '../../../../../../Git Hub/TeamSadMen/TeamSadMen/Content/Animations/left_hand_bell_PhysicsAsset.uasset'
+[2018.12.12-06.20.43:890][725]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animations/lambert1" FILE="../../../../../../Git Hub/TeamSadMen/TeamSadMen/Content/Animations/lambert1.uasset" SILENT=true
+[2018.12.12-06.20.43:910][725]LogSavePackage: Moving '../../../../../../Git Hub/TeamSadMen/TeamSadMen/Saved/lambert16D67D9C14B3459B3D813DA94F5117688.tmp' to '../../../../../../Git Hub/TeamSadMen/TeamSadMen/Content/Animations/lambert1.uasset'
+[2018.12.12-06.20.43:935][725]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animations/left_hand_bell" FILE="../../../../../../Git Hub/TeamSadMen/TeamSadMen/Content/Animations/left_hand_bell.uasset" SILENT=true
+[2018.12.12-06.20.43:960][725]LogSavePackage: Moving '../../../../../../Git Hub/TeamSadMen/TeamSadMen/Saved/left_hand_bell3B150B944958B990C48766AD7066518D.tmp' to '../../../../../../Git Hub/TeamSadMen/TeamSadMen/Content/Animations/left_hand_bell.uasset'
+[2018.12.12-06.22.01:636][133]LogContentBrowser: Verbose: The majority of assets in the view are of type: Skeleton
+[2018.12.12-06.22.05:578][133]LogContentBrowser: Verbose: The majority of assets in the view are of type: Skeleton
+[2018.12.12-06.22.14:299][133]LogSlate: Window 'Create Animation Blueprint' being destroyed
+[2018.12.12-06.23.09:505][ 59]LogMetaData: Removing '/Game/Animations/LeftHand_AnimBP.LeftHand_AnimBP:AnimGraph.AnimGraphNode_Root_0' ref from Metadata '/Game/Animations/NewAnimBlueprint.PackageMetaData'
+[2018.12.12-06.23.09:505][ 59]LogMetaData: Removing '/Game/Animations/LeftHand_AnimBP.SKEL_LeftHand_AnimBP_C' ref from Metadata '/Game/Animations/NewAnimBlueprint.PackageMetaData'
+[2018.12.12-06.23.09:505][ 59]LogMetaData: Removing '/Game/Animations/LeftHand_AnimBP.LeftHand_AnimBP_C' ref from Metadata '/Game/Animations/NewAnimBlueprint.PackageMetaData'
+[2018.12.12-06.23.09:505][ 59]LogMetaData: Removing '/Game/Animations/LeftHand_AnimBP.LeftHand_AnimBP:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Animations/NewAnimBlueprint.PackageMetaData'
+[2018.12.12-06.23.09:609][ 59]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animations/LeftHand_AnimBP" FILE="../../../../../../Git Hub/TeamSadMen/TeamSadMen/Content/Animations/LeftHand_AnimBP.uasset" SILENT=true
+[2018.12.12-06.23.09:634][ 59]LogSavePackage: Moving '../../../../../../Git Hub/TeamSadMen/TeamSadMen/Saved/LeftHand_AnimBPBECCDB8B4B5E31F103646585E3C99231.tmp' to '../../../../../../Git Hub/TeamSadMen/TeamSadMen/Content/Animations/LeftHand_AnimBP.uasset'
+[2018.12.12-06.23.11:593][123]LogAssetEditorManager: Opening Asset editor for AnimBlueprint /Game/Animations/LeftHand_AnimBP.LeftHand_AnimBP
+[2018.12.12-06.23.11:622][123]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_35:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.12.12-06.23.12:160][123]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 116 classes and 0 folders.
+[2018.12.12-06.23.12:910][123]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_35:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2018.12.12-06.23.13:181][123]LogSlate: Took 0.000184 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.12.12-06.23.28:003][996]LogAssetEditorManager: Opening Asset editor for PhysicsAsset /Game/Animations/left_hand_idle_PhysicsAsset.left_hand_idle_PhysicsAsset
+[2018.12.12-06.23.28:019][996]LogContentBrowser: Native class hierarchy updated for 'PhysicsAssetEditor' in 0.0003 seconds. Added 7 classes and 3 folders.
+[2018.12.12-06.23.28:033][996]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_37:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0) Already registered. Aborting.
+[2018.12.12-06.25.25:797][946]LogSlate: Window 'Message' being destroyed
+[2018.12.12-06.25.25:803][946]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Git Hub/TeamSadMen/TeamSadMen/Import/left_hand_slam.fbx)
+[2018.12.12-06.25.25:805][946]LogEditorFactories: Performing atomic reimport of [C:/Git Hub/TeamSadMen/TeamSadMen/Import/left_hand_slam.fbx]
+[2018.12.12-06.25.25:823][946]LogFbx: Loading FBX Scene from C:/Git Hub/TeamSadMen/TeamSadMen/Import/left_hand_slam.fbx
+[2018.12.12-06.25.25:840][946]LogFbx: FBX Scene Loaded Succesfully
+[2018.12.12-06.25.25:840][946]LogFbx: =================================================
+[2018.12.12-06.25.25:840][946]LogFbx: Dumping Node START [left] 
+[2018.12.12-06.25.25:840][946]LogFbx: 	Total Deformer Count -2056482672.
+[2018.12.12-06.25.25:840][946]LogFbx: 		[Node 1]  (Type Skin).
+[2018.12.12-06.25.25:840][946]LogFbx: =================================================
+[2018.12.12-06.25.25:840][946]LogFbx: 	Attribute () Type (4).
+[2018.12.12-06.25.25:840][946]LogFbx: 		[Node Attribute Child 1] left (Type Mesh).
+[2018.12.12-06.25.25:840][946]LogFbx: Dumping Node END [left]
+[2018.12.12-06.25.25:840][946]LogFbx: =================================================
+[2018.12.12-06.25.25:840][946]LogFbx: Dumping Node START [left] 
+[2018.12.12-06.25.25:840][946]LogFbx: 	Total Deformer Count -2056482672.
+[2018.12.12-06.25.25:840][946]LogFbx: 		[Node 1]  (Type Skin).
+[2018.12.12-06.25.25:840][946]LogFbx: =================================================
+[2018.12.12-06.25.25:840][946]LogFbx: 	Attribute () Type (4).
+[2018.12.12-06.25.25:840][946]LogFbx: 		[Node Attribute Child 1] left (Type Mesh).
+[2018.12.12-06.25.25:840][946]LogFbx: Dumping Node END [left]
+[2018.12.12-06.25.25:840][946]LogFbx: =================================================
+[2018.12.12-06.25.25:840][946]LogFbx: Dumping Node START [left] 
+[2018.12.12-06.25.25:840][946]LogFbx: 	Total Deformer Count -2056485600.
+[2018.12.12-06.25.25:840][946]LogFbx: 		[Node 1]  (Type Skin).
+[2018.12.12-06.25.25:840][946]LogFbx: =================================================
+[2018.12.12-06.25.25:840][946]LogFbx: 	Attribute () Type (4).
+[2018.12.12-06.25.25:840][946]LogFbx: 		[Node Attribute Child 1] left (Type Mesh).
+[2018.12.12-06.25.25:840][946]LogFbx: Dumping Node END [left]
+[2018.12.12-06.25.25:841][946]LogFbx: Valid bind pose for Pose (skinCluster2) - left
+[2018.12.12-06.25.25:843][946]LogFbx: Triangulating skeletal mesh left
+[2018.12.12-06.25.25:934][946]LogUObjectHash: Warning: Ambiguous search, could be Material /Game/lambert1.lambert1 or Material /Game/Animations/lambert1.lambert1
+[2018.12.12-06.25.25:934][946]LogFbx: Warning: Bones digested - 17  Depth of hierarchy - 6
+[2018.12.12-06.25.25:968][946]LogSkeletalMesh: Section 0: 1312 vertices, 17 active bones
+[2018.12.12-06.25.25:968][946]LogSkeletalMesh: Section 0: Material=0, 1768 triangles
+[2018.12.12-06.25.25:969][946]LogSkeletalMesh: Building Skeletal Mesh left_hand_slam...
+[2018.12.12-06.25.25:971][946]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/Animations/left_hand_slam.left_hand_slam
+[2018.12.12-06.25.25:972][946]LogEditorFactories: -- imported successfully
+[2018.12.12-06.25.25:981][946]LogSkeletalMesh: Building Skeletal Mesh left_hand_slam...
+[2018.12.12-06.25.25:983][946]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/Animations/left_hand_slam.left_hand_slam
+[2018.12.12-06.25.25:991][946]LogSkeletalMesh: Building Skeletal Mesh left_hand_slam...
+[2018.12.12-06.25.25:993][946]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/Animations/left_hand_slam.left_hand_slam
+[2018.12.12-06.26.00:467][564]LogSlate: Window 'Delete Assets' being destroyed
+[2018.12.12-06.26.01:784][564]LogSkeletalMesh: Building Skeletal Mesh left_hand_slam...
+[2018.12.12-06.26.01:786][564]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/Animations/left_hand_slam.left_hand_slam
+[2018.12.12-06.26.06:567][651]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Git Hub/TeamSadMen/TeamSadMen/Import/left_hand_slam.fbx)
+[2018.12.12-06.26.06:580][651]LogFbx: Loading FBX Scene from ../../../../../../Git Hub/TeamSadMen/TeamSadMen/Import/left_hand_slam.fbx
+[2018.12.12-06.26.06:598][651]LogFbx: FBX Scene Loaded Succesfully
+[2018.12.12-06.26.15:421][651]LogSlate: Window 'FBX Import Options' being destroyed
+[2018.12.12-06.26.15:450][651]LogFbx: =================================================
+[2018.12.12-06.26.15:450][651]LogFbx: Dumping Node START [left] 
+[2018.12.12-06.26.15:450][651]LogFbx: 	Total Deformer Count 1857272800.
+[2018.12.12-06.26.15:450][651]LogFbx: 		[Node 1]  (Type Skin).
+[2018.12.12-06.26.15:450][651]LogFbx: =================================================
+[2018.12.12-06.26.15:450][651]LogFbx: 	Attribute () Type (4).
+[2018.12.12-06.26.15:450][651]LogFbx: 		[Node Attribute Child 1] left (Type Mesh).
+[2018.12.12-06.26.15:450][651]LogFbx: Dumping Node END [left]
+[2018.12.12-06.26.15:451][651]LogFbx: =================================================
+[2018.12.12-06.26.15:451][651]LogFbx: Dumping Node START [left] 
+[2018.12.12-06.26.15:451][651]LogFbx: 	Total Deformer Count 1857272800.
+[2018.12.12-06.26.15:451][651]LogFbx: 		[Node 1]  (Type Skin).
+[2018.12.12-06.26.15:451][651]LogFbx: =================================================
+[2018.12.12-06.26.15:451][651]LogFbx: 	Attribute () Type (4).
+[2018.12.12-06.26.15:451][651]LogFbx: 		[Node Attribute Child 1] left (Type Mesh).
+[2018.12.12-06.26.15:451][651]LogFbx: Dumping Node END [left]
+[2018.12.12-06.26.15:451][651]LogFbx: =================================================
+[2018.12.12-06.26.15:451][651]LogFbx: Dumping Node START [left] 
+[2018.12.12-06.26.15:451][651]LogFbx: 	Total Deformer Count 1857266896.
+[2018.12.12-06.26.15:451][651]LogFbx: 		[Node 1]  (Type Skin).
+[2018.12.12-06.26.15:451][651]LogFbx: =================================================
+[2018.12.12-06.26.15:451][651]LogFbx: 	Attribute () Type (4).
+[2018.12.12-06.26.15:451][651]LogFbx: 		[Node Attribute Child 1] left (Type Mesh).
+[2018.12.12-06.26.15:451][651]LogFbx: Dumping Node END [left]
+[2018.12.12-06.26.15:452][651]LogFbx: Valid bind pose for Pose (skinCluster2) - left
+[2018.12.12-06.26.15:454][651]LogFbx: Triangulating skeletal mesh left
+[2018.12.12-06.26.15:549][651]LogFbx: Warning: Bones digested - 17  Depth of hierarchy - 6
+[2018.12.12-06.26.15:589][651]LogSkeletalMesh: Section 0: 1312 vertices, 17 active bones
+[2018.12.12-06.26.15:589][651]LogSkeletalMesh: Section 0: Material=0, 1768 triangles
+[2018.12.12-06.26.15:590][651]LogSkeletalMesh: Building Skeletal Mesh left_hand_slam...
+[2018.12.12-06.26.15:592][651]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/Animations/left_hand_slam.left_hand_slam
+[2018.12.12-06.26.15:600][651]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_38:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0'
+[2018.12.12-06.26.15:610][651]LogFbx: =================================================
+[2018.12.12-06.26.15:610][651]LogFbx: Dumping Node START [left] 
+[2018.12.12-06.26.15:610][651]LogFbx: 	Total Deformer Count -2101521280.
+[2018.12.12-06.26.15:610][651]LogFbx: 		[Node 1]  (Type Skin).
+[2018.12.12-06.26.15:610][651]LogFbx: =================================================
+[2018.12.12-06.26.15:610][651]LogFbx: 	Attribute () Type (4).
+[2018.12.12-06.26.15:610][651]LogFbx: 		[Node Attribute Child 1] left (Type Mesh).
+[2018.12.12-06.26.15:610][651]LogFbx: Dumping Node END [left]
+[2018.12.12-06.26.15:611][651]LogFbx: =================================================
+[2018.12.12-06.26.15:611][651]LogFbx: Dumping Node START [left] 
+[2018.12.12-06.26.15:611][651]LogFbx: 	Total Deformer Count -2101521280.
+[2018.12.12-06.26.15:611][651]LogFbx: 		[Node 1]  (Type Skin).
+[2018.12.12-06.26.15:611][651]LogFbx: =================================================
+[2018.12.12-06.26.15:611][651]LogFbx: 	Attribute () Type (4).
+[2018.12.12-06.26.15:611][651]LogFbx: 		[Node Attribute Child 1] left (Type Mesh).
+[2018.12.12-06.26.15:611][651]LogFbx: Dumping Node END [left]
+[2018.12.12-06.26.15:611][651]LogFbx: =================================================
+[2018.12.12-06.26.15:611][651]LogFbx: Dumping Node START [left] 
+[2018.12.12-06.26.15:611][651]LogFbx: 	Total Deformer Count -2101522336.
+[2018.12.12-06.26.15:611][651]LogFbx: 		[Node 1]  (Type Skin).
+[2018.12.12-06.26.15:611][651]LogFbx: =================================================
+[2018.12.12-06.26.15:611][651]LogFbx: 	Attribute () Type (4).
+[2018.12.12-06.26.15:611][651]LogFbx: 		[Node Attribute Child 1] left (Type Mesh).
+[2018.12.12-06.26.15:611][651]LogFbx: Dumping Node END [left]
+[2018.12.12-06.26.15:611][651]LogFbx: SortedLinks :(0) joint1
+[2018.12.12-06.26.15:611][651]LogFbx: SortedLinks :(1) joint2
+[2018.12.12-06.26.15:611][651]LogFbx: SortedLinks :(2) joint3
+[2018.12.12-06.26.15:611][651]LogFbx: SortedLinks :(3) joint4
+[2018.12.12-06.26.15:611][651]LogFbx: SortedLinks :(4) joint5
+[2018.12.12-06.26.15:611][651]LogFbx: SortedLinks :(5) joint6
+[2018.12.12-06.26.15:611][651]LogFbx: SortedLinks :(6) joint7
+[2018.12.12-06.26.15:611][651]LogFbx: SortedLinks :(7) joint8
+[2018.12.12-06.26.15:611][651]LogFbx: SortedLinks :(8) joint9
+[2018.12.12-06.26.15:611][651]LogFbx: SortedLinks :(9) joint10
+[2018.12.12-06.26.15:611][651]LogFbx: SortedLinks :(10) joint11
+[2018.12.12-06.26.15:611][651]LogFbx: SortedLinks :(11) joint12
+[2018.12.12-06.26.15:611][651]LogFbx: SortedLinks :(12) joint13
+[2018.12.12-06.26.15:611][651]LogFbx: SortedLinks :(13) joint14
+[2018.12.12-06.26.15:611][651]LogFbx: SortedLinks :(14) joint15
+[2018.12.12-06.26.15:611][651]LogFbx: SortedLinks :(15) joint16
+[2018.12.12-06.26.15:611][651]LogFbx: SortedLinks :(16) joint17
+[2018.12.12-06.26.15:612][651]LogFbx: Parsing AnimStack Take 001
+[2018.12.12-06.26.15:924][651]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Animations/left_hand_slam_Anim.left_hand_slam_Anim
+[2018.12.12-06.26.15:925][651]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.left_hand_slam_Anim) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2018.12.12-06.26.15:930][651]LogSkeletalMesh: Building Skeletal Mesh left_hand_slam...
+[2018.12.12-06.26.15:933][651]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/Animations/left_hand_slam.left_hand_slam
+[2018.12.12-06.26.15:942][651]LogSkeletalMesh: Building Skeletal Mesh left_hand_slam...
+[2018.12.12-06.26.15:945][651]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/Animations/left_hand_slam.left_hand_slam
+[2018.12.12-06.26.19:633][819]LogAssetEditorManager: Opening Asset editor for AnimSequence /Game/Animations/left_hand_slam_Anim.left_hand_slam_Anim
+[2018.12.12-06.26.19:655][819]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_40:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.12.12-06.26.19:683][819]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_40:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2018.12.12-06.26.20:219][819]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2018.12.12-06.26.23:225][984]LogSlate: Window 'left_hand_slam_Anim*' being destroyed
+[2018.12.12-06.27.08:122][200]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/HomeLevel' took 0.037
+[2018.12.12-06.27.08:124][200]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Animations/left_hand_slam] ([1] browsable assets)...
+[2018.12.12-06.27.08:164][200]OBJ SavePackage:     Rendered thumbnail for [SkeletalMesh /Game/Animations/left_hand_slam.left_hand_slam]
+[2018.12.12-06.27.08:164][200]OBJ SavePackage: Finished generating thumbnails for package [/Game/Animations/left_hand_slam]
+[2018.12.12-06.27.08:190][200]LogSavePackage: Moving '../../../../../../Git Hub/TeamSadMen/TeamSadMen/Saved/left_hand_slam_Auto1CA169EF14F6E42E970C32D8DD4CE9B33.tmp' to '../../../../../../Git Hub/TeamSadMen/TeamSadMen/Saved/Autosaves/Game/Animations/left_hand_slam_Auto1.uasset'
+[2018.12.12-06.27.08:192][200]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Animations/left_hand_slam_PhysicsAsset] ([1] browsable assets)...
+[2018.12.12-06.27.08:231][200]OBJ SavePackage:     Rendered thumbnail for [PhysicsAsset /Game/Animations/left_hand_slam_PhysicsAsset.left_hand_slam_PhysicsAsset]
+[2018.12.12-06.27.08:232][200]OBJ SavePackage: Finished generating thumbnails for package [/Game/Animations/left_hand_slam_PhysicsAsset]
+[2018.12.12-06.27.08:256][200]LogSavePackage: Moving '../../../../../../Git Hub/TeamSadMen/TeamSadMen/Saved/left_hand_slam_PhysicsAsset_Auto162BD23144B5ED8D1774078D818770D3.tmp' to '../../../../../../Git Hub/TeamSadMen/TeamSadMen/Saved/Autosaves/Game/Animations/left_hand_slam_PhysicsAsset_Auto1.uasset'
+[2018.12.12-06.27.08:260][200]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Animations/left_hand_slam_Anim] ([1] browsable assets)...
+[2018.12.12-06.27.08:300][200]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/Animations/left_hand_slam_Anim.left_hand_slam_Anim]
+[2018.12.12-06.27.08:300][200]OBJ SavePackage: Finished generating thumbnails for package [/Game/Animations/left_hand_slam_Anim]
+[2018.12.12-06.27.08:325][200]LogSavePackage: Moving '../../../../../../Git Hub/TeamSadMen/TeamSadMen/Saved/left_hand_slam_Anim_Auto1DE2277BF4D876EEE3B3FECBFA841A7F8.tmp' to '../../../../../../Git Hub/TeamSadMen/TeamSadMen/Saved/Autosaves/Game/Animations/left_hand_slam_Anim_Auto1.uasset'
+[2018.12.12-06.27.08:329][200]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Animations/LeftHand_AnimBP] ([1] browsable assets)...
+[2018.12.12-06.27.08:367][200]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/Animations/LeftHand_AnimBP.LeftHand_AnimBP]
+[2018.12.12-06.27.08:367][200]OBJ SavePackage: Finished generating thumbnails for package [/Game/Animations/LeftHand_AnimBP]
+[2018.12.12-06.27.08:408][200]LogSavePackage: Moving '../../../../../../Git Hub/TeamSadMen/TeamSadMen/Saved/LeftHand_AnimBP_Auto114A241134BD7A54A193D79801298E6DF.tmp' to '../../../../../../Git Hub/TeamSadMen/TeamSadMen/Saved/Autosaves/Game/Animations/LeftHand_AnimBP_Auto1.uasset'
+[2018.12.12-06.27.08:411][200]LogFileHelpers: Auto-saving content packages took 0.288
+[2018.12.12-06.27.43:721][503]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animations/LeftHand_AnimBP" FILE="../../../../../../Git Hub/TeamSadMen/TeamSadMen/Content/Animations/LeftHand_AnimBP.uasset" SILENT=true
+[2018.12.12-06.27.43:744][503]LogSavePackage: Moving '../../../../../../Git Hub/TeamSadMen/TeamSadMen/Saved/LeftHand_AnimBP26B1B96A4E8E56A927589DA9621ACEAD.tmp' to '../../../../../../Git Hub/TeamSadMen/TeamSadMen/Content/Animations/LeftHand_AnimBP.uasset'
+[2018.12.12-06.27.43:764][503]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animations/left_hand_slam_Anim" FILE="../../../../../../Git Hub/TeamSadMen/TeamSadMen/Content/Animations/left_hand_slam_Anim.uasset" SILENT=true
+[2018.12.12-06.27.43:777][503]LogSavePackage: Moving '../../../../../../Git Hub/TeamSadMen/TeamSadMen/Saved/left_hand_slam_Anim864F90864AFD971E0B816DBF2C01328F.tmp' to '../../../../../../Git Hub/TeamSadMen/TeamSadMen/Content/Animations/left_hand_slam_Anim.uasset'
+[2018.12.12-06.27.43:790][503]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animations/left_hand_slam_PhysicsAsset" FILE="../../../../../../Git Hub/TeamSadMen/TeamSadMen/Content/Animations/left_hand_slam_PhysicsAsset.uasset" SILENT=true
+[2018.12.12-06.27.43:806][503]LogSavePackage: Moving '../../../../../../Git Hub/TeamSadMen/TeamSadMen/Saved/left_hand_slam_PhysicsAsset9B38119D4F2A85A2DB5F808293BAF508.tmp' to '../../../../../../Git Hub/TeamSadMen/TeamSadMen/Content/Animations/left_hand_slam_PhysicsAsset.uasset'
+[2018.12.12-06.27.43:821][503]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animations/left_hand_slam" FILE="../../../../../../Git Hub/TeamSadMen/TeamSadMen/Content/Animations/left_hand_slam.uasset" SILENT=true
+[2018.12.12-06.27.43:838][503]LogSavePackage: Moving '../../../../../../Git Hub/TeamSadMen/TeamSadMen/Saved/left_hand_slamD66C672E4B4188ED423EF1B8C8BF083F.tmp' to '../../../../../../Git Hub/TeamSadMen/TeamSadMen/Content/Animations/left_hand_slam.uasset'
+[2018.12.12-06.27.44:436][527]LogAssetEditorManager: Opening Asset editor for AnimBlueprint /Game/Animations/LeftHand_AnimBP.LeftHand_AnimBP
+[2018.12.12-06.27.44:459][527]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_44:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.12.12-06.27.44:750][527]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_44:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2018.12.12-06.27.46:164][574]LogSlate: Window 'LeftHand_AnimBP' being destroyed
+[2018.12.12-06.27.59:475][941]LogContentBrowser: Verbose: The majority of assets in the view are of type: Skeleton
+[2018.12.12-06.28.01:364][941]LogContentBrowser: Verbose: The majority of assets in the view are of type: Skeleton
+[2018.12.12-06.28.03:513][941]LogSlate: Window 'Create Animation Blueprint' being destroyed
+[2018.12.12-06.28.14:118][421]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animations/RightHand_AnimBP" FILE="../../../../../../Git Hub/TeamSadMen/TeamSadMen/Content/Animations/RightHand_AnimBP.uasset" SILENT=true
+[2018.12.12-06.28.14:144][421]LogSavePackage: Moving '../../../../../../Git Hub/TeamSadMen/TeamSadMen/Saved/RightHand_AnimBP48CBAE0041AE669AB8406A9128B2101F.tmp' to '../../../../../../Git Hub/TeamSadMen/TeamSadMen/Content/Animations/RightHand_AnimBP.uasset'
+[2018.12.12-06.28.14:827][445]LogAssetEditorManager: Opening Asset editor for AnimBlueprint /Game/Animations/RightHand_AnimBP.RightHand_AnimBP
+[2018.12.12-06.28.14:851][445]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_48:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.12.12-06.28.15:113][445]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_48:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2018.12.12-06.28.38:717][828]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animations/RightHand_AnimBP" FILE="../../../../../../Git Hub/TeamSadMen/TeamSadMen/Content/Animations/RightHand_AnimBP.uasset" SILENT=true
+[2018.12.12-06.28.38:756][828]LogSavePackage: Moving '../../../../../../Git Hub/TeamSadMen/TeamSadMen/Saved/RightHand_AnimBPDA311EF744669B5550AC0CBFDDEEDBCF.tmp' to '../../../../../../Git Hub/TeamSadMen/TeamSadMen/Content/Animations/RightHand_AnimBP.uasset'
+[2018.12.12-06.29.22:776][678]LogSlate: Window 'Delete Assets' being destroyed
+[2018.12.12-06.29.27:487][843]LogContentBrowser: Verbose: The majority of assets in the view are of type: Skeleton
+[2018.12.12-06.29.32:341][843]LogContentBrowser: Verbose: The majority of assets in the view are of type: Skeleton
+[2018.12.12-06.29.34:229][843]LogSlate: Window 'Create Animation Blueprint' being destroyed
+[2018.12.12-06.29.41:299][165]LogAssetEditorManager: Opening Asset editor for AnimBlueprint /Game/Animations/LeftHand_AnimBP.LeftHand_AnimBP
+[2018.12.12-06.29.41:326][165]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_51:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.12.12-06.29.41:609][165]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_51:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2018.12.12-06.29.56:052][970]LogSlate: Window 'LeftHand_AnimBP*' being destroyed
+[2018.12.12-06.29.59:525][157]LogAssetEditorManager: Opening Asset editor for AnimBlueprint /Game/Animations/RightHand_AnimBP.RightHand_AnimBP
+[2018.12.12-06.29.59:553][157]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_54:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.12.12-06.29.59:829][157]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_54:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2018.12.12-06.30.03:032][320]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animations/LeftHand_AnimBP" FILE="../../../../../../Git Hub/TeamSadMen/TeamSadMen/Content/Animations/LeftHand_AnimBP.uasset" SILENT=true
+[2018.12.12-06.30.03:057][320]LogSavePackage: Moving '../../../../../../Git Hub/TeamSadMen/TeamSadMen/Saved/LeftHand_AnimBPCC3A142B404A2DB21AD981A11C034094.tmp' to '../../../../../../Git Hub/TeamSadMen/TeamSadMen/Content/Animations/LeftHand_AnimBP.uasset'
+[2018.12.12-06.37.17:071][587]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/HomeLevel' took 0.032
+[2018.12.12-06.37.17:074][587]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Animations/LeftHand_AnimBP] ([1] browsable assets)...
+[2018.12.12-06.37.17:115][587]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/Animations/LeftHand_AnimBP.LeftHand_AnimBP]
+[2018.12.12-06.37.17:115][587]OBJ SavePackage: Finished generating thumbnails for package [/Game/Animations/LeftHand_AnimBP]
+[2018.12.12-06.37.17:156][587]LogSavePackage: Moving '../../../../../../Git Hub/TeamSadMen/TeamSadMen/Saved/LeftHand_AnimBP_Auto291A5C48C4937652192ABDE8F78FC7933.tmp' to '../../../../../../Git Hub/TeamSadMen/TeamSadMen/Saved/Autosaves/Game/Animations/LeftHand_AnimBP_Auto2.uasset'
+[2018.12.12-06.37.17:159][587]LogFileHelpers: Auto-saving content packages took 0.086
+[2018.12.12-06.39.22:831][503]BlueprintLog: New page: Compile LeftHand_AnimBP
+[2018.12.12-06.39.23:947][549]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animations/LeftHand_AnimBP" FILE="../../../../../../Git Hub/TeamSadMen/TeamSadMen/Content/Animations/LeftHand_AnimBP.uasset" SILENT=true
+[2018.12.12-06.39.23:983][549]LogSavePackage: Moving '../../../../../../Git Hub/TeamSadMen/TeamSadMen/Saved/LeftHand_AnimBP89642AC04292934841DE89B9B41F36B4.tmp' to '../../../../../../Git Hub/TeamSadMen/TeamSadMen/Content/Animations/LeftHand_AnimBP.uasset'
+[2018.12.12-06.39.25:837][658]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animations/LeftHand_AnimBP" FILE="../../../../../../Git Hub/TeamSadMen/TeamSadMen/Content/Animations/LeftHand_AnimBP.uasset" SILENT=true
+[2018.12.12-06.39.25:860][658]LogSavePackage: Moving '../../../../../../Git Hub/TeamSadMen/TeamSadMen/Saved/LeftHand_AnimBP38EBFBE545EB5670C3CB0091CEE91997.tmp' to '../../../../../../Git Hub/TeamSadMen/TeamSadMen/Content/Animations/LeftHand_AnimBP.uasset'
+[2018.12.12-06.39.43:748][642]BlueprintLog: New page: Compile RightHand_AnimBP
+[2018.12.12-06.39.44:488][665]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animations/RightHand_AnimBP" FILE="../../../../../../Git Hub/TeamSadMen/TeamSadMen/Content/Animations/RightHand_AnimBP.uasset" SILENT=true
+[2018.12.12-06.39.44:527][665]LogSavePackage: Moving '../../../../../../Git Hub/TeamSadMen/TeamSadMen/Saved/RightHand_AnimBP3F15B89248AC57C2D930A98BA75424BB.tmp' to '../../../../../../Git Hub/TeamSadMen/TeamSadMen/Content/Animations/RightHand_AnimBP.uasset'
+[2018.12.12-06.39.45:283][710]BlueprintLog: New page: Compile LeftHand_AnimBP
+[2018.12.12-06.39.45:788][721]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animations/LeftHand_AnimBP" FILE="../../../../../../Git Hub/TeamSadMen/TeamSadMen/Content/Animations/LeftHand_AnimBP.uasset" SILENT=true
+[2018.12.12-06.39.45:820][721]LogSavePackage: Moving '../../../../../../Git Hub/TeamSadMen/TeamSadMen/Saved/LeftHand_AnimBPFA8A4B9D4021D36D0F0AB39EEEC3FB5A.tmp' to '../../../../../../Git Hub/TeamSadMen/TeamSadMen/Content/Animations/LeftHand_AnimBP.uasset'
+[2018.12.12-06.41.30:578][559]LogTemp: Repeating last play command: Selected Viewport
+[2018.12.12-06.41.30:602][559]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/HomeLevel.HomeLevel:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/HomeLevel.HomeLevel:PersistentLevel.HomeLevel' with GeneratedClass '/Game/FirstPersonBP/Maps/HomeLevel.HomeLevel_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/HomeLevel.HomeLevel:PersistentLevel.HomeLevel'
+[2018.12.12-06.41.30:602][559]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.12.12-06.41.30:614][559]PIE: New page: PIE session: HomeLevel (Dec 11, 2018, 8:41:30 PM)
+[2018.12.12-06.41.30:614][559]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_HomeLevel
+[2018.12.12-06.41.30:637][559]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023125s)
+[2018.12.12-06.41.30:639][559]LogAIModule: Creating AISystem for world HomeLevel
+[2018.12.12-06.41.30:639][559]LogPlayLevel: PIE: World Init took: (0.001651s)
+[2018.12.12-06.41.30:639][559]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/HomeLevel.HomeLevel to /Game/FirstPersonBP/Maps/UEDPIE_0_HomeLevel.HomeLevel (0.025050s)
+[2018.12.12-06.41.30:681][559]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.12.12-06.41.30:708][559]LogInit: FAudioDevice initialized.
+[2018.12.12-06.41.30:754][559]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.12.12-06.41.30:759][559]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_HomeLevel.HomeLevel up for play (max tick rate 60) at 2018.12.12-01.41.30
+[2018.12.12-06.41.30:760][559]LogWorld: Bringing up level for play took: 0.004545
+[2018.12.12-06.41.30:782][559]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 10 classes and 0 folders.
+[2018.12.12-06.41.30:783][559]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_HomeLevel 0.897
+[2018.12.12-06.41.30:783][559]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/HomeLevel.HomeLevel:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/HomeLevel.HomeLevel:PersistentLevel.HomeLevel' with GeneratedClass '/Game/FirstPersonBP/Maps/HomeLevel.HomeLevel_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/HomeLevel.HomeLevel:PersistentLevel.HomeLevel'
+[2018.12.12-06.41.32:772][676]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/HomeLevel.HomeLevel:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/HomeLevel.HomeLevel:PersistentLevel.HomeLevel' with GeneratedClass '/Game/FirstPersonBP/Maps/HomeLevel.HomeLevel_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/HomeLevel.HomeLevel:PersistentLevel.HomeLevel'
+[2018.12.12-06.41.32:772][676]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.12-06.41.32:808][676]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.12.12-06.41.32:808][676]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/HomeLevel.HomeLevel:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/HomeLevel.HomeLevel:PersistentLevel.HomeLevel' with GeneratedClass '/Game/FirstPersonBP/Maps/HomeLevel.HomeLevel_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/HomeLevel.HomeLevel:PersistentLevel.HomeLevel'
+[2018.12.12-06.41.32:839][676]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.12-06.41.32:901][677]LogPlayLevel: Display: Destroying online subsystem :Context_57
+[2018.12.12-06.41.35:194][805]LogEditorViewport: Clicking on Actor (LMB): FirstPersonCharacter_C (FirstPersonCharacter)
+[2018.12.12-06.41.37:224][917]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.12-06.41.38:086][968]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.12-06.41.38:091][968]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter
+[2018.12.12-06.41.51:901][750]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.12-06.41.53:869][864]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.12-06.41.55:598][967]BlueprintLog: New page: Compile FirstPersonCharacter
+[2018.12.12-06.41.56:440][981]LogSavePackage: Moving '../../../../../../Git Hub/TeamSadMen/TeamSadMen/Saved/FirstPersonCharacter35F2260A40E3C0EA3B3A17B52DB07B32.tmp' to '../../../../../../Git Hub/TeamSadMen/TeamSadMen/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
+[2018.12.12-06.41.59:300][104]LogSavePackage: Moving '../../../../../../Git Hub/TeamSadMen/TeamSadMen/Saved/HomeLevel5A9B2C1540FA9283B4E285B97259DADE.tmp' to '../../../../../../Git Hub/TeamSadMen/TeamSadMen/Content/FirstPersonBP/Maps/HomeLevel.umap'
+[2018.12.12-06.41.59:348][104]LogFileHelpers: Saving map 'HomeLevel' took 0.531
+[2018.12.12-06.45.04:096][187]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.12-06.45.22:824][287]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animations/RightHand_AnimBP" FILE="../../../../../../Git Hub/TeamSadMen/TeamSadMen/Content/Animations/RightHand_AnimBP.uasset" SILENT=true
+[2018.12.12-06.45.22:869][287]LogSavePackage: Moving '../../../../../../Git Hub/TeamSadMen/TeamSadMen/Saved/RightHand_AnimBPFC1C77DA401CB920D3C667B11D6BDDA6.tmp' to '../../../../../../Git Hub/TeamSadMen/TeamSadMen/Content/Animations/RightHand_AnimBP.uasset'
