@@ -1861,3 +1861,148 @@ LogInit: Object subsystem initialized
 [2018.12.12-10.18.23:424][824]OBJ SavePackage: Finished generating thumbnails for package [/Game/Tyler/Pizza_Blueprint]
 [2018.12.12-10.18.23:511][824]LogSavePackage: Moving '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Saved/Pizza_Blueprint_Auto5197EB969468B90AE5BA64DAB0BC5C1A7.tmp' to '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Saved/Autosaves/Game/Tyler/Pizza_Blueprint_Auto5.uasset'
 [2018.12.12-10.18.23:515][824]LogFileHelpers: Auto-saving content packages took 0.152
+[2018.12.12-10.22.26:544][747]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.12-10.22.27:360][793]LogSlate: Window 'Oven_Trigger_Blueprint' being destroyed
+[2018.12.12-10.22.29:358][910]LogSlate: Window 'Pizza_Blueprint*' being destroyed
+[2018.12.12-10.22.33:609][ 71]LogEditorViewport: Clicking on Actor (LMB): ManagerVoiceActor_C (ManagerVoiceActor)
+[2018.12.12-10.22.36:632][239]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.12-10.22.44:081][653]LogSavePackage: Moving '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Saved/PizzaPlace93CB00564EE659059C0F9EA62CCF4E94.tmp' to '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Content/FirstPersonBP/Maps/PizzaPlace.umap'
+[2018.12.12-10.22.45:824][721]LogSavePackage: Moving '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Saved/PizzaPlaceFDF752054468BA396A2941A46E46D2E2.tmp' to '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Content/FirstPersonBP/Maps/PizzaPlace.umap'
+[2018.12.12-10.22.48:126][851]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tyler/Pizza_Blueprint" FILE="../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Content/Tyler/Pizza_Blueprint.uasset" SILENT=true
+[2018.12.12-10.22.48:196][851]LogSavePackage: Moving '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Saved/Pizza_Blueprint272941284D4EA6C25720C19AFBCBDB78.tmp' to '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Content/Tyler/Pizza_Blueprint.uasset'
+[2018.12.12-10.24.28:108][710]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.12-10.24.28:275][720]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.12.12-10.24.28:320][720]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace' with GeneratedClass '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace'
+[2018.12.12-10.24.28:321][720]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.12.12-10.24.28:321][720]PIE: New page: PIE session: PizzaPlace (Dec 12, 2018, 12:24:28 AM)
+[2018.12.12-10.24.28:321][720]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_PizzaPlace
+[2018.12.12-10.24.28:356][720]LogPlayLevel: PIE: StaticDuplicateObject took: (0.034015s)
+[2018.12.12-10.24.28:357][720]LogAIModule: Creating AISystem for world PizzaPlace
+[2018.12.12-10.24.28:358][720]LogPlayLevel: PIE: World Init took: (0.001530s)
+[2018.12.12-10.24.28:358][720]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace to /Game/FirstPersonBP/Maps/UEDPIE_0_PizzaPlace.PizzaPlace (0.036251s)
+[2018.12.12-10.24.28:404][720]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.12.12-10.24.28:435][720]LogInit: FAudioDevice initialized.
+[2018.12.12-10.24.28:447][720]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.12-10.24.28:532][720]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.12.12-10.24.28:539][720]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_PizzaPlace.PizzaPlace up for play (max tick rate 60) at 2018.12.12-05.24.28
+[2018.12.12-10.24.28:539][720]LogWorld: Bringing up level for play took: 0.006507
+[2018.12.12-10.24.28:557][720]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_PizzaPlace 0.355
+[2018.12.12-10.24.28:566][720]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace' with GeneratedClass '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace'
+[2018.12.12-10.24.33:590][865]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace' with GeneratedClass '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace'
+[2018.12.12-10.24.33:591][865]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.12-10.24.33:622][865]LogSlate: Window 'TeamSadMen Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.12.12-10.24.33:676][865]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.12.12-10.24.33:677][865]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace' with GeneratedClass '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace'
+[2018.12.12-10.24.33:775][866]LogPlayLevel: Display: Destroying online subsystem :Context_94
+[2018.12.12-10.25.51:362][178]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (monitor)
+[2018.12.12-10.26.00:455][514]LogEditorViewport: Clicking on Actor (LMB): bowl_Blueprint_C (bowlCheese)
+[2018.12.12-10.26.06:715][788]LogEditorViewport: Clicking on Actor (LMB): bowl_Blueprint_C (bowlGPes)
+[2018.12.12-10.26.07:269][812]LogEditorViewport: Clicking on Actor (LMB): bowl_Blueprint_C (bowlRoni)
+[2018.12.12-10.26.11:544][ 17]LogEditorViewport: Clicking on Actor (LMB): bowl_Blueprint_C (bowlGPes)
+[2018.12.12-10.26.15:056][203]LogEditorViewport: Clicking on Actor (LMB): bowl_Blueprint_C (bowlPin)
+[2018.12.12-10.26.24:672][598]LogEditorViewport: Clicking on Actor (LMB): bowl_Blueprint_C (bowlRPep)
+[2018.12.12-10.26.27:621][748]LogEditorViewport: Clicking on Actor (LMB): bowl_Blueprint_C (bowlMar)
+[2018.12.12-10.26.31:251][926]LogEditorViewport: Clicking on Actor (LMB): bowl_Blueprint_C (bowlTom)
+[2018.12.12-10.26.37:492][228]LogEditorViewport: Clicking on Actor (LMB): bowl_Blueprint_C (bowlRPes)
+[2018.12.12-10.26.40:290][362]LogEditorViewport: Clicking on Actor (LMB): bowl_Blueprint_C (bowlCheese)
+[2018.12.12-10.26.44:485][568]LogEditorViewport: Clicking on Actor (LMB): bowl_Blueprint_C (bowlGPes)
+[2018.12.12-10.26.47:912][738]LogEditorViewport: Clicking on Actor (LMB): bowl_Blueprint_C (bowlPin)
+[2018.12.12-10.26.50:618][875]LogEditorViewport: Clicking on Actor (LMB): bowl_Blueprint_C (bowlGPep)
+[2018.12.12-10.26.58:548][272]LogEditorViewport: Clicking on Actor (LMB): bowl_Blueprint_C (bowlRoni)
+[2018.12.12-10.27.10:136][698]LogEditorViewport: Clicking on Actor (LMB): bowl_Blueprint_C (bowlTom)
+[2018.12.12-10.27.12:809][839]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.12-10.27.13:531][848]LogSavePackage: Moving '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Saved/PizzaPlace924E269345BFA8ADA51E188B6B297031.tmp' to '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Content/FirstPersonBP/Maps/PizzaPlace.umap'
+[2018.12.12-10.27.15:512][961]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.12.12-10.27.15:542][961]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace' with GeneratedClass '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace'
+[2018.12.12-10.27.15:542][961]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.12.12-10.27.15:543][961]PIE: New page: PIE session: PizzaPlace (Dec 12, 2018, 12:27:15 AM)
+[2018.12.12-10.27.15:543][961]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_PizzaPlace
+[2018.12.12-10.27.15:572][961]LogPlayLevel: PIE: StaticDuplicateObject took: (0.029069s)
+[2018.12.12-10.27.15:574][961]LogAIModule: Creating AISystem for world PizzaPlace
+[2018.12.12-10.27.15:575][961]LogPlayLevel: PIE: World Init took: (0.002159s)
+[2018.12.12-10.27.15:575][961]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace to /Game/FirstPersonBP/Maps/UEDPIE_0_PizzaPlace.PizzaPlace (0.031894s)
+[2018.12.12-10.27.15:620][961]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.12.12-10.27.15:648][961]LogInit: FAudioDevice initialized.
+[2018.12.12-10.27.15:660][961]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.12-10.27.15:823][961]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.12.12-10.27.15:831][961]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_PizzaPlace.PizzaPlace up for play (max tick rate 60) at 2018.12.12-05.27.15
+[2018.12.12-10.27.15:832][961]LogWorld: Bringing up level for play took: 0.008008
+[2018.12.12-10.27.15:849][961]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_PizzaPlace -0.354
+[2018.12.12-10.27.15:849][961]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace' with GeneratedClass '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace'
+[2018.12.12-10.27.22:323][142]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace' with GeneratedClass '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace'
+[2018.12.12-10.27.22:324][142]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.12-10.27.22:369][142]LogSlate: Window 'TeamSadMen Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.12.12-10.27.22:416][142]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.12.12-10.27.22:416][142]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace' with GeneratedClass '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace'
+[2018.12.12-10.27.22:476][143]LogPlayLevel: Display: Destroying online subsystem :Context_95
+[2018.12.12-10.27.29:355][405]LogEditorViewport: Clicking on Actor (LMB): bowl_Blueprint_C (bowlRoni)
+[2018.12.12-10.27.33:693][637]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.12-10.27.34:446][648]LogSavePackage: Moving '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Saved/PizzaPlace97813DF842B0D8A448FFF1A5C82D0D1C.tmp' to '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Content/FirstPersonBP/Maps/PizzaPlace.umap'
+[2018.12.12-10.27.35:968][732]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.12.12-10.27.36:003][732]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace' with GeneratedClass '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace'
+[2018.12.12-10.27.36:004][732]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.12.12-10.27.36:004][732]PIE: New page: PIE session: PizzaPlace (Dec 12, 2018, 12:27:36 AM)
+[2018.12.12-10.27.36:005][732]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_PizzaPlace
+[2018.12.12-10.27.36:032][732]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027073s)
+[2018.12.12-10.27.36:033][732]LogAIModule: Creating AISystem for world PizzaPlace
+[2018.12.12-10.27.36:034][732]LogPlayLevel: PIE: World Init took: (0.001500s)
+[2018.12.12-10.27.36:034][732]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace to /Game/FirstPersonBP/Maps/UEDPIE_0_PizzaPlace.PizzaPlace (0.029277s)
+[2018.12.12-10.27.36:076][732]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.12.12-10.27.36:107][732]LogInit: FAudioDevice initialized.
+[2018.12.12-10.27.36:120][732]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.12-10.27.36:246][732]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.12.12-10.27.36:254][732]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_PizzaPlace.PizzaPlace up for play (max tick rate 60) at 2018.12.12-05.27.36
+[2018.12.12-10.27.36:255][732]LogWorld: Bringing up level for play took: 0.008843
+[2018.12.12-10.27.36:273][732]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_PizzaPlace 0.07
+[2018.12.12-10.27.36:273][732]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace' with GeneratedClass '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace'
+[2018.12.12-10.27.47:528][ 58]LogBlueprintUserMessages: [Pizza_Blueprint_2] GreenPepper
+[2018.12.12-10.27.47:530][ 58]PIE: Warning: AttachTo: '/Game/FirstPersonBP/Maps/UEDPIE_0_PizzaPlace.PizzaPlace:PersistentLevel.Pizza_Blueprint_2.StaticMeshComponent0' is not static  (in blueprint "Pizza_Blueprint"), cannot attach '/Game/FirstPersonBP/Maps/UEDPIE_0_PizzaPlace.PizzaPlace:PersistentLevel.Green_Pepper_on_pizza_model_C_0.StaticMeshComponent0' which is static to it. Aborting.
+[2018.12.12-10.27.47:531][ 58]PIE: Warning: Mobility of /Game/FirstPersonBP/Maps/UEDPIE_0_PizzaPlace.PizzaPlace:PersistentLevel.Green_Pepper_on_pizza_model_C_0 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2018.12.12-10.27.47:531][ 58]PIE: Warning: Mobility of /Game/FirstPersonBP/Maps/UEDPIE_0_PizzaPlace.PizzaPlace:PersistentLevel.Green_Pepper_on_pizza_model_C_0 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2018.12.12-10.27.55:934][307]LogBlueprintUserMessages: [Pizza_Blueprint_2] GreenPepper
+[2018.12.12-10.27.55:934][307]LogBlueprintUserMessages: [Pizza_Blueprint_2] Pepperoni
+[2018.12.12-10.27.59:936][423]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace' with GeneratedClass '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace'
+[2018.12.12-10.27.59:937][423]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.12-10.27.59:968][423]LogSlate: Window 'TeamSadMen Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.12.12-10.28.00:018][423]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.12.12-10.28.00:018][423]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace' with GeneratedClass '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace'
+[2018.12.12-10.28.00:091][424]LogPlayLevel: Display: Destroying online subsystem :Context_96
+[2018.12.12-10.28.27:877][462]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/ToppingModels/Green_Pepper_on_pizza_model.Green_Pepper_on_pizza_model
+[2018.12.12-10.28.37:753][ 26]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.12-10.28.44:551][429]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.12-10.28.44:668][436]BlueprintLog: New page: Compile Green_Pepper_on_pizza_model
+[2018.12.12-10.28.45:668][475]LogSavePackage: Moving '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Saved/Green_Pepper_on_pizza_model7E8F4B584E870E74DDC95DA97D096A50.tmp' to '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Content/ToppingModels/Green_Pepper_on_pizza_model.uasset'
+[2018.12.12-10.28.51:614][831]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.12.12-10.28.51:648][831]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace' with GeneratedClass '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace'
+[2018.12.12-10.28.51:649][831]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.12.12-10.28.51:649][831]PIE: New page: PIE session: PizzaPlace (Dec 12, 2018, 12:28:51 AM)
+[2018.12.12-10.28.51:650][831]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_PizzaPlace
+[2018.12.12-10.28.51:677][831]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027160s)
+[2018.12.12-10.28.51:679][831]LogAIModule: Creating AISystem for world PizzaPlace
+[2018.12.12-10.28.51:679][831]LogPlayLevel: PIE: World Init took: (0.001734s)
+[2018.12.12-10.28.51:680][831]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace to /Game/FirstPersonBP/Maps/UEDPIE_0_PizzaPlace.PizzaPlace (0.029705s)
+[2018.12.12-10.28.51:720][831]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.12.12-10.28.51:747][831]LogInit: FAudioDevice initialized.
+[2018.12.12-10.28.51:761][831]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.12-10.28.51:904][831]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.12.12-10.28.51:910][831]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_PizzaPlace.PizzaPlace up for play (max tick rate 60) at 2018.12.12-05.28.51
+[2018.12.12-10.28.51:911][831]LogWorld: Bringing up level for play took: 0.005825
+[2018.12.12-10.28.51:930][831]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_PizzaPlace -0.273
+[2018.12.12-10.28.51:930][831]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace' with GeneratedClass '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace'
+[2018.12.12-10.29.00:382][ 75]LogBlueprintUserMessages: [Pizza_Blueprint_2] GreenPesto
+[2018.12.12-10.29.01:786][117]LogBlueprintUserMessages: [Pizza_Blueprint_2] GreenPesto
+[2018.12.12-10.29.01:787][117]LogBlueprintUserMessages: [Pizza_Blueprint_2] GreenPepper
+[2018.12.12-10.29.01:788][117]PIE: Warning: AttachTo: '/Game/FirstPersonBP/Maps/UEDPIE_0_PizzaPlace.PizzaPlace:PersistentLevel.Pizza_Blueprint_2.StaticMeshComponent0' is not static  (in blueprint "Pizza_Blueprint"), cannot attach '/Game/FirstPersonBP/Maps/UEDPIE_0_PizzaPlace.PizzaPlace:PersistentLevel.Green_Pepper_on_pizza_model_C_0.StaticMeshComponent0' which is static to it. Aborting.
+[2018.12.12-10.29.01:788][117]PIE: Warning: Mobility of /Game/FirstPersonBP/Maps/UEDPIE_0_PizzaPlace.PizzaPlace:PersistentLevel.Green_Pepper_on_pizza_model_C_0 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2018.12.12-10.29.01:789][117]PIE: Warning: Mobility of /Game/FirstPersonBP/Maps/UEDPIE_0_PizzaPlace.PizzaPlace:PersistentLevel.Green_Pepper_on_pizza_model_C_0 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2018.12.12-10.29.08:238][305]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Array_Get_Item". Blueprint:  FirstPersonCharacter Function:  Execute Ubergraph First Person Character Graph:  EventGraph Node:  Branch
+[2018.12.12-10.29.11:219][393]LogBlueprintUserMessages: [Pizza_Blueprint_2] GreenPesto
+[2018.12.12-10.29.11:219][393]LogBlueprintUserMessages: [Pizza_Blueprint_2] GreenPepper
+[2018.12.12-10.29.11:219][393]LogBlueprintUserMessages: [Pizza_Blueprint_2] Pineapple
+[2018.12.12-10.29.13:546][462]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace' with GeneratedClass '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace'
+[2018.12.12-10.29.13:547][462]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.12-10.29.13:580][462]LogSlate: Window 'TeamSadMen Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.12.12-10.29.13:636][462]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.12.12-10.29.13:636][462]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace' with GeneratedClass '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/PizzaPlace.PizzaPlace:PersistentLevel.PizzaPlace'
+[2018.12.12-10.29.13:754][463]LogPlayLevel: Display: Destroying online subsystem :Context_98
+[2018.12.12-10.29.16:088][568]LogSavePackage: Moving '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Saved/PizzaPlace957BE8294DF0FA228C02C5AF81A2BD39.tmp' to '../../../../../../Users/weisea3/GD1-game4/TeamSadMen/TeamSadMen/Content/FirstPersonBP/Maps/PizzaPlace.umap'
